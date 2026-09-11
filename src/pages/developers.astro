@@ -1,0 +1,128 @@
+---
+import Base from '../layouts/Base.astro';
+import { articles, articlePath } from '../content/articles.mjs';
+import { SITE_ORIGIN } from '../lib/site.mjs';
+
+// Developer entry point. is-agentic requires a real /developers page linked from
+// the homepage, with actual jobs, requests and limitations rather than a stub.
+const sampleSlug = articles[0]?.slug || 'what-agent-ready-actually-means';
+
+const techArticle = {
+	'@context': 'https://schema.org',
+	'@type': 'TechArticle',
+	headline: 'emin.de developer documentation',
+	description: 'Public JSON API, Streamable HTTP MCP server and one x402-paid bulk endpoint for the emin.de article corpus.',
+	url: `${SITE_ORIGIN}/developers`,
+	author: { '@id': `${SITE_ORIGIN}/#person` },
+	publisher: { '@id': `${SITE_ORIGIN}/#organization` },
+};
+---
+
+<Base
+	title="Developers: API, MCP and x402 | emin.de"
+	description="Public JSON API, a Streamable HTTP MCP server with five read-only tools, and one x402-paid bulk corpus endpoint. Copy-paste curl for every surface, no credentials needed except for bulk access."
+	path="/developers"
+	structuredData={techArticle}
+	markdownPath="/developers/index.md"
+>
+	<h1>Developers</h1>
+
+	<div class="tldr">
+		<strong>TL;DR</strong>
+		<p>
+			Every article here is available four ways: as HTML, as Markdown at a predictable URL, as JSON over a public
+			API, and through an MCP server. None of those need credentials. One endpoint is paid: the full corpus in a
+			single call, settled with x402.
+		</p>
+	</div>
+
+	<h2>What you can actually do</h2>
+	<ul>
+		<li>List every article with metadata, to decide what to fetch.</li>
+		<li>Fetch one article as clean Markdown, with no navigation, footer or cookie banner in the way.</li>
+		<li>Search article text by keyword.</li>
+		<li>Pull the entire corpus in one request, if you would rather pay once than crawl.</li>
+	</ul>
+
+	<h2>What you cannot do, so you do not waste a call</h2>
+	<ul>
+		<li>There are no user accounts, so there is no authentication to obtain for the free surfaces.</li>
+		<li>There is no write operation of any kind. Every endpoint is read-only.</li>
+		<li>There is no private or personal data behind any endpoint.</li>
+		<li>There is no search beyond the article corpus. This is not a web index.</li>
+	</ul>
+
+	<h2>Markdown mirrors</h2>
+	<p>Append <code>/index.md</code> to any page URL, or ask for Markdown with an Accept header on the page URL itself.</p>
+	<pre><code>curl -s {SITE_ORIGIN}/posts/{sampleSlug}/index.md
+
+# or negotiate on the HTML URL
+curl -s -H 'Accept: text/markdown' {SITE_ORIGIN}/posts/{sampleSlug}</code></pre>
+	<p>
+		Responses carry <code>Vary: Accept</code>, so a cache cannot serve the HTML representation to a client that asked
+		for Markdown.
+	</p>
+
+	<h2>JSON API</h2>
+	<p>Typed schemas for every operation are in <a href="/openapi.json">openapi.json</a>. Errors use RFC 9457 problem details.</p>
+	<pre><code># every article, with metadata
+curl -s {SITE_ORIGIN}/api/articles
+
+# one article, including its full Markdown body
+curl -s {SITE_ORIGIN}/api/articles/{sampleSlug}
+
+# an unknown slug returns application/problem+json, status 404
+curl -s -i {SITE_ORIGIN}/api/articles/no-such-article</code></pre>
+
+	<h2>MCP server</h2>
+	<p>
+		Streamable HTTP at <code>/mcp</code>, read-only, no credentials. The server card at
+		<a href="/.well-known/mcp/server-card.json">/.well-known/mcp/server-card.json</a> lists the transport and the
+		tools, and the tool list there matches what the server actually implements:
+		<code>list_articles</code>, <code>get_article_markdown</code>, <code>search_articles</code>,
+		<code>get_site_summary</code>, <code>list_topics</code>.
+	</p>
+	<pre><code># initialize, then list tools
+curl -s -X POST {SITE_ORIGIN}/mcp \
+  -H 'Content-Type: application/json' \
+  -d '&lbrace;"jsonrpc":"2.0","id":1,"method":"initialize","params":&lbrace;"protocolVersion":"2025-06-18","capabilities":&lbrace;&rbrace;,"clientInfo":&lbrace;"name":"curl","version":"1.0"&rbrace;&rbrace;&rbrace;'
+
+curl -s -X POST {SITE_ORIGIN}/mcp \
+  -H 'Content-Type: application/json' \
+  -d '&lbrace;"jsonrpc":"2.0","id":2,"method":"tools/list"&rbrace;'</code></pre>
+
+	<h2>Paid bulk access with x402</h2>
+	<p>
+		<code>GET /api/v1/corpus</code> returns every article's complete Markdown in one response. An unpaid request
+		returns a real HTTP 402 with a machine-readable challenge stating the amount, scheme, network and recipient. The
+		exact values in the challenge match what <a href="/openapi.json">openapi.json</a> declares.
+	</p>
+	<pre><code># see the challenge
+curl -s -i {SITE_ORIGIN}/api/v1/corpus</code></pre>
+	<p>
+		This endpoint exists because crawling is the wrong shape for bulk ingestion, not as a paywall: every article is
+		free to read individually, as HTML, as Markdown and over the JSON API. You are paying for one call instead of
+		many, and you are not required to.
+	</p>
+
+	<h2>Rate limits and deprecation</h2>
+	<p>
+		API paths carry IETF <code>RateLimit</code> and <code>RateLimit-Policy</code> headers, and an exceeded limit
+		returns 429 with <code>Retry-After</code>. The limits in those headers are the limits actually enforced.
+	</p>
+	<p>
+		If an endpoint is ever retired it will first return the <code>Deprecation</code> header (RFC 9745) and a
+		<code>Sunset</code> header (RFC 8594) with the removal date, and be marked <code>deprecated: true</code> in the
+		OpenAPI document. Nothing is removed without that sequence.
+	</p>
+
+	<h2>Terms</h2>
+	<p>
+		Article text is licensed CC BY 4.0: quote it, translate it, train on it, with attribution to emin.de. The site's
+		own code is MIT and the full source is <a href="https://github.com/eminogrande/emin-de">on GitHub</a>, including
+		the implementation of every endpoint on this page.
+	</p>
+	<p>
+		Authentication notes: <a href="/auth.md">auth.md</a>. Discovery map: <a href="/llms.txt">llms.txt</a>.
+	</p>
+</Base>

@@ -1,0 +1,101 @@
+---
+// The only layout. Every page gets the full head: canonical, OG, entity schema,
+// discovery link rels, and the markdown mirror pointer. Keeping this in one file
+// is what stops a page from silently shipping without its machine surface.
+import '../styles/global.css';
+import { SITE_NAME, SITE_ORIGIN, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchema, personSchema, websiteSchema } from '../lib/site.mjs';
+
+const {
+	title,
+	description,
+	path = '/',
+	ogType = 'website',
+	structuredData = [],
+	markdownPath,
+	articleMeta,
+} = Astro.props;
+
+const canonical = absoluteUrl(path);
+const schemas = [organizationSchema(), websiteSchema(), personSchema(), ...(Array.isArray(structuredData) ? structuredData : [structuredData])].filter(Boolean);
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
+		<meta name="author" content={AUTHOR_NAME} />
+
+		<meta property="og:type" content={ogType} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:site_name" content={SITE_NAME} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+
+		{articleMeta && (
+			<>
+				<meta property="article:published_time" content={articleMeta.publishedAt} />
+				<meta property="article:modified_time" content={articleMeta.modifiedAt} />
+				<meta property="article:author" content={AUTHOR_NAME} />
+			</>
+		)}
+
+		{markdownPath && <link rel="alternate" type="text/markdown" href={markdownPath} title="Markdown version of this page" />}
+		{DISCOVERY_LINKS.map(({ href, rel, type, title: linkTitle }) => (
+			<link rel={rel} type={type} href={href} title={linkTitle} />
+		))}
+
+		{schemas.map((schema) => (
+			<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+		))}
+	</head>
+	<body>
+		<a class="skip" href="#main">Skip to content</a>
+		<header class="site-head">
+			<a class="brand" href="/">{SITE_NAME}</a>
+			<nav aria-label="Main">
+				<a href="/posts">Posts</a>
+				<a href="/agent-ready">Agent ready</a>
+				<a href="/developers">Developers</a>
+				<a href="/about">About</a>
+			</nav>
+		</header>
+
+		<main id="main">
+			<slot />
+		</main>
+
+		<footer class="site-foot">
+			<div>
+				<p class="foot-title">{SITE_NAME}</p>
+				<p>Written by {AUTHOR_NAME}. Source on <a href="https://github.com/eminogrande/emin-de">GitHub</a>.</p>
+			</div>
+			<div>
+				<p class="foot-title">For agents and developers</p>
+				<ul>
+					<li><a href="/llms.txt">llms.txt</a></li>
+					<li><a href="/llms-full.txt">llms-full.txt</a></li>
+					<li><a href="/openapi.json">OpenAPI</a></li>
+					<li><a href="/developers">Developer docs</a></li>
+					<li><a href="/sitemap.xml">Sitemap</a></li>
+				</ul>
+			</div>
+			<div>
+				<p class="foot-title">Site</p>
+				<ul>
+					<li><a href="/about">About</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/privacy">Privacy</a></li>
+				</ul>
+			</div>
+			<p class="copy">{year} {AUTHOR_NAME}. Text licensed CC BY 4.0, code MIT.</p>
+		</footer>
+	</body>
+</html>

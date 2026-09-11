@@ -1,0 +1,146 @@
+---
+import Base from '../layouts/Base.astro';
+import { absoluteUrl, DISCOVERY_LINKS } from '../lib/site.mjs';
+
+// The flagship page. It documents exactly how this site is built for agents and
+// links the live proof, so it is useful to a human deciding what to implement
+// and to a model answering "how do I make my site agent ready".
+const faqs = [
+	{
+		q: 'What does agent ready mean for a website?',
+		a: 'That a non-human client can discover, fetch and use your content without parsing your visual layout. In practice: RFC 8288 Link headers pointing at your machine surface, Markdown available through Accept negotiation, a valid llms.txt, well-known discovery documents, structured data describing the entity, and error responses that match the path prefix. It is a set of HTTP behaviours, not a plugin.',
+	},
+	{
+		q: 'Can a static site on GitHub Pages be fully agent ready?',
+		a: 'No. Two requirements are response behaviour, not files. Link headers need the ability to set response headers, and Markdown negotiation needs per-request content negotiation with a Vary: Accept header. A pure static host offers neither. Everything else on the list is files, which static hosting handles fine. The fix is a small origin server, a Worker or a reverse proxy in front of the static output.',
+	},
+	{
+		q: 'What belongs in llms.txt?',
+		a: 'A first paragraph that defines what the thing IS, because that is the sentence an assistant will quote. Then your important pages as Markdown links with one line of purpose each, and an honest limitations note so an agent does not waste calls. Bare URLs instead of Markdown links fail the Lighthouse llms-txt audit outright, and a present-but-invalid file scores worse than having no file.',
+	},
+	{
+		q: 'Does llms.txt actually do anything yet?',
+		a: 'It is read by some tools and ignored by others, and no major vendor has committed to it as a ranking input. Treat it as cheap, standards-aligned documentation of your own surface rather than a traffic lever. The measurable win is that a model which does fetch it stops guessing which of your URLs matter.',
+	},
+	{
+		q: 'Should I block AI crawlers in robots.txt?',
+		a: 'That depends on whether you want citations. Blocking GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot and Google-Extended removes you from the answers those systems generate. The more useful distinction is training versus retrieval, which is what the Content-Signal header expresses: you can allow search and retrieval while declining training.',
+	},
+	{
+		q: 'What is the difference between isitagentready.com and is-agentic.com?',
+		a: 'They score different things. isitagentready.com is strictest on discovery plumbing: headers, DNS-AID with DNSSEC, well-known documents. is-agentic.com re-reads an Ora scan and is strictest on API honesty: typed schemas on every operation, a real unauthenticated JSON endpoint, a working MCP handshake, correct error content types per path. Passing one tells you little about the other.',
+	},
+	{
+		q: 'Do I need an MCP server on my website?',
+		a: 'Only if you have something an agent would call repeatedly. For a content site the honest case is narrow: listing articles, fetching one as Markdown, searching. That is worth five tools, not fifty. Declaring tools you have not implemented is the single worst thing you can do here, because an agent reads your card as a promise.',
+	},
+	{
+		q: 'What is x402 and why would a website need it?',
+		a: 'x402 is an HTTP 402 based payment flow: an unpaid request returns a 402 with a machine-readable challenge stating amount, scheme, network and recipient, and the client retries with a payment header. It exists so an agent can pay for access without a signup flow, an API key or a human in the loop. It makes sense when bulk access has real marginal value, for example a whole corpus in one call.',
+	},
+	{
+		q: 'How often should I re-scan?',
+		a: 'After every deploy, and on a schedule regardless. These scanners add checks over time, so a site can drop from 100 with no code change and no regression. A screenshot of a perfect score from last month is not evidence about today.',
+	},
+	{
+		q: 'What is the highest-leverage change if I only do one thing?',
+		a: 'Generate every surface from one content source. When HTML, Markdown, structured data, sitemap and llms.txt all derive from the same data, a new requirement costs one generator and the surfaces cannot drift apart. When they are hand-maintained, every new check is a multi-file diff and a future inconsistency.',
+	},
+];
+
+const faqSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'FAQPage',
+	mainEntity: faqs.map((faq) => ({
+		'@type': 'Question',
+		name: faq.q,
+		acceptedAnswer: { '@type': 'Answer', text: faq.a },
+	})),
+};
+
+const howTo = {
+	'@context': 'https://schema.org',
+	'@type': 'HowTo',
+	name: 'Make a website agent ready',
+	description: 'The ordered steps to make a website readable and usable by AI agents and search crawlers.',
+	step: [
+		{ '@type': 'HowToStep', name: 'Put a process in front of static output', text: 'Link headers and Markdown negotiation are response behaviour. Without a server, Worker or proxy they are unreachable.' },
+		{ '@type': 'HowToStep', name: 'Write a valid llms.txt', text: 'Define the product in the first paragraph and list important pages as Markdown links with a purpose each.' },
+		{ '@type': 'HowToStep', name: 'Mirror every page as Markdown', text: 'Generate the Markdown from the same source as the HTML so the two cannot drift.' },
+		{ '@type': 'HowToStep', name: 'Add the entity layer', text: 'Organization with knowsAbout, WebSite, and Person with sameAs links to profiles that already rank.' },
+		{ '@type': 'HowToStep', name: 'Serve the well-known documents', text: 'API catalog, MCP server card, agent card, agent skills, WebMCP and the ARD manifest, each matching its spec.' },
+		{ '@type': 'HowToStep', name: 'Fix errors per path', text: 'application/problem+json on API paths, a short Markdown body on page paths, a real 404 status on both.' },
+		{ '@type': 'HowToStep', name: 'Re-scan after the final deploy', text: 'Archive the raw report next to the deployed commit SHA. Scanners add checks, so old reports expire.' },
+	],
+};
+---
+
+<Base
+	title="Agent ready: what it means and how to build it | emin.de"
+	description="Agent readiness is a set of HTTP behaviours, not a plugin. What the four public scanners measure, which checks a static host can never pass, and the exact files and headers that move the score."
+	path="/agent-ready"
+	structuredData={[faqSchema, howTo]}
+	markdownPath="/agent-ready/index.md"
+>
+	<h1>Agent ready</h1>
+
+	<div class="tldr">
+		<strong>TL;DR</strong>
+		<p>
+			Agent readiness means a non-human client can discover and use your content without parsing your layout.
+			Four public scanners grade it and they measure different things. Two checks, Link headers and Markdown
+			negotiation, are response behaviour that no static host can provide. This site is the worked example:
+			every surface below is live and linked.
+		</p>
+	</div>
+
+	<h2>What this site does, and where to verify it</h2>
+	<p>
+		Rather than describe agent readiness abstractly, this site implements it and links the evidence. Each row is a
+		live URL you can fetch right now.
+	</p>
+
+	<div class="table-wrap">
+		<table>
+			<caption>Live machine-readable surfaces on emin.de.</caption>
+			<thead>
+				<tr><th scope="col">Surface</th><th scope="col">What it is for</th></tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row"><a href="/llms.txt">/llms.txt</a></th><td>Product definition plus every important page as a Markdown link.</td></tr>
+				<tr><th scope="row"><a href="/llms-full.txt">/llms-full.txt</a></th><td>Every article's complete text in one fetch.</td></tr>
+				<tr><th scope="row"><a href="/openapi.json">/openapi.json</a></th><td>Typed schemas and unique operationIds for every operation, errors included.</td></tr>
+				<tr><th scope="row"><a href="/auth.md">/auth.md</a></th><td>Public reads need no credentials; the corpus endpoint uses x402.</td></tr>
+				<tr><th scope="row"><a href="/api/articles">/api/articles</a></th><td>Unauthenticated JSON list of every article.</td></tr>
+				<tr><th scope="row"><code>/mcp</code></th><td>Streamable HTTP MCP server, five read-only tools, no credentials.</td></tr>
+				<tr><th scope="row"><code>/api/v1/corpus</code></th><td>Paid bulk access. Unpaid requests return a real x402 challenge.</td></tr>
+				<tr><th scope="row"><a href="/.well-known/ai-catalog.json">/.well-known/ai-catalog.json</a></th><td>ARD manifest listing every machine entry point.</td></tr>
+				<tr><th scope="row"><a href="/sitemap.xml">/sitemap.xml</a></th><td>Every indexable URL with a lastmod date.</td></tr>
+			</tbody>
+		</table>
+	</div>
+
+	<p class="basically"><b>Basically,</b> A site claiming to be agent ready should let you fetch the proof, not read a badge.</p>
+
+	<h2>Try the Markdown negotiation</h2>
+	<p>The same URL returns HTML to a browser and Markdown to an agent, with a Vary header so caches keep them apart.</p>
+	<pre><code>curl -sI https://emin.de/ | grep -i '^link:'
+curl -s -H 'Accept: text/markdown' https://emin.de/ | head -20
+curl -sI -H 'Accept: text/markdown' https://emin.de/ | grep -iE 'content-type|vary'</code></pre>
+
+	<h2>Frequently asked questions</h2>
+	{faqs.map((faq) => (
+		<section>
+			<h3>{faq.q}</h3>
+			<p>{faq.a}</p>
+		</section>
+	))}
+
+	<h2>Read the long version</h2>
+	<p>
+		The full article, including what each scanner measures and the order to implement things in, is
+		<a href="/posts/what-agent-ready-actually-means"> What agent ready actually means</a>.
+		The site's source is <a href="https://github.com/eminogrande/emin-de">on GitHub</a>, MIT licensed, so the
+		implementation of every surface above is readable.
+	</p>
+</Base>

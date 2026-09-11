@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import { AUTHOR_NAME, AUTHOR_SAME_AS } from '../lib/site.mjs';
+
+const contactSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'ContactPage',
+	name: 'Contact',
+	url: 'https://emin.de/contact',
+	mainEntity: {
+		'@type': 'Person',
+		name: AUTHOR_NAME,
+		email: 'mailto:hello@emin.de',
+		url: 'https://emin.de/about',
+		sameAs: AUTHOR_SAME_AS,
+	},
+};
+---
+
+<Base
+	title="Contact | emin.de"
+	description="How to reach Emin Mahrt: email for anything substantive, GitHub for code, X for short replies. What gets answered and what does not."
+	path="/contact"
+	structuredData={contactSchema}
+	markdownPath="/contact/index.md"
+>
+	<h1>Contact</h1>
+	<p class="lede">Email is best for anything that needs more than one sentence.</p>
+
+	<h2>Email</h2>
+	<p><a href="mailto:hello@emin.de">hello@emin.de</a></p>
+	<p>
+		Read: corrections to an article, a technical question about something published here, or work on
+		self-custody, agent payments and agent-readiness engineering.
+	</p>
+
+	<h2>Code</h2>
+	<p>
+		<a href="https://github.com/eminogrande" rel="me noopener">github.com/eminogrande</a>. This site's own source is
+		at <a href="https://github.com/eminogrande/emin-de">eminogrande/emin-de</a>; an issue there is the right place
+		for a bug in the site or a factual error in an article.
+	</p>
+
+	<h2>Short replies</h2>
+	<p><a href="https://x.com/eminogrande" rel="me noopener">x.com/eminogrande</a>.</p>
+
+	<h2>What does not get a reply</h2>
+	<p>
+		Guest-post offers, link exchanges, paid placements and SEO outreach. Nothing on this site is for sale except
+		bulk corpus access through the <a href="/developers">x402 endpoint</a>, which needs no negotiation.
+	</p>
+</Base>

@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT } from '../lib/site.mjs';
+---
+
+<Base
+	title="About Emin Mahrt | emin.de"
+	description="Emin Mahrt builds Bitcoin self-custody and agent-payment infrastructure in Berlin. This site is where the engineering behind it gets written down in full."
+	path="/about"
+	markdownPath="/about/index.md"
+>
+	<h1>About</h1>
+	<p class="lede">
+		{AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. This site is where the engineering
+		behind it gets written down properly, at a length that actually fits the subject.
+	</p>
+
+	<h2>What I work on</h2>
+	<p>
+		Wallets where the company holding the keys is not a dependency: passkeys carrying their own secret through the
+		WebAuthn PRF extension, MuSig2 co-signing that decays to a single key on a Bitcoin timelock, and the recovery
+		tooling that has to work when the provider is gone.
+	</p>
+	<p>
+		Alongside that, the agent side: x402 payments so software can pay for access without a signup flow, MCP servers
+		so a model can call a system instead of scraping it, and the unglamorous work of making a website legible to
+		both a search crawler and an agent.
+	</p>
+
+	<h2>What I write about here</h2>
+	<ul>
+		{KNOWS_ABOUT.map((topic) => <li>{topic}</li>)}
+	</ul>
+
+	<h2>How these articles get written</h2>
+	<p>
+		Long-form, one subject per piece, and only about things I actually built or measured. Every article opens with a
+		TL;DR so you can leave early, carries a standalone takeaway per section, and ends with its real sources. If a
+		number is in here, it came from a run I can point at.
+	</p>
+	<p>
+		Each article is also published as clean Markdown at its own URL, included in a public JSON API, and exposed
+		through an MCP server. That is deliberate: the writing should be as easy for a model to quote correctly as it is
+		for a person to read.
+	</p>
+
+	<h2>Elsewhere</h2>
+	<ul>
+		{AUTHOR_SAME_AS.map((url) => <li><a href={url} rel="me noopener">{url.replace(/^https?:\/\//, '')}</a></li>)}
+	</ul>
+
+	<p><a href="/contact">Contact</a> if you are working on something adjacent.</p>
+</Base>

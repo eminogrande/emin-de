@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import { articles, articlePath } from '../content/articles.mjs';
+import { SITE_DEFINITION, SITE_TAGLINE, AUTHOR_NAME } from '../lib/site.mjs';
+
+const latest = [...articles].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+---
+
+<Base
+	title="emin.de | Long-form engineering writing by Emin Mahrt"
+	description="Long-form engineering writing on Bitcoin self-custody, passkeys, x402 agent payments and agent-readiness. Every article has a Markdown mirror, an MCP server and a public API."
+	path="/"
+	markdownPath="/index.md"
+>
+	<h1>{SITE_TAGLINE}</h1>
+	<p class="lede">{SITE_DEFINITION}</p>
+
+	<h2>Articles</h2>
+	<ul class="card-list">
+		{latest.map((article) => (
+			<li>
+				<a class="card" href={articlePath(article.slug)}>
+					<h3>{article.title}</h3>
+					<p>{article.description}</p>
+					<span class="meta">{article.publishedAt} / {article.readingTimeMinutes} min / {article.topics.join(', ')}</span>
+				</a>
+			</li>
+		))}
+	</ul>
+
+	<h2>For agents</h2>
+	<p>
+		Everything here is readable without JavaScript and mirrored as Markdown. Agents can skip the HTML entirely:
+		read <a href="/llms.txt">llms.txt</a> for the map, <a href="/openapi.json">openapi.json</a> for the typed API,
+		or connect an MCP client to <code>/mcp</code>. The <a href="/developers">developer page</a> has copy-paste examples.
+	</p>
+
+	<h2>Who writes this</h2>
+	<p>
+		{AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. The writing here is about the
+		engineering: what was actually built, what broke, and what the trade-off was.
+		More on the <a href="/about">about page</a>.
+	</p>
+</Base>

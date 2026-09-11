@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Article from '../../components/Article.astro';
+import { articles, getArticle, articlePath, articleSchema } from '../../content/articles.mjs';
+import { SITE_ORIGIN } from '../../lib/site.mjs';
+
+export function getStaticPaths() {
+	return articles.map((article) => ({ params: { slug: article.slug } }));
+}
+
+const { slug } = Astro.params;
+const article = getArticle(slug);
+const path = articlePath(slug);
+---
+
+<Base
+	title={article.seoTitle || `${article.title} | emin.de`}
+	description={article.description}
+	path={path}
+	ogType="article"
+	structuredData={articleSchema(article, SITE_ORIGIN)}
+	markdownPath={`${path}/index.md`}
+	articleMeta={{ publishedAt: article.publishedAt, modifiedAt: article.modifiedAt }}
+>
+	<Article article={article} />
+</Base>

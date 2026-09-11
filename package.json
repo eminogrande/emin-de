@@ -1,0 +1,26 @@
+{
+  "name": "emin-de",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "description": "emin.de - agent-ready long-form publishing",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "node server.mjs",
+    "preview": "node server.mjs",
+    "verify:agent-ready": "node scripts/verify-agent-ready.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
+    "verify:article": "node scripts/verify-article.mjs",
+    "verify:x402": "node scripts/verify-x402.mjs",
+    "verify:all": "node scripts/verify-all.mjs"
+  },
+  "dependencies": {
+    "astro": "^6.1.8"
+  },
+  "devDependencies": {
+    "lighthouse": "^13.3.0"
+  },
+  "engines": { "node": ">=22" }
+}
