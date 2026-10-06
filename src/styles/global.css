@@ -179,7 +179,6 @@ main { display: block; }
 .art-story__inner { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.75fr); gap: clamp(3rem, 8vw, 7.5rem); padding-block: clamp(4rem, 8vw, 6rem); }
 .art-story--full .art-story__inner { grid-template-columns: minmax(0, 1fr); }
 .art-story__copy > * { max-width: 42rem; }
-.art-story__copy > h2:first-child { margin-bottom: 2rem; }
 .art-story__basically { align-self: start; position: sticky; top: 2.5rem; }
 .art-story__summary { margin: 0; color: var(--heading); font-family: var(--head-face); font-size: var(--fs-head); font-weight: 400; line-height: 1.12; letter-spacing: -0.02em; text-wrap: pretty; }
 .art-story__summary strong { display: block; margin-bottom: 1rem; color: var(--muted); font-family: var(--text-face); font-size: var(--fs-text); font-weight: 700; letter-spacing: 0; line-height: 1.5; }
@@ -189,6 +188,9 @@ main { display: block; }
 .prose > :last-child { margin-bottom: 0; }
 .prose p { text-wrap: pretty; }
 .prose h2 { margin-top: 3rem; }
+/* section headings inside articles: same size as the paragraph, only bold (nuri.com style). Basically aside stays headline size. */
+.art-story__copy h2, .prose h2 { font-family: var(--text-face); font-size: var(--fs-text); font-weight: 700; line-height: 1.5; letter-spacing: 0; color: var(--heading); text-wrap: pretty; }
+.art-story__copy > h2:first-child { margin-bottom: 1.25rem; }
 .prose img, .prose video { width: auto; max-width: 100%; height: auto; margin: 2.5rem 0; border-radius: 0.5rem; }
 .prose p > img:only-child { margin-block: 0.5rem; }
 .prose audio { width: 100%; margin: 1rem 0; }
