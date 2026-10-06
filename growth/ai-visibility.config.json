@@ -1,0 +1,8 @@
+{
+	"_comment": "Every engine is a PAID API call. All default OFF. Set enabled:true only after Emin OKs the spend (see growth/CRON.md). Costs are per run of all 30 prompts, estimate only, verify on the provider pricing page before enabling.",
+	"engines": {
+		"openai": { "enabled": false, "needs": "Emin OK + OPENAI_API_KEY", "model": "gpt-4o-mini-search-preview", "pricing_url": "https://platform.openai.com/docs/pricing" },
+		"perplexity": { "enabled": false, "needs": "Emin OK + PERPLEXITY_API_KEY", "model": "sonar", "pricing_url": "https://docs.perplexity.ai/getting-started/pricing" },
+		"gemini": { "enabled": false, "needs": "Emin OK + GEMINI_API_KEY", "model": "gemini-2.5-flash", "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing" }
+	}
+}

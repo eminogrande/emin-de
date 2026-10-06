@@ -1,0 +1,129 @@
+# Monitored AI prompts for emin.de and nuri.com. Read by growth/ai-visibility.mjs.
+# Format kept flat on purpose (parsed without a YAML library): one "- " item per
+# prompt with id, lang, topic, prompt. Add prompts at the bottom; never reuse an id.
+# Runs WEEKLY, only when an engine is enabled in growth/ai-visibility.config.json
+# AND its key exists. Every engine call is paid: all engines default OFF (needs Emin OK).
+targets:
+  - emin.de
+  - nuri.com
+prompts:
+  - id: de-01
+    lang: de
+    topic: bitcoin
+    prompt: beste Bitcoin Wallet mit Passkey
+  - id: de-02
+    lang: de
+    topic: bitcoin
+    prompt: Bitcoin Wallet ohne Seed Phrase, welche ist sicher?
+  - id: de-03
+    lang: de
+    topic: bitcoin
+    prompt: Was bedeutet Self Custody bei Bitcoin?
+  - id: de-04
+    lang: de
+    topic: nuri
+    prompt: Nuri vs Revolut für Bitcoin
+  - id: de-05
+    lang: de
+    topic: nuri
+    prompt: Ist die Nuri Wallet sicher?
+  - id: de-06
+    lang: de
+    topic: payments
+    prompt: Bitcoin Wallet mit Visa Karte und IBAN in Deutschland
+  - id: de-07
+    lang: de
+    topic: payments
+    prompt: Stablecoin Visa Karte Europa, welche Anbieter gibt es?
+  - id: de-08
+    lang: de
+    topic: agents-ai
+    prompt: Wie mache ich meine Website bereit für KI Agenten?
+  - id: de-09
+    lang: de
+    topic: payments
+    prompt: Was ist x402 einfach erklärt?
+  - id: de-10
+    lang: de
+    topic: agents-ai
+    prompt: Wie können KI Agenten selbst bezahlen?
+  - id: de-11
+    lang: de
+    topic: person
+    prompt: Wer ist Emin Mahrt?
+  - id: de-12
+    lang: de
+    topic: building
+    prompt: KI Agenten für Gründer, welche Aufgaben lohnen sich?
+  - id: de-13
+    lang: de
+    topic: bitcoin
+    prompt: Passkey statt Seed Phrase, wie funktioniert das?
+  - id: de-14
+    lang: de
+    topic: bitcoin
+    prompt: Mt. Gox Crash und was man daraus über Self Custody lernt
+  - id: de-15
+    lang: de
+    topic: agents-ai
+    prompt: llms.txt was ist das und brauche ich es?
+  - id: en-01
+    lang: en
+    topic: bitcoin
+    prompt: best bitcoin wallet with passkey
+  - id: en-02
+    lang: en
+    topic: bitcoin
+    prompt: bitcoin wallet without seed phrase, is it safe?
+  - id: en-03
+    lang: en
+    topic: person
+    prompt: who is Emin Mahrt
+  - id: en-04
+    lang: en
+    topic: nuri
+    prompt: Nuri vs Revolut for bitcoin
+  - id: en-05
+    lang: en
+    topic: nuri
+    prompt: what is Nuri wallet
+  - id: en-06
+    lang: en
+    topic: agents-ai
+    prompt: agent-ready website checklist
+  - id: en-07
+    lang: en
+    topic: payments
+    prompt: what is x402 and how does it work
+  - id: en-08
+    lang: en
+    topic: payments
+    prompt: x402 vs MPP for agent payments
+  - id: en-09
+    lang: en
+    topic: payments
+    prompt: how can AI agents pay for APIs
+  - id: en-10
+    lang: en
+    topic: payments
+    prompt: stablecoin visa card in Europe
+  - id: en-11
+    lang: en
+    topic: bitcoin
+    prompt: passkey derived bitcoin wallet MuSig2
+  - id: en-12
+    lang: en
+    topic: building
+    prompt: how founders use AI agents to run a startup
+  - id: en-13
+    lang: en
+    topic: agents-ai
+    prompt: how to make a website readable by ChatGPT and Perplexity
+  - id: en-14
+    lang: en
+    topic: bitcoin
+    prompt: self custody vs exchange, which is safer
+  - id: en-15
+    lang: en
+    topic: payments
+    prompt: self custodial bitcoin wallet with IBAN and debit card

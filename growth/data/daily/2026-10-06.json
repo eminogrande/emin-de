@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-06",
+  "site": "https://emin.de",
+  "generatedAt": "2026-10-06T05:35:02.570Z",
+  "sources": [
+    {
+      "source": "probe",
+      "status": "ok",
+      "metrics": {
+        "home_http_status": 302,
+        "home_serves_own_host": 0,
+        "sitemap_url_count": 0,
+        "llms_txt_post_count": 0,
+        "robots_ai_bots_blocked": 0,
+        "robots_txt_present": 0,
+        "indexnow_pings_total": 0
+      },
+      "facts": {
+        "home_redirect_location": "https://emin.carrd.co/",
+        "home_final_url": "https://emin.carrd.co/",
+        "sitemap_final_url": "https://emin.carrd.co/",
+        "robots": "no robots.txt on own host",
+        "indexnow_last_ping_at": null,
+        "site_index_count": "skipped: automated queries to Google are machine-generated traffic under Google spam policies (developers.google.com/search/docs/essentials/spam-policies); use GSC Page indexing once connected"
+      },
+      "queries": [
+        {
+          "metric": "home_http_status",
+          "query": "GET https://emin.de/ (redirect: manual)"
+        },
+        {
+          "metric": "home_serves_own_host",
+          "query": "GET https://emin.de/ (follow redirects), final host == emin.de"
+        },
+        {
+          "metric": "sitemap_url_count",
+          "query": "GET https://emin.de/sitemap.xml, count <loc> (0 if served by another host or non-200)"
+        },
+        {
+          "metric": "llms_txt_post_count",
+          "query": "GET https://emin.de/llms.txt, count Markdown links containing /posts/ (0 if not a text file on emin.de)"
+        },
+        {
+          "metric": "robots_txt_present",
+          "query": "GET https://emin.de/robots.txt, 200 + text on emin.de"
+        },
+        {
+          "metric": "robots_ai_bots_blocked",
+          "query": "robots.txt groups for GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended, Googlebot, Bingbot, path / (RFC 9309)"
+        },
+        {
+          "metric": "indexnow_pings_total",
+          "query": "count lines in growth/data/indexnow-pings.jsonl"
+        }
+      ]
+    },
+    {
+      "source": "posthog",
+      "status": "not_connected",
+      "needs": "POSTHOG_PROJECT_ID + POSTHOG_PERSONAL_API_KEY (Query Read scope), EU host",
+      "metrics": {},
+      "queries": []
+    },
+    {
+      "source": "gsc",
+      "status": "not_connected",
+      "needs": "service-account JSON at ~/.hermes/secrets/gsc.json, added as user on sc-domain:emin.de",
+      "metrics": {},
+      "queries": []
+    },
+    {
+      "source": "bing",
+      "status": "not_connected",
+      "needs": "BING_WEBMASTER_API_KEY (Bing Webmaster Tools > Settings > API Access), site verified there",
+      "metrics": {},
+      "queries": []
+    },
+    {
+      "source": "cloudflare",
+      "status": "not_connected",
+      "needs": "CLOUDFLARE_API_TOKEN (Account Analytics Read) + CF_ACCOUNT_ID + CF_WEB_ANALYTICS_SITE_TAG",
+      "metrics": {},
+      "queries": []
+    }
+  ]
+}
