@@ -1,0 +1,55 @@
+[
+	{
+		"en": "bitcoin wallet passkey",
+		"de": "bitcoin wallet passkey",
+		"category": "bitcoin"
+	},
+	{
+		"en": "self custody",
+		"de": "self custody bitcoin",
+		"category": "bitcoin",
+		"exclude": [
+			"movie",
+			"film",
+			"safe custody",
+			"fees meaning"
+		]
+	},
+	{
+		"en": "nuri wallet",
+		"de": "nuri wallet",
+		"category": "nuri",
+		"exclude": [
+			"nuri bank login"
+		]
+	},
+	{
+		"en": "agent ready website",
+		"de": "website für ki agenten",
+		"category": "agents-ai"
+	},
+	{
+		"en": "ai agent payments",
+		"de": "ki agenten zahlungen",
+		"category": "payments"
+	},
+	{
+		"en": "x402",
+		"de": "x402",
+		"category": "payments",
+		"exclude": [
+			"buy x402",
+			"x402 crypto price"
+		]
+	},
+	{
+		"en": "stablecoin visa card",
+		"de": "stablecoin visa karte",
+		"category": "payments"
+	},
+	{
+		"en": "ai agents for founders",
+		"de": "ki agenten gründer",
+		"category": "building"
+	}
+]

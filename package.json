@@ -14,7 +14,11 @@
     "verify:seo": "node scripts/verify-seo.mjs",
     "verify:article": "node scripts/verify-article.mjs",
     "verify:x402": "node scripts/verify-x402.mjs",
-    "verify:all": "node scripts/verify-all.mjs"
+    "verify:all": "node scripts/verify-all.mjs",
+    "test:growth": "node --test growth/tests/*.test.mjs",
+    "growth:daily": "node growth/daily.mjs",
+    "growth:keywords": "node growth/keywords.mjs",
+    "growth:ai": "node growth/ai-visibility.mjs"
   },
   "dependencies": {
     "astro": "^6.1.8"
@@ -22,5 +26,7 @@
   "devDependencies": {
     "lighthouse": "^13.3.0"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }

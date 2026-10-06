@@ -1,0 +1,25 @@
+{
+ "week": "2026-W41",
+ "targets": [
+  "emin.de",
+  "nuri.com"
+ ],
+ "states": [
+  {
+   "name": "openai",
+   "run": false,
+   "reason": "off (paid, needs Emin OK)"
+  },
+  {
+   "name": "perplexity",
+   "run": false,
+   "reason": "off (paid, needs Emin OK)"
+  },
+  {
+   "name": "gemini",
+   "run": false,
+   "reason": "off (paid, needs Emin OK)"
+  }
+ ],
+ "results": []
+}
