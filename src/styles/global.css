@@ -64,7 +64,7 @@ body {
 	font-family: var(--text-face);
 	font-size: var(--fs-text);
 	font-weight: 400;
-	line-height: 1.7;
+	line-height: 1.6;
 	overflow-x: hidden;
 	overflow-wrap: break-word;
 	-webkit-font-smoothing: antialiased;
@@ -116,7 +116,7 @@ a.eyebrow:hover, a.kicker:hover { color: var(--heading); }
 .masthead .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem 2rem; padding-block: 1.25rem; }
 .wordmark { color: var(--heading); font-weight: 700; text-decoration: none; }
 .wordmark span { color: var(--accent); }
-.masthead nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; row-gap: 0; }
 .masthead nav a { color: var(--ink); text-decoration: none; padding-block: 0.5rem; }
 .masthead nav a:hover, .masthead nav a[aria-current='page'] { color: var(--heading); text-decoration: underline; text-decoration-color: var(--accent); }
 main { display: block; }
@@ -281,7 +281,8 @@ tbody tr:last-child > * { border-bottom: 0; }
 	.rows .dek { display: none; }
 	.more { columns: 1; }
 	.masthead nav a.nav-home { display: none; }
-	.masthead nav { gap: 0 1.1rem; }
+	.masthead nav { gap: 0 0.9rem; }
+	.home-hero, .art-hero { padding-top: 2.5rem; }
 	.about-top { grid-template-columns: minmax(0, 1fr); }
 	.about-top .portrait { width: 10rem; order: -1; }
 	.site-foot .wrap { grid-template-columns: minmax(0, 1fr); }
