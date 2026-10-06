@@ -346,10 +346,7 @@ test('type scale: exactly two font sizes (--fs-text, --fs-head), no component se
 	assert.deepEqual([...new Set(bad)], [], 'only var(--fs-text), var(--fs-head) or inherit');
 	const shorthand = [...css.matchAll(/(?:^|[;{\s])font:\s*([^;}]+)/g)].map((m) => m[1].trim()).filter((v) => v !== 'inherit');
 	assert.deepEqual(shorthand, [], 'no font shorthand with its own size');
-	const textVar = css.match(/--fs-text:\s*clamp\(\s*([\d.]+)rem\s*,[^,]+,\s*([\d.]+)rem\s*\)/);
-	assert.ok(textVar, 'text size is a clamp(min, fluid, max) in rem');
-	assert.ok(Number(textVar[1]) * 16 >= 17, 'text never below 17px');
-	assert.ok(Number(textVar[2]) * 16 >= 34, 'desktop text at least 2x 17px');
+	assert.match(css, /--fs-text:\s*1\.1875rem/, 'text size is 19px');
 	const fams = new Set([...css.matchAll(/font-family:\s*'([^']+)'/g)].map((m) => m[1]).filter((f) => !/Fallback/.test(f)));
 	assert.ok(fams.size <= 2, `at most two families, got ${[...fams]}`);
 });

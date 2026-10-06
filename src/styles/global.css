@@ -39,8 +39,8 @@
 }
 
 :root {
-	--fs-text: clamp(1.375rem, 1rem + 1.6vw, 2.125rem); /* 22px phone, 34px desktop = 2x of 17px */
-	--fs-head: clamp(2.75rem, 1rem + 5vw, 5.5rem); /* 44px phone, 88px desktop */
+	--fs-text: 1.1875rem; /* 19px */
+	--fs-head: clamp(2rem, 4.4vw, 3.25rem);
 	--paper: #fdf6e3;
 	--paper-2: #eee8d5;
 	--rule: #ddd6c1;
@@ -51,7 +51,7 @@
 	--accent: #b58900;
 	--head-face: 'Newsreader', 'Newsreader Fallback', Georgia, serif;
 	--text-face: 'Inter', 'Inter Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-	--container: 92rem;
+	--container: 76rem;
 	--gutter: clamp(1.25rem, 4vw, 3rem);
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, .display, .head {
 a.eyebrow:hover, a.kicker:hover { color: var(--heading); }
 .meta { display: flex; flex-wrap: wrap; margin: 0; color: var(--muted); }
 .meta > * + *::before { content: '·'; margin: 0 0.5em; }
-.dek, .lede { color: var(--muted); max-width: 26em; }
+.dek, .lede { color: var(--muted); max-width: 42rem; }
 
 /* --- masthead ------------------------------------------------------------------ */
 .masthead .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem 2rem; padding-block: 1.25rem; }
@@ -131,7 +131,7 @@ main { display: block; }
 .home-hero { padding: clamp(4rem, 10vw, 7.5rem) 0 clamp(3.5rem, 8vw, 6rem); text-align: center; }
 .home-hero__inner { display: grid; justify-items: center; }
 .home-hero__title { max-width: 18ch; margin: 0; }
-.home-hero__lede { max-width: 24em; margin: 2rem auto 0; color: var(--muted); }
+.home-hero__lede { max-width: 40rem; margin: 2rem auto 0; color: var(--muted); }
 
 .story { position: relative; }
 .story a.title-link { color: var(--heading); text-decoration: none; }
@@ -166,7 +166,7 @@ main { display: block; }
 .art-hero__title { max-width: 20ch; margin: 0; }
 .art-hero__illustration { width: min(100%, 64rem); margin: clamp(2.5rem, 5vw, 4rem) auto 0; overflow: hidden; border-radius: 0.75rem; background: var(--paper-2); }
 .art-hero__illustration img { width: 100%; height: auto; margin: 0; }
-.art-hero__tldr { max-width: 26em; margin: clamp(2rem, 4vw, 3rem) auto 0; color: var(--muted); text-align: left; }
+.art-hero__tldr { max-width: 42rem; margin: clamp(2rem, 4vw, 3rem) auto 0; color: var(--muted); text-align: left; }
 .art-meta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 0.6rem; margin-top: 1.5rem; color: var(--muted); }
 .art-meta p { margin: 0; }
 .art-meta a { color: var(--muted); }
@@ -176,9 +176,9 @@ main { display: block; }
 
 .art-story { background: var(--paper-2); }
 .art-story:nth-of-type(even) { background: var(--paper); }
-.art-story__inner { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(16rem, 0.6fr); gap: clamp(3rem, 8vw, 7.5rem); padding-block: clamp(4rem, 8vw, 6rem); }
+.art-story__inner { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.75fr); gap: clamp(3rem, 8vw, 7.5rem); padding-block: clamp(4rem, 8vw, 6rem); }
 .art-story--full .art-story__inner { grid-template-columns: minmax(0, 1fr); }
-.art-story__copy > * { max-width: 26em; }
+.art-story__copy > * { max-width: 42rem; }
 .art-story__copy > h2:first-child { margin-bottom: 2rem; }
 .art-story__basically { align-self: start; position: sticky; top: 2.5rem; }
 .art-story__summary { margin: 0; color: var(--heading); font-family: var(--head-face); font-size: var(--fs-head); font-weight: 400; line-height: 1.12; letter-spacing: -0.02em; text-wrap: pretty; }
@@ -215,7 +215,7 @@ thead th { color: var(--heading); font-weight: 700; }
 tbody tr:last-child > * { border-bottom: 0; }
 
 /* Lite YouTube: thumbnail + play inside the plain link; YouTube loads on click. */
-.yt-lite { position: relative; margin: 2.5rem 0; aspect-ratio: 16 / 9; max-width: 26em; overflow: hidden; border-radius: 0.5rem; background: var(--paper-2); }
+.yt-lite { position: relative; margin: 2.5rem 0; aspect-ratio: 16 / 9; max-width: 42rem; overflow: hidden; border-radius: 0.5rem; background: var(--paper-2); }
 .yt-lite__link { position: absolute; inset: 0; display: block; color: var(--heading); text-decoration: none; }
 .yt-lite__link img { width: 100%; height: 100%; margin: 0; object-fit: cover; border-radius: 0; }
 .yt-lite__play { position: absolute; top: 50%; left: 50%; width: 4.5rem; height: 4.5rem; transform: translate(-50%, -50%); border-radius: 50%; background: var(--paper); }
@@ -226,17 +226,17 @@ tbody tr:last-child > * { border-bottom: 0; }
 
 .art-closing { padding: clamp(5rem, 10vw, 7rem) 0 clamp(3rem, 6vw, 4rem); background: var(--paper-2); text-align: center; }
 .art-story:nth-of-type(odd) ~ .art-closing { background: var(--paper-2); }
-.art-closing blockquote { max-width: 30em; margin: 0 auto clamp(3rem, 6vw, 4.5rem); }
+.art-closing blockquote { max-width: 52rem; margin: 0 auto clamp(3rem, 6vw, 4.5rem); }
 .art-closing blockquote p { margin: 0; color: var(--heading); font-family: var(--head-face); font-size: var(--fs-head); font-weight: 400; line-height: 1.12; text-wrap: balance; }
 .art-closing q { quotes: '“' '”' '‘' '’'; }
 .art-closing cite { display: block; margin-top: 1.25rem; color: var(--muted); font-style: normal; font-weight: 700; }
-.art-foot { max-width: 26em; margin: 0 auto; color: var(--muted); }
+.art-foot { max-width: 42rem; margin: 0 auto; color: var(--muted); }
 .art-foot p { margin: 0 0 0.5rem; }
 .art-foot .sources { text-align: left; margin-bottom: 2rem; }
 .art-foot .sources h2 { font-family: var(--text-face); font-size: var(--fs-text); font-weight: 700; letter-spacing: 0; margin: 0 0 0.5rem; }
 
 /* --- plain pages -------------------------------------------------------------- */
-.page { max-width: 28em; margin: 0 auto; padding-block: clamp(3.5rem, 8vw, 6rem); }
+.page { max-width: 46rem; margin: 0 auto; padding-block: clamp(3.5rem, 8vw, 6rem); }
 .page.wide { max-width: var(--container); }
 .page h2 { margin-top: 3rem; }
 .page .lede { margin-bottom: 3rem; }
@@ -273,7 +273,7 @@ tbody tr:last-child > * { border-bottom: 0; }
 	.site-foot .wrap { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 	.site-foot .wrap > :first-child { grid-column: 1 / -1; }
 }
-@media (max-width: 64rem) {
+@media (max-width: 48rem) {
 	.art-story__inner { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
 	.art-story__basically { position: static; padding-top: 2.5rem; border-top: 1px solid var(--rule); }
 	.lead { grid-template-columns: minmax(0, 1fr); }
