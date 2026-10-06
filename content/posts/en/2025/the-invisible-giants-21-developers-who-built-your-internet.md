@@ -20,12 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-invisible-giants-21-developers-who-built-your-internet/"
+tldr:
+  - "The internet runs on open source code kept alive by a small group of mostly invisible volunteers."
+  - "This is a list of the top 21 npm developers, from Paul Millr's chokidar to Feross Aboukhadijeh's WebTorrent."
+  - "Their packages, like Babel, glob, express, lodash and yargs, run hundreds of millions of times."
+basically:
+  numbers-1-to-7-watchers-utils-and-babel: "Chokidar, chalk, micromatch and Babel: the first seven keep files watched, logs colored and code compiled."
+  numbers-8-to-14-npm-express-and-the-node-style: "Isaac created npm itself, Doug keeps Express alive, and TJ defined how Node code looks."
+  numbers-15-to-21-streams-polyfills-and-p2p: "Minimist, lodash, yargs, polyfills, streams, node-gyp and WebTorrent round out the list."
 ---
 ![](../../../media/the-invisible-giants-21-developers-who-built-your-internet/cover.jpg)
 
 We always praise the founders of Facebook or Google. But the internet we use today is actually built on open source code, and a lot of that code is kept alive by a small group of volunteers. These are the invisible giants. You most likely use their code every single day and never notice it.
 
 This is the story of the top 21, and it starts with the man who watches your files.
+
+## Numbers 1 to 7: watchers, utils and Babel
 
 Number 1 is Paul Millr, the watchman. Paul is [`@paulmillr`](https://github.com/paulmillr) on GitHub and his big thing is [`chokidar`](https://github.com/paulmillr/chokidar). It's used in more than 30 million repositories and has hundreds of millions of downloads. In the early days of Node.js, just watching a file for changes, so your app could reload on its own, was broken. It was buggy, it crashed on Macs and it ignored errors on Windows. Paul didn't just accept that, he built Chokidar. And it fixed the most painful part of a developer's day, which is waiting. Every time you hit `Ctrl+S` in VS Code, or your React app updates in the browser right away, that is Paul's code running in the background and watching the world for you.
 
@@ -41,6 +51,8 @@ Number 6 is Henry Zhu, the Babel keeper. Henry is [`@hzoo`](https://github.com/h
 
 Number 7 is Logan Smyth, the architect. Logan is [`@loganfsmyth`](https://github.com/loganfsmyth) and his big one is [`babel-loader`](https://github.com/babel/babel-loader), with more than 739 million downloads. Logan builds the bridges. He works on how Babel talks to other tools, mainly Webpack. He made the layer that connects your build system to the compiler, so the whole pipeline of modern web development keeps flowing and doesn't clog.
 
+## Numbers 8 to 14: npm, Express and the Node style
+
 Number 8 is Isaac Z. Schlueter, the father of npm. Isaac is [`@isaacs`](https://github.com/isaacs). His most downloaded package is [`glob`](https://github.com/isaacs/node-glob), with more than 736 million downloads, and he also created `npm`. Isaac is royalty, he created npm itself. Glob teaches Node.js how to find files on a hard drive with patterns. But he didn't just write a package, he built the playground everyone else on this list plays in. Every time you run `npm install`, you use his invention.
 
 Number 9 is Brian Ng, the AST surgeon. Brian is [`@existentialism`](https://github.com/existentialism) and his big one is [`babel-types`](https://github.com/babel/babel), with more than 685 million downloads. Brian's work lets software understand other software. He maintains the tools that take code apart into Abstract Syntax Trees (ASTs). And these tools don't just read code, they change it with a scalpel. That is what lets tools fix your bugs on their own or format your messy code.
@@ -54,6 +66,8 @@ Number 12 is James Kyle, the evangelist. James is [`@thejameskyle`](https://gith
 Number 13 is Mathias Bynens, the Unicode guardian. Mathias is [`@mathias`](https://github.com/mathias) and his big one is [`he`](https://github.com/mathias/he), for HTML entities, with more than 481 million downloads. Computers are bad at text, especially emojis and weird symbols. Mathias is the world expert on how JavaScript handles characters. If you ever used an emoji 🚀 in a password or a username and the site didn't crash, thank Mathias. He makes sure the web speaks every human language the right way.
 
 Number 14 is TJ Holowaychuk, the godfather. TJ is [`@tjholowaychuk`](https://github.com/tjholowaychuk) and his big ones are [`commander`](https://github.com/tj/commander.js) and `mocha`, with more than 364 million downloads. He is the most prolific programmer in Node history. He wrote the first versions of Express, Mocha and Commander. He defined the style of Node.js. If you write code that looks clean and elegant, you are most likely copying TJ's style.
+
+## Numbers 15 to 21: streams, polyfills and P2P
 
 Number 15 is James Halliday, the philosopher. James is [`@substack`](https://github.com/substack) and his big ones are [`minimist`](https://github.com/substack/minimist) and `browserify`, with more than 417 million downloads. Substack came up with the idea that you can write Node.js code and run it in the browser. He created Browserify. With that he started the bundling revolution, and that leads straight to the tools we use today.
 

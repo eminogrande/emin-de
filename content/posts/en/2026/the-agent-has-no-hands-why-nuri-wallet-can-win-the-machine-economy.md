@@ -20,6 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-agent-has-no-hands-why-nuri-wallet-can-win-the-machine-economy-38876b2c2664"
+tldr:
+  - "Max Levchin says the card payment interface may finally be up for renegotiation because of AI."
+  - "Agents can do the work but can't pay: no hands, no OTP, no CAPTCHA, and most agent wallets are crypto sandboxes."
+  - "PaymentRequired gives agents an MCP interface to real rails: Visa in 76 countries, IBAN, ACH and HTTP 402 micropayments."
+  - "Users keep their keys through passkeys and give agents rules like limits, freezes and single-merchant cards."
+basically:
+  sixty-years-of-plastic: "Plastic, EMV chip, Apple Pay: every version of payments assumed a human at the terminal."
+  the-agent-has-no-hands: "Agents fail at OTPs, CAPTCHAs and fraud checks, and crypto-only wallets can't order dinner."
+  where-money-really-flows: "Almost all commerce runs on Visa, Mastercard, SEPA and ACH, and agents need low friction there."
+  building-the-bridge: "An MCP server gives agents real checkouts, card and IBAN rails, 402 micropayments and self-custody keys."
+  rules-instead-of-trust: "You give the agent rules, not money: freezes by chat, spend limits and one-shot virtual cards."
+  distribution-beats-protocols: "The winner won't have the cleverest contract. It will let an agent buy a coffee every day."
 ---
 <https://www.youtube.com/watch?v=J3pegsM5drk>
 
@@ -27,11 +39,15 @@ In a recent conversation, PayPal co-founder and Affirm CEO Max Levchin said some
 
 "The card payment interface is the singular best user interface ever created… This may actually be finally up for renegotiation because AI is already there."
 
+## Sixty years of plastic
+
 For six decades, consumer finance was built around a piece of plastic. Then came the EMV chip, and later Apple Pay.
 
 Apple Pay used the Secure Enclave in the phone to make the payment a few milliseconds faster and to get around the card network's strict 2.5 second authorization window.
 
 Every version had one thing in common. There was a human standing at a terminal or tapping on a screen.
+
+## The agent has no hands
 
 Now software agents write code, run tasks with many steps and book services on the web. But the moment an agent tries to pay the bill, it hits a wall.
 
@@ -48,6 +64,8 @@ An agent that can only send tiny amounts to another server can't order dinner on
 This is the idea behind [Nuri.com](http://nuri.com), and it's why we think our Model Context Protocol (MCP) server can become the money layer for agents.
 
 
+## Where money really flows
+
 An agent that only speaks crypto is like an electric sports car that only runs on private tracks. Impressive, but it doesn't get you anywhere.
 
 Look at where everyday money really flows.
@@ -59,6 +77,8 @@ Second, friction. If an agent needs your approval, a seed phrase on a piece of p
 Like Levchin said, "Convenience just trumps as the total amount you're trying to send goes down."
 
 Third, identity. The cypherpunk idea often assumes you are fully anonymous. But real commerce needs settlement people can trust, a way for merchants to get their money back, and the rules of each country.
+
+## Building the bridge
 
 Most agent payment projects built an island. PaymentRequired built the bridge.
 
@@ -102,6 +122,8 @@ Layer three is that you keep your keys, and it doesn't make things harder. This 
 The keys come from WebAuthn Passkey PRF on your device's hardware, so they stay with you. The agent can spend within the rules you set, but it never owns the keys.
 
 
+## Rules instead of trust
+
 The biggest thing that stops people from letting agents pay is in the head. It's the fear of losing money with no limit.
 
 Nobody wants to connect their main bank card to an LLM that might get stuck in a loop and empty the account on cloud compute or on purchases it made up.
@@ -116,6 +138,8 @@ And virtual cards can be created just in time, loaded with the exact cents the p
 
 This also gets around the 2.5 second authorization problem Levchin talked about. The limits are set and the balance is ready before the merchant's payment gateway runs, so the agent pays inside the normal card flow and doesn't trigger the fraud checks of the issuer.
 
+
+## Distribution beats protocols
 
 Fintech history teaches the same thing again and again. Distribution and frequency beat clever protocols.
 

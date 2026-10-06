@@ -20,6 +20,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/mein-vater-nurettin-sezer-und-die-arbeiter-die-in-stockholm-kino-machten-3e29e0dce91b"
+tldr:
+  - "Mein Vater Nurettin \"Nuri\" Sezer brachte in Stockholm türkische Filmemacher mit Arbeitsmigranten und deren Geld zusammen."
+  - "Hasan Gül, Arbeiter, Schneider und Nuris Geschäftspartner, spielte in Otobüs und finanzierte Gül Hasan mit."
+  - "Sein Interview ist witzig, verletzt und widersprüchlich, und umstrittene Aussagen bleiben ihm klar zugeschrieben."
+  - "Freundschaft, Geld, Politik und Kino ließen sich bei ihnen nie voneinander trennen."
+basically:
+  wir-machen-kino-mit-dem-geld-das-wir-verdienen: "Hasan kam mit sechzehn nach Schweden, baute eine Schneiderei auf, und Nuri wollte damit Filme bezahlen."
+  otobüs-und-der-haarschnitt-auf-der-toilette: "Hasan spielte in Otobüs ohne Drehbuch, und den Streit um Geld und Filmrollen erinnert er anders als andere."
+  was-nuri-eigentlich-tat: "Nuri verband Theaterleute, Arbeiter und Geld. Hasans Erinnerung an ihn ist ehrlich, nicht sentimental."
+  gül-hasan-der-film-nach-dem-streit: "Gül Hasan machte den Streit mit Okan zum Film, und Hasan mochte das Ergebnis nicht."
+  waren-die-arbeiter-wirklich-so: "Für Hasan hat Otobüs die Angst der Arbeiter nicht erfunden. Schlimmere Geschichten blieben unerzählt."
+  der-film-der-nie-zurückkehrte: "Hasan wollte einen Film über die, die nicht zurückkonnten, und wurde nach 1980 selbst einer von ihnen."
+  was-der-abspann-nicht-zeigt: "Mein Vater war Vermittler, Träumer und schwieriger Partner. Kino machte er mit dem, was da war."
+  quellen: "Das Interview mit Hasan Gül, Önder Özdemirs Text, Filmografien und ein Gespräch mit Tuncel Kurtiz."
 ---
 ![](../../../media/mein-vater-nurettin-sezer-und-die-arbeiter-die-in-stockholm-kino-machten/01-653aaa46.png)
 *Eigene redaktionelle Illustration für diesen Artikel. Sie greift die in Hasan Güls Interview beschriebene Welt auf und zeigt kein konkretes fotografisch dokumentiertes Ereignis.*
@@ -52,6 +66,8 @@ Hasan erinnert sich an den Satz, der ihn überzeugte, Nuri zum Teilhaber seiner 
 
 Das war zumindest der Plan. Die Werkstatt sollte das Geld verdienen, und das Geld sollte die Filme bezahlen.
 
+## Otobüs und der Haarschnitt auf der Toilette
+
 Tunç Okans *Otobüs* erzählt von einer Gruppe türkischer Arbeiter ohne Aufenthaltspapiere, die in Stockholm zurückgelassen wird. Die Stadt um sie herum ist kalt, fremd, wohlhabend und schwer zu verstehen. Für Hasan begann der Film ohne Drehbuch und mit einem Haarschnitt auf einer Toilette.
 
 Er sagt, Nuri habe ihn vorgeschlagen, nachdem eine frühere Gruppe rund um die Produktion auseinandergegangen war. Okan zögerte. Hasan wirkte zu selbstsicher, um einen der verängstigten und erschöpften Arbeiter des Films zu spielen.
@@ -69,6 +85,8 @@ Hasan besteht darauf, nicht zu der Gruppe gehört zu haben, welche die Filmrolle
 “Tunç Okan hat uns nie betrogen. Er nahm uns mit, gab den Leuten ohne Arbeit zu essen und versprach, dass sie bezahlt würden. Als er das Geld brachte, bezahlte er alle.”
 
 Andere Beteiligte erinnerten sich anders an den Konflikt. Tuncel Kurtiz sprach von einem tiefen Bruch mit Okan. Okan bezeichnete *Gül Hasan* später als einen Rachefilm gegen ihn.[2][6] Hasans Darstellung sollte nicht zum abschließenden Urteil gemacht werden. Ihr Wert liegt darin, dass sie die Position eines Beteiligten in einem Streit festhält, der die Filme selbst geprägt hat.
+
+## Was Nuri eigentlich tat
 
 Nuris Rolle ging über seine Nennung im Abspann hinaus. Er verband Menschen, die sich sonst vielleicht nie begegnet wären.
 
@@ -94,6 +112,8 @@ Hasan nimmt Nuri und Tuncel an dieser Stelle nicht in Schutz, nur weil sie seine
 
 Hasan löst diesen Widerspruch nicht auf. Ich möchte es auch nicht für ihn tun.
 
+## Waren die Arbeiter wirklich so?
+
 Einige türkische Kritiker warfen *Otobüs* vor, Arbeitsmigranten zu erniedrigen, weil der Film sie verängstigt, verwirrt und unfähig zeigt, die moderne Stadt um sie herum zu verstehen. Hasan weist diese Lesart zurück.
 
 Er erzählt Geschichten, die fast zu extrem klingen, um wahr zu sein, weil Migration selbst extrem sein konnte. Ein Cousin verbrachte einmal einen ganzen Tag im Stockholmer Hauptbahnhof, ohne den Ausgang zu finden. Manche Neuankömmlinge ließen monatelang denselben Krawattenknoten gebunden, weil sie fürchteten, die Krawatte nie wieder binden zu können. Männer aus Dörfern sahen große Städte zum ersten Mal, als sie für die Arbeit ins Ausland reisten.
@@ -117,6 +137,8 @@ Der Titel wurde autobiografisch. Hasan wollte einen Film über Menschen drehen, 
 Als er schließlich nach Schweden zurückkehrte, waren die Fabrik und die frühere Größe seines Unternehmens verschwunden. Er versuchte andere Geschäfte. Einige funktionierten, andere scheiterten. Er spricht über diese Jahre, ohne zum Opfer oder zum Helden gemacht werden zu wollen.
 
 “Wenn ich zurückblicke und mich frage, wo ich Fehler gemacht habe, war fast alles, was ich tat, ein Fehler. Das Beste, was ich tat, war mein Beruf. Meine Arbeit gab mir Ansehen, Sauberkeit und ein Einkommen. Das Geld kam und ging.”
+
+## Was der Abspann nicht zeigt
 
 Eine gewöhnliche Biografie liefert die Eckdaten. Nurettin Sezer wurde am 10. Oktober 1938 in Kandıra geboren und starb am 14. April 2014 in Berlin. Er arbeitete im Theater, im Film, in der Produktion und als Drehbuchautor. Zu seinen Filmen zählen *Otobüs*, *Gül Hasan*, *Bereketli Topraklar Üzerinde*, *Kardeşim Benim*, *Polizei* und *Evet, ich will!*.[3][5]
 

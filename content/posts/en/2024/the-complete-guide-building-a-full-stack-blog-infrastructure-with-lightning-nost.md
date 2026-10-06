@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/complete-blog-infrastructure-guide/"
+tldr:
+  - "A self-hosted blog on a Hetzner VPS with Hugo, Nginx and Let's Encrypt, deployed by GitHub Actions."
+  - "It takes Lightning tips through Alby Hub, cross-posts to its own Nostr relay as NIP-23, and accepts posts by email."
+  - "Everything is open source and privacy friendly, so one person owns the whole publishing setup."
+basically:
+  what-runs-underneath: "A Hetzner Ubuntu VPS, Hugo with PaperMod, Nginx with Let's Encrypt, on the domain emino.app."
+  what-it-can-do: "Lightning tips, an own Nostr relay, posting by email from three allowed senders, auto deploys."
+  how-it-is-built: "A Hugo config, a build script and two pipelines: email to blog every 15 minutes and blog to Nostr."
+  what-is-running: "Docker runs Alby Hub and the relay, Nginx has three hosts, and cron checks the inbox."
+  keeping-it-alive: "A few curl and docker commands check everything. Static files make it fast and safe."
+  so: "Normal web, Lightning, Nostr and email in one self-hosted setup that one person fully owns."
 ---
 ![](../../../media/the-complete-guide-building-a-full-stack-blog-infrastructure-with-lightning-nost/cover.jpg)
 

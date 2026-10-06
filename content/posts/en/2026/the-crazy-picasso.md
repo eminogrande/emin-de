@@ -20,6 +20,15 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-crazy-picasso/"
+tldr:
+  - "A summary of a video on Paul Johnson's essay about Pablo Picasso."
+  - "Picasso reportedly abused the women around him and called himself God, and sometimes a clown."
+  - "Between 20 and 91 he made about one work a day, 26,075 in total, and knew exactly what would sell."
+basically:
+  the-most-negative-and-disturbing-behavior: "Picasso reportedly beat his most gifted mistress and enjoyed hurting the women around him."
+  the-crazy-and-arrogant-side: "He kept telling himself \"I am God\", and then admitted he was \"nothing but a clown\"."
+  the-impressive-side-genius-and-wealth: "About one new work every day for 71 years, 26,075 in total, and a master at marketing it."
+  a-few-more-things-worth-knowing: "He kept changing his style and breaking his own rules, and that kept him on top for decades."
 ---
 This is a summary of a video that goes through Paul Johnson's essay on Pablo Picasso, and the video is linked at the bottom. Picasso's life is a hard paradox. He was a man with a creative output and a financial success like nobody before him, and by many accounts he was also a "monster of assured egoism". Based on the video's analysis of the essay, here is a ranking of the "bad and crazy" facts about him, going from his most disturbing behavior to his most impressive achievements.
 

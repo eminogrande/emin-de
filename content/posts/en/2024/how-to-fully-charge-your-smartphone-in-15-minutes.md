@@ -20,6 +20,16 @@ voice_check:
   unobserved: 71
 emin_check_pct: null
 original_url: "https://medium.com/@em/how-to-fully-charge-your-smartphone-in-15-minutes-5cb5c8eb4f94"
+tldr:
+  - "Fast charging needs three things that match: a high wattage charger, a Type-C cable rated for it and a phone that supports it."
+  - "With the right setup the OnePlus 10T is full in about 15 minutes, the Realme GT Neo 3 in 16 and the Xiaomi 13 Pro in 17."
+  - "The Oppo Find X5 Pro at 80W takes about 31 minutes."
+basically:
+  why-the-type-c-cable-matters: "Not every USB-C cable is equal. A cheap one caps your charging speed no matter the charger."
+  why-the-charger-matters: "More watts means faster charging, but only if the phone and the cable can take those watts."
+  the-fastest-charging-phones-of-2024: "Xiaomi 13 Pro at 120W, OnePlus 10T and Realme GT Neo 3 at 150W, Oppo Find X5 Pro at 80W."
+  charger-cable-and-phone-together: "With matching charger and cable, the 150W phones go from empty to full in about 15 to 16 minutes."
+  getting-the-most-out-of-it: "Pick the phone, then buy the charger and cable that match it, or you never see full speed."
 ---
 ![](../../../media/how-to-fully-charge-your-smartphone-in-15-minutes/01-3f4a5484.jpeg)
 
@@ -29,13 +39,19 @@ People want faster charging all the time, and phones got a lot better at it. But
 
 So here are the fastest charging phones of 2024, why the right cable and charger matter, and how you get the best charging speed.
 
+## Why the Type-C cable matters
+
 Type-C charging means the USB-C port. It is becoming the standard for a lot of devices, because it does many things and can deliver more power than the older USB standards.
 
 Not all Type-C cables are the same. Some are built for higher wattage and support fast charging, and others can only deliver less power. If you want the best charging speed, you need a good Type-C cable that can handle what your charger puts out.
 
+## Why the charger matters
+
 The charger itself plays a big role in how fast your phone charges. Chargers come in different wattages, and a higher wattage charger delivers more power, so charging takes less time.
 
 But your phone and your cable both have to handle the wattage of your charger.
+
+## The fastest charging phones of 2024
 
 So which phones charge fastest in 2024? The Xiaomi 13 Pro supports up to 120W fast charging. It has flagship performance and a top camera system and costs about $999.
 
@@ -44,6 +60,8 @@ The OnePlus 10T supports up to 150W fast charging. It has a high performance chi
 The Realme GT Neo 3 supports up to 150W fast charging. It's affordable high speed charging with gaming performance, for about $499.
 
 The Oppo Find X5 Pro supports up to 80W fast charging. It has a premium design and a really good camera and costs about $1,199.
+
+## Charger, cable and phone together
 
 For the fastest charging you need three things. A high wattage charger that matches what your phone can take or goes above it, a Type-C cable that can handle the charger's output, and a smartphone that supports high wattage charging.
 
@@ -58,6 +76,8 @@ The Realme GT Neo 3 with the 150W Realme charger and a high speed cable rated fo
 The Oppo Find X5 Pro with the 80W Oppo charger and a high speed cable rated for 80W is full in about 31 minutes.
 
 On price the Realme GT Neo 3 is the cheapest at $499, then the OnePlus 10T at $749, the Xiaomi 13 Pro at $999 and the Oppo Find X5 Pro at $1,199. Each one with its own charger and a matching cable.
+
+## Getting the most out of it
 
 Fast charging got a lot better, so you can power up quickly and lose less time. If you use the right mix of a high wattage charger, a matching Type-C cable and a phone that supports it, you get the most out of it.
 

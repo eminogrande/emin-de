@@ -20,6 +20,16 @@ voice_check:
   unobserved: 126
 emin_check_pct: null
 original_url: "https://medium.com/@em/5-packages-are-looking-for-funding-run-npm-fund-for-details-pionext-org-1fb8a8d36b9e"
+tldr:
+  - "NPM Fund is an idea for a continuous token market per npm package, like pump.fun for open source funding."
+  - "Every package token sits on a bonding curve with no maximum supply, built-in liquidity and a price set by supply."
+  - "Maintainers get 21% of all token interactions, paid out automatically, with no grant applications."
+basically:
+  how-it-works: "Each package gets a token on an endless curve: mint or burn any time, and liquidity is guaranteed by math."
+  who-gets-what: "Maintainers get steady fees, contributors can buy in early, and investors get prices they can calculate."
+  the-system: "Data comes from npm fund, maintainers verify via GitHub, and the rollout runs in three phases."
+  what-is-new-here: "Markets that never end, incentives that line up, and no lockups, outside market makers or yield farming."
+  developing-idea: "The plan: a tradable meme coin per package, so the developer earns more when the package gets hyped."
 ---
 # 21 npm packages are looking for funding, run `npm fund` for details
 
@@ -49,11 +59,13 @@ The data flows in 4 steps. The funding data comes from `npm fund`, the maintaine
 
 Phase 1 is the core, with support for a single maintainer, basic token mechanics, GitHub verification and weekly data updates. Phase 2 makes it better, with support for more maintainers, more advanced fee distribution, better analytics and real-time package data. Phase 3 is the ecosystem, with governance, incentives across packages, contribution tracking and tools for market analysis.
 
+## What is new here
+
 What's new here comes down to three things. Markets that never end, where tokens are always available, there is no maximum supply, it's always liquid and the price is found inside the system. Incentives that line up, so contributors want to join early, maintainers get funding all the time, users can support packages directly, and the value you capture matches the value you create. And an efficient market, with no token lockups, no outside market makers, no liquidity mining and no yield farming.
 
 NPM Fund is a new way to fund open source. It takes mechanisms from Web3 that already work and puts them into the npm ecosystem that already exists, so package maintainers get funding that lasts.
 
-Developing idea:
+## Developing idea
 
 this is a developing story, come back here the next days to see more about it. In short: the npm package installer pushes awareness to packages that are looking for funding, i want to make it rewarding and easy to fund those projects by creating a pump.fun meme coin that people can buy and trade for the package so that the developer gets paid, and he/she/it/or AI in the future will receive fees or just an fair launch allocation and they receive more when the package is more hyped and celebrated and less, when no one wants to play the game or accociate herself with it.
 

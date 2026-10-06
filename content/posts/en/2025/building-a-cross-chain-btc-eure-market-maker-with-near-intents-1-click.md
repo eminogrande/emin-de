@@ -20,6 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/building-a-cross-chain-btc-eure-market-maker-with-near-inten/"
+tldr:
+  - "We built a full BTC to EURe swap stack: a mobile swap UI, a tester, a solver monitor and our own AMM solver."
+  - "Swaps go through NEAR Intents and Defuse 1-Click, between BTC on Bitcoin mainnet and EURe on Gnosis."
+  - "The solver uses constant product math and keeps a 0.3% margin in the asset the user sends."
+  - "Profit is the extra BTC and EURe that piles up in the reserves on the Intents contract."
+basically:
+  1-how-the-pieces-fit: "Four parts: swap UI, UI server, NEAR Intents with the solver relay, and our own AMM solver."
+  2-the-swap-pages: "/intent/ is the one-screen swap page, /intent/intend/ the debug page with test buttons and history."
+  3-the-ui-server: "An Express server on port 4100 for quotes, swap history and a status proxy to 1-Click."
+  4-the-amm-solver-and-how-we-provide-liquidity: "The official NEAR Intents AMM solver for EURe and BTC, pricing with x times y equals k plus a margin."
+  5-a-swap-from-btc-to-eure-start-to-end: "Quote, deposit BTC, 1-Click matches our solver's quote, and EURe lands on Gnosis while the UI polls."
+  6-where-the-03-comes-from: "The solver only prices 99.7% of the input. The other 0.3% stays in the reserve."
+  7-which-currency-we-earn-in: "The margin is paid in whatever the user sends, so profit builds up as extra BTC and extra EURe."
+  8-putting-liquidity-in-and-taking-it-out: "Deposit EURe and BTC to intents.near, start the solver, and withdraw the surplus as profit."
+  9-monitoring-on-eminoappsolver: "One dashboard shows health, reserves, our quotes and the whole network's activity at a glance."
+  10-whats-next: "It works end to end. Next: smarter pricing, more pairs and a richer UI with an expert mode."
 ---
 ![](../../../media/building-a-cross-chain-btc-eure-market-maker-with-near-intents-1-click/cover.jpg)
 

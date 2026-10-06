@@ -20,6 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-003500-philosophical-theories-of-consciousness-a-comparative-map/"
+tldr:
+  - "A map of the main theories of consciousness, not a pick of a winner."
+  - "Epiphenomenalism, functionalism, emergence and identity theory each solve part of the problem and get stuck on another."
+  - "Thinkers like Kim, Papineau, Stoljar and Weisberg sharpened what would count as a real explanation."
+  - "No single theory has closed the case, but the field got better by dropping simple either-or answers."
+basically:
+  how-the-debate-got-here: "From Descartes to neuroscience: a theory that ignores experience or ignores science ends up weak."
+  epiphenomenalism: "Experience is real but causes nothing. A good stress test, but hard to square with evolution."
+  functionalism: "A mental state is what it does. Great for the structure of the mind, weak on how it feels."
+  emergence: "Consciousness comes out of complex systems, but the word needs real mechanisms behind it."
+  identity-theory: "Mental states are brain states. Under pressure from multiple realizability, but the base of neurophilosophy."
+  kim-papineau-flanagan-and-goldstein: "Kim named the causal exclusion problem, Papineau pushes reduction, Flanagan and Goldstein add ethics and rigor."
+  fifteen-hard-questions: "Ask every theory the same 15 hard questions. Most look strong on 4 to 6 of them."
+  nev-hardcastle-stoljar-and-weisberg: "Don't pick one way of explaining too early, and don't jump from unexplained to non-physical."
+  where-the-field-stands: "No theory closed the case. The hard part is fitting very different kinds of data together."
+  a-few-words-in-plain-english: "Short plain definitions of consciousness, physicalism, dualism, monism and emergence."
 ---
 Consciousness is the most intimate fact of life and the hardest thing to explain. We know it directly, and we can't doubt it. Pain hurts, colors show up, and a thought feels like something from the inside.
 
@@ -31,6 +47,8 @@ The goal is not to pick a winner. It's to show where each view is strong, where 
 
 If you're new to this, here is the two minute version. It's a map and not a final answer. Each part explains one idea in plain words and then shows where it helps and where it struggles. You don't need to agree with all of it. You just need to see the options clearly.
 
+## How the debate got here
+
 The modern debate grew out of a few turning points. Cartesian dualism split thinking substance from extended substance, and that gave us the problem of how mind and body act on each other.
 
 Then empiricism and associationism moved the focus to what is in the mind and to how the mind works. Behaviorism tried to leave inner states out, but that was too thin for what it is like to be conscious.
@@ -38,6 +56,8 @@ Then empiricism and associationism moved the focus to what is in the mind and to
 Cognitive science and neuroscience brought the mind back, as a system that processes information. And today philosophy of mind moves between reductive physicalism, non-reductive naturalism, dual aspect views, panpsychism and new forms of idealism.
 
 One thing keeps coming back. A theory that ignores first person experience ends up with nothing to explain, and a theory that ignores science ends up with a weak method.
+
+## Epiphenomenalism
 
 Epiphenomenalism says that conscious states are real but they don't cause anything. The brain causes the experience, but the experience does not change what you do.
 
@@ -47,6 +67,8 @@ But it's hard to defend. If consciousness has no causal role, it's not clear why
 
 So epiphenomenalism is a good stress test. It shows how hard it is to keep both a strictly closed physical world and a strong belief that experience is real.
 
+## Functionalism
+
 Functionalism says a mental state is what it does and not what it's made of. A state is pain if it plays the pain role. It's caused by damage, it makes you pull away, and it works together with your beliefs and desires in the usual ways.
 
 It fits well with cognitive science. It allows multiple realizability, so a brain and a machine could share the same mental functions. And it gives a strong way to explain thinking and behavior.
@@ -54,6 +76,8 @@ It fits well with cognitive science. It allows multiple realizability, so a brai
 The problem is qualia. The functional role may explain how information gets processed, but it's not clear it explains how it feels. The "hard problem" pushes back here. A full functional map may still say nothing about why there is something it is like.
 
 So functionalism is something we can't do without for the structure of the mind, but many say it's not a full theory of consciousness.
+
+## Emergence
 
 Emergence says consciousness comes out of complex physical systems in ways that are new compared to the lower level.
 
@@ -63,6 +87,8 @@ It's attractive because it fits with the rest of science. It explains why consci
 
 The risk is that "emergence" turns into a placeholder word. It needs formal mechanisms behind it, like dynamics, network constraints or information geometry.
 
+## Identity theory
+
 Identity theory says mental states are the same thing as brain states. For a long time this was one of the strongest tries to make the mind part of nature without dualism.
 
 The classic form is type identity, so each mental type matches one neural type. Newer versions refine this. There are token identities with more than one kind of explanation, neurobiological realism without a strict one-to-one match, and accounts of whole states spread across the brain.
@@ -70,6 +96,8 @@ The classic form is type identity, so each mental type matches one neural type. 
 The objections are that multiple realizability puts pressure on strict type identity, that saying "it's the same thing" can just describe qualia again instead of explaining them, and that first person and third person words are still hard to bring together.
 
 Still, identity theory is the base of modern neurophilosophy.
+
+## Kim, Papineau, Flanagan and Goldstein
 
 Jaegwon Kim is central to the debate today because of the causal exclusion problem. If physical causes are enough, there is no causal work left for mental causes. So non-reductive physicalism risks falling into either reductionism or epiphenomenalism.
 
@@ -87,6 +115,8 @@ Rebecca Goldstein's work keeps coming back to clear reasoning, intellectual hone
 
 Don't make category errors that only look smart. Keep your concepts precise when a lot of fields push on them at once. And keep the person in view and not only the mechanism. Her contribution is less one technical doctrine and more a method. Clear argument is the best guard against confusion that is just in fashion.
 
+## Fifteen hard questions
+
 A good way to compare theories of consciousness is to ask all of them the same 15 hard questions.
 
 One, what is your ontology, so what is there at the most basic level. Two, what is your account of qualia. Three, does consciousness cause anything. Four, how does your theory explain that we can report it. Five, what role does neuroscience play.
@@ -96,6 +126,8 @@ Six, can your view explain why consciousness feels like one thing. Seven, what a
 Eleven, does it work across species. Twelve, how do norms and values fit in. Thirteen, what does your theory deny. Fourteen, what would prove it wrong or really weaken it. And fifteen, what gaps are still open even in your best case.
 
 Most theories look strongest on 4 to 6 of these and weaker on the rest.
+
+## Nev, Hardcastle, Stoljar and Weisberg
 
 "Nev" comes up in comparisons, often in talks about how to explain things and how not to be dogmatic. The lesson from this line is that a lot of dead ends in consciousness theory come from picking one single way of explaining too early.
 
@@ -113,6 +145,8 @@ Josh Weisberg works on how explanations are built and on the shape of the hard p
 
 He separates what we want to explain, which is access, report and the felt side. He separates the kinds of answer we ask for, which are mechanism, constitution and grounding. And he separates gaps in the world from gaps in what we know. He is a map maker. Better maps get rid of fake fights and make the real ones sharper.
 
+## Where the field stands
+
 A mature view today often puts together functional and computational models for thinking, neurodynamic models for how the brain ties it all together, philosophy of what experience is like and what grounds it, and a pluralism in method that is kept honest by data.
 
 No single theory has closed the case. But the field got better because it stopped accepting simple either-or answers.
@@ -120,6 +154,8 @@ No single theory has closed the case. But the field got better because it stoppe
 It's still hard, and not because we have no data. It's hard because we try to bring together very different kinds of data. How life feels right now, what neurons do, formal models, and what we believe exists.
 
 The people on this map disagree on a lot. But they share one thing. They force us to be clear about what would count as a real explanation, and that is progress.
+
+## A few words in plain English
 
 A few words in plain English, if you need them. Consciousness is your felt inner experience, what it is like to be you. Physicalism is the view that reality is fully part of nature and physics. Dualism says mind and matter are deeply different in at least one important way.
 

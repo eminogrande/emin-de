@@ -20,10 +20,21 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/a-conversation-with-pentagonik-the-architects-of-a-scene-b93016162163"
+tldr:
+  - "proud magazine talked with Don and Kai, two founders of the Berlin netlabel and event series Pentagonik."
+  - "They started it to give something back to the scene, not just to consume it."
+  - "They get five to ten demos a week and release very few, because musical quality comes first."
+basically:
+  how-pentagonik-started: "Pentagonik started as a way to give back to the scene they loved, not just to consume it."
+  record-stores-vinyl-and-digital: "Record stores stay, but the trend is digital distribution, and vinyl and digital will coexist for now."
+  demos-and-who-gets-released: "Five to ten demos a week and a strict filter. Musical quality decides, not the number of releases."
+  discoveries-and-berlin: "Their latest find is Tom Ellis from Wales, and no other city than Berlin will do."
 ---
 proud magazine sat down with Don and Kai, two of the founders of Pentagonik, the netlabel and event series from Berlin, and talked with them about how it all started, what they believe in and the future of music.
 
 ![](../../../media/a-conversation-with-pentagonik-the-architects-of-a-scene/01-8bcfc770.png)
+
+## How Pentagonik started
 
 proud: How did it all begin and what is it that you do?
 
@@ -32,6 +43,8 @@ Kai: It all started with each of us having some connection to electronic music a
 proud: Why do all this? It can't just be for the good of the scene.
 
 Don: Actually, it is. It was genuinely about giving something back to the scene we love to be a part of. I was at an after-hour with Max and thought we needed to step up and be active, not just consumers. We realized we already knew a lot of artists. I had heard about netlabels, and we just decided to start one ourselves. In connection with that, we organized parties, which was the perfect combination. During that after-hour, Max and I grabbed some paper from a bakery and frantically wrote down the concept. When we read it the next day and it still made sense, we started to implement it. We had a few key points: music, art, event design, and communication. We built on that, started meeting regularly with the others, and everything worked out wonderfully. We weren't just an event organizer anymore; we were an organizer with a label behind it. We never questioned the purpose because it was fun and the feedback was great.
+
+## Record stores, vinyl and digital
 
 proud: Will the record store, as a place for DJs to connect, eventually die out?
 
@@ -42,6 +55,8 @@ proud: Do you see a risk of vinyl disappearing?
 Kai: It's not really a question of risk or not. But it's a fact that the trend is clearly heading towards digital distribution, whether the music is free or not, with all the pros and cons that come with it. Some people who start DJing today build their "record collection" very quickly. In the past, you might have had to put in more effort. But for label owners, many things have certainly become simpler...
 
 Don: Who knows what the future holds. For now, vinyl and digital will continue to coexist. Maybe one day there will be a wild new medium. The internet will definitely remain a trend; why shouldn't it be possible to produce tracks collaboratively soon? An interface like Soundcloud, which is very intuitive, is perfectly suited for that.
+
+## Demos and who gets released
 
 proud: How many inquiries do you receive from potential producers?
 
@@ -54,6 +69,8 @@ Kai: Yes, absolutely. Our goal was never to churn out as many releases as possib
 Don: Interestingly, even when you run a netlabel, contacts are often made face-to-face at parties, not just virtually.
 
 Kai: The focus is always, and should always be, on the musical quality of the tracks. As a producer, you always have to think about which tracks you really want to release. Unfortunately, there are too many people who just throw their music out there with a "let's see what happens" attitude. That can make the netlabel scene a bit overwhelming and harder to navigate.
+
+## Discoveries and Berlin
 
 proud: Your biggest discovery?
 

@@ -20,6 +20,9 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/nuri-com-brand-building-by-lit-creative-berlin-1353c0ff2abb"
+tldr:
+  - "The Berlin agency LIT Creative rebranded Bitwala as Nuri, so it speaks to far more people than crypto users."
+  - "The name was picked because it is simple, inclusive and available, and the process was never a straight line."
 ---
 This is a summary of a video by the Berlin agency LIT Creative, where they talk about how they built the Nuri brand.
 
