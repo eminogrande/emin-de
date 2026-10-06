@@ -20,6 +20,20 @@ emin_check_pct: 47
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/correlations-copying-and-darwinism-in-quantum-physics/"
+tldr:
+  - "Entanglement makes correlations no classical system can make, but it gives no remote control. That's no-signaling."
+  - "The Darwin-like part of quantum physics is Quantum Darwinism: decoherence selects pointer states and the environment copies records of them."
+  - "A testable experiment starts with an entangled pair, gives each side its own environment, and tracks how entanglement turns into objective classical records."
+basically:
+  from-microbes-to-the-stomach-of-the-world: "No final list of what lives on us exists, and in the long run the decomposers eat everything."
+  aliens-meteorites-and-the-first-spark: "Meteorites bring ingredients. Life starts when something copies itself with heredity and variation."
+  my-comparison-with-physics: "My idea: quantum states compete, some survive, and information gets passed on like RNA."
+  where-entanglement-breaks-the-idea: "Change A and B's local 50 50 mix stays the same. Entanglement is correlation, not a control wire."
+  teleportation-qudits-and-spin-in-fusion: "Teleportation needs a classical channel, and spin effects in fusion are local, not remote."
+  quantum-darwinism: "The environment selects stable pointer states and stores many copies of them. That's the Darwin part."
+  a-two-wing-experiment: "Entangle A and B, give each its own environment, and watch local records multiply on both sides."
+  how-realistic-it-is: "Every ingredient has been shown in a lab. The combination is the new and heavier part."
+  what-i-take-from-it: "My Darwin idea fits decoherence plus copied records, not entanglement itself."
 ---
 I started with a biology question, what lives on and in us, and pretty fast it turned into something bigger, and that's information. In biology information becomes alive in the Darwin sense when it gets copied with heredity and variation and then goes through selection.
 
@@ -28,6 +42,8 @@ So I asked if physics can do something like that too, especially quantum entangl
 Entanglement makes correlations that no classical system can make, but it doesn't let you control anything far away (that's no-signaling).
 
 And then there is Quantum Darwinism, which is a real and well worked out framework. Decoherence picks stable states and the environment makes a lot of copies of records of them, and that gives you a process you can test in a lab that looks a lot like Darwin and explains how the classical world shows up.
+
+## From microbes to the stomach of the world
 
 The first question was how many different species live in or on the human body all the time, sorted from most to least, and all of them named.
 
@@ -45,6 +61,8 @@ Next was who is really at the top of the food chain, alone, and doesn't get eate
 
 I called it the stomach of the world, and that framing is strong. In the long run the closest thing to the final consumer is the decomposers, microbes and fungi and so on, that turns biomass back into chemistry.
 
+## Aliens, meteorites and the first spark
+
 Then the most likely alien we'll find. Is it microbes, and is that just because microbes are everywhere? The careful mainstream view is that the first finds will probably be microbial life or biosignatures, because microbes are tough and because chemical and shape traces are easier to detect than complex living things.
 
 NASA's astrobiology material says it directly, a biosignature is any feature that can be evidence for life now or in the past.
@@ -59,6 +77,8 @@ And I didn't accept the vague billions of years happened answer, I wanted a spec
 
 That's where information becomes a process in a population and not just a chemical pattern that happens once. A later big step toward human level complexity is often described as eukaryogenesis with mitochondria, a jump in energy and in how complex cells can get, but that part of our talk was more an idea than something we backed with sources.
 
+## My comparison with physics
+
 My actual proposal was a comparison. In physics matter changes (fusion and fission), chain reactions branch out, and big systems kind of fight toward equilibrium, like warm and cold air mixing.
 
 Maybe information is kept and passed on, maybe even as quantum information over long distances, a bit like RNA.
@@ -68,6 +88,8 @@ Maybe quantum states compete and some of them stay, and that looks like Darwin. 
 To be fair to that idea you have to pull three things apart. First amplification and equilibrium, which are normal in physics. Second Darwinian evolution, which needs copying from a template plus variation you can inherit plus selection.
 
 And third quantum correlations, so entanglement, versus the quantum to classical "selection" that decoherence and Quantum Darwinism describe.
+
+## Where entanglement breaks the idea
 
 My core claim was that if A and B are entangled, a change of A updates B, and if B is not alone, B must influence what's around it. This is where it breaks.
 
@@ -85,6 +107,8 @@ Do you have to change both sides at the same time? No. To show entanglement you 
 
 That's the logic behind Bell tests and the loophole-free experiments. The standard way to prove entanglement is a Bell inequality violation, often CHSH. Loophole-free Bell tests with separated spins in diamond are the classic example that rule out local realist ideas under really strict rules.
 
+## Teleportation, qudits and spin in fusion
+
 I was also kind of pointing at long distance quantum information transfer, when I said information gets passed over distance. Quantum teleportation is the clean case.
 
 It moves the identity of an unknown quantum state, but it needs classical communication, so it can't be faster than light.
@@ -100,6 +124,8 @@ Then spin in nuclear fusion and fission. Does it matter physically, and could en
 One concrete example is spin-polarized deuterium tritium fuel, which is predicted to raise the D-T fusion cross section by about a factor of 1.5, so about 50%, if the polarization is ideal.
 
 But that's a local spin effect and not entanglement giving you remote control.
+
+## Quantum Darwinism
 
 This is the heart of what I was looking for, a process where some states stay, others die out, and information spreads into the surroundings.
 
@@ -118,6 +144,8 @@ So where does it match Darwin? Selection, because only some states are stable un
 And fitness is stability under decoherence, not having more kids. But there is an important difference to biology.
 
 Darwinism in biology gives open-ended adaptation because the template, the genome, can encode lots of complex functions and gets copied with variation. Quantum Darwinism is about which states become objective and classical, and it doesn't build complex machines through selection over time.
+
+## A two-wing experiment
 
 What I wanted in the end was two entangled systems, each with its own surroundings, where the entanglement causes a Darwin-like reaction on both sides. The way to make that real and testable is this.
 
@@ -145,6 +173,8 @@ And step 6 shows the move from entanglement to classical. In item 8 you track ho
 
 This would prove entanglement at the start, local Darwin-like redundancy, and a controlled move from correlations that aren't classical to objective records. It would not prove any faster than light influence or remote control, no-signaling rules that out.
 
+## How realistic it is
+
 How realistic is it? Some parts are pretty safe because they're already done in some form. Bell violations and checking entanglement are routine and there are loophole-free examples.
 
 Quantum Darwinism signatures, many copies of records and the branching structure where the classical world shows up, were shown in superconducting circuits in Science Advances in 2025.
@@ -154,6 +184,8 @@ The new part is the combination. Start with A-B entanglement, then build two sep
 That's simple as an idea but heavier as an experiment, because you need more qubits and modes, tighter tuning and careful bookkeeping of what information is many times over accessible and what stays quantum.
 
 So the ingredients exist, and the combined experiment is a believable next step and not science fiction.
+
+## What I take from it
 
 So what I take from it is simple. Entanglement is a structure of correlations, not a remote control wire. How B affects its surroundings is fixed by what B has locally, and A can't change that in a controlled way without classical communication.
 

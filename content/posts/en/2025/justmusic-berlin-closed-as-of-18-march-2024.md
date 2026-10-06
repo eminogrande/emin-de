@@ -21,16 +21,28 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/justmusic-berlin-closed-as-of-18-march-2024-a3b44b59ce5d"
+tldr:
+  - "JustMusic Berlin closed as of 18 March 2024 after a long time without profit, under price pressure from online giants."
+  - "From that date no new repair jobs are accepted, but legal warranty and guarantee cases are still handled via service@justmusic.de."
+  - "I translated the German notice from justmusic.de into English."
+basically:
+  why-justmusic-closed: "Online giants with leaner costs, staff shortage, the pandemic and inflation made it unprofitable."
+  a-loss-for-berlin: "Berlin lost a meeting place for musicians and music lovers, and the team thanks its customers."
+  important-information-on-service-and-repairs: "No new repairs from 18 March 2024, but warranty cases still get handled. Email service@justmusic.de."
 ---
 On a personal note, and because I just discovered it today, I translated the German version from justmusic.de into English. Justmusic was always an amazing place to purchase everything around music, but also get a look and feel before you do. Online supermarkets like Thomann killed their margin, now they are dead. Its sad.
 
 ![](../../../media/justmusic-berlin-closed-as-of-18-march-2024/01-2c9e749a.png)
+
+## Why JustMusic closed
 
 Despite a wide range of counter-measures and restructurings, JustMusic had not been operating profitably for quite some time. Our core business shifted more and more to a handful of online giants with far leaner cost structures. The price pressure they generated left us unable to compete, as an all-around, brick-and-mortar retailer in a major city, with the associated staffing and operating costs. Unlike those online giants, we could not offset steadily shrinking margins through sheer sales volume.
 
 Even within local specialist music retail, a severe shortage of skilled staff had long been evident, preventing us from fully using the advantages we once enjoyed over online competitors. Other factors were also beyond our control. Government-mandated shop closures and restrictions during the pandemic, inflation, sharply rising operating costs, and a waning demand for the “luxury good” of musical instruments in uncertain economic times.
 
 After many years of fighting back, and following the internal restructurings during and after the pandemic, which included closing our branches in Hamburg, Munich, and Dortmund as well as the Piano Galerie in Wilmersdorf, we saw no further way to reverse the downward trend.
+
+## A loss for Berlin
 
 With JustMusic, the capital city has lost not only another department store, but also a meeting place for musicians and music lovers, an element of tradition and culture. Management and every JustMusiker did everything possible in recent years to secure the company’s future. We deeply regret that we did not succeed.
 

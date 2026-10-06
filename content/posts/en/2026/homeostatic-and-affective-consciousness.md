@@ -20,6 +20,9 @@ emin_check_pct: 58
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100004-homeostatic-and-affective-consciousness/"
+tldr:
+  - "A plain-words guide to the homeostatic and affective column of my consciousness map, from Predictive Processing, Seth and Damasio to Panksepp and Pepperell."
+  - "No single model explains everything yet, but reading across all of them gives a stronger and less dogmatic understanding."
 ---
 This is a longer guide in simple words, so people who are new to the topic can still follow it. The idea is to go through each point on my map and explain it in a clear and fair way.
 

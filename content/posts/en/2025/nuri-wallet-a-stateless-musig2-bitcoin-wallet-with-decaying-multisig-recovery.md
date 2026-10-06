@@ -20,6 +20,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/nuri-wallet-a-stateless-musig2-bitcoin-wallet-with-decaying-/"
+tldr:
+  - "Nuri Wallet combines MuSig2 Schnorr signatures, passkey keys derived with WebAuthn PRF, an NFC hardware card and a 2FA server co-signer."
+  - "Keys are derived when you sign and never stored, so there is nothing on a disk to steal."
+  - "A decaying multisig with CSV timelocks opens recovery paths after ~70 days and a single-key exit after ~1 year."
+  - "This is work in progress, a design written by Opus 4.5."
+basically:
+  why-we-built-it-this-way: "Single-sig is easy to lose, multisig is easy to lock yourself out of. We try to get out of that fight."
+  the-three-keys: "Passkey key, NFC card key, server key. None of them sits stored anywhere waiting to be stolen."
+  musig2-and-the-two-setups: "Several signers, one Schnorr signature. On chain it looks like a normal single-sig wallet."
+  decaying-multisig-with-csv-timelocks: "Security goes down slowly and on purpose, so you can always get your funds back."
+  security-and-recovery: "Lose one part and 2-of-3 still gets you out. Lose phone and server in 2-of-2 and the funds are gone."
+  how-it-compares-to-other-wallets: "Closest is Blockstream Green, but Nuri uses MuSig2, looks like single-sig and needs no seed phrase."
+  how-to-build-it: "PRF is not in every browser yet, and nonces must never be reused. Those are the hard parts."
+  where-this-leaves-self-custody: "Full control over your Bitcoin, with multisig protection and the comfort of a passkey."
 ---
 ![](../../../media/nuri-wallet-a-stateless-musig2-bitcoin-wallet-with-decaying-multisig-recovery/cover.jpg)
 
@@ -28,6 +42,8 @@ This is work in progress. The document was written by Opus 4.5 and it's the desi
 Nuri Wallet is a Bitcoin wallet that puts four things together into one security setup. MuSig2 Schnorr signatures, keys that are derived on the fly with the WebAuthn PRF extension and never stored, an NFC hardware wallet, and a server that co-signs behind two-factor authentication. We care about security and about getting your money back, both. That's why there is a decaying multisig, so you can always recover your funds, even when one or more of the signing parts are gone.
 
 The document has ten parts. Part one is why we built it this way, two is how it fits together, three is the three keys, four is MuSig2, five is the 2-of-2 and 2-of-3 setups, six is the decaying multisig, seven is security, eight is recovery, nine is how it compares to other wallets and ten is some notes on how to build it.
+
+## Why we built it this way
 
 Bitcoin wallets always had this fight between security and being easy to use. A single-signature wallet is easy, but if someone steals the key the money is gone. A multisig wallet is safer, but if you lose keys you can lock yourself out of your own funds. We try to get out of that fight with a mix of things. Keys are derived and not stored, so there is nothing sitting on a disk that someone can steal. Several parties sign together with MuSig2, and the result is one Schnorr signature, which is better for privacy and also makes the transaction cheaper. Timelocks decay step by step, so you get more recovery options over time and you are never locked out forever. And there is an optional hardware wallet for cold storage when you want the most security.
 
@@ -621,6 +637,8 @@ And this is the CSV emergency exit in 2-of-2.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+## How it compares to other wallets
+
 Of the wallets that exist, Blockstream Green is the closest one. Green uses ECDSA multisig, we use MuSig2 Schnorr. On chain Green is a visible multisig, Nuri looks like single-sig. Green keeps the client key encrypted on the device, ours is stateless and comes from the PRF. Green stores the server key in a traditional HSM, our server derives it stateless inside the HSM. Recovery in 2-of-2 is the same in both, a CSV timelock. Recovery in 2-of-3 is a backup key phrase in Green and a hardware wallet with us. And Taproot support is limited in Green, in Nuri it's native.
 
 Then the traditional hardware wallets like Ledger and Trezor. They are a dedicated device, Nuri is a passkey plus an NFC card. For daily transactions you need the device with them, with us you need only the passkey and the server does the 2FA. High value transactions are the same as daily ones on a Ledger or Trezor, with Nuri you can require the hardware card for those. If you lose a Ledger or Trezor you recover with the seed phrase, with Nuri there are several paths, CSV and 2-of-3. And the theft risk there is that the seed phrase gets exposed, with Nuri you don't need a seed phrase at all.
@@ -744,6 +762,8 @@ And this is the protocol the app speaks with the NFC hardware wallet, as APDU co
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+## Where this leaves self-custody
 
 So all together, we think this moves Bitcoin self-custody forward. There is no persistent key storage, so there is less to attack. MuSig2 gives us multi-party signing with privacy and efficiency. The decaying timelocks mean recovery is always possible and security goes down slowly instead of breaking. And with 2-of-2 and 2-of-3 you can pick the setup that fits what you need. In the end the user keeps full control over their Bitcoin and still gets the protection of a multisig and the comfort of a passkey.
 

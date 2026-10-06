@@ -19,6 +19,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/cracked-lips-neon-urine-and-two-people-who-took-the-same-pill-c5a34ee079c5"
+tldr:
+  - "I took a high-dose B supplement, my cracked mouth corner healed and my sleep got better. My partner took the same pill and couldn't sleep at all."
+  - "The best explanation is baseline status, not the pill: correcting a deficiency helps, excess in someone replete is stimulating."
+  - "Neon urine only proves riboflavin got absorbed. Next is blood work for both of us before supplementing further."
+basically:
+  the-setup: "Same supplement, same household. My sleep got better, hers collapsed."
+  why-the-n2-matters-more-than-the-n1: "Opposite results from one pill kill the simple idea that B vitamins help you sleep."
+  the-mouth-corner-is-the-strongest-clue: "Cracked mouth corners are a recognised deficiency sign. I had one before the pill, she didn't."
+  the-neon-urine-proves-almost-nothing: "Neon yellow urine is an absorption signal, not a diagnosis. She would have had it too."
+  the-sleep-where-the-literature-gets-uncomfortable: "B12 can be alerting, the big B12 trial found nothing, and B-complex made sleep worse in an RCT."
+  the-model-that-fits-both-of-us: "A U-shaped curve. Same pill, different starting points, opposite effects on sleep."
+  competing-explanations-i-cant-rule-out: "No baseline blood values means my own case is not evaluable. The pair narrows it, nothing more."
+  what-we-do-next: "Blood work first, her dose to the morning, check the B6 milligrams, then a washout on me."
+  sources: "Every study I lean on, from StatPearls to Okawa 1997 to the B6 dream trial, linked here."
 ---
 An accidental n=2 experiment, and what the evidence actually says.
 

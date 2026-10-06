@@ -20,6 +20,9 @@ emin_check_pct: 60
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100007-first-order-theories-of-consciousness/"
+tldr:
+  - "A plain-words guide to the first-order theories column of my consciousness map: Dretske, Lamme, Carruthers, Tye, Transparency and Direct Realism."
+  - "No single model explains everything yet, but reading across all of them gives a stronger and less dogmatic understanding."
 ---
 This is a longer guide in simple words, so people who are new to the topic can still follow it. The idea is to go through each point on my map and explain it in a clear and fair way.
 

@@ -20,6 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/bridges-between-philosophy-and-physics/"
+tldr:
+  - "I asked an AI to explain to my girlfriend, in easy words, the bridges between philosophy and physics."
+  - "Philosophy is the big why and what is real, physics asks how exactly it works, in numbers and experiments."
+  - "From Democritus' atoms to Einstein's thought experiments and Hawking radiation, philosophy forms the ideas and physics tests them."
+basically:
+  1-what-each-one-does: "Philosophy creates the questions and concepts, physics turns them into testable theories."
+  2-the-greeks-where-it-all-started: "Democritus guessed atoms with no microscope, and Zeno's paradoxes waited centuries for calculus."
+  3-from-aristotle-to-newton: "Physics used to be called natural philosophy, and Newton's laws still raised questions about free will."
+  4-einstein-when-philosophy-and-physics-hug-each-other: "Einstein used thought experiments, read Hume and Kant, and turned space and time into spacetime."
+  5-astrophysics-and-cosmology: "Hawking turned questions about the beginning and black holes into predictions like Hawking radiation."
+  6-famous-philosophers-linked-to-physics: "Plato, Descartes and Kant shaped physics, and Bohr and Heisenberg argued like philosophers."
+  7-how-to-explain-it-to-her-in-one-short-speech: "Philosophy helps us form the ideas, and physics helps us test which ones match reality."
 ---
 ![](../../../media/bridges-between-philosophy-and-physics/cover.jpg)
 
