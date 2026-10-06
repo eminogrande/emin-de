@@ -19,6 +19,26 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/theorie-contra-wirklichkeit-2026-e1f292c7ee5e"
+tldr:
+  - "2005 habe ich in meiner Abiturarbeit geschrieben, dass man sich nicht komplett vor Manipulation schützen kann."
+  - "Heute läuft Manipulation über Ranking, Profile, Schnittstellen, Zahlungswege und künstliche Intelligenz."
+  - "Die entscheidende Frage ist, wem die Maschine gehört, die entscheidet, was wir sehen und glauben."
+basically:
+  die-manipulation-der-massen-durch-medien-algorithmen-und-künstliche-intelligenz: "2005 hielt ich Schutz vor Manipulation für unmöglich. Heute ist die Theorie Teil unserer Technik."
+  1-manipulation-muss-keine-lüge-sein: "Manipulation braucht keine Lüge mehr. Es reicht zu entscheiden, was du zuerst siehst und was nie."
+  2-von-der-chinesischen-e-mail-zum-unsichtbaren-ranking: "Moderne Zensur löscht oft nichts. Sie sortiert, bis ein Beitrag praktisch unsichtbar ist."
+  3-machiavelli-brauchte-keine-künstliche-intelligenz: "Die neuen Presselizenzen heißen Account, Ranking, Verifizierung, Monetarisierung und Zugang."
+  4-wir-amüsieren-uns-nicht-mehr-gemeinsam-zu-tode: "Das Fernsehen sendete ein Programm für alle. Der Feed baut jedem sein eigenes."
+  5-orwells-teleschirm-passt-heute-in-die-hosentasche: "Den Teleschirm tragen wir heute freiwillig in der Hosentasche und laden ihn selbst auf."
+  6-die-geheimen-verführer-kennen-heute-unsere-reaktion: "Werbung testet heute Millionen Varianten, bis sie weiß, was genau diesen einen Menschen überzeugt."
+  7-die-wahren-profis-und-die-macht-der-möglichkeiten: "Technische Möglichkeit beweist keinen Missbrauch, aber sie schafft Macht. Mit KI erst recht."
+  8-wag-the-dog-braucht-kein-filmstudio-mehr: "Eine einzelne Person erzeugt heute Bilder, Stimmen und Videos, für die man früher ein Studio brauchte."
+  9-das-ministerium-für-wahrheit-ist-dezentral-geworden: "Es gibt nicht mehr ein Ministerium für Wahrheit, sondern viele, die gleichzeitig an der Wirklichkeit arbeiten."
+  10-eine-politische-macht-ist-immer-auch-eine-medienmacht: "Plattformen sind selbst politische Mächte geworden, bleiben aber private Unternehmen."
+  11-von-der-post-zu-ebay-und-von-ebay-zur-künstlichen-intelligenz: "Die Suchmaschine zeigte Quellen. Das KI-System schreibt eine Antwort und entscheidet, was du noch prüfst."
+  12-eigentum-ist-auch-eine-politische-frage: "Wer Kommunikation, Identität, KI und Geld kontrolliert, besitzt einen Teil unserer Handlungsfreiheit."
+  13-wo-sind-die-grenzen-der-kreativen-wirklichkeit: "Die technischen Grenzen verschwinden. Was bleibt, sind gesellschaftliche, rechtliche und moralische."
+  was-bleibt: "Die wichtigste Frage ist nicht mehr, ob wir manipuliert werden, sondern wem die Maschine gehört."
 ---
 ## Die Manipulation der Massen durch Medien, Algorithmen und künstliche Intelligenz
 

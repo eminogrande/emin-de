@@ -20,6 +20,24 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-/"
+tldr:
+  - "Humans host a huge, mostly microbial biodiversity, and the only animals constantly living on us are mainly Demodex mites."
+  - "The most defensible sparks are a self-copying system for life and mitochondria for complex cells."
+  - "Entanglement makes strong correlations but gives no remote causal control, and Quantum Darwinism is the closest physics gets to selection."
+basically:
+  1-what-does-living-on-or-in-humans-constantly-even-mean: "All identified, constantly and species all need a definition before anyone can count human colonizers."
+  2-how-many-microbial-species-are-human-associated-and-which-groups-lead-by-species-count: "Viruses lead by species count if you call them alive. If not, bacteria lead, around 10,000 globally."
+  3-if-we-only-count-things-with-a-brain-and-a-heart-what-are-the-closest-human-colonizers: "Count only animals with a brain and a heart, and the real constant colonizers are basically Demodex mites."
+  4-who-is-the-ultimate-master-of-earth-at-the-top-of-the-food-chain: "Nothing escapes being eaten in the end. The stomach of the world is fungi and bacteria."
+  5-whats-the-most-likely-alien-life-well-find: "The first aliens we find will most likely be microbes, and we may see their chemistry before any cell."
+  6-is-there-one-single-event-in-world-history-like-the-murchison-meteorite-bringing-the-building-blocks-of-life: "Murchison carried amino acids from space, but it was one input stream, not the origin event."
+  7-good-luck-explaining-the-origin-of-life-so-here-is-a-more-specific-path-to-humans: "The useful spark is a self-copying system that can evolve. The human spark is mitochondria."
+  8-my-physics-analogy-chain-reactions-heat-mixing-and-matter-competing-to-be-the-same: "Physics amplifies and makes patterns, but Darwinian evolution needs copying from a template."
+  9-entanglement-if-a-changes-then-b-changes-so-why-doesnt-bs-environment-change: "Measuring A updates what you know about B. It does not change anything you can see locally at B."
+  10-is-entanglement-only-spin-zero-or-one-and-does-spin-matter-for-fusion-and-fission: "Entanglement is not only spin up or down. Spin does matter in fusion, as a local effect."
+  11-my-goal-an-experiment-where-entanglement-triggers-a-darwinistic-reaction-on-both-sides: "Quantum Darwinism is the closest real thing: stable states survive and the environment copies them."
+  12-my-universe-scale-extension-black-holes-expansion-and-chaos-far-away: "Black holes raise deep entanglement questions, but no-signaling still rules out remote control."
+  the-whole-arc-in-short: "Life is copied and selected information. Physics keeps and filters information without being Darwinian."
 ---
 # From Human Colonizers to Cosmic Stomachs, Microbial Life, the Spark Toward Humans and Darwin-Like Selection in Quantum Physics
 

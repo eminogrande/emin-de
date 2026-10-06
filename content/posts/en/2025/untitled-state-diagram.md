@@ -21,6 +21,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts//"
+tldr:
+  - "A Mermaid state diagram of special and general relativity, how they replaced Newtonian mechanics and how quantum gravity connects."
 ---
 Note to myself on this one: make the chart vertical, not horizontal aligned.
 

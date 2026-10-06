@@ -20,6 +20,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/sascha-hanse-on-protocols-and-their-importance-for-society-4eb9783e9338"
+tldr:
+  - "Sascha Hanse argues protocols should be simple, hard to attack and inclusive, because they shape who has power."
 ---
 ![](../../../media/sascha-hanse-on-protocols-and-their-importance-for-society/01-0ac4706d.png)
 

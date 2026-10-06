@@ -19,10 +19,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/nuri-passkey-wallet-bitcoin-iban-und-visa-ohne-konto-ac719483e2bb"
+tldr:
+  - "Nuri leitet aus einem Passkey eine selbstverwahrte Wallet ab, ganz ohne Konto, E-Mail oder Passwort."
+  - "Jede Zahlung braucht zwei Unterschriften, und Bitcoin, IBAN, US-Konto und Visa laufen schon heute auf derselben Wallet."
+  - "Für KI-Assistenten gibt es befristete Wallets mit eigenem Budget, die man jederzeit widerrufen kann."
+basically:
+  ein-passkey-statt-konto: "Keine Datenbank mit Nutzerschlüsseln, keine 24 Wörter, und Phishing läuft ins Leere."
+  zwei-unterschriften: "Weder dein Gerät allein noch Nuri allein kann Geld bewegen, und ohne Nuri kommst du trotzdem an dein Geld."
+  heute-schon-live: "Bitcoin, IBAN, ACH, Visa, Mobile Money und PIX laufen alle onchain auf derselben Wallet."
+  wallets-für-ki-agenten: "Ein Assistent kann eine Zahlung vorbereiten, aber freigeben tust du sie."
+  was-nuri-anders-macht: "Andere starten beim Anbieter. Wir starten beim Eigentum des Nutzers und hängen den Finanzstack daran."
+  der-name-nuri: "Dieselbe Marke wie bei Bitwala, aber komplett neu gebaut, mit demselben Ziel: Self-Custody für alle."
 ---
 Wie Nuri aus einem Passkey eine selbstverwahrte Wallet für Menschen, Unternehmen und KI-Agenten macht.
 
 Jedes Finanzprodukt, das man so kennt, läuft über ein Konto. Man meldet sich an, ein Anbieter führt das Konto und das Geld liegt bei ihm. Bei Nuri lassen wir diese Ebene einfach weg.
+
+## Ein Passkey statt Konto
 
 Die Grundlage ist ein Passkey, also dasselbe Verfahren, mit dem man sich heute schon bei manchen Diensten ohne Passwort anmeldet. Technisch ist das ein Schlüsselpaar, das dein Gerät in einem geschützten Chip erzeugt und verwahrt, und das fest an eine bestimmte Website gebunden ist. Face ID oder der Fingerabdruck geben den Schlüssel frei, wenn du ihn benutzt.
 
@@ -30,18 +43,28 @@ Aus diesem Passkey leiten wir die Wallet ab. Es gibt dafür also weder ein Konto
 
 Die Bindung an eine Website hat noch einen Nebeneffekt, denn eine gefälschte Seite kann den Passkey so gar nicht benutzen. Der Browser gibt ihn einfach nur raus, wenn die Adresse stimmt, und so läuft Phishing ins Leere.
 
+## Zwei Unterschriften
+
 Jede Zahlung braucht zwei Unterschriften. Die erste kommt aus deinem Passkey und die kennt nur dein Gerät. Die zweite ist die Absicherung von Nuri, aber auch die liegt bei uns nicht fertig herum. Sie entsteht erst, wenn unser Anteil mit Material von dir zusammenkommt. Wir haben also weder deinen Schlüssel noch den zweiten Schlüssel vollständig, und so kann weder dein Gerät allein noch Nuri allein Geld bewegen.
 
 Im Alltag sichert dich diese zweite Unterschrift ab, denn ein gestohlenes Handy reicht dann eben nicht. Und falls es Nuri irgendwann mal nicht mehr gibt, bist du trotzdem nicht ausgesperrt, weil du nach einer Wartezeit auch allein an dein Geld kommst. Das ist der Unterschied zu einer Börse wie Coinbase, wo dein Guthaben eigentlich dem Anbieter gehört.
+
+## Heute schon live
 
 Das alles ist heute schon live und keine Roadmap. Bitcoin und Lightning, digitale Euro und Dollar, Swaps, eine europäische IBAN, ein US-Konto mit ACH und eine Visa-Karte. Dazu kommen lokale Zahlungswege, an die sonst niemand denkt, so wie Mobile Money in Tansania und PIX in Brasilien.
 
 Und das ist der eigentliche Punkt. Das ist eben nicht eine Bank, an die man noch eine Krypto-Funktion angeschlossen hat. Es läuft alles onchain, auf derselben Wallet, die aus deinem Passkey entsteht. Ein Euro, der per SEPA ankommt, landet direkt bei dir und nicht auf einem Konto, das jemand für dich führt.
 
+## Wallets für KI-Agenten
+
 Dann gibt es noch den Teil mit der KI. Es ist absehbar, dass KI-Assistenten bald Zahlungen machen werden, also Abos verwalten, Rechnungen bezahlen und einkaufen. Die offene Frage der ganzen Branche ist, wie man einer Software Zugriff auf Geld gibt, ohne dabei die Kontrolle abzugeben.
 
 Unsere Antwort darauf läuft schon unter agent.nuri.com. Das sind befristete Wallets mit eigenem Schlüssel, eigenem Budget, festen Empfängern und einem Ablaufdatum. Die kann man jederzeit widerrufen, ohne die Haupt-Wallet anzufassen. Ein Assistent kann eine Zahlung vorbereiten, aber freigeben tust du sie. Das ist der Markt, auf den wir mit Nuri zielen, und wir sind da früh dran.
 
+## Was Nuri anders macht
+
 Cloudflare, Privy und Turnkey bauen Wallet-Infrastruktur für Unternehmen, und da bleibt der Anbieter der Ausgangspunkt. Breez nutzt Passkeys, um die Bitcoin-Seed-Phrase zu ersetzen, aber eben nur dafür. Wir setzen bei Nuri beim Eigentum des Nutzers an und hängen den ganzen Finanzstack daran, also Bitcoin, Banking, die Karte und die Berechtigungen für KI.
+
+## Der Name Nuri
 
 Noch kurz zum Namen. Nuri ist dieselbe Marke wie früher, die wir von Bitwala übernommen haben, aber wir haben alles komplett neu aufgesetzt, mit einem neuen Team und neuer Technik. Geblieben ist nur das Ziel, mit dem Bitwala damals angetreten ist, und das ist Self-Custody, Banking und Bitcoin für alle. Diesmal auf einem Fundament, das auch trägt.

@@ -20,8 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/no-true-beginning-and-infinite-regression/"
+tldr:
+  - "I asked whether the universe could have no true beginning, with a black hole core that keeps feeding the expansion."
+  - "Grok said parts echo real models like Penrose's cyclic cosmology and black hole universes, but observations push back."
+basically:
+  my-question-about-the-beginning: "What if the universe has no true start, like pi, and a black hole at its core feeds the expansion?"
+  how-grok-read-the-idea: "Grok summed it up as an infinite process with a cycling black hole core, not a sharp start."
+  where-it-echoes-existing-theories: "The pieces exist: no-boundary, Penrose's cyclic aeons, universes inside black holes, bouncing cosmologies."
+  the-honest-verdict: "Not the consensus and not crackpot either. Observations push back, but it sits near real alternatives."
 ---
 ![](../../../media/no-true-beginning-and-infinite-regression/cover.jpg)
+
+## My question about the beginning
 
 I have a question about the beginning of the universe. If we look at the universe as some sort like the Big Bang, and I don't say it's a dot, but it's actually something like a square, and when you look at it also from the directive of pi, which is basically an infinite number, then we could say that because it's an infinite number, you can indefinitely go closer and closer to the, let's say, to one point of the circle, but you can actually never reach it because we never know the infinite exact pi. And when we think about this, and I'm thinking about the Big Bang or like the start of the universe, and we could say that there was no start because you can just in infinite time go closer and closer, and you could basically, and at the beginning, you know, you could even think about that more, that all the matter of the universe was more and more compressed.
 
@@ -30,6 +40,8 @@ So basically, we talk about the beginning of the universe as no matter how much 
 And now I think that that maybe, like in many things, the, what the, what a black hole that we know, what we see, not the beginning of the universe, but the other black holes that we see, that they are a combination of like where everything ends up in the event horizon, that they, because they basically, they suck everything in, and then they re-emit it through radiation until they disappear again. So exactly that same thing basically could be the beginning of the universe, and it's a, it's like a, it's like a, it's like a circle.
 
 I hope you understand all these things. Maybe there are different, different and similar approaches. I don't know if everybody, anybody put this together like I did, and would like to have your honest opinion on this.
+
+## How Grok read the idea
 
 I asked Grok. This is its answer.
 
@@ -42,6 +54,8 @@ The "core" of the universe acts like a dynamic black hole that constantly emits 
 And the black holes we observe today mirror this process. They pull in matter, reach an event horizon and re-emit it as radiation until they evaporate, maybe recycling into new structures. So the whole universe could be part of a larger cyclic loop, like a circle where beginnings and ends blur.
 
 This has a poetic, philosophical flavor. It treats the cosmos as self-sustaining and infinite in both directions and avoids a hard "creation" moment. It's not unlike how some thinkers use math, like pi's irrationality, as a metaphor for unresolved infinities in nature.
+
+## Where it echoes existing theories
 
 Your speculation isn't entirely unique. It echoes several ideas physicists have proposed over the years, though often with more mathematical rigor and without the direct pi metaphor, which seems like your personal twist to show asymptotic infinity.
 
@@ -62,6 +76,8 @@ Pi and infinity as metaphors. Pi isn't directly used in these theories, but your
 Other related concepts are "bouncing cosmologies", where the universe contracts and expands again and again (though some studies argue they still need an ultimate start), and eternal inflation, where our universe is one bubble in an infinite multiverse with no global beginning.
 
 Has anyone "put this together" exactly like you? Not word for word, but the pieces are out there in papers, books (like Penrose's *Cycles of Time*) and online discussions. Your synthesis, with the pi metaphor, the square (maybe as a non-point singularity?) and the focus on a dynamic central black hole, is a fresh personal spin. It's a bit like how lay thinkers sometimes reframe pro ideas, and it's cool that you connect dots across fields.
+
+## The honest verdict
 
 Then it gave its honest opinion.
 

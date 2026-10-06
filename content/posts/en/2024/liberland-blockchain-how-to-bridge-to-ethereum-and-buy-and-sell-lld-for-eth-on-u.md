@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-uniswap-d157543258e7"
+tldr:
+  - "The Liberland Blockchain has two tokens, LLD for money and LLM for governance and ownership."
+  - "You can stake LLD by running a validator or by nominating one, and you get liquid LLLD back."
+  - "To sell LLD for ETH you bridge it from Liberland to SORA to Ethereum with Polkaswap and swap it on Uniswap."
+basically:
+  the-tokens: "LLD is the currency and LLM is the governance token, and governance needs staked LLM."
+  staking-lld: "Run a validator with 200 LLD or nominate one, and get liquid LLLD back for your stake."
+  bridging-from-liberland-to-sora-to-ethereum-with-polkaswap: "Unpool LLM, buy LLD, bridge it via SORA to Ethereum, then swap it for ETH on Uniswap."
 ---
 ![](../../../media/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-u/01-d46f5586.jpeg)
 
