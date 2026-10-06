@@ -1,0 +1,72 @@
+# Build, test and deploy to Cloudflare Workers + Static Assets on every push to
+# main. GitHub stays the source of truth; nobody deploys by hand.
+# Required repo secrets: CLOUDFLARE_API_TOKEN (Workers Scripts:Edit +
+# Account:Read + Zone:Workers Routes:Edit for the zone), CLOUDFLARE_ACCOUNT_ID.
+name: deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Test build (with synthetic fixtures) and engine tests
+        run: npm run build:test && npm test
+      - name: Production build
+        run: npm run build
+      - name: Origin parity check (Node server, all verify scripts)
+        run: |
+          node server.mjs & sleep 2
+          npm run verify:all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Generate content graph for the Worker bundle
+        run: npm run content
+      - name: Deploy Worker + assets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --var GIT_SHA:${{ github.sha }}
+      - name: Smoke test
+        run: |
+          sleep 5
+          curl -fsS https://emin.de/health
+          curl -fsS -H 'Accept: text/markdown' https://emin.de/ | head -3
+      - name: IndexNow ping for changed posts
+        run: node plugins/indexnow.mjs --since ${{ github.event.before }} || true

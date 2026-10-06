@@ -5,9 +5,22 @@
 // Rule: if you add a page to STATIC_PATHS in src/lib/site.mjs, add its mirror
 // here. scripts/verify-agent-ready.mjs fails the build if one is missing.
 
-import { SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME, KNOWS_ABOUT, AUTHOR_SAME_AS } from '../lib/site.mjs';
+import { SITE, SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME, KNOWS_ABOUT, AUTHOR_SAME_AS } from '../lib/site.mjs';
+import { principlesMarkdown } from './principles.mjs';
+import { DISCLOSURE } from '../lib/magazine.mjs';
+import photoData from '../generated/photos.json' with { type: 'json' };
+
+const analyticsOn = SITE.analytics.posthog.enabled || SITE.analytics.ga4.enabled;
 
 export const pageMarkdown = {
+	'/principles': () => principlesMarkdown('en'),
+	'/de/principles': () => principlesMarkdown('de'),
+	'/photos': () => `# Photos
+
+> Photographs by ${AUTHOR_NAME}.
+
+${photoData.photos.length ? photoData.photos.map((p) => `- ![${(p.alt.en || p.caption.en || '').replace(/[[\]]/g, '')}](${SITE_ORIGIN}${p.src})${p.caption.en ? ` ${p.caption.en}` : ''}${p.place ? ` (${p.place})` : ''}`).join('\n') : 'No photographs published yet.'}
+`,
 	'/agent-ready': () => `# Agent ready
 
 > Agent readiness means a non-human client can discover and use your content without parsing your layout. Four public scanners grade it and they measure different things. Two checks, Link headers and Markdown negotiation, are response behaviour that no static host can provide.
@@ -53,7 +66,13 @@ Source code: [github.com/eminogrande/emin-de](https://github.com/eminogrande/emi
 
 	'/about': () => `# About
 
-> ${AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. This site is where the engineering behind it gets written down properly.
+> ${AUTHOR_NAME} is a journalist and publisher (${SITE.publisher.publication.name}, Berlin) and builds Bitcoin self-custody and agent-payment infrastructure. This site is where it gets written down properly.
+
+## Journalist and publisher
+
+I published [${SITE.publisher.publication.name}](${SITE.publisher.publication.url}), a Berlin print magazine archived in the German National Library ([archive](${SITE.publisher.publication.archive})). The core rule of this site follows from that: free speech. Nothing here is censored. AI help is labelled, the words are mine. Details: [Principles](${SITE_ORIGIN}/principles).
+
+${DISCLOSURE.en}
 
 ## What I work on
 
@@ -72,6 +91,10 @@ Long-form, one subject per piece, only about things actually built or measured. 
 ## Elsewhere
 
 ${AUTHOR_SAME_AS.map((url) => `- ${url}`).join('\n')}
+
+## Who else writes here
+
+Some posts may come from the [AI desk](${SITE_ORIGIN}/author/ai-desk): an openly named AI writing desk, not a person, labelled "AI-written, human-supervised" on every post and in the metadata.
 
 Contact: hello@emin.de
 `,
@@ -101,29 +124,28 @@ Guest-post offers, link exchanges, paid placements and SEO outreach. Nothing her
 
 	'/privacy': () => `# Privacy
 
-> There is no tracking on this site, so there is not much to disclose.
+> ${analyticsOn ? 'Analytics is switched on in a cookieless mode; see below.' : 'There is no tracking on this site, so there is not much to disclose.'}
 
 ## What is not collected
 
-- No analytics product, first or third party.
-- No cookies are set by this site.
+- ${SITE.analytics.posthog.enabled ? 'PostHog web analytics runs in cookieless mode: no cookies, no local or session storage, no person profiles, no session recording.' : 'No analytics product, first or third party.'}
+- No cookies are set by this site${SITE.analytics.ga4.enabled ? ', unless you opt in to Google Analytics below' : ''}.
 - No advertising or retargeting pixels.
-- No third-party fonts, scripts or embeds. Every asset is served from this domain.
 - No account system, so no personal data is stored.
 
 ## What is collected
 
-Standard web server access logs: IP address, timestamp, requested path, response status, user agent and referrer. They exist to operate the server and to count how often AI crawlers fetch content. They are not joined to any other dataset and are not sold or shared.
-
+Standard edge or web server access logs: IP address, timestamp, requested path, response status, user agent and referrer. They exist to operate the site and to count how often AI crawlers fetch content. They are not sold or shared.
+${SITE.analytics.ga4.enabled ? '\n## Google Analytics (opt-in only)\n\nGoogle Analytics 4 loads only after you opt in on this page. The choice is stored in your browser (localStorage key analytics-consent). You can withdraw it the same way.\n' : ''}
 ## If you email
 
-Mail to hello@emin.de is stored in a normal mailbox and kept as long as the conversation is useful. There is no marketing list.
+Mail to ${SITE.email} is stored in a normal mailbox and kept as long as the conversation is useful. There is no marketing list.
 
 ## Agents and API requests
 
-API and MCP requests are logged like page requests. The paid corpus endpoint processes an x402 challenge; settlement happens on a public blockchain outside this site's control. No payment identifiers are stored beyond the server log.
+API and MCP requests are logged like page requests. The paid corpus endpoint processes an x402 challenge; settlement happens on a public blockchain outside this site's control.
 
-Contact: hello@emin.de
+Contact: ${SITE.email}
 `,
 
 	'/developers': () => `# Developers

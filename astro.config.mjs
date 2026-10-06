@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 // a pure static host can never pass those agent-readiness checks.
 export default defineConfig({
 	site: 'https://emin.de',
-	build: { inlineStylesheets: 'never' },
+	// CSS is inlined: one render-blocking request less on slow mobile links.
+	build: { inlineStylesheets: 'always' },
 	vite: { build: { assetsInlineLimit: 0 } },
 });
