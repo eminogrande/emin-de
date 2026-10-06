@@ -20,10 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/re-architecting-the-blockchain-execution-layer-how-the-fate-vm-solves-evms-fundamental-flaws-ddcb8f74b251"
+tldr:
+  - "Dr. Erik Stenman built FATE, a typed VM for Aeternity, to fix the design flaws of the EVM."
+  - "FATE drops flat memory and arbitrary jumps and puts typed variables, functions, big integers and maps into the VM."
+  - "In Stenman's benchmark the bytecode is about 9.6 times smaller and runs three times faster than on the EVM."
+basically:
+  why-the-evm-needs-fixing: "An untyped stack machine with flat memory and raw 256-bit words gives bloated, slow and unsafe contracts."
+  typed-variables-instead-of-flat-memory: "No raw memory pointers. FATE variables carry their own type tag, and negative names write to state."
+  functions-instead-of-arbitrary-jumps: "Callers name a typed function, and code is only basic blocks, so invalid jumps cannot happen."
+  high-level-data-types-and-maps-in-the-vm: "Big integers, tuples, lists, chain types and maps live in the VM, so compilers skip the boilerplate."
+  the-results: "About 9.6 times smaller bytecode, three times faster execution and lower gas for the end user."
 ---
 If you read this article and feel interested in working with me, Emin Mahrt, on similar amazing things, please feel free to contact me via emin@nuri.com. The following article is based our past work, re-architecting Ethereums EVM. I was just a spectator, but it was one of the most interesting things in the past years to follow, and listen to, so i thought its a nice thing to share it here for others.
 
 <https://www.youtube.com/watch?v=a77DGGzMyN8>
+
+## Why the EVM needs fixing
 
 When you look at the Ethereum Virtual Machine (EVM) from the side of language design and low-level runtime safety, you see a lot of bottlenecks in the architecture. The EVM is an untyped, stack-based machine with a flat memory model, and it relies heavily on low-level byte manipulation, arbitrary jumps and raw 256-bit words. That worked to bootstrap the early smart contract ecosystem, but these design choices led to bloated bytecode, slow execution and frequent security holes.
 
@@ -54,6 +66,8 @@ The EVM natively knows exactly one data type, a 256-bit word. To work with strin
 FATE puts complex data types directly into the VM runtime, and that cuts bytecode bloat and execution overhead a lot. Instead of a hardcoded 256-bit limit, which risks overflows or forces you to include expensive SafeMath libraries, FATE supports integers of infinite size natively. It handles Tuples, Lists and Variant Types (for example Optional types) natively. And blockchain things like Addresses, Contracts, Oracles and State Channels are native, heavily optimized types in FATE. When you work with them, the VM runs native opcodes that plug directly into the transaction mechanics of the node, and it skips the massive overhead of EVM external calls.
 
 In the EVM, storing mappings (key-value stores) means you hash the key with the position of the storage slot to get a random 256-bit storage address. That makes iterating over mappings impossible, and reads and writes are relatively expensive. Stenman designed Maps as a separate thing, handled outside the normal variable storage. FATE allows local memory maps, but state maps are stored efficiently right inside the Aeternity state tree. A developer works with the map naturally, and the FATE engine defers and batches the real reads and writes to the state tree and only reads exactly the elements you asked for.
+
+## The results
 
 By removing flat memory, adding native high-level types and strict basic-block control flow, Stenman cut out the massive compiler boilerplate that plagues EVM smart contracts. The results in Stenman’s benchmark are big. FATE contract bytecode is about 9.6 times smaller (roughly 10% of the size) than the same contract compiled for an EVM architecture. And because the VM spends zero cycles on parsing padding bytes, calculating memory offsets or running monolithic jump routing, FATE runs three times faster and the gas costs for the end user go down a lot.
 

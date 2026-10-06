@@ -20,6 +20,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/building-ai-optimized-blog-complete-guide/"
+tldr:
+  - "One real session building emino.app, a Hugo blog on a Hetzner server that AI search can find and read."
+  - "The broken domain was DNS: ALIAS and CNAME records pointed to AWS instead of A records to my server."
+  - "llms.txt, a robots.txt that welcomes AI crawlers, GitHub Actions deploys and cron scripts keep it running."
+basically:
+  finding-the-dns-problem: "The server was fine. Porkbun ALIAS and CNAME records sent the domain to AWS, not to my Hetzner box."
+  why-self-hosting-llmstxt-and-hugo: "Self-hosting gives full control over AI crawlers, llms.txt helps LLMs, and Hugo builds in milliseconds."
+  setting-up-hugo: "A records fixed the DNS. Hugo came from a .deb package after snap failed, with the PaperMod theme."
+  llmstxt-and-robotstxt: "llms.txt is the core of the setup, and robots.txt says clearly that AI crawlers are welcome."
+  deploy-health-check-and-seo-scripts: "A deploy script, an 11-point health check and an SEO optimizer run by themselves with cron."
+  github-and-a-deploy-user: "A deploy user that isn't root, the right GitHub name everywhere and a GitHub Actions workflow."
+  what-went-wrong: "SSH keys beat me, YAML front matter broke Hugo and I got stuck in heredoc. All of it got fixed."
+  what-runs-now: "The blog is live on emino.app, deploys itself, answers in under 100ms and runs under a non-root user."
+  why-this-setup-works-for-ai: "Static HTML, markdown, clear headings and llms.txt are what AI crawlers read best."
+  what-the-monitoring-shows: "The health check prints a status report, and the daily SEO optimizer keeps the AI setup fresh."
+  what-i-learned: "Find the real problem first, let research decide, think about AI first and automate the upkeep."
+  the-stack-and-links: "Hetzner, Nginx, Hugo with PaperMod, GitHub Actions, Let's Encrypt, cron scripts and Porkbun A records."
 ---
 ![](../../../media/building-an-ai-optimized-blog-with-hugo-a-complete-devops-journey/cover.jpg)
 
@@ -34,6 +51,8 @@ That worked, so we had access to the server. Then I asked for what I actually wa
 > "can you check why my domain emino.app is not connected and https does not work and https does not work? can you make it work and connect it to a blog, i want a blog, maybe ghost blog, that is optimized for LLM search and ai search optimization so chatgpt can find and index it easy, i was thinking to work primarily with markdown files, and slowly add features and functionality, and have my blog and files on github and also rendered as a nice blog, what would you suggest i use ? maybe go with github pages directly or rather self-host something here - what do you think gets the best indexing and attention? do some websearch and ideas first dont code"
 
 So the job had three parts. Fix the DNS, set up a blog, and make it easy for AI to find.
+
+## Finding the DNS problem
 
 First we looked at the domain.
 
@@ -66,6 +85,8 @@ nslookup -type=NS emino.app
 
 I shared a screenshot of my Porkbun DNS settings. There was an ALIAS record pointing to pixie.porkbun.com, and a CNAME for *.emino.app also pointing to pixie.porkbun.com. That was the issue. The domain used ALIAS and CNAME records that went to AWS, when it needed A records pointing to the Hetzner server.
 
+## Why self-hosting, llms.txt and Hugo
+
 We did some web searches during the session, and the answer was self-hosting. With your own server you get full control over robots.txt and how you treat AI crawlers.
 
 You can set up llms.txt and llms-full.txt properly. You get better performance numbers, and that changes how high AI puts you. You can send custom headers for AI user agents like ChatGPT-User and Claude-Web. You can pre-render JavaScript content, and you have more freedom for schema markup and structured data.
@@ -75,6 +96,8 @@ The thing I found most interesting was llms.txt. Jeremy Howard introduced it in 
 It makes AI answers about your content more correct, more relevant to what people search, and more complete, and your docs get seen more. Per the research we found it can raise referral traffic from AI platforms by 800%+.
 
 For the blog itself we picked Hugo. It builds in milliseconds, not seconds. It works with markdown out of the box, and AI models like markdown. The HTML it puts out is clean, so AI can parse it easily. It has SEO features built in, and the output is static, which is perfect for AI crawlers.
+
+## Setting up Hugo
 
 I fixed the DNS and sent the next prompt.
 
@@ -136,6 +159,8 @@ Title = "Welcome to Emino Blog"
 Content = "AI-optimized content for modern developers and tech enthusiasts."
 ```
 
+## llms.txt and robots.txt
+
 The llms.txt is the core of the whole thing.
 
 ```text
@@ -180,6 +205,8 @@ Sitemap: https://emino.app/sitemap.xml
 
 We also made some sample posts with a structure AI can parse well. Clear headings in order from H1 to H2 to H3, sections as question and answer, code examples in markdown blocks, full coverage of a topic, and topics grouped together.
 
+## Deploy, health check and SEO scripts
+
 For deploying there is a `deploy.sh`.
 
 ```bash
@@ -209,6 +236,8 @@ Both run with cron.
 # SEO optimization daily at 3 AM
 0 3 * * * /var/www/emino-blog/seo-optimizer.sh > /var/log/blog-seo.log
 ```
+
+## GitHub and a deploy user
 
 Next was GitHub and a user that isn't root.
 
@@ -264,6 +293,8 @@ jobs:
           rsync -av --delete public/ /var/www/apps/main/
 ```
 
+## What went wrong
+
 Then things went wrong. First I had problems with the SSH keys.
 
 > "i am too stupid help me! i couldnt add the key here locally, i couldnt get it on github lol i am an idiot"
@@ -286,6 +317,8 @@ And at one point my terminal was stuck at heredoc>.
 
 You type `EOF` on its own line and the heredoc input is done.
 
+## What runs now
+
 The blog is live at https://emino.app. For AI there is llms.txt, a robots.txt that lets the AI crawlers in, structured data on all posts and clean HTML. GitHub Actions deploys automatically, the health check runs every 6 hours, the SEO optimization runs daily and broken links get found.
 
 Response times are under 100ms (sub-100ms), pages are light (<10KB) and Hugo builds in ~100ms.
@@ -296,11 +329,15 @@ For security there is a deploy user that is not root, login only with SSH keys, 
 
 That was my last prompt. We made a test post, pushed it to GitHub, and the automatic deploy worked.
 
+## Why this setup works for AI
+
 AI crawlers like static HTML more than sites heavy on JavaScript. AI models are trained on markdown, so it's the format they like best. Headings in a clear order help AI see how the content fits together. The robots.txt says clearly that AI crawlers are welcome. And llms-full.txt puts all content in one place, so it's easy to take in.
 
 llms.txt matters because it's made for LLMs, not for old search engines. It tells them what your site is for and how it's built, it points to your most important content, and it can raise the traffic you get from AI by a lot.
 
 Self-hosting on Hetzner instead of GitHub Pages gave us full control over the server config, the option to run scripts on the server, our own nginx config, direct SSH access for maintenance and better performance numbers.
+
+## What the monitoring shows
 
 This is what the health check prints.
 
@@ -322,11 +359,15 @@ Summary: Blog is in perfect health!
 
 The SEO optimizer runs every day. It updates llms-full.txt with new content, sets the sitemap priorities, adds structured data to new posts, looks for broken links and checks that the AI setup is still right.
 
+## What I learned
+
 Going from a broken DNS config to a blog that runs by itself taught me a few things.
 
 Find the real problem before you build anything. Let research make the decisions, which is why it's Hugo and not Ghost. Think about AI first when you build for the web now. Automate the maintenance and the optimizing. And watch the health all the time.
 
 So the blog is live, and it's built for where search is going. AI assistants are how most people find things now.
+
+## The stack and links
 
 The stack is a Hetzner Ubuntu VPS with Nginx 1.24.0, Hugo 0.148.2 Extended with the PaperMod theme, Git and GitHub, GitHub Actions for CI/CD, Let's Encrypt (Certbot) for SSL, my own bash scripts with cron for monitoring, and Porkbun with A records for DNS.
 

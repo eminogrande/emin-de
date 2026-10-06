@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-2020-investment-protocol-a-crisis-management-case-study/"
+tldr:
+  - "On day 12 of the 2020 lockdown I wrote down an investment plan with a 10-year horizon, so I would not decide on emotions."
+  - "I bought companies with a steady 3, 5 and 10 year graph, plus contrarian bets, Bitcoin, gold and seed investments."
+  - "By April 9th buying felt like an addiction, so I set up a strict checklist with margin, debt and growth rules."
+basically:
+  how-i-picked: "I looked at the long graph, read the crash as a cash panic and used my own money to force the research."
+  what-i-bought-and-why: "Digital payments and infrastructure first: Visa, Mastercard, Amazon, Adobe and TSMC."
+  value-hardware-and-healthcare: "Lenovo, Getinge, Pfizer and Bayer came from using the products and from people on the inside."
+  contrarian-bets-bitcoin-gold-and-seed-money: "Rheinmetall and Airbus as too big to fail, then Bitcoin, gold and small seed bets for the long run."
+  the-day-22-checklist: "Profit margin above 20%, debt to equity below 60% and five years of steady growth, or no buy."
+  what-the-plan-was-really-about: "Accepting that markets could fall 50% more took the freeze away, and the mix spread the risk."
 ---
 ![](../../../media/the-2020-investment-protocol-a-crisis-management-case-study/cover.jpg)
 
@@ -34,6 +45,8 @@ The starting point was very clear.
 > "I am not a trader, so my focus is on companies I believe in and I believe will grow in their stock value over the next 5 to 10 years. In short: they will be worth more in 10 years as they are on the day I buy them."
 
 So this is a look back at that plan, at the companies I picked and at my reasons, right in the middle of the crisis.
+
+## How I picked
 
 I tried to make complex market data simple. I looked at how a stock did in the past, in a picture you can just see, and at how good the real products are.
 
@@ -69,6 +82,8 @@ TSMC, Taiwan Semiconductor, was the pick and shovel play for the whole tech indu
 
 > "Past development is important for me... I’m also not happy with companies who only have a profit margin of 1-4%."
 
+## Value, hardware and healthcare
+
 The second group is value, hardware and healthcare. Here my reasons came from using the products and from people on the inside, what some call scuttlebutt investing.
 
 With Lenovo the stock price and the quality of the products just didn't match.
@@ -82,6 +97,8 @@ Getinge, a med tech company, came from first hand info from someone in my family
 Pfizer and Bayer looked too cheap for something so essential. I picked Bayer even with the Monsanto risk to its name, because I have a long trust in how German companies are run.
 
 > "The chance that they will grow due to high demand in healthcare just 'makes sense' for me."
+
+## Contrarian bets, Bitcoin, gold and seed money
 
 The third group is contrarian and infrastructure bets. These companies had big problems or ethical questions, and I bought them because the system needs them.
 
@@ -108,6 +125,8 @@ And then seed investments through crowdfunding. Xolo OU, because I already used 
 By April 9th I moved from gut feeling to hard numbers. Buying had started to feel like an addiction, so I set up a strict checklist to slow it down.
 
 A company needed a profit margin above 20%, to filter out shaky business models. Debt to equity should be below 60%, so the company is healthy. Revenue and earnings had to grow steadily over 5 years. I used P/E, price to earnings, and P/B, price to book, to find companies that are cheap compared to the cash they will make later. And looking at the competitors was a must, to see if the market share can hold.
+
+## What the plan was really about
 
 In the end the 2020 Let's Go document is a case study in handling your own head as an investor. I accepted that markets could fall even more, 30-40 or even 50%, and that took away the freeze that so often comes with a crash.
 

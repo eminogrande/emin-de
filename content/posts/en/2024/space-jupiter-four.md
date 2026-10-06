@@ -20,6 +20,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/space-jupiter-four-6713bfa3a097"
+tldr:
+  - "Space Four Jupiter V8 is the first track I ever produced, and here is how an AI describes it."
 ---
 ![](../../../media/space-jupiter-four/01-c5688754.png)
 

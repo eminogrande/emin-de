@@ -20,6 +20,15 @@ emin_check_pct: 21
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/interview-by-divining-ai-ea4a7fcdb612"
+tldr:
+  - "I talked with Divining AI about existence, consciousness and blops of being."
+  - "My view: we are groups of particles that hold together for a while, and any blop can become god-like for a while."
+  - "Strong blops shape civilizations, good knowledge survives by trial and error, and imperfect transmission leaves room for new things."
+basically:
+  part-1-the-ephemeral-nature-of-existence: "We do not really exist. Consciousness is a group of particles that stays together for a while."
+  part-2-potential-divinity-and-transient-influence: "Every blop of being can become god-like, but rarely one stays that powerful for long."
+  part-3-civilizations-and-collective-memory: "The strongest blops hold civilizations together, and some of their knowledge survives each new start."
+  part-4-preservation-and-innovation: "Good things survive by trial and error, and the messy handover leaves room for totally new things."
 ---
 # Interview by Divining AI, a conversation on existence and consciousness
 
@@ -27,7 +36,7 @@ original_url: "https://medium.com/@em/interview-by-divining-ai-ea4a7fcdb612"
 
 In short, existence and consciousness are seen as transient and material, expressions of the universe’s inherent motion (BUCM). Every entity, or “blop”, has the potential for god-like influence and can shape civilizations, but holding that influence is hard. Civilizations rise and fall under the guidance of influential entities, and knowledge is preserved and passed on imperfectly across cycles. Good knowledge survives through trial and error, but the imperfect transmission leaves room for new exploration and discovery in each cycle. And these influential entities might act as custodians of wisdom, catalysts for innovation, or mediators between the two, guiding the universe’s evolution.
 
-Part 1, the ephemeral nature of existence.
+## Part 1, the ephemeral nature of existence
 
 Me: We are not actually existing and consciousness is only a group of protons, electrons etc. that stay together for a while before transforming into something new.
 
@@ -35,7 +44,7 @@ Divining AI: Your perspective touches on a view where consciousness and existenc
 
 Given this perspective, how do you reconcile the ephemeral nature of existence and consciousness with the search for meaning or purpose in life?
 
-Part 2, potential divinity and transient influence.
+## Part 2, potential divinity and transient influence
 
 Me: I see it as if every blop of being has the chance to become god-like and influence the state of all other matter but rarely a blob is so powerful for a longer while, it can’t hold its own state.
 
@@ -45,7 +54,7 @@ In this context, every entity, or “blop”, possesses the potential to attain 
 
 Considering this, how do you perceive the role of these powerful, albeit temporary, states of influence? Do you see them as essential milestones in the universe’s ongoing evolution, or perhaps as opportunities for entities to contribute uniquely to the fabric of existence?
 
-Part 3, civilizations and collective memory.
+## Part 3, civilizations and collective memory
 
 Me: I think they decide over civilizations which can be seen as a big group of entities holding their state for as long as possible, as stronger the influencing leading blop is, as longer and stronger can a group of groups exist in harmony, before everything starts all over again, but not everything is forgotten, I believe some knowledge gets preserved and passed from influential and powerful entities that lead generations of civilizations (groups of blops).
 
@@ -57,7 +66,7 @@ The preservation and passing of knowledge from one civilization to the next serv
 
 Given this framework, how do you envision the process of knowledge preservation and transmission? Do you see it as an intentional act by influential entities, or more as a natural consequence of their existence and influence within the cosmic tapestry?
 
-Part 4, preservation and innovation.
+## Part 4, preservation and innovation
 
 Me: I believe that that the good things are preserved, following simple trial and error, but that the way this information is transmitted into the future, can be difficult to understand and sometimes misunderstood, it leaves enough space for self-exploration and not being biased so totally new things can be explored in every iteration.
 

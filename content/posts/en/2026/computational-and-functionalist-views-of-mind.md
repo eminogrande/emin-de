@@ -20,8 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100003-computational-and-functionalist-views-of-mind/"
+tldr:
+  - "Computational and functionalist models say the mind is defined by what it does, not by what it is made of."
+  - "Each model explains some things and fails at others, and most skip why computation feels like anything."
+  - "No single model wins. The real signal is where many frameworks agree."
+basically:
+  computationalism-and-its-critics: "If mind is computation, copy the computation and you copy the mind. Putnam later called that trivial."
+  blum-dennett-and-minsky: "The Blums make consciousness formal, Dennett calls qualia an illusion, Minsky sees a society of agents."
+  ai-and-simulation: "LLMs blur the line between understanding and computing, and Bostrom stress-tests what that means."
+  resonance-biology-and-the-medium: "Grossberg ties awareness to resonance, and biocomputation asks if the medium matters, not just the code."
+  complexity-and-criticality: "Self-organizing brains near the edge of chaos may explain fluid awareness, or emergence is just a label."
+  holograms-quantum-and-math: "Holograms, quantum coherence and formal math all promise precision, and all risk measuring stand-ins."
+  read-across-them: "Computational models skip experience, biological ones resist math, mathematical ones may miss the target."
 ---
 This is a guide across the big models of consciousness. No single model wins. Each one explains some things well and fails at others. The value is in reading across them and seeing where they agree.
+
+## Computationalism and its critics
 
 Computationalism says consciousness is computation. Mental states are functional states, and they are defined by what they do and what they cause, not by what they're made of. So if you can copy the computation, you copy the mind.
 
@@ -30,6 +44,8 @@ This is the default idea behind strong AI. But the hard problem is still open. W
 Hilary Putnam helped start computationalism and then he turned against it. His multiple realizability argument, the idea that minds aren't tied to one kind of hardware, first backed functionalism.
 
 But later he argued that you can map any physical system onto any computation if you pick the right reading of it. That makes computationalism true in a trivial way, and so it says nothing. If everything computes everything, then computation tells you nothing about consciousness in particular.
+
+## Blum, Dennett and Minsky
 
 Lenore and Manuel Blum built a computational model of consciousness that comes out of theoretical computer science. It uses a conscious Turing machine (CTM) with a small, finite working memory, and that memory makes the "theater" of awareness.
 
@@ -43,6 +59,8 @@ Marvin Minsky's "Society of Mind" sees consciousness as something that comes out
 
 It's a deflationary view. Consciousness isn't one thing, it's a word we use for a bunch of mechanisms. It's good at explaining how varied and modular the mind is, and bad at explaining why experience feels like one thing.
 
+## AI and simulation
+
 Blaise Aguera y Arcas argues from modern deep learning that large language models show behavior you can't tell apart, in what it does, from parts of consciousness. He doesn't claim LLMs are sentient.
 
 He claims the line we draw between real understanding and mere computation may mean less than we think. It's a pragmatic view, close to behaviorism. The main flaw is that being the same in the output doesn't prove being the same in the experience.
@@ -50,6 +68,8 @@ He claims the line we draw between real understanding and mere computation may m
 Nick Bostrom's simulation argument is only related from the side. If consciousness is computation, then beings in a detailed enough simulation would be conscious. His trilemma follows from computationalist premises.
 
 Either civilizations die out, or they choose not to run simulations, or we are almost surely in one. It's less a theory of consciousness and more a stress test of what computationalism means if you take it all the way.
+
+## Resonance, biology and the medium
 
 Stephen Grossberg's Adaptive Resonance Theory (ART) sees consciousness as resonant states between signals from the senses coming up and expectations coming down. When they match, a resonant state forms, and that is the neural correlate of awareness. When they don't match, the system resets and learns something new.
 
@@ -63,6 +83,8 @@ Hackenhoff is a less known name who looks at how living matter computes in a dif
 
 This goes against substrate-independence, which is the core idea of classical computationalism, and it lines up with embodied cognition. The argument is that you can't abstract away the wetware without losing something that is key to the experience.
 
+## Complexity and criticality
+
 Then there are complex adaptive systems. Here consciousness comes out of systems that organize themselves, are nonlinear and run far from equilibrium. The brain isn't running a program. It's a dynamic system, and its global patterns, so consciousness, can't be reduced to local rules.
 
 The good part is that this explains how fluid awareness is and how much it depends on context. The weak part is that emergence can be a label for what we don't know instead of an explanation.
@@ -74,6 +96,8 @@ Power-law distributions in neural avalanches back the idea, and anesthesia seems
 Mikilineni and colleagues look at consciousness through information integration and measures of neural complexity. This work links theory, like IIT, with measurement, and it tries to put a number on levels of consciousness from brain data.
 
 The value is that it turns philosophy into something you can measure. The risk is that the metric catches something that goes along with consciousness and not consciousness itself.
+
+## Holograms, quantum and math
 
 Karl Pribram's holonomic brain theory says the brain stores information like a hologram, spread across the whole thing and not in one spot. Interference patterns in dendritic networks carry information, not just action potentials.
 
@@ -88,6 +112,8 @@ Bitar looks at how the structure of information relates to conscious experience,
 And then there are mathematical models in general, the wider group of formal approaches. Integrated Information Theory (Tononi's Φ), the Bayesian brain and predictive processing (Friston's free energy), and models from category theory.
 
 The promise is to replace philosophy in words with math you can test. The danger is false precision. A clean equation that measures the wrong thing still tells you nothing about consciousness.
+
+## Read across them
 
 So no single model solves consciousness. The computational models are precise but skip experience. The biological models take the substrate seriously but are hard to put in math. The mathematical models are rigorous but may be measuring stand-ins.
 

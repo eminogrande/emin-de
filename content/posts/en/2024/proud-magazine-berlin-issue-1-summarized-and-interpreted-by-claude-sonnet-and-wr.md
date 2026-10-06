@@ -20,6 +20,14 @@ emin_check_pct: 22
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-written-into-a-blog-f27d955cbe3a"
+tldr:
+  - "I ran the first issue of proud magazine Berlin through a gumloop.com flow."
+  - "It summarized the issue in bullet points, and Claude Haiku wrote a blog post of at least 444 words from that."
+  - "The result below is written by Claude Haiku, not by me."
+basically:
+  proud-magazine-unveiling-berlins-hidden-gems-and-shaping-urban-culture: "Claude Haiku presents proud magazine as a new voice for Berlin's diverse and hidden culture."
+  glamour-style-sexuality-and-wellness: "The mix covers local fashion, sexuality with sensitivity and wellness for busy city life."
+  shaping-the-city: "Haiku sees proud as a participant in shaping Berlin's future and an open invitation to readers."
 ---
 I’m experimenting with AI flows, and one of my newest findings is [gumloop.com](http://gumloop.com) making it exceptional easy to define a flow from a file, through multiple steps of data processing with AI. The following example took the first issue of proud magazine Berlin (Issue #1), interpreted and summarized it in bullet points, passed that summary to Claude Haiku, which wrote a “minimum 444 words blog post for medium.com”.
 
@@ -35,6 +43,8 @@ At its core, Proud Magazine is a celebration of diversity and creativity. The pu
 
 One of the most intriguing aspects of Proud Magazine is its commitment to uncovering the lesser-known facets of Berlin’s culture. While the city is renowned for its history, art scene, and nightlife, Proud aims to dig deeper, shining a spotlight on the underground movements, emerging trends, and hidden gems that give Berlin its distinctive character. This approach sets Proud apart from other urban publications, offering readers a fresh and authentic perspective on a city they thought they knew.
 
+## Glamour, style, sexuality and wellness
+
 The magazine’s content is a carefully curated mix of glamour, style, sexuality, and wellness. This eclectic blend reflects the diverse interests and lifestyles of Berlin’s inhabitants, acknowledging that urban dwellers are complex individuals with multifaceted lives. By addressing these various aspects, Proud creates a holistic representation of city life that resonates with its readers on multiple levels.
 
 Proud’s focus on glamour and style taps into Berlin’s reputation as a fashion-forward city. The magazine showcases local designers, street style, and emerging trends, celebrating the unique fashion sense that sets Berliners apart. However, Proud goes beyond surface-level aesthetics, delving into the stories behind the styles and the cultural significance of fashion in the urban context.
@@ -42,6 +52,8 @@ Proud’s focus on glamour and style taps into Berlin’s reputation as a fashio
 The inclusion of sexuality as a key theme is a bold move that aligns with Berlin’s reputation for openness and progressiveness. Proud tackles this topic with sensitivity and sophistication, exploring how sexuality intersects with urban life, relationships, and personal identity. By doing so, the magazine contributes to important conversations about sexual health, diversity, and empowerment.
 
 Wellness is another crucial component of Proud’s editorial mix. In a fast-paced urban environment, maintaining physical and mental well-being can be challenging. The magazine offers insights, tips, and stories related to health and wellness, tailored specifically for city dwellers. This focus on well-being demonstrates Proud’s commitment to nurturing not just the cultural landscape of Berlin, but also the individuals who call the city home.
+
+## Shaping the city
 
 Perhaps most importantly, Proud Magazine positions itself as more than just an observer of Berlin’s culture, it aspires to be an active participant in shaping the city’s future. By providing a platform for diverse voices and highlighting emerging trends, Proud aims to influence the direction of Berlin’s cultural evolution. The magazine invites its readers to join this journey, fostering a sense of community and shared purpose among its audience.
 

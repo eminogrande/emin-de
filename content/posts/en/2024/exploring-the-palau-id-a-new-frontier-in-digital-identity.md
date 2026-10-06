@@ -20,13 +20,27 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/exploring-the-palau-id-a-new-frontier-in-digital-identity-c38581451fa8"
+tldr:
+  - "The Palau ID is a government-issued digital residency ID that people from 138 countries can get without living in Palau."
+  - "It costs about $248, and people use it for crypto KYC, hotels, Wise and stays of up to 180 days in Palau."
+  - "Banks are mixed. One report says a Chase branch did not accept it."
+basically:
+  what-the-palau-id-is: "A legal ID from the government of Palau that you can get without ever living there."
+  what-people-use-it-for: "Bank accounts, crypto KYC, hotels, airports and Wise, for about $248 and 1, 5 or 10 years."
+  where-it-doesnt-work-yet: "Acceptance depends on the place, so test it and read the field reports first."
+  is-palau-a-real-country: "Yes. About 340 islands, around 18,000 people and a full UN member since 1994."
+  can-you-open-bank-accounts-with-it: "Reports are mixed. Crypto KYC mostly works, a Chase branch wanted a passport or US state ID."
 ---
 ![](../../../media/exploring-the-palau-id-a-new-frontier-in-digital-identity/01-b9208813.png)
 *[https://rns.id/app/palauidinfo](https://rns.id/app/palauidinfo)*
 
+## What the Palau ID is
+
 The Palau ID is officially called the Sovereignty-Backed ID. It's a program by the government of Palau that gives you a legal form of identification you can use for a lot of things. It's a digital residency, so it's not only for people from Palau. People from many other countries can get a recognized ID without living in Palau at all.
 
 The Palau ID is a government-issued ID card for any situation where you need legal proof of who you are. It's part of a bigger move to bring government services online and make international business easier. A lot of businesses and government offices accept it for KYC (Know Your Customer). It lets you open bank accounts in places like California and Nevada. And you can use it to check in at hotels around the world, often with a discount for holders.
+
+## What people use it for
 
 The ID comes with a digital residency, and people from 138 countries can apply without living in Palau. Digital nomads like it a lot, and also people who just want another ID. You can pick a validity of one year, 5 years or 10 years, and after that you renew it. People say they used it to open bank accounts, to pass KYC on crypto exchanges, to buy alcohol and for other things in shops, and to book places to stay and show who they are at airports. It's recognized in many places, so it helps when you travel and do business abroad. And compared to getting a similar ID from another country, applying is simple and cheap. It costs about $248.
 

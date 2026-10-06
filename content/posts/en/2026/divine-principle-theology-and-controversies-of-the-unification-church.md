@@ -20,6 +20,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/divine-principle-theology-and-controversies-of-the-unificati/"
+tldr:
+  - "A summary of third-party sources on Shinzo Abe's life and political legacy and on the history of the Unification Church."
 ---
 ![](../../../media/divine-principle-theology-and-controversies-of-the-unification-church/cover.jpg)
 

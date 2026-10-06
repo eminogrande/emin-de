@@ -20,6 +20,16 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/agentic-wallets-passkey-prf-the-nuri-com-security-architectu/"
+tldr:
+  - "At nuri.com we derive wallet keys from the passkey PRF extension, so no seed phrase or secret is stored."
+  - "A decaying multisig needs 2-of-2 in normal use and falls back to 1-of-1 after a time-lock if the service goes away."
+  - "Agents prepare transactions, but only the user's biometric passkey can sign them."
+basically:
+  the-hardware-is-the-seed: "The authenticator gives the same PRF output every time, so keys are derived on the fly and wiped."
+  a-multisig-that-decays: "2-of-2 with the service in normal times, 1-of-1 after a time-lock, so nobody can lock you out."
+  agents-prepare-you-sign: "The agent is the pilot, but the user's thumbprint is the ignition key."
+  not-only-evm: "One derived master seed works on Bitcoin with SegWit and Taproot and on EVM chains."
+  why-it-matters: "No seed phrase to lose, no password to phish and no provider that can freeze your money."
 ---
 # Agentic wallets and passkey PRF, the security setup behind nuri.com
 

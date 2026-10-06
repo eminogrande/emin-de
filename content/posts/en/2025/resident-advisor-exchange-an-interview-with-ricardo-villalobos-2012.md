@@ -20,6 +20,21 @@ voice_check:
   unobserved: 423
 emin_check_pct: null
 original_url: "https://emino.app/posts/resident-advisor-exchange-an-interview-with-ricardo-villalob/"
+tldr:
+  - "In RA Exchange 100 from around 2012, Todd L. Burns talks to Ricardo Villalobos about his back, vinyl, the internet, parties and his ECM album with Max Loderbauer."
+  - "Ricardo says belonging and dependency make people happy, not independence."
+  - "He calls staying out of competition the most important sentence in his life."
+basically:
+  his-back-and-the-records-on-the-floor: "Years bent over records on the floor and low turntables cost Ricardo his back, until he trained it again."
+  vinyl-privacy-and-the-internet: "Vinyl pays for the whole scene. The internet, to Ricardo, is a spy machine that knows more than his wife."
+  parties-and-the-doctrine-of-dependency: "For Ricardo a party is a rare peaceful get-together, and belonging to a group beats independence."
+  darmstadt-kitchen-parties-and-frankfurt: "Chilean kitchen parties, basement after-hours with Carl Craig and Frankfurt record stores shaped him."
+  from-an-sh-101-to-his-first-records: "A disappointing Roland SH-101, 32 Depeche Mode concerts and a first record on Overdrive in 1992."
+  music-as-a-gentle-language: "Ricardo produces without a concept. Good or bad music does not exist, only music you understand or not."
+  convincing-every-dance-floor: "A DJ has to convince every crowd, and a Palestinian folk record gets even an Arab-hater to dance."
+  the-ecm-project: "Looping quiet ECM parts in an innocent way turned into a double album and improvised live concerts."
+  innocence-modular-and-the-future: "Innocence is free of pressure. Ricardo stays out of competition and refuses to define the future."
+  links: "The original talk is on Resident Advisor Exchange, plus his RA page and the clubs he mentions."
 ---
 ![](../../../media/resident-advisor-exchange-an-interview-with-ricardo-villalobos-2012/cover.jpg)
 
@@ -51,6 +66,8 @@ tracks from ECM, the German jazz and classical label. In this rare
 interview he talks about keeping an innocent outlook in everything you
 do, why he stays away from the internet and a lot more.
 
+## His back and the records on the floor
+
 Todd starts by asking about his back. Ricardo thinks it's damage from
 working a long time in a wrong position. It's a common problem for
 taller people and also for people who did sports and then stopped, and
@@ -75,6 +92,8 @@ everything, because playing would only have worked with a lot of
 painkillers. He took a break, recovered and trained his back. No
 operation was needed, which is what he feared at first, and now
 everything is good.
+
+## Vinyl, privacy and the internet
 
 Then the new 12-inch for Perlon, which he calls the pre-album 12-inch.
 So another album is coming. He's not only making spaced-out electronic
@@ -126,6 +145,8 @@ where you're playing for the next party." The distribution network
 matters too, so a record can reach someone in Jakarta, but he thinks
 the party decides about the next party.
 
+## Parties and the doctrine of dependency
+
 Todd remembers him saying a party is one of the few places where
 people get together in a peaceful and fruitful way. Ricardo agrees.
 There are concerts and soccer games, but not many situations anymore
@@ -164,6 +185,8 @@ When his little child cries, the mother runs right away to find a
 solution, with no discussion and no transaction. People who belong to
 each other just do things for each other, and he calls this "the most
 important thing rescuing our world."
+
+## Darmstadt, kitchen parties and Frankfurt
 
 He grew up in Darmstadt. Making friends is hard in general, he says,
 because you have to invest a lot of time and find common interests.
@@ -223,6 +246,8 @@ There was a culture, a lot of record stores and very important clubs
 like the Dorian Gray and later The Omen, and a lot of money for
 nightlife entertainment. Those are the basics for a cultural nucleus.
 
+## From an SH-101 to his first records
+
 Asked who gave him advice when he started producing, he says "There is
 no source of advice." Your whole musical experience decides what you
 do, the music you listen to and friends with the same interest helping
@@ -279,6 +304,8 @@ ninety-two. Then they had two small labels, Elastic and Placid
 Flavour, and at the end of ninety-four his first Playhouse record came
 out, which was already his fifth or seventh record.
 
+## Music as a gentle language
+
 Todd asks when he felt he had his own voice. Ricardo says he never
 tries to feel that, because he doesn't want to define what he does.
 When he sits in the studio and presses record he has no concept, and
@@ -303,6 +330,8 @@ worst thing you can do is call music good or bad.
 "Good or bad music doesn't exist." There's music where you understand
 the language and music where the communication fails, and that doesn't
 make it bad. "Music is just a language you understand or not."
+
+## Convincing every dance floor
 
 Todd says his DJ sets took in more influences over time and audiences
 follow him further. Ricardo says in every DJ situation you have to
@@ -347,6 +376,8 @@ Todd says you have to work hard to create it. Yes, Ricardo says, and
 defend it. They are not DJ terrorists, and as long as no DJ terrorist
 gets killed by some agency they're safe, and they should be happy for
 those eight or ten hours where they can meet and hear music.
+
+## The ECM project
 
 Around the ECM release he mentioned putting Arvo Pärt and Alexander
 Knaifel into his DJ sets. He explains that there are moments in a
@@ -408,6 +439,8 @@ part. But it can go wrong. If there isn't enough light or you're
 nervous, you might not find the right hole for the cable. It's
 completely improvised and you can't stop the concert, so you have to
 deal with whatever happens.
+
+## Innocence, modular and the future
 
 Asked if he's getting better, he says you get less nervous. "Pressure
 always causes unskilled actions. Innocence is free of pressure."

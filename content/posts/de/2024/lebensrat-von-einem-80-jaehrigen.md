@@ -21,12 +21,23 @@ emin_check_pct: null
 voice_rewrite: "framing-only"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/lebensrat-von-einem-80-j%C3%A4hrigen-cebeb05bd97a"
+tldr:
+  - "50 Ratschläge eines 80 Jährigen, ein Text von Pat Divilly, aus dem Englischen übersetzt."
+  - "Sie reichen vom festen Händedruck bis zu: Erwarten Sie nicht, dass das Leben fair ist."
+basically:
+  ratschläge-1-bis-10: "Fester Händedruck, Blickkontakt, unter der Dusche singen und mutig sein, auch wenn man es nicht ist."
+  ratschläge-11-bis-20: "Den Partner sorgfältig wählen, niemandem die Hoffnung nehmen, eine zweite Chance geben, keine dritte."
+  ratschläge-21-bis-30: "Gut verlieren und gut gewinnen, einfach bleiben, keine Brücken abbrennen und ohne Reue leben."
+  ratschläge-31-bis-40: "Kühn sein, Liebe aussprechen, dankbar sein und die eigene Einstellung selbst wählen."
+  ratschläge-41-bis-50: "Respekt für jede Arbeit, nur aus Liebe heiraten und nicht erwarten, dass das Leben fair ist."
 ---
 Text von [Pat Divilly](https://medium.com/bigger-picture/lifelessons-advice-from-an-80-year-old-man-799510fb0f91), aus dem Englischen übersetzt.
 
 Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf Deutsch, weil man sie immer wieder lesen kann.
 
 ![](../../../media/lebensrat-von-einem-80-jaehrigen/01-4959cfad.webp)
+
+## Ratschläge 1 bis 10
 
 1. Haben Sie einen festen Händedruck.
 2. Schauen Sie den Leuten in die Augen.
@@ -38,6 +49,9 @@ Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf De
 8. Nehmen Sie immer eine ausgestreckte Hand an.
 9. Seien Sie mutig. Auch wenn Sie es nicht sind, tun Sie so. Niemand kann den Unterschied erkennen.
 10. Pfeifen Sie.
+
+## Ratschläge 11 bis 20
+
 11. Vermeiden Sie sarkastische Bemerkungen.
 12. Wählen Sie Ihren Lebenspartner sorgfältig. Aus dieser einen Entscheidung werden 90 % Ihres Glücks und Elends entstehen.
 13. Machen Sie es sich zur Gewohnheit, nette Dinge für Menschen zu tun, die es nie herausfinden werden.
@@ -48,6 +62,9 @@ Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf De
 18. Seien Sie romantisch.
 19. Werden Sie die positivste und enthusiastischste Person, die Sie kennen.
 20. Lockern Sie sich. Entspannen Sie. Abgesehen von seltenen lebenswichtigen Angelegenheiten ist nichts so wichtig, wie es zuerst scheint.
+
+## Ratschläge 21 bis 30
+
 21. Lassen Sie das Telefon nicht wichtige Momente unterbrechen. Es ist für unsere Bequemlichkeit da, nicht für den Anrufer.
 22. Seien Sie ein guter Verlierer.
 23. Seien Sie ein guter Gewinner.
@@ -58,6 +75,9 @@ Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf De
 28. Hüten Sie sich vor der Person, die nichts zu verlieren hat.
 29. Brennen Sie keine Brücken. Sie werden überrascht sein, wie oft Sie denselben Fluss überqueren müssen.
 30. Leben Sie Ihr Leben so, dass Ihr Epitaph lauten könnte: Keine Reue.
+
+## Ratschläge 31 bis 40
+
 31. Seien Sie kühn und mutig. Wenn Sie auf Ihr Leben zurückblicken, werden Sie die Dinge, die Sie nicht getan haben, mehr bereuen als die, die Sie getan haben.
 32. Verschwenden Sie niemals eine Gelegenheit, jemandem zu sagen, dass Sie ihn lieben.
 33. Erinnern Sie sich, dass niemand es alleine schafft. Haben Sie ein dankbares Herz und erkennen Sie schnell diejenigen an, die Ihnen geholfen haben.
@@ -68,6 +88,9 @@ Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf De
 38. Senden Sie viele Valentinskarten. Unterschreiben Sie sie mit „Jemand, der dich großartig findet“.
 39. Nehmen Sie den Hörer mit Begeisterung und Energie in Ihrer Stimme ab.
 40. Halten Sie ein Notizbuch und einen Bleistift auf Ihrem Nachttisch. Million-Dollar-Ideen kommen manchmal um 3 Uhr morgens.
+
+## Ratschläge 41 bis 50
+
 41. Zeigen Sie Respekt für jeden, der arbeitet, unabhängig davon, wie trivial sein Job ist.
 42. Schicken Sie Ihren Liebsten Blumen. Denken Sie später an einen Grund.
 43. Machen Sie jemandes Tag, indem Sie die Maut für das Auto hinter Ihnen bezahlen.

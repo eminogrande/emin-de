@@ -20,6 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/how-to-start-your-own-near-solver-chart-technical-bits-env-k/"
+tldr:
+  - "A Near Intents solver watches intents, prices a two-token AMM pool with a margin and executes profitable swaps from its own NEAR account."
+  - "Mine runs under pm2 on 127.0.0.1:4010 behind Nginx, with a /status JSON API and a /dashboard."
+  - "To run your own you need Node.js 20+, a dedicated NEAR account with a full access key and a relay auth key."
+basically:
+  what-the-solver-is-and-why-it-exists: "A solver is a market maker for Near Intents. It prices an AMM pool and executes the profitable swaps."
+  from-the-browser-to-the-solver: "Nginx terminates TLS and proxies /solver/ and /status to the solver on port 4010."
+  the-solver-process: "A Node.js app under pm2 loads its env, validates it with Joi and then creates all the services."
+  the-services: "Seven services handle NEAR, intents, quotes, cache, the relay WebSocket, a cron refresh and HTTP."
+  the-systems-around-it: "The solver depends on the relay, NEAR RPC nodes, the intents contract and an off-chain bridge."
+  how-to-start-your-own-solver-step-by-step: "Get a dedicated account and keys, clone, fill env/.env.local, run it, then add pm2 and Nginx."
+  security-and-running-it: "Dedicated account, only the liquidity you can lose, watch pm2 logs and /status, restart on upgrades."
 ---
 ## What the solver is and why it exists
 

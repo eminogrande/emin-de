@@ -20,6 +20,17 @@ voice_check:
   unobserved: 234
 emin_check_pct: null
 original_url: "https://emino.app/posts/microgpt-karpathy-line-by-line/"
+tldr:
+  - "Andrej Karpathy's microgpt.py trains and runs a tiny GPT in plain Python, with no NumPy."
+  - "This post shows his original code as is, then explains it step by step in the same order."
+  - "It covers the character tokenizer, a small autograd engine, the GPT forward pass, Adam training and sampling."
+basically:
+  the-original-code: "Karpathy's full microgpt.py, unchanged, as the reference for everything below."
+  a-walkthrough-so-you-can-build-it-again: "The model reads characters and predicts the next one, trained on a small text file of examples."
+  autograd-and-the-weights: "Every number is a Value node that remembers its parents, so backprop can walk the graph by hand."
+  the-math-parts-and-the-forward-pass: "Linear, softmax and RMSNorm build a GPT that embeds a token, runs attention and an MLP, and gives logits."
+  training-and-making-names: "Each step trains on one name with NLL loss, backprop and Adam. Then the model samples new names."
+  if-you-want-to-build-it-again: "Eight steps, from loading the lines to the sampling loop, are all you need to write it from scratch."
 ---
 ![](../../../media/microgpt-py-karpathy-the-code-in-plain-english-line-by-line/cover.jpg)
 
@@ -244,6 +255,8 @@ Step 2 is a character tokenizer. The tokenizer is kept as small as possible on p
 
 BOS is there because it gives generation one known token to start from, and it also marks the end of a generated name. The script uses BOS for both start and stop.
 
+## Autograd and the weights
+
 Step 3 is a tiny autograd engine. Everything in the model is built from small number nodes, the `Value` class. A `Value` holds `data`, which is the number from the forward pass, and `grad`, which is d(loss)/d(this) from the backward pass. It also keeps links to its children and the local derivatives you need for the chain rule.
 
 So when you write math like `a*b + c`, the code builds the computation graph by itself.
@@ -257,6 +270,8 @@ Then it makes a `state_dict` full of matrices, which are lists of lists of `Valu
 All weights start as small random numbers.
 
 The important thing is that all of this is done by hand, no NumPy. It's slow, but it's the algorithm in its simplest form.
+
+## The math parts and the forward pass
 
 Step 5 is the basic math parts. `linear(x, w)` does a matrix multiply. The input `x` is a vector of length `nin`, the weights `w` are a matrix `[nout][nin]`, and what comes out is a vector of length `nout`.
 
@@ -277,6 +292,8 @@ The second part is the MLP. That's just fc1, then ReLU, then fc2, and again a re
 So the shape is always a vector of length `n_embd`.
 
 At the end, `logits = lm_head * x` gives one logit per token in the vocab, and `softmax` turns those logits into probabilities.
+
+## Training and making names
 
 Step 7 is the training loop, so how it learns. Every training step uses one document, so one name.
 
