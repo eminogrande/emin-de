@@ -20,6 +20,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/my-father-nurettin-sezer-and-the-workers-who-made-cinema-in-stockholm-831f6ed13e52"
+tldr:
+  - "Hasan Gül came to Sweden at sixteen, acted in Otobüs and later financed and starred in Gül Hasan."
+  - "My father Nuri Sezer connected Turkish theatre people with migrant workers in Stockholm and wanted to make cinema with the money they earned."
+  - "Hasan's account is direct and contested, so his claims stay attributed to him."
+  - "Friendship, money, politics and cinema were never separate in that circle."
+basically:
+  hasan-arrives-in-stockholm: "Sixteen, no work permit, pet food by mistake. Later a tailoring workshop with forty people."
+  nuri-the-workshop-and-a-promise: "Tuncel knew Nuri, Nuri knew Hasan. The workshop would earn the money and the money would pay for films."
+  otobüs-began-with-a-haircut: "Okan said Hasan looked too sure of himself, so they cut his hair in a toilet. No script, ever."
+  the-connector: "Nuri's real role was bringing people together. Trust, debt and anger came with it."
+  kandıra-mahmure-and-the-sisters: "Nuri kept tours alive long before Sweden, and tailoring ran through his whole family."
+  gül-hasan: "Gül Hasan turned the Otobüs quarrel into a film. Hasan paid for part of it and still disliked it."
+  were-the-workers-humiliated: "Hasan rejects the humiliation reading. The fear was real, and he says worse stories stayed untold."
+  those-who-could-not-return: "Hasan wanted to film people who could not return. After the 1980 coup he became one of them."
+  what-the-credits-leave-out: "The filmography lists titles. It doesn't show the introductions, the money and the arguments."
+  editorial-note: "This is my edited English adaptation of a Turkish oral history. Disputed claims stay Hasan's."
+  sources: "The interview on Vimeo, Önder Özdemir's research, film records and two published interviews."
 ---
 Hasan Gül remembers Otobüs, Gül Hasan, and the Turkish migrant film circle that turned a tailoring workshop into a production office.
 
@@ -34,6 +51,8 @@ Hasan Gül was one of those workers. He acted in *Otobüs* and later financed an
 
 I have translated and edited Hasan’s words into English, corrected names distorted by the raw transcript, shortened repetition, and organised the chronology. Claims about disputed events remain clearly attributed to Hasan. Where other participants remembered events differently, I say so.
 
+## Hasan arrives in Stockholm
+
 Hasan arrived in Sweden from Kulu, Konya, on 12 June 1966. He was sixteen. He entered with a visa, but without a work permit, and shared a room with three other men. They bought hot water to make tea. Food was difficult to identify when nobody could read Swedish. Hasan remembers one friend proudly serving canned meat before they realised it was pet food.
 
 His first job was clearing dishes in a Stockholm restaurant. He did not intend to stay there.
@@ -41,6 +60,8 @@ His first job was clearing dishes in a Stockholm restaurant. He did not intend t
 *“I had already worked four years as a tailor. I said, ‘I did not come here to wash dishes.’”*
 
 He found work in tailoring, learned Swedish among Swedish colleagues, and attended a cutting academy. The tuition cost money, so he studied during the day and washed dishes at night. He later opened his own garment business. At its height, he says, the workshop employed around forty people in a 650-square-metre space with its own cafeteria and sauna.[1][2]
+
+## Nuri, the workshop and a promise
 
 Then Nuri entered the story.
 
@@ -51,6 +72,8 @@ Hasan remembers the sentence that convinced him to make Nuri a partner in his cl
 *“We will make cinema with the money we earn.”*
 
 That was the plan, at least. The workshop would earn the money, and the money would pay for films.
+
+## Otobüs began with a haircut
 
 Tunç Okan’s *Otobüs* follows a group of undocumented Turkish workers abandoned in Stockholm. The city around them is cold, alien, wealthy, and difficult to read. For Hasan, the film began without a screenplay and with a haircut in a toilet.
 
@@ -70,6 +93,8 @@ Hasan insists that he was not part of the group that withheld the reels. He also
 
 Other participants remembered the conflict differently. Tuncel Kurtiz described a serious break with Okan. Okan later described *Gül Hasan* as a revenge film aimed at him.[2][6] Hasan’s account should not be turned into a final verdict. Its value is that it preserves one participant’s position inside a quarrel that shaped the films themselves.
 
+## The connector
+
 Nuri’s role went beyond his film credits. He connected people who otherwise might never have met.
 
 He had theatre experience from Turkey. He knew Tuncel Kurtiz. In Sweden he knew Hasan and the worker community around the garment workshop. Through those relationships, filmmakers gained access to performers, locations, transport, labour, and money. Workers gained access to a medium that had usually represented them from outside.
@@ -81,6 +106,8 @@ Hasan’s memories of Nuri are not sentimental. He describes trust, friendship, 
 Hasan also describes Nurettin as an older-brother figure. He says he tried to intervene when he felt Tuncel treated Nurettin disrespectfully.[1] That makes the later anger in his account easier to understand. For Hasan, this was not only a failed business relationship. The friendship had taken on the weight of family.
 
 A polished tribute would hide the actual texture of their relationship. They were migrants trying to run a factory and make films at the same time. Friendship, money, politics, and cinema were never separate.
+
+## Kandıra, Mahmure and the sisters
 
 Nuri’s habit of connecting people did not begin in Sweden. Tuncel Kurtiz remembered an earlier moment when six unemployed friends formed their own theatre company and tried to tour Anatolia. Their first performance of *Yağmurcu* in İzmit drew twelve people to a cinema built for one thousand. The company was almost finished before it had started. Nuri suggested trying his hometown, Kandıra. They stayed as guests in local homes, performed in smoke-filled rooms, rented a jeep, and kept the tour going for another five or six months.[6]
 
@@ -98,6 +125,8 @@ Mahmure remembered meeting Seden Kızıltunç, Haldun Dormen, Yıldız Kenter, a
 
 That detail changes how I see the Stockholm story. Tailoring ran through both sides of Nuri’s life. His sister built a livelihood from it in Kandıra. Hasan built a factory from it in Sweden. Between those two workshops stood Nuri, convinced that money earned through ordinary work could be turned into cinema.
 
+## Gül Hasan
+
 After the conflict surrounding *Otobüs*, Tuncel Kurtiz directed *Gül Hasan* in Sweden. The film was shot in 1978 and released in 1979. Nuri worked as producer, co-screenwriter, and actor. Hasan financed part of the production and played the title role. Public film records credit Nuri’s work on the film, and *Gül Hasan* later received a screenplay award at the Antalya Film Festival.[2][3]
 
 The plot follows a Turkish film director, played by Kurtiz, who arrives in Sweden and exploits migrant workers while claiming to make a film about them. The director is called Bay Okan, a clear reference to Tunç Okan. That choice made the private conflict around *Otobüs* part of the new film’s public story.
@@ -112,6 +141,8 @@ Here Hasan does not protect Nuri or Tuncel because they were friends. He says wh
 
 Hasan never resolves that contradiction, and I do not want to resolve it for him.
 
+## Were the workers humiliated?
+
 Some Turkish critics argued that *Otobüs* humiliated migrant workers by showing them as frightened, confused, and unable to understand the modern city around them. Hasan rejects that reading.
 
 He tells stories that sound almost too extreme to be true because migration itself could be extreme. A cousin once spent an entire day unable to find his way out of Stockholm Central Station. Some new arrivals kept the same tie knotted for months because they feared they would never manage to tie it again. Men from villages saw major cities for the first time only while travelling abroad for work.
@@ -124,6 +155,8 @@ For him, *Otobüs* did not invent the fear or confusion. If anything, he says, w
 
 Hasan himself is proof. He arrived at sixteen, washed dishes, learned languages, trained as a tailor, and built a factory. He also lost much of it.
 
+## Those Who Could Not Return
+
 Hasan later tried to make a film called *Dönemeyenler*, “Those Who Could Not Return.” It was conceived as a continuation of the migrant story, about six workers in Sweden who plan to return to Turkey but remain abroad because life intervenes.
 
 He developed the story with writer Selim İleri and approached established Turkish actors. The project stalled amid disputes over direction, rights, money, and footage. Then Hasan travelled to Turkey. After the 1980 military coup and problems surrounding his military service, he could not return to Sweden for years. His workshop closed. Machines disappeared. The film was never completed.[1][2]
@@ -133,6 +166,8 @@ The title became autobiographical. Hasan wanted to make a film about people who 
 When he eventually returned to Sweden, the factory and the scale of his earlier business were gone. He tried other ventures. Some worked, others failed. He speaks about those years without asking to be turned into either a victim or a hero.
 
 *“When I look back and ask where I made mistakes, almost everything I did was a mistake. The best thing I did was my profession. My work gave me respect, cleanliness, and an income. Money came and went.”*
+
+## What the credits leave out
 
 A standard biography gives the outline. Nurettin Sezer was born in Kandıra on 10 October 1938 and died in Berlin on 14 April 2014. He worked in theatre, film, production, and screenwriting. His credits include *Otobüs*, *Gül Hasan*, *Bereketli Topraklar Üzerinde*, *Kardeşim Benim*, *Polizei*, and *Evet, ich will!*.[3][5]
 

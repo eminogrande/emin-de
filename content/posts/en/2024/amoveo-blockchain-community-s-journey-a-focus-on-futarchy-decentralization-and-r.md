@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/amoveo-blockchain-communitys-journey-a-focus-on-futarchy-decentralization-and-real-world-1568a94d310b"
+tldr:
+  - "Amoveo is a stateless blockchain built for financial derivatives, with the oracle built into consensus."
+  - "The community moved away from futarchy as its main governance tool, but keeps testing new versions of it."
+  - "Verkle trees let Amoveo run stateless full nodes with smaller, faster proofs."
+  - "A land registry and employment contracts are the real-world use cases, while adoption and funding are still hard."
+basically:
+  what-amoveo-is: "A stateless chain for derivatives, with built-in oracles, a cross-chain DEX and gas-free failed transactions."
+  futarchy: "Markets as governance looked great until the math showed they can be manipulated in some cases."
+  twelve-months-of-futarchy-discussion: "From November 2023 to July 2024: a new futarchy design, Harberger tax ideas and renewed caution."
+  verkle-trees: "Verkle trees give smaller proofs than Merkle trees, so nodes verify blocks without the full history."
+  real-world-use-and-what-is-still-hard: "A land registry and work contracts are the use cases. Adoption, UX and funding are still open."
 ---
 # The Amoveo Community on Futarchy, Decentralization and Real-World Use
 
@@ -42,6 +53,8 @@ The team works on a few things at the same time. They want to bring in the Verkl
 Futarchy is a way to govern where decisions follow the results of prediction markets. It was a big topic in Amoveo for a long time. At first the idea was to use it for a lot of things, like the block reward and protocol upgrades. But the community did the math and modeled it, and they found cases where futarchy can be manipulated or just doesn't work. So they moved away from it as the main way to decide things, and the focus went to making the oracle system better and looking at other ways to govern.
 
 Futarchy may not fit the Harberger tax directly, but it could still help around it. Markets could show what the community thinks of a new tax rate, or what different tax models would do to how land gets used and to the economy around it. The community also sees other places where it could work in Amoveo. People could use markets to show which features and improvements they want most, so the development priorities follow that. Markets could predict which marketing campaign brings more users and growth. And before a big protocol change, markets could estimate what it does to network security, to fees and to how it feels for users. But all of this only makes sense where futarchy is cryptoeconomically secure and hard to manipulate.
+
+## Twelve months of futarchy discussion
 
 The discussion over the past twelve months went like this. On the 5th of November 2023 the lead developer came back to futarchy, because people noticed that Amoveo had moved away from Robin Hanson's original proposal, and he wanted to look at it again for Amoveo's governance. On the 6th of November 2023 he said his earlier analysis may have had a mistake and that he was hopeful again. On the 7th of November 2023 he announced a write-up about a new type of futarchy that seemed to work. On the 18th of November 2023 he shared a blog post about why this new form works and started to build it for the next hard update. On the 20th of November 2023 the community talked about how to do it on chain, with order books and LMSR markets. On the 1st of December 2023 Jehan Tremback asked why nobody runs futarchy experiments on Ethereum, and the answer was that Amoveo is the better platform for these experiments.
 

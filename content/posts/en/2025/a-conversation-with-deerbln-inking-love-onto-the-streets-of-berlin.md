@@ -20,18 +20,32 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/a-conversation-with-deerbln-inking-love-onto-the-streets-of-berlin-90de908ab71b"
+tldr:
+  - "Christian Rothenhagen, known as deerBLN, puts tiles on Berlin's streets as an expression of his love for the city."
+  - "He has lived in Berlin since 1976 and calls it the city that doesn't lie to you."
+  - "Skateboarding, punk rock and hardcore shaped his DIY approach, and designing a board series is a childhood dream come true."
+basically:
+  tiles-on-the-streets: "deerBLN sees himself as a modern local historian who gives something back to Berlin."
+  still-in-love-with-berlin: "Berlin since 1976: rough, broken, honest, and the city that will always catch you."
+  skateboards-and-whats-next: "A Santa Cruz at 15, a board series for Artsprojekt now, and a solo show in Friedrichshain."
 ---
 He’s a trained cabinet maker, a qualified social pedagogue, and a professional graphic designer and illustrator. Christian Rothenhagen, also known as deerBLN, is a Berlin patriot with a conceptual flair. proud magazine sits down with the artist to discuss his love for the city, his creative ambitions, and what it means to be a true Berliner.
 
 ![](../../../media/a-conversation-with-deerbln-inking-love-onto-the-streets-of-berlin/01-e52ee9e7.png)
 
+## Tiles on the streets
+
 proud: What is your ambition behind putting tiles on the city’s streets?
 
 deerBLN: My ambition is clearly to beautify my city and to express myself: in drawings, on t-shirts, on skateboards, in installations, wherever. I am happy to live in the most beautiful city in the world. I see myself as a modern local historian. I document the city through my drawings and give something back to it through my work in public spaces. My “street art” is, for the most part, not illegal, but rather tolerated interventions in the urban landscape. It’s an expression of my love for this city.
 
+## Still in love with Berlin
+
 proud: You are a true Berliner. Do you even like the city anymore these days?
 
 deerBLN: I have lived here since 1976. For me, the city is still the most beautiful, the roughest, the most diverse, the most interesting, the most incorruptible, the most broken, and the most honest. It’s the city that doesn’t lie to you. It wears its scars openly, shows its wounds, and is as direct as a punch in the gut. But it’s also the city that will always catch you. I love Berlin, now more than ever!
+
+## Skateboards and what's next
 
 proud: You just designed a skateboard series for Artsprojekt. Are you a skater?
 

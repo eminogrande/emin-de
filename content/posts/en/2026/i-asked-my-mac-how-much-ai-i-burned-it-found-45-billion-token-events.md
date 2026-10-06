@@ -20,6 +20,24 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/i-asked-my-mac-how-much-ai-i-burned-it-found-45-billion-toke/"
+tldr:
+  - "I audited every AI tool I could find on my Mac and found about 45 billion token-events."
+  - "At API-style rates that is roughly $9.3k of usage, and almost all of it came from Codex doing agentic coding."
+  - "Cache reads were almost as large as fresh request tokens, because agents re-read context again and again."
+  - "OpenRouter and fal.ai are still missing, because their billing history lives server-side and my keys could not read it."
+basically:
+  what-counts-as-a-token-here: "Request tokens and token traffic are two different numbers. Most people mix them up."
+  the-final-rollup: "44.96 billion token-events and $9,339.89 locally proven, with OpenRouter and fal.ai still missing."
+  codex-was-the-monster: "Codex alone was 44.6 billion token-events and $8,926.98. Agentic coding context ate it all."
+  why-my-first-count-was-too-low: "Session-final counters said 12.89B. Sum per-request usage or use the monthly report instead."
+  the-other-tools-one-by-one: "Claude, Goose, OpenHands, opencode and the rest mattered, but next to Codex they were small."
+  openrouter-falai-lovable-and-replit: "A normal API key only sees its own usage. Account-wide history needs a management key."
+  falai-is-a-different-kind-of-bill: "An authorization error is not $0. fal.ai spend stays unknown until I get the dashboard export."
+  how-we-reproduced-the-numbers: "Find the tool folders, grep for usage fields, parse per-request counters, never dump prompts."
+  where-the-cost-numbers-come-from: "Logged costs, the Codex report and public pricing. It's an API-rate estimate, not an invoice."
+  why-agent-usage-gets-so-large: "Every agent step is another model call with the whole context again. Context is the real fuel."
+  what-i-learned: "Agentic coding is not expensive because output is long. It's expensive because context is huge."
+  references: "The pricing pages and API docs from OpenAI, Anthropic, OpenRouter and fal.ai I checked against."
 ---
 I wanted a real answer to a simple question.
 
@@ -176,6 +194,8 @@ That cache reported this.
 
 That number is useful, but it's not counted the same way as the Codex monthly report. It normalizes and groups data differently. I used it mainly to find extra clients and cost buckets I had missed.
 
+## The other tools, one by one
+
 Codex was the giant, but the other tools still mattered.
 
 opencode had a real SQLite database with token accounting per message. These are the recovered totals.
@@ -308,6 +328,8 @@ curl https://openrouter.ai/api/v1/key \
 ```
 
 The first endpoint can give activity per day, model and provider. The second can only say what that one key reports right now.
+
+## fal.ai is a different kind of bill
 
 Then fal.ai. I found fal.ai code and project traces, including text-to-speech and speech-to-text experiments, but no local billing counter that could produce account usage. After I suspected the fal.ai traffic was much larger, I tested one supplied fal.ai key against account billing and usage-style endpoints.
 
@@ -481,6 +503,8 @@ curl https://openrouter.ai/api/v1/activity \
 ```
 
 The second command needs a management key.
+
+## Where the cost numbers come from
 
 I used three kinds of cost data. Costs logged directly by the tool, costs shown in the Codex monthly usage report, and estimates from current public pricing where the local logs had tokens but no cost.
 

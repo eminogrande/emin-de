@@ -20,8 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/how-email-to-blog-publishing-works-on-emino-app/"
+tldr:
+  - "Mail to post@emino.app lands in Postfix, sits in a Maildir and gets read by an importer."
+  - "The importer checks the sender against an allowlist, turns the mail into Markdown and triggers the build."
+  - "One Let's Encrypt cert covers Nginx, Postfix and Dovecot, and certbot renews it."
+basically:
+  the-short-version: "DNS, one TLS cert, Postfix in, Dovecot for IMAP, an importer and Nginx serving the static blog."
+  what-the-importer-does: "Allowlisted sender in, subject becomes title, body becomes Markdown, then build and deploy."
+  setting-it-up: "Eight steps from DNS records to Nginx, with every command you need to rebuild it."
+  monitoring-and-fixing-it: "Watch cert expiry and the logs, and send yourself a test mail every now and then."
 ---
 This is the whole technical path from an email to post@emino.app to a published post on my blog. It covers DNS and TLS, SMTP and IMAP, the filtering and validation, and what the importer does inside. The flowchart at the end now also shows the sender checks and the parsing.
+
+## The short version
 
 Here is the short version. DNS has an A record for emino.app pointing to 188.34.194.25 and an MX record 0 emino.app.
 
@@ -30,6 +41,8 @@ TLS is a Let's Encrypt cert in /etc/letsencrypt/live/emino.app/, and Nginx, Post
 Mail comes in through Postfix on port 25, and the virtual mailbox post@emino.app goes into the Maildir /var/mail/vhosts/emino.app/post/. Dovecot runs on port 993 with the same Let's Encrypt cert, so the importer or a normal mail client can read the mail over IMAP. The ufw firewall has 22, 80, 443 and 25 open, and 993 only if you need IMAP access.
 
 The importer polls the Maildir or IMAP, checks the sender, parses and cleans the mail, turns it into Markdown, writes it to posts/ (or whatever content folder you use) and triggers the build and deploy. And Nginx serves the static blog over HTTPS.
+
+## What the importer does
 
 The importer runs on a timer, a systemd timer or cron, or as a watcher that just keeps running. It reads new/ and cur/ in the Maildir, or the IMAP inbox.
 
@@ -49,6 +62,8 @@ It logs to its own file, and when something fails it should log it and leave the
 6. Firewall with ufw. `ufw allow 25/tcp`, `ufw allow 993/tcp` if you need IMAP access, and `ufw allow 80,443/tcp`.
 7. The importer job. It reads from the Maildir or IMAP for post@emino.app, only accepts allowlisted sender addresses and writes posts into your blog content path, like content/posts/ or posts/. Run it with a systemd timer or cron, log to its own file and trigger the build and deploy if you need it.
 8. Nginx. Port 80 does return 301 https://$host$request_uri; and port 443 uses the Let's Encrypt cert paths, with the root at your blog folder, and serves the static site.
+
+## Monitoring and fixing it
 
 To keep an eye on it, check when the cert expires with `openssl x509 -in /etc/letsencrypt/live/emino.app/fullchain.pem -noout -enddate`.
 

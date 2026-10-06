@@ -20,12 +20,29 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/a-guide-to-buying-land-in-zanzibar-as-a-foreigner-b43a096e1fc7"
+tldr:
+  - "All land in Zanzibar is public land, and a foreigner can't get a Right of Occupancy straight from the government."
+  - "You can buy from a Zanzibari who holds the right, through the Sheha, a contract, registration and a government survey."
+  - "Expect 10% stamp duty, 1% land transfer tax and a yearly lease fee on a 99-year lease."
+  - "If you may sell later, put the land into a company and sell the company instead."
+basically:
+  how-land-works-in-zanzibar: "All land is public. Foreigners buy from a Zanzibari who holds a Right of Occupancy."
+  buying-from-a-zanzibari-seller: "Start with the Sheha's written confirmation of ownership and the four neighbours, then the contract."
+  registering-the-contract-and-paying-the-taxes: "Three offices, the original contract plus two copies, 10% stamp duty and 1% transfer tax."
+  inspection-gazette-notice-and-the-99-year-lease: "Officials re-measure, the gazette waits 30 days for objections, then you get a 99-year lease."
+  selling-the-land-as-a-foreigner: "Foreigners can't easily sell land, so register a company with BRELA and sell the company."
+  sources-and-references: "The Land Tenure Act, three property guides and the BRELA, TRA and ZIPA sites."
+  the-tldr-this-is-based-on-by-emin-mahrt-and-copilot: "The original seven-step short version that the whole guide grew out of."
+  fact-check-with-gpt-4-ai: "Bing confirmed most steps, but it's a 99-year lease, not a title, plus stamp duty and fees."
+  source-conversation-with-bing-17012024: "The four web pages Bing cited when it checked the short version in January 2024."
 ---
 ![](../../../media/a-guide-to-buying-land-in-zanzibar-as-a-foreigner/01-d4c7cdfd.png)
 
 Get advise via WhatsApp [+255775585555](https://api.whatsapp.com/send/?phone=255775585555&text=&type=phone_number&app_absent=0) or book a free call via [cal.com/em](https://cal.com/em)
 
 Zanzibar is a semi-autonomous region of Tanzania. It has two main islands, Unguja and Pemba, and about 1.3 million people, with a lot of culture and history. People know Zanzibar for its white beaches, turquoise water, coral reefs, spice farms and the old Stone Town.
+
+## How land works in Zanzibar
 
 Zanzibar has its own land system, and it is different from mainland Tanzania. Under the Land Tenure Act 1992 all land in Zanzibar is public land. The Minister responsible for land affairs runs it on behalf of the President. Land inside the Free Economic Zones is run by the Zanzibar Investment Promotion Authority (ZIPA).
 
@@ -39,6 +56,8 @@ Step 1 is to check that the seller really owns the land and has the Right of Occ
 
 Step 2 is the sale/purchase contract. It is the legal document with the terms of the deal. Put in the names and IDs of buyer and seller, where the land is and how big it is, the price and how you pay, the date and place of signing, the names and IDs of the four neighbouring landowners, and the signatures of buyer, seller and two witnesses. The contract also has to follow the Land Tenure Act 1992 and the Land Transfer Tax Act 1995. A lawyer or a land agent can help you write and check it.
 
+## Registering the contract and paying the taxes
+
 Step 3 is handing the contract to the government so it gets approved and registered. You need the original contract and two copies, the confirmation letter from the Sheha, the seller’s land title or certificate, your passport or residence permit, the seller’s tax clearance certificate and the receipt for the stamp duty.
 
 Stamp duty is a tax the buyer pays to the government when buying land in Zanzibar. It is 10% of the purchase price. You can pay it at any bank or post office and get a receipt.
@@ -46,6 +65,8 @@ Stamp duty is a tax the buyer pays to the government when buying land in Zanziba
 The documents go to three offices. The District Commissioner's Office checks and endorses the contract. The Valuation and Taxation Office assesses and collects the land transfer tax. The Land Registry Office registers the contract and gives you a registration number.
 
 The land transfer tax is a second tax the buyer pays. It is 1% of the purchase price. You pay it at the Valuation and Taxation Office and get a receipt.
+
+## Inspection, gazette notice and the 99-year lease
 
 Step 4 is waiting for government officials to come and check and re-measure the land. You cannot skip this. It makes sure the land information is right and stops disputes later. The District Land Officer checks the borders and the neighbours. The Surveyor measures the land again and updates the map. The Land Registrar records the details and issues a new land title or certificate. This can take weeks or months, depending on how available and fast the officials are. Stay in touch with them and keep following up.
 
@@ -66,6 +87,8 @@ The good side. You avoid the restrictions and the trouble of selling land direct
 The bad side. You pay to register and run a company, like the registration fee, the annual fee, the audit fee and the corporate tax. You have to follow the rules for running a company, like accounting and reporting standards, labour and environmental laws and the anti-money laundering rules. And you have to show possible buyers the company’s financial and operating numbers, which can change the price and the negotiation.
 
 If you go this way, first register a company with the Business Registration and Licensing Authority (BRELA). That is the agency that registers and regulates businesses in Tanzania. Then move the land from your own name into the company’s name. You follow the same steps as buying from a Zanzibari seller, only now you are the seller and the company is the buyer. Then you sell the company to the buyer the way you sell a company in Tanzania. You find a buyer and agree on price and terms. You prepare and sign a sale/purchase contract for the company. You get a tax clearance certificate from the Tanzania Revenue Authority (TRA). You hand the contract and the tax clearance certificate to BRELA for approval and registration. You transfer the company shares and assets to the buyer. And you tell the relevant authorities and stakeholders that the owner changed.
+
+## Sources and references
 
 That is the guide for buying and selling land in Zanzibar as a foreigner. Here are the sources and references I used, if you want to read more or need help.
 

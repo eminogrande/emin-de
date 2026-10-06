@@ -20,6 +20,10 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-complexities-of-governance-among-humans-in-blockchain-and-open-source-software-development-faef01a467ef"
+tldr:
+  - "Decentralized governance is hard, because miners, users and developers all want different things."
+  - "Blockchains need new, fair and open ways to vote, and every governance model has trade-offs."
+  - "Open source and open conversation are what build trust and accountability."
 ---
 ![](../../../media/the-complexities-of-governance-among-humans-in-blockchain-and-open-source-softwa/01-0d496ec8.png)
 *Blockchain Governance*

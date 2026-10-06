@@ -20,10 +20,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/aave-dao-s-governance-showdown-the-fight-for-brand-ownership/"
+tldr:
+  - "Aave DAO is voting on moving the Aave brand assets, like domains, handles and repos, from Aave Labs to the DAO."
+  - "Supporters say token holders funded Aave and deserve explicit ownership, opponents warn of bureaucracy and slower innovation."
+  - "Aave Labs escalated the vote to Snapshot on December 22, 2025, over the author's objection, and voting ends December 25."
+  - "$AAVE dipped about 7-10% during the fight."
+basically:
+  what-the-proposal-wants: "Move aave.com, social handles, GitHub and NPM from implicit Labs stewardship to DAO ownership."
+  the-case-for-dao-ownership: "Token holders funded Aave through the ICO, so supporters say they should own the brand."
+  the-case-against: "Labs says the current model works and DAO control brings bureaucracy and slower operations."
+  a-rushed-vote: "The author disavowed the Snapshot submission and Marc Zeller called it unprecedented interference."
+  what-is-at-stake: "It's a test of DAO sovereignty against founder-led speed, and the result shapes DeFi beyond Aave."
 ---
 ![](../../../media/aave-dao-s-governance-showdown-the-fight-for-brand-ownership-and-token-alignment/cover.jpg)
 
 Aave DAO is voting on a controversial proposal to move control of the core brand assets, like the domains, social handles and GitHub repos, from Aave Labs to the DAO. Supporters see it as essential for real decentralization and for aligning the revenue. Opponents say it risks inefficiency and hurts innovation. The vote was rushed to Snapshot in the middle of a heated debate, there are accusations of bad faith, and the $AAVE price dipped ~7-10% with all the uncertainty. Voting ends December 25, 2025.
+
+## What the proposal wants
 
 Aave is the leading DeFi lending protocol, with over $50B+ TVL and ~60% market share in on-chain lending, and now it faces an existential governance crisis. The proposal "[ARFC] $AAVE token alignment. Phase 1 - Ownership" ([Snapshot link](https://snapshot.org/#/s:aavedao.eth/proposal/0xbc606159ddeae0184c2086055637d3f357351ec0adc4c9f4150751bc41918eba)) wants to move explicit ownership of the Aave brand assets to the DAO through a neutral legal wrapper, for example a Cayman foundation.
 
@@ -33,11 +46,15 @@ The assets in scope are the domains ([aave.com](http://aave.com), [app.aave.com]
 
 The sources are the [Aave Governance Forum Thread](https://governance.aave.com/t/arfc-aave-token-alignment-phase-1-ownership/23616) and the [Snapshot Proposal](https://snapshot.org/#/s:aavedao.eth/proposal/0xbc606159ddeae0184c2086055637d3f357351ec0adc4c9f4150751bc41918eba).
 
+## The case for DAO ownership
+
 Supporters say the token holders funded Aave through the ICO, so they deserve explicit ownership. Tor_GAINS put it like this in the Snapshot discussion. "Who owns AAVE? ... The token holders. Full stop."
 
 Jordan, the former COO of Aave, is one of the prominent voices who want to go back to the original vision. He wrote this on the Aave Governance Forum. "This is the natural next step in Aave’s decentralization... especially now that DeFi benefits from far more regulatory clarity."
 
 Others point at the risk of misalignment, for example the CoW Swap integration that diverts referral fees, or the Horizon market, a product led by Labs, that gives only 15% of its revenue to the DAO.
+
+## The case against
 
 Opponents, and Aave Labs founder Stani Kulechov is one of them, warn that it could paralyse operations. Kulechov (@StaniKulechov) posted this on X on Dec 22, 2025. "The recent DAO alignment proposal has been moved to Snapshot after extensive discussion... Time for tokenholders to weigh in and vote."
 
@@ -45,11 +62,15 @@ People from Labs say the current model works and that control by the DAO brings 
 
 Critics also point at the timing, right in the holiday season, and at the missing consensus.
 
+## A rushed vote
+
 The escalation was rushed, and the author himself, Ernesto Boado (@eboadom), disavowed the Snapshot submission in an X post on Dec 22, 2025. "This is not, in ethos, my proposal... Trying to rush a vote is disgraceful."
 
 Marc Zeller of the Aave Chan Initiative (ACI) called it "unprecedented interference". He (@Marczeller) posted this on X on the same day, Dec 22, 2025. "We acknowledge @aave unilaterally escalated the proposal... Worst outcome that was entirely preventable."
 
 The mood in the community on X is split. Some accuse Labs of "stealth privatization", and others defend what Labs has contributed. Recent discussions on X show a lot of frustration about revenue sharing and about the governance process.
+
+## What is at stake
 
 This vote is a test of the DAO against hybrid models led by founders in DeFi. A lot of the success of Aave comes from how fast Labs iterates, for example V3, the GHO stablecoin at 350M+ supply, and Horizon for RWA onboarding. But protocol fees of ~$100M+ a year go to the DAO, while the money from the frontend and the app often goes to Labs. DAOs also need legal wrappers like DUNAs or foundations to own IP. And there is a precedent. It echoes the recent alignment shifts at Uniswap, but at Aave the hybrid model is what made it dominant.
 

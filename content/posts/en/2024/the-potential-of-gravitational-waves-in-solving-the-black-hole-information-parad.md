@@ -20,24 +20,43 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-paradox-5ee8f2bf27b4"
+tldr:
+  - "The black hole information paradox comes from quantum mechanics and general relativity clashing at black holes."
+  - "The idea here is that gravitational waves sent out by infalling matter could encode its quantum state and carry the information out."
+  - "Two hypothetical formulas sketch it, one as an extra term on Hawking's entropy formula."
+  - "Testing it needs more sensitive detectors, LISA in space and black hole analogs."
+basically:
+  the-paradox-and-the-idea: "Information can't be lost, but matter behind the horizon looks gone. Gravitational waves could carry it out."
+  a-framework-and-how-to-test-it: "Combine quantum mechanics, general relativity and information theory, then test with LIGO, LISA and analogs."
+  what-it-would-change: "If it holds, the paradox is solved. It needs physicists, information theorists and funding together."
+  a-first-hypothetical-formula: "I_BH as the time integral of the gravitational wave function. A starting point, not a result."
+  extending-hawkings-entropy-formula: "Add the information the waves carry as a second term on top of Hawking's entropy."
 ---
 ![](../../../media/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-parad/01-063e4501.jpeg)
 
 The black hole information paradox is an old problem in theoretical physics. It comes from a clash between quantum mechanics and general relativity when you apply both to black holes. But now that we can detect gravitational waves, there are new ways to look at it. In this post we propose that the information about the state of matter falling into a black hole could be kept and carried away by the gravitational waves that come out while it falls.
 
+## The paradox and the idea
+
 Quantum mechanics says information can't be lost. But when matter falls into a black hole, it looks like it is gone forever, because nothing can come back from beyond the event horizon. That is the information paradox, and it goes right to the basic laws of physics.
 
 Our idea is that gravitational waves, the ripples in spacetime, could be the thing that keeps the information about the infalling matter and carries it out. When matter gets close to the event horizon, it goes through extreme gravity and that makes it send out gravitational waves. These waves could encode the quantum state of the infalling matter, and so the information would get out of the black hole.
 
+## A framework and how to test it
+
 To back this up we propose a theoretical framework that puts together quantum mechanics, general relativity and information theory. With these three we can build mathematical models of how the quantum state of matter could be printed onto gravitational waves while it falls in. Those models would be the base for more research and for tests.
 
 And there are a few ways to test it. One is better gravitational wave detectors. If the detectors we have now, like LIGO and Virgo, get more sensitive, they could pick up the gravitational waves sent out while matter falls into black holes. Two is space based interferometers. A detector in space like LISA (Laser Interferometer Space Antenna) could see low frequency gravitational waves, and those are more likely to carry information about the infalling matter. Three is black hole analogs. Systems that act like black holes, like Bose-Einstein condensates or acoustic black holes, would give us a controlled place to study how information gets encoded onto gravitational waves.
+
+## What it would change
 
 If this idea turns out to be right, it changes a lot about how we understand black holes, quantum mechanics and what information is in our universe. It would solve the old information paradox and open new research in theoretical physics.
 
 To go further, theoretical physicists, experimental physicists and people who know information theory have to work together. And it needs money and support from science institutions and governments to build better gravitational wave detectors and run big experiments.
 
 So the idea is simple. Gravitational waves could carry the information about the state of matter that falls into black holes, and that would be a way out of the information paradox. If we put quantum mechanics, general relativity and information theory together, we can build a framework for it. To prove it we need better gravitational wave detectors, interferometers in space and analog systems. If it holds, it would change how we understand black holes and what information really is.
+
+## A first hypothetical formula
 
 And more after digging. Here is a hypothetical formula for the idea that gravitational waves carry the information about the state of matter falling into a black hole. I go through each part and what it means.
 
@@ -62,6 +81,8 @@ With these we could describe how the infalling matter, the gravitational field a
 This formula is only a hypothetical way to write down the idea. It needs real mathematical work and tests. If it is ever proven, the real formula would most likely be a lot more complex and have more variables to fully describe how information gets encoded in gravitational waves.
 
 But it's a starting point for more theory and more experiments on whether gravitational waves can solve the black hole information paradox.
+
+## Extending Hawking's entropy formula
 
 And finally more.
 

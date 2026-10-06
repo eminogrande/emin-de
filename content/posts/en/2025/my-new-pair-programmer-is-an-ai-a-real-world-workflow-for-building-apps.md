@@ -19,6 +19,16 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/my-new-pair-programmer-is-an-ai-a-real-world-workflow-for-building-apps-041b168cb1cb"
+tldr:
+  - "I spent a day building and fixing an iOS app with an AI coding assistant."
+  - "My loop is a marked screenshot, an exact prompt in plain English, a reviewed diff and a commit."
+  - "The AI fixes one thing and breaks another, gets stuck in loops and tempts you into unplanned features."
+  - "I write less code and direct more, more architect, reviewer and QA person than coder."
+basically:
+  from-prompt-to-push: "Circle the bug on a screenshot, describe it exactly, review the diff, test on the phone, commit."
+  when-the-ai-gets-it-wrong: "It changes things you didn't ask for and gets stuck. Watch it the whole time and stick to the plan."
+  from-coder-to-conductor: "I used to be proud of speaking the computer's language. Now I tell it what to do in English."
+  what-i-learned: "Be exact, use screenshots, one chat per task, commit often, and know when to write it yourself."
 ---
 Everybody talks about AI in software right now. You see demos where a whole app gets built in minutes from one prompt. But what does a normal day look like when you build with these tools? How do you get from a bug to a fix, or from an idea to a feature, when the one you work with the most is an AI?
 
@@ -63,6 +73,8 @@ Working with an AI assistant changed how I relate to code.
 I used to be proud that I could speak the language of the computer, and now I tell it what to do in English. I build less with my own hands. I'm more the architect, the reviewer and the QA person, all in one.
 
 I used to like writing a perfect function myself, and now I like getting a strong tool to the result I want. It's a different kind of pride, more like a manager's.
+
+## What I learned
 
 If you want to work with an AI pair programmer, this is what I learned. Be very exact, because vague prompts give you vague and often wrong results, so use screen names, component names and clear logic. A picture is often worth 1,000 lines of code, so use marked screenshots when you can. Start a new chat for every bug or feature, so the AI doesn't mix them up. Commit all the time, git is your best friend, and if you commit working changes often you can always go back.
 

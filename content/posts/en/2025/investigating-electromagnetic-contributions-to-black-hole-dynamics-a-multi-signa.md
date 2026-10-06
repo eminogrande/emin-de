@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signal-approach-cb2b4190abba"
+tldr:
+  - "Gravitational waves from black hole mergers fit general relativity, but they may not tell the whole story."
+  - "Black holes may carry a short-lived charge during mergers, and electromagnetic signals could show what gravitational waves can't."
+  - "The proposal is multi-messenger work: coupled gravito-electromagnetic models and searches for correlated signals."
+basically:
+  the-idea-a-short-lived-charge: "A brief charge during mergers could change the dynamics and leave electromagnetic traces we can detect."
+  multi-messenger-astronomy-as-the-key-to-understanding-black-holes: "Gravitational waves give masses and spins, light gives charge and fields. You need both."
+  multi-messenger-astronomie-als-schlüssel-zum-verständnis-schwarzer-löcher: "Derselbe Abschnitt auf Deutsch, mit den Forschern, Instituten und Publikationen zum Weiterlesen."
 ---
 ![](../../../media/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signa/01-8c8165a4.png)
 
@@ -30,6 +38,8 @@ The gravitational waves we detect from black hole mergers show complex orbital d
 <https://www.youtube.com/watch?v=I_88S8DWbcU>
 
 The inspiral, merger and ringdown pattern we see looks a lot like electromagnetic field interactions, and so we should look at whether electromagnetic effects play a real part in these systems.
+
+## The idea: a short-lived charge
 
 The idea is this. Black holes are seen as electromagnetically neutral in a steady state, but they may carry a short-lived or leftover charge during dynamic events. That charge could change the merger dynamics in ways that pure gravitational models don't fully capture. And the electromagnetic radiation from these events may carry information about black hole properties that gravitational waves alone can't show.
 

@@ -21,6 +21,22 @@ tags: ["psychology", "child-development", "lying", "theory-of-mind"]
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/if-i-had-to-pick-one-age-when-kids-become-liars-four/"
+tldr:
+  - "If I have to pick one age where lying becomes a deliberate tool, it's four."
+  - "Around four, kids reliably pass false-belief tests and most of them readily lie to hide a transgression."
+  - "Lies at 2.5 look spontaneous, and keeping a lie straight keeps developing for years."
+  - "Theory of mind and executive function both link to lying, but only modestly."
+basically:
+  what-counts-as-a-lie: "A lie is a false statement meant to deceive. Fantasy play and a random no are not lies."
+  knowing-what-you-believe: "To lie you have to model another mind. False-belief tests measure exactly that shift."
+  the-labs-lying-trap: "Leave a kid alone with a toy: 82% peek, and 64% of the peekers lie about it."
+  why-i-pick-four: "Talwar and Lee: at and after four, most children readily lie to hide their own transgression."
+  why-not-25: "At 2.5, 40% of non-peekers falsely confess. That's noise and confusion, not a switch."
+  keeping-a-lie-going-and-what-it-needs: "Theory of mind and executive function both matter, with small effects, most for keeping lies going."
+  does-it-stay: "Lie-telling is moderately stable over months, and earlier false-belief skill predicts it."
+  adults-most-are-honest-a-few-lie-a-lot: "Adults tell one or two lies a day, and a few prolific liars tell most of them."
+  so-its-four: "Five lines of evidence point the same way. Truth by default turns into truth as a strategy at four."
+  the-key-studies-as-csv: "All the studies behind this, with sample sizes, numbers and open links, ready to copy."
 ---
 
 https://youtu.be/bcu9MpjV3yE
@@ -39,11 +55,15 @@ Because around 4 a lot of different research comes to the same practical point. 
 
 Below is the evidence that makes four the best answer if you have to give one number, even though in reality it's a slow, continuous change.
 
+## What counts as a lie
+
 A lot of confusion comes from calling everything that isn't true a lie.
 
 In developmental psychology lying usually means intentional verbal deception. Not mistakes, not misunderstandings, not fantasy play and not a random yes. One definition that gets cited a lot puts it very plainly. "Lying involves a speaker making a false statement with the intention to deceive the recepient." That's from Talwar and Lee, and the full text is open on PMC.
 
 So "I didn't break it" while the kid is holding the broken thing is a lie. "I have a dragon in my bedroom" while playing is not necessarily a lie. And saying no to every question isn't lying either. Very often that's just response bias, fear or confusion.
+
+## Knowing what you believe
 
 The key idea behind all this is that at some point a child gets that the other person has their own inner world.
 
@@ -89,6 +109,8 @@ And the authors say it directly. "These results suggested that the first, or so-
 
 So if you pick 2.5, you risk calling noise a switch.
 
+## Keeping a lie going, and what it needs
+
 There is a different step that comes later, and that's being able to keep a lie consistent when someone asks follow-up questions.
 
 Talwar and Lee note that keeping a lie going is linked to higher-order belief understanding, so thinking about what someone thinks about someone else's beliefs. In other words, how good kids get at it keeps developing for years.
@@ -118,6 +140,8 @@ They report that "Lie-telling behaviors exhibited moderate stability across the 
 And this is important for the other-universe idea, because the prediction goes from ToM to lying and not the other way around. "Earlier false belief understanding significantly predicted children's later lie-telling behavior", but "earlier lie-telling did not predict later false beliefs understanding."
 
 If you want to know when it stays, that kind of stability is the closest thing we have to a number. Once the behavior is common, so after 4, you can already measure that it's stable over months.
+
+## Adults: most are honest, a few lie a lot
 
 If you follow lying into adult life, the story becomes less that everyone lies all the time and more that most people lie rarely and a few people lie a lot.
 

@@ -20,6 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/why-nuri-chose-a-stateless-passkey-architecture-first-and-ho/"
+tldr:
+  - "Nuri stores no private key anywhere, and that stateless principle comes first."
+  - "Lightning needs persistent channel state, so Spark and hosted Lightning don't fit our first release."
+  - "We use submarine swaps to talk to Lightning without channels, backups or vendor lock-in."
+  - "This is about architecture, not about Breez, and Lightning goes back on the roadmap once it fits."
+basically:
+  1-our-core-principle-is-stateless-self-custody: "No seeds, no encrypted blobs, no secrets at rest. Passkeys derive the keys only when we need them."
+  2-why-spark-and-hosted-lightning-are-hard-to-combine-with-statelessness-today: "Lightning depends on state that must never get lost. That clashes with no secrets, no state."
+  3-why-we-chose-submarine-swaps-first: "Submarine swaps let us use Lightning while settling on-chain, with no channels to manage."
+  4-a-note-to-breez-why-this-isnt-about-you: "Breez and Spark are great engineering. We only differ on architecture, and the door stays open."
+  5-what-nuri-is-shipping-now: "TestFlight is live: Bitcoin with Apple Pay, a Visa card, an IBAN and stateless 2-of-2 signing."
+  6-can-lightning-become-stateless: "Taproot channels, eltoo-like updates and passkey signing roles may make Lightning stateless."
+  7-thank-you-breez: "Thank you to the Breez team. When our base is mature, Spark stays an option."
 ---
 # Why Nuri Chose a Stateless Passkey Architecture First, and How Lightning May Still Fit Later
 

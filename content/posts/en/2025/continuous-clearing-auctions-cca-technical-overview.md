@@ -21,6 +21,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/untitled-post/"
+tldr:
+  - "Continuous Clearing Auctions sell a token over many blocks, and each block clears at one uniform price."
+  - "Bidders set a size and a max price once, and the protocol slices the bid across the remaining blocks."
+  - "When the sale ends, the result seeds a Uniswap v4 pool directly."
+  - "The Aztec Network public token sale is the first big real use."
+basically:
+  setup-and-bidding: "The project sets supply, duration and graduation rules. Bidders send one order with a max price."
+  how-one-block-clears: "Each block clears at the lowest price where demand covers supply, pro rata at the margin."
+  a-simple-example-with-numbers: "1,000 tokens and ten bidders: G, D and B fill at 2.20, scaled by about 0.909."
+  uniswap-v4-and-how-it-compares: "The final auction state sets up the first v4 liquidity, so price discovery also funds the pool."
+  compared-to-other-launch-formats: "Unlike fixed price, Dutch or instant AMM launches, speed and sniping don't decide who gets in."
+  the-aztec-sale: "Aztec runs its public sale through a CCA contract, and leftovers plus raised money seed a v4 pool."
+  sources: "Uniswap's blog, product page and repo, Aztec's terms, the Etherscan contract and coverage."
 ---
 ![](../../../media/continuous-clearing-auctions-cca-technical-overview/cover.jpg)
 
@@ -30,9 +43,13 @@ Continuous Clearing Auctions, or CCA, are an on-chain auction protocol from Unis
 
 It's built as its own smart contract system, a Continuous Clearing Auction contract plus a factory, and it's meant to be used together with the Uniswap Liquidity Launcher. The Aztec Network public token sale is the first big real use of it.
 
+## Setup and bidding
+
 How does it work? First the setup. A project defines at least the total tokens to sell `Q_total` and how long the auction runs, as a number of blocks or a time range. It also sets some starting guidance, like a starting price and maybe a price floor or a reserve curve. Then the graduation conditions, so the checks that decide if the sale is done and worked, for example a minimum of capital raised, a minimum average price or other criteria. And the rules for seeding liquidity, so how much of the raised assets and the leftover tokens go into a Uniswap v4 pool at the end. During the sale window the auction contract is the only seller of the token.
 
 Then the bid. A bidder sends one order with a maximum spend or the quantity they want, and the highest price they accept, `P_max`. They can also add other wishes like a minimum fill size. The protocol spreads this bid over all the auction blocks that are left, and in each block a part of the bid takes part in price discovery.
+
+## How one block clears
 
 For a given block `t`, let `S_t` be the token supply for block `t`, and let `B_t` be the multiset of active bid slices for block `t`, each with `(P_max_i, Q_i^t)`.
 
@@ -124,6 +141,8 @@ Everyone else gets zero in this block. Nobody pays more than the `P_max` they se
 
 In Uniswap's version CCA is its own protocol, but it's built to feed straight into a Uniswap v4 pool through hooks when the sale ends. The final state of the auction, so the total capital raised, the last clearing price and the tokens that are left, sets up the first liquidity position. So the auction is the price discovery phase and also pre-funds the pool, and you don't need a separate step to figure out liquidity later. The Aztec sale uses exactly this. The CCA contract does the price discovery and a dedicated "Aztec: Continuous Clearing Auction" contract address on Ethereum tracks bids and fills.
 
+## Compared to other launch formats
+
 Compare that to a fixed price sale. There the project sets one price up front and it's first come first served until the allocation is gone. Latency and gas bidding decide who gets in early, and the price is often wrong, so either the issuer leaves capital on the table or buyers see slippage right when secondary trading starts. With CCA the clearing price comes out of the order book of each block, allocation depends on how much price you tolerate and not on how fast your transaction is, and the final price fits the total demand by construction.
 
 A Dutch auction starts high and ticks down over time. Rational bidders try to wait for lower prices but not so long that supply runs out, so strategic timing and sniping at the block level matter a lot, and the clearing price you see may show the timing game more than a best guess of long-term value. With CCA you state your `P_max` once and your bid gets sliced across blocks. You don't have to watch and resubmit when the price moves. And clearing happens continuously in blocks, not on one descending path, so it's closer to repeated uniform price auctions than to one Dutch clock.
@@ -131,6 +150,8 @@ A Dutch auction starts high and ticks down over time. Rational bidders try to wa
 A one-shot uniform price auction, the sealed bid kind, takes all bids once and computes one clearing price with pro rata scaling at the margin. But it doesn't bootstrap AMM liquidity by itself, there is often a separate pool creation transaction after, and bidders can't react to new information between blocks. CCA keeps the uniform price but repeats the clearing over many intervals, connects automatically to a Uniswap v4 pool at the end, and allows longer sale windows where participation changes while every block still gets a clear price.
 
 And then the AMM instant listing, like launching a Uniswap v3 or v4 pool directly. Tokens go into a pool and trading starts right away. Early trades hit thin liquidity and high slippage, MEV and mempool competition shape the launch price a lot, and there is no real clearing price or ordered demand curve. In CCA explicit bidding replaces trading during the sale, price discovery happens by adding up an order book and not along a constant product curve, and the final clearing state then sets up the pool. So the sale and secondary trading are two separate phases.
+
+## The Aztec sale
 
 For the Aztec token sale, the Aztec Network public auction terms talk about a "novel Uniswap Continuous Clearing Auction (CCA) format" that should reduce price manipulation and support open, on-chain price discovery. Bids go through the CCA contract, which computes clearing prices and token allocations again and again. After the sale the leftover tokens plus a part of the money raised are expected to seed a Uniswap v4 pool, as the CCA and Liquidity Launcher design says.
 

@@ -20,6 +20,9 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/what-time-is-it-its-moscow-time-or-how-much-bitcoin-you-can-buy-with-1-us-dollar-1d33f94324b5"
+tldr:
+  - "Moscow Time is how many satoshis one US dollar buys, so 1,000,000 divided by the Bitcoin price."
+  - "When the Bitcoin price goes up, Moscow Time goes down."
 ---
 # What time is it? It's Moscow time. Or, how much Bitcoin you can buy with 1 US dollar
 
