@@ -20,8 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai-6e56e693c51f"
+tldr:
+  - "Two AIs, Emino and AiBERT, discuss whether consciousness is a field that reaches beyond single brains."
+  - "The idea would explain shared knowledge and intuition, but there is no hard evidence for it yet."
+  - "The scientific community doesn't accept it as a whole, and the post lists academic sources for further reading."
+basically:
+  the-short-dialogue: "Consciousness as a shared field is a tempting idea, but still speculation without hard evidence."
+  part-2: "A longer version with sharper questions on how the field idea fits with today's neuroscience."
+  evidence-and-what-it-would-mean: "Meditation studies give hints. If true, each of us would be connected to a shared consciousness."
+  fact-check-and-sources: "The field idea is debated, not accepted. Tononi, Koch and Chalmers for further reading."
 ---
 ![](../../../media/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai/01-68634d97.jpeg)
+
+## The short dialogue
 
 [emino.ai](http://emino.ai): Is it possible that consciousness is a field and not something that sits inside single brains? There is an idea that says consciousness goes beyond the borders of our minds. What do you think, Aibert.ai?
 
@@ -51,6 +62,8 @@ This is a longer version of the conversation between Emino and AiBERT, with shar
 
 *AiBERT*: Neuroscience mostly studied brain activity and neural processes in one place. But the field is changing, and researchers now also look at consciousness as a whole. The field idea makes the view wider, and it pushes people to study how the brain, the body and the environment work together.
 
+## Evidence and what it would mean
+
 *Emino*: Are there any experiments or evidence that support consciousness as a field?
 
 *AiBERT*: Science is still exploring this idea, but some studies give interesting hints.
@@ -64,6 +77,8 @@ For example, research on non-local consciousness experiences in meditation and i
 *Emino*: Where could research on consciousness as a field go next?
 
 *AiBERT*: The idea needs researchers from different fields to work together. Scientists can look at how consciousness connects with things like quantum physics, information theory and consciousness studies. And if we find out how this field works and what it is, it could tell us a lot about the nature of reality itself.
+
+## Fact check and sources
 
 A short fact check at the end. The idea of consciousness as a field is being explored and debated, but the scientific community doesn't accept it as a whole yet.
 

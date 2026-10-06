@@ -20,6 +20,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/dolphin-watching-in-zanzibar-3cd7e06cbf6a"
+tldr:
+  - "Near Bill Gates' private island off Zanzibar, dolphins hunt in clear water around a sandbank called Kati."
 ---
 ![](../../../media/dolphin-watching-in-zanzibar/01-af3d90bb.jpeg)
 

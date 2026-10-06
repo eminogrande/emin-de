@@ -20,8 +20,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/beyond-borders-rethinking-statehood-amid-u-s-f3f55c7ed13e"
+tldr:
+  - "I'm pro-helping people in need, but I understand Elon Musk's argument that a state should run like a company."
+  - "My father barely contributed in money but gave over 20 years of theater and culture. That counts too."
+  - "Network states like Liberland and service states like Liechtenstein show other ways to do citizenship and government."
+basically:
+  my-original-thoughts: "States should take people in, but network states and Liechtenstein show other ways to run one."
+  the-article: "Before the U.S. elections, the article looks at immigration, network states, Liberland and Liechtenstein."
+  compassion-or-calculation: "The EU takes refugees out of compassion. Musk says you don't hire someone who can't contribute."
+  value-you-cant-measure-in-money: "Immigrants bring cultural capital. My father's theater was net positive even if not in money."
+  network-states-and-liberland: "Liberland gives citizens a passport, a vote and services without making them live inside its borders."
+  liechtenstein-a-state-as-a-service-company: "Liechtenstein runs like a service company, and its regions can vote to leave and run themselves."
+  what-a-state-should-be: "The future of government is mixing compassion with being practical, not holding on to old models."
 ---
 ![](../../../media/beyond-borders-rethinking-statehood-amid-u-s/01-b4eb1cea.png)
+
+## My original thoughts
 
 These are my original thoughts, as I said them.
 
@@ -47,6 +61,8 @@ It’s an interesting and somewhat radical approach, especially coming from a mo
 
 The U.S. elections are close, and the debate about immigration and what states owe people is back. It's a bigger question about how statehood, citizenship and government should change. This article looks at both sides of immigration, at new ways to run a state like the network state, and at two real examples, Liberland and Liechtenstein. Emin Mahrt, a diplomat from Liberland who argues for network states, shares his thoughts on these ideas in a world that is more and more connected.
 
+## Compassion or calculation
+
 Immigration is one of the most divisive topics in the United States today. Some people say there is a humanitarian duty to take in people in need. Others say states should be run more like a business.
 
 The European Parliament, in a report on humanitarian crises, says “The willingness to take in refugees is not just a legal obligation but a reflection of our shared humanity.” This idea is the base of how the European Union does it, with compassion and not calculation.
@@ -59,6 +75,8 @@ He also compared it to a sports team. “If you’re not skilled in basketball, 
 
 Mahrt sees the logic in this. “I understand the main arguments from people like Elon Musk, who compare a state to a company. If a state can only operate sustainably by admitting those who can contribute, that approach makes sense in a business context.” But for him the value of a person should not only be measured by what they bring in economically.
 
+## Value you can't measure in money
+
 The money side of immigration matters, but it's not the only way to measure value. The sociologist Alejandro Portes has argued that “The impact of immigrants on society cannot be measured solely in economic terms; it’s about the social and cultural fabric they weave.”
 
 He points to “cultural capital”, which immigrants bring in ways that make a society richer beyond its economy.
@@ -66,6 +84,8 @@ He points to “cultural capital”, which immigrants bring in ways that make a 
 Emin Mahrt has a personal story that fits this. “I come from an immigrant family myself. My father organized local theater for over twenty years, contributing a lot to the local culture, producing movies, and engaging with the community in ways that are hard to measure economically. Even if his contribution was net negative in monetary terms, I believe it was net positive for the state as a whole.”
 
 The cultural historian John Higham writes in *Strangers in the Land* that “Immigrants are the lifeblood of cultural evolution in any society, contributing not just labor, but ideas, traditions, and social vibrancy.” These things are hard to count, but they shape how a society lives and thinks.
+
+## Network states and Liberland
 
 The old model of the state is under pressure, and new ideas like the “network state” are getting attention. In a network state you belong to a virtual state without being bound to its borders. Balaji Srinivasan, one of the best known voices for this idea, describes network states as “Digital-first, geographically-light communities” that are an alternative to the fixed, territory-bound nation-state.
 
@@ -77,6 +97,8 @@ Liberland is a new way to think about the state, built on freedom, choosing to b
 
 It shows how digital government and a physical state can meet in a world that is more and more decentralized.
 
+## Liechtenstein, a state as a service company
+
 Another example is Liechtenstein, a small and efficient principality in Central Europe. It's run a lot like a private company. Prince Hans-Adam II put it like this. “A state must operate like a service company, constantly improving and responding to the needs of its citizens.”
 
 Mahrt lived in Liechtenstein for four years and likes this approach. “Within the borders of Liechtenstein, everything works perfectly. There isn’t a single broken road, everyone pays taxes, and unemployment is non-existent. The idea is simple: the state must behave like a service company and prioritize quality infrastructure and services.”
@@ -84,6 +106,8 @@ Mahrt lived in Liechtenstein for four years and likes this approach. “Within t
 What is special about Liechtenstein is that the right to leave is built in. Regions inside the principality can declare independence if they are not happy with the services they get. Hans-Adam II said “If a region feels the state no longer serves them, they should be free to go their own way, but they must then bear the full responsibility of self-governance.”
 
 Mahrt finds this convincing. “It’s like giving regions the freedom to choose, but also the responsibility to manage their own resources if they opt out. It’s a radical but interesting approach.”
+
+## What a state should be
 
 With the U.S. elections coming, immigration and what states owe people are again at the front of the political debate. It's a good moment to ask again what a state should be and how it should deal with its citizens.
 

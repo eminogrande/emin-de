@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunbo/"
+tldr:
+  - "A summary of PLO Lumumba's analysis of Nicolás Maduro's removal from Caracas on January 3, 2026."
+  - "Lumumba calls it a 21st-century Monroe Doctrine driven by Venezuela's oil, with narco-terrorism as a tactical label."
+  - "He thinks Maduro was betrayed from his inner circle and warns that the law of the jungle is replacing international law."
+basically:
+  a-monroe-doctrine-for-the-21st-century: "Lumumba sees the Trump Doctrine as a claim to absolute American dominance, backed by missiles and warships."
+  oil-and-the-narco-terrorism-label: "He names the world's largest oil reserves as the real reason, and compares it to Noriega, Saddam and Gaddafi."
+  betrayal-from-inside-and-what-comes-next: "He suspects CIA work inside the forces, expects a kangaroo trial, and warns of lost independence."
 ---
 ![](../../../media/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunboat-diplomacy/cover.jpg)
 
@@ -27,9 +35,13 @@ A summary of an analysis by PLO Lumumba.
 
 On January 3, 2026, Venezuelan President Nicolás Maduro was removed from his residence in Caracas, and that sent shockwaves through the international community. In a deep analysis PLO Lumumba looks at what this means. He calls it the "death of international law" and the birth of a very one-sided "Trump Doctrine".
 
+## A Monroe Doctrine for the 21st century
+
 Lumumba argues that removing Maduro is a modern version of the Monroe Doctrine, updated for the 21st century. He says the 19th-century doctrine was aimed at European powers, but the Trump Doctrine of today claims absolute American dominance.
 
 He goes back to Otto von Bismarck's "blood and iron" and says that today's global problems are not solved with resolutions or UN speeches anymore, but with missiles, drones and warships. In this view the United States has made itself the world's final judge, jury and executioner.
+
+## Oil and the narco-terrorism label
 
 According to Lumumba, the real reason for this regime change is Venezuela's huge natural resources. He says the U.S. move is a form of classical colonization, to secure the world's largest oil reserves.
 
@@ -38,6 +50,8 @@ By putting in a puppet or "satellite" government, he says, the U.S. wants Americ
 The reason given for Maduro's arrest is narco-terrorism, and Lumumba sees that as a tactical label to take away a foreign leader's legitimacy. He compares it to Manuel Noriega in Panama, Saddam Hussein in Iraq and Muammar Gaddafi in Libya.
 
 He says the narco-terrorism tag makes sure the target is "dead on arrival" in the court of public opinion, no matter what the evidence is. And Lumumba points out the irony, because the demand side of the drug trade inside the United States is still not dealt with.
+
+## Betrayal from inside and what comes next
 
 How could such a big operation work with laser-pointed success and zero U.S. casualties? Lumumba's theory is that Maduro was betrayed from inside his own inner circle.
 

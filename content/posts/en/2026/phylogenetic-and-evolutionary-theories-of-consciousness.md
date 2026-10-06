@@ -20,6 +20,15 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100010-phylogenetic-and-evolutionary-theories-of-consciousness/"
+tldr:
+  - "This guide looks at consciousness through one lens, evolution and the tree of life."
+  - "It walks through the names on the map, from Dennett and Godfrey-Smith to Feinberg and Mallatt."
+  - "No single model explains everything yet, but every model adds a piece."
+basically:
+  one-question-one-lens: "How consciousness works, seen through evolution. Not the only truth, but good tools to think with."
+  the-names-on-the-map: "Every name gets the same questions: what does it explain, what does it miss, how can we test it?"
+  how-to-read-them: "Put the models side by side and ask which explains experience and brain data with the least confusion."
+  what-to-take-with-you: "No single model explains everything. Reading across all of them makes you less dogmatic."
 ---
 This is a long guide in simple words, so people who are new to the topic can follow it too. The idea is to go through every point on the map and explain it in a clear and fair way.
 

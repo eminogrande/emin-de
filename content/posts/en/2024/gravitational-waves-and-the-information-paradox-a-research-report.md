@@ -20,12 +20,26 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/gravitational-waves-and-the-information-paradox-a-research-report-6cbb30c577f6"
+tldr:
+  - "Gravitational waves let us see black hole and neutron star mergers and might help with the black hole information paradox."
+  - "Better detectors, signal analysis and soft hair theories speak for it. The unconfirmed memory effect and faint Hawking radiation make it hard."
+  - "Solving it needs better signal processing, more sensitive detectors and new theory."
+basically:
+  the-paradox: "Quantum mechanics keeps information. General relativity says what falls into a black hole is lost."
+  what-speaks-for-it: "New detectors and theories like soft hair suggest GWs could carry information out of black holes."
+  what-speaks-against-it: "The memory effect isn't confirmed, theories compete, and Hawking radiation is far too faint to see."
+  a-call-to-the-astrophysics-community: "Smarter algorithms, more computing power and better detectors are needed to pull the information out."
+  summing-up: "GWs are a good path to solving the paradox, but research, technology and theory have to catch up."
 ---
 ![](../../../media/gravitational-waves-and-the-information-paradox-a-research-report/01-daee18a3.jpeg)
 
 Gravitational waves (GWs) changed astrophysics. They let us see things like black hole and neutron star mergers in a way we never could before. They confirmed Einstein's theory of General Relativity, and they might also help with the black hole information paradox. This is a synthesis of recent findings on gravitational waves and the black hole information paradox. It puts recent research together and looks at one idea, that GWs carry information about the matter a black hole swallows, and so could be a way out of the paradox.
 
+## The paradox
+
 The paradox comes from a conflict. Quantum mechanics says information is kept, and general relativity says information that falls into a black hole is lost for good. That goes against how we think the universe works at the most basic level. Now that we have gravitational wave astronomy, there is a new way to look at it, because information might be encoded in the GWs that come out when black holes form and change, and carried away with them.
+
+## What speaks for it
 
 Part 2 is about what speaks for it.
 
@@ -39,6 +53,8 @@ Part 2 is about what speaks for it.
 
 2.5 is about testing the no-hair theorem. The no-hair theorem says a black hole is described only by its mass, spin and electric charge. GWs from ringing black holes, the ones that form after a merger, strongly support this theorem. But the no-hair theorem is about classical black holes, and nobody knows yet if it also holds in the quantum world. Very precise GW observations in the future might show small deviations from it, and that could point to quantum hair and to information being encoded.
 
+## What speaks against it
+
 Part 3 is about what speaks against it, or at least makes it hard.
 
 3.1 is the memory effect, and it isn't confirmed. The memory effect predicts that a passing GW leaves a permanent distortion of spacetime. Theory says it is there, but LIGO and Virgo haven't observed it directly yet. If the memory effect is confirmed, it would be more support for GWs carrying information. But to detect it you need to analyse a lot of GW events to get enough statistical significance.
@@ -51,6 +67,10 @@ Part 3 is about what speaks against it, or at least makes it hard.
 
 3.5 is the early universe. It is opaque to electromagnetic radiation, but GWs go right through it. If we detect primordial GWs from the Big Bang, we learn a lot about the very first moments of the universe. But these signals are faint, and we need detectors far more sensitive than the ones we have now.
 
+## A call to the astrophysics community
+
 Part 4 is a call to the astrophysics community. To really find out if GWs can solve the information paradox, the astrophysics community needs to build better signal processing to pull the subtle information out of GW waveforms, and that needs smart algorithms and a lot of computing power. It needs to help design and build the next GW detectors, on the ground like the Einstein Telescope and Cosmic Explorer and in space like LISA, so we get more sensitivity and see more of the GW spectrum. It needs to build and improve theoretical models to read GW observations in the light of the information paradox, and that needs astrophysicists, particle physicists and quantum information people to work together. And it should look for other signs too. Besides detecting GWs directly, indirect signs of information leaking out, like correlations in Hawking radiation or changes to black hole shadows, could also tell us a lot.
+
+## Summing up
 
 And part 5, to sum it up. The idea that GWs carry information about matter falling into black holes is a good path to solving the information paradox. We already got far with detecting and analysing GWs, but we need more research, better technology and new theory to really understand what role they play. It will take the whole astrophysics community, all over the world, working together to read what is encoded in GWs and maybe solve one of the biggest open questions in modern physics.

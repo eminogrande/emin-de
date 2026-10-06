@@ -20,6 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/zanzibar-real-estate-investment-guide-tax-free-living-for-digital-nomads-and-investors-with-zipa-e24d9d7090d1"
+tldr:
+  - "Invest $100k+ in Zanzibar real estate through ZIPA and you can get a 100% exemption from income tax on your worldwide income."
+  - "Investors also get corporate tax breaks, 100% foreign ownership, no capital gains tax on property and 33-year land leases."
+  - "I went through the process myself as a young expat, and I offer to help with ZIPA applications over $100k."
+basically:
+  zero-income-tax-worldwide: "Put $100,000 into local real estate and you can legally pay zero income tax on worldwide income."
+  what-i-see-from-the-inside: "I went through the investment process myself. The rules are transparent and legit."
+  the-tax-benefits: "100% corporate tax exemption for five years, then 50%, and foreigners can own 100%."
+  real-estate: "No stamp duty, no capital gains tax on property, and 33-year leases with five years without payments."
+  zanzibar-compared-the-ibiza-of-the-middle-east: "Against the Maldives, Seychelles and Mauritius, Zanzibar is often more generous."
+  why-zanzibar: "$100,000 gets you in, the market is young, and it is a good place to live, not just invest."
+  how-i-did-it: "Eight steps from location research to the lease. Foreigners get leasehold of up to 99 years."
+  so: "A special case for investors. Still, do your own research and get professional advice."
 ---
 ![](../../../media/zanzibar-real-estate-investment-guide-tax-free-living-for-digital-nomads-and-inv/01-eccaab87.png)
 
@@ -30,6 +43,8 @@ A lot of people gave me good feedback and wrote to me because of my article [A G
 So I decided to follow up with another topic. A guide towards worldwide tax exemption by owning real estate through the Zanzibar Investment Promotion Authority (ZIPA).
 
 I am a young expat and I moved to Zanzibar not long ago. I want to share what I see from the inside, because I think this might be the most overlooked tax haven and digital nomad paradise there is. If you work in tech, if you invest, or if you want to sort out your taxes while living somewhere tropical, read on.
+
+## Zero income tax, worldwide
 
 Through ZIPA, Zanzibar offers this. Invest $100,000 or more in local real estate and you can qualify for a 100% exemption on your worldwide income tax. Yes, worldwide. This is about more than local tax. It changes your whole global tax situation, and you get residency in one of the most beautiful places on Earth.
 

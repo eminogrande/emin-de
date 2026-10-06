@@ -20,6 +20,23 @@ emin_check_pct: null
 voice_rewrite: "none"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/biometrische-sicherung-von-privaten-schl%C3%BCsseln-d30c08abd2db"
+tldr:
+  - "Nuri soll ein Bitcoin Wallet für alle sein, bei dem man den privaten Schlüssel faktisch nicht verlieren kann."
+  - "Der Gefahrfaktor Nummer eins ist fast immer der Mensch, deshalb sollen mehrere Schlüssel ohne Single-Point-Of-Failure kombiniert werden."
+  - "Biometrie allein reicht nicht als Entropie. Fingerabdruck, Gesicht, PIN und offene Hardware zusammen bieten hohe Sicherheit."
+basically:
+  welche-probleme-gelöst-werden-müssen: "Ein einzelner Schlüssel und vergessene PINs sind das Problem. Mehrere Schlüssel sind die Lösung."
+  verlust-und-wiederherstellung: "100% Schutz vor Verlust gibt es nicht. Zu einfach hilft Angreifern, zu kompliziert führt zu Fehlern."
+  nuris-plan-für-die-schlüssel: "Telefon, Nuri Server, Hardware Wallet, Freunde und Familie. Verschwindet Nuri, wird es schwierig."
+  sichere-biometrie-basierte-schlüsselverwaltung-und--backup: "Was ich im Brainstorming aus anderen Quellen gesammelt habe, als Zusammenfassung."
+  -zielsetzung: "Ein idiotensicheres System für Schlüssel aus Biometrie, PIN oder Passwort und Hardware Wallets."
+  -anforderungen-und-ziele: "Lokal generieren, extern verschlüsselt sichern, kein Single-Point-of-Failure, offene Hardware."
+  -mögliche-schlüsselgenerierung-und-sicherung: "Schlüssel auf Smartcard oder Smartphone, Backup auf Telefon, Cloud, offline oder bei Familie."
+  -herausforderungen-und-risiken: "Ein Fingerabdruck hat nur ~10-20 Bits Entropie, und proprietäre Hardware kann verschwinden."
+  -sicherheitsarchitektur-empfohlen: "Fingerabdruck als 13. Wort, PIN als 14. Wort, dazu Argon2 oder PBKDF2 und ein externes Backup."
+  -empfohlene-maßnahmen-zur-risikominimierung: "Offene Standards, offengelegte Verfahren und mehrere Wege für Backup und Recovery."
+  ️-fazit: "Fingerabdruck, Gesicht, kurze PIN und offene Hardware zusammen sind sicher und praktikabel."
+  ️-herausforderungen: "Biometrie schwankt, Hardware kann einsperren, und Sicherheit muss einfach bedienbar bleiben."
 ---
 ![](../../../media/biometrische-sicherung-von-privaten-schluesseln/01-3b37bf06.png)
 
@@ -40,6 +57,8 @@ Insbesondere bei Nutzern, die das erste Mal mit dem Sichern eines privaten Schl�
 
 Wenn der Schlüssel angezeigt wird, entstehen automatisch Fehler. Das Ziel von Nuri ist es, es faktisch unmöglich zu machen, den Schlüssel zu verlieren.
 
+## Welche Probleme gelöst werden müssen
+
 Welche Probleme müssen also gelöst werden um den privaten Schlüssel privat zu halten?
 
 1. Wenn es nur einen Schlüssel gibt, und dieser Schlüssel gefunden wird, ist das ein Problem (man erhält direkt Zugriff auf das Wallet und kann die Bitcoin bewegen). Die gängigste Lösung hier ist es nicht einen Schlüssel, sondern mehrere Schlüssel zu kombinieren. Ein Schlüssel auf dem Telefon, ein Schlüssel auf dem Hardware Wallet und weitere Schlüssel als Backup in der Cloud oder auf dem Server eines Custodian
@@ -55,6 +74,8 @@ Von wem und wo könnten Schlüssel generiert werden.
 
 Es muss sichergestellt werden, dass ein einzelner Schlüssel kein Zugriff auf das Wallet hat, und das beim Verlust von einem oder mehreren Schlüsseln, die Wiederherstellung des Wallet möglich ist.
 
+## Verlust und Wiederherstellung
+
 Verlustszenarien sind
 1. Verlust des Telefon
 2. Verlust des Hardware Wallet
@@ -64,6 +85,8 @@ Verlustszenarien sind
 Die 100% Absicherung vor Verlust ist nicht möglich. Gestaltet man den Wiederherstellungsprozess zu einfach, so erleichtert man es auch potentiellen Angreifern, diesen Prozess zu wiederholen und Zugriff auf das Wallet zu erhalten.
 
 Gestaltet man den Wiederherstellungsprozess zu kompliziert, begibt man sich in die Gefahr, dass der Nutzer Fehler bei der Sicherung, oder Wiederherstellung begeht.
+
+## Nuris Plan für die Schlüssel
 
 Der Weg wie Nuri plant den Schlüssen zu erstellen
 

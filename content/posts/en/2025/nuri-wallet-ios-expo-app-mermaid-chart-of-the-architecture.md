@@ -20,10 +20,21 @@ emin_check_pct: 45
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/nuri-wallet-ios-expo-app-mermaid-chart-of-the-architecture/"
+tldr:
+  - "Nuri is a React Native Expo app that encrypts Bitcoin seeds with keys derived from WebAuthn passkeys via PRF."
+  - "Seeds are encrypted with XChaCha20-Poly1305, stored in iCloud Keychain and recoverable with more than one passkey."
+  - "It's an MIT licensed proof of concept with WIP features, and a Mermaid chart shows the architecture."
+basically:
+  what-the-app-does: "Passkey PRF derives the keys, XChaCha20-Poly1305 encrypts the seed, iCloud Keychain stores the backup."
+  how-the-code-is-organized: "Crypto, multi key backups and recovery live in lib/, passkey WebViews in components/."
+  apptsx-security-and-dependencies: "App.tsx walks you through every step. PRF is tied to the device, and iOS limits it on hardware keys."
+  the-architecture-chart: "One chart from user action to passkeys, encryption, backup, recovery, hardware keys and iCloud."
 ---
 This is a look at the codebase of the Nuri wallet, based on the
 README.md and the main App.tsx file. First what the code does, and
 then a Mermaid chart of the architecture.
+
+## What the app does
 
 Nuri here is a React Native Expo app built around passkey based
 Bitcoin seed encryption. It uses WebAuthn passkeys with the PRF
@@ -43,6 +54,8 @@ approve transactions, but iOS limits PRF on hardware keys. And
 recovery works with any passkey that belongs to the backup, or with
 guardian DEKs.
 
+## How the code is organized
+
 At the root you find the config and entry points, so `App.tsx` with
 the main UI and logic, `index.js` as the React Native entry,
 `package.json`, `tsconfig.json` and so on. The core utilities live in
@@ -61,6 +74,8 @@ new passkeys. `docs/` has a lot of documentation and server examples,
 like HTML files to test PRF and the PWA. `scripts/` has things like
 `guardian-server.mjs` for the guardian features, and `assets/` has the
 app icons and splash screens.
+
+## App.tsx, security and dependencies
 
 The heart of the app is `App.tsx`. It holds the UI and the wallet
 state, so the state for PRF, the DEK (the Data Encryption Key),
@@ -86,6 +101,8 @@ primitives and others like `expo-random` and `react-native-webview`.
 The whole thing is a proof of concept with some WIP features, like
 localhost PRF and guardian recovery. It's MIT licensed and it puts a
 lot of weight on security warnings.
+
+## The architecture chart
 
 This Mermaid flowchart shows the high level architecture and flow, so
 the main parts and how they work together when you encrypt and

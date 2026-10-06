@@ -20,6 +20,15 @@ emin_check_pct: 34
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/comprehensive-history-of-the-threefold-network-and-tokens/"
+tldr:
+  - "ThreeFold is a decentralized P2P internet infrastructure, a grid of computing, storage and network owned by the community."
+  - "It grew from Zero-OS in 2016 to Grid v3 on Stellar, with over 80 million GB of capacity at its peak."
+  - "In February 2026 v3 rewards ended and v4 began, with SPORE as the main token and AUR as a gold-backed stablecoin."
+basically:
+  1-how-it-started-2016-to-2017: "Founded in 2016 by Kristof De Spiegeleer's team, built on Zero-OS, a self-healing operating system."
+  2-the-grid-versions: "From Proof-of-Capacity in 2018 to a v4 marketplace in 2026 where Farmers set their own prices."
+  3-the-tokens-tft-spore-and-aur: "TFT was never sold in an ICO and is capped at 4 billion. SPORE and gold-backed AUR power v4."
+  timeline: "2016 founding, 2020 Stellar, 2024 vote for utilization rewards, Feb 8, 2026 the move to v4."
 ---
 ![](../../../media/comprehensive-history-of-the-threefold-network-and-tokens/cover.jpg)
 
@@ -77,6 +86,8 @@ There is a one way bridge so users can convert their old TFT tokens
 into SPORE and join v4. AUR is a stablecoin backed by gold, made to
 give corporate and enterprise users stable prices. So they can pay for
 computing slices without the swings of normal crypto markets.
+
+## Timeline
 
 In 2016 the project was founded and the first work on Zero-OS began.
 In 2018 the early grid versions launched and the first ThreeFold

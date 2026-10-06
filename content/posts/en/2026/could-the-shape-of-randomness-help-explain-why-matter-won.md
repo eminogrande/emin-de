@@ -20,15 +20,34 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/could-the-shape-of-randomness-help-explain-why-matter-won/"
+tldr:
+  - "Matter beat antimatter by roughly one particle per billion, and current physics can't yet explain how that tiny edge got big enough."
+  - "My idea: the Boltzmann peak isn't matter, it may be the amplifier where a tiny matter advantage gets strong."
+  - "Radiation could be the middle step in a loop of annihilation and pair creation, until freeze-out locks the leftover in."
+  - "It's a question for research, not a finished theory, and I list the serious problems with it."
+basically:
+  the-mystery: "Almost all matter and antimatter cancelled out. The tiny bit left over became everything we see."
+  randomness-makes-shapes: "The peak isn't matter. The peak is where a tiny matter advantage could get strong in the statistics."
+  where-this-meets-real-physics: "Sakharov, LHCb and Boltzmann equations already point here. Collisions aren't just noise."
+  radiation-is-not-nothing: "Annihilation is a change of form. Radiation can make matter again, so it's part of the engine."
+  black-holes-and-information: "Maybe radiation is a carrier layer, but we still need a tiny asymmetry somewhere."
+  a-machine-on-a-table: "Shake two colors of balls, add a tiny bias near the peak, and see if the leftover gets bigger."
+  the-serious-problems: "A speed curve can't pick matter, and radiation makes both. The careful version is about amplification."
+  what-i-want-to-try-next: "A simulation, a mechanical model and the literature. I'm putting this out as a question."
+  sources: "Every paper and article this idea builds on, sorted by topic."
 ---
 
 I want to put an idea out there for a research conversation, about Boltzmann statistics, radiation, matter, antimatter and the early universe. I'm not saying it's proven. I'm not saying current physics is wrong, and I'm not saying I solved the matter and antimatter problem.
 
 I'm just saying there may be a link worth talking about. Maybe the imbalance between matter and antimatter isn't only about a tiny difference at the start. Maybe it's also about how randomness spreads itself out.
 
+## The mystery
+
 The mystery itself is famous. In the early universe matter and antimatter should have been made together, and when they meet they annihilate. If the balance had been perfect, almost everything would have turned into radiation. But that's not what we see. We see galaxies and stars and planets and us.
 
 CERN describes the puzzle as a tiny excess of matter, roughly one extra matter particle per billion antiparticles, that survived the annihilation and became everything we see today. So almost everything cancelled out, and the tiny bit that was left became the universe we live in. That alone is crazy.
+
+## Randomness makes shapes
 
 My question starts there. When particles collide at random, what you get isn't pure disorder. Randomness can make structure. In a gas, random motion leads to the Maxwell-Boltzmann distribution, a speed distribution you can predict, with a clear peak and a long tail.
 
@@ -43,6 +62,8 @@ So I want to make the idea better. Maybe the peak isn't matter. Maybe the peak i
 Because most particles and most events sit near the peak and not far out in the tail, a tiny asymmetry near the peak could have a much bigger effect than the same asymmetry in a rare part of the curve. So the better version is this.
 
 The peak isn't matter. The peak is where a tiny matter advantage could get strong in the statistics.
+
+## Where this meets real physics
 
 This links to physics that already exists. People study the matter and antimatter problem through baryogenesis and leptogenesis. A classic starting point is Sakharov's idea from 1967 that a universe with more matter than antimatter needs some ingredients, namely matter number violation, C and CP violation, and a departure from thermal equilibrium.
 
@@ -64,6 +85,8 @@ There's also research on CP violating scatterings. Nardi, Racker and Roulet stud
 
 That's very close to what I'm trying to say. Collisions aren't just noise. Under the right conditions they may help shape the imbalance that's left at the end.
 
+## Radiation is not nothing
+
 Now I want to add radiation. When people say matter and antimatter annihilate and leave only radiation, the word only can mislead you. Radiation isn't nothing. It carries energy and momentum and sometimes subtle correlations. Fermilab describes matter and antimatter annihilation as making photons or gamma rays, and an electron and a positron usually annihilate into two gamma ray photons.
 
 So maybe we shouldn't think of annihilation as plain destruction but as a change of form. Matter + antimatter become radiation.
@@ -77,6 +100,8 @@ matter + antimatter → radiation → matter + antimatter again
 In the early universe, when everything was super hot and dense, this loop may have been part of the system. Particles annihilate into radiation, radiation makes pairs, collisions spread the energy around, expansion cools everything down, and at some point some processes just stop. Physicists call that stopping freeze-out. So my bigger idea is that the early universe maybe wasn't a one time matter against antimatter event.
 
 Maybe it was a recycling system of particles, antiparticles, radiation, collisions, pair creation, annihilation and freeze-out. And in that system radiation isn't the trash at the end. It's part of the engine.
+
+## Black holes and information
 
 This also makes me think about black holes. Black hole radiation isn't the same thing as matter and antimatter annihilation. Hawking radiation is a quantum effect where black holes give off particles as if they had a temperature, and Hawking's classic paper from 1975 showed that quantum effects make black holes emit particles like hot bodies.
 
@@ -93,6 +118,8 @@ It's not a finished theory. It's a direction for research. The strongest version
 If it acts near the peak, where most particles and interactions are, it could get much more important. If it only acts in the tail, it may do a lot less. That's why the max peak still feels important to me.
 
 Not because the peak really means matter, but because the peak may be the place where the tiny advantage of matter becomes visible.
+
+## A machine on a table
 
 I think you could explore this with a simple mechanical model. Imagine a device on a table with lots of small balls. The balls get shaken at random, they collide and they leave at different speeds, and their speed sorts them into different bins, like a mechanical Maxwell-Boltzmann demonstrator.
 
@@ -114,6 +141,8 @@ Annihilation makes radiation, and radiation can later make particle and antipart
 
 In that sea a tiny asymmetry might not count the same everywhere. It may count most where the distribution is densest.
 
+## The serious problems
+
 There are serious problems. First, the Maxwell-Boltzmann curve alone can't pick matter. A speed distribution isn't a label for matter or antimatter, and matter and antimatter partners should have the same speed distribution if they have the same mass and sit in the same thermal environment.
 
 Second, radiation normally makes matter and antimatter together, so radiation alone can't explain a net excess of matter. Third, a color blind machine shouldn't make a stable color excess. If it does, there's probably a hidden bias in the machine.
@@ -126,6 +155,8 @@ So the idea shouldn't be "the Boltzmann peak is matter". The stronger idea is "B
 
 In one sentence, maybe matter won not only because there was a tiny bias at the micro level, but because the statistical shape of the early universe made that bias bigger in the right place, before annihilation and freeze-out locked in the leftover matter.
 
+## What I want to try next
+
 I'd like to explore this in three ways. First with a simple simulation where particles get created, annihilate, scatter and freeze out, to test if a tiny bias near the peak of the distribution leaves a bigger surviving excess than the same bias in the tail.
 
 Second with the mechanical model on the table, where random shaking makes a speed distribution, two colors stand for matter and antimatter, a tiny controlled bias gets added, an annihilation stage removes pairs and you measure the imbalance that's left. And third with a bridge to the literature, to compare this intuition with the work that already exists on Boltzmann equations, CP violating scatterings, leptogenesis, baryogenesis, freeze-out, physics out of equilibrium, and radiation and information.
@@ -133,6 +164,8 @@ Second with the mechanical model on the table, where random shaking makes a spee
 I'm not putting this out as a conclusion. I'm putting it out as a question. Did matter win only because of a tiny asymmetry at the micro level, or also because the statistical shape of the early universe made that asymmetry bigger in the right place?
 
 Could the shape of randomness be part of why matter won?
+
+## Sources
 
 Here are the sources, if you want to read more.
 

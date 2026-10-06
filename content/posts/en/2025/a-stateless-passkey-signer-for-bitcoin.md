@@ -20,12 +20,36 @@ voice_check:
   unobserved: 311
 emin_check_pct: null
 original_url: "https://emino.app/posts/a-stateless-passkey-signer-for-bitcoin/"
+tldr:
+  - "I'm building a Bitcoin wallet where the private key is never stored, only derived from a passkey PRF when needed."
+  - "The wallet app only prepares PSBTs. A tiny, self-hostable signer website signs them and shows every detail first."
+  - "An optional 2-of-2 with a co-signing server and a CSV exit keeps one leaked key from draining the wallet."
+  - "The reply I got says it is feasible, if the PRF goes through HKDF and the signer stays strict and small."
+basically:
+  a-passkey-as-the-seed: "The passkey PRF is my seed. No mnemonic, nothing written down, no file to back up."
+  where-the-idea-comes-from: "FileKey, Bitwarden and 1Password already use passkeys as secrets. I want the same for Bitcoin."
+  preparing-and-signing-in-two-places: "The app is just UI that builds PSBTs. A tiny separate signer is the only thing that signs."
+  no-blind-signing: "The signer only signs PSBTs it can decode and show. It can't force the user to actually read them."
+  a-co-signer-with-a-csv-exit: "2-of-2 with a co-signer, plus a CSV exit after ~10,000 blocks so I can always leave alone."
+  the-full-picture-and-where-i-want-feedback: "I like the concept, but I want people to attack it: PRF quirks, PSBT transport, phishing."
+  the-reply-i-got: "The reply below is someone else's answer to this post, talking to me as you."
+  your-architecture-in-more-formal-terms: "The reply restates the design: PRF as seed, PSBT via QR to a signer, 2-of-2 with CSV fallback."
+  is-this-feasible: "All the pieces exist today. The real caveats are PRF platform support and native bridges in Expo."
+  does-this-eliminate-blind-signing: "No blind-signing API is possible. An honest UI and an attentive user are not guaranteed by crypto."
+  how-to-safely-use-the-passkey-prf-for-bitcoin-keys: "Treat the PRF output as input keying material, run HKDF, then use normal BIP32 derivation."
+  the-split-between-preparer-and-signer: "Assume the preparer is compromised. The signer enforces strict templates and shows every field."
+  co-signing-server-and-csv-exit: "One leaked key does not drain the wallet, as long as every UTXO uses the same protective script."
+  platform-and-implementation-expo-web-self-hosting: "Ship the signer as a static, reproducible build with one RP ID, and fail closed without PRF."
+  security-questions-to-challenge-your-design: "A checklist of open questions: domain separation, key rotation, UTXO discovery, supply chain, recovery."
+  bottom-line: "Feasible, no blind-signing feature, solid co-signer design. Users still have to understand what they sign."
 ---
 I'm working on a Bitcoin wallet that is fully stateless.
 
 By stateless I mean the Bitcoin private key is never stored anywhere. Not on the phone, not on a server, not in a database. It is derived deterministically from a passkey PRF (WebAuthn, FIDO2) whenever it's needed, used inside a very small signing environment, and then thrown away again.
 
 In this post I want to describe the architecture I'm building, how I'm thinking about "no blind signing", and where I still see open security questions. I'd love feedback, especially from people who build wallets, HSMs, or work with WebAuthn and Bitcoin PSBTs.
+
+## A passkey as the seed
 
 The basic idea is simple. Each user has a passkey (a WebAuthn or FIDO2 credential) with the PRF extension enabled. I call the output of that extension the passkey PRF. That PRF output is a high-entropy secret that never leaves the authenticator in raw form, it's exposed only through the PRF interface. I deterministically derive a Bitcoin private key from that PRF output. The PRF is effectively my seed.
 
@@ -35,9 +59,13 @@ This effectively turns a regular passkey into the seed phrase of a single-sig Bi
 
 The security of the wallet becomes the security of the passkey (plus how I handle the signing environment, of course).
 
+## Where the idea comes from
+
 This idea didn't come out of nowhere. It's inspired by a few projects that already use passkeys as high-entropy secrets. [FileKey.app](https://filekey.app/) does stateless file encryption and decryption. It uses the passkey PRF as input, derives keys on demand, and never stores them permanently. [Bitwarden](https://bitwarden.com/) and [1Password](https://1password.com/) both support unlocking your password manager with passkeys. The passkey PRF (or equivalent credential secret) is used to unlock and protect your vault, including in web environments.
 
 What I'm trying to do is bring this same pattern to Bitcoin and use passkeys as the root secret for a stateless signing setup.
+
+## Preparing and signing in two places
 
 I'm building the app with Expo React Native. The reason is simple. I want the stateless signer to run in as many environments as possible, on Android, on iOS and on the web in the browser.
 
@@ -53,6 +81,8 @@ From there the signed transaction can be sent back to the wallet, or any wallet 
 
 The idea is that the signer is a small, highly controlled enclave. The app on the phone is "just UI".
 
+## No blind signing
+
 One of my goals is that this system does not turn into a blind-signing nightmare.
 
 I can design the signer so that it only signs structured Bitcoin PSBTs (BIP-174 and BIP-370), never arbitrary bytes. It parses and validates the PSBT and refuses to sign anything it doesn't fully understand. It always shows the decoded transaction to the user, including inputs, outputs, fees, timelocks and scripts or conditions (e.g., CSV), and it requires explicit user confirmation on that screen.
@@ -63,6 +93,8 @@ Even with all that, there are still things this architecture cannot magically so
 
 So I can eliminate a blind-signing API, but I can't cryptographically force the UI to be honest or the user to pay attention. That's just reality.
 
+## A co-signer with a CSV exit
+
 On top of the single-sig stateless setup, I've also experimented with adding a co-signing server and a CSV escape hatch.
 
 The rough idea is to use a 2-of-2 script. One key is derived from the user's passkey PRF (stateless, as described above). The second key is on a co-signing server. Then I add a CSV (CheckSequenceVerify) condition. After, say, 10,000 blocks (~3 months), the coins can be spent with only the user's key.
@@ -72,6 +104,8 @@ What this buys you is two things. If a single key leaks, it doesn't automaticall
 The user doesn't know or control the second key, but they also don't need it forever. The CSV exit guarantees that in the worst case, after a delay, the funds are fully under their control again.
 
 This is not perfect security, but it's a nice trade-off. Extra friction for an attacker, and no catastrophic loss if the co-signer goes away.
+
+## The full picture and where I want feedback
 
 So the full picture looks like this. The passkey PRF gives a deterministic Bitcoin private key that is never stored. The wallet front end (Expo React Native) runs on Android, iOS, and web. It prepares PSBTs, shows balances and so on, and it's completely stateless, with no private keys, only public data and PSBTs. The minimal signer is a small web app (self-hostable). It uses a WebAuthn passkey to derive the key and sign PSBTs. It only signs structured PSBTs, always shows humans a decoded view, and does no arbitrary-data signing. The optional 2-of-2 plus CSV adds a co-signing server as another hurdle for attackers, and the CSV exit (~10,000 blocks) means you can always eventually move funds with just your passkey-derived key.
 
@@ -91,7 +125,7 @@ Short answer. Yes, what you're describing is absolutely feasible in principle, a
 
 I'll walk through the architecture and the main traps, then finish with a big list of security questions you can use as a design checklist.
 
-### 1. Your architecture in more formal terms
+## Your architecture in more formal terms
 
 Just to align. On key material, each user has a passkey (WebAuthn, FIDO2 credential) with the PRF extension enabled. When the signer runs, it asks the authenticator for a 32-byte PRF output bound to that credential. You treat this PRF output as a seed (or IKM) to deterministically derive a Bitcoin private key or root.
 
@@ -103,7 +137,7 @@ With the optional co-signer, outputs are encumbered with a script like `IF 2-of-
 
 That's how I read you. If that matches, everything below applies directly.
 
-### 2. Is this feasible?
+## Is this feasible?
 
 Yes. All of these pieces exist today. There are PRF-capable passkeys that return a 32-byte secret on demand. There are real systems using passkey PRF for encryption and stateless key derivation (Bitwarden for vault encryption, FileKey for file encryption, and others). And there are stateless signing frontends that just take PSBTs, sign in-memory, and output the result.
 
@@ -113,7 +147,7 @@ There are two main feasibility caveats. The first is platform support. PRF is st
 
 From a cryptographic and Bitcoin perspective, yes, you can do exactly what you're proposing.
 
-### 3. Does this eliminate blind signing?
+## Does this eliminate blind signing?
 
 You can design the signer so that it only signs structured Bitcoin PSBTs (BIP-174 and 370), not arbitrary bytes. It parses the PSBT and refuses to sign anything it doesn't fully understand, and it always shows the decoded transaction (inputs, outputs, fee, timelocks, scripts) and requires explicit user confirmation.
 
@@ -123,7 +157,7 @@ What you cannot cryptographically guarantee is everything around it. You still r
 
 So you can say "This wallet does not support blind signing as a feature. It only signs PSBTs whose semantics are fully parsed and shown to the user." But you cannot guarantee that "no user ever signs something they don't truly understand". That's ultimately a UX and education problem, not a cryptographic one.
 
-### 4. How to safely use the passkey PRF for Bitcoin keys
+## How to safely use the passkey PRF for Bitcoin keys
 
 Very important detail. The WebAuthn PRF output should be treated as Input Keying Material (IKM), then fed into a proper KDF (HKDF) to derive purpose-bound keys. This is explicitly recommended by people implementing PRF for encryption.
 
@@ -153,7 +187,7 @@ Please, don't make it a single static private key. For privacy and basic good pr
 
 Questions you should answer here (see also the big list later). Do you want multiple accounts from the same PRF (e.g. "savings", "spending")? If yes, how do you encode that into HKDF inputs? And how do you encode the network (mainnet or testnet) so users never cross-fund?
 
-### 5. The split between preparer and signer
+## The split between preparer and signer
 
 The threat here is that the PSBT is built by the preparer wallet UI, which could be compromised. So the mitigations sit on the signer.
 
@@ -169,7 +203,7 @@ For the channel between preparer and signer, QR or UR2 works fine, but remember 
 
 If someone compromises the preparer, they can still build a malicious PSBT. But they can't make you blind-sign it, because the signer will show what you're actually doing.
 
-### 6. Co-signing server and CSV exit
+## Co-signing server and CSV exit
 
 You're basically building a timelocked 2-of-2 scheme.
 
@@ -200,7 +234,7 @@ Implementation complexity. You're now relying on correct script assembly for P2W
 
 You absolutely can make this work, but test the hell out of CSV and script-path choice.
 
-### 7. Platform and implementation (Expo, web, self-hosting)
+## Platform and implementation (Expo, web, self-hosting)
 
 Make the signer a static site. A single-page app with no backend, and the built artifact pinned by a content hash. Users can host it themselves (e.g. GitHub Pages or static hosting), or even download a single index.html and run it fully offline.
 
@@ -210,7 +244,7 @@ RP ID strategy for passkeys. Use one canonical RP ID (e.g. signer.yourdomain.com
 
 PRF availability. Be prepared to detect when PRF isn't supported and fail closed (no fallback to weak crypto), or have a separate non-passkey-based wallet mode.
 
-### 8. Security questions to challenge your design
+## Security questions to challenge your design
 
 You asked for a lot of questions, so here's a structured list you can work through. You don't need to answer them to me. They're for your design docs and threat model.
 
@@ -224,7 +258,7 @@ On the co-signing server, key storage first. Is the co-signer key in an HSM? Can
 
 On recovery, UX, and "oh shit" scenarios, user education first. How do you explain statelessness, CSV delay exits, and the need to rotate passkeys if a device is compromised? Then incident response. If you detect your signer site or co-signer infra was compromised, how do you notify users? Is there a "mass move everything to a new descriptor" plan? And monitoring. Are you watching the chain for spending through the CSV path (which might signal server downtime), and for suspicious spends that don't match the expected origin (e.g., the user denies making them)?
 
-### 9. Bottom line
+## Bottom line
 
 Yes, the concept is feasible. Yes, you can design the signer so there's effectively no blind-signing feature, and only parsed, displayed PSBTs are ever signed. No, you can't mathematically guarantee users will always fully understand what they sign. But your separation of preparer and "minimal signer" is a strong, clean architecture to minimize that risk. The co-signing plus CSV setup is a solid way to make sure a single key leak doesn't immediately nuke the wallet, as long as every UTXO uses the correct script template and you've tuned CSV delays to a reasonable time window.
 

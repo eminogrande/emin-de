@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "none"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/nuri-wallet-visa-karte-banking-der-neustart-2026-9bce65657b4e"
+tldr:
+  - "2012 hörte ich zum ersten Mal von Bitcoin: Internetgeld, das wirklich dir gehört, wie Cash, aber digital."
+  - "Lange war Bitcoin zu kompliziert, und Börsen sperren faktisch 80 % der Weltbevölkerung aus."
+  - "Nuri ist ein Passkey-Wallet für Bitcoin, Euro und Dollar, ohne Bank und ohne Börse, mit VISA-Karte und IBAN optional."
+basically:
+  die-schweren-anfänge: "Wer seine Bitcoin-Geldbörse verlor, verlor seine Bitcoin. Viele gingen deshalb zu Börsen."
+  warum-ich-nuri-baue: "Jeder Mensch hat das Recht, Geld zu besitzen, bezahlt zu werden und zu zahlen. Ganz unkompliziert."
+  bitcoin-euro-und-dollar-in-einer-app: "Euro, Dollar und Bitcoin ohne Verifizierung, gesichert per Face ID. Dein Geld ist wirklich dein Geld."
 ---
 ![](../../../media/nuri-wallet-visa-karte-banking-der-neustart-2026/01-e435c3f1.jpeg)
 
@@ -35,6 +43,8 @@ Neues Geld zu erschaffen ist jedoch nicht einfach, doch Bitcoin hatte die Chance
 
 Bitcoin-Transaktionen sind öffentlich und irreversibel. Sie sind schnell, günstig und direkt von Person zu Person (oder von App zu App). Keine Registrierung, keine Auflagen. Inklusiv und für alle.
 
+## Die schweren Anfänge
+
 Doch die Anfänge waren schwer. Mit der Freiheit von Bargeld kam auch die Verantwortung. Wer seine Bitcoin-Geldbörse verliert, verliert auch seine Bitcoin. In der echten Welt war das jedem klar. Für die meiste Zeit waren Bitcoin zu besitzen und Bitcoin zu benutzen zwei komplett verschiedene Dinge. Die Frage, wie man Bitcoin sicher selbst verwaltet, aber auch ausgeben kann, wenn man muss, war lange Zeit für die Technischen unter uns reserviert.
 
 War man nicht technisch, war Bitcoin etwas zu Kompliziertes. Das Risiko, sein Geld durch einen kleinen Fehler zu verlieren, war vielen zu groß. Banken und vor allem Börsen schienen vielen die bessere Wahl. Binance entstand, Coinbase entstand, die Börse Stuttgart fing an, Bitcoin zu handeln.
@@ -45,6 +55,8 @@ Das war ein Problem und eine Motivation zugleich. Wir, die Bitcoiner, mussten es
 
 So einfach wie Bargeld.
 
+## Warum ich Nuri baue
+
 Fast eineinhalb Jahrzehnte später sind wir so weit. Nicht nur Bitcoin, sondern auch der digitale Euro und Dollar (und viele andere lokale Stablecoin-Kryptowährungen) haben es in den Alltag geschafft.
 
 Um mitzumachen, benötigst du einfach nur ein Wallet wie Nuri.
@@ -52,6 +64,8 @@ Um mitzumachen, benötigst du einfach nur ein Wallet wie Nuri.
 Die Motivation, Nuri zu dem zu entwickeln, was es heute ist, stammt von der gleichen Quelle, die mich vor 15 Jahren das erste Mal zu Bitcoin gebracht hat.
 
 Ich finde, jeder Mensch hat das Recht darauf, Geld zu besitzen, bezahlt zu werden und zu zahlen. Ganz unkompliziert, online oder offline.
+
+## Bitcoin, Euro und Dollar in einer App
 
 Nuri ist in erster Linie für digitale Zahlungen gedacht. Eine App, in der du sowohl Bitcoin als auch Euro und Dollar halten und verwalten kannst. Ganz ohne Bank, ganz ohne Börse.
 

@@ -19,16 +19,35 @@ emin_check_pct: 32
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/in-perpetual-motion-proud-moves-to-move-d-cf1971f53170"
+tldr:
+  - "A 2010 proud magazine interview with Move D, the Heidelberg DJ and producer who made his first record in 1990."
+  - "He talks about his stepfather's records, jazz guitar, old gear, Sven Väth, Detroit and why he calls everything techno."
+  - "His standard for good music: you should be able to fall asleep or make love to it."
+basically:
+  a-magenta-card: "A card handed over in a DJ booth, an email two weeks later, and an interview at Kleine Reise."
+  rather-unknown: "Move D likes the sixties and seventies handmade sound more than polished minimal productions."
+  a-record-player-at-four: "His stepfather's American records shaped him more than his two pianist grandmothers."
+  theory-and-forgetting-it: "He studied jazz guitar and harmony, but the best moments break the rules."
+  techno-as-the-umbrella: "For him everything electronic is techno, and Sven Väth went from clatter to storytelling."
+  from-mainstream-disco-to-new-sounds: "He started DJing in 1987 with funk and soul, and got bored once deep house was everywhere."
+  detroit-and-nerves: "Detroit at -30°C was beautiful. Before a gig he expects nobody to show up."
+  gis-afn-and-a-mix-cd: "G.I.s, Turkish breakdancers and AFN radio shaped his start. Groove asked for his first mix CD."
+  music-to-fall-asleep-to: "Besides music he does nothing. Science is a mental sport, music is more like making love."
+  upcoming-releases: "Three projects he had coming up, including 10 hours of jams with Juju & Jordash."
 ---
 This interview was originally published in proud magazine Berlin ([www.proud.de](http://www.proud.de)) in 2010.
 
 Life, love, and music in a perpetual motion machine. To be constantly in motion, just don’t stand still, also means letting yourself be newly inspired time and time again, and under no circumstances losing sight (or sound) of your passion. It’s all the easier when inspiration, passion, and vocation join forces. Move D and Jus Ed also joined forces in early November at The Jam Session in the Tape Club. Kinetic depth therapy despite the wintery heralds. Movement in music, music in movement. Reason enough to seek a conversation.
+
+## A magenta card
 
 Two hands, a DJ booth, and a magenta card changing owners. I move on. On it goes. Two weeks later, an email.
 
 The subject line says “Your card…” and the mail goes “…just showed up when emptying my pockets. I think you gave it to me at the Tape session with Jus Ed in Berlin. As far as I remember, you said something about doing an interview, well, here I am…”
 
 Move D is from Heidelberg, and for now, he’s staying there. Two weeks later, however, he’s playing at Kleine Reise. I make my way there. How fitting. Don’t you think?
+
+## Rather unknown
 
 *Why are we actually speaking English with each other? Do people often think you’re not from Germany because of your English stage name? You’ve actually been around for ages, haven’t you?*
 
@@ -45,6 +64,8 @@ Maybe not that, but always the same chords, or generally what you value in your 
 *Are you someone like Robert Babicz, who owns an arsenal of old equipment and works exclusively with it, a sound purist, so to speak?*
 
 I know Robert, and it’s a bit similar with me. I also collect old gear, but on the other hand, I don’t think it’s super relevant. There are people making great music with Reason and just a laptop. That works too. But this hardware does have a certain charm to it. I also grew up with a lot of these devices and really know how they work.
+
+## A record player at four
 
 *You grew up in a classical environment, with two classical concert pianists as grandmothers. And then there was your father’s record collection, from Pink Floyd to Kraftwerk.*
 
@@ -70,6 +91,8 @@ Others are better at that. Trumpet players are relatively easy. Saxophonists may
 
 Definitely. And if you wanted to measure why that is, it’s certainly always similar sounds that I like, and guaranteed to be similar chords and progressions. More minor than major.
 
+## Theory and forgetting it
+
 *Did you also really study music theory?*
 
 At first, I taught myself guitar autodidactically, but then I took jazz guitar lessons with two jazz guitarists. Of course, I also went through harmony theory there. I also took an advanced music course in high school. I can decipher sheet music, but I can’t sight-read.
@@ -78,6 +101,8 @@ At first, I taught myself guitar autodidactically, but then I took jazz guitar l
 
 Besides, it’s always a limitation when you have this knowledge. Carla Bley, for example, once said she would love to be able to forget everything she knows from theory when she writes. The greatest moments, even with the Beatles, are those bold modulations that you wouldn’t easily come up with if you always stick to the rules.
 
+## Techno as the umbrella
+
 *Do you see yourself in the category of techno?*
 
 For me, techno is just the umbrella term. I call everything techno, from drum ’n’ bass to house, to techno-techno, and ultimately even things like Kylie Minogue, current chart music. In principle, those are all completely electronic productions. In the 90s, techno was to a certain extent even a political movement. But as far as the sound goes, I was always far away from what others were doing. Maybe even more so back then than today. In the 90s, I had a residency at Ultraschall in Munich. It happened quite often that I was relieved at seven in the morning by Sven Väth. And beforehand, his vassals would come carrying his bags and always speaking of him in the third person, “He’s coming right now,” and such. And then he finally arrived and, right from the first record, pushed everything to the limit, and I almost lost it.
@@ -85,6 +110,8 @@ For me, techno is just the umbrella term. I call everything techno, from drum �
 *How do you approach him then?*
 
 Always with respect. He comes from a small place near where I’m from. And I know his beginnings were as an animation dancer in really awful village discos. In the 80s, he then landed a massive hit with Electrica Salsa and has sunk his teeth into it ever since. I’ve always respected that, but musically I always thought, “For God’s sake, get me out of here.” The punchline to all of this, though, is that things have changed since then, although I think that’s down to him and not just me. Nowadays, he’s a storyteller with big build-ups, long tracks, and variety. I like that quite a bit. Back then, it was Frankfurt techno, just right in your face. Everything clattered and distorted. But as a guy, I always found him interesting and cool. He also had the chutzpah to dance on the floor with his girlfriend among the crowd, and she’s two heads taller than him. He’s just swaying away with her, I mean, you need balls for that too.
+
+## From mainstream disco to new sounds
 
 *What were your beginnings as a DJ like?*
 
@@ -98,6 +125,8 @@ There are your own listening habits, and for me personally, a certain boredom se
 
 Well, sometimes that’s too rigid for me, but Space Dimension Controller is amazing, Floating Points too. They make their own style. The broad masses in England, on the other hand, are basically doing disco edits. That’s sometimes shocking when you listen to the original and realize how little they actually did, but I do play some of those things and think it’s great. I like such little deviations from the rules. Here at Kleine Reise, I can sometimes play things around 110 BPM, where you stay under. Otherwise, I always like Rob Hood or Jeff Mills, from whom I recently bought two records again.
 
+## Detroit and nerves
+
 *Have you ever been to Detroit?*
 
 I’ve only been there once so far, but it was totally beautiful because it was -30°C and everything was snowed in, so you only saw white. A clean white, not so brown and churned up on the street. But you didn’t freeze either because it was so dry. I can certainly imagine that it can be totally ugly there too.
@@ -106,6 +135,8 @@ I’ve only been there once so far, but it was totally beautiful because it was 
 
 Well, I always have the mindset from the start that nobody is going to show up anyway. And then I’m rather surprised when someone is actually there. Most of the time, I’m really tired before playing, which is also a form of excitement. Back in the day with the band, I’d fall asleep in the dressing room, just nod off. But I also don’t feel like I have to prove anything. Most producers are totally nice, and some are not nice. But you can’t change that either. Juan Atkins, for example, once talked to me in a pretty stupid way in Denmark, but that was his problem. Maybe he was just having a bad day or a bad phase in his life generally.
 
+## G.I.s, AFN and a mix CD
+
 *Didn’t you also have a lot of influences from the G.I.s in Heidelberg?*
 
 Where I started, the audience consisted of a third G.I.s and a third Turks, both so to speak not exactly the trendy party crowd in Germany. But I felt comfortable there because the Turks knew how to breakdance, and the Americans had really good music going on and brought records with them. Generally, the Americans were a big influence. We also had AFN, or we still do. That was always the best radio in the area. Like, pop music, yes, but not mega-club pop. Good pop music.
@@ -113,6 +144,8 @@ Where I started, the audience consisted of a third G.I.s and a third Turks, both
 *You recently did a mix CD for Groove. Was that your first mix CD?*
 
 Nobody had simply ever asked me. When Groove then asked, I immediately had ideas of what I’d like to do, classics and old stuff, but time and pressure got in the way, also with the licensing. Realistically speaking, I then limited my selection to people I know personally and can ask myself instead of having to go through the label.
+
+## Music to fall asleep to
 
 *I read in an interview with you that your standard for good music is “You should be able to fall asleep or make love to it.”*
 

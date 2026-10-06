@@ -20,6 +20,8 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/balaclava-and-rug/"
+tldr:
+  - "I turned an orange balaclava gold and added big golden Bitcoin logos to a photo of a girl in a balaclava and rug."
 ---
 I was asked to edit an image, so I took the original photo of the girl
 in the balaclava and rug. First I changed the orange knit balaclava to a
