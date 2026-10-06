@@ -20,6 +20,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-001500-non-reductive-physicalism-a-comparative-map/"
+tldr:
+  - "Non-reductive physicalism says everything is physical, but not everything reduces to lower level physics."
+  - "Ellis, Murphy, Sperry, Montero, Northoff and others each defend or pressure test a different part of that claim."
+  - "Its biggest problems are causal exclusion, looking like dualism in disguise and an unstable definition of physical."
+  - "Its future depends on precision: explicit models and real experiments, not rhetoric."
+basically:
+  why-nrp-exists: "Reduction kept hitting the same friction. NRP answers with one world and several levels of explanation."
+  ellis-emergence-and-murphy: "Higher level structure can constrain what happens below, and that is enough for a full picture of the human."
+  van-inwagen-sperry-and-nagasawa: "Persons, mental causation and precise terms: three pressure points NRP has to handle."
+  montero-and-what-physical-means: "If you can't define physical, physicalism risks saying nothing. NRP has to name its base ontology."
+  sanfey-and-northoff-the-empirical-side: "Decision science and brain dynamics show explanations on many levels in real data."
+  strengths-and-critiques: "Fits science and keeps agency real, but faces causal exclusion and the charge of hidden dualism."
+  a-better-nrp: "Mechanisms below, constraints above, clear terms and real tests. More architecture than compromise."
+  a-few-words-in-plain-english: "Consciousness, physicalism, dualism, qualia and the explanatory gap, in one line each."
 ---
 Non-reductive physicalism, NRP, tries to hold two things at once. The first one is that everything is physical, in the sense that reality is one natural order.
 
@@ -31,11 +45,15 @@ If you're new to the philosophy of consciousness, the short two minute version i
 
 You don't need to agree with all of it, the goal is just to see the options clearly.
 
+## Why NRP exists
+
 NRP exists because reductive physicalism promised something elegant but kept running into the same friction. There is qualitative experience, what it is like. There is mental causation and agency.
 
 There are norms and reasons. And there is multiple realizability, the same mind on biological and on artificial substrates. Dualism kept the mind distinct, but it brought in the problem of how mind and body interact, and it blew up the ontology.
 
 NRP says one world, with several levels of explanation that can't be reduced to each other.
+
+## Ellis, emergence and Murphy
 
 George Ellis argues that higher level structures can put real causal constraints on lower level processes. That's top-down causation, and it's central for NRP. Lower levels make higher levels possible, higher levels constrain and organize what happens below, and causal explanation depends on scale.
 
@@ -48,6 +66,8 @@ This emergentist physicalism with metaphysical discipline keeps ontological moni
 Nancey Murphy develops nonreductive physicalist positions around personhood, theology and neuroscience, inside the dialogue between theology and science. She rejects the Cartesian soul as a substance and she also rejects simple reduction. Human persons are physical beings with bodies, and properties at the level of the person, like intentionality, responsibility and the story of who you are, can't be eliminated.
 
 Murphy matters because she shows NRP can carry a full picture of the human without giving up naturalism.
+
+## Van Inwagen, Sperry and Nagasawa
 
 Peter van Inwagen isn't simply a spokesperson for NRP in every context, but his work makes the tensions around material composition, identity and personal persistence sharper.
 
@@ -63,11 +83,15 @@ Yujin Nagasawa is often discussed in philosophy of religion, at the crossroads w
 
 What you take from him is that NRP needs to be precise about what "physical" means and about how far explanatory pluralism can go before it turns into hidden dualism.
 
+## Montero and what physical means
+
 Barbara Montero asks what "physical" even is, and her critique is simple and hits hard. If we can't define the word clearly without going in circles or depending on where science happens to be in history, physicalism risks becoming a slogan.
 
 So non-reductive physicalists have to say what base ontology they commit to, and the view is strongest when it's naturalistic in method and not dogmatically token-physicalist. Montero's challenge keeps NRP honest.
 
 In comparative discussions, Canxian lines often bring process-relational metaphysics into conversation with naturalism, a bridge between East Asian process views and naturalist unity. That's very relevant for NRP. Reality is a dynamic process and not static blocks of substance, levels are made out of relations, and causality can be a network and doesn't have to go strictly from the bottom up. This widens the toolkit of NRP beyond analytic orthodoxy.
+
+## Sanfey and Northoff, the empirical side
 
 Alan Sanfey's work in neuroeconomics and social decision making shows why reduction isn't enough in practice. Neural data matter. Psychological models matter. The social context and the framing matter.
 
@@ -79,6 +103,8 @@ Consciousness is dynamic organization at the level of the whole system. Subjecti
 
 And bridges in explanation need neuroscience together with phenomenology. Northoff is one of the strongest scientific allies today for NRP style thinking.
 
+## Strengths and critiques
+
 NRP has four core strengths. One, it fits with science without eliminativism. Two, it allows explanatory pluralism across levels of organization.
 
 Three, mental causation can be treated as real through organization at the big level. And four, ethics, law and agency still make sense.
@@ -89,6 +115,8 @@ Two is that it could be just dualism in disguise. If mental properties can't be 
 
 And four is that the definition of physicalism isn't stable. If the word physical stretches too far, the theory risks becoming unfalsifiable.
 
+## A better NRP
+
 As a working proposal for a better NRP, a strong version today would include mechanistic grounding at lower levels, causation through constraints at higher levels, formal models across many scales like networks, dynamical systems and information geometry, and phenomenological calibration so subjective data doesn't get thrown away.
 
 That version is less a compromise and more an architecture for research.
@@ -96,6 +124,8 @@ That version is less a compromise and more an architecture for research.
 Non-reductive physicalism is still one of the most promising frameworks for consciousness and personhood, because it rejects two false choices, either reduction all the way down, or a metaphysical split all the way up.
 
 Its future depends on precision. If NRP becomes just rhetoric, it fails. If it becomes explicit in computation and in experiments and keeps explanatory pluralism, it may be the most realistic bridge we have right now between brain, mind and world.
+
+## A few words in plain English
 
 A few words in plain English. Consciousness is your felt inner experience, what it is like to be you. Physicalism is the view that reality is fully part of nature and physics.
 

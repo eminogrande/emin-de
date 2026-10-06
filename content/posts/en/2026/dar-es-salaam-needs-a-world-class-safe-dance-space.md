@@ -21,6 +21,22 @@ emin_check_pct: 43
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/untitled-post/"
+tldr:
+  - "Dar es Salaam Region grew from 4,364,541 people in 2012 to 5,383,728 in 2022, and the city is very young."
+  - "This is an open call to build a safe dance space in the spirit of Berghain or Club der Visionäre, rooted in Singeli and local artists."
+  - "The working title is DAR LISTENING ROOM: safety, fair pay, legal licensing and local leadership."
+  - "It starts with listening and small legal pop-ups before any permanent venue."
+basically:
+  a-city-growing-this-fast: "Projections put Dar at about 13.4 million by 2035. Cities that grow this fast need cultural places."
+  a-very-young-city: "Median age 23.1. Young people will build nightlife anyway, so it should be safe."
+  the-sound-is-already-here: "Singeli came out of Dar's working class districts. This is not importing culture."
+  what-world-class-means-here: "Not the door policy or the hype. Long musical journeys, good design and local roots."
+  dar-listening-room: "18+ nights, paid residencies, a public Code of Care and fair local jobs."
+  doing-it-legally: "Business licences, music licensing and alcohol rules. Built with local experts, within the law."
+  who-we-need: "Artists, operators, architects, sound engineers and partners. Built with Dar, not for Dar."
+  first-steps: "Phase 0 is listening, Phase 1 is legal pop-ups, then a permanent place with proper sound."
+  why-it-matters: "Music won't fix everything, but it changes how a city feels at night."
+  references: "Census data, growth projections and Singeli sources, ready to copy."
 ---
 ![](../../../media/dar-es-salaam-needs-a-world-class-safe-dance-space/cover.jpg)
 
@@ -45,6 +61,8 @@ spirit, like what Berghain or Club der Visionäre stand for in Berlin.
 Not a copy of Berlin but a Dar es Salaam original, a place that takes
 sound, community and freedom just as seriously.
 
+## A city growing this fast
+
 Different data sets use different borders, the city, the region, the
 metro or the urban agglomeration. But they all point the same way. Dar
 is growing incredibly fast.
@@ -62,6 +80,8 @@ And in cities that grow this fast, cultural places are not a nice extra.
 They are pressure valves, they hold communities together and they shape
 who a city is.
 
+## A very young city
+
 The 2022 census profile for Dar es Salaam Region shows a very young
 city. The median age is 23.1 (2022), 31.5% are below 15, 37.1% are below
 18 and 21.9% are between 15 and 24.
@@ -77,6 +97,8 @@ the city will still party.
 
 But it will do it in broken up, fragile and sometimes unsafe ways, and
 we can do better than that.
+
+## The sound is already here
 
 And the sound of the future is already here. Dar es Salaam already made
 one of the most radical dance styles on the planet, Singeli, very fast,
@@ -94,6 +116,8 @@ So this is not about importing culture. It's about building
 infrastructure that matches the culture people in Dar already make, and
 giving young artists real stages, real sound, real respect and real pay.
 
+## What world class means here
+
 When we say a place on the level of Berghain or Visionäre, we don't mean
 the door policy, the hype or the myth. We mean the basics. World class
 sound, so a serious system, a serious room treatment and serious
@@ -110,6 +134,8 @@ international guests invited to learn, work together and share. It
 should be a place where a young person can walk in and feel this.
 
 > “I am safe here. I can be myself here. I can dance here. I can grow here.”
+
+## DAR LISTENING ROOM
 
 The working title for the project is DAR LISTENING ROOM, a club and
 community place built around safety, sound and youth culture. The core
@@ -142,6 +168,8 @@ like community tickets, student nights and early bird prices. And a plan
 to put part of the profit back into youth training and local cultural
 grants.
 
+## Doing it legally
+
 A club is not just vibes, it's also governance, so doing it legally and
 with respect in Dar means a reality check. Anyone building this in Dar
 should plan for a business license in Tanzania, where different classes
@@ -160,6 +188,8 @@ for alcohol, because it's safer and clearer.
 This post is not legal advice. The point is simple, we build together
 with local experts and we build within the law, because safety depends
 on it.
+
+## Who we need
 
 If you are one of these people, we want you in this. Artists and music
 people, so DJs from Dar and from abroad, MCs, live acts, producers who
@@ -182,6 +212,8 @@ controlling it.
 The rule is that local leadership is not optional. This has to be built
 with Dar and not for Dar.
 
+## First steps
+
 The first steps should be realistic. Phase 0 is listening, in the first
 0 to 2 months. Build a local steering circle of artists, producers and
 community voices, hold listening sessions in Dar about what a safe club
@@ -197,6 +229,8 @@ Find a place with good access and a plan for noise, install the sound
 properly and don't improvise that part, and open with a resident program
 and a monthly calendar.
 
+## Why it matters
+
 A club can be shallow. But a well run cultural place can be a civic
 project. It gives young people a safe place to meet, it makes jobs and
 creative careers, it builds pride and belonging, it turns tension into
@@ -211,6 +245,8 @@ FORM LINK]. And if you are in Dar, send a message and we meet in person.
 
 Bring your craft, bring your care and bring your best ideas. Let's build
 a place where the 18 year olds of today can dance into a better future.
+
+## References
 
 These are the references and further reading, and you can copy the links
 into your own citation style.

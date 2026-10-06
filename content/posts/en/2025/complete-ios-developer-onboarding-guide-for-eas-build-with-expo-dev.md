@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/"
+tldr:
+  - "A new iOS developer can build with EAS Build and Expo without a Mac."
+  - "The admin invites the developer to Apple Developer and Expo, registers the iPhone and opens the repo, then the developer sets up and builds."
+  - "Development builds run on the phone against a local dev server, and production builds go to TestFlight."
+basically:
+  what-you-do-first-as-the-company-admin: "The admin invites the developer to Apple, App Store Connect and Expo, registers the UDID and opens the repo."
+  what-the-developer-does: "Accept the invites, set up Node and the EAS CLI, log in with your own Expo account and clone the repo."
+  the-first-development-build: "Check eas.json, then run eas build with the development profile. EAS handles the signing."
+  on-the-iphone: "Turn on Developer Mode, install the build and trust the developer profile."
+  every-day-after-that: "Start the dev server, connect the phone on the same WiFi, and ship preview or production builds."
+  when-something-breaks: "Most failures are a missing UDID, Developer Mode off or the wrong WiFi."
 ---
 ![](../../../media/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/cover.jpg)
 

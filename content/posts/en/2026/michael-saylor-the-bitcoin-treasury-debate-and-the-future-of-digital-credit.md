@@ -20,6 +20,18 @@ voice_check:
   unobserved: 132
 emin_check_pct: null
 original_url: "https://emino.app/posts/michael-saylor-the-bitcoin-treasury-debate-and-the-future-of/"
+tldr:
+  - "A summary of Michael Saylor's interview on What Bitcoin Did."
+  - "Saylor says 2025 was a landmark year for Bitcoin's structure: public companies holding it went from ~60 to over 200."
+  - "He defends smaller Bitcoin treasury companies and wants Bitcoin-backed digital credit to feed the global banking system."
+  - "For him the real story is Bitcoin entering the $300 trillion global credit market, not 90-day price cycles."
+basically:
+  fundamentals-over-price: "For Saylor, fair value accounting, tax guidance and banks lending against ETFs matter more than price."
+  the-100-day-view: "Saylor compares Bitcoin to electricity and nuclear power, which took decades to be accepted."
+  defending-bitcoin-treasury-companies: "For a struggling company, Saylor says, Bitcoin beats fiat or buybacks, and there is room for millions more."
+  digital-credit-strc: "MicroStrategy wants to sell Bitcoin-backed credit to banks so they can offer 8% yield accounts."
+  why-microstrategy-holds-usd: "The cash buffer lowers borrowing costs, which lets MicroStrategy buy more Bitcoin."
+  what-he-says-to-read: "Saylor recommends Durant's Story of Civilization and Rothbard's Conceived in Liberty."
 ---
 A summary of Michael Saylor's interview on *What Bitcoin Did*. It gets heated. He looks back at what changed for Bitcoin in 2025 and early 2026, answers the "toxic" criticism of Bitcoin treasury companies and explains why he sees Bitcoin as the foundation of a global digital credit system.
 

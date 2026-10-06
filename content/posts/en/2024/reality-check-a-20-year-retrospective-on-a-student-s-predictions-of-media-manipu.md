@@ -20,6 +20,18 @@ emin_check_pct: 56
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/reality-check-a-20-year-retrospective-on-a-students-predictions-of-media-manipulation-and-the-01b1d87ba934"
+tldr:
+  - "In 2005 a student in Berlin wrote a thesis about the manipulation of the masses through media."
+  - "Twenty years later its main claim still holds: whoever controls the media holds political power."
+  - "Algorithms, micro targeting, deepfakes and AI made manipulation and surveillance much stronger."
+  - "What the thesis didn't cover is AI as a risk to safety, war and the economy."
+basically:
+  who-controls-the-media: "The thesis said whoever controls the media holds power. Twenty years later that still holds."
+  the-algorithm-is-the-editor: "Platforms decide what we see, chase engagement over truth and target each of us one by one."
+  images-you-cant-trust: "The thesis showed doctored photos. Deepfakes now make it hard to tell true from fake."
+  ai-makes-manipulation-stronger: "AI writes propaganda, tracks people and steers what they buy and see, at a scale the thesis could only hint at."
+  what-the-thesis-didnt-see: "Unaligned AI, autonomous weapons and lost jobs are risks beyond media manipulation."
+  looking-back: "Some predictions came true, AI went further. We have to deal with it now, together."
 ---
 ![](../../../media/reality-check-a-20-year-retrospective-on-a-student-s-predictions-of-media-manipu/01-136e936c.png)
 *AITracyTracy*
@@ -38,6 +50,8 @@ And you also see where reality went a different way or even went further
 than the predictions, most of all with the rise of AI, which nobody saw
 coming like this.
 
+## Who controls the media
+
 The main argument of the thesis, that whoever controls the media holds
 political power, is still a chilling truth. But the ways to manipulate
 people changed a lot.
@@ -45,6 +59,8 @@ people changed a lot.
 The thesis looked at government censorship, control of state media and
 the early chances for digital surveillance. It couldn't really see
 social media coming as the main battlefield for information war.
+
+## The algorithm is the editor
 
 The student was worried about political parties influencing newspapers.
 Today the algorithm is the editor. Platforms like Facebook, Twitter and
@@ -65,6 +81,8 @@ can now shape messages for very specific groups of people. They use the
 biases and weak spots people already have to change how they vote and to
 spread division.
 
+## Images you can't trust
+
 The thesis showed how images get manipulated, with examples like the
 doctored photo of the Soviet soldier. With deepfakes this went to a
 whole new level. You can now make fake videos that look completely real,
@@ -72,6 +90,8 @@ and that made people trust video and photos even less.
 
 It gets harder and harder to tell what is true and what is fake, and the
 student could only hint at that with simpler photo edits.
+
+## AI makes manipulation stronger
 
 The thesis knew that new technology could make manipulation stronger.
 But it mostly looked at surveillance, data collection and hacking, the
@@ -104,6 +124,8 @@ Recommendation algorithms, personal search results and targeted ads can
 nudge people toward some products, services and even political views,
 and they shape choices without people noticing.
 
+## What the thesis didn't see
+
 The thesis was mostly about manipulating the masses, so it didn't look
 at what AI means for human safety and well being in general. Today AI
 moves so fast that the worries go way beyond manipulation, all the way
@@ -128,6 +150,8 @@ unrest.
 
 To deal with that we need to act early, with education, retraining and
 social safety nets, so AI does less damage to the people who work.
+
+## Looking back
 
 Reading this thesis again 20 years later is a sobering reminder of how
 fast technology moved. In some places it did what the student predicted

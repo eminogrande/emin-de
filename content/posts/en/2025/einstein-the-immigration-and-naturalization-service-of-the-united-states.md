@@ -21,6 +21,16 @@ emin_check_pct: null
 voice_rewrite: "framing-only"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/einstein-the-immigration-and-naturalization-service-of-the-united-states-d34dd1029866"
+tldr:
+  - "Transcript of the NBC radio program I'm an American, June 22, 1940, with Albert Einstein and Marshall Dimock."
+  - "Einstein speaks about freedom, tolerance and why he gave up his position in Germany."
+  - "He argues that science alone can't free people and that a federal organization of nations is necessary."
+basically:
+  transcript: "Einstein on NBC in 1940, invited as a naturalized citizen to talk about America."
+  why-he-left-germany: "Einstein left Germany because there was no civil liberty, tolerance or equality before the law."
+  what-science-can-and-cannot-do: "Science can free people from hard labor, but it is a tool. What matters is how people use it."
+  a-federal-order-of-nations: "Einstein calls a federal organization of the world's nations possible and absolutely necessary."
+  faith-in-a-chosen-country: "Einstein believes most Americans are just, tolerant and reasonable, and closes with that hope."
 ---
 Transcript of the NBC radio program I'm an American, broadcast June 22, 1940. Albert Einstein talks with Marshall Dimock, second assistant secretary of the Department of Labor, a few hours after his final citizenship exam.
 
@@ -48,6 +58,8 @@ Dr. Einstein, I know that you seldom give interviews, and so I want to thank you
 
 It is clear to me that it was a self-evident duty to accept this invitation — though I must tell you that I do not think words alone will solve humanity’s present problems. The sound of thumping browns out men’s voices. In ordinary times, times of peace, I have great faith in the communication of ideas between thinking men; but today I am afraid the intellectual way to appeal to man is fast becoming of little avail, with brute force dominating so many million lives.
 
+## Why he left Germany
+
 **Dimock**
 
 This morning, Dr. Einstein, I was privileged to be present while you took your final examination for American citizenship. **Will you tell us why you, who are international in your outlook and by virtue of your scientific interests, prefer to live in America rather than in any other country?**
@@ -63,6 +75,8 @@ That is real American doctrine. **But tell me, do you feel that America still fu
 **Einstein**
 
 Yes, Mr. Dimock. Making allowance for human imperfections, I do feel that in America the most valuable thing in life is possible — the development of the individual and his creative power. There may be men who can live without political rights and without opportunity of free individual development, but I think that this is intolerable for most Americans. Here, for generations, men have never been under the humiliating necessity of unquestioning obedience. Here human dignity has been developed to such a point that it would be impossible for people to endure life under a system in which the individual is only a slave of the state and has no voice in his government and no decision on his own way of life.
+
+## What science can and cannot do
 
 **Dimock**
 
@@ -80,6 +94,8 @@ I have often wondered why it is that leaders in science and culture have so litt
 
 I think it is quite understandable. Scientists and artists through their works frequently have had enduring influence even in the realm of politics. But in order to influence the course of political events directly, one must also have the gift to influence people and their actions directly. This is rather a matter of arousing and using emotion and personal confidence than of clear understanding of causal connections. For this reason, intellectuals have little chance to impress an audience. Also, they usually do not have the gift to make decisions swiftly. Among outstanding American statesmen, Woodrow Wilson is perhaps the truest example of the intellectual type, but he too did not seem to have mastered the art of dealing with men. His greatest achievement, the League of Nations, appears today as a failure on superficial observation. Yet I believe Wilson’s work will be recreated in more powerful form; only then will the importance of this great innovator be fully recognized.
 
+## A federal order of nations
+
 **Dimock**
 
 **What hope have you, Dr. Einstein, that another League of Nations could prevail in a nationalistic world with its unevenly distributed resources and its unsettled economic conditions?**
@@ -95,6 +111,8 @@ I am convinced that a federal organization of the nations of the world is not on
 **Einstein**
 
 I am far from being optimistic, but what I have told you is not a prophecy — it is a statement of what must be done to prevent life on this earth from becoming unbearable. Everybody will agree that we are now farther removed from this goal than seemed to be the case ten years ago. This setback could have been avoided if the democracies had then shown the same solidarity and readiness for sacrifice they show now in this hour of great emergency. Will to sacrifice, solidarity and wise foresight, however, are most effective before the hour of dire necessity has arrived. May our America be spared such an hour through the resolute action of her citizens and statesmen.
+
+## Faith in a chosen country
 
 **Dimock**
 

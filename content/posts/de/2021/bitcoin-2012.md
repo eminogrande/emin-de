@@ -20,6 +20,9 @@ voice_rewrite: "none"
 review_status: "draft-emin-voice"
 
 original_url: "https://medium.com/@em/bitcoin-2012-6b19cea8392f"
+tldr:
+  - "Ein Chat von 2012: Julian erzählt mir von Bitcoin-Börsen und automatisiertem Arbitrage-Handel zwischen Euro und Dollar."
+  - "Julian sagt, ohne ca. ne Million ist das schwer profitabel. Ich glaube, man hat sein Glück eher mit eigenen Projekten in der Hand."
 ---
 **Julian**: es gibt internetbörsen die mit digitalen währungen handeln
 **Julian**: such mal nach bitcoins

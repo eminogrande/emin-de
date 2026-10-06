@@ -20,6 +20,26 @@ emin_check_pct: 35
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/black-holes-the-big-bang-and-the-sound-of-information/"
+tldr:
+  - "I asked an AI whether the Big Bang could be like π: you get closer forever but never reach a first point."
+  - "My idea is that the core of the universe works like a black hole whose radiation becomes the expanding universe, in a circle."
+  - "I also asked if the ripples and sound of black holes could carry the information that seems lost in them."
+  - "The AI and a Deep Research report say parts of this match bounce cosmologies, black hole cosmology and Loop Quantum Gravity."
+basically:
+  my-two-questions: "Two questions as I said them: π and the Big Bang, then sound and the information paradox."
+  the-ais-explanation-of-my-ideas: "The AI translates my hunches into physics: π as no sharp start, a black hole core, ripples as information."
+  what-standard-cosmology-says-about-the-beginning: "The singularity is where our equations break, not a real point. Bounce models replace it."
+  is-there-a-black-hole-at-the-center: "No center inside our universe, but our whole universe could be the inside of a black hole."
+  the-information-paradox-in-plain-words: "Hawking radiation looks random, quantum mechanics says information can't be destroyed. That clash is the paradox."
+  can-sound-carry-the-information: "Gravitational waves carry masses and spins, not the full quantum state. The spirit is right, the mechanism is not."
+  the-big-picture-and-where-it-matches-physics: "No sharp beginning and black holes as part of a cycle fit real theories. A central core does not."
+  deep-research: "Second part: a Deep Research report the AI wrote on the same question."
+  the-trouble-with-the-dot: "An infinitely dense dot breaks physics. Like π, you approach the beginning but never reach it."
+  from-the-dot-to-the-square: "At the Planck scale space comes in chunks. The square is Loop Quantum Gravity and digital physics."
+  our-universe-as-the-inside-of-a-black-hole: "Our universe has about the radius of a black hole with its mass. Torsion turns the collapse into a bounce."
+  the-cosmic-circle: "Smolin's baby universes and Penrose's aeons both describe the circle I had in mind."
+  the-asymptotic-black-hole-cycle: "The report turns my sentences into one theory with five parts, from the square to the cosmic circle."
+  the-reports-honest-opinion: "The single parts exist in separate theories. The combination with π is the part that's mine."
 ---
 ![](../../../media/black-holes-the-big-bang-and-the-sound-of-information/cover.jpg)
 
@@ -122,6 +142,8 @@ Already this is very close in spirit to real ideas. There are universes
 born inside black holes, cyclic models where the universe has phases
 instead of a single start, and big bounces that replace singularities.
 
+## What standard cosmology says about the beginning
+
 Now what standard cosmology actually says about the beginning. In the
 standard Big Bang model, if you run Einstein's equations backward in
 time, the universe gets hotter, denser and smaller. The equations
@@ -148,6 +170,8 @@ defined last step, catches the feel of these proposals quite well. In
 some models there really is no absolute first moment, only some limiting
 regime where our normal picture of time and space stops working and a
 different description takes over.
+
+## Is there a black hole at the center?
 
 Does the universe have a central black hole core? Here standard
 cosmology pushes back. On large scales observations show that the
@@ -205,6 +229,8 @@ aren't final dead ends but transitions in a bigger multiverse structure.
 Again this fits your "it's like a circle" idea, compress, then bounce or
 radiate, then expand.
 
+## The information paradox in plain words
+
 Now to your second idea, using sound or ripples to help solve the
 information paradox. Very roughly the paradox goes like this. In
 classical general relativity black holes are fully described by only a
@@ -236,6 +262,8 @@ correlations that encode the information about what fell in, and that
 our semiclassical calculation is too rough and misses these
 correlations. But the exact, fully realistic story is still being worked
 on.
+
+## Can sound carry the information?
 
 Your intuition about the paradox, in your own words, is roughly this.
 When black holes form and interact they send ripples through space,
@@ -293,6 +321,8 @@ philosophically close to how many physicists think now.
 Black holes don't destroy information, they hide it and scramble it in
 complicated ways in the radiation and correlations that leak out in the
 end.
+
+## The big picture, and where it matches physics
 
 If we put your two big themes together, no sharp beginning but a π-like
 approach to a dense limit, and black holes and their ripples as key to
@@ -412,6 +442,8 @@ remarkably well with new theories that want to replace the Big Bang
 singularity with a Big Bounce or a phase transition inside a
 higher-dimensional topology.
 
+## The trouble with the dot
+
 The idea of the Big Bang singularity rests on the assumption that
 spacetime is a continuous manifold, a smooth fabric you can cut up
 forever. This leads straight to the dot model, where the scale factor of
@@ -479,6 +511,8 @@ is a logical contradiction. So the beginning can't be a simple point, it
 has to be a structure that can hold the seed information of the cosmos.
 And that means moving from continuous geometry to discrete geometry,
 from the dot to the square.
+
+## From the dot to the square
 
 To solve the paradox of infinite regress and infinite density, modern
 physics turns to discretization. The user's intuition that the universe
@@ -550,6 +584,8 @@ Table 1, Continuous vs. Discrete Models of the Beginning
 | Origin Paradox | Zeno's Paradox (Infinite Regress) | Initial Condition / Phase Transition |
 | Physical Analogy | Fluid Dynamics | Pixelated Screen / Crystal Lattice |
 | Key Theory | General Relativity ($\Lambda$CDM) | Loop Quantum Gravity / Wolfram Physics |
+
+## Our universe as the inside of a black hole
 
 From the geometry of the square the user moves to the build of the
 cosmos. "The core of the universe is actually something like a black
@@ -651,6 +687,8 @@ The user's idea that "radiation becomes the expanding universe" catches
 the core of these holographic dark energy models, where the information
 or radiation at the boundary sets the volume dynamics of the inside.27
 
+## The cosmic circle
+
 The user ends with a picture of recursion. "It's like a circle... they
 suck everything in, and then they re-emit it... exactly that same thing
 basically could be the beginning of the universe." This circle is the
@@ -692,6 +730,8 @@ Table 2, Comparison of Cyclic Mechanisms
 | Singularity | Removed (Bounce) | Removed (Bounce) | Rescaled (Conformal) | Asymptotic (Infinite Pi) |
 | Expansion | Inherited Momentum | Torsion Repulsion | Big Bang | Radiation Emission |
 
+## The Asymptotic Black Hole Cycle
+
 Then the report pulls it together as a Discrete-Torsion Black Hole
 Theory. Because I asked it to "organize" my sentences into something
 readable, it wrote my hypothesis up as a formal cosmological theory,
@@ -731,6 +771,8 @@ holes that form in our universe aren't dead ends, they are the seeds of
 new universes. Matter gets compressed, re-emitted through radiative
 bounces, and gives birth to new expanding realities. The cosmos is an
 infinite, self-sustaining circle of reproduction driven by black holes.
+
+## The report's honest opinion
 
 After that the report gave its "honest opinion", because I asked if the
 theory holds water and if others have "put this together".

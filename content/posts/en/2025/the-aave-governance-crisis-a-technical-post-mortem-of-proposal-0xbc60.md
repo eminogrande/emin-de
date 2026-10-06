@@ -20,6 +20,18 @@ emin_check_pct: 28
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-aave-governance-crisis-a-technical-post-mortem-of-propos/"
+tldr:
+  - "In December 2025 Aave Labs sent CowSwap frontend money to their own address, and the DAO saw a breach of trust."
+  - "Ernesto Boado of BGD Labs proposed moving the domain, social handles and brand IP to a DAO-controlled entity."
+  - "On December 22, 2025 Aave Labs pushed the vote to Snapshot on their own, right before the holidays."
+  - "The fight shows that DAOs have no link between the code on-chain and the brand and IP off-chain."
+basically:
+  the-handshake-that-broke: "Labs ran the frontend, the DAO owned the protocol. CowSwap money going to Labs ended that deal."
+  proposal-0xbc60: "Boado's proposal: move the brand to the DAO and license it back under terms you can enforce."
+  the-aave-labs-side: "Labs wants to build a consumer fintech app and says a DAO is too slow to run a brand."
+  the-unilateral-snapshot-vote: "Labs pushed the vote alone for Dec 23. Delegates called it a hostile takeover, AAVE dropped."
+  code-on-chain-brand-off-chain: "Contracts belong to token holders, the domain and frontend don't. The code can't change, consensus can."
+  what-it-means-for-daos: "Vote yes and fight over the IP, vote no and let service providers take the frontend value."
 ---
 ![](../../../media/the-aave-governance-crisis-a-technical-post-mortem-of-proposal-0xbc60/cover.jpg)
 
@@ -36,6 +48,8 @@ that can't change, and the product, which is a brand that can.
 This post goes through the 164-post governance thread, the
 move by Aave Labs to push the vote to Snapshot on their own,
 and what it means for decentralized governance in general.
+
+## The handshake that broke
 
 For years the Aave world ran on a handshake. Aave Labs (before
 that Aave Companies, led by Stani Kulechov) took care of the
@@ -61,6 +75,8 @@ Marc Zeller (ACI) put it like this. "It seems we have been
 fooled in considering this a natural alignment, and we
 acknowledge the new reality... When you own $AAVE, what do you
 actually own?"
+
+## Proposal 0xbc60
 
 On Dec 16, 2025 Ernesto Boado (`@eboado`), co-founder of BGD
 Labs, the core tech service provider of Aave, posted a
@@ -88,6 +104,8 @@ can control soft assets like brand, marketing channels, and
 gateways... all other contributors become de facto
 subordinated to that party."
 
+## The Aave Labs side
+
 Aave Labs didn't really fight it out in text on the forum. But
 what they did and the arguments they backed show a clear line
 of defense, and it's about composability and the rights of a
@@ -110,6 +128,8 @@ protocol, as a series of smart contracts governed by a DAO, is
 unconventional... Aave the protocol doesn't need to own a
 website, a domain name, or even a brand. It exists in perfect
 and pure form without any of those."
+
+## The unilateral Snapshot vote
 
 Then on December 22, 2025 it stopped being a forum debate and
 became a real governance crisis. Aave Labs used their admin
@@ -141,6 +161,8 @@ spokespeople that the extensive discussion of 5 days was
 enough and that "voting is the best way to resolve" the
 deadlock.
 
+## Code on-chain, brand off-chain
+
 The whole fight shows a real flaw in how DAOs are built today.
 There is no link between the code on-chain and the IP
 off-chain. You can see it when you look at the 4 pieces.
@@ -163,6 +185,8 @@ replace Aave Labs completely.
 
 So the code can't change, but the social consensus around it
 can swing very fast.
+
+## What it means for DAOs
 
 The 164-post thread of proposal 0xbc60 is a warning for every
 DAO that is past the early phase. The implicit agreement, the

@@ -20,12 +20,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100006-relational-theories-of-consciousness/"
+tldr:
+  - "The relational column of my consciousness map looks at how consciousness works through relations."
+  - "It runs from Andy Clark and Chalmers to Whitehead."
+  - "No single model explains everything, so the best way is to put them side by side and compare."
+basically:
+  who-is-in-this-column: "From Andy Clark and Chalmers to Whitehead, each name is one line of thought on the map."
+  how-to-read-it: "Ask what each idea explains, what it misses and how to test it. Then compare them side by side."
 ---
 This is a long guide in simple language, so people who are new to the topic can still follow it. I want to explain each point from my map in a clear and fair way, and I want it to be easy to read even if you never read any philosophy of mind before.
 
 This column of the map tries to answer one big question, and that question is how consciousness works. It looks at it through one specific lens, the relational one. It doesn't claim to be the only truth, but it gives you good tools to think with, and that is the reason it's on the map at all.
 
+## Who is in this column
+
 The column starts with Andy Clark and Chalmers and then goes on with Hofstadter, Tsuchiya and Lörincz. After them come McGinn, Cooke and Harman, and then J. Campbell and Fish. Then there are Mitchell and Jennings, and after them Lahav, Koidi and Jaworski. The last name in the column is Whitehead. Each of these names is on the map as a reference point, and each one is a line of thought you can look at on its own.
+
+## How to read it
 
 For every one of them I think the same simple questions help a lot. What does this idea explain well, what does it miss, and how can we test it better? You can ask this about Andy Clark and Chalmers, and you can ask it about Hofstadter or Tsuchiya or Whitehead, and it works the same way every time.
 

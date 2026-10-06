@@ -20,10 +20,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/understanding-the-relationship-between-gdp-per-capita-and-average-temperature-ef613553099c"
+tldr:
+  - "A World Bank chart from 2021 shows a clear negative correlation between GDP per capita and average temperature."
+  - "Possible reasons are lower farm output, heat and disease, how economies are built, cooling costs and history."
+  - "Policy has to deal with this link, but each country needs its own detailed study."
+basically:
+  what-the-graph-shows: "Cold countries like Norway and Canada are rich, many hot countries are poor. Every bubble is a country."
+  why-it-could-be-like-this: "Farming, health, economic structure, energy costs and colonial history could all play a part."
+  what-it-means: "If you make policy, you have to plan for this link between heat and income."
 ---
 The graph shows how GDP per capita and the average temperature of a country go together, and it's a strange picture. The warmer it gets, the lower the GDP per capita tends to be. So let's look at this link and at what could be behind it.
 
 ![](../../../media/understanding-the-relationship-between-gdp-per-capita-and-average-temperature/01-7c26c237.jpeg)
+
+## What the graph shows
 
 The graph shows a clear negative correlation between GDP per capita and average temperature. You see it in the trend line going down, and it means that countries with higher average temperatures mostly have a lower GDP per capita.
 

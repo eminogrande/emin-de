@@ -21,6 +21,8 @@ emin_check_pct: null
 voice_rewrite: "framing-only"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-editorial-23-0e197b2c23b6"
+tldr:
+  - "Editorial #23 aus dem proud magazine Berlin, geschrieben von Yara Dib, über Jugend, Träume und das Fallen."
 ---
 # proud magazine Berlin, Editorial #23
 

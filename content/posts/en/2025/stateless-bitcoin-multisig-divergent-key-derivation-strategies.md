@@ -20,6 +20,16 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/stateless-bitcoin-multisig-divergent-key-derivation-strategi/"
+tldr:
+  - "Passkey MuSig2 Bitcoin wallets can derive the server co-signer key in two ways: pure PRF or a server secret plus client identity."
+  - "The two functions give different keys for the same user, so the same wallet ends up with different addresses."
+  - "There are three ways to migrate: a protocol adapter, a client bridge or a hard fork with address rotation."
+basically:
+  architecture-a-pure-prf: "Both keys come only from the client's passkey PRF. The server keeps no state at all."
+  architecture-b-anchored-in-a-secret: "The server key mixes a static server secret with the client identity. Now the server holds state."
+  the-problem-deterministic-divergence: "Same user, two derivation functions, two different keys. The old addresses don't match the new ones."
+  three-ways-to-migrate: "Branch on the server, inject parameters from the client, or rotate everyone to new addresses."
+  the-trade-off: "Client entropy is easier to recover. Hybrid entropy resists coercion better. You can't have both."
 ---
 ![](../../../media/stateless-bitcoin-multisig-divergent-key-derivation-strategies/cover.jpg)
 
@@ -27,9 +37,13 @@ This is about non-custodial Bitcoin wallets that use MuSig2 and WebAuthn passkey
 
 This post looks at the move from a client entropy model to a hybrid entropy model and at the determinism problem that comes with it. It has four parts, the two architectures, the problem between them and the ways to migrate.
 
+## Architecture A, pure PRF
+
 The older architecture is pure PRF. It puts portability first, and the server side has zero-knowledge properties. The only entropy source is a deterministic pseudo-random function output, the PRF, from the WebAuthn authenticator. The client first does an assertion on a separate "co-signer passkey" that is domain separated from the user key. Then the raw PRF bytes go to the server over a secure channel. And the server works as a pure function and maps the PRF input directly to a private scalar, `k_server = Reduce(PRF_bytes)`.
 
 So the input comes only from the client and the server keeps no state at all. That `k_user` and `k_server` are mathematically different depends completely on RPID separation, the Relying Party ID. And it also means that whoever has the specific hardware authenticator can rebuild the full key set without any help from the server.
+
+## Architecture B, anchored in a secret
 
 The newer architecture is anchored in a secret. It moves the root of trust to a composite derivation and adds a static secret on the server, so nobody can rebuild the key alone. Here the co-signer key is a function of a secure server master seed and of client identity metadata that never changes. The client first proves that it has the credential. Then the server derives the private scalar with a key derivation function, a KDF, that mixes a high entropy server master secret `S_master` with a set of client specific context parameters `C_client` and protocol specific constants `P_context`.
 
@@ -52,5 +66,7 @@ The first one is a protocol adapter for legacy support. The new server gets a co
 The second one is a client bridge that injects the parameters. The client logic gets updated so it extracts the `C_client` parameters that Architecture B needs, also during the legacy flows. Then the server can compute the new derivation path in the background or migrate the state of the user, and the user doesn't notice any change. That closes the entropy gap.
 
 The third one is a hard fork with address rotation. The system makes Architecture B the only standard and users on Architecture A are treated as deprecated. A migration flow asks them to sign a sweep transaction that moves the UTXOs from the `P_agg(Legacy)` address to the `P_agg(Modern)` address.
+
+## The trade-off
 
 Going from client entropy to hybrid entropy is a trade-off between recoverability and resistance against coercion on the client side. Architecture A gives you self-sovereign recovery, at least in theory. Architecture B enforces a stronger 2-of-2 security model, where neither side has enough entropy to rebuild the full key set alone.

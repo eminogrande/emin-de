@@ -21,6 +21,19 @@ emin_check_pct: 59
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/untitled-post/"
+tldr:
+  - "The green focus dot can say sharp while the photo is soft, because the AF sensor and the image sensor see different light paths."
+  - "AF Fine Adjustment fixes an offset that is the same every time. Prove it first with a 45 degree ruler test, wide open."
+  - "Front focus means move toward plus, back focus toward minus, a few steps at a time."
+  - "For manual lenses wide open, magnified Live View or stopping down skips the problem completely."
+basically:
+  why-the-camera-gets-it-wrong: "The AF sensor sees a different light path than the image sensor, and the calibration between them can be off."
+  prove-the-error-first: "A 45 degree ruler test wide open shows if the miss is the same every time and in which direction."
+  where-the-setting-lives: "Every brand hides it in a different menu. Manual lenses only get the global Apply All mode."
+  which-way-to-turn-it: "Front focus: move toward plus. Back focus: move toward minus. A few steps, then test again."
+  doing-it-on-a-pentax-k-50: "On the K-50 it's C3, item 21, Apply All. Start at +3 or +4 for the front focusing fifties."
+  when-fine-adjustment-is-the-wrong-tool: "Random misses need better technique. Live View at 100% or stopping down beats any menu value."
+  in-short: "The green dot is a calibrated guess. Test once per lens and you can trust the viewfinder again."
 ---
 You line up the shot, the focus point lights up green and the camera
 tells you it's sharp. You press the shutter, you feel good about it and
@@ -38,6 +51,8 @@ you it might need it.
 
 So here is what it does, why the problem happens and how to set it
 without losing a whole afternoon.
+
+## Why the camera gets it wrong
 
 Most DSLRs focus with a separate phase detection AF sensor at the bottom
 of the mirror box. Light bounces off the main mirror, through a second
@@ -67,6 +82,8 @@ field is big enough to hide a small error. At f/1.4 or f/1.8 the sharp
 zone is only millimetres deep, and the same small offset you never saw
 stopped down is now an obvious miss.
 
+## Prove the error first
+
 The sign that fine adjustment can help is that the misses are the same
 every time. If they always land in front of the target, that's front
 focus. If they always land behind, that's back focus. A steady offset
@@ -93,6 +110,8 @@ front focus and you correct toward the back. If it's always behind,
 that's back focus and you correct toward the front. If it's all over the
 place, stop here, because fine adjustment is the wrong tool.
 
+## Where the setting lives
+
 The feature lives in the custom settings menu. The names and places are
 different for every brand, but the logic is the same everywhere. Pentax
 calls it AF Fine Adjustment and it's in the Custom (C) menus.
@@ -117,6 +136,8 @@ If you switch all the time between adapted glass and native AF lenses,
 keep that in mind, because a global value tuned for the manual lens can
 push your AF lenses off.
 
+## Which way to turn it
+
 The adjustment itself is a scale, usually −10 to +10 with zero in the
 middle. The direction is the part everyone doubts, so remember it like
 this.
@@ -131,6 +152,8 @@ plane sits right on the line the camera confirmed.
 
 It really takes a few rounds, more like three or four than one lucky
 guess, and when you get close you go one step at a time.
+
+## Doing it on a Pentax K-50
 
 Here is the concrete version for the K-50 and the two lenses in
 question, the Cosinon-S 50mm f/1.8 (K-mount, fits natively) and the
@@ -184,6 +207,8 @@ focus by eye on the subject.
 That reads focus directly from the image sensor and ignores the AF dot,
 so there is nothing to calibrate.
 
+## When fine adjustment is the wrong tool
+
 Fine adjustment fixes an offset that is the same every time, and it has
 real limits. Two cases need something else.
 
@@ -212,6 +237,8 @@ f/4 the depth of field gets deep enough to swallow a small focus error.
 
 If the shot allows it, closing the aperture a stop or two is the fastest
 fix of all, no menus and no testing.
+
+## In short
 
 So the green dot is a calibrated guess and not a promise, and with some
 camera and lens pairs, especially manual lenses on bodies tuned for
