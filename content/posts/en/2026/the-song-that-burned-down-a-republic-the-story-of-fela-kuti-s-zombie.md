@@ -20,6 +20,14 @@ voice_check:
   unobserved: 207
 emin_check_pct: null
 original_url: "https://emino.app/posts/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-/"
+tldr:
+  - "In 1976 Fela Kuti released Zombie, a song that mocks Nigerian soldiers as robots who only move on command."
+  - "On February 18, 1977 around 1,000 soldiers burned his Kalakuta Republic compound and threw his 77-year-old mother from a window."
+  - "She died in 1978, an inquiry blamed an unknown soldier, and Fela answered with the song Unknown Soldier."
+basically:
+  the-story-as-the-video-tells-it: "Zombie mocked Nigeria's soldiers, and in 1977 about 1,000 of them burned Fela's Kalakuta Republic."
+  the-lyrics: "Zombie is call and response: Fela sings the military commands and the women answer Zombie."
+  what-the-history-says: "a song was strong enough that an army tried to burn it down, and the song is still here."
 ---
 ![](../../../media/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-s-zombie/cover.jpg)
 
@@ -120,5 +128,3 @@ After the destruction an official inquiry said the compound was burned by "an un
 The video says Fela was sent back from Ghana. That was in 1978. He was banned from the country after riots broke out during a performance of "Zombie" in Accra.
 
 And then the last act. Fela and his movement carried a symbolic coffin to the Dodan Barracks in Lagos to protest the death of his mother.
-
-Basically, a song was strong enough that an army tried to burn it down, and the song is still here.

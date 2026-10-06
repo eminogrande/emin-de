@@ -20,12 +20,24 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/continuous-clearing-auctions-cca-simple-technical-walkthroug/"
+tldr:
+  - "Continuous Clearing Auctions split a token sale into many blocks, and each block clears at one uniform price."
+  - "You bid once with a max price and a quantity, the protocol spreads it over the sale, and you never pay above your max."
+  - "At the end the raised money and leftover tokens can seed a Uniswap v4 pool automatically."
+basically:
+  why-token-launches-go-wrong: "Fixed-time token launches reward bots and fast traders, and retail ends up paying too much."
+  what-cca-does: "In a CCA you send one bid with a max price, and each block clears at one fair price for everyone."
+  why-this-matters: "CCA moves price discovery away from mempool speed games and seeds a Uniswap v4 pool at the auction price."
+  the-math-with-a-simple-example: "With 1,000 tokens and bids sorted by price, the block clears at 2.20 and G, D and B are filled pro rata."
+  sources: "The walkthrough is based on Uniswap's CCA blog, product page and contract repo, plus Aztec's first CCA sale."
 ---
 ![](../../../media/continuous-clearing-auctions-cca-simple-technical-walkthrough/cover.jpg)
 
 # Continuous Clearing Auctions (CCA), the simple and the technical walkthrough
 
 This is the simple version first, told a bit like a thread, and then a more technical part with the math and a small simulation.
+
+## Why token launches go wrong
 
 Token sales are messy. A normal token launch has a fixed launch time and everyone tries to buy at once. Bots and fast traders usually win, and the final price is unclear and jumps around for the first hours or days. So retail pays too much, a few hands get most of the allocation, and price discovery and early trading are a mess.
 
@@ -42,6 +54,8 @@ What if you bid too high? There is a max price guarantee. You choose `P_max`, th
 There is also an early bird effect. If you bid early, your order is spread over more blocks, so you get more chances to be filled in blocks where the clearing price is quite low. If you wait until the last block, your order only takes part in the final blocks and you mostly see the later and maybe more expensive clearing prices. So it's not fastest finger first anymore. The mechanism rewards you for joining early and staying in the whole price discovery.
 
 When the auction ends, the protocol has a full record of all clearing prices and filled quantities per block, the total assets raised and the unsold tokens that are left, if there are any. Then, depending on the rules that were set, a part of the raised assets and the leftover tokens can go automatically into a Uniswap v4 pool. That seeds the first liquidity at a price that fits the auction result. So there's no separate phase where you now figure out liquidity, and you get a clear history of the price discovery and secondary trading right away, with liquidity already funded.
+
+## Why this matters
 
 Why does this matter? CCA tries to separate price discovery from low level mempool and latency games. It gives one uniform price per block and not per single transaction. It makes it harder for bots to front-run retail and for whales to win just by being fast. And it builds a direct bridge from token sale to liquidity bootstrapping on Uniswap v4. It's still an auction. There's competition and prices can go high or low. But the process has more structure and you can see what happens.
 

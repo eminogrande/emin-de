@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-echoes-of-cold-war-diplomacy-romania-tanzania-zanzibar-and-the-legacy-of-the-1972-visa-10c2415eacf9"
+tldr:
+  - "Romania is the only European country whose citizens get visa free access to Tanzania, including Zanzibar."
+  - "It goes back to a Visa Abolition Agreement that Ceaușescu and Nyerere signed on March 28, 1972."
+  - "ARO jeeps, Romanian oil engineers in Oman and Oman's 2020 visa waiver complete the story."
+basically:
+  why-a-romanian-passport-is-different: "Romanians are the only Europeans with visa free entry to Tanzania and Zanzibar, and it's a Cold War leftover."
+  the-two-monarchs-and-the-1972-agreement: "Ceaușescu and Nyerere signed a visa abolition deal on March 28, 1972, and nobody ever cancelled it."
+  aru-jeep-chauchenko: "Ceaușescu gave Tanzania ARO 240 jeeps, and locals turned the brand and his name into Aru Jeep Chauchenko."
+  oil-engineers-and-fuel-for-the-kings-cars: "Romanian oil engineers helped build refineries so Oman's Sultan Qaboos could fuel his cars."
+  the-loop-closes-in-2020: "In 2020 Oman dropped visas for over 100 countries, so Romanians can visit both halves of the old Omani Empire."
+  who-is-who: "Chauchenko is Ceaușescu, the Aru Jeep is the ARO, and the two monarchs are Ceaușescu and Nyerere."
 ---
 # The Echoes of Cold War Diplomacy in Romania, Tanzania and Zanzibar and the Legacy of the 1972 Visa Abolition Agreement
 
@@ -28,6 +39,8 @@ original_url: "https://medium.com/@em/the-echoes-of-cold-war-diplomacy-romania-t
 Think about this. You are a European digital nomad or a tourist in the 2020s and you want a tropical getaway. You look at a map of East Africa and you see the white beaches of Zanzibar. If you have a passport from the UK, France, Germany or almost anywhere else in Europe, you pull out your credit card and pay for a visa.
 
 But if you have a Romanian passport, you just walk through.
+
+## Why a Romanian passport is different
 
 Romania is still the only European country whose people get visa free access to the United Republic of Tanzania, and that includes the semi autonomous islands of Zanzibar. It's not a new tourism idea and it's not some EU trade deal. It's what is left of a strange chapter of the Cold War, and the story has a tough 4x4 in it, two men who ruled like kings, and an oil refinery built so a king could fuel his cars.
 
@@ -72,6 +85,8 @@ And then, in our time, the story came full circle.
 In December 2020 the Sultanate of Oman wanted more tourists, so on its own it dropped the entry visa for people from over 100 countries for stays of up to 14 days.10 And Romania was on that list.
 
 So because of the goodwill left over from the car and oil diplomacy of the 1970s and because of today's economic plans, a Romanian passport holder can now travel easily to both old halves of the Omani Empire. There is Zanzibar in East Africa, which Ceaușescu and Nyerere opened in 1972, and there is Oman, the old Arabian homeland, which the Sultanate opened in 2020.
+
+## Who is who
 
 So who is who in this story. Chauchenko is Nicolae Ceaușescu, the former communist leader of Romania. The Aru Jeep is the ARO jeep, the tough Romanian off-road car he gave to Tanzania. The two monarchs is the name for Ceaușescu and Nyerere, because they ruled with total power. Oil diplomacy is Romania being a top global exporter of oil technology, which it used to build refineries and win favour with Middle Eastern royals. And the visa loop is what all these ties left behind, free access for Romanians to Tanzania, Zanzibar and Oman today.
 

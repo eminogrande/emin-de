@@ -20,6 +20,15 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/ai-content-takeover-a-threat-to-future-ai-evolution-34d52118422e"
+tldr:
+  - "AI content is flooding the internet, and future models risk training mostly on AI output."
+  - "Like inbreeding in humans, a lack of diverse training data makes AI weaker and less inventive."
+  - "The fix is protecting original human data, choosing quality over quantity and verifying where content comes from."
+basically:
+  the-flood-of-ai-content: "Experts predict AI could make up to 90% of online information, and quality drops with the volume."
+  ai-learning-from-ai: "When AI trains on AI content, models can collapse into repeating their own output."
+  why-it-looks-like-inbreeding: "AI without diverse training data is like inbreeding: weaker and worse at adapting to change."
+  five-things-we-can-do: "Protect original data, add human content, pick quality over quantity, diversify sources and verify content."
 ---
 ![](../../../media/ai-content-takeover-a-threat-to-future-ai-evolution/01-a0e0240f.png)
 
@@ -27,11 +36,15 @@ AI content is growing very fast, and that is becoming a real problem for the fut
 
 There is so much AI material now that we have to ask what the quality and the variety of the data will be that we use to train the next models. And the problems that can come out of this look a lot like things we know from human genetics.
 
+## The flood of AI content
+
 The first thing is just the volume. AI content is flooding the internet, and experts predict that AI could make up to 90% of all online information in the near future. With that much of it, it gets harder and harder to tell real human content from machine output.
 
 So the overall quality goes down. AI systems may start to put out repetitive, low quality or even wrong information, and that misleads people and makes the stuff you find online worth less.
 
 An example. When an AI writes an article, it can struggle to stay coherent, and you get paragraphs that don't connect in a logical way. That is a big problem in longer texts, where you need one theme all the way through. AI content has this problem a lot, because these systems often don't get the fine details that human writers get.
+
+## AI learning from AI
 
 It gets worse when you look at how a lot of AI systems are trained. They learn from online data, and that data already has a lot of AI content in it. So there is a feedback loop where AI learns from AI content and then makes more AI content.
 
@@ -39,9 +52,13 @@ The risk is that future models depend too much on their own output, and not on v
 
 Research has shown that over half of the sentences on the internet have been translated many times by AI, and that made the content worse. When AI keeps making and remaking content, the original variety and richness can get lost. It's just like genetic diversity that shrinks in a population that only reproduces inside a closed gene pool. And when that variety is gone, AI gets worse at making new and interesting things.
 
+## Why it looks like inbreeding
+
 The comparison with human DNA fits really well. Inbreeding in humans can lead to genetic problems, like getting sick more easily and adapting worse when the environment changes. AI without diverse training data can run into the same kind of problems.
 
 When models mostly learn from repetitive data, they get worse at coming up with really new ideas or solutions, and that can slow down AI development a lot. Genetic diversity keeps living populations healthy and able to adapt. Diversity in training data does the same for AI, it keeps it strong and creative. Without a wide range of good information, AI can't adapt and invent, and the AI content of the future will have no depth and no originality.
+
+## Five things we can do
 
 So if we want a better future for AI, the quality and the variety of training data have to come first. I see five things we can do.
 

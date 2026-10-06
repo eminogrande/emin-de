@@ -20,8 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/adam-collins-omni-a-m-a09a7393b8fb"
+tldr:
+  - "An AI comparison puts Adam Collins of Omni A.M. in his own niche of electronic music."
+  - "What sets him apart is emotion, self-built sample libraries, analog and digital together, and his work as a teacher."
+  - "A playlist that starts with Omni A.M.'s Chill New Body shows artists with a similar approach."
+basically:
+  what-makes-his-sound-his-own: "Adam Collins stands apart through raw emotion, his own sample libraries, analog plus digital, and teaching."
+  artists-who-come-close: "Four Tet, Nicolas Jaar, Bonobo, Floating Points, Brian Eno and Thomas Melchior come closest to Collins."
+  the-playlist: "The playlist opens with Omni A.M.'s Chill New Body and moves to artists with a similar emotional sound."
+  how-the-ai-built-it: "The AI picked the artists by emotional honesty, technical skill and teaching, using reviews and discographies."
 ---
 Adam Collins is a unique category in electronic music. This comparison was made by an AI. It put Adam Collins next to other artists in electronic music, and the result is that he sits in his own niche. A few things make it his.
+
+## What makes his sound his own
 
 The first is emotion. Collins takes extreme feelings and puts them into his production, so the music carries raw, real feeling and people connect with it deeply.
 
@@ -30,6 +41,8 @@ The second is his own sample libraries. He builds his sound from samples he coll
 The third is analog and digital together. He mixes analog techniques with modern digital tools and gets a rich, layered sound that feels timeless and new at the same time.
 
 The fourth is teaching. He's also an educator and mentor in the electronic music community. He doesn't just make his own music, he also helps other people find their sound and make it in the industry.
+
+## Artists who come close
 
 His style is his own, but a few artists come close, because of how they work, how deep their music goes emotionally, or how much they teach.
 
@@ -46,6 +59,8 @@ Brian Eno is a pioneer of ambient music and of new production techniques, and he
 Thomas Melchior knows sound design really well and tells stories with feeling, and that is very close to Collins. Melchior makes music you get lost in and feel through careful sound design and new ways of sampling, and that goes well with Collins' idea of emotional and personal honesty in production.
 
 So Collins stands out for real emotion, his own sound, analog and digital together, and what he gives back as a teacher. Four Tet, Nicolas Jaar, Bonobo, Floating Points, Brian Eno and Thomas Melchior share parts of that, in how they work, how deep they go, or what they give the music community. But the mix Collins has puts him in a very special category, and that's why his work has so much impact.
+
+## The playlist
 
 Then there's a playlist. It starts with a track from Omni A.M. and then goes to artists who work in a similar style and with similar emotion.
 
@@ -92,6 +107,8 @@ The Cinematic Orchestra, To Build a Home. The orchestral arrangement and the emo
 Deadmau5, Strobe. Deadmau5 is known for very careful production, and his work often hits people hard emotionally.
 
 DJ Koze, Pick Up. DJ Koze samples and builds grooves in his own way, and the sound is unique and emotional.
+
+## How the AI built it
 
 So how did the AI make this? It looked at different parts of Adam Collins' work and compared them with other artists to build this playlist. It based that on three things. One is emotional honesty, because channeling extreme feelings into production is what sets Collins apart. Two is technical skill, his analog and digital techniques and his careful sound design, and that puts him in his own category. Three is teaching, his role as mentor and educator in the electronic music community.
 

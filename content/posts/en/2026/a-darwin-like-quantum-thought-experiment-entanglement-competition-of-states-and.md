@@ -20,6 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/a-darwin-like-quantum-thought-experiment-entanglement-compet/"
+tldr:
+  - "Entanglement is correlation, not a remote control, and no-signaling rules out using it to change B's surroundings."
+  - "The Darwin-like part of quantum physics already has a name, Quantum Darwinism: the environment selects pointer states and copies them."
+  - "The test is redundancy, many environment fragments carrying the same record, and Zhu et al. 2025 observed it with superconducting circuits."
+  - "Aligning D and T spins can raise the fusion cross section by about a factor of 1.5 under ideal assumptions."
+basically:
+  my-questions-in-order: "Nine questions about whether quantum physics behaves like Darwin, from entanglement to spin in fusion."
+  entanglement-is-correlation-and-not-a-remote-control: "Entanglement gives strong correlations, but acting on A can never send a signal that B could detect."
+  how-we-prove-entanglement: "Entanglement is proven with Bell tests, and it works with polarization, path, time and frequency, not only spin."
+  why-quantum-computing-feels-darwinian: "Quantum Darwinism: the environment selects stable pointer states and copies them into many records."
+  a-two-wing-thought-experiment: "Two entangled systems, each with its own environment, show Darwin-like selection without any remote control."
+  what-would-count-as-proof: "The proof of Quantum Darwinism is redundancy, and a 2025 superconducting circuit experiment has shown it."
 ---
 This is my whole chain of questions about Darwin-like behavior in quantum physics, put in order. What entanglement really means and what it can't do, why measurement and decoherence feel like selection, which degrees of freedom can be entangled, where nuclear spin fits in, and what the cleanest test for a Darwin-like mechanism looks like. That mechanism already has a name, and it's Quantum Darwinism.
 

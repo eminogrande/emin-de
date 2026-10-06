@@ -20,6 +20,15 @@ voice_check:
   unobserved: 145
 emin_check_pct: null
 original_url: "https://medium.com/@em/mrbeasts-guide-to-success-in-youtube-production-888a1ed3a8f9"
+tldr:
+  - "A summary of MrBeast's guide for his production team: make the best YouTube videos, not just good-looking ones."
+  - "CTR, AVD and AVP decide if a video works, and the first minute and minute 3 matter most."
+  - "The post ends with a Gemini-written video script for funding an app through a fair token launch."
+basically:
+  the-three-numbers-that-decide-a-video: "MrBeast says three numbers decide a video: click-through rate, average view duration and view percentage."
+  thumbnail-title-and-the-first-minutes: "A strong first minute and a big re-engagement at minute 3 keep viewers watching, says MrBeast."
+  how-to-work-on-the-team: "On MrBeast's team you own your mistakes, bring a solution, keep a backup plan and question everything."
+  a-token-launch-script-from-gemini: "Gemini wrote a YouTube script for a fair token launch that rewards early funders on a bonding curve."
 ---
 ![](../../../media/mrbeast-s-guide-to-success-in-youtube-production/01-557d67a5.png)
 
@@ -27,7 +36,11 @@ A summary of MrBeast's guide for his production team. The source is linked at th
 
 The first thing he says is to make the best YOUTUBE videos. Not just videos with high quality or good production, but the best videos for YouTube.
 
+## The three numbers that decide a video
+
 To understand what goes viral you look at three numbers. The Click-Through Rate, or CTR, the Average View Duration, or AVD, and the Average View Percentage, or AVP. Those three decide if a video works.
+
+## Thumbnail, title and the first minutes
 
 Thumbnail and title are an art you have to learn. They have to make people click, and they have to show what's really in the video. Then the viewer gets what they expect and the CTR goes up.
 
@@ -36,6 +49,8 @@ The first minute matters most for keeping people watching. Start strong, with go
 Then you keep the momentum. You use minutes 1 through 3 to go from hype to actually doing the thing, and at minute 3 you pull people back in with something big and unique. He calls that the 3-minute re-engagement. The most exciting stuff goes into minutes 3 through 6. The back half is for stuff that is less important but still fun to watch.
 
 He wants a wow factor, something no other YouTuber can copy, so the video stays in people's heads.
+
+## How to work on the team
 
 The rest is about how to work on the team. Film everything important in production, so the whole team knows what's going on and everyone is on the same page. Talk clearly, keep it short and come with a solution. For hard issues use higher forms of communication.
 
@@ -46,6 +61,8 @@ Be creative and resourceful, and use that creativity to solve problems and save 
 Be honest, respectful and supportive with your colleagues, so the place stays a good place to work. Watch the channel a lot, so you understand what the MrBeast brand stands for, its style and its audience. And keep growing. Look for ways to get better at your job and show your value to the company.
 
 Source: [https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view](https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view)
+
+## A token launch script from Gemini
 
 I asked Gemini AI to write me a script for community funding through a fair token launch. This is the result, as Gemini wrote it.
 

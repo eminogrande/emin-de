@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-black-hole-information-7bc71adc283f"
+tldr:
+  - "My idea: gravitational waves could hold the last information of matter before it enters a black hole and solve the information paradox."
+  - "It fits with theories that say information isn't lost, but decoding it is complex and beyond today's detectors."
+  - "It is very speculative, and testing it needs gravitational wave, quantum gravity and quantum information people working together."
+basically:
+  what-speaks-for-it: "LIGO and Virgo already hear black hole mergers, so the waves might also carry traces of what fell in."
+  what-speaks-against-it: "Decoding quantum information from gravitational waves is beyond today's models, detectors and theory."
+  what-to-read-and-who-should-look-at-this: "Start with LIGO and Virgo and Hawking 1974. This question needs physicists from many fields together."
 ---
 ![](../../../media/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-blac/01-e66defa3.png)
 
@@ -29,11 +37,17 @@ That was my question. This is the answer, a bit cleaned up.
 
 The idea touches some of the most basic questions in theoretical physics and astrophysics, so let's look at what speaks for it, what speaks against it, which papers to read and what a call to astrophysicists could look like.
 
+## What speaks for it
+
 Two things speak for it. The first is gravitational wave astronomy itself. Detecting gravitational waves opened a new way to look at the universe and gave direct evidence of things like black hole mergers. So the field could also tell us something about the dynamics of matter as it spirals into a black hole, and maybe encode information about the state of that matter before it crosses the event horizon. The LIGO and Virgo observations of gravitational waves from binary black hole mergers show that detecting such waves works (Abbott et al., Physical Review Letters, 2016).
 
 The second is theory. The idea that gravitational waves carry information about matter before it enters the black hole fits with theories that say information isn't lost but stored in some form outside the black hole. Stephen Hawking and others proposed mechanisms like Hawking radiation where information might leak out of black holes, so there is a precedent for information surviving in extreme gravity (Hawking, Physical Review D, 1974).
 
+## What speaks against it
+
 And three things speak against it. First, encoding and later decoding the quantum information of matter that falls into a black hole into gravitational waves is complex and not well understood. Current models of gravitational waves mostly deal with big properties like mass and spin, and they may not capture the detailed quantum information you need to solve the paradox. Second, the technology. Right now we can only detect and analyze gravitational waves from big events like black hole or neutron star mergers. The sensitivity you need to pick up fine information about matter falling into a black hole may be beyond what we can do now or in the near future. Third, the theory is still open. The black hole information paradox itself is still debated and researched in theoretical physics, and any solution with gravitational waves has to deal with hard questions about quantum gravity and the nature of information, where there is no consensus yet.
+
+## What to read and who should look at this
 
 To read more, start with the observations of the LIGO and Virgo collaborations for the basic research on gravitational wave detection and what it means. Then Hawking, S. W. (1974), Black hole explosions? in Nature, his key work on black hole radiation and the information paradox. And for the current thinking on the paradox and possible solutions, look for reviews and perspective pieces in good journals like the Annual Review of Nuclear and Particle Science.
 

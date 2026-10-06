@@ -20,6 +20,8 @@ voice_check:
   unobserved: 24
 emin_check_pct: null
 original_url: "https://emino.app/posts/2026-02-21-100008-higher-order-theories-of-consciousness/"
+tldr:
+  - "No single model of consciousness explains everything yet, but reading across them gives a stronger, less dogmatic picture."
 ---
 This is a longer guide in simple words, so people who are new to the topic can still follow. I want to explain each point from my map clearly and fairly.
 

@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "none"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/2020-lets-go-investing-diary-during-corona-and-my-first-time-investing-b0b3d2056322"
+tldr:
+  - "This is my diary from March and April 2020, the first time I invested in stocks, in the middle of the Corona crash."
+  - "I bought companies I believe will be worth more in 5 to 10 years, like Visa, Mastercard, Amazon, Pfizer and TSMC, plus Gold and Bitcoin."
+  - "I broke my own one-stock-a-day rule, slowed down, and built a checklist of growth, profit, debt and valuation."
+basically:
+  intro-monday-30-march-2020--day-12: "My investing diary started because a friend told me to think out loud and write my investment thoughts down."
+  tuesday-31-march-2020--day-13: "My first filter for a stock: a 3, 5 and 10 year chart that keeps going up, bumps and all."
+  wednesday-1-april-2020--day-14: "Day 14 of my Corona diary: 0.1 Bitcoin a day, plus Amazon and Alibaba so I don't only hold US companies."
+  thursday-2-april-2020--day-15: "Once you have money in something, you read more, pay more attention and learn faster. That's how it felt to me."
+  friday-3-april-2020--day-16: "Buying stocks can quickly become an addiction, so I want a buy list of about 25 with pros and cons for each."
+  wednesday-9-april-2020--day-22: "Before I bought TSMC I checked growth, profit margin, debt, valuation and P/E, not short term returns."
 ---
 # 2020 let’s go — Investing Diary During Corona and My First Time Investing
 

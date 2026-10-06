@@ -20,6 +20,21 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/how-i-used-ai-to-navigate-a-complex-orthodontic-case-in-east-africa-cbct-analysis-provider-67dd379a81d7"
+tldr:
+  - "Two dentists in Arusha failed with braces, so I used Claude to build the case file, find a specialist in Nairobi and prepare the consultation."
+  - "The AI read impacted canines from a phone video of the CBCT. It was wrong, they were canine roots, and the specialist was right."
+  - "The plan is fixed braces for about 18 months, around $3,700. Use AI to prepare and ask better questions, not to diagnose."
+basically:
+  building-the-case-file: "AI turned a scattered dental history into one case file and said: get a CBCT and a real specialist."
+  finding-a-specialist: "Pick an orthodontist by credentials, not Google reviews. That's how we found Kenya Orthodontics in Nairobi."
+  getting-the-cbct-scan: "A CBCT scan in Nairobi gave us 651 DICOM slices, and a free iPhone app let me scroll through all of them."
+  reading-the-scan-from-a-phone-video: "From a phone screen recording the AI read impacted canines, but it warned that this was only a first look."
+  the-consultation-at-kenya-orthodontics: "The specialists called it pretty straightforward: about 18 months of braces and no impacted canines."
+  checking-it-with-mpr-views: "MPR views showed the AI had mistaken long canine roots for impacted crowns. It owned the error right away."
+  the-treatment-plan: "The plan is fixed braces, not aligners, for about 18 months and around $3,700, pay as you go."
+  when-ai-helped-and-when-it-didnt: "AI is great to prepare and ask better questions, but not for a diagnosis from compressed phone video."
+  what-worked-for-us: "Gather every scan, check credentials, insist on DICOM export and verify before you trust anyone."
+  what-it-came-down-to: "Two days, about $60 for scan and consultation, and AI made us better partners in our own care."
 ---
 ![](../../../media/how-i-used-ai-to-navigate-a-complex-orthodontic-case-in-east-africa-cbct-analysi/01-d414fd14.png)
 
@@ -41,6 +56,8 @@ It also pointed out right away a few things the dentists before had missed or ig
 The AI was blunt and said “Invisalign alone is inadequate for this case. You need a CBCT scan to see the canines in 3D, and you need a specialist orthodontist, not a general dentist.”
 
 
+## Finding a specialist
+
 We needed an orthodontist in East Africa who could handle a complex case with impacted canines and extraction space management, for a patient who lives six hours away by bus. The AI searched for specialists in Nairobi and looked at their credentials, not just at Google reviews.
 
 It found Kenya Orthodontics and Dr. Wandia Mwangi-Evans. She has a fellowship from the Royal College of Surgeons of England, an MSc in Orthodontics from Cardiff University with distinction, over 8,000 cases and 20+ years of experience. The clinic works with shared care. The specialist makes the plan and sees the patient every 6 to 8 weeks, and a local dentist does the adjustments in between. That fits people who come from Tanzania really well.
@@ -53,6 +70,8 @@ We were in Nairobi staying near Karen, so the AI helped locate Karen Dental Clin
 
 The scan produced 651 DICOM slices across two series (standard volume and metal artifact reduction). The clinic said we’d need special software to view them. The AI recommended Falcon (formerly Horos Mobile) for iPhone, a free DICOM viewer. I installed it, imported all 651 slices, and suddenly I could scroll through cross-sections of my partner’s skull on my phone.
 
+
+## Reading the scan from a phone video
 
 This is where it got interesting, and where the AI got something wrong. That taught us just as much as the things it got right.
 
@@ -85,6 +104,8 @@ What the AI had taken for impacted canine crowns in the compressed video were ac
 The AI owned the error immediately. “My earlier CBCT video read was wrong. The specialist with the patient in the chair plus proper DICOM software got it right.”
 
 
+## The treatment plan
+
 With the canine question resolved, the plan was clear. Fixed braces and not aligners, because braces are more predictable at this level of complexity. The fluorosis makes bracket adhesion hard, so the molars get bands instead. About 18 months of active treatment, with visits every 6 to 8 weeks for adjustments. After that bonded retainers and removable retainers, and retainer checks for one year after the treatment. The cost is about 483,000 KES (around $3,700 USD), pay as you go. March 13 is cleaning and separators, and on March 24 the braces get fitted.
 
 The team explained both braces and Invisalign openly, talked about what the fluorosis means, and recommended braces because tooth movement the orthodontist controls is more predictable than aligners that depend on the patient, in a case with this history.
@@ -115,6 +136,8 @@ Verify, don’t just trust. When the AI’s first read contradicted the speciali
 
 Own your files. CBCT DICOM files, intraoral STL scans, OPG images, keep copies of everything. It's your medical data and you may need it for second opinions, insurance or future providers.
 
+
+## What it came down to
 
 From the first AI conversation to the treatment decision it took 2 days. We looked at several providers and picked one by credentials. The AI went through 651 CBCT slices and 192 video frames, and I took 6 MPR screenshots to verify. The CBCT and the consultation together cost about $60 USD. The treatment is about $3,700 USD over 18 months. Before this there were 2 failed treatments, and 4 premolars are lost for good. They were extracted and can't be replaced.
 

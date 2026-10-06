@@ -20,6 +20,14 @@ voice_check:
   unobserved: 221
 emin_check_pct: null
 original_url: "https://medium.com/@em/ai-revolution-eric-schmidts-insights-on-the-future-of-technology-and-global-competition-2b0d434ed5f9"
+tldr:
+  - "Eric Schmidt expects very large context windows, AI agents and text to action in the next 1 to 2 years."
+  - "Top models cost somewhere from $10 billion to more than $100 billion, so the gap to everyone else keeps growing."
+  - "He says Google fell behind partly because of its culture, and that AI will hit low-skill jobs most."
+basically:
+  agents-capital-chips-and-energy: "Eric Schmidt expects huge context windows, AI agents and text to action within one to two years."
+  google-jobs-and-misinformation: "Schmidt says Google fell behind partly on culture, and AI will mostly hit low-skill jobs."
+  ten-quotes-word-for-word: "Schmidt's quotes cover agents, the $300 billion estimate, CUDA, Google's culture and India's talent."
 ---
 ![](../../../media/ai-revolution-eric-schmidt-s-insights-on-the-future-of-technology-and-global-com/01-bcc7e2ab.png)
 
@@ -28,11 +36,15 @@ A summary of an interview with Eric Schmidt, the former Google CEO. You can read
 <https://www.youtube.com/watch?v=33LcU8vfnR0>
 *[https://youtu.be/33LcU8vfnR0?si=ow9WTS6823Q7hPLf](https://youtu.be/33LcU8vfnR0?si=ow9WTS6823Q7hPLf)*
 
+## Agents, capital, chips and energy
+
 Schmidt says AI is moving very fast, and he sees three big things coming in the next 1 to 2 years. Very large context windows, AI agents, and text to action, so systems that turn what you write into executable code. He thinks this will have a massive impact, maybe bigger than social media.
 
 He also sees the gap between the frontier models and everybody else getting wider. Building these models takes enormous amounts of capital and compute, somewhere from $10 billion to more than $100 billion for the top systems. So only a few companies and countries can really compete at the top.
 
 It's not only about software. It's also about chips and energy. NVIDIA dominates the AI chip market right now because of its CUDA architecture. And Schmidt says the US needs to work with Canada on AI, because Canada has the clean energy that the huge data centers need. Then there is the race between the US and China, which is also a national security question. He thinks the US is about 10 years ahead of China in chip technology.
+
+## Google, jobs and misinformation
 
 On companies he is very direct. He says Google fell behind in AI partly because of its workplace culture. Startups and founder-led companies are often better at driving innovation, because they are hungrier and work harder.
 
@@ -43,6 +55,8 @@ He also talks about the downsides. AI will likely hit the labor market, mostly l
 A few more points from the interview. He wants better AI resources for universities, so research in the US stays competitive. And his advice for founders is to prototype fast and use AI tools to build the business.
 
 ![](../../../media/ai-revolution-eric-schmidt-s-insights-on-the-future-of-technology-and-global-com/03-8faf1c45.png)
+
+## Ten quotes, word for word
 
 Here are 10 quotes from Eric Schmidt, word for word.
 

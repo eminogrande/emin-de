@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/npm-fund-continuous-token-bonding-curves-for-open-source-funding-3ecb67a522b9"
+tldr:
+  - "NPM Fund pays open source maintainers through a token bonding curve: a share of every buy and sell goes to them."
+  - "Token holders earn part of the fees too, and maintainer and supporter NFTs prove who is who."
+  - "Everything runs on-chain, so every transaction and fee split is public."
+basically:
+  how-it-fixes-open-source-funding: "A bonding curve gives open source maintainers steady income from fees instead of random donations."
+  the-math: "On a 10 ETH buy, 2.1 ETH goes to the maintainer, 0.3 ETH to holders and 0.1 ETH to the platform."
+  why-the-money-keeps-flowing: "Early backers fund the start, rising prices reward them, and transaction fees keep maintainers paid."
 ---
 ![](../../../media/npm-fund-continuous-token-bonding-curves-for-open-source-funding/01-784c6401.webp)
 *via [https://blog.oceanprotocol.com/enabling-short-selling-in-bonding-curves-part-1-af871ad75d40](https://blog.oceanprotocol.com/enabling-short-selling-in-bonding-curves-part-1-af871ad75d40)*
@@ -47,6 +55,8 @@ When you buy tokens, you mint them. You send ETH to the contract and the contrac
 When you sell tokens, you burn them. You send the tokens back to the contract and it calculates how much ETH you get, again based on the current supply. If the supply is high, you get less ETH per token, and if it's low, you get more ETH per token.
 
 On every transaction a percentage is taken as a fee. Let's say someone buys tokens worth 10 ETH. Then 21% goes to the maintainer and that's 2.1 ETH, 3% is shared among the token holders and that's 0.3 ETH, and 1% goes to the platform, so 0.1 ETH. The holders get their part of the 3% fee pool based on how much of the total supply they own. If you own 10% of the tokens, you get 10% of the 0.3 ETH fee pool.
+
+## Why the money keeps flowing
 
 Early supporters bring the first money a project needs to get development going. As the project grows, the token price goes up, and that rewards the early backers and brings in more supporters. After that the transaction fees keep the money flowing, so maintainers can work on the project and not on fundraising. Token holders have a reason to support the project for a long time, and that builds a strong community where people really take part. And because it all runs on-chain, every transaction and every fee distribution is open and you can check it.
 
