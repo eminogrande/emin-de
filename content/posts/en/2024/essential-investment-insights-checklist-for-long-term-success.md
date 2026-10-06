@@ -19,10 +19,22 @@ emin_check_pct: 39
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/essential-investment-insights-checklist-for-long-term-success-8e3e5badec1c"
+tldr:
+  - "Twelve long-term investing rules from 2020, each with a quote from back then and a few things to check."
+  - "Research, spread the risk and be patient."
+  - "Keep debt-to-equity under 60%, look 3-10 years ahead and don't overtrade."
+basically:
+  research-and-spread-the-risk: "Follow the companies you own and spread your money across sectors and countries."
+  growth-debt-and-dividends: "Stable growth over 3-5 years, debt-to-equity under 60%, and dividends that compound."
+  small-often-and-long-term: "Buy a little and often, look 3-10 years out, and don't sell in panic."
+  price-ratios-and-the-watchlist: "Lower P/E and P/B are better. Keep a watchlist and swap in better stocks."
+  keep-learning-and-stay-calm: "Write down what you learned, set alerts instead of checking daily, and keep emotions out."
 ---
 This checklist puts insights from 2020 on long term investing into one
 list. Every point has a quote from back then and a few things to
 check.
+
+## Research and spread the risk
 
 1. Base decisions on research. "The moment you are financially
 invested in something, your interest rises. You start to read more
@@ -40,6 +52,8 @@ Split your money across the main sectors, like technology, healthcare,
 finance and consumer goods. Spread it across countries too, and look
 at emerging markets next to the established economies. Don't put too
 much in one place, because a balanced mix lowers the risk.
+
+## Growth, debt and dividends
 
 3. Look for growth and stability. "Looking at Mastercard and Visa,
 both have a 'Corona-Bump,' but their past performance and returns are
@@ -66,6 +80,8 @@ about reinvesting the dividends so the returns compound over time. And
 mix dividend stocks with growth stocks, so you get income and the
 value grows too.
 
+## Small, often and long term
+
 6. Invest small and often. "To reduce risk, I promised myself to buy
 one stock per day or week, focusing on gradual growth."
 
@@ -80,6 +96,8 @@ market is very high or very low.
 Look at 3-10 years for every investment. Don't sell in panic when the
 market goes down. And before you buy, check that the investment fits
 your long term goals.
+
+## Price ratios and the watchlist
 
 8. Check the price ratios. "P/E and P/B ratios help determine if a
 stock is over or undervalued. The lower, the better!"
@@ -96,6 +114,8 @@ Keep a watchlist of stocks you want to research more or buy when the
 market drops. Update it from time to time based on new research, how
 the companies do and how healthy they are. And swap stocks out so only
 the best ones stay on the list.
+
+## Keep learning and stay calm
 
 10. Keep learning. "If I hadn't started buying, I wouldn't have
 learned as much about these companies and the market."

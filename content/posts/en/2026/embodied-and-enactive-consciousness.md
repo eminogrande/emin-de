@@ -20,14 +20,27 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100005-embodied-and-enactive-consciousness/"
+tldr:
+  - "This column of my consciousness map looks at consciousness through the body and what the body does."
+  - "No single model explains everything yet, so put them next to each other and compare."
+basically:
+  the-names-on-the-map: "Embodied cognition and enactivism first, then Husserl and Varela, down to Gibson and Peter-Wilson."
+  three-questions-for-every-idea: "What does it explain well, what does it miss, and how can we test it better?"
+  how-to-read-the-column: "Each model gives you a piece. Read across them all and you get a less dogmatic picture."
 ---
 This is a long guide in simple language, so people who are new to the topic can still follow it. I want to explain each point from my map in a clear and fair way, and I want it to be easy to read even if you never read any philosophy of mind before.
 
 This column of the map tries to answer one big question, and that question is how consciousness works. It looks at it through one specific lens, the body and what the body does. It doesn't claim to be the only truth, but it gives you good tools to think with, and that is the reason it's on the map at all.
 
+## The names on the map
+
 The column starts with two big ideas, embodied cognition and enactivism. Then come the names. First Husserl, then Varela and Thompson. After them there is blind spot research, and then Bitbol and Gefter. Then come Shanahan, Noë and Hurley, then Gibson, and the last name in the column is Peter-Wilson. Each of these is on the map as a reference point, and each one is a line of thought you can look at on its own.
 
+## Three questions for every idea
+
 For every one of them I think the same simple questions help a lot. What does this idea explain well, what does it miss, and how can we test it better? You can ask this about embodied cognition or enactivism, and you can ask it about Husserl or Varela or Gibson, and it works the same way every time.
+
+## How to read the column
 
 You don't need to agree with every claim. I think the best way to read this column is to put the models next to each other and compare them. And then you ask which one explains experience, brain data and everyday life with the least confusion. Some ideas will do better on one of these things and some on another, and that is fine, because the point is to see where each idea is strong and where it gets weak.
 

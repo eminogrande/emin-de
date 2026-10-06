@@ -20,6 +20,21 @@ voice_check:
   unobserved: 209
 emin_check_pct: null
 original_url: "https://medium.com/@em/the-watermarker-probabilistic-word-choice-biasing-as-a-statistical-fingerprint-in-llm-outputs-and-9f398ccd88ef"
+tldr:
+  - "The zero-width characters in ChatGPT answers were a bug. The real watermark sits in the word choice."
+  - "A secret key biases tokens toward a green list, and a detector with the same key measures the surplus as a z-score."
+  - "I built a small Python tool that stamps text with my own private key and verifies it later."
+basically:
+  what-is-probabilistic-word-choice-biasing-and-how-is-it-recognised: "A secret key nudges each token toward a green list. Over fifty tokens, the surplus shows."
+  is-that-similar-to-proving-membership-with-a-merkle-tree-hash: "One changed byte breaks a Merkle proof. To kill a watermark you have to rewrite half the words."
+  is-there-a-single-hash-i-can-match-against: "No single hash. You rerun the per-token process with the key and the tokenizer."
+  can-i-embed-my-own-secret-key-to-prove-authorship: "Not in hosted ChatGPT, but with a local open-source model and my own private key, yes."
+  how-do-i-tokenise-the-text-correctly: "Wrong tokenizer, wrong green lists, false negatives. Even curly quotes can shift tokens."
+  could-i-just-ask-chatgpt-to-embed-my-key: "No. The watermark hook stays on the server, so a personal watermark needs local inference."
+  what-if-i-copy-an-answer-and-regenerate-it-under-my-own-key: "A light local paraphrase moves the fingerprint to my key, if at least 70% of the token IDs stay."
+  the-tool-i-built: "A 20-line script stamps text with my key and flags anything with a z-score over 4."
+  part-1-embed-a-watermark: "Pick a model, a private key and the settings, attach the processor, generate."
+  part-2-detect-the-watermark: "Same model, same key, count the green hits. A high z confirms the signature."
 ---
 # The Watermarker: Probabilistic Word-Choice Biasing as a Statistical Fingerprint in LLM Outputs and AI Texts
 

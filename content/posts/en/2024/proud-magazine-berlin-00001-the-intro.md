@@ -20,6 +20,8 @@ emin_check_pct: 43
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-00001-the-intro-f6ee668168c8"
+tldr:
+  - "The first issue of proud Magazine: your weapon in the urban jungle, and chocolate for everyone once the city is taken."
 ---
 ![](../../../media/proud-magazine-berlin-00001-the-intro/01-d887d777.png)
 

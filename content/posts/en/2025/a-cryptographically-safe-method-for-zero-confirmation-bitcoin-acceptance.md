@@ -20,6 +20,20 @@ emin_check_pct: 57
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/a-cryptographically-safe-method-for-zero-confirmation-bitcoi/"
+tldr:
+  - "A zero-confirmation payment is only safe if the payer cannot create any other valid spend of the same UTXO."
+  - "Mandatory co-signing plus a delayed recovery path for the user alone enforces that with cryptography."
+  - "The co-signer signs each outpoint once, so a Lightning payment can go out before the first confirmation."
+basically:
+  when-zero-confirmation-is-unsafe: "If the payer can build a different valid spend of the same UTXO, fees and RBF rules don't matter."
+  the-one-condition: "During the window, the payer must not be able to spend alone. Enforced at the UTXO level."
+  a-taproot-output-with-two-paths: "Cooperative path right away with two signatures, recovery path for the user alone after N blocks."
+  how-acceptance-works: "Build, send for co-signing, check policy, sign once, broadcast. Then the mempool doesn't matter."
+  four-rules-for-the-co-signer: "One signature per outpoint, sign and lock atomically, commit to the whole transaction, watch reorgs."
+  timing: "The recovery delay must be long enough that the cooperative spend still confirms when fees are bad."
+  bitcoin-to-lightning-swaps: "Co-signing is the authorization, so the Lightning payment can start at zero confirmations."
+  what-it-doesnt-fix: "Payer double-spends are gone. Co-signer compromise, downtime, slow confirmations and censorship are not."
+  what-you-need: "Mandatory co-signing, one signature per outpoint and a delayed solo recovery path. Nothing less works."
 ---
 ![](../../../media/a-cryptographically-safe-method-for-zero-confirmation-bitcoin-acceptance/cover.jpg)
 
@@ -37,6 +51,8 @@ transaction during a defined window.
 It works by enforcing who can sign at the UTXO level, and it
 doesn't depend on how the mempool behaves or on miner policy.
 
+## When zero-confirmation is unsafe
+
 Say a UTXO `U` can be spent by a user. A zero-confirmation
 transaction `T` that spends `U` is unsafe if the user can also
 build a different transaction `T'` that spends `U` and get
@@ -50,6 +66,8 @@ spreads it, and no matter what script structure sits inside
 So zero-confirmation safety means there must not be any other
 valid spend of `U` at all.
 
+## The one condition
+
 The idea behind it is simple. A conflicting transaction can
 only exist if the payer can make a valid spend on his own. So
 the one condition you need, and it's also enough, is this.
@@ -58,6 +76,8 @@ During the acceptance window the payer must not be able to
 create any valid transaction that spends the relevant UTXOs
 without the service taking part. And this has to be enforced
 with cryptography at the UTXO level.
+
+## A Taproot output with two paths
 
 The funds sit in a Taproot output with two ways to spend it.
 The cooperative path works right away. It needs a signature
@@ -71,6 +91,8 @@ needs only the user signature, it's enforced by
 blocks. So the service never has custody, the user can always
 get the funds back alone after the delay, and before the delay
 is over nobody can spend alone.
+
+## How acceptance works
 
 Now let `U` be an output built like this. The acceptance works
 in 5 steps. In step 1 the user builds a transaction `T` that
@@ -87,6 +109,8 @@ anymore.
 So you can treat the transaction as authorized right away,
 even though it's not confirmed yet.
 
+## Four rules for the co-signer
+
 The co-signing service has to hold 4 rules, and if it breaks
 any of them the safety guarantee is gone. Rule 1 is one
 signature per outpoint, so each UTXO gets signed at most once,
@@ -102,6 +126,8 @@ Rule 4 is be aware of reorgs, so the state is not released
 just because of one confirmation, and outpoints stay locked
 until the reorg risk is acceptable.
 
+## Timing
+
 Timing matters too. The recovery path is enforced by a
 relative timelock (`OP_CHECKSEQUENCEVERIFY`) that counts from
 the confirmation of the parent output. So before confirmation
@@ -113,6 +139,8 @@ The service has to make sure the cooperative transaction will
 most likely confirm before the recovery path opens, or it has
 to accept that economic risk.
 
+## Bitcoin to Lightning swaps
+
 This fits Bitcoin to Lightning swaps really well. The
 cooperative on-chain spend is the authorization, the Lightning
 payment can start right after co-signing, and the on-chain
@@ -122,11 +150,15 @@ Because no conflicting spend can exist during the cooperative
 window, firing the Lightning payment at zero confirmations
 doesn't open the service to double-spend risk from the payer.
 
+## What it doesn't fix
+
 But this only removes double-spend risk from the payer. It
 doesn't remove the risk that the co-signer gets compromised,
 that the service goes down, that confirmations take long, or
 that miners censor the transaction. You have to deal with
 those risks in operations.
+
+## What you need
 
 So safe zero-confirmation acceptance in Bitcoin only works if
 you take away the payer's ability to create conflicting valid

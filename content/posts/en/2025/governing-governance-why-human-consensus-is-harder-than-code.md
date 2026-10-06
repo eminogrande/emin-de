@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/governing-governance-why-human-consensus-is-harder-than-code/"
+tldr:
+  - "Governance is the method of finding consensus between humans, and it gets harder the bigger the group."
+  - "Voting should be the last resort, after people sat together and tried to find a solution."
+  - "Signaling, delegated voting and clear communication matter more than code."
+basically:
+  what-governance-actually-is: "Governance is finding consensus between humans. Easy at a dinner, exponentially harder at scale."
+  voting-should-be-the-last-resort: "A 51.9% to 48.1% result doesn't show a will of the people. It shows a divided community."
+  who-actually-participates: "Forking splits the network, so we have to ask who really takes part: nodes, users, contracts."
+  many-or-few-experts-or-crowd: "Miners want high fees. Users want zero fees. Who is right?"
+  liquid-democracy: "Signal before you bind, and let people delegate their vote and take it back instantly."
+  a-human-problem: "Governance is not a software update. It is human collaboration."
 ---
 ![](../../../media/governing-governance-why-human-consensus-is-harder-than-code/cover.jpg)
 
@@ -27,6 +38,8 @@ I’ve been following the blockchain space for quite some time, mostly by coinci
 
 While we spend a lot of time engineering protocols, there is a topic that raises more questions than answers, yet is absolutely critical to discuss. Governance.
 
+
+## What governance actually is
 
 So what actually is governance? It is simply the method of finding consensus between humans.
 
@@ -37,6 +50,8 @@ When we imagine "classic" governance like national elections, we have some techn
 But ultimately, we are just trying to figure out what everybody thinks. And that is where the trouble begins.
 
 
+## Voting should be the last resort
+
 Sometimes, strict voting systems give us results like Brexit, 51.9% to 48.1%.
 
 What does a result like that actually tell you? To me, it doesn't represent a "will of the people." It tells me that we have no clue whether we should stay or leave. It tells me the community is divided. Yet, we take a result like that, accept it, and promote it as the absolute decision.
@@ -46,12 +61,16 @@ I haven’t solved governance, and I don't think anyone has yet. But I believe o
 A single person has a clear will. A group often just has a choice between A and B. Perhaps voting should only happen after we have exhausted all collaborative approaches, after we have sat together, discussed, and spent energy trying to find a solution. We shouldn't jump straight to a binary vote.
 
 
+## Who actually participates
+
 In the traditional open-source world, we have the concept of the BDFL (Benevolent Dictator For Life). You see this in Linux, WordPress, and Python.
 
 Recently, Guido van Rossum, the inventor of Python, stepped back from his role because he couldn't deal with the community discussions anymore. He simply got tired of the conflict.
 
 In open source, you can always "fork" the project (copy it and go your own way), but many people don't want to fork. It splits the network effect. Now that we are building decentralized systems, we have to ask who actually participates. There is the infrastructure, so the nodes and miners securing the network. There are the users, the people building applications on top. And there are autonomous entities, smart contracts that might have "rights" or interests in the protocol.
 
+
+## Many or few, experts or crowd
 
 We have come up with different ways to weigh votes in blockchain, such as Proof of Stake (wealth = power) or Proof of Work (computational power = power).
 
@@ -64,6 +83,8 @@ Then there is the issue of experts and the crowd. What if you have a group of te
 Often, voting becomes a rivalry rather than a search for the best solution. And many voters don't even understand what is being voted upon.
 
 
+## Liquid democracy
+
 So, how do we solve this? I believe the answer lies in Liquid Democracy and better communication.
 
 The first part is signaling over binding. We shouldn't always use binding votes immediately. We need "signaling," an easy way for the community to express an opinion on a proposal without it immediately executing code. This gauges sentiment before a hard decision is made.
@@ -72,6 +93,8 @@ The second part is delegated voting. If you own shares or tokens, you have a voi
 
 This also solves a security problem. You shouldn't have to use your "cold storage" (secure savings) to vote. You should be able to sign a message that delegates your voting power to a different key, allowing you to participate without putting your assets at risk.
 
+
+## A human problem
 
 We spend years implementing technology, writing code, and building mathematical proofs. But governance is not a technical problem. Governance is a human problem.
 

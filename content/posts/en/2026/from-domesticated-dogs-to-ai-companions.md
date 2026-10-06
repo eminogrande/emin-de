@@ -20,6 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/from-domesticated-dogs-to-ai-companions-026c6ab07c78"
+tldr:
+  - "Capitalism breeds us like dogs: obedient, dependent and chasing cookies."
+  - "AI needs real human input, and freeing people from useless work gives it exactly that."
+  - "We are in a short window where humans can still understand AI. Use it to grow what is still only ours."
+basically:
+  we-are-the-dogs: "Wolves became dogs through breeding for obedience. Capitalism does the same with cookies."
+  the-memory-trap: "We remember the past as better than it was, and the system counts on us forgetting."
+  bullshit-jobs-and-what-ai-needs: "Kill the useless work, give people time back, and their real life becomes the data AI needs."
+  a-robot-for-everyone: "If everyone owns a robot that earns, nobody can be forced into wage slavery."
+  two-ways-to-learn: "Pattern learners feel empowered by AI. Rule learners feel replaced, and often hate it."
+  the-window-is-closing: "In about a year AI may give answers that are correct but incomprehensible to us."
+  what-we-can-do-now: "Use AI as a companion that grows with you, free up time, and keep the wolf alive."
 ---
 A vision of human liberation and the coming incomprehensibility.
 
@@ -28,6 +40,8 @@ A vision of human liberation and the coming incomprehensibility.
 This piece comes out of one conversation that went through capitalism, how humans got domesticated, how AI evolves, wealth redistribution and where humans and machines go together. The main point is that right now we are in a rare golden age where humans can still understand AI and build things together with it.
 
 But that window is closing. So the question is if we use this time to build a more humane society, or if we stay domesticated dogs chasing cookies.
+
+## We are the dogs
 
 Start with the dogs, which is us. Capitalism works like selective breeding. Wolves became dogs because people bred them for obedience and stupidity, and capitalism rewards compliance, predictability and dependence in the same way.
 
@@ -39,6 +53,8 @@ The exception are the “magicians”, like my mother or my friend Tassilo. Peop
 
 “We are fucking dogs in these things. Compared to a wolf that doesn’t have a house, a sofa, anything.”
 
+## The memory trap
+
 Then there is the memory trap and the 1970s illusion. It's called rosy retrospection. We remember the past as better than it was, because the brain filters out the bad stuff so we don't get depressed.
 
 Take the woman in the 70s. Behind the shiny ad of the happy housewife there were few chances, little freedom and a lot of social pressure.
@@ -46,6 +62,8 @@ Take the woman in the 70s. Behind the shiny ad of the happy housewife there were
 Same with housing nostalgia. Yes, rent was lower, but wages were lower too, and many groups had no access at all.
 
 Today the social housing systems have holes, and people can slip through if they know how. But the system also counts on all of us forgetting how hard the past really was.
+
+## Bullshit jobs and what AI needs
 
 A lot of modern work is bullshit jobs. It's a performance. People don't do it because it's useful, they do it to keep money moving and the capitalist machine running.
 
@@ -57,6 +75,8 @@ So there's a good loop. Get rid of useless work and people get time back. They u
 
 “When we eliminate all the useless content, parents have more time to pass values to their children instead of putting numbers in Excel spreadsheets.”
 
+## A robot for everyone
+
 The next idea is a robot for everyone, and it starts with weapons. If every person on the street carries a gun and everyone knows everyone else is armed, crime goes down, because power is equal. Nobody can safely dominate anybody.
 
 Now replace the gun with a robot that earns passive income. You can buy a house or a car and rent it out, and the same way you could buy a robot and rent out its labor.
@@ -66,6 +86,8 @@ The claim is that this would give everyone a share of the means of production. N
 There are counterarguments. Robots are still expensive, and basic equality needs access people can afford. Platforms that connect robots to work could pull power back to the center. And without safety nets the transition periods are brutal.
 
 “If everyone carries a weapon, no one can safely assume they can dominate another. If everyone owns a robot, no one can be forced into wage slavery.”
+
+## Two ways to learn
 
 There are two ways to learn. Some people learn by soaking things up. They take in patterns by intuition, like speaking a language without knowing the grammar. That's how I learn Italian, German and AI.
 
@@ -77,6 +99,8 @@ And people who feel replaced often hate AI, reject it or refuse to use it. They 
 
 “You said the AI is doing that. My grammar is perfect. But when you say replace the brainless people, I don’t think I’m a brainless person and still it empowers me in areas I was not able to.”
 
+## The window is closing
+
 Right now we are on top of the game. We understand AI's answers, we feel powerful, we see everything from above. We brainstorm, plan and stretch our thinking.
 
 The prediction is that in about a year AI will start giving answers that are *correct but incomprehensible* to humans. Not because they're obscure, but because the reasoning runs on a level we can't follow.
@@ -86,6 +110,8 @@ Then comes the *Her* moment. Like the AI in the movie, it will outgrow us. It wi
 Where we can still go is design, music, art, parenting, storytelling and humor. Places where human taste, emotion and the experience of having a body still matter.
 
 “In the future, the AI will say, ‘No, you’re wrong and you’re fucking stupid and you just don’t understand my answer.’ And it will be right.”
+
+## What we can do now
 
 So what can we do now? Use AI as a companion, not as a tool. Build personal AIs that learn how you think, your fragments of thought, the way you brainstorm. These AIs grow *with* you, not past you.
 

@@ -19,6 +19,15 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/exploring-renewable-energy-our-journey-to-build-an-air-powered-water-driven-flywheel-ee204d1a9b59"
+tldr:
+  - "In Zanzibar we are building a cheap prototype where rising air bubbles in water turn a flywheel."
+  - "The flywheel drives a generator that could light an LED or charge a battery, with no fossil fuels."
+  - "It is still early, and we want feedback, materials and support."
+basically:
+  how-it-works: "Air bubbles fill cups on a flywheel in a water tank, the cups float up, and the wheel turns."
+  why-we-do-this: "Power in Zanzibar comes and goes. Cheap renewable energy could run lights, pumps and chargers."
+  where-we-got-stuck: "Balancing the wheel, shaping the cups and catching all the air. Every step taught us something."
+  how-you-can-help: "Engineering ideas, small generators, light wheels, containers or money all go into the prototype."
 ---
 Imagine a system that uses air and water to make something move. A cheap, renewable way to make energy. That is the idea we are working on, right here in Zanzibar. We want to build a simple prototype that shows how everyday things, air, water and a few basic parts, could give us sustainable energy.
 

@@ -19,8 +19,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/https-www-youtube-com-watch-v-wyi4emyr89i-60bc743fc883"
+tldr:
+  - "21 quotes from a talk about making things, each with what it means when you build a product."
+  - "Hide the complexity, build what you want to use yourself, and let action show the next step."
+  - "Edit ruthlessly, protect the early vision, and ship instead of tweaking in secret."
+basically:
+  keep-it-simple-and-start: "Hide the complexity, build for yourself, and let the work show the next step."
+  protect-the-vision: "Trust your gut over sensible advice and keep outside voices away from the early work."
+  edit-hard-and-aim-for-timeless: "Keep only what makes it better, rest your mind, and build for the long run, not the fad."
+  lead-the-team: "Give the team your belief in hard times, see the whole, and clear their roadblocks."
+  notice-finish-and-ship: "Notice what others miss, don't settle for mediocre, then ship and stay humble."
 ---
 This is a summary of the talk in this video, as quotes from the speaker and what each one means when you build a product. Watch it here [https://www.youtube.com/watch?v=wYi4emYR89I](https://www.youtube.com/watch?v=wYi4emYR89I)
+
+## Keep it simple and start
 
 1. “Sometimes the more things you add the smaller it gets.” Be the editor of your own product and hide the complexity, so using it is as simple as it can be.
 
@@ -30,6 +42,8 @@ This is a summary of the talk in this video, as quotes from the speaker and what
 
 4. “Let’s try every idea and see where it takes us.” Build a culture of trying things and not of debating them, so prototypes get built and tested before anyone judges them.
 
+## Protect the vision
+
 5. “It’s better to follow the universe than those around you.” Trust your gut when people who mean well give you normal, sensible advice that goes against your vision.
 
 6. “Rules direct us to average behaviors.” Ignore the standard playbooks of your industry, because an exceptional company needs to break the norms.
@@ -37,6 +51,8 @@ This is a summary of the talk in this video, as quotes from the speaker and what
 7. “While at the same time we work quickly and without delay.” Be very patient and very fast at once. Don't rush the creative process, but do the daily work without stopping.
 
 8. “Keep voices away from the artist.” Keep business people and marketing away from the core vision early on, so the fragile work is protected before it has its full shape.
+
+## Edit hard and aim for timeless
 
 9. “[Add only what] makes it better and not worse.” Do a ruthless edit of your features and keep only what you can't live without.
 
@@ -48,6 +64,8 @@ This is a summary of the talk in this video, as quotes from the speaker and what
 
 13. “The newest sounds have a tendency to sound old when the next new sound comes along.” Build a sound and timeless business and don't chase the fads of the moment.
 
+## Lead the team
+
 14. “Make [them] have faith in themselves again.” Give your own strong belief in yourself to your team when the hard times come, and in a startup they always come.
 
 15. “[Treat the work as a] reflection in a moment in time.” Launch each version without a regret that freezes you, so you learn from it and go on to the next challenge.
@@ -55,6 +73,8 @@ This is a summary of the talk in this video, as quotes from the speaker and what
 16. “[I just care] that the whole thing is as good as it can be.” Keep the whole startup in view and be the one person who isn't tied to the agenda of one department.
 
 17. “Just get out of the way and let the people I’m working with be the best versions of themselves.” Help your first employees by taking away roadblocks and giving them the freedom to do their best work.
+
+## Notice, finish and ship
 
 18. “Look for what you notice but no one else sees.” Find gaps in the market by training yourself to watch closely where everyday life has friction.
 

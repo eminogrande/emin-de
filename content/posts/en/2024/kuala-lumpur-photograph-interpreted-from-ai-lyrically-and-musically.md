@@ -20,11 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/kuala-lumpur-photograph-interpreted-from-ai-lyrically-and-musically-6b74805afca6"
+tldr:
+  - "I gave an AI one photo from a high-rise in Kuala Lumpur and no other context."
+  - "It described modern towers next to an older red-roofed building, a construction site and pockets of green."
+basically:
+  what-the-ai-wrote: "A city that respects its past while it builds its future, written by an AI from one photo."
 ---
 This is a Kuala Lumpur photo, interpreted by AI lyrically and musically. I gave an AI this picture from Kuala Lumpur and nothing else, no additional context. Both the text and the music were created by the AI, just based on the picture. This was my prompt.
 
 ![](../../../media/kuala-lumpur-photograph-interpreted-from-ai-lyrically-and-musically/01-208e6f41.png)
 *What do you see here, describe it as beautiful as you can and really check if you notice something special and know what and where the things are, for a few pages in my travel book.*
+
+## What the AI wrote
 
 And this is what the AI wrote, unchanged except for the formatting.
 
