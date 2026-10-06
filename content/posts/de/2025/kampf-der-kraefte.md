@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/kampf-der-kr%C3%A4fte-9b9b95e2d583"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/kampf-der-kraefte/01-1d8e9e37.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 4
   unobserved: 980
 emin_check_pct: null
+original_url: "https://medium.com/@em/kampf-der-kr%C3%A4fte-9b9b95e2d583"
 ---
 ![](../../../media/kampf-der-kraefte/01-1d8e9e37.png)
 

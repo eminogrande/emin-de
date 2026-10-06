@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/reality-check-a-20-year-retrospective-on-a-students-predictions-of-media-manipulation-and-the-01b1d87ba934"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/reality-check-a-20-year-retrospective-on-a-student-s-predictions-of-media-manipu/01-136e936c.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 255
 emin_check_pct: null
+original_url: "https://medium.com/@em/reality-check-a-20-year-retrospective-on-a-students-predictions-of-media-manipulation-and-the-01b1d87ba934"
 ---
 # Reality Check: A 20-Year Retrospective on a Student’s Predictions of Media, Manipulation, and the Rise of AI
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-s-zombie/cover.jpg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 207
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-/"
 ---
 ![](../../../media/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-s-zombie/cover.jpg)
 

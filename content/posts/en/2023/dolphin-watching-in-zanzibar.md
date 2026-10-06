@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/dolphin-watching-in-zanzibar-3cd7e06cbf6a"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/dolphin-watching-in-zanzibar/01-af3d90bb.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 158
 emin_check_pct: null
+original_url: "https://medium.com/@em/dolphin-watching-in-zanzibar-3cd7e06cbf6a"
 ---
 ![](../../../media/dolphin-watching-in-zanzibar/01-af3d90bb.jpeg)
 

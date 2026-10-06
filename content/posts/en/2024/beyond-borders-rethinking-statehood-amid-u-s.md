@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/beyond-borders-rethinking-statehood-amid-u-s-f3f55c7ed13e"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/beyond-borders-rethinking-statehood-amid-u-s/01-b4eb1cea.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 282
 emin_check_pct: null
+original_url: "https://medium.com/@em/beyond-borders-rethinking-statehood-amid-u-s-f3f55c7ed13e"
 ---
 # Beyond Borders: Rethinking Statehood Amid U.S. Elections, Immigration Conflicts, and the Rise of Network States
 

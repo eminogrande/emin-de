@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/https-www-youtube-com-watch-v-wyi4emyr89i-60bc743fc883"
 source: "medium"
 third_party_summary: true
 voice_check:
   em_dash: 0
   unobserved: 90
 emin_check_pct: null
+original_url: "https://medium.com/@em/https-www-youtube-com-watch-v-wyi4emyr89i-60bc743fc883"
 ---
 Watch it here: [https://www.youtube.com/watch?v=wYi4emYR89I](https://www.youtube.com/watch?v=wYi4emYR89I)
 

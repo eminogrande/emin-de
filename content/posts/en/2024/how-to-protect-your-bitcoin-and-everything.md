@@ -11,13 +11,13 @@ author: emin
 provenance: written
 ai_assisted: unknown
 reviewed_by_human: true
-canonical: "https://emin.substack.com/p/how-to-protect-your-bitcoin-and-everything"
-import_note: "Imported from Substack. Text unchanged except formatting; first published at the canonical URL."
+import_note: "Imported from Substack. Text unchanged except formatting; first published at original_url."
 video: { url: "https://www.youtube.com/watch?v=HsgYToy-1eI", title: "nuri.com Biometric Fingerprint Hardware Wallet and Smart Card for Crypto, Passkey, Banking and more.", upload_date: 2024-12-13, duration: PT1M1S }
 tags: []
 source_links: []
 tldr: []
 basically: {}
+original_url: "https://emin.substack.com/p/how-to-protect-your-bitcoin-and-everything"
 ---
 **UPDATE: the NEW Nuri Card is much more simple and secure, without battery, without display.**
 

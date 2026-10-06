@@ -10,6 +10,7 @@ import { execFileSync } from 'node:child_process';
 import { loadContent } from '../src/lib/content-build.mjs';
 import { DISCOVERY_LINKS } from '../src/lib/site.mjs';
 import config from '../site.config.mjs';
+import * as policy from '../scripts/lib/front-matter-policy.mjs';
 
 const dist = (p) => path.join('dist', p);
 const read = (p) => readFileSync(dist(p), 'utf-8');
@@ -94,12 +95,14 @@ test('loader rejects a translation that does not exist, and non-reciprocal links
 test('honest bylines: AI desk is labelled, never a Person, and loader enforces it', () => {
 	const html = read('posts/sample-post-for-tests/index.html');
 	assert.match(html, /AI-written, human-supervised/);
+	assert.match(html, /class="badge ai"/);
 	const blog = ld(html).find((s) => s['@type'] === 'BlogPosting');
 	assert.equal(blog.author['@type'], 'Organization');
 	assert.equal(blog.creativeWorkStatus, 'AI-written, human-supervised: not yet reviewed');
 	const desk = read('author/ai-desk/index.html');
 	assert.match(desk, /Not a person, no invented biography, no photo/);
-	assert.ok(!/<img/.test(desk));
+	// No photo or portrait OF the desk (post covers in the list are fine).
+	assert.ok(!/class="portrait"|class="monogram"|alt="Portrait/.test(desk));
 	const dir = mkdtempSync(path.join(os.tmpdir(), 'engine-'));
 	mkdirSync(path.join(dir, 'c/posts/en/2026'), { recursive: true });
 	writeFileSync(path.join(dir, 'c/posts/en/2026/x.md'), `---\ntitle: "T"\ndescription: "D"\ndate: 2026-01-01\nlang: en\ncategory: notes\nformat: note\nauthor: emin\nprovenance: ai_generated\nai_assisted: true\nreviewed_by_human: true\nnoindex: true\n---\nBody.\n`);
@@ -119,11 +122,142 @@ test('schema: valid JSON-LD with required properties on posts and home', () => {
 	for (const key of ['name', 'description', 'uploadDate', 'thumbnailUrl', 'contentUrl']) assert.ok(talk?.[key], `VideoObject.${key}`);
 });
 
-test('imports keep external canonical and stay out of the sitemap', () => {
+test('emin.de is the original: self canonical, original_url as sameAs/isBasedOn, in the sitemap', () => {
 	const html = read('posts/episode-1-what-is-bitcoin/index.html');
-	assert.match(html, /<link rel="canonical" href="https:\/\/emin\.substack\.com\/p\/episode-1-what-is-bitcoin">/);
-	assert.ok(!read('sitemap.xml').includes('/posts/episode-1-what-is-bitcoin<'));
-	assert.match(read('posts/episode-1-what-is-bitcoin/index.md'), /Published 2021-07-15/);
+	assert.match(html, /<link rel="canonical" href="https:\/\/emin\.de\/posts\/episode-1-what-is-bitcoin">/);
+	const blog = ld(html).find((s) => s['@type'] === 'BlogPosting');
+	assert.deepEqual(blog.sameAs, ['https://emin.substack.com/p/episode-1-what-is-bitcoin']);
+	assert.equal(blog.isBasedOn, 'https://emin.substack.com/p/episode-1-what-is-bitcoin');
+	assert.equal(blog.datePublished, '2021-07-15');
+	assert.match(html, /First published on <a href="https:\/\/emin\.substack\.com\/p\/episode-1-what-is-bitcoin"[^>]*>Substack<\/a>, 15 July 2021\./);
+	assert.ok(read('sitemap.xml').includes('<loc>https://emin.de/posts/episode-1-what-is-bitcoin</loc><lastmod>'));
+	assert.match(read('posts/episode-1-what-is-bitcoin/index.md'), /First published: https:\/\/emin\.substack\.com\/p\/episode-1-what-is-bitcoin \(2021-07-15\)/);
+	// No content file may canonicalise away from this origin.
+	const { problems } = loadContent({ dirs: ['content'] });
+	assert.deepEqual(problems, []);
+	for (const post of loadContent({ dirs: ['content'] }).posts) assert.ok(post.canonical.startsWith(config.origin), post.file);
+});
+
+test('post schema: Person author with sameAs, speakable, BreadcrumbList, publishing principles', () => {
+	const html = read('posts/what-agent-ready-actually-means/index.html');
+	const all = ld(html);
+	const blog = all.find((s) => s['@type'] === 'BlogPosting');
+	assert.equal(blog.author['@type'], 'Person');
+	for (const url of config.authors.emin.sameAs) assert.ok(blog.author.sameAs.includes(url), url);
+	assert.equal(blog.speakable['@type'], 'SpeakableSpecification');
+	assert.ok(blog.publishingPrinciples.endsWith('/principles'));
+	assert.ok(all.some((s) => s['@type'] === 'BreadcrumbList'));
+	const person = ld(read('index.html')).find((s) => s['@type'] === 'Person');
+	assert.equal(person.jobTitle, 'Journalist, publisher');
+	assert.ok(person.knowsAbout.includes('journalism and publishing'));
+});
+
+test('FREE SPEECH: no content post is hidden; only draft: true by the author hides one', () => {
+	const { posts } = loadContent({ dirs: ['content'] });
+	const hidden = posts.filter((p) => p.noindex);
+	assert.deepEqual(hidden.map((p) => `${p.file}: ${p.noindexReason}`), [], 'content posts must never be noindex (topic, words, provenance or review status are not reasons)');
+	const sitemap = read('sitemap.xml');
+	const llms = read('llms.txt');
+	for (const post of graph.posts.filter((p) => !p.file.startsWith('tests/'))) {
+		assert.ok(sitemap.includes(`<loc>https://emin.de${post.path}</loc>`), `${post.path} missing from sitemap`);
+		assert.ok(llms.includes(`https://emin.de${post.path})`), `${post.path} missing from llms.txt`);
+		assert.ok(!/<meta name="robots" content="noindex/.test(read(`${post.path.slice(1)}/index.html`)), `${post.path} is noindex`);
+	}
+	// The loader has no content gate: a provocative or sensitive post with
+	// mixed/unknown provenance and an unreviewed status stays indexable.
+	const dir = mkdtempSync(path.join(os.tmpdir(), 'engine-'));
+	mkdirSync(path.join(dir, 'c/posts/en/2026'), { recursive: true });
+	const fm = (prov, extra = '') => `---\ntitle: "Uncomfortable opinion"\ndescription: "A post about politics, drugs, religion and war with words some people dislike."\ndate: 2026-01-01\nlang: en\ncategory: notes\nformat: note\nauthor: emin\nprovenance: ${prov}\nai_assisted: unknown\nreviewed_by_human: false\nreview_status: draft-emin-voice\noriginal_url: "https://medium.com/@em/x"\n${extra}---\nBody with sensitive words.\n`;
+	writeFileSync(path.join(dir, 'c/posts/en/2026/a.md'), fm('mixed'));
+	writeFileSync(path.join(dir, 'c/posts/en/2026/b.md'), fm('unknown'));
+	writeFileSync(path.join(dir, 'c/posts/en/2026/c.md'), fm('human', 'draft: true\n'));
+	const out = loadContent({ dirs: ['c'], root: dir });
+	assert.deepEqual(out.problems, []);
+	assert.deepEqual(out.posts.map((p) => [p.slug, p.noindex]).sort(), [['a', false], ['b', false]]);
+	// The only lever is draft: true (c is absent above).
+	assert.equal(config.indexing, undefined, 'no provenance-based indexing policy may exist');
+});
+
+test('import:staging never drops or hides a post and never changes a body', () => {
+	const dir = mkdtempSync(path.join(os.tmpdir(), 'stage-'));
+	const site = mkdtempSync(path.join(os.tmpdir(), 'site-'));
+	mkdirSync(path.join(dir, 'posts/en/2026'), { recursive: true });
+	mkdirSync(path.join(dir, 'quarantine'), { recursive: true });
+	const body = 'Sex, drugs, war, religion: words a filter might flag.\n';
+	const fm = (extra) => `---\ntitle: "T"\ndescription: "D long enough to be a real description here."\ndate: "2026-01-02T00:00:00Z"\nlang: "en"\ncategory: "notes"\nformat: "note"\nauthor: "emin"\nprovenance: "mixed"\nai_assisted: true\nreviewed_by_human: false\ncanonical: "https://emino.app/posts/x/"\n${extra}---\n${body}`;
+	writeFileSync(path.join(dir, 'posts/en/2026/x.md'), fm('noindex: true\nreview_status: "draft-emin-voice"\n'));
+	writeFileSync(path.join(dir, 'quarantine/y.md'), fm('quarantine: "sensitive"\n'));
+	const script = path.resolve('scripts/import-staging.mjs');
+	execFileSync('node', [script, dir, '--dry-run'], { cwd: path.resolve('.') });
+	// Real run in a scratch site so the repo content is untouched.
+	mkdirSync(path.join(site, 'content/posts'), { recursive: true });
+	const { applyOriginPolicy, applyNoGate } = policy;
+	for (const f of ['posts/en/2026/x.md', 'quarantine/y.md']) {
+		const raw = readFileSync(path.join(dir, f), 'utf-8');
+		const out = applyNoGate(applyOriginPolicy(raw).text);
+		assert.ok(out.endsWith(body), 'body unchanged');
+		assert.ok(!/^noindex:|^quarantine:|^canonical:/m.test(out), 'gates removed');
+		assert.match(out, /^original_url: "https:\/\/emino\.app\/posts\/x\/"$/m);
+	}
+});
+
+test('redirects: old emino.app slugs 301 to emin.de; doc lists every pair', () => {
+	const table = JSON.parse(readFileSync('src/generated/redirects.json', 'utf-8'));
+	for (const [from, to] of Object.entries(table)) {
+		assert.ok(from.startsWith('/') && from !== '/posts' && from !== '/', from);
+		assert.ok(existsSync(dist(`${to.slice(1)}/index.html`)), `${from} -> ${to} has no page`);
+	}
+	const doc = readFileSync('docs/REDIRECTS-emino-app.md', 'utf-8');
+	const emino = loadContent({ dirs: ['content'] }).posts.filter((p) => p.originalUrl?.includes('emino.app/posts/') && new URL(p.originalUrl).pathname.split('/').filter(Boolean).length >= 2);
+	for (const post of emino) assert.ok(doc.includes(post.originalUrl.replace(/\/?$/, '/')) || doc.includes(`https://emin.de${post.path}`), post.slug);
+});
+
+test('robots welcomes every named AI and search crawler', async () => {
+	const { robotsBody } = await import('../src/lib/http-headers.mjs');
+	const body = robotsBody('https://emin.de');
+	for (const bot of ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'Google-Extended', 'Googlebot', 'Bingbot', 'PerplexityBot', 'ClaudeBot', 'Applebot-Extended', 'CCBot']) {
+		assert.match(body, new RegExp(`User-agent: ${bot}\\nAllow: /`), bot);
+	}
+	assert.ok(!/Disallow: \//.test(body));
+});
+
+test('magazine design: serif self-hosted, no third-party fonts, covers sized, footer principle, verification slots', () => {
+	const home = read('index.html');
+	assert.ok(!/fonts\.googleapis|fonts\.gstatic|use\.typekit/.test(home));
+	assert.match(home, /rel="preload" href="\/fonts\/newsreader-latin-wght-normal\.woff2"/);
+	assert.ok(existsSync(dist('fonts/newsreader-latin-wght-normal.woff2')));
+	assert.match(home, /Free speech\. Nothing here is censored\. AI help is labelled, the words are mine\./);
+	for (const img of home.match(/<img [^>]+>/g) || []) assert.match(img, /width="\d+"[^>]*height="\d+"|height="\d+"[^>]*width="\d+"/, img);
+	assert.ok(!/AI-written, human-supervised: not yet reviewed/.test(home), 'the long disclosure must not repeat on cards');
+	assert.ok(!/&amp;x27;|&x27;/.test(home));
+	assert.ok(!/>Untitled</.test(read('posts/index.html')));
+	assert.ok(!home.includes('google-site-verification'), 'empty verification slot emits nothing');
+	assert.equal(typeof config.verification.google, 'string');
+	assert.equal(typeof config.verification.bing, 'string');
+	for (const p of ['principles', 'de/principles', 'photos']) {
+		assert.ok(existsSync(dist(`${p}/index.html`)), p);
+		assert.ok(existsSync(dist(`${p}/index.md`)), `${p}/index.md`);
+	}
+	const css = (existsSync(dist('_astro')) ? readdirSync(dist('_astro')).filter((f) => f.endsWith('.css')).map((f) => read(`_astro/${f}`)).join('') : '') + [...home.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).join('');
+	const small = [...css.matchAll(/font-size:\s*(\d+(?:\.\d+)?)px/g)].filter((m) => Number(m[1]) < 17);
+	assert.deepEqual(small.map((m) => m[0]), [], 'no text below 17px');
+	assert.match(css, /--paper:\s*#faf7f0/i, 'bright paper background');
+});
+
+test('display cleanup: titles fall back to H1, entities decoded once, no URLs in excerpts, no dangling punctuation', async () => {
+	const { cleanTitle, cleanExcerpt, decodeEntities } = await import('../src/lib/text-clean.mjs');
+	assert.equal(decodeEntities('it&x27;s &amp;amp; ok'), "it's &amp; ok");
+	assert.equal(cleanTitle('Untitled', { fallback: 'Real title' }), 'Real title');
+	assert.equal(cleanTitle('From Dogs to AI:'), 'From Dogs to AI');
+	assert.equal(cleanTitle('Adam Collins - Omni A.M.'), 'Adam Collins - Omni A.M.');
+	assert.equal(cleanTitle('Why?'), 'Why?');
+	assert.ok(!/https?:/.test(cleanExcerpt('Watch it here: https://www.youtube.com/watch?v=abc', { body: 'Real words come from the body of the post here, plenty of them.' })));
+	for (const post of graph.posts) {
+		assert.ok(!/https?:\/\//.test(post.description), `${post.slug} excerpt has a URL`);
+		assert.ok(!/&(#x?[0-9a-f]+|x27|amp|quot);/i.test(post.title + post.description), `${post.slug} has an entity`);
+		assert.ok(!/^untitled$/i.test(post.title), post.slug);
+		assert.ok(!/[:;,]$/.test(post.title), `${post.slug} title ends with punctuation`);
+	}
 });
 
 test('feeds are well-formed', () => {
@@ -175,13 +309,19 @@ test('images in post HTML carry width and height (no layout shift)', () => {
 	assert.match(html, /<img[^>]+width="1200"[^>]+height="694"/);
 });
 
-test('import policy: mixed/unknown are noindex, ai_generated is labelled, guests credited', () => {
-	for (const post of graph.posts) {
-		if (['mixed', 'unknown'].includes(post.provenance)) assert.ok(post.noindex, `${post.file} must be noindex`);
+test('import policy: provenance is a visible label, never a gate; ai_generated is labelled, guests credited', () => {
+	for (const post of graph.posts.filter((p) => !p.file.startsWith('tests/'))) {
+		assert.equal(post.noindex, false, `${post.file}: provenance ${post.provenance} must not hide a post`);
 		if (post.provenance === 'ai_generated') assert.equal(post.author, 'ai-desk', post.file);
 	}
 	const ai = graph.posts.find((p) => p.provenance === 'ai_generated' && !p.reviewedByHuman && !p.noindex);
-	if (ai) assert.match(read(`${ai.path.slice(1)}/index.html`), /AI-written, human-supervised: not yet reviewed/);
+	if (ai) {
+		const html = read(`${ai.path.slice(1)}/index.html`);
+		assert.match(html, /class="badge ai"/);
+		assert.match(html, /AI-written, human-supervised: not yet reviewed/, 'full label stays on the post page and in schema');
+	}
+	const mixed = graph.posts.find((p) => p.provenance === 'mixed');
+	if (mixed) assert.match(read(`${mixed.path.slice(1)}/index.html`), /class="badge mixed"/);
 	const guest = graph.posts.find((p) => p.author === 'guest');
 	if (guest) {
 		const html = read(`${guest.path.slice(1)}/index.html`);

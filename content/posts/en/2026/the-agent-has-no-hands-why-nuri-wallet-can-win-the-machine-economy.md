@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-agent-has-no-hands-why-nuri-wallet-can-win-the-machine-economy-38876b2c2664"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-agent-has-no-hands-why-nuri-wallet-can-win-the-machine-economy/01-cc1d4ff4.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 7
   unobserved: 230
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-agent-has-no-hands-why-nuri-wallet-can-win-the-machine-economy-38876b2c2664"
 ---
 <https://www.youtube.com/watch?v=J3pegsM5drk>
 

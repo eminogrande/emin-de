@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/drugs-as-amplifiers-the-hidden-symphony-of-human-emotion-20e45efd0ee3"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/drugs-as-amplifiers-the-hidden-symphony-of-human-emotion/01-b7a4f990.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 6
   unobserved: 351
 emin_check_pct: null
+original_url: "https://medium.com/@em/drugs-as-amplifiers-the-hidden-symphony-of-human-emotion-20e45efd0ee3"
 ---
 ![](../../../media/drugs-as-amplifiers-the-hidden-symphony-of-human-emotion/01-b7a4f990.png)
 

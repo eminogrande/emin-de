@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/mein-vater-nurettin-sezer-und-die-arbeiter-die-in-stockholm-kino-machten-3e29e0dce91b"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/mein-vater-nurettin-sezer-und-die-arbeiter-die-in-stockholm-kino-machten/01-653aaa46.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 451
 emin_check_pct: null
+original_url: "https://medium.com/@em/mein-vater-nurettin-sezer-und-die-arbeiter-die-in-stockholm-kino-machten-3e29e0dce91b"
 ---
 ## Hasan Gül erinnert sich an Otobüs, Gül Hasan und den türkischen Filmkreis, der aus einer Schneiderei ein Produktionsbüro machte
 

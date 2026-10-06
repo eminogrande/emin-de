@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-uniswap-d157543258e7"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-u/01-d46f5586.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 20
   unobserved: 115
 emin_check_pct: null
+original_url: "https://medium.com/@em/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-uniswap-d157543258e7"
 ---
 ![](../../../media/liberland-blockchain-how-to-bridge-to-ethereum-and-buy-and-sell-lld-for-eth-on-u/01-d46f5586.jpeg)
 

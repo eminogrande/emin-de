@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/kuala-lumpur-photograph-interpreted-from-ai-lyrically-and-musically-6b74805afca6"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/kuala-lumpur-photograph-interpreted-from-ai-lyrically-and-musically/01-208e6f41.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 149
 emin_check_pct: null
+original_url: "https://medium.com/@em/kuala-lumpur-photograph-interpreted-from-ai-lyrically-and-musically-6b74805afca6"
 ---
 # Kuala Lumpur Photography Interpreted from AI lyrically and Musically (both the text and the music was created by AI based on the picture provided, without additional context)
 

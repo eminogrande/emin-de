@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-100001-neurobiological-theories-of-consciousness-a-practical-map/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/neurobiological-theories-of-consciousness-a-practical-map/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 227
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-100001-neurobiological-theories-of-consciousness-a-practical-map/"
 ---
 ## Overview
 

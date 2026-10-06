@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/from-domesticated-dogs-to-ai-companions-026c6ab07c78"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/from-domesticated-dogs-to-ai-companions/01-27fce93a.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 12
   unobserved: 182
 emin_check_pct: null
+original_url: "https://medium.com/@em/from-domesticated-dogs-to-ai-companions-026c6ab07c78"
 ---
 ## A Vision of Human Liberation and the Coming Incomprehensibility
 

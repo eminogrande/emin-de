@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-f%C3%BCr-mama-auf-deutsch-fdb16f4886b7"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-fuer-mama-auf-deutsch/01-812b10b4.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 127
 emin_check_pct: null
+original_url: "https://medium.com/@em/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-f%C3%BCr-mama-auf-deutsch-fdb16f4886b7"
 ---
 ![](../../../media/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-fuer-mama-auf-deutsch/01-812b10b4.webp)
 

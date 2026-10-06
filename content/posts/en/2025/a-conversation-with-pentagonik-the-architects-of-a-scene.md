@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/a-conversation-with-pentagonik-the-architects-of-a-scene-b93016162163"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/a-conversation-with-pentagonik-the-architects-of-a-scene/01-8bcfc770.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 107
 emin_check_pct: null
+original_url: "https://medium.com/@em/a-conversation-with-pentagonik-the-architects-of-a-scene-b93016162163"
 ---
 **In an exclusive chat, *proud* magazine sits down with Don and Kai, two of the visionary founders behind the Berlin-based Netlabel and event series, Pentagonik, to discuss their origins, philosophy, and the future of music.**
 

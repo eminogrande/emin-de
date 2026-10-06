@@ -15,6 +15,7 @@ import { isApiPathname, markdownNotFoundBody, notFoundProblem, tooManyRequestsPr
 import { handleMcp } from '../src/lib/mcp.mjs';
 import { handleCorpus } from '../src/lib/x402.mjs';
 import { handleArticlesApi } from '../src/lib/articles-api.mjs';
+import { redirectTarget } from '../src/lib/redirects.mjs';
 
 const RATE_LIMIT_MAX = 120;
 const RATE_LIMIT_WINDOW = 60;
@@ -111,6 +112,9 @@ export default {
 		}
 		pathname = pathname.replace(/\/+$/, '') || '/';
 		const accept = request.headers.get('accept');
+
+		const moved = redirectTarget(pathname, origin);
+		if (moved) return new Response(null, { status: 301, headers: baseHeaders({ contentType: 'text/plain; charset=utf-8', pathname, origin, extra: { location: moved, 'cache-control': 'public, max-age=86400' } }) });
 
 		if (pathname === '/robots.txt') {
 			return new Response(robotsBody(origin), { headers: baseHeaders({ contentType: 'text/plain; charset=utf-8', pathname, origin, extra: { 'access-control-allow-origin': '*' } }) });

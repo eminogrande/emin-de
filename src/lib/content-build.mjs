@@ -17,6 +17,7 @@ export const PROVENANCE = ['transcript', 'written', 'ai_generated', 'human', 'mi
 const BASICALLY_MAX = 140;
 
 import { renderHtml, preprocess } from './markdown.mjs';
+import { cleanTitle, cleanExcerpt, decodeEntities, firstHeading, bodyExcerpt, originLabel } from './text-clean.mjs';
 export { renderHtml };
 
 function walk(dir) {
@@ -82,9 +83,13 @@ function errorList(file, data, sections, rel) {
 	}
 	if (data.provenance === 'ai_generated' && author?.type !== 'ai_editorial') errors.push('provenance ai_generated requires an ai_editorial author');
 	if (author?.type === 'guest' && !data.original_author) errors.push('guest author requires original_author');
+	// emin.de is the original: a canonical, when given, must point at this origin.
+	// The first-published URL lives in original_url instead.
+	if (data.canonical && !String(data.canonical).startsWith(config.origin)) errors.push(`canonical must be on ${config.origin}; put the first-published URL in original_url`);
+	if (data.original_url && !/^https?:\/\//.test(data.original_url)) errors.push('original_url must be an absolute URL');
 	// Editorial contract (TL;DR + one Basically per section) applies to posts
 	// first published here. Imports with an external canonical keep their text as is.
-	if (!data.canonical && !data.noindex) {
+	if (!data.canonical && !data.original_url && !data.noindex) {
 		if (!Array.isArray(data.tldr) || data.tldr.length < 2 || data.tldr.length > 4) errors.push('tldr needs 2-4 items');
 		for (const section of sections.filter((s) => s.heading)) {
 			const line = data.basically?.[section.id];
@@ -109,6 +114,7 @@ export function postMarkdown(post) {
 	lines.push(
 		`${byline.join('. ')}. ${t(post.lang, 'published')} ${post.date}. ${t(post.lang, 'updated')} ${post.updated}.`,
 		`Canonical: ${post.canonical}`,
+		...(post.originalUrl ? [`First published: ${post.originalUrl} (${post.date})`] : []),
 		`Category: ${post.category}. Format: ${post.format}. Language: ${post.lang}.`,
 		`Provenance: ${post.provenance}. AI-assisted: ${post.aiAssisted}. Reviewed by a human: ${post.reviewedByHuman}.${post.thirdPartySummary ? ' Summary of third-party material.' : ''}`,
 		''
@@ -167,16 +173,27 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 			}
 			const slug = path.basename(file, '.md');
 			const day = (value) => String(value).slice(0, 10);
-			const noindexByPolicy = (config.indexing?.noindexProvenance || []).includes(data.provenance);
+			// Free speech: no provenance, topic or review gate. Only `draft: true`
+			// (skipped above) hides a post; `noindex: true` is honoured for the
+			// synthetic test fixtures and is rejected for real content by the tests.
+			const noindexByPolicy = false;
 			const toSitePath = (ref) => (ref ? String(ref).replace(/^(?:\.\.\/)+media\//, '/media/') : null);
 			const p = postPath(data.lang, slug);
+			// Display fixes, never touching the body: decode entities once, fall
+			// back to the first H1 for empty/"Untitled" titles, trim dangling
+			// punctuation, and keep URLs out of excerpts.
+			const fmtLabel = ({ photo: { en: 'Photo', de: 'Foto' }, video: { en: 'Video', de: 'Video' }, note: { en: 'Note', de: 'Notiz' } }[data.format] || {})[data.lang] || '';
+			const title = cleanTitle(data.title, { fallback: firstHeading(body), lang: data.lang, date: day(data.date), formatLabel: fmtLabel });
+			const description = cleanExcerpt(data.description, { body, title });
+			const originalUrl = data.original_url || null;
 			const post = {
 				id: `${data.lang}/${slug}`,
 				slug,
 				lang: data.lang,
-				title: data.title,
-				seoTitle: data.seo_title || null,
-				description: data.description,
+				title,
+				rawTitle: data.title,
+				seoTitle: data.seo_title ? decodeEntities(data.seo_title) : null,
+				description,
 				date: day(data.date),
 				updated: day(data.updated || data.date),
 				publishedAt: String(data.date),
@@ -187,13 +204,19 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				provenance: data.provenance,
 				aiAssisted: data.ai_assisted ?? 'unknown',
 				reviewedByHuman: data.reviewed_by_human,
+				reviewStatus: data.review_status || null,
+				voiceRewrite: data.voice_rewrite || null,
 				noindex: data.noindex === true || noindexByPolicy,
-				noindexReason: data.noindex === true ? 'front matter' : noindexByPolicy ? `provenance ${data.provenance} awaits human review` : null,
+				noindexReason: data.noindex === true ? 'front matter' : null,
 				originalAuthor: data.original_author || null,
 				thirdPartySummary: data.third_party_summary === true,
 				source: data.source || null,
-				externalCanonical: Boolean(data.canonical),
-				canonical: data.canonical || `${config.origin}${p}`,
+				// emin.de is the original for every post. The first-published URL
+				// is kept as provenance (JSON-LD sameAs/isBasedOn, "first published" line).
+				externalCanonical: false,
+				canonical: `${config.origin}${p}`,
+				originalUrl,
+				originalSite: originalUrl ? originLabel(originalUrl) : null,
 				tags: data.tags || [],
 				sourceLinks: data.source_links || [],
 				tldr: data.tldr || [],
@@ -207,6 +230,9 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				file: `${dir}/posts/${rel}`,
 				sections,
 			};
+			const lead = bodyExcerpt(body, 220).toLowerCase();
+			const dekProbe = description.replace(/(\.\.\.|…)$/, '').slice(0, 60).toLowerCase();
+			post.dekRepeatsBody = Boolean(dekProbe) && lead.includes(dekProbe.slice(0, 40));
 			post.html = sections.map((s) => ({ ...s, html: renderHtml(s.body, { sizes, srcsets }) }));
 			// The first image is the likely LCP element: load it eagerly.
 			const first = post.html.find((s) => s.html.includes('loading="lazy"'));

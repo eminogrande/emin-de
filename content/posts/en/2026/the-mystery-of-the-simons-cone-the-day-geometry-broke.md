@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-mystery-of-the-simons-cone-the-day-geometry-broke/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-mystery-of-the-simons-cone-the-day-geometry-broke/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 5
   unobserved: 101
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-mystery-of-the-simons-cone-the-day-geometry-broke/"
 ---
 In his landmark talk at MoMath, Jim Simons recounts one of the most
 thrilling breakthroughs in modern mathematics. It is the story of how

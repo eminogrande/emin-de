@@ -10,7 +10,6 @@ author: "guest"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/proud-magazine-berlin-editorial-23-0e197b2c23b6"
 source: "medium"
 third_party_summary: false
 original_author: "Yara Dib (unverified)"
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 4
   unobserved: 51
 emin_check_pct: null
+original_url: "https://medium.com/@em/proud-magazine-berlin-editorial-23-0e197b2c23b6"
 ---
 # proud magazine Berlin — Editorial #23
 

@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/theory-versus-reality-the-manipulation-of-the-masses-through-media-and-technology-e870c6e29d48"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 23
   unobserved: 1564
 emin_check_pct: null
+original_url: "https://medium.com/@em/theory-versus-reality-the-manipulation-of-the-masses-through-media-and-technology-e870c6e29d48"
 ---
 ## The work was created in 2005–2006 by Emin Mahrt.
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-medium-of-exchange-era-key-takeaways-from-lightning-berl/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-medium-of-exchange-era-key-takeaways-from-lightning-berlin-2025/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 156
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-medium-of-exchange-era-key-takeaways-from-lightning-berl/"
 ---
 ![](../../../media/the-medium-of-exchange-era-key-takeaways-from-lightning-berlin-2025/cover.jpg)
 

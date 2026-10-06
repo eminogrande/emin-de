@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/could-the-shape-of-randomness-help-explain-why-matter-won/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/could-the-shape-of-randomness-help-explain-why-matter-won/cover.svg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 54
   unobserved: 437
 emin_check_pct: null
+original_url: "https://emino.app/posts/could-the-shape-of-randomness-help-explain-why-matter-won/"
 ---
 <div>
 <div>

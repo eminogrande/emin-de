@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/die-unendliche-geschichte-des-universums/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/die-unendliche-geschichte-des-universums/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 5
   unobserved: 287
 emin_check_pct: null
+original_url: "https://emino.app/posts/die-unendliche-geschichte-des-universums/"
 ---
 ![](../../../media/die-unendliche-geschichte-des-universums/cover.jpg)
 

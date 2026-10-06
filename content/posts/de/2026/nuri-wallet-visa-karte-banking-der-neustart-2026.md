@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-wallet-visa-karte-banking-der-neustart-2026-9bce65657b4e"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/nuri-wallet-visa-karte-banking-der-neustart-2026/01-e435c3f1.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 16
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-wallet-visa-karte-banking-der-neustart-2026-9bce65657b4e"
 ---
 ![](../../../media/nuri-wallet-visa-karte-banking-der-neustart-2026/01-e435c3f1.jpeg)
 

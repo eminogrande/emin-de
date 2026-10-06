@@ -10,13 +10,13 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/bitcoin-2012-6b19cea8392f"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 1
   unobserved: 38
 emin_check_pct: null
+original_url: "https://medium.com/@em/bitcoin-2012-6b19cea8392f"
 ---
 **Julian**: es gibt internetbörsen die mit digitalen währungen handeln
 **Julian**: such mal nach bitcoins

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/bonding-curves-a-new-paradigm-for-token-launches-and-project-funding-in-2024-6ed2e62a9acc"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/bonding-curves-a-new-paradigm-for-token-launches-and-project-funding-in-2024/01-7dfb4ca4.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 81
 emin_check_pct: null
+original_url: "https://medium.com/@em/bonding-curves-a-new-paradigm-for-token-launches-and-project-funding-in-2024-6ed2e62a9acc"
 ---
 Based on a call from 2019, recording [https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt](https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt)
 

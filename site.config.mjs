@@ -17,10 +17,51 @@ export default {
 	definition:
 		'emin.de publishes long-form written work by Emin Mahrt on Bitcoin self-custody, payment rails, AI agents and the engineering behind them. Every post is plain Markdown in a public GitHub repository and is served as HTML, Markdown, JSON, feeds and through a public MCP server.',
 	tagline: 'Long-form engineering writing, built to be read by people and agents.',
+	// Home page headline per language (the big serif line under the masthead).
+	hero: {
+		en: 'Notes on Bitcoin, AI agents and building things.',
+		de: 'Notizen über Bitcoin, KI-Agenten und das Bauen von Dingen.',
+	},
+	// Theme rows on the home page: label per language + the categories they pull from.
+	themes: [
+		{ id: 'nuri-bitcoin', label: { en: 'Nuri & Bitcoin', de: 'Nuri & Bitcoin' }, categories: ['nuri', 'bitcoin', 'payments'] },
+		{ id: 'agents-ai', label: { en: 'Agents & AI', de: 'Agenten & KI' }, categories: ['agents-ai'] },
+		{ id: 'building', label: { en: 'Building', de: 'Bauen' }, categories: ['building'] },
+		{ id: 'science', label: { en: 'Science', de: 'Wissenschaft' }, categories: ['science'] },
+		{ id: 'culture', label: { en: 'Culture', de: 'Kultur' }, categories: ['culture', 'notes'] },
+	],
+
+	// Search-console ownership proofs. Empty = no meta tag is emitted.
+	verification: { google: '', bing: '' },
+
+	// Permanent redirects (301) served by the Worker and the Node origin.
+	// Keys are old paths on this host, values are paths or absolute URLs.
+	// Old emino.app slugs are added automatically from each post's original_url
+	// (see scripts/generate-content.mjs -> src/generated/redirects.json,
+	// public/_redirects and docs/REDIRECTS-emino-app.md).
+	redirects: {},
 
 	// Primary person/publisher. Must match an author id below with type "human".
 	owner: 'emin',
+	// Publisher identity, used on /about, /principles and in Person/Organization schema.
+	publisher: {
+		name: 'Emin Mahrt',
+		role: { en: 'Journalist and publisher', de: 'Journalist und Verleger' },
+		jobTitle: 'Journalist, publisher',
+		publication: {
+			name: 'proud magazine',
+			// proud.de 302-redirects to the magazine archive on Issuu (checked 2026-10-06).
+			url: 'https://proud.de',
+			archive: 'https://issuu.com/proud',
+			note: {
+				en: 'Berlin print magazine, archived in the German National Library.',
+				de: 'Berliner Printmagazin, archiviert in der Deutschen Nationalbibliothek.',
+			},
+		},
+	},
 	knowsAbout: [
+		'journalism and publishing',
+		'independent magazines',
 		'Bitcoin self-custody',
 		'passkeys and WebAuthn PRF',
 		'MuSig2 co-signing',
@@ -48,8 +89,8 @@ export default {
 			type: 'human',
 			name: 'Emin Mahrt',
 			url: '/about',
-			jobTitle: 'Engineer and writer',
-			sameAs: ['https://github.com/eminogrande', 'https://x.com/eminogrande', 'https://www.linkedin.com/in/eminmahrt'],
+			jobTitle: 'Journalist, publisher',
+			sameAs: ['https://github.com/eminogrande', 'https://www.linkedin.com/in/eminmahrt', 'https://x.com/eminogrande', 'https://medium.com/@em', 'https://emin.substack.com', 'https://proud.de'],
 		},
 		'ai-desk': {
 			type: 'ai_editorial',
@@ -93,10 +134,18 @@ export default {
 		photo: { en: 'Photo posts', de: 'Fotobeiträge' },
 	},
 
-	// Indexing policy, applied at build without touching the post files.
-	// Posts whose provenance is listed here render with noindex and stay out of
-	// sitemap, feeds, llms.txt and the API until a human reviews them.
-	indexing: { noindexProvenance: ['mixed', 'unknown'] },
+	// CORE PRINCIPLE: free speech. Nothing is hidden for its topic, its words or
+	// a pending review. Every post is indexable and in the sitemap. Provenance
+	// (human / mixed / AI-written) is a visible label, never a gate. The only
+	// way to hide a post is `draft: true`, written by the author himself.
+	// tests/engine.test.mjs fails the build if any content post is noindex.
+	principles: {
+		freeSpeech: true,
+		footer: {
+			en: 'Free speech. Nothing here is censored. AI help is labelled, the words are mine.',
+			de: 'Freie Rede. Hier wird nichts zensiert. KI-Hilfe ist gekennzeichnet, die Worte sind meine.',
+		},
+	},
 
 	social: {
 		github: 'eminogrande',

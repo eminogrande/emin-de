@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/dar-es-salaam-tanzania-59d7f1fe5d6b"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/dar-es-salaam-tanzania/01-221ca737.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 8
   unobserved: 142
 emin_check_pct: null
+original_url: "https://medium.com/@em/dar-es-salaam-tanzania-59d7f1fe5d6b"
 ---
 ![](../../../media/dar-es-salaam-tanzania/01-221ca737.jpeg)
 

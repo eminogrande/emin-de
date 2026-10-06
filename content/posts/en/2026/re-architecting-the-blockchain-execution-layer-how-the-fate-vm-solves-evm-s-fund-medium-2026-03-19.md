@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/re-architecting-the-blockchain-execution-layer-how-the-fate-vm-solves-evms-fundamental-flaws-ddcb8f74b251"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/re-architecting-the-blockchain-execution-layer-how-the-fate-vm-solves-evm-s-fund-medium-2026-03-19/01-eec7f941.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 205
 emin_check_pct: null
+original_url: "https://medium.com/@em/re-architecting-the-blockchain-execution-layer-how-the-fate-vm-solves-evms-fundamental-flaws-ddcb8f74b251"
 ---
 If you read this article and feel interested in working with me, Emin Mahrt, on similar amazing things, please feel free to contact me via emin@nuri.com — the following article is based our past work, re-architecting Ethereums EVM. I was just a spectator, but it was one of the most interesting things in the past years to follow, and listen to, so i thought its a nice thing to share it here for others.
 

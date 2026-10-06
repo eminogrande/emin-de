@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/how-email-to-blog-publishing-works-on-emino-app/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/how-email-to-blog-publishing-works-on-emino-app/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 96
 emin_check_pct: null
+original_url: "https://emino.app/posts/how-email-to-blog-publishing-works-on-emino-app/"
 ---
 This is the full, technical path from an email sent to post@emino.app to a
 published post, including DNS/TLS, SMTP/IMAP, filtering/

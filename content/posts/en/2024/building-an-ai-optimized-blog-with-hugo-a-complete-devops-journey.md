@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/building-ai-optimized-blog-complete-guide/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/building-an-ai-optimized-blog-with-hugo-a-complete-devops-journey/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 238
 emin_check_pct: null
+original_url: "https://emino.app/posts/building-ai-optimized-blog-complete-guide/"
 ---
 ![](../../../media/building-an-ai-optimized-blog-with-hugo-a-complete-devops-journey/cover.jpg)
 

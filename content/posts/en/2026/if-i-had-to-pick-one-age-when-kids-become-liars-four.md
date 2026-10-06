@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/if-i-had-to-pick-one-age-when-kids-become-liars-four/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/if-i-had-to-pick-one-age-when-kids-become-liars-four/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 30
   unobserved: 323
 emin_check_pct: null
+original_url: "https://emino.app/posts/if-i-had-to-pick-one-age-when-kids-become-liars-four/"
 ---
 ---
 title: "If I Had to Pick One Age When Kids Become Liars: Four"

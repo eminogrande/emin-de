@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-spark-toward-humans/IMG_7971.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 26
   unobserved: 564
 emin_check_pct: null
+original_url: "https://emino.app/posts/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-/"
 ---
 <p></p>
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-100002-electromagnetic-field-theories-of-consciousness/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/electromagnetic-field-theories-of-consciousness/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 11
   unobserved: 202
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-100002-electromagnetic-field-theories-of-consciousness/"
 ---
 # Consciousness: Electromagnetic & Brainwave Approaches
 

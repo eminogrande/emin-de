@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/divine-principle-theology-and-controversies-of-the-unificati/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/divine-principle-theology-and-controversies-of-the-unification-church/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 18
 emin_check_pct: null
+original_url: "https://emino.app/posts/divine-principle-theology-and-controversies-of-the-unificati/"
 ---
 ![](../../../media/divine-principle-theology-and-controversies-of-the-unification-church/cover.jpg)
 

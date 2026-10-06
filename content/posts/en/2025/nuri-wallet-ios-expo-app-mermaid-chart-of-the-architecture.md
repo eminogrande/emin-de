@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/nuri-wallet-ios-expo-app-mermaid-chart-of-the-architecture/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/nuri-wallet-ios-expo-app-mermaid-chart-of-the-architecture/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 83
 emin_check_pct: null
+original_url: "https://emino.app/posts/nuri-wallet-ios-expo-app-mermaid-chart-of-the-architecture/"
 ---
 Based on my analysis of the codebase, including the README.md and the main
 App.tsx file, I'll first provide a detailed explanation of the codebase.

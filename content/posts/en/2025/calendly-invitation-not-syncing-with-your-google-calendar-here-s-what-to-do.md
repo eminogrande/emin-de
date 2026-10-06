@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/calendly-invitation-not-syncing-with-your-google-calendar-heres-what-to-do-2ffce8920233"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/calendly-invitation-not-syncing-with-your-google-calendar-here-s-what-to-do/01-d0975700.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 59
 emin_check_pct: null
+original_url: "https://medium.com/@em/calendly-invitation-not-syncing-with-your-google-calendar-heres-what-to-do-2ffce8920233"
 ---
 If you’ve scheduled a meeting using someone’s Calendly link but the invitation is no longer automatically appearing on your Google Calendar, you’re not alone. This common issue can stem from a variety of causes, ranging from simple setting misconfigurations to recent changes in how Google handles third-party invitations. Here’s a comprehensive guide to troubleshoot and resolve the problem.
 

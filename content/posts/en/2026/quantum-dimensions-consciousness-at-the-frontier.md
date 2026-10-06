@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-011000-quantum-and-dimensions-consciousness-frontiers/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/quantum-dimensions-consciousness-at-the-frontier/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 226
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-011000-quantum-and-dimensions-consciousness-frontiers/"
 ---
 ## Overview
 

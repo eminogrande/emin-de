@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/not-your-keys-not-your-coins-the-passkey-edition-5cc0f79a00af"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/not-your-keys-not-your-coins-the-passkey-edition/01-05a18f2a.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 17
   unobserved: 110
 emin_check_pct: null
+original_url: "https://medium.com/@em/not-your-keys-not-your-coins-the-passkey-edition-5cc0f79a00af"
 ---
 Microsoft just killed the VeraCrypt developer’s signing certificate. No warning. No email. No human to talk to. One day he logs in — account terminated. The message says no appeal is possible.
 

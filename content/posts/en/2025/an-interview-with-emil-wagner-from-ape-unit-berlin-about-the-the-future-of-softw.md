@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/an-interview-with-emil-wagner-from-ape-unit-berlin-about-the-the-future-of-software-planning-with-fa20225e8fa1"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 25
   unobserved: 157
 emin_check_pct: null
+original_url: "https://medium.com/@em/an-interview-with-emil-wagner-from-ape-unit-berlin-about-the-the-future-of-software-planning-with-fa20225e8fa1"
 ---
 # An Interview with Emil Wagner from Ape Unit Berlin about the The Future of Software Planning with AI.
 

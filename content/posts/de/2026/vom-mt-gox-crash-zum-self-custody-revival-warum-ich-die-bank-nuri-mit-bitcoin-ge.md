@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/vom-mt-gox-crash-zum-self-custody-revival-warum-ich-die-bank-nuri-mit-bitcoin-gekauft-habe-7a0854976140"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 15
   unobserved: 181
 emin_check_pct: null
+original_url: "https://medium.com/@em/vom-mt-gox-crash-zum-self-custody-revival-warum-ich-die-bank-nuri-mit-bitcoin-gekauft-habe-7a0854976140"
 ---
 Mein Einstieg in Bitcoin war 2012 — noch vor der Ära der ASIC-Miner. Ein Freund, ein Google-Quant, der vierdimensionale Physik studierte, hatte Bitcoin entdeckt. Er war fest davon überzeugt, dass er dank seiner mathematischen Skills besser traden konnte als jeder Wall-Street-Banker. Er erzählte mir davon und meine allererste Reaktion war die typisch deutsche: *„Ist das legal?“* Ich ärgere mich heute noch, dass das meine erste Frage war.
 

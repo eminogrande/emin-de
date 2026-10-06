@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/creating-a-launchpad-for-ideas-with-bonded-curves-cefa09a039ee"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/creating-a-launchpad-for-ideas-with-bonded-curves/01-1b142546.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 81
 emin_check_pct: null
+original_url: "https://medium.com/@em/creating-a-launchpad-for-ideas-with-bonded-curves-cefa09a039ee"
 ---
 ![](../../../media/creating-a-launchpad-for-ideas-with-bonded-curves/01-1b142546.jpeg)
 

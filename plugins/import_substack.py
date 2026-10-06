@@ -89,7 +89,7 @@ def main():
             'ai_assisted: unknown  # TODO: true / false / unknown',
             'reviewed_by_human: true',
             f"canonical: {q(post['canonical_url'])}",
-            f"import_note: {q('Imported from Substack. Text unchanged except formatting; first published at the canonical URL.')}",
+            f"import_note: {q('Imported from Substack. Text unchanged except formatting; first published at original_url.')}",
         ]
         if videos:
             fm.append(f'video: {{ url: {q("https://www.youtube.com/watch?v=" + videos[0])} }}')

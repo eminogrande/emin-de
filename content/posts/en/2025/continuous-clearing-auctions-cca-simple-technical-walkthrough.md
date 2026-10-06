@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/continuous-clearing-auctions-cca-simple-technical-walkthroug/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/continuous-clearing-auctions-cca-simple-technical-walkthrough/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 162
 emin_check_pct: null
+original_url: "https://emino.app/posts/continuous-clearing-auctions-cca-simple-technical-walkthroug/"
 ---
 ![](../../../media/continuous-clearing-auctions-cca-simple-technical-walkthrough/cover.jpg)
 

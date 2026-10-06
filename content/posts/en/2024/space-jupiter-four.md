@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/space-jupiter-four-6713bfa3a097"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/space-jupiter-four/01-c5688754.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 61
 emin_check_pct: null
+original_url: "https://medium.com/@em/space-jupiter-four-6713bfa3a097"
 ---
 ![](../../../media/space-jupiter-four/01-c5688754.png)
 

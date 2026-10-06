@@ -8,6 +8,10 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync, statSy
 import path from 'node:path';
 import sharp from 'sharp';
 import { loadContent } from '../src/lib/content-build.mjs';
+import { buildRedirects, redirectsFile, redirectsDoc } from './lib/redirects.mjs';
+import { buildCovers } from './lib/covers.mjs';
+import { buildPhotos } from './lib/photos.mjs';
+import config from '../site.config.mjs';
 
 const MAX_ASSET_BYTES = 25 * 1024 * 1024; // Cloudflare Workers static asset limit per file
 const RASTER = /\.(png|jpe?g|webp)$/i;
@@ -64,6 +68,21 @@ if (problems.length) {
 	console.error(`Content check failed (${problems.length}):\n- ${problems.join('\n- ')}`);
 	process.exit(1);
 }
+// Covers for cards and lead stories (3:2 WebP crops, or a generated SVG).
+const coverStats = await buildCovers(posts, {
+	dirs: (process.env.CONTENT_DIRS || 'content').split(','),
+	labelFor: (post) => config.categories[post.category]?.[post.lang] || config.categories[post.category]?.en || post.category,
+});
+console.log(`covers: ${coverStats.raster} photo cover(s), ${coverStats.generated} generated typographic cover(s)`);
+const photoStats = await buildPhotos();
+console.log(`photos: ${photoStats.count} gallery photo(s), portrait ${photoStats.portrait ? 'present' : 'not present (fallback monogram)'}`);
+// Self-hosted display serif (Newsreader, OFL), copied from @fontsource: no
+// third-party font request.
+mkdirSync('public/fonts', { recursive: true });
+for (const style of ['normal', 'italic']) {
+	const from = `node_modules/@fontsource-variable/newsreader/files/newsreader-latin-wght-${style}.woff2`;
+	if (existsSync(from)) copyFileSync(from, `public/fonts/newsreader-latin-wght-${style}.woff2`);
+}
 // The site changelog stream also includes the repo CHANGELOG.md, verbatim.
 const changelog = existsSync('CHANGELOG.md') ? readFileSync('CHANGELOG.md', 'utf-8') : '';
 mkdirSync('src/generated', { recursive: true });
@@ -72,5 +91,12 @@ writeFileSync('src/generated/content.json', JSON.stringify({ generatedFrom: proc
 // section copies. Indexable posts only; noindex posts are not served by the API.
 const slim = posts.filter((p) => !p.noindex).map(({ html, sections, ...rest }) => ({ ...rest, sections: sections.map((s) => ({ heading: s.heading, body: '' })) }));
 writeFileSync('src/generated/api.json', JSON.stringify({ posts: slim }));
+// Redirects: config.redirects + old emino.app slugs -> emin.de. One JSON for
+// the Worker and the Node origin, a _redirects table, and a doc for emino.app.
+const redirects = buildRedirects(posts, config);
+writeFileSync('src/generated/redirects.json', JSON.stringify(redirects.map));
+writeFileSync('public/_redirects', redirectsFile(redirects.map));
+mkdirSync('docs', { recursive: true });
+if (!(process.env.CONTENT_DIRS || 'content').includes('tests/fixtures')) writeFileSync('docs/REDIRECTS-emino-app.md', redirectsDoc(redirects, config));
 const idx = posts.filter((p) => !p.noindex);
-console.log(`content: ${posts.length} post(s), ${idx.length} indexable, ${posts.length - idx.length} noindex, ${Object.keys(sizes).length} sized image(s) -> src/generated/content.json`);
+console.log(`content: ${posts.length} post(s), ${idx.length} indexable, ${posts.length - idx.length} noindex, ${Object.keys(sizes).length} sized image(s), ${Object.keys(redirects.map).length} redirect(s) -> src/generated/content.json`);

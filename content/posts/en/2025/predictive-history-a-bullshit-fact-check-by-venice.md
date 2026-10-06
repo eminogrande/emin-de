@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/predictive-history-a-bullshit-fact-check-by-venice-4d5165d9c962"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/predictive-history-a-bullshit-fact-check-by-venice/01-9f4a45d1.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 371
 emin_check_pct: null
+original_url: "https://medium.com/@em/predictive-history-a-bullshit-fact-check-by-venice-4d5165d9c962"
 ---
 ![](../../../media/predictive-history-a-bullshit-fact-check-by-venice/01-9f4a45d1.png)
 *[https://www.youtube.com/@PredictiveHistory/videos](https://www.youtube.com/@PredictiveHistory/videos)*

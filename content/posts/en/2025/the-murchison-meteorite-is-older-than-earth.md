@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/this-space-rock-is-older-than-earth-and-you-can-own-a-piece-%EF%B8%8F-af0b0f74fc6f"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-murchison-meteorite-is-older-than-earth/01-e2a3b611.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 206
 emin_check_pct: null
+original_url: "https://medium.com/@em/this-space-rock-is-older-than-earth-and-you-can-own-a-piece-%EF%B8%8F-af0b0f74fc6f"
 ---
 *Unveiling the secrets of the Murchison meteorite*
 

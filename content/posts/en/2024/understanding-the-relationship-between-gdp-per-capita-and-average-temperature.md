@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/understanding-the-relationship-between-gdp-per-capita-and-average-temperature-ef613553099c"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/understanding-the-relationship-between-gdp-per-capita-and-average-temperature/01-7c26c237.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 144
 emin_check_pct: null
+original_url: "https://medium.com/@em/understanding-the-relationship-between-gdp-per-capita-and-average-temperature-ef613553099c"
 ---
 The graph above illustrates an intriguing relationship between GDP per capita and the average temperature across various countries. It highlights a notable trend: as the average temperature increases, the GDP per capita tends to decrease. Let's delve into this correlation and explore the potential reasons behind it.
 

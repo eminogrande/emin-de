@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-future-of-music-how-ai-blockchain-and-the-internet-are-revolutionizing-the-industry-6bd0b0c970d0"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-future-of-music-how-ai-blockchain-and-the-internet-are-revolutionizing-the-i/01-e9523d5c.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 100
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-future-of-music-how-ai-blockchain-and-the-internet-are-revolutionizing-the-industry-6bd0b0c970d0"
 ---
 The music industry is undergoing a profound transformation driven by AI, blockchain, and the internet. These technologies are challenging the dominance of big labels and dismantling the unfair advantages held by those with money and fame. They are democratizing the artistic space, making artists more independent than ever before.
 

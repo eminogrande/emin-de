@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/no-true-beginning-and-infinite-regression/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/no-true-beginning-and-infinite-regression/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 13
   unobserved: 240
 emin_check_pct: null
+original_url: "https://emino.app/posts/no-true-beginning-and-infinite-regression/"
 ---
 ![](../../../media/no-true-beginning-and-infinite-regression/cover.jpg)
 

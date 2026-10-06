@@ -10,7 +10,6 @@ author: "emin"
 provenance: "unknown"
 ai_assisted: null
 reviewed_by_human: false
-canonical: "https://emino.app/posts//"
 source: "emino.app"
 third_party_summary: false
 original_title: ""
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 0
   unobserved: 87
 emin_check_pct: null
+original_url: "https://emino.app/posts//"
 ---
 ---
 id: chart_1756354351463_48ybl32fi

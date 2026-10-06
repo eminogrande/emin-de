@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/what-time-is-it-its-moscow-time-or-how-much-bitcoin-you-can-buy-with-1-us-dollar-1d33f94324b5"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/what-time-is-it-it-s-moscow-time-or-how-much-bitcoin-you-can-buy-with-1-us-dolla/01-91c783b4.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 32
 emin_check_pct: null
+original_url: "https://medium.com/@em/what-time-is-it-its-moscow-time-or-how-much-bitcoin-you-can-buy-with-1-us-dollar-1d33f94324b5"
 ---
 # **oWhat time is it? It’s Moscow time. Or, how much Bitcoin you can buy with 1 US dollar**
 

@@ -21,6 +21,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SITE_ORIGIN, absoluteUrl } from './src/lib/site.mjs';
 import { baseHeaders, CONTENT_SIGNAL, contentTypeFor, DISCOVERY_LINK_HEADER, getOrigin, robotsBody } from './src/lib/http-headers.mjs';
+import { redirectTarget } from './src/lib/redirects.mjs';
 import { badRequestProblem, isApiPathname, markdownNotFoundBody, notFoundProblem, tooManyRequestsProblem } from './src/lib/problem-json.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -274,6 +275,12 @@ const server = http.createServer(async (request, response) => {
 
 		if (pathname === '/health' && ['GET', 'HEAD'].includes(request.method)) {
 			sendBody(request, response, 200, { contentType: 'application/json; charset=utf-8', pathname, origin }, JSON.stringify({ ok: true, commit: GIT_SHA }));
+			return;
+		}
+
+		const moved = ['GET', 'HEAD'].includes(request.method) && redirectTarget(pathname, origin);
+		if (moved) {
+			sendBody(request, response, 301, { contentType: 'text/plain; charset=utf-8', pathname, origin, extra: { location: moved, 'cache-control': 'public, max-age=86400' } }, `Moved to ${moved}\n`);
 			return;
 		}
 

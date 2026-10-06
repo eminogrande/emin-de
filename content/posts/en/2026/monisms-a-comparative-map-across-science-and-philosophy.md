@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-20-235500-monisms-a-comparative-map-across-science-and-philosophy/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/monisms-a-comparative-map-across-science-and-philosophy/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 4
   unobserved: 373
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-20-235500-monisms-a-comparative-map-across-science-and-philosophy/"
 ---
 ## Overview
 

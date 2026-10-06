@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/radical-georgism/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/radical-georgism/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 4
   unobserved: 316
 emin_check_pct: null
+original_url: "https://emino.app/posts/radical-georgism/"
 ---
 ![](../../../media/radical-georgism/cover.jpg)
 

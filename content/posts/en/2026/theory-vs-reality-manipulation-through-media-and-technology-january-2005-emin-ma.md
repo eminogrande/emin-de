@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/theory-vs-reality-manipulation-through-media-and-technology-78b823a7de81"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/theory-vs-reality-manipulation-through-media-and-technology-january-2005-emin-ma/01-834264f3.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 6
   unobserved: 289
 emin_check_pct: null
+original_url: "https://medium.com/@em/theory-vs-reality-manipulation-through-media-and-technology-78b823a7de81"
 ---
 ## TL;DR
 

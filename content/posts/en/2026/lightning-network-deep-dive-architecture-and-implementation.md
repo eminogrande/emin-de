@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/lightning-network-deep-dive-architecture-and-implementation/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/lightning-network-deep-dive-architecture-and-implementation/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 92
 emin_check_pct: null
+original_url: "https://emino.app/posts/lightning-network-deep-dive-architecture-and-implementation/"
 ---
 Speaker: Laolu "Roasbeef" Osuntokun
 

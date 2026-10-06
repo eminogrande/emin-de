@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://emino.app/posts/passing-facebooks-technical-interview-2017/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/passing-facebooks-technical-interview-2017/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 3
 emin_check_pct: null
+original_url: "https://emino.app/posts/passing-facebooks-technical-interview-2017/"
 ---
 ![IMG 4464.PNG](../../../media/passing-facebooks-technical-interview-2017/IMG_4464.PNG)
 

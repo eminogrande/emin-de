@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/building-with-hugo-2025/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/building-lightning-fast-static-sites-with-hugo-in-2025/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 47
 emin_check_pct: null
+original_url: "https://emino.app/posts/building-with-hugo-2025/"
 ---
 ![](../../../media/building-lightning-fast-static-sites-with-hugo-in-2025/cover.jpg)
 

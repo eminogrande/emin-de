@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/passkey-wallet-bitcoin-iban-and-visa-without-an-account-5cd1c9a68a68"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 11
   unobserved: 51
 emin_check_pct: null
+original_url: "https://medium.com/@em/passkey-wallet-bitcoin-iban-and-visa-without-an-account-5cd1c9a68a68"
 ---
 How Nuri turns a single passkey into a self-custodial wallet for people, businesses and AI agents
 

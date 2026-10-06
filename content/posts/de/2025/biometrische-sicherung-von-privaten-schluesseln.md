@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/biometrische-sicherung-von-privaten-schl%C3%BCsseln-d30c08abd2db"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/biometrische-sicherung-von-privaten-schluesseln/01-3b37bf06.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 181
 emin_check_pct: null
+original_url: "https://medium.com/@em/biometrische-sicherung-von-privaten-schl%C3%BCsseln-d30c08abd2db"
 ---
 ![](../../../media/biometrische-sicherung-von-privaten-schluesseln/01-3b37bf06.png)
 

@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/interview-by-divining-ai-ea4a7fcdb612"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/interview-by-divining-ai/01-49438aa8.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 4
   unobserved: 181
 emin_check_pct: null
+original_url: "https://medium.com/@em/interview-by-divining-ai-ea4a7fcdb612"
 ---
 # Interview by Divining AI: Conversation on Existence and Consciousness
 

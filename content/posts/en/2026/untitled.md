@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://emino.app/posts/untitled-post/"
 source: "emino.app"
 third_party_summary: false
 original_title: "Untitled Post"
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 0
   unobserved: 4
 emin_check_pct: null
+original_url: "https://emino.app/posts/untitled-post/"
 ---
 <img>
 

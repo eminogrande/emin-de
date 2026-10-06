@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/stateless-bitcoin-multisig-divergent-key-derivation-strategi/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/stateless-bitcoin-multisig-divergent-key-derivation-strategies/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 128
 emin_check_pct: null
+original_url: "https://emino.app/posts/stateless-bitcoin-multisig-divergent-key-derivation-strategi/"
 ---
 ![](../../../media/stateless-bitcoin-multisig-divergent-key-derivation-strategies/cover.jpg)
 

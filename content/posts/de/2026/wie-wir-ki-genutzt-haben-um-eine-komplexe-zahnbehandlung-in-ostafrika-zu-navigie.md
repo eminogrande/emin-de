@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/wie-wir-ki-genutzt-haben-um-eine-komplexe-zahnbehandlung-in-ostafrika-zu-navigieren-6f1038c098c3"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/wie-wir-ki-genutzt-haben-um-eine-komplexe-zahnbehandlung-in-ostafrika-zu-navigie/01-9d87c64d.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 25
   unobserved: 442
 emin_check_pct: null
+original_url: "https://medium.com/@em/wie-wir-ki-genutzt-haben-um-eine-komplexe-zahnbehandlung-in-ostafrika-zu-navigieren-6f1038c098c3"
 ---
 # Wie wir KI genutzt haben, um eine komplexe Zahnbehandlung in Ostafrika zu navigieren — CBCT-Analyse, Ärzte-Recherche und eine fundierte Entscheidung vor der Zahnspange
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/jim-simons-my-life-in-mathematics-finance-and-philanthropy/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/jim-simons-my-life-in-mathematics-finance-and-philanthropy/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 136
 emin_check_pct: null
+original_url: "https://emino.app/posts/jim-simons-my-life-in-mathematics-finance-and-philanthropy/"
 ---
 # Jim Simons: My Life in Mathematics, Finance, and Philanthropy
 **Summary of the talk at the National Museum of Mathematics (MoMath)**

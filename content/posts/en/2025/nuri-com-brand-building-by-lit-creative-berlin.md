@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-com-brand-building-by-lit-creative-berlin-1353c0ff2abb"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/nuri-com-brand-building-by-lit-creative-berlin/01-45ea3545.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 32
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-com-brand-building-by-lit-creative-berlin-1353c0ff2abb"
 ---
 Here are the key takeaways from the video about the Nuri branding process:
 

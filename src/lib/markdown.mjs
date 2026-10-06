@@ -53,6 +53,27 @@ function rehypeMedia(sizes, srcsets) {
 	};
 }
 
+// A paragraph that is only a bare video URL becomes a labelled video link.
+// The href is unchanged; only the visible text stops being a raw URL.
+function rehypeVideoCards() {
+	return (tree) => {
+		visit(tree, 'element', (node) => {
+			if (node.tagName !== 'p') return;
+			const kids = node.children.filter((c) => !(c.type === 'text' && !c.value.trim()));
+			if (kids.length !== 1 || kids[0].tagName !== 'a') return;
+			const a = kids[0];
+			const href = String(a.properties?.href || '');
+			const text = a.children.map((c) => c.value || '').join('').trim();
+			if (text !== href) return;
+			const site = /youtu\.?be/.test(href) ? 'YouTube' : /vimeo\.com/.test(href) ? 'Vimeo' : null;
+			if (!site) return;
+			a.properties.className = ['video-card'];
+			a.children = [{ type: 'text', value: `Watch the video on ${site}` }];
+			a.properties.title = href;
+		});
+	};
+}
+
 function rehypeDemote() {
 	return (tree) => {
 		let hasH1 = false;
@@ -74,6 +95,7 @@ export function renderHtml(markdown, { sizes, srcsets } = {}) {
 		.use(rehypeRaw)
 		.use(rehypeSanitize, schema)
 		.use(rehypeDemote)
+		.use(rehypeVideoCards)
 		.use(rehypeMedia(sizes, srcsets))
 		.use(rehypeStringify);
 	return String(pipeline.processSync(preprocess(markdown)));

@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/bypassing-einsteins-spooky-action-at-a-distance-with-the-tight-cloth-analogy-and-quantum-f3a49e3cbfad"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/bypassing-einstein-s-spooky-action-at-a-distance-with-the-tight-cloth-analogy-an/01-3301918f.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 122
 emin_check_pct: null
+original_url: "https://medium.com/@em/bypassing-einsteins-spooky-action-at-a-distance-with-the-tight-cloth-analogy-and-quantum-f3a49e3cbfad"
 ---
 # Bypassing Einstein’s “spooky action at a distance" with the “tight cloth” Analogy and Quantum Entanglement
 

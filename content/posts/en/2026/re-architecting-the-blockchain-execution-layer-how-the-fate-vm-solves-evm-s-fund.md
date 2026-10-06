@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/re-architecting-the-blockchain-execution-layer-how-the-fate-/"
 source: "emino.app"
 third_party_summary: false
 voice_check:
   em_dash: 1
   unobserved: 181
 emin_check_pct: null
+original_url: "https://emino.app/posts/re-architecting-the-blockchain-execution-layer-how-the-fate-/"
 ---
 <div>
 <div>

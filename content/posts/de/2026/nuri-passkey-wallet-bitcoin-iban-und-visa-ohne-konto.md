@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-passkey-wallet-bitcoin-iban-und-visa-ohne-konto-ac719483e2bb"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 9
   unobserved: 65
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-passkey-wallet-bitcoin-iban-und-visa-ohne-konto-ac719483e2bb"
 ---
 Wie Nuri aus einem Passkey eine selbstverwahrte Wallet für Menschen, Unternehmen und KI-Agenten macht
 

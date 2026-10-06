@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/resident-advisor-exchange-an-interview-with-ricardo-villalob/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/resident-advisor-exchange-an-interview-with-ricardo-villalobos-2012/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 32
   unobserved: 423
 emin_check_pct: null
+original_url: "https://emino.app/posts/resident-advisor-exchange-an-interview-with-ricardo-villalob/"
 ---
 ![](../../../media/resident-advisor-exchange-an-interview-with-ricardo-villalobos-2012/cover.jpg)
 

@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/sport-als-hobby-6e4e489ba6bb"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/sport-als-hobby/01-ff1217f2.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 74
 emin_check_pct: null
+original_url: "https://medium.com/@em/sport-als-hobby-6e4e489ba6bb"
 ---
 ![](../../../media/sport-als-hobby/01-ff1217f2.png)
 

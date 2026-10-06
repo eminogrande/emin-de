@@ -9,6 +9,7 @@ import { SITE_NAME, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchem
 import { hreflangLinks } from '../lib/routes.mjs';
 import { DEFAULT_LANG, t, homePath, postsIndexPath, feedPath, join } from '../lib/paths.mjs';
 import { activeLangs } from '../lib/corpus.mjs';
+import { DISCLOSURE } from '../lib/magazine.mjs';
 
 const {
 	title,
@@ -23,6 +24,7 @@ const {
 	alternates,
 	canonical: canonicalOverride,
 	noindex = false,
+	layout = 'page',
 } = Astro.props;
 
 const canonical = canonicalOverride || absoluteUrl(path);
@@ -32,6 +34,17 @@ const year = new Date().getFullYear();
 const ph = config.analytics.posthog;
 const ga = config.analytics.ga4;
 const feedLang = activeLangs.includes(lang) ? lang : DEFAULT_LANG;
+const de = lang === 'de';
+const verify = config.verification || {};
+const principleLine = config.principles?.footer?.[lang] || config.principles?.footer?.en;
+const here = Astro.url.pathname.replace(/\/$/, '') || '/';
+const navItems = [
+	{ href: homePath(lang), text: de ? 'Start' : 'Home', cls: 'nav-home' },
+	{ href: postsIndexPath(lang), text: t(lang, 'posts') },
+	{ href: '/photos', text: de ? 'Fotos' : 'Photos' },
+	{ href: '/about', text: de ? 'Über mich' : 'About' },
+	{ href: de ? '/de/principles' : '/principles', text: de ? 'Grundsätze' : 'Principles' },
+];
 // PostHog snippet below runs cookieless_mode "always": no cookies, no
 // local/session storage, so no consent banner is needed for it. GA4 only
 // loads after an explicit opt-in stored by the /privacy consent switch.
@@ -43,6 +56,11 @@ const feedLang = activeLangs.includes(lang) ? lang : DEFAULT_LANG;
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<link rel="preload" href="/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+		<meta name="theme-color" content="#faf7f0" />
+		<meta name="color-scheme" content="light" />
+		{verify.google && <meta name="google-site-verification" content={verify.google} />}
+		{verify.bing && <meta name="msvalidate.01" content={verify.bing} />}
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
@@ -100,48 +118,51 @@ const feedLang = activeLangs.includes(lang) ? lang : DEFAULT_LANG;
 		)}
 	</head>
 	<body>
-		<a class="skip" href="#main">{lang === 'de' ? 'Zum Inhalt springen' : 'Skip to content'}</a>
-		<header class="site-head">
-			<a class="brand" href={homePath(lang)}>{SITE_NAME}</a>
-			<nav aria-label="Main">
-				<a href={postsIndexPath(lang)}>{t(lang, 'posts')}</a>
-				<a href={join(lang, '/archive')}>{t(lang, 'archive')}</a>
-				<a href="/talks">Talks</a>
-				<a href="/agent-ready">Agent ready</a>
-				<a href="/about">About</a>
-				{activeLangs.filter((l) => l !== lang).map((l) => <a href={homePath(l)} hreflang={l} lang={l}>{l.toUpperCase()}</a>)}
-			</nav>
+		<a class="skip" href="#main">{de ? 'Zum Inhalt springen' : 'Skip to content'}</a>
+		<header class="masthead">
+			<div class="wrap">
+				<a class="wordmark" href={homePath(lang)}>emin<span>.</span>de</a>
+				<nav aria-label={de ? 'Hauptmenü' : 'Main'}>
+					{navItems.map((item) => <a class={item.cls} href={item.href} aria-current={here === item.href ? 'page' : undefined}>{item.text}</a>)}
+					{activeLangs.filter((l) => l !== lang).map((l) => <a href={homePath(l)} hreflang={l} lang={l} aria-label={l === 'de' ? 'Deutsch' : 'English'}>{l.toUpperCase()}</a>)}
+				</nav>
+			</div>
 		</header>
 
 		<main id="main">
-			<slot />
+			{layout === 'page' ? <div class="page wrap"><slot /></div> : layout === 'wide' ? <div class="page wide wrap"><slot /></div> : <slot />}
 		</main>
 
 		<footer class="site-foot">
-			<div>
-				<p class="foot-title">{SITE_NAME}</p>
-				<p>Written by {AUTHOR_NAME}. Every post is a Markdown file on <a href={config.repo}>GitHub</a>.</p>
+			<div class="wrap">
+				<div>
+					<p class="principle"><a href={de ? '/de/principles' : '/principles'}>{principleLine}</a></p>
+					<p>{DISCLOSURE[de ? 'de' : 'en']}</p>
+					<p>{de ? 'Geschrieben von' : 'Written by'} {AUTHOR_NAME}, {de ? 'Herausgeber von' : 'publisher of'} <a href={config.publisher.publication.url}>{config.publisher.publication.name}</a>. {de ? 'Jeder Beitrag ist eine Markdown-Datei auf' : 'Every post is a Markdown file on'} <a href={config.repo}>GitHub</a>.</p>
+				</div>
+				<div>
+					<p class="foot-title">{de ? 'Lesen' : 'Read'}</p>
+					<ul>
+						<li><a href={postsIndexPath(lang)}>{t(lang, 'allPosts')}</a></li>
+						<li><a href={join(lang, '/archive')}>{t(lang, 'archive')}</a></li>
+						<li><a href="/talks">{de ? 'Vorträge' : 'Talks'}</a></li>
+						<li><a href="/photos">{de ? 'Fotos' : 'Photos'}</a></li>
+						<li><a href={feedPath(feedLang, 'rss')}>RSS</a>, <a href={feedPath(feedLang, 'atom')}>Atom</a>, <a href={feedPath(feedLang, 'json')}>JSON Feed</a></li>
+					</ul>
+				</div>
+				<div>
+					<p class="foot-title">{de ? 'Seite' : 'Site'}</p>
+					<ul>
+						<li><a href="/about">{de ? 'Über mich' : 'About'}</a></li>
+						<li><a href={de ? '/de/principles' : '/principles'}>{de ? 'Grundsätze' : 'Principles'}</a></li>
+						<li><a href="/contact">{de ? 'Kontakt' : 'Contact'}</a></li>
+						<li><a href="/privacy">{de ? 'Datenschutz' : 'Privacy'}</a></li>
+						<li><a href="/developers">{de ? 'Für Entwickler und Agenten' : 'For developers and agents'}</a> (<a href="/llms.txt">llms.txt</a>)</li>
+						<li><a href="/changelog">Changelog</a></li>
+					</ul>
+				</div>
+				<p class="copy">{year} {AUTHOR_NAME}. {de ? 'Texte unter' : 'Text licensed'} {config.license.text}, {de ? 'Code unter' : 'code'} {config.license.code}.</p>
 			</div>
-			<div>
-				<p class="foot-title">For agents and developers</p>
-				<ul>
-					<li><a href="/llms.txt">llms.txt</a></li>
-					<li><a href="/llms-full.txt">llms-full.txt</a></li>
-					<li><a href={feedPath(feedLang, 'rss')}>RSS</a>, <a href={feedPath(feedLang, 'atom')}>Atom</a>, <a href={feedPath(feedLang, 'json')}>JSON Feed</a></li>
-					<li><a href="/developers">Developer docs</a></li>
-					<li><a href="/sitemap.xml">Sitemap</a></li>
-				</ul>
-			</div>
-			<div>
-				<p class="foot-title">Site</p>
-				<ul>
-					<li><a href="/about">About</a></li>
-					<li><a href="/changelog">Changelog</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/privacy">Privacy</a></li>
-				</ul>
-			</div>
-			<p class="copy">{year} {AUTHOR_NAME}. Text licensed {config.license.text}, code {config.license.code}.</p>
 		</footer>
 	</body>
 </html>

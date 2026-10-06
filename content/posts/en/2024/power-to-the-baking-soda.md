@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/power-to-the-baking-soda-185e71cd69c5"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/power-to-the-baking-soda/01-f0325655.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 197
 emin_check_pct: null
+original_url: "https://medium.com/@em/power-to-the-baking-soda-185e71cd69c5"
 ---
 # Baking Soda is Fascinating
 

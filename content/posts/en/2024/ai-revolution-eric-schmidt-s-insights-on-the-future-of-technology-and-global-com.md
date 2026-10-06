@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/ai-revolution-eric-schmidts-insights-on-the-future-of-technology-and-global-competition-2b0d434ed5f9"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/ai-revolution-eric-schmidt-s-insights-on-the-future-of-technology-and-global-com/01-bcc7e2ab.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 221
 emin_check_pct: null
+original_url: "https://medium.com/@em/ai-revolution-eric-schmidts-insights-on-the-future-of-technology-and-global-competition-2b0d434ed5f9"
 ---
 ![](../../../media/ai-revolution-eric-schmidt-s-insights-on-the-future-of-technology-and-global-com/01-bcc7e2ab.png)
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide-1360994f1053"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide/01-3da78167.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 140
 emin_check_pct: null
+original_url: "https://medium.com/@em/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide-1360994f1053"
 ---
 Building a Custom GPT with Domain-Specific Knowledge: A Comprehensive Guide
 

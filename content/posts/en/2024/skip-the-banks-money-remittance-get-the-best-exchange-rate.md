@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/skip-the-banks-money-remittance-get-the-best-exchange-rate-972f1ce0cebd"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/skip-the-banks-money-remittance-get-the-best-exchange-rate/01-b9518e2d.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 156
 emin_check_pct: null
+original_url: "https://medium.com/@em/skip-the-banks-money-remittance-get-the-best-exchange-rate-972f1ce0cebd"
 ---
 # Skip the Banks do Remittance and get the best Exchange Rate. **How to Send Money to Tanzania: Bank or Credit Card to Mobile Money (M-Pesa, Tigo Pesa, Airtel Money) and Cash Pickup in Every Village via Wakala Shops in Sub-Saharan Africa**
 

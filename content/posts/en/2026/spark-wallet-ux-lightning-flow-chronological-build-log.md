@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/spark-wallet-ux-lightning-flow-chronological-build-log/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/spark-wallet-ux-lightning-flow-chronological-build-log/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 8
   unobserved: 69
 emin_check_pct: null
+original_url: "https://emino.app/posts/spark-wallet-ux-lightning-flow-chronological-build-log/"
 ---
 ![](../../../media/spark-wallet-ux-lightning-flow-chronological-build-log/cover.jpg)
 

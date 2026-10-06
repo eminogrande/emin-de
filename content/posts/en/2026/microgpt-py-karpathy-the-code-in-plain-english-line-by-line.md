@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/microgpt-karpathy-line-by-line/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/microgpt-py-karpathy-the-code-in-plain-english-line-by-line/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 234
 emin_check_pct: null
+original_url: "https://emino.app/posts/microgpt-karpathy-line-by-line/"
 ---
 ![](../../../media/microgpt-py-karpathy-the-code-in-plain-english-line-by-line/cover.jpg)
 

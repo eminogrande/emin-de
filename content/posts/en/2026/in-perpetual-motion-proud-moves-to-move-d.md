@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/in-perpetual-motion-proud-moves-to-move-d-cf1971f53170"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 7
   unobserved: 270
 emin_check_pct: null
+original_url: "https://medium.com/@em/in-perpetual-motion-proud-moves-to-move-d-cf1971f53170"
 ---
 *Note: This interview was originally published in ****proud magazine Berlin**** (*[*www.proud.de*](http://www.proud.de)*) in ****2010****.*
 

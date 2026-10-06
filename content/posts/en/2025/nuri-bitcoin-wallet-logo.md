@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://emino.app/posts/nuri-bitcoin-wallet-logo/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/nuri-bitcoin-wallet-logo/cover.webp"
@@ -18,5 +17,6 @@ voice_check:
   em_dash: 0
   unobserved: 3
 emin_check_pct: null
+original_url: "https://emino.app/posts/nuri-bitcoin-wallet-logo/"
 ---
 ![nuri-logo](../../../media/nuri-bitcoin-wallet-logo/nuri-logo.png)

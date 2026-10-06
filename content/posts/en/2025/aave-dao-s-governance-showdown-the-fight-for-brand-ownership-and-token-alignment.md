@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/aave-dao-s-governance-showdown-the-fight-for-brand-ownership/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/aave-dao-s-governance-showdown-the-fight-for-brand-ownership-and-token-alignment/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 7
   unobserved: 203
 emin_check_pct: null
+original_url: "https://emino.app/posts/aave-dao-s-governance-showdown-the-fight-for-brand-ownership/"
 ---
 ![](../../../media/aave-dao-s-governance-showdown-the-fight-for-brand-ownership-and-token-alignment/cover.jpg)
 

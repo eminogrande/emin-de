@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/bridges-between-philosophy-and-physics/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/bridges-between-philosophy-and-physics/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 158
 emin_check_pct: null
+original_url: "https://emino.app/posts/bridges-between-philosophy-and-physics/"
 ---
 ![](../../../media/bridges-between-philosophy-and-physics/cover.jpg)
 

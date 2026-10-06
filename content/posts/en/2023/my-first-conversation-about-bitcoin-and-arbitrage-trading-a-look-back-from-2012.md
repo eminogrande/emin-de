@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012-to-2023-2cafe0d10c23"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012/01-66725897.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 105
 emin_check_pct: null
+original_url: "https://medium.com/@em/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012-to-2023-2cafe0d10c23"
 ---
 ![](../../../media/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012/01-66725897.jpeg)
 

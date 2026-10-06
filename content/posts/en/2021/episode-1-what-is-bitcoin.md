@@ -11,13 +11,13 @@ author: emin
 provenance: written
 ai_assisted: false
 reviewed_by_human: true
-canonical: "https://emin.substack.com/p/episode-1-what-is-bitcoin"
-import_note: "Imported from Substack. Text unchanged except formatting; first published at the canonical URL."
+import_note: "Imported from Substack. Text unchanged except formatting; first published at original_url."
 video: { url: "https://www.youtube.com/watch?v=IfyZReFeDNQ", title: "Crypto Explained #1: What is Bitcoin?", upload_date: 2021-07-15, duration: PT13M20S }
 tags: []
 source_links: []
 tldr: []
 basically: {}
+original_url: "https://emin.substack.com/p/episode-1-what-is-bitcoin"
 ---
 > You might ask, **why do I get this Newsletter**? In short: you and me (Emin Mahrt, [www.emin.de](http://www.emin.de)) have crossed paths in the past 10-15 years through one of my ventures. **Today I am starting a YouTube Channel about Crypto** and I wanted to share it with you. **If you don’t want to get further updates**, please **unsubscribe from this mailing list** at the bottom of this email.
 

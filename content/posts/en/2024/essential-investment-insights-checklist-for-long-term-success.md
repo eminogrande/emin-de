@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/essential-investment-insights-checklist-for-long-term-success-8e3e5badec1c"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 0
   unobserved: 149
 emin_check_pct: null
+original_url: "https://medium.com/@em/essential-investment-insights-checklist-for-long-term-success-8e3e5badec1c"
 ---
 1. Research-Based Decisions
 

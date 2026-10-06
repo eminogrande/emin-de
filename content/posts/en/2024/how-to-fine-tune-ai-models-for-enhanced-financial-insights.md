@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/how-to-fine-tune-ai-models-for-enhanced-financial-insights-c33ad5aadf6b"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 0
   unobserved: 146
 emin_check_pct: null
+original_url: "https://medium.com/@em/how-to-fine-tune-ai-models-for-enhanced-financial-insights-c33ad5aadf6b"
 ---
 with the help of [wordware.ai](http://wordware.ai) and multiple models.
 

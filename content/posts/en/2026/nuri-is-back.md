@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-is-back-5e0cc3a506ca"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/nuri-is-back/01-097732b6.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 11
   unobserved: 91
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-is-back-5e0cc3a506ca"
 ---
 *The Bitcoin Neobank returns — ****without the bank.***
 

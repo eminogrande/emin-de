@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/a-conversation-with-deerbln-inking-love-onto-the-streets-of-berlin-90de908ab71b"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/a-conversation-with-deerbln-inking-love-onto-the-streets-of-berlin/01-e52ee9e7.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 89
 emin_check_pct: null
+original_url: "https://medium.com/@em/a-conversation-with-deerbln-inking-love-onto-the-streets-of-berlin-90de908ab71b"
 ---
 # proudA Conversation with deerBLN: Inking Love onto the Streets of Berlin
 

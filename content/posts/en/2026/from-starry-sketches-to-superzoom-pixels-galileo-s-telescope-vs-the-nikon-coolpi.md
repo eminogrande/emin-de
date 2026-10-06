@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/from-starry-sketches-to-superzoom-pixels-galileo-vs-nikon-p1000/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/from-starry-sketches-to-superzoom-pixels-galileo-s-telescope-vs-the-nikon-coolpi/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 12
   unobserved: 199
 emin_check_pct: null
+original_url: "https://emino.app/posts/from-starry-sketches-to-superzoom-pixels-galileo-vs-nikon-p1000/"
 ---
 ![](../../../media/from-starry-sketches-to-superzoom-pixels-galileo-s-telescope-vs-the-nikon-coolpi/cover.jpg)
 

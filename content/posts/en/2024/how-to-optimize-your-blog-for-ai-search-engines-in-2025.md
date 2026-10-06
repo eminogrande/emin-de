@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/how-to-optimize-blog-for-ai-search/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/how-to-optimize-your-blog-for-ai-search-engines-in-2025/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 28
 emin_check_pct: null
+original_url: "https://emino.app/posts/how-to-optimize-blog-for-ai-search/"
 ---
 ![](../../../media/how-to-optimize-your-blog-for-ai-search-engines-in-2025/cover.jpg)
 

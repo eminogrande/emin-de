@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/improvmx-create-free-email-aliases-for-your-domain-name-2896da5ed89b"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/improvmx-create-free-email-aliases-for-your-domain-name/01-df42de39.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 16
 emin_check_pct: null
+original_url: "https://medium.com/@em/improvmx-create-free-email-aliases-for-your-domain-name-2896da5ed89b"
 ---
 ## Set Up Email Forwarding in Seconds and Start Receiving and Sending Emails with Your Domain Name. Absolutely Free. Rock-Solid Infrastructure. World-Class Support.
 

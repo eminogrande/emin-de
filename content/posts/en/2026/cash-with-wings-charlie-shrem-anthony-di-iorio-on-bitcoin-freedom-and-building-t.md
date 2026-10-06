@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/cash-with-wings-charlie-shrem-anthony-di-iorio-on-bitcoin-freedom-and-building-the-browser-e92dff34395b"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 28
   unobserved: 183
 emin_check_pct: null
+original_url: "https://medium.com/@em/cash-with-wings-charlie-shrem-anthony-di-iorio-on-bitcoin-freedom-and-building-the-browser-e92dff34395b"
 ---
 # Cash With Wings” — Charlie Shrem & Anthony Di Iorio on Bitcoin, Freedom, and Building the Browser for Value
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/code-is-law-vs-the-9-4m-rescue-the-gnosis-chain-hard-fork/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/code-is-law-vs-the-9-4m-rescue-the-gnosis-chain-hard-fork/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 153
 emin_check_pct: null
+original_url: "https://emino.app/posts/code-is-law-vs-the-9-4m-rescue-the-gnosis-chain-hard-fork/"
 ---
 ![](../../../media/code-is-law-vs-the-9-4m-rescue-the-gnosis-chain-hard-fork/cover.jpg)
 

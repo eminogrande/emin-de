@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/from-berlin-to-zanzibar-emin-mahrt-on-nightlife-community-and-why-not-club-d9addf4469f8"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 14
   unobserved: 137
 emin_check_pct: null
+original_url: "https://medium.com/@em/from-berlin-to-zanzibar-emin-mahrt-on-nightlife-community-and-why-not-club-d9addf4469f8"
 ---
 # From Berlin to Zanzibar: The Journey Behind Zanzibar’s Why Not Nightclub
 

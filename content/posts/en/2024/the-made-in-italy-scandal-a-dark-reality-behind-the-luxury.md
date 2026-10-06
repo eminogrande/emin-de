@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-made-in-italy-scandal-a-dark-reality-behind-the-luxury-405166bdfbd7"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-made-in-italy-scandal-a-dark-reality-behind-the-luxury/01-8b08f7ca.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 156
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-made-in-italy-scandal-a-dark-reality-behind-the-luxury-405166bdfbd7"
 ---
 ![](../../../media/the-made-in-italy-scandal-a-dark-reality-behind-the-luxury/01-8b08f7ca.jpeg)
 

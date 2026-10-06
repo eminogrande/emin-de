@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/theorie-contra-wirklichkeit-2026-e1f292c7ee5e"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 5
   unobserved: 652
 emin_check_pct: null
+original_url: "https://medium.com/@em/theorie-contra-wirklichkeit-2026-e1f292c7ee5e"
 ---
 ## Die Manipulation der Massen durch Medien, Algorithmen und künstliche Intelligenz
 

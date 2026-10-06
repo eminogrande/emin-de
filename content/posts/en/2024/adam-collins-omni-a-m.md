@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/adam-collins-omni-a-m-a09a7393b8fb"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/adam-collins-omni-a-m/01-8b511925.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 21
   unobserved: 207
 emin_check_pct: null
+original_url: "https://medium.com/@em/adam-collins-omni-a-m-a09a7393b8fb"
 ---
 # Adam Collins: A Unique Category in Electronic Music
 

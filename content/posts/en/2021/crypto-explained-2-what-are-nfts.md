@@ -11,13 +11,13 @@ author: emin
 provenance: written
 ai_assisted: false
 reviewed_by_human: true
-canonical: "https://emin.substack.com/p/crypto-explained-2-what-are-nfts"
-import_note: "Imported from Substack. Text unchanged except formatting; first published at the canonical URL."
+import_note: "Imported from Substack. Text unchanged except formatting; first published at original_url."
 video: { url: "https://www.youtube.com/watch?v=1Yq97VjoWxs", title: "Crypto Explained #2: What is a NFT?", upload_date: 2021-10-16, duration: PT9M30S }
 tags: []
 source_links: []
 tldr: []
 basically: {}
+original_url: "https://emin.substack.com/p/crypto-explained-2-what-are-nfts"
 ---
 **The letters NFT mean Non-Fungible Token.**
 

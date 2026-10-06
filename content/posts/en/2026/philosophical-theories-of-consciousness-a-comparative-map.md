@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-003500-philosophical-theories-of-consciousness-a-comparative-map/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/philosophical-theories-of-consciousness-a-comparative-map/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 347
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-003500-philosophical-theories-of-consciousness-a-comparative-map/"
 ---
 ## Overview
 

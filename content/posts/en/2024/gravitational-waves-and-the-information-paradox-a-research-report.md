@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/gravitational-waves-and-the-information-paradox-a-research-report-6cbb30c577f6"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/gravitational-waves-and-the-information-paradox-a-research-report/01-daee18a3.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 235
 emin_check_pct: null
+original_url: "https://medium.com/@em/gravitational-waves-and-the-information-paradox-a-research-report-6cbb30c577f6"
 ---
 # Gravitational Waves and the Black Hole Information Paradox: A Synthesis of Recent Findings
 

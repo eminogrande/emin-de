@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/mrbeasts-guide-to-success-in-youtube-production-888a1ed3a8f9"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/mrbeast-s-guide-to-success-in-youtube-production/01-557d67a5.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 145
 emin_check_pct: null
+original_url: "https://medium.com/@em/mrbeasts-guide-to-success-in-youtube-production-888a1ed3a8f9"
 ---
 ![](../../../media/mrbeast-s-guide-to-success-in-youtube-production/01-557d67a5.png)
 

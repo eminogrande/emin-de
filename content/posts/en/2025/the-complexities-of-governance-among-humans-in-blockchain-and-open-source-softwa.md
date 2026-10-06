@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-complexities-of-governance-among-humans-in-blockchain-and-open-source-software-development-faef01a467ef"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-complexities-of-governance-among-humans-in-blockchain-and-open-source-softwa/01-0d496ec8.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 43
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-complexities-of-governance-among-humans-in-blockchain-and-open-source-software-development-faef01a467ef"
 ---
 # The Complexities of Governance Among Humans, in Blockchain and Open Source Software Development
 

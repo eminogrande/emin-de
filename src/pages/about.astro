@@ -1,19 +1,37 @@
 ---
 import Base from '../layouts/Base.astro';
-import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT } from '../lib/site.mjs';
+import Portrait from '../components/Portrait.astro';
+import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT, SITE } from '../lib/site.mjs';
+import { DISCLOSURE } from '../lib/magazine.mjs';
+const pub = SITE.publisher;
 ---
 
 <Base
 	title="About Emin Mahrt | emin.de"
-	description="Emin Mahrt builds Bitcoin self-custody and agent-payment infrastructure in Berlin. This site is where the engineering behind it gets written down in full."
+	description="Emin Mahrt is a journalist, the publisher of proud magazine, and builds Bitcoin self-custody and agent-payment infrastructure. This is where he writes in full."
 	path="/about"
 	markdownPath="/about/index.md"
 >
-	<h1>About</h1>
-	<p class="lede">
-		{AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. This site is where the engineering
-		behind it gets written down properly, at a length that actually fits the subject.
+	<div class="about-top">
+		<div>
+			<p class="kicker">{pub.role.en}</p>
+			<h1>About</h1>
+			<p class="lede">
+				I'm {AUTHOR_NAME}. I am a journalist, the publisher of {pub.publication.name}, and I build Bitcoin self-custody and
+				agent-payment infrastructure. This site is where all of it gets written down properly, at a length that fits the subject.
+			</p>
+		</div>
+		<Portrait name={AUTHOR_NAME} eager />
+	</div>
+
+	<h2>Journalist and publisher</h2>
+	<p>
+		I published <a href={pub.publication.url}>{pub.publication.name}</a>, a Berlin print magazine archived in the German National
+		Library (<a href={pub.publication.archive}>read the archive</a>). The core rule of this site comes from that work:
+		<strong>free speech. Nothing here is censored. AI help is labelled, the words are mine.</strong>
+		The details are on the <a href="/principles">principles page</a>.
 	</p>
+	<p class="note">{DISCLOSURE.en}</p>
 
 	<h2>What I work on</h2>
 	<p>
@@ -47,8 +65,8 @@ import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT } from '../lib/site.mjs';
 	<h2>Who else writes here</h2>
 	<p>
 		Some short posts may come from the <a href="/author/ai-desk">AI desk</a>: an openly named AI writing desk, not a person.
-		Its posts are labelled "AI-written, human-supervised" on the page, in the Markdown mirror and in the structured data,
-		and I review them before they go live. It has no invented biography and no photo.
+		Its posts carry the AI-written badge on the page, in the Markdown mirror and in the structured data.
+		It has no invented biography and no photo.
 	</p>
 
 	<h2>Elsewhere</h2>

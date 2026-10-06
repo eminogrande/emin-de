@@ -1,10 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-import PostList from '../components/PostList.astro';
+import Home from '../components/Home.astro';
 import { postsIn } from '../lib/corpus.mjs';
 import { LIST_ROUTES } from '../lib/routes.mjs';
 import { listSchema } from '../lib/surfaces.mjs';
-import { SITE, SITE_DEFINITION, SITE_TAGLINE, AUTHOR_NAME } from '../lib/site.mjs';
+import { SITE, SITE_DEFINITION, SITE_TAGLINE } from '../lib/site.mjs';
 import { DEFAULT_LANG } from '../lib/paths.mjs';
 
 const lang = DEFAULT_LANG;
@@ -15,33 +15,14 @@ const alternates = homeAlternates.length ? [{ lang, path: '/' }, ...homeAlternat
 ---
 
 <Base
-	title={`${SITE.name} | ${SITE_TAGLINE}`}
+	title={`Emin Mahrt | ${SITE.name}: ${SITE_TAGLINE}`}
 	description={SITE_DEFINITION.slice(0, 158)}
 	path="/"
 	lang={lang}
 	markdownPath="/index.md"
 	structuredData={route ? listSchema({ ...route, posts: latest, path: '/' }) : []}
 	alternates={alternates}
+	layout="full"
 >
-	<h1>{SITE_TAGLINE}</h1>
-	<p class="lede">{SITE_DEFINITION}</p>
-
-	<h2>Latest posts</h2>
-	<PostList posts={latest} lang={lang} heading="h3" />
-	<p><a href="/posts">All posts</a> / <a href="/archive">Archive by year</a> / <a href="/talks">Talks and videos</a> / <a href="/changelog">Changelog</a></p>
-
-	<h2>For agents</h2>
-	<p>
-		Everything here is readable without JavaScript and every post is a Markdown file in a public repository.
-		Read <a href="/llms.txt">llms.txt</a> for the map, subscribe via <a href="/rss.xml">RSS</a>, fetch
-		<a href="/api/articles">/api/articles</a> as JSON, or connect an MCP client to <code>/mcp</code>.
-		The <a href="/developers">developer page</a> has copy-paste examples.
-	</p>
-
-	<h2>Who writes this</h2>
-	<p>
-		{AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. Some posts come from an openly
-		labelled AI desk that he supervises; those carry the label on the page and in the metadata.
-		More on the <a href="/about">about page</a>.
-	</p>
+	<Home lang={lang} />
 </Base>

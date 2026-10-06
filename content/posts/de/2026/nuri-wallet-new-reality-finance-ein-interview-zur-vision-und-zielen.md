@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-wallet-new-reality-finance-ein-interview-zur-vision-und-zielen-898d86b4d50c"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 3
   unobserved: 109
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-wallet-new-reality-finance-ein-interview-zur-vision-und-zielen-898d86b4d50c"
 ---
 Ein Interview mit mir selbst zum new Nuri
 

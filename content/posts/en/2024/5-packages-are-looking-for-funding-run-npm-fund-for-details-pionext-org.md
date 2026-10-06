@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/5-packages-are-looking-for-funding-run-npm-fund-for-details-pionext-org-1fb8a8d36b9e"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/5-packages-are-looking-for-funding-run-npm-fund-for-details-pionext-org/01-3ad92161.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 126
 emin_check_pct: null
+original_url: "https://medium.com/@em/5-packages-are-looking-for-funding-run-npm-fund-for-details-pionext-org-1fb8a8d36b9e"
 ---
 # 21 npm packages are looking for funding
  run `npm fund` for details — npm.fund is the pump.fun for funding npm packages

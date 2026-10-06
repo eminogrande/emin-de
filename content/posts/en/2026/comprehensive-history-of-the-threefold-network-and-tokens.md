@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/comprehensive-history-of-the-threefold-network-and-tokens/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/comprehensive-history-of-the-threefold-network-and-tokens/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 80
 emin_check_pct: null
+original_url: "https://emino.app/posts/comprehensive-history-of-the-threefold-network-and-tokens/"
 ---
 ![](../../../media/comprehensive-history-of-the-threefold-network-and-tokens/cover.jpg)
 

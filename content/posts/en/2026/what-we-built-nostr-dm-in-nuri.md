@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/what-we-built-nostr-dm-in-nuri/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/what-we-built-nostr-dm-in-nuri/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 101
 emin_check_pct: null
+original_url: "https://emino.app/posts/what-we-built-nostr-dm-in-nuri/"
 ---
 ![](../../../media/what-we-built-nostr-dm-in-nuri/cover.jpg)
 

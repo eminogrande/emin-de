@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-black-hole-information-7bc71adc283f"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-blac/01-e66defa3.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 116
 emin_check_pct: null
+original_url: "https://medium.com/@em/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-black-hole-information-7bc71adc283f"
 ---
 ![](../../../media/unlocking-the-secrets-of-the-universe-gravitational-waves-as-the-key-to-the-blac/01-e66defa3.png)
 

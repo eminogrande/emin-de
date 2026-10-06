@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/how-to-start-your-own-near-solver-chart-technical-bits-env-k/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/how-to-start-your-own-near-solver-chart-technical-bits-env-keys-services-deploym/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 12
   unobserved: 336
 emin_check_pct: null
+original_url: "https://emino.app/posts/how-to-start-your-own-near-solver-chart-technical-bits-env-k/"
 ---
 ## 1. What this solver is and why it exists
 

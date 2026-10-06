@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/from-sound-waves-to-black-holes-a-journey-through-information-theory-f3dafc861e32"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/from-sound-waves-to-black-holes-a-journey-through-information-theory/01-b7e5458b.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 116
 emin_check_pct: null
+original_url: "https://medium.com/@em/from-sound-waves-to-black-holes-a-journey-through-information-theory-f3dafc861e32"
 ---
 ![](../../../media/from-sound-waves-to-black-holes-a-journey-through-information-theory/01-b7e5458b.png)
 

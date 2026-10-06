@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/a-passkey-derived-2-of-2-taproot-wallet-architecture-elimina/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/a-passkey-derived-2-of-2-taproot-wallet-architecture-eliminating-seed-phrases-mi/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 180
 emin_check_pct: null
+original_url: "https://emino.app/posts/a-passkey-derived-2-of-2-taproot-wallet-architecture-elimina/"
 ---
 This post
 describes a wallet architecture that removes seed phrases entirely, avoids

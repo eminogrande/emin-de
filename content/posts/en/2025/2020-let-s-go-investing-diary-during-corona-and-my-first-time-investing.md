@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/2020-lets-go-investing-diary-during-corona-and-my-first-time-investing-b0b3d2056322"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/2020-let-s-go-investing-diary-during-corona-and-my-first-time-investing/01-7b2a953f.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 21
   unobserved: 365
 emin_check_pct: null
+original_url: "https://medium.com/@em/2020-lets-go-investing-diary-during-corona-and-my-first-time-investing-b0b3d2056322"
 ---
 # 2020 let’s go — Investing Diary During Corona and My First Time Investing
 

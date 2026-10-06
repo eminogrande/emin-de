@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signal-approach-cb2b4190abba"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signa/01-8c8165a4.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 247
 emin_check_pct: null
+original_url: "https://medium.com/@em/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signal-approach-cb2b4190abba"
 ---
 ![](../../../media/investigating-electromagnetic-contributions-to-black-hole-dynamics-a-multi-signa/01-8c8165a4.png)
 

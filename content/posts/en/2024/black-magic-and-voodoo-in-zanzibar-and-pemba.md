@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/black-magic-and-voodoo-in-zanzibar-and-pemba-b3f94a2d2ac3"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/black-magic-and-voodoo-in-zanzibar-and-pemba/01-3ab9c6c9.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 122
 emin_check_pct: null
+original_url: "https://medium.com/@em/black-magic-and-voodoo-in-zanzibar-and-pemba-b3f94a2d2ac3"
 ---
 Zanzibar and Pemba have rich histories intertwined with black magic and traditional spiritual practices. These islands are known for their cultural heritage that includes beliefs in supernatural entities and the use of traditional medicine.
 

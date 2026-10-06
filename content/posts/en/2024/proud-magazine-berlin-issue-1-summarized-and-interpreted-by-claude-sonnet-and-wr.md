@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-written-into-a-blog-f27d955cbe3a"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-wr/01-89b5e8de.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 162
 emin_check_pct: null
+original_url: "https://medium.com/@em/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-written-into-a-blog-f27d955cbe3a"
 ---
 # proud magazine Berlin Issue #1 summarized and interpreted by Claude Sonnet and Written into a Blog Post by Claude Haiku.
 

@@ -6,10 +6,21 @@
 // here. scripts/verify-agent-ready.mjs fails the build if one is missing.
 
 import { SITE, SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME, KNOWS_ABOUT, AUTHOR_SAME_AS } from '../lib/site.mjs';
+import { principlesMarkdown } from './principles.mjs';
+import { DISCLOSURE } from '../lib/magazine.mjs';
+import photoData from '../generated/photos.json' with { type: 'json' };
 
 const analyticsOn = SITE.analytics.posthog.enabled || SITE.analytics.ga4.enabled;
 
 export const pageMarkdown = {
+	'/principles': () => principlesMarkdown('en'),
+	'/de/principles': () => principlesMarkdown('de'),
+	'/photos': () => `# Photos
+
+> Photographs by ${AUTHOR_NAME}.
+
+${photoData.photos.length ? photoData.photos.map((p) => `- ![${(p.alt.en || p.caption.en || '').replace(/[[\]]/g, '')}](${SITE_ORIGIN}${p.src})${p.caption.en ? ` ${p.caption.en}` : ''}${p.place ? ` (${p.place})` : ''}`).join('\n') : 'No photographs published yet.'}
+`,
 	'/agent-ready': () => `# Agent ready
 
 > Agent readiness means a non-human client can discover and use your content without parsing your layout. Four public scanners grade it and they measure different things. Two checks, Link headers and Markdown negotiation, are response behaviour that no static host can provide.
@@ -55,7 +66,13 @@ Source code: [github.com/eminogrande/emin-de](https://github.com/eminogrande/emi
 
 	'/about': () => `# About
 
-> ${AUTHOR_NAME} builds Bitcoin self-custody and agent-payment infrastructure. This site is where the engineering behind it gets written down properly.
+> ${AUTHOR_NAME} is a journalist and publisher (${SITE.publisher.publication.name}, Berlin) and builds Bitcoin self-custody and agent-payment infrastructure. This site is where it gets written down properly.
+
+## Journalist and publisher
+
+I published [${SITE.publisher.publication.name}](${SITE.publisher.publication.url}), a Berlin print magazine archived in the German National Library ([archive](${SITE.publisher.publication.archive})). The core rule of this site follows from that: free speech. Nothing here is censored. AI help is labelled, the words are mine. Details: [Principles](${SITE_ORIGIN}/principles).
+
+${DISCLOSURE.en}
 
 ## What I work on
 

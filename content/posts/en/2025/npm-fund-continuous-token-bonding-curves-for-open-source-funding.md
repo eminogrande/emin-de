@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/npm-fund-continuous-token-bonding-curves-for-open-source-funding-3ecb67a522b9"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/npm-fund-continuous-token-bonding-curves-for-open-source-funding/01-784c6401.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 111
 emin_check_pct: null
+original_url: "https://medium.com/@em/npm-fund-continuous-token-bonding-curves-for-open-source-funding-3ecb67a522b9"
 ---
 ![](../../../media/npm-fund-continuous-token-bonding-curves-for-open-source-funding/01-784c6401.webp)
 *via [https://blog.oceanprotocol.com/enabling-short-selling-in-bonding-curves-part-1-af871ad75d40](https://blog.oceanprotocol.com/enabling-short-selling-in-bonding-curves-part-1-af871ad75d40)*

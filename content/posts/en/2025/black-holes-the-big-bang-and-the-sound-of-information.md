@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/black-holes-the-big-bang-and-the-sound-of-information/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/black-holes-the-big-bang-and-the-sound-of-information/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 45
   unobserved: 786
 emin_check_pct: null
+original_url: "https://emino.app/posts/black-holes-the-big-bang-and-the-sound-of-information/"
 ---
 ![](../../../media/black-holes-the-big-bang-and-the-sound-of-information/cover.jpg)
 

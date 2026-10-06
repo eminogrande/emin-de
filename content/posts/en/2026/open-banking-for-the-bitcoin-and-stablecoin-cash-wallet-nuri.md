@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/open-banking-for-the-bitcoin-and-stablecoin-cash-wallet-nuri-0e73a53c8949"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/open-banking-for-the-bitcoin-and-stablecoin-cash-wallet-nuri/01-7fd0f781.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 11
   unobserved: 83
 emin_check_pct: null
+original_url: "https://medium.com/@em/open-banking-for-the-bitcoin-and-stablecoin-cash-wallet-nuri-0e73a53c8949"
 ---
 ![](../../../media/open-banking-for-the-bitcoin-and-stablecoin-cash-wallet-nuri/01-7fd0f781.png)
 

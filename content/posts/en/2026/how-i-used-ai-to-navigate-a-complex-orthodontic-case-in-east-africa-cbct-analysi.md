@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/how-i-used-ai-to-navigate-a-complex-orthodontic-case-in-east-africa-cbct-analysis-provider-67dd379a81d7"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/how-i-used-ai-to-navigate-a-complex-orthodontic-case-in-east-africa-cbct-analysi/01-d414fd14.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 22
   unobserved: 283
 emin_check_pct: null
+original_url: "https://medium.com/@em/how-i-used-ai-to-navigate-a-complex-orthodontic-case-in-east-africa-cbct-analysis-provider-67dd379a81d7"
 ---
 # How I Used AI to Navigate a Complex Orthodontic Case in East Africa — CBCT Analysis, Provider Vetting, and Getting a Second Opinion Before Braces
 

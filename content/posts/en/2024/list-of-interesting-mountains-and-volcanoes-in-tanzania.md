@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/list-of-interesting-mountains-and-volcanoes-in-tanzania-b382e547ec8c"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 0
   unobserved: 101
 emin_check_pct: null
+original_url: "https://medium.com/@em/list-of-interesting-mountains-and-volcanoes-in-tanzania-b382e547ec8c"
 ---
 1. Mount Kilimanjaro
  - Height: 5,895 meters (19,341 feet)

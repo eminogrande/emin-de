@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/coding-with-cursor-as-key-development-tool-and-the-role-of-ai-in-coding-by-sahil-and-josh-part-1-17f1264999ae"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/coding-with-cursor-as-key-development-tool-and-the-role-of-ai-in-coding-by-sahil/01-7a06b5e1.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 187
 emin_check_pct: null
+original_url: "https://medium.com/@em/coding-with-cursor-as-key-development-tool-and-the-role-of-ai-in-coding-by-sahil-and-josh-part-1-17f1264999ae"
 ---
 ## Key Takeaways
 

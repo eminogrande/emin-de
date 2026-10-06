@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/advantages-of-acquiring-an-investment-bank-license-in-labuan-malaysia-and-the-tokenization-of-real-f4017f812904"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/advantages-of-acquiring-an-investment-bank-license-in-labuan-malaysia-and-the-to/01-2636d55b.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 230
 emin_check_pct: null
+original_url: "https://medium.com/@em/advantages-of-acquiring-an-investment-bank-license-in-labuan-malaysia-and-the-tokenization-of-real-f4017f812904"
 ---
 # Advantages of Acquiring an Investment Bank License in Labuan, Malaysia and the Tokenization of Real World Assets + Securities.
 

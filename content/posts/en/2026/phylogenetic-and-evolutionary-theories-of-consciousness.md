@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-100010-phylogenetic-and-evolutionary-theories-of-consciousness/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/phylogenetic-and-evolutionary-theories-of-consciousness/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 31
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-100010-phylogenetic-and-evolutionary-theories-of-consciousness/"
 ---
 This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly and fairly.
 

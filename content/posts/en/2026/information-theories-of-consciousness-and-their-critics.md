@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-012000-information-theories-of-consciousness-and-their-critics/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/information-theories-of-consciousness-and-their-critics/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 195
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-012000-information-theories-of-consciousness-and-their-critics/"
 ---
 ## Tononi
 

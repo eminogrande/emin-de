@@ -10,13 +10,13 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/my-new-pair-programmer-is-an-ai-a-real-world-workflow-for-building-apps-041b168cb1cb"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 5
   unobserved: 103
 emin_check_pct: null
+original_url: "https://medium.com/@em/my-new-pair-programmer-is-an-ai-a-real-world-workflow-for-building-apps-041b168cb1cb"
 ---
 The world of software development is buzzing with the promise of AI. We see demos of complex applications being built in minutes from a single prompt. But what does the day-to-day reality look like for a developer using these tools? How do you go from a bug to a bug-fix, from an idea to a feature, when your primary collaborator is an AI?
 

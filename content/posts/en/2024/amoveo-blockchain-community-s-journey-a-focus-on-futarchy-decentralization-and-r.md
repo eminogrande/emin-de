@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/amoveo-blockchain-communitys-journey-a-focus-on-futarchy-decentralization-and-real-world-1568a94d310b"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/amoveo-blockchain-community-s-journey-a-focus-on-futarchy-decentralization-and-r/01-42f4f069.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 1
   unobserved: 232
 emin_check_pct: null
+original_url: "https://medium.com/@em/amoveo-blockchain-communitys-journey-a-focus-on-futarchy-decentralization-and-real-world-1568a94d310b"
 ---
 # **Amoveo Blockchain Community’s Journey: A Focus on Futarchy, Decentralization, and Real-World Applications**
 

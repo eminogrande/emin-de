@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 53
 emin_check_pct: null
+original_url: "https://emino.app/posts/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/"
 ---
 ![](../../../media/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/cover.jpg)
 

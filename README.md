@@ -90,7 +90,7 @@ Every post carries `provenance`, `ai_assisted` and `reviewed_by_human`, and thos
 
 ## Indexing policy for imports
 
-Imported posts keep their original text and point `canonical` to where they were first published. Posts with provenance `mixed` or `unknown` render with `noindex` and stay out of the sitemap, feeds, `llms.txt` and the API until a human reviews them (`indexing.noindexProvenance` in the config). Posts with an external canonical are not listed in the sitemap, because a sitemap must not list URLs that canonicalise elsewhere; they are still in feeds, `llms.txt` and the API.
+Imported posts keep their original text. emin.de is the original: every post's canonical is its emin.de URL, and the first-published URL is kept as `original_url` (JSON-LD `sameAs`/`isBasedOn`, plus a visible "First published on ..." line). Free speech is the core rule: no post is hidden for its topic, words, provenance or review status. Provenance is a visible badge, never a gate; only `draft: true`, set by the author, hides a post (see `/principles`). Import new or rewritten posts with `npm run import:staging -- <dir>`. Old URLs are listed in `docs/REDIRECTS-emino-app.md` and served as 301s from `site.config.mjs` `redirects` plus the generated table.
 
 ## Why a Worker and not GitHub Pages
 

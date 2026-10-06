@@ -1,0 +1,33 @@
+---
+// Photo gallery: everything in public/photos/*.jpg|webp (portrait excluded),
+// captions from public/photos/photos.json. See docs/PHOTOS.md.
+import Base from '../layouts/Base.astro';
+import data from '../generated/photos.json' with { type: 'json' };
+const photos = data.photos;
+const schema = {
+	'@context': 'https://schema.org',
+	'@type': 'ImageGallery',
+	name: 'Photos by Emin Mahrt',
+	url: 'https://emin.de/photos',
+	associatedMedia: photos.map((p) => ({ '@type': 'ImageObject', contentUrl: `https://emin.de${p.src}`, caption: p.caption.en || p.alt.en || undefined, width: p.width, height: p.height })),
+};
+---
+<Base title="Photos | emin.de" description="Photographs by Emin Mahrt: places, people and things worth looking at twice." path="/photos" markdownPath="/photos/index.md" structuredData={schema} layout="wide">
+	<p class="kicker">emin.de</p>
+	<h1>Photos</h1>
+	<p class="lede">Places, people and things worth looking at twice.</p>
+	{photos.length ? (
+		<ul class="gallery">
+			{photos.map((p, i) => (
+				<li>
+					<figure>
+						<img src={p.src} srcset={p.srcset} sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 26rem" width={p.width} height={p.height} alt={p.alt.en || p.caption.en || ''} loading={i < 3 ? 'eager' : 'lazy'} decoding="async" />
+						{(p.caption.en || p.place || p.date) && <figcaption>{p.caption.en}{p.place && <> {p.caption.en ? '·' : ''} {p.place}</>}{p.date && <> · <time datetime={p.date}>{p.date}</time></>}</figcaption>}
+					</figure>
+				</li>
+			))}
+		</ul>
+	) : (
+		<p class="empty">The first photographs are being selected. They will appear here soon.</p>
+	)}
+</Base>

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunbo/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunboat-diplomacy/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 163
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunbo/"
 ---
 ![](../../../media/the-trump-doctrine-and-the-fall-of-maduro-a-new-era-of-gunboat-diplomacy/cover.jpg)
 

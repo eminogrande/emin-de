@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/proud-magazine-berlin-00001-the-intro-f6ee668168c8"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/proud-magazine-berlin-00001-the-intro/01-d887d777.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 47
 emin_check_pct: null
+original_url: "https://medium.com/@em/proud-magazine-berlin-00001-the-intro-f6ee668168c8"
 ---
 ![](../../../media/proud-magazine-berlin-00001-the-intro/01-d887d777.png)
 

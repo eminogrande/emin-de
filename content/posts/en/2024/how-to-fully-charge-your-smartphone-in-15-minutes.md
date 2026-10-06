@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/how-to-fully-charge-your-smartphone-in-15-minutes-5cb5c8eb4f94"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/how-to-fully-charge-your-smartphone-in-15-minutes/01-3f4a5484.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 11
   unobserved: 71
 emin_check_pct: null
+original_url: "https://medium.com/@em/how-to-fully-charge-your-smartphone-in-15-minutes-5cb5c8eb4f94"
 ---
 # How to fully charge your smartphone in 15 minutes. The importance of good cavers good charger and phones that support high wattage charging.
 

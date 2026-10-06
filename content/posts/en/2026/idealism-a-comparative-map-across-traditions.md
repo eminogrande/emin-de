@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-20-233000-idealism-a-comparative-map-across-traditions/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/idealism-a-comparative-map-across-traditions/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 5
   unobserved: 372
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-20-233000-idealism-a-comparative-map-across-traditions/"
 ---
 ## Overview
 

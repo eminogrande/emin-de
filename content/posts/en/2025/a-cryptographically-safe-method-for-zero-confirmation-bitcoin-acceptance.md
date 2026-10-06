@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/a-cryptographically-safe-method-for-zero-confirmation-bitcoi/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/a-cryptographically-safe-method-for-zero-confirmation-bitcoin-acceptance/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 103
 emin_check_pct: null
+original_url: "https://emino.app/posts/a-cryptographically-safe-method-for-zero-confirmation-bitcoi/"
 ---
 ![](../../../media/a-cryptographically-safe-method-for-zero-confirmation-bitcoin-acceptance/cover.jpg)
 

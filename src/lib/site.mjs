@@ -19,7 +19,9 @@ export function absoluteUrl(path = '/') {
 }
 
 // Non-post HTML pages in the default language that belong in the sitemap.
-export const STATIC_PATHS = ['/', '/posts', '/about', '/contact', '/developers', '/agent-ready', '/privacy', '/talks', '/changelog', '/archive'];
+export const STATIC_PATHS = ['/', '/posts', '/about', '/principles', '/de/principles', '/photos', '/contact', '/developers', '/agent-ready', '/privacy', '/talks', '/changelog', '/archive'];
+// Static pages that exist in more than one language (hreflang in the sitemap).
+export const STATIC_ALTERNATES = { '/principles': [{ lang: 'en', path: '/principles' }, { lang: 'de', path: '/de/principles' }], '/de/principles': [{ lang: 'en', path: '/principles' }, { lang: 'de', path: '/de/principles' }] };
 
 // The machine-facing surface, advertised in Link headers and <head>. Only
 // documents this repo actually serves are listed: tests/engine.test.mjs fetches
@@ -50,6 +52,7 @@ export function organizationSchema() {
 		url: absoluteUrl('/'),
 		description: SITE_DEFINITION,
 		founder: { '@id': absoluteUrl('/#person') },
+		publishingPrinciples: absoluteUrl('/principles'),
 		knowsAbout: KNOWS_ABOUT,
 		sameAs: AUTHOR_SAME_AS,
 		contactPoint: {
@@ -71,7 +74,8 @@ export function personSchema() {
 		url: AUTHOR_URL,
 		sameAs: AUTHOR_SAME_AS,
 		knowsAbout: KNOWS_ABOUT,
-		jobTitle: owner.jobTitle,
+		jobTitle: config.publisher?.jobTitle || owner.jobTitle,
+		...(config.publisher?.publication ? { worksFor: { '@type': 'Organization', name: config.publisher.publication.name, url: config.publisher.publication.url, sameAs: [config.publisher.publication.archive].filter(Boolean) } } : {}),
 	};
 }
 

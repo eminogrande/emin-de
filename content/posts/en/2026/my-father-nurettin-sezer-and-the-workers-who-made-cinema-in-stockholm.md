@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/my-father-nurettin-sezer-and-the-workers-who-made-cinema-in-stockholm-831f6ed13e52"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/my-father-nurettin-sezer-and-the-workers-who-made-cinema-in-stockholm/01-30a05600.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 372
 emin_check_pct: null
+original_url: "https://medium.com/@em/my-father-nurettin-sezer-and-the-workers-who-made-cinema-in-stockholm-831f6ed13e52"
 ---
 ## Hasan Gül remembers Otobüs, Gül Hasan, and the Turkish migrant film circle that turned a tailoring workshop into a production office
 

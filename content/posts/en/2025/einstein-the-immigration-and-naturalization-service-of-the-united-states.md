@@ -10,7 +10,6 @@ author: "guest"
 provenance: "unknown"
 ai_assisted: null
 reviewed_by_human: false
-canonical: "https://medium.com/@em/einstein-the-immigration-and-naturalization-service-of-the-united-states-d34dd1029866"
 source: "medium"
 third_party_summary: false
 original_author: "Albert Einstein (transcript)"
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 13
   unobserved: 254
 emin_check_pct: null
+original_url: "https://medium.com/@em/einstein-the-immigration-and-naturalization-service-of-the-united-states-d34dd1029866"
 ---
 <https://www.youtube.com/watch?v=_0Iq64sYLsM>
 

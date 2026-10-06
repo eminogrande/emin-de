@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/ai-content-takeover-a-threat-to-future-ai-evolution-34d52118422e"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/ai-content-takeover-a-threat-to-future-ai-evolution/01-a0e0240f.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 140
 emin_check_pct: null
+original_url: "https://medium.com/@em/ai-content-takeover-a-threat-to-future-ai-evolution-34d52118422e"
 ---
 ![](../../../media/ai-content-takeover-a-threat-to-future-ai-evolution/01-a0e0240f.png)
 

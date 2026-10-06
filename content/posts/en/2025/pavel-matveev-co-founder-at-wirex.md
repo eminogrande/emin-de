@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/pavel-matveev-co-founder-at-wirex-ddd9f52aec1c"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/pavel-matveev-co-founder-at-wirex/01-9e2cd71b.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 159
 emin_check_pct: null
+original_url: "https://medium.com/@em/pavel-matveev-co-founder-at-wirex-ddd9f52aec1c"
 ---
 ![](../../../media/pavel-matveev-co-founder-at-wirex/01-9e2cd71b.png)
 

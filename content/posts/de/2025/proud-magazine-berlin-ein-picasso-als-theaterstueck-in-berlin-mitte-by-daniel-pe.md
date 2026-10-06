@@ -10,7 +10,6 @@ author: "guest"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://medium.com/@em/proud-magazine-berlin-ein-picasso-als-theaterst%C3%BCck-in-berlin-mitte-by-daniel-penk-750997faeecc"
 source: "medium"
 third_party_summary: false
 original_author: "Daniel Penk"
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 1
   unobserved: 184
 emin_check_pct: null
+original_url: "https://medium.com/@em/proud-magazine-berlin-ein-picasso-als-theaterst%C3%BCck-in-berlin-mitte-by-daniel-penk-750997faeecc"
 ---
 # proud magazine Berlin — Ein Picasso als Theaterstück in Berlin Mitte, by Daniel Penk
 

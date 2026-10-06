@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/cracked-lips-neon-urine-and-two-people-who-took-the-same-pill-c5a34ee079c5"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 20
   unobserved: 387
 emin_check_pct: null
+original_url: "https://medium.com/@em/cracked-lips-neon-urine-and-two-people-who-took-the-same-pill-c5a34ee079c5"
 ---
 ## An accidental n=2 experiment, and what the evidence actually says
 

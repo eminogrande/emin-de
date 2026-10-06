@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/a-stateless-passkey-signer-for-bitcoin/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/a-stateless-passkey-signer-for-bitcoin/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 6
   unobserved: 311
 emin_check_pct: null
+original_url: "https://emino.app/posts/a-stateless-passkey-signer-for-bitcoin/"
 ---
 Stateless Bitcoin Wallet With Passkeys and a Minimal Signer
 

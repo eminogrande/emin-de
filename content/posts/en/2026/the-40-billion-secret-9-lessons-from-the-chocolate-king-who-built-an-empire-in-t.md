@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-built-an-empire-in-t/cover.jpg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 5
   unobserved: 149
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-/"
 ---
 ![](../../../media/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-built-an-empire-in-t/cover.jpg)
 

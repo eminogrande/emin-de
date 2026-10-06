@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/governing-governance-why-human-consensus-is-harder-than-code/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/governing-governance-why-human-consensus-is-harder-than-code/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 5
   unobserved: 117
 emin_check_pct: null
+original_url: "https://emino.app/posts/governing-governance-why-human-consensus-is-harder-than-code/"
 ---
 ![](../../../media/governing-governance-why-human-consensus-is-harder-than-code/cover.jpg)
 

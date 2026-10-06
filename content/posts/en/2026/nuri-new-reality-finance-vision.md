@@ -10,13 +10,13 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/nuri-new-reality-finance-vision-a25c3f95738d"
 source: "medium"
 third_party_summary: false
 voice_check:
   em_dash: 5
   unobserved: 66
 emin_check_pct: null
+original_url: "https://medium.com/@em/nuri-new-reality-finance-vision-a25c3f95738d"
 ---
 A short FAQ around the Vision and Goal of Nuri.com from Emin Mahrt
 

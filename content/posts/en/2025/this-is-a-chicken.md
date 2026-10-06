@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://emino.app/posts/this-is-a-chicken/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/this-is-a-chicken/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 3
 emin_check_pct: null
+original_url: "https://emino.app/posts/this-is-a-chicken/"
 ---
 My Chicken
 

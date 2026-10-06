@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-watermarker-probabilistic-word-choice-biasing-as-a-statistical-fingerprint-in-llm-outputs-and-9f398ccd88ef"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-watermarker-probabilistic-word-choice-biasing-as-a-statistical-fingerprint-i/01-34df8564.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 209
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-watermarker-probabilistic-word-choice-biasing-as-a-statistical-fingerprint-in-llm-outputs-and-9f398ccd88ef"
 ---
 # The Watermarker: Probabilistic Word-Choice Biasing as a Statistical Fingerprint in LLM Outputs and AI Texts
 

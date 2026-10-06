@@ -10,7 +10,6 @@ author: "guest"
 provenance: "unknown"
 ai_assisted: null
 reviewed_by_human: false
-canonical: "https://medium.com/@em/lebensrat-von-einem-80-j%C3%A4hrigen-cebeb05bd97a"
 source: "medium"
 third_party_summary: false
 original_author: "Pat Divilly"
@@ -19,6 +18,7 @@ voice_check:
   em_dash: 0
   unobserved: 113
 emin_check_pct: null
+original_url: "https://medium.com/@em/lebensrat-von-einem-80-j%C3%A4hrigen-cebeb05bd97a"
 ---
 Hier ist die Übersetzung ins Deutsche von “Life Lessons From An 80 Year Old Men” von [Pat Divilly](/bigger-picture/lifelessons-advice-from-an-80-year-old-man-799510fb0f91):
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-invisible-giants-21-developers-who-built-your-internet/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/the-invisible-giants-21-developers-who-built-your-internet/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 3
   unobserved: 255
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-invisible-giants-21-developers-who-built-your-internet/"
 ---
 ![](../../../media/the-invisible-giants-21-developers-who-built-your-internet/cover.jpg)
 

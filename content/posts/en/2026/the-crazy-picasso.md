@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-crazy-picasso/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-crazy-picasso/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 150
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-crazy-picasso/"
 ---
 The life of Pablo Picasso presents a jarring paradox: a man of unprecedented creative output and financial success who was, by many accounts, a "monster of assured egoism."
 

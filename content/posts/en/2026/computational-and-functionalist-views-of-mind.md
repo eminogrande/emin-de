@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/2026-02-21-100003-computational-and-functionalist-views-of-mind/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/computational-and-functionalist-views-of-mind/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 19
   unobserved: 293
 emin_check_pct: null
+original_url: "https://emino.app/posts/2026-02-21-100003-computational-and-functionalist-views-of-mind/"
 ---
 # Consciousness: A Cross-Model Guide
 

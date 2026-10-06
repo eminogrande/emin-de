@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/correlations-copying-and-darwinism-in-quantum-physics/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/correlations-copying-and-darwinism-in-quantum-physics/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 26
   unobserved: 393
 emin_check_pct: null
+original_url: "https://emino.app/posts/correlations-copying-and-darwinism-in-quantum-physics/"
 ---
 <p></p>
 

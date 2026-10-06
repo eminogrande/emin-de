@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/agentic-wallets-passkey-prf-the-nuri-com-security-architectu/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/agentic-wallets-passkey-prf-the-nuri-com-security-architecture/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 75
 emin_check_pct: null
+original_url: "https://emino.app/posts/agentic-wallets-passkey-prf-the-nuri-com-security-architectu/"
 ---
 # Agentic Wallets & Passkey PRF: The Nuri.com Security Architecture
 

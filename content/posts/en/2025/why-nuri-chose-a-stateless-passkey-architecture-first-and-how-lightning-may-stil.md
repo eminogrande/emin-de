@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/why-nuri-chose-a-stateless-passkey-architecture-first-and-ho/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/why-nuri-chose-a-stateless-passkey-architecture-first-and-how-lightning-may-stil/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 7
   unobserved: 133
 emin_check_pct: null
+original_url: "https://emino.app/posts/why-nuri-chose-a-stateless-passkey-architecture-first-and-ho/"
 ---
 [image: image.png]
 # Why Nuri Chose a Stateless Passkey Architecture First — And How Lightning

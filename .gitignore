@@ -11,3 +11,7 @@ dist/
 src/generated/
 .wrangler/
 public/media/
+public/_redirects
+public/covers/
+public/photos/_v/
+public/fonts/

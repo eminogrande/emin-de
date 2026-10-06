@@ -10,7 +10,6 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
-canonical: "https://emino.app/posts/testing-the-post-by-email-function/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/testing-the-post-by-email-function/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 2
 emin_check_pct: null
+original_url: "https://emino.app/posts/testing-the-post-by-email-function/"
 ---
 ![](../../../media/testing-the-post-by-email-function/cover.jpg)
 

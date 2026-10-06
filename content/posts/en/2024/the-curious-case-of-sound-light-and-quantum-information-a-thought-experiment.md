@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment-51ac057a00fb"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment/01-66355f94.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 99
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment-51ac057a00fb"
 ---
 ![](../../../media/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment/01-66355f94.png)
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-paradox-5ee8f2bf27b4"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-parad/01-063e4501.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 146
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-paradox-5ee8f2bf27b4"
 ---
 ![](../../../media/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-parad/01-063e4501.jpeg)
 

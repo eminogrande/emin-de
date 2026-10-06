@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-ai-playbook-9-mental-models-for-building-in-the-age-of-i/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-ai-playbook-9-mental-models-for-building-in-the-age-of-intelligence/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 120
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-ai-playbook-9-mental-models-for-building-in-the-age-of-i/"
 ---
 ![](../../../media/the-ai-playbook-9-mental-models-for-building-in-the-age-of-intelligence/cover.jpg)
 

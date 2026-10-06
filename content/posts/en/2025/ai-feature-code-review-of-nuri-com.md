@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/ai-feature-code-review-of-nuri-com/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/ai-feature-code-review-of-nuri-com/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 16
 emin_check_pct: null
+original_url: "https://emino.app/posts/ai-feature-code-review-of-nuri-com/"
 ---
 ![](../../../media/ai-feature-code-review-of-nuri-com/cover.jpg)
 

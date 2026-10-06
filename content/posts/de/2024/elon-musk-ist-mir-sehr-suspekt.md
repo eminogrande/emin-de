@@ -10,7 +10,6 @@ author: "emin"
 provenance: "mixed"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/elon-musk-ist-mir-sehr-suspekt-19dd8b5be44c"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/elon-musk-ist-mir-sehr-suspekt/01-587289e7.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 166
 emin_check_pct: null
+original_url: "https://medium.com/@em/elon-musk-ist-mir-sehr-suspekt-19dd8b5be44c"
 ---
 # weaElon Musk ist mir sehr suspekt. Er verlost jeden Monat eine Million Dollar an Wähler, die Trump wählen und die seine Petitionen unterstützen. Waffen für jeden. Ist doch pervers.
 

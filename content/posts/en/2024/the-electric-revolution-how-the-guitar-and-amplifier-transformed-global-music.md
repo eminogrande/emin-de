@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music-11a443009d69"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music/01-d5eba4eb.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 8
   unobserved: 311
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music-11a443009d69"
 ---
 ![](../../../media/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music/01-d5eba4eb.jpeg)
 

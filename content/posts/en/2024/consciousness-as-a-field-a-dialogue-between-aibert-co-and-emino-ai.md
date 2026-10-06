@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai-6e56e693c51f"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai/01-68634d97.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 2
   unobserved: 162
 emin_check_pct: null
+original_url: "https://medium.com/@em/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai-6e56e693c51f"
 ---
 ![](../../../media/consciousness-as-a-field-a-dialogue-between-aibert-co-and-emino-ai/01-68634d97.jpeg)
 

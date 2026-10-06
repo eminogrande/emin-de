@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/michael-saylor-the-bitcoin-treasury-debate-and-the-future-of/"
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/michael-saylor-the-bitcoin-treasury-debate-and-the-future-of-digital-credit/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 132
 emin_check_pct: null
+original_url: "https://emino.app/posts/michael-saylor-the-bitcoin-treasury-debate-and-the-future-of/"
 ---
 In this intense discussion on *What Bitcoin Did*, Michael Saylor
 reflects on the structural shifts for Bitcoin throughout 2025 and

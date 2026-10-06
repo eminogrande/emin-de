@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases-074d0bbe6ce5"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases/01-be4832e4.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 98
 emin_check_pct: null
+original_url: "https://medium.com/@em/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases-074d0bbe6ce5"
 ---
 ![](../../../media/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases/01-be4832e4.jpeg)
 *Paje Beach, Zanzibar*

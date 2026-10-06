@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/building-a-cross-chain-btc-eure-market-maker-with-near-inten/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/building-a-cross-chain-btc-eure-market-maker-with-near-intents-1-click/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 30
   unobserved: 173
 emin_check_pct: null
+original_url: "https://emino.app/posts/building-a-cross-chain-btc-eure-market-maker-with-near-inten/"
 ---
 ![](../../../media/building-a-cross-chain-btc-eure-market-maker-with-near-intents-1-click/cover.jpg)
 

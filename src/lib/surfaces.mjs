@@ -5,7 +5,7 @@ import config from '../../site.config.mjs';
 import { displayAuthor, authorLabel } from './content-build-shared.mjs';
 import { posts, postsIn, activeLangs, changelogMarkdown } from './corpus.mjs';
 import { LIST_ROUTES, POST_ROUTES, hreflangLinks, isTalk } from './routes.mjs';
-import { absoluteUrl, STATIC_PATHS, SITE_DEFINITION } from './site.mjs';
+import { absoluteUrl, STATIC_PATHS, STATIC_ALTERNATES, SITE_DEFINITION } from './site.mjs';
 import { DEFAULT_LANG, feedPath, markdownMirrorPath, ogImagePath, t, label } from './paths.mjs';
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -18,7 +18,7 @@ export function authorOf(post) {
 // --- schema.org ---------------------------------------------------------------
 export function authorSchema(id) {
 	const author = config.authors[id];
-	if (id === config.owner) return { '@id': absoluteUrl('/#person') };
+	if (id === config.owner) return { '@type': 'Person', '@id': absoluteUrl('/#person'), name: author.name, url: absoluteUrl(author.url || '/about'), sameAs: author.sameAs || [] };
 	if (author.type === 'ai_editorial') {
 		// An AI desk is not a person. Organization, openly labelled, no bio/photo.
 		return {
@@ -56,6 +56,7 @@ export function postSchema(post) {
 		author: guest ? { '@type': 'Person', name: post.originalAuthor } : authorSchema(post.author),
 		publisher: { '@id': absoluteUrl('/#organization') },
 		isAccessibleForFree: true,
+		publishingPrinciples: absoluteUrl('/principles'),
 		license: 'https://creativecommons.org/licenses/by/4.0/',
 		citation: post.sourceLinks.map((s) => s.url),
 	};
@@ -64,7 +65,14 @@ export function postSchema(post) {
 		blog.creativeWorkStatus = post.reviewedByHuman ? author.label.en : `${author.label.en}: not yet reviewed`;
 		blog.disambiguatingDescription = authorLabel(post);
 	}
-	if (post.externalCanonical) blog.isBasedOn = post.canonical;
+	// emin.de is the original; the first-published copy is the same work.
+	if (post.originalUrl) {
+		blog.sameAs = [post.originalUrl];
+		blog.isBasedOn = post.originalUrl;
+	}
+	// Speakable: the TL;DR when there is one, otherwise headline + dek.
+	blog.speakable = { '@type': 'SpeakableSpecification', cssSelector: post.tldr.length ? ['.post-title', '.tldr'] : ['.post-title', '.post-dek'] };
+	if (post.tldr.length) blog.abstract = post.tldr.join(' ');
 	const translations = Object.entries(post.translations).map(([lang, slug]) => posts.find((p) => p.lang === lang && p.slug === slug)).filter(Boolean);
 	if (translations.length) blog.workTranslation = translations.map((p) => ({ '@id': `${absoluteUrl(p.path)}#article` }));
 	const out = [
@@ -196,9 +204,10 @@ export function jsonFeed(lang) {
 }
 
 // --- sitemap -------------------------------------------------------------------
-// Indexable posts and real listing routes only. Posts with an external
-// canonical are excluded: the sitemap must not list URLs that canonicalise
-// elsewhere. noindex posts never appear (they are not in `posts`).
+// Indexable posts and real listing routes only, every one with lastmod and
+// reciprocal hreflang where a translation exists. emin.de is the canonical
+// home of every post, so all indexable posts are listed. noindex posts never
+// appear (they are not in `posts`).
 export function sitemapXml() {
 	const entries = [];
 	const seen = new Set();
@@ -207,10 +216,11 @@ export function sitemapXml() {
 		seen.add(path);
 		entries.push({ path, lastmod, alternates: hreflangLinks(alternates) });
 	};
-	for (const path of STATIC_PATHS) push(path, null, null);
+	const newest = posts.map((p) => p.updated).sort().at(-1) || null;
+	for (const path of STATIC_PATHS) push(path, path === '/' ? newest : null, STATIC_ALTERNATES[path] || null);
 	for (const route of LIST_ROUTES) push(route.path, route.posts[0]?.updated || null, route.alternates);
 	for (const route of POST_ROUTES) {
-		if (route.post.noindex || route.post.externalCanonical) continue;
+		if (route.post.noindex) continue;
 		push(route.path, route.post.updated, route.alternates);
 	}
 	const body = entries
@@ -262,6 +272,8 @@ ${facets.join('\n')}
 ## Site pages
 
 - ${link('About', '/about')}: who writes this.
+- ${link('Principles', '/principles')}: free speech; labels inform, they never hide a post. German: ${link('Grundsätze', '/de/principles')}.
+- ${link('Photos', '/photos')}: photographs by the author.
 - ${link('Agent ready', '/agent-ready')}: how the site is built for agents.
 - ${link('Developers', '/developers')}: API, MCP and x402 documentation.
 - ${link('Contact', '/contact')}: how to reach the author.

@@ -103,6 +103,7 @@ export const AI_BOTS = [
 	'Googlebot',
 	'Bingbot',
 	'Applebot',
+	'Applebot-Extended',
 	'Amazonbot',
 	'meta-externalagent',
 	'CCBot',

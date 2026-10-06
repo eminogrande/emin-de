@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/blockchain-ai-and-the-future-a-simple-explanation-for-everyone-c50dd24cb88f"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/blockchain-ai-and-the-future-a-simple-explanation-for-everyone/01-1327156b.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 8
   unobserved: 140
 emin_check_pct: null
+original_url: "https://medium.com/@em/blockchain-ai-and-the-future-a-simple-explanation-for-everyone-c50dd24cb88f"
 ---
 **Blockchain and AI: Unlocking the Future**
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/untersuchung-elektromagnetischer-beitr%C3%A4ge-zur-dynamik-von-schwarzen-l%C3%B6chern-ein-f130917f8c89"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/untersuchung-elektromagnetischer-beitraege-zur-dynamik-von-schwarzen-loechern-ei/01-8c8165a4.png"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 225
 emin_check_pct: null
+original_url: "https://medium.com/@em/untersuchung-elektromagnetischer-beitr%C3%A4ge-zur-dynamik-von-schwarzen-l%C3%B6chern-ein-f130917f8c89"
 ---
 # Untersuchung elektromagnetischer Beiträge zur Dynamik von Schwarzen Löchern: Ein Multi-Signal-Ansatz
 

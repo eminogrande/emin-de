@@ -6,6 +6,7 @@
 import Base from '../layouts/Base.astro';
 import Post from '../components/Post.astro';
 import PostList from '../components/PostList.astro';
+import Home from '../components/Home.astro';
 import { CATCHALL_LIST_ROUTES, POST_ROUTES } from '../lib/routes.mjs';
 import { listSchema, postSchema } from '../lib/surfaces.mjs';
 import { changelogMarkdown } from '../lib/corpus.mjs';
@@ -36,6 +37,7 @@ const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG 
 		alternates={route.alternates}
 		canonical={post.canonical}
 		noindex={post.noindex}
+		layout="full"
 	>
 		<Post post={post} alternates={route.alternates} />
 	</Base>
@@ -48,7 +50,9 @@ const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG 
 		structuredData={listSchema(route)}
 		markdownPath={markdownMirrorPath(route.path)}
 		alternates={route.alternates}
+		layout={route.kind === 'home' ? 'full' : 'wide'}
 	>
+		{route.kind === 'home' ? <Home lang={route.lang} /> : <>
 		<h1>{route.title}</h1>
 		{route.kind === 'author' && SITE.authors[route.id].type === 'ai_editorial' && (
 			<p class="ai-label" role="note"><strong>{SITE.authors[route.id].label[route.lang] || SITE.authors[route.id].label.en}.</strong> {route.lang === 'de' ? 'Kein Mensch, keine erfundene Biografie, kein Foto. Beaufsichtigt von' : 'Not a person, no invented biography, no photo. Supervised by'} <a href={SITE.authors[SITE.authors[route.id].supervisor].url}>{SITE.authors[SITE.authors[route.id].supervisor].name}</a>.</p>
@@ -56,6 +60,7 @@ const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG 
 		<p class="lede">{route.description}</p>
 		{changelogHtml && <div class="changelog" set:html={changelogHtml} />}
 		{route.posts.length > 0 ? <PostList posts={route.posts} lang={route.lang} /> : route.kind !== 'changelog' && <p>{route.lang === 'de' ? 'Hier ist noch nichts erschienen.' : 'Nothing published here yet.'}</p>}
-		<p><a href={markdownMirrorPath(route.path)}>Markdown</a></p>
+		<p class="meta"><a href={markdownMirrorPath(route.path)}>Markdown</a></p>
+		</>}
 	</Base>
 )}

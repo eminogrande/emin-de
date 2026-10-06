@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-2020-investment-protocol-a-crisis-management-case-study/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/the-2020-investment-protocol-a-crisis-management-case-study/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 0
   unobserved: 217
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-2020-investment-protocol-a-crisis-management-case-study/"
 ---
 ![](../../../media/the-2020-investment-protocol-a-crisis-management-case-study/cover.jpg)
 

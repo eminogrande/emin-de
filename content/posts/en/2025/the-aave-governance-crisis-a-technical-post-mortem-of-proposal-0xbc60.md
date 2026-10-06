@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/the-aave-governance-crisis-a-technical-post-mortem-of-propos/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/the-aave-governance-crisis-a-technical-post-mortem-of-proposal-0xbc60/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 7
   unobserved: 204
 emin_check_pct: null
+original_url: "https://emino.app/posts/the-aave-governance-crisis-a-technical-post-mortem-of-propos/"
 ---
 ![](../../../media/the-aave-governance-crisis-a-technical-post-mortem-of-proposal-0xbc60/cover.jpg)
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://medium.com/@em/the-echoes-of-cold-war-diplomacy-romania-tanzania-zanzibar-and-the-legacy-of-the-1972-visa-10c2415eacf9"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/the-echoes-of-cold-war-diplomacy-romania-tanzania-zanzibar-and-the-legacy-of-the/01-04b74700.jpeg"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 13
   unobserved: 355
 emin_check_pct: null
+original_url: "https://medium.com/@em/the-echoes-of-cold-war-diplomacy-romania-tanzania-zanzibar-and-the-legacy-of-the-1972-visa-10c2415eacf9"
 ---
 # The Echoes of Cold War Diplomacy: Romania, Tanzania / Zanzibar, and the Legacy of the 1972 Visa Abolition Agreement
 

@@ -10,7 +10,6 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
-canonical: "https://emino.app/posts/a-darwin-like-quantum-thought-experiment-entanglement-compet/"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/a-darwin-like-quantum-thought-experiment-entanglement-competition-of-states-and/cover.webp"
@@ -18,6 +17,7 @@ voice_check:
   em_dash: 12
   unobserved: 277
 emin_check_pct: null
+original_url: "https://emino.app/posts/a-darwin-like-quantum-thought-experiment-entanglement-compet/"
 ---
 <img>
 A readable reconstruction of the full chain of questions about Darwin-like behavior in quantum physics: what entanglement really implies (and what it can’t do), why measurement and decoherence feel like ‘selection,’ what degrees of freedom can be entangled, where nuclear spin fits, and the cleanest experiment-style test for a Darwin-like mechanism (Quantum Darwinism).

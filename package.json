@@ -19,14 +19,18 @@
     "test": "node --test tests/*.test.mjs",
     "traffic": "node plugins/traffic-report.mjs",
     "indexnow": "node plugins/indexnow.mjs",
-    "verify:all": "node scripts/verify-all.mjs"
+    "verify:all": "node scripts/verify-all.mjs",
+    "import:staging": "node scripts/import-staging.mjs",
+    "migrate:canonical": "node scripts/migrate-canonical.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/newsreader": "^5.3.0",
     "astro": "^6.1.8",
     "rehype-sanitize": "^6.0.0"
   },
   "devDependencies": {
-    "lighthouse": "^13.3.0"
+    "lighthouse": "^13.3.0",
+    "playwright": "^1.63.0"
   },
   "engines": {
     "node": ">=22"
