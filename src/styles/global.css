@@ -181,7 +181,7 @@ main { display: block; }
 .art-story__copy > * { max-width: 42rem; }
 .art-story__basically { align-self: start; position: sticky; top: 2.5rem; }
 .art-story__summary { margin: 0; color: var(--heading); font-family: var(--head-face); font-size: var(--fs-head); font-weight: 400; line-height: 1.12; letter-spacing: -0.02em; text-wrap: pretty; }
-.art-story__summary strong { display: block; margin-bottom: 1rem; color: var(--muted); font-family: var(--text-face); font-size: var(--fs-text); font-weight: 700; letter-spacing: 0; line-height: 1.5; }
+.art-story__summary strong { display: block; margin-bottom: 1.25rem; color: var(--heading); font-family: var(--text-face); font-size: var(--fs-text); font-weight: 700; letter-spacing: 0; line-height: 1.5; }
 
 .prose { min-width: 0; }
 .prose > :first-child { margin-top: 0; }
