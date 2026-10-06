@@ -20,6 +20,14 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music-11a443009d69"
+tldr:
+  - "In the 1930s the pickup and the amplifier turned the guitar into a new instrument."
+  - "Musicians in Turkey, Japan, Nigeria, Mali and Brazil used it to reinvent their own traditions."
+  - "For many of them it became a tool of rebellion, not just a louder sound."
+basically:
+  the-electric-guitar-goes-global: "Turkey, Japan, Nigeria, Mali and Brazil plugged their own traditions into the amp."
+  rebellion-and-new-ideas: "The electric guitar was not about throwing the past away. It was about plugging it in."
+  twenty-songs-to-listen-to: "Twenty tracks from Anatolian rock to Krautrock and Korean psych, each with a YouTube link."
 ---
 ![](../../../media/the-electric-revolution-how-the-guitar-and-amplifier-transformed-global-music/01-d5eba4eb.jpeg)
 
@@ -58,6 +66,8 @@ What started in the 1930s as a simple marriage of two inventions is now a big fo
 So yes, when the electric guitar and the amp came together, the world went a little crazy. Musicians everywhere saw a chance to rewrite their musical DNA, to take their own heritage and plug it in. And the result was a global explosion of sound and new ideas that still inspires artists today.
 
 With the electric guitar and the amp, musicians didn't just change music. They changed the world.
+
+## Twenty songs to listen to
 
 1. Erkin Koray - "Cemalim" (Turkey, Anatolian Rock)
 https://www.youtube.com/watch?v=AWn8hTANV7E

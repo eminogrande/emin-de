@@ -20,6 +20,9 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100009-language-meaning-and-consciousness/"
+tldr:
+  - "A plain guide to how Chomsky, Searle, Jaynes and others explain consciousness through language and meaning."
+  - "No single model explains everything yet, but reading across them gives a less dogmatic picture."
 ---
 This is a long guide in simple words, so people who are new to all of this can still follow it. The goal is to explain each point on the map clearly and fairly.
 

@@ -19,10 +19,22 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/an-interview-with-emil-wagner-from-ape-unit-berlin-about-the-the-future-of-software-planning-with-fa20225e8fa1"
+tldr:
+  - "Software planning is moving from coordinating developers to orchestrating AI agents."
+  - "Emil Wagner's advice is to think in shippable milestones first and in tasks second."
+  - "Agents need acceptance criteria, the current docs and a repository that holds the whole plan."
+basically:
+  from-task-lists-to-milestones: "Split the project into milestones that each ship, and the tasks almost write themselves."
+  what-tests-are-for: "Tests force you to say what the code should do. Define them first and let AI write the rest."
+  briefing-the-agents: "Give agents milestones, acceptance criteria and the current docs, or they charge ahead blind."
+  let-the-system-interview-you: "I want a tool that interviews me and tells me what is hard, easy or impossible to build."
+  dependencies-and-one-repository-for-everything: "Code, milestones, a dependency chart and a living doc can all sit in one Git repository."
 ---
 # An Interview with Emil Wagner from Ape Unit Berlin about the Future of Software Planning with AI
 
 This is a talk I had with Emil Wagner from Ape Unit Berlin about how software planning changes with AI. We start with the old way, where you break a project into small tasks, find the dependencies, and use docs and Google when you hit a problem. Then we look ahead, where you orchestrate AI agents to do those tasks, and they need clear instructions and a controlled environment so they stick to the scope. The main theme is that the hard part is not writing the code. It's the planning and the detailed briefing of the features and goals before that, maybe split into milestones or a product roadmap, before you even get to single tasks.
+
+## From task lists to milestones
 
 ### Emin Mahrt
 
@@ -44,6 +56,8 @@ Take Tidy. On that product we worked with a continuous operation idea. Every sin
 
 So long before I write tasks, I describe goals for each milestone. Once those are clear it's a lot easier to break the goals into tasks. You ask what has to be done so that Milestone 1 is true. Think about Wallet Version 1. Maybe it can only send and receive a transaction. Version 2 adds social recovery. Version 3, and so on. After that people can often write their own tasks, and that's great because they understand them better and you avoid misunderstandings.
 
+## What tests are for
+
 ### Emin Mahrt
 
 What about tests?
@@ -55,6 +69,8 @@ Everything has to get done, just not always by the same person. In a bigger team
 A big benefit, especially in big teams, is shared understanding. Tests, code reviews and docs are all tools to share knowledge.
 
 I also read about an approach where you define only the tests and let an AI write all the code that's needed to pass them. For example, when a transaction is broadcast the API must return a transaction hash, and if it doesn't, something is broken and you go and look. You end up writing more tests than you normally would, but the principle is sound.
+
+## Briefing the agents
 
 ### Emin Mahrt
 
@@ -74,6 +90,8 @@ Maybe don't list every task there. Put in the milestones, the deliverables for e
 
 Copy and pasting the relevant docs straight in helps a lot.
 
+## Let the system interview you
+
 ### Emin Mahrt
 
 I'd love a blueprint that shows what a founder, or anyone, needs to prepare so that later, whether it's a human or a machine, they can build it cleanly.
@@ -89,6 +107,8 @@ But I could do it so much better if I had your knowledge. Of course everything c
 ### Emil Wagner
 
 Try to break it down before you get to tasks. Think product roadmap first. What must version 0.1 of the app do? Start with the simplest piece. Maybe it can send and receive one transaction. Keys have to be generated, fine. The next version adds social recovery. Iterate. Some of your charts cover a lot of backend plumbing, stitching different services together. Maybe treat those as separate steps, backend functionality first, then UI, then more features.
+
+## Dependencies and one repository for everything
 
 ### Emin Mahrt
 

@@ -20,10 +20,18 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/how-to-optimize-blog-for-ai-search/"
+tldr:
+  - "AI search optimization makes content easy for models like ChatGPT, Claude and Gemini to find and understand."
+  - "The five steps are llms.txt, clear headings, structured data, topic clusters and letting AI crawlers in."
+basically:
+  five-things-to-do: "llms.txt, clear headings, JSON-LD, topic clusters and an open door for AI crawlers."
+  measuring-it-and-a-few-more-tips: "Track AI referrals and citations, write clear, add Q&A and keep content fresh."
 ---
 ![](../../../media/how-to-optimize-your-blog-for-ai-search-engines-in-2025/cover.jpg)
 
 AI search optimization means you make your content easy to find and easy to understand for large language models (LLMs) like ChatGPT, Claude and Google Gemini. It's different from classic SEO, because for AI it's more about structured content and about being clear what a page means.
+
+## Five things to do
 
 There are 5 things you can do. First, put an llms.txt file at the root of your domain. It tells AI systems which content of yours matters most.
 
@@ -34,6 +42,8 @@ Third, add structured data. JSON-LD schema markup helps AI understand what kind 
 Fourth, build topic clusters and keep related content together. Write full guides on specific topics, link the related articles to each other, and look at a topic from different sides.
 
 Fifth, let the AI crawlers in. Allow them explicitly in your robots.txt file.
+
+## Measuring it and a few more tips
 
 Then you want to know if it works. Watch the referral traffic that comes from AI platforms, how often your brand shows up in answers from AI, and how often AI answers cite you.
 

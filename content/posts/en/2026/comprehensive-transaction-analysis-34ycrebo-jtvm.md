@@ -20,12 +20,23 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/comprehensive-transaction-analysis-34ycrebo-jtvm/"
+tldr:
+  - "A breakdown of one NEAR mainnet transaction from v4v.near to the Paras marketplace contract."
+  - "It ran mt_transfer_call on the NEP-245 multi-token standard and used 15.42 TGas, about $0.00008."
+  - "The marketplace could see the transfer right away and handle the next step, most likely a trade or a listing."
+basically:
+  the-basics: "A successful NEAR mainnet call from v4v.near to the Paras marketplace for less than a cent."
+  what-mt_transfer_call-does: "One call moves a NEP-245 token and tells the receiving contract to act on it right away."
+  inside-the-transaction: "Check ownership, check the 1 yoctoNEAR deposit, move the balance, then notify the receiver."
+  what-it-means: "A tiny fee moved a token on Paras and let the marketplace handle the next step at once."
 ---
 ![](../../../media/comprehensive-transaction-analysis-34ycrebo-jtvm/cover.jpg)
 
 # Transaction Analysis of 34yCReBo...jtVM
 
 This is one transaction on NEAR, and I go through it in six short parts, from who sent it to what it means.
+
+## The basics
 
 The transaction hash is 34yCReBoTyb12hH33xVdydoNJE5s58Kb1VeWYwY7jtVM and it ran on NEAR Protocol mainnet. The status is success and it's finalized. The signer, so the sender, is v4v.near, and the receiver contract is x.paras.near, which is the main Paras marketplace contract.
 
@@ -40,5 +51,7 @@ NEP-245 is the NEAR version of ERC-1155 on Ethereum. It's built to be a Swiss Ar
 ## Inside the transaction
 
 The standard in the event log is `nep245` and the event is `mt_transfer`, and the logic inside ran in four steps. First the contract checks that the sender (`v4v.near`) owns the `token_id`. Then it checks that the 1 yoctoNEAR deposit is there, as a security check. In step three the balance of the `token_id` is taken from the sender and added to the receiver. And at the end the `on_mt_transfer` callback is triggered on the receiver contract to confirm it has accepted the assets.
+
+## What it means
 
 So this was a cheap and efficient move of a digital asset on the Paras marketplace. You paid a tiny fee of about $0.00008 to move a token that uses the newer NEP-245 standard, and because of that the marketplace could see the transfer right away and handle the next step, most likely a trade or a listing.

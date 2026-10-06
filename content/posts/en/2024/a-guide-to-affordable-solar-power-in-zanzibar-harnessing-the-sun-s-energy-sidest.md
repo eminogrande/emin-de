@@ -20,6 +20,15 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/a-guide-to-affordable-solar-power-in-zanzibar-harnessing-the-suns-energy-sidestepping-pitfalls-7181fb60620a"
+tldr:
+  - "Zanzibar gets around 3,000 hours of sun a year, and solar parts can be imported tax-free."
+  - "The market is full of bad hardware and scams, so check anyone before you pay."
+  - "With good parts and a qualified electrician, a system pays for itself in under three years."
+basically:
+  why-solar-in-zanzibar: "About 3,000 hours of sun a year and tax-free import make solar an easy call in Zanzibar."
+  how-to-do-it: "Learn first, buy from trusted suppliers, import tax-free and hire a qualified local electrician."
+  my-offer-and-prices: "Free WhatsApp consultations, and 2024 prices from $130 per kWh for high volt panels."
+  does-it-pay-off: "With the right setup the system pays for itself in under three years."
 ---
 ![](../../../media/a-guide-to-affordable-solar-power-in-zanzibar-harnessing-the-sun-s-energy-sidest/01-4b383433.png)
 
@@ -50,6 +59,8 @@ Import them tax-free. Use forwarding and import companies you trust, so everythi
 Get a local electrician. Pick someone qualified and experienced, who follows safety standards and does the job right.
 
 Then use your clean power. Most systems pay for themselves within a few years through what you save on electricity.
+
+## My offer and prices
 
 I offer free consultations on WhatsApp at +13103408213. I can help you choose parts and with importing, installation and maintenance. I can also send you to good local electricians, and if you want, I can handle the full import and installation for you.
 

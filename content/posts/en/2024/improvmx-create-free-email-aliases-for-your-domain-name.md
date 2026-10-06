@@ -20,6 +20,8 @@ voice_check:
   unobserved: 16
 emin_check_pct: null
 original_url: "https://medium.com/@em/improvmx-create-free-email-aliases-for-your-domain-name-2896da5ed89b"
+tldr:
+  - "ImprovMX forwards email from your own domain to Gmail for free."
 ---
 ## Set Up Email Forwarding in Seconds and Start Receiving and Sending Emails with Your Domain Name. Absolutely Free. Rock-Solid Infrastructure. World-Class Support.
 

@@ -19,20 +19,46 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/theory-versus-reality-the-manipulation-of-the-masses-through-media-and-technology-e870c6e29d48"
+tldr:
+  - "My 2005 school thesis argues that no political power holds without manipulating the masses through media."
+  - "It starts with what I saw in China and runs through Machiavelli, Orwell, hackers, fake photos and Nazi radio."
+  - "The answer it gives is critical thinking, media literacy and more transparency about who owns media."
+basically:
+  the-thesis-in-short: "No political power holds without manipulating the masses through media. That is the whole thesis."
+  what-i-saw-in-china: "China showed me how censorship erases Tiananmen and swallows an email about democracy."
+  the-theory-from-machiavelli-to-packard: "Machiavelli put a bridle on the press. Joly, Orwell, Postman and Packard show it never came off."
+  surveillance-and-computer-crime: "Hackers, data profiles and Bluetooth. The more surveillance we accept, the easier we are to steer."
+  fake-realities-and-historical-regimes: "From Wag the Dog to staged photos and Nazi radio, invented reality has always served power."
+  numbers-and-the-conclusion: "The internet grows faster than its security. The answer is media literacy and transparency."
+  table-of-contents: "Eight chapters, from defining manipulation to China, theory, hackers, fake images and statistics."
+  chapter-1-manipulation-attempting-a-definition: "Manipulation is covert influence for power or profit, and the truth often comes out decades too late."
+  chapter-2-my-own-experiences-in-china: "A school trip to Beijing taught me more about censorship than any secondhand source could."
+  chapter-3-manipulation-as-political-theory: "Every government controls its people to some degree. These thinkers explain how and why."
+  chapter-4-control-by-modern-media: "Hackers and data collection show what everyday technology can do, for good and for evil."
+  chapter-5-creative-reality-where-are-the-limits: "Digital tools blur fiction and truth, and what Star Trek imagined is normal today."
+  chapter-6-selected-historical-examples: "Nazi Germany, China, Saudi Arabia and Russia all used media to control the story and crush dissent."
+  chapter-7-statistics: "The numbers on internet growth and virtual crime back up every chapter before them."
+  chapter-8-epilogue: "Some media control keeps order. The scale of it worries me, and the fight is for truth."
 ---
 The work was created in 2005 and 2006 by Emin Mahrt.
 
 Here is a link to the original paper, written in 2005, as part of a thesis at school in combination of politics and information technology. [https://drive.google.com/file/d/1PCTy6tUDWhWEgS2F0Lx9US6zSw0vrX-c/view?usp=sharing](https://drive.google.com/file/d/1PCTy6tUDWhWEgS2F0Lx9US6zSw0vrX-c/view?usp=sharing)
 
+## The thesis in short
+
 This thesis is about the manipulation of the masses through media and technology, and the argument is that it's everywhere in modern society. It goes from quiet propaganda to open censorship, and it uses historical and current examples, my own experiences, political theory and books to show how far it reaches.
 
 The central argument is that no political entity can truly maintain power without manipulating the masses through media. This manipulation takes many forms, from the quiet framing of information to the open suppression of other voices. The thesis looks at historical and current cases, with examples from Germany under Nazi rule, China today, Saudi Arabia, and Russia under Putin.
+
+## What I saw in China
 
 It starts with my own experiences in China in 2001. These experiences, and especially the stories about the Tiananmen Square massacre and the state censorship of media everywhere, made me really interested in who controls information and how.
 
 I learned about the government's suppression of system critics and human rights activists, and I saw the big gap between the clean information given to tourists and the reality of political repression. Standing in Tiananmen Square, where thousands of peaceful protesters were brutally murdered just a decade earlier, showed me how well media censorship can erase uncomfortable truths from what people know.
 
 I also tried to test the limits of email censorship by sending an email full of keywords about democracy and human rights. The email, as expected, never reached its destination, and that showed how much control the Chinese government has over the flow of information and how advanced the tools are that it uses for this.
+
+## The theory, from Machiavelli to Packard
 
 Then the thesis looks at the theory behind manipulation, with thinkers like Machiavelli and Montesquieu.
 
@@ -50,6 +76,8 @@ Neil Postman's “We Have Fun to Death” is about the influence of visual media
 
 Vance Packard's “The Hidden Persuaders” is about the manipulative techniques in advertising. Using psychological research, it shows how marketers use our desires and fears to influence what we buy. Packard shows that manipulative messages are everywhere, not only in politics but also in everyday consumer culture.
 
+## Surveillance and computer crime
+
 Next the thesis looks at modern media control, and at how information technology makes surveillance and manipulation easier.
 
 I tell the case of Boris F., a brilliant computer specialist who died young under strange circumstances. Officially it was a suicide, but there is evidence that Boris F. was being monitored by several intelligence agencies, including the CIA, and that raises questions about why he died. Boris F. could get into systems that were supposed to be secure, like the Pentagon's computer network, and that shows how open modern information infrastructure is to skilled people, and how risky it can be to have that kind of knowledge.
@@ -61,6 +89,8 @@ I look at the modern system of gathering and evaluating information, and at the 
 The thesis also looks at how far surveillance technology goes, with techniques like email monitoring, data mining, “wireless” networks and “Bluetooth” technology. These technologies are often sold as conveniences, but they give governments and corporations strong tools to track people, monitor their communications and even get to their personal data.
 
 I argue that when everyone uses these technologies, and people more and more accept surveillance in the name of security, it gets very easy to manipulate and control them. So we need more awareness of these dangers and a critical look at the trade-off between security and privacy in a world where everything is connected.
+
+## Fake realities and historical regimes
 
 The thesis also shows how new media technology, especially digital manipulation, blurs the line between fiction and reality, so it gets harder and harder to tell what is true and what is made up.
 
@@ -83,6 +113,8 @@ China controls all forms of media, including the internet, and the government ke
 Saudi Arabia's “Internet Service Unit” (ISU) is an example of a government agency that filters online content and blocks websites it finds inappropriate. The ISU filters a lot of websites about religion, politics, sexuality and even Western culture, and that shows how the government controls access to information and shapes public opinion.
 
 Russia under Putin is a case study of a government that controls media through censorship, intimidation and a pro-government story. The thesis looks at the case of the ABC television network, which was barred from working in Russia after it broadcast an interview with a Chechen rebel leader. This, and the government's heavy control over state-run media, shows how hard it is for independent journalists and how limited the freedom of the press is in Putin's Russia.
+
+## Numbers and the conclusion
 
 The thesis also uses statistics to show how fast the internet grew and how virtual crimes went up, and how a world that gets more and more connected also gets more vulnerable.
 

@@ -19,6 +19,16 @@ emin_check_pct: 54
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/re-architecting-the-blockchain-execution-layer-how-the-fate-/"
+tldr:
+  - "Dr. Erik Stenman designed FATE, Aeternity's strongly typed VM, to fix the old mistakes of the EVM."
+  - "It drops flat memory and arbitrary jumps and builds real data types and maps into the VM."
+  - "Compiled code is about 10 times smaller and runs 3 times faster than on the EVM."
+basically:
+  no-more-flat-memory: "FATE swaps raw memory pointers for typed variables, so a boolean can only be read as a boolean."
+  functions-and-basic-blocks-instead-of-jumps: "Callers name a typed function and code runs in basic blocks, so invalid jumps cannot happen."
+  real-data-types-in-the-vm: "Unbounded integers, lists, tuples and native blockchain types remove piles of compiler bloat."
+  maps-outside-normal-storage: "State maps live in the state tree, and FATE only reads the exact elements you ask for."
+  the-benchmark: "FATE bytecode is about 9.6 times smaller than EVM bytecode and runs three times faster."
 ---
 If you look at the Ethereum Virtual Machine (EVM) like a
 language designer, and you care about safety down at the
@@ -42,6 +52,8 @@ faster than the EVM version before it.
 
 So here is what Stenman did to make the "Ethereum EVM
 paradigm" better.
+
+## No more flat memory
 
 The first thing is memory. One of the most dangerous parts of
 the EVM is that it works with raw memory pointers. Smart
@@ -68,6 +80,8 @@ So developers don't have to handle complex storage pointers by
 hand anymore, like the `SLOAD` and `SSTORE` key derivations in
 the EVM.
 
+## Functions and basic blocks instead of jumps
+
 The second thing is control flow. The EVM depends on program
 counters (PC) and jumps to any place in the code. A contract
 on the EVM starts running at address `0x00`, it's one giant
@@ -91,6 +105,8 @@ block that is clearly marked. So the "invalid jump
 destination" bugs you know from EVM bytecode just can't happen
 by design.
 
+## Real data types in the VM
+
 The third thing is data types. The EVM knows exactly one data
 type, a 256-bit word. If you want strings, lists, arrays or
 really big numbers, the compiler has to inject thousands of
@@ -112,6 +128,8 @@ When you work with them the VM runs native opcodes that plug
 right into the transaction mechanics of the node, so you skip
 all the overhead of external calls in the EVM.
 
+## Maps outside normal storage
+
 The fourth thing is maps. In the EVM a mapping (a key-value
 store) works by hashing the key together with the storage slot
 position, and that gives a random 256-bit storage address.
@@ -126,6 +144,8 @@ A developer just uses the map like a normal map, and the FATE
 engine waits and batches the real reads and writes to the
 state tree, and it only reads exactly the elements you ask
 for.
+
+## The benchmark
 
 So by taking out flat memory, adding native high-level types
 and using strict basic-block control flow, Stenman got rid of

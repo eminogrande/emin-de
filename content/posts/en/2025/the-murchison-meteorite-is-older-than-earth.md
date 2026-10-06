@@ -20,6 +20,14 @@ voice_check:
   unobserved: 206
 emin_check_pct: null
 original_url: "https://medium.com/@em/this-space-rock-is-older-than-earth-and-you-can-own-a-piece-%EF%B8%8F-af0b0f74fc6f"
+tldr:
+  - "The Murchison meteorite fell in 1969 and holds presolar grains older than the Sun."
+  - "It contains amino acids, which hints that some building blocks of life came from space."
+  - "Murchison.net offers 42 jewelry pieces with fragments and plans fractional ownership."
+basically:
+  a-time-capsule-from-the-birth-of-the-solar-system: "Murchison fell in 1969 and carries stardust from stars older than our Sun, plus amino acids."
+  own-a-piece-of-the-universe: "Only 42 jewelry pieces with Murchison fragments will exist, and fractional ownership is coming."
+  the-facts: "A 4.6 billion year old carbonaceous chondrite, a type that makes up only 4% of meteorite falls."
 ---
 ![](../../../media/the-murchison-meteorite-is-older-than-earth/01-e2a3b611.png)
 
@@ -27,6 +35,8 @@ The short version. The Murchison meteorite has presolar grains, stardust that is
 
 ![](../../../media/the-murchison-meteorite-is-older-than-earth/02-11d1bb27.jpeg)
 *a piece of the Murchison meteorite*
+
+## A time capsule from the birth of the solar system
 
 Diamonds may be a girl's best friend, but to be honest, in space they are pretty new. If you want something really special, something from the beginning of the universe, look at the Murchison meteorite. As Douglas Adams said, "Space is big. Really big. You just won't believe how vastly, hugely, mind-bogglingly big it is." And this meteorite has seen a lot of it.
 
@@ -53,6 +63,8 @@ The Murchison meteorite reminds us how much wonder there is in the universe and 
 Want to learn more about it? Check out this documentary. It takes you through the history of the universe and what this meteorite means for us.
 
 [www.murchinson.net](http://murchinson.net)
+
+## The facts
 
 The Murchison meteorite contains pre-solar stardust. That means it's older than the solar system. It is very valuable because it is a time capsule from the early solar system. It's 4.6 billion years old and hasn't changed much since it formed.
 

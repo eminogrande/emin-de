@@ -20,8 +20,19 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/calendly-invitation-not-syncing-with-your-google-calendar-heres-what-to-do-2ffce8920233"
+tldr:
+  - "Calendly invites often miss Google Calendar because of an anti-spam setting."
+  - "Switch Add invitations to my calendar to From everyone in the web settings."
+  - "If you are the host, send Calendar Invitations, not Email Confirmations."
+basically:
+  fix-the-google-calendar-setting: "Set Add invitations to my calendar to From everyone, on the web, not in the app."
+  email-confirmation-or-calendar-invitation: "If the host sends email confirmations, nothing lands on its own. Add the .ics yourself."
+  if-you-send-calendly-links-yourself: "In your Calendly event type, pick Calendar Invitations instead of Email Confirmations."
+  why-google-got-stricter: "Stricter spam rules at Google are behind it, and allowing all invitations fixes it."
 ---
 You booked a meeting with someone's Calendly link, and the invitation just doesn't show up in your Google Calendar anymore. That happens to a lot of people. It can be a simple setting, or it can come from changes in how Google handles invitations from other apps. This is how you find out what it is and fix it.
+
+## Fix the Google Calendar setting
 
 ![](../../../media/calendly-invitation-not-syncing-with-your-google-calendar-here-s-what-to-do/01-d0975700.png)
 *Go to Google calendar settings on the web.*
@@ -38,11 +49,15 @@ Most of the time it's a setting in your own Google Calendar that is there to sto
 
 After that, all invitations get added to your calendar automatically, also the ones that come from Calendly's notification system.
 
+## Email confirmation or calendar invitation
+
 The person whose Calendly link you used can send either an "Email Confirmation" or a "Calendar Invitation".
 
 An email confirmation is just an email with the meeting details. It may have an ".ics" file attached that you have to click yourself to add the meeting to your calendar. A calendar invitation is a real event invitation that your calendar, like Google Calendar, can read and add on its own.
 
 If the meeting never gets added automatically, the host probably has their Calendly event type set to "Email Confirmation". You can't change that on your side, but you can still add the event yourself from the confirmation email.
+
+## If you send Calendly links yourself
 
 If you are the one sending Calendly links yourself and the people who book with you have this problem, check your event settings in Calendly.
 
@@ -52,6 +67,8 @@ If you are the one sending Calendly links yourself and the people who book with 
 1. Log in to your Calendly account.
 1. Go to the Event Type that has the problem.
 1. In "Notifications" or a section like that, make sure you picked "Calendar Invitations" and not "Email Confirmations".
+
+## Why Google got stricter
 
 Google has made its spam rules for Google Calendar stricter, and that sometimes changes how invitations from other apps like Calendly get handled. For you as a user the fix is still the Google Calendar setting from the first step. When you allow invitations from everyone, you tell Google to trust these events.
 

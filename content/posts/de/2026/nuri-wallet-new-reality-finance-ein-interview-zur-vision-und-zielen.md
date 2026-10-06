@@ -19,8 +19,20 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/nuri-wallet-new-reality-finance-ein-interview-zur-vision-und-zielen-898d86b4d50c"
+tldr:
+  - "Ein Interview mit mir selbst zum neuen Nuri."
+  - "Passkeys erzeugen die Schlüssel, und niemand außer dir kommt an dein Geld, auch Nuri nicht."
+  - "Nuri ist keine Bank, sondern ein Money Browser, Open Source und noch ein Forschungsvorhaben."
+basically:
+  ziel-und-zielgruppe: "Jeder soll digitales Geld selbst besitzen können, ohne Bankkonto und ohne Dritte."
+  technik-und-sicherheit: "Passkeys erzeugen über PRF die Schlüssel, verteilt auf mehrere Systeme statt auf ein Passwort."
+  bezahlen-und-warum-nuri-keine-bank-ist: "Visa und IBAN laufen über Partner. Fällt einer aus, bleibt das Geld trotzdem in deinem Wallet."
+  forschung-open-source-und-ki: "Recovery, Vererbung und Post-Quantum sind ungelöst. Offener Code macht das Vertrauen prüfbar."
+  wie-nuri-geld-verdient: "Keine Kontogebühren. Wir verdienen an einer kleinen Gebühr, wenn du in der App tauschst."
 ---
 Ein Interview mit mir selbst zum new Nuri
+
+## Ziel und Zielgruppe
 
 Was ist das Kernziel von Nuri?
 
@@ -34,6 +46,8 @@ Für wen ist Nuri gedacht?
 
 Für jeden. Besonders wertvoll ist es für Menschen, die keinen Zugang zu klassischem Banking haben (z. B. Geflüchtete oder Menschen in Ländern mit schwacher Infrastruktur), aber auch für sicherheitsbewusste Nutzer, die die volle Kontrolle über ihre digitalen Werte zurückgewinnen wollen.
 
+## Technik und Sicherheit
+
 Was ist die technische Kerninnovation von Nuri?
 
 Wir nutzen Passkeys (WebAuthn) nicht nur zum Login, sondern zweckentfremden sie zur Erzeugung kryptografischer Schlüssel. Über die sogenannte Pseudo-Random-Function (PRF) leiten wir aus deinem biometrischen Merkmal (Face ID/Fingerabdruck) sichere „Secrets“ ab, mit denen du Transaktionen auf der Blockchain signieren kannst.
@@ -46,6 +60,8 @@ Was passiert, wenn ich mein Smartphone verliere?
 
 Das ist ein zentraler Bestandteil unserer Forschung. Wir entwickeln Mechanismen zur Schlüsselrotation und Wiederherstellung. Du kannst verlorene Geräte sperren und den Zugang über Backup-Schlüssel oder alternative Verifizierungswege wiederherstellen, ohne dass die Selbstverwahrung aufgehoben wird.
 
+## Bezahlen, und warum Nuri keine Bank ist
+
 Kann ich mit Nuri auch im Supermarkt bezahlen?
 
 Ja. Obwohl dein Geld sicher in deinem eigenen Wallet liegt, bieten wir über Partner Brücken in die klassische Finanzwelt an. Ein Visa-Partner ermöglicht Kartenzahlungen und Apple Pay. Ein IBAN-Partner (z.B. Monerium) erlaubt SEPA-Überweisungen direkt aus dem Wallet heraus (z. B. für die Miete). Das Besondere ist, fällt ein Partner aus, bleibt dein Geld dennoch sicher in deinem Wallet. Nur die Zusatzfunktion verschwindet.
@@ -53,6 +69,8 @@ Ja. Obwohl dein Geld sicher in deinem eigenen Wallet liegt, bieten wir über Par
 Ist Nuri eine Bank?
 
 Nein. Nuri ist eher ein „Money Browser“. Wir stellen die Technologie bereit, mit der du direkt mit dezentralen Netzwerken (Blockchains) interagierst. Wir verwahren kein Geld und haben keine Kontrolle über dein Vermögen.
+
+## Forschung, Open Source und KI
 
 Warum ist das Projekt ein Forschungsvorhaben?
 
@@ -65,6 +83,8 @@ Vertrauen muss verifizierbar sein. Durch die Offenlegung unseres Quellcodes kön
 Welche Rolle spielt KI in der Zukunft von Nuri?
 
 Wir bereiten den Weg für die „Agent-Economy“. In Zukunft können KI-Assistenten Zahlungen für dich vorbereiten oder Rechnungen prüfen. Durch unsere sichere Signatur-Infrastruktur behältst du dabei immer die letzte Kontrolle. Die KI schlägt vor, aber du gibst die Zahlung per Face ID final frei.
+
+## Wie Nuri Geld verdient
 
 Wie verdient Nuri Geld, wenn es keine Kontogebühren gibt?
 

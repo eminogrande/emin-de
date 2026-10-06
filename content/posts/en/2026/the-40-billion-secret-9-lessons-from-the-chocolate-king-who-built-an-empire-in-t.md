@@ -20,6 +20,16 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-/"
+tldr:
+  - "A summary of a video about Michele Ferrero, who built the Ferrero Group behind Nutella, Kinder and Tic Tac."
+  - "The nine lessons cover the product, obsession, new categories, secrecy, workers, machines, control, detail and the customer."
+  - "His customer had a name, Mrs. Valeria, and he called her the real CEO."
+basically:
+  who-michele-ferrero-was: "A recluse in dark sunglasses built a debt-free $40 billion empire behind Nutella and Kinder."
+  product-obsession-and-new-categories: "Make the product great, be obsessed, and never copy the giants. Invent a new category."
+  secrecy-and-how-he-treated-his-people: "No factory tours for 65 years and 50% higher wages. In 70 years he never had a strike."
+  machines-and-the-whole-supply-chain: "He bought the strangest machines and owned everything from hazelnut farms to the trucks."
+  details-and-mrs-valeria: "Know which side of the hill the lemon grew on, and serve one customer, Mrs. Valeria."
 ---
 ![](../../../media/the-40-billion-secret-9-lessons-from-the-chocolate-king-who-built-an-empire-in-t/cover.jpg)
 
@@ -29,6 +39,8 @@ This is a summary of a video about Michele Ferrero, and everything here comes fr
 
 https://youtu.be/ksDrpn7yNEo?si=rpE0EIQJnxp-74Ze
 
+## Who Michele Ferrero was
+
 This might be one of the most incredible founder stories you will ever hear.
 
 For 70 years Michele Ferrero was the Willy Wonka of the real world. A reclusive and obsessive Italian billionaire who built a privately owned, debt-free $40 billion empire, the Ferrero Group, that owns Nutella, Tic Tac, Kinder and Ferrero Rocher.
@@ -36,6 +48,8 @@ For 70 years Michele Ferrero was the Willy Wonka of the real world. A reclusive 
 He never gave interviews, he wore dark sunglasses and he hid in his laboratory. And he repeated the same maxims to his employees 60 times a week.
 
 If you study the greats like Steve Jobs, Sam Walton or James Dyson, you see the same personality type again and again, and Michele Ferrero is that type perfected. These are the 9 lessons from a man who built a global giant and never lost his soul, or his secrets.
+
+## Product, obsession and new categories
 
 Lesson one, the product is everything. Ferrero didn't care about finance and he didn't care about marketing tricks. He cared about the product. He ran tens of thousands of experiments, and as a student, instead of studying accounting, he crushed hazelnuts and chestnuts in class and mixed them to find the perfect ratio.
 
@@ -49,6 +63,8 @@ Lesson three, don't do me-too products. His rule was simple, "Always act differe
 
 If you copy the giants they will crush you, so you have to invent a new category to win.
 
+## Secrecy and how he treated his people
+
 Lesson four, secrecy is a weapon. Ferrero was paranoid in the best way. He protected his recipes like state secrets and he forbid tours of his factories for 65 years. He even bought hazelnut orchards under shell company names so competitors wouldn't know what he was doing.
 
 Silence buys you time to experiment. Don't show your moves and let the product speak for itself.
@@ -57,6 +73,8 @@ Lesson five, "I am a socialist, but I do the socialism." This is one of the most
 
 He never had a strike in 70 years, and the reason is that he paid his workers 50% more, he bussed them in from their villages for free so they didn't have to move to the city and he gave them free medical care. Treat your people like family and they build the empire with you.
 
+## Machines and the whole supply chain
+
 Lesson six, invest in alien technology. Ferrero loved machines and he saw them as having souls. He bought the most advanced machines in the world, took them apart and customized them.
 
 One time he bought a machine so big and strange that his employees were scared of it, it looked like alien technology. But it let him produce 22,000 boxes an hour. Technology isn't a cost, it's what lets you scale your craft.
@@ -64,6 +82,8 @@ One time he bought a machine so big and strange that his employees were scared o
 Lesson seven, control everything. He didn't just make chocolate. He bought hazelnut farms in the Southern Hemisphere so he had fresh supply all year, he built his own distribution network with thousands of trucks and he engineered his own roasting machines.
 
 Don't outsource your quality. If you want it perfect, you have to own the whole chain.
+
+## Details and Mrs. Valeria
 
 Lesson eight, attention to detail wins. Ferrero could tell you which side of the hill a lemon grew on. He saw his product like an orchestra where every ingredient had to be tuned perfectly.
 

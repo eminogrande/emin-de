@@ -20,6 +20,17 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/updated-guide-to-buying-land-in-zanzibar-as-a-foreigner-in-2024-6bbea8b34f23"
+tldr:
+  - "Foreigners can buy land in Zanzibar through a local company or directly, and each way has trade-offs."
+  - "Developers get 100% ownership and 99-year leases through ZIPA, from $2.5 million for real estate."
+  - "The market is rising, but the bureaucracy is still slow."
+basically:
+  private-investors: "Buy through a local company with a Zanzibari majority partner, or in your own name."
+  step-by-step-for-private-buyers: "Eight steps from finding the plot to a 99-year lease registered in your name."
+  real-estate-developers: "Developers can own 100% with a ZIPA certificate, from $2.5 million for real estate and hotels."
+  where-the-market-is-going: "High yields, growing tourism, golden visas from $100,000 and prices below Dubai and Mauritius."
+  what-makes-it-hard: "Slow bureaucracy, competition from Mauritius and the Seychelles, and economic swings."
+  so: "Know the legal frame, follow the steps, and talk to a lawyer or ZIPA before you buy."
 ---
 This is an updated look at how foreigners can buy land in Zanzibar. The rules have changed, and you need to know where they stand now, whether you are a private investor or a real estate developer.
 

@@ -20,12 +20,25 @@ emin_check_pct: null
 voice_rewrite: "v1"
 review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/coding-with-cursor-as-key-development-tool-and-the-role-of-ai-in-coding-by-sahil-and-josh-part-1-17f1264999ae"
+tldr:
+  - "A summary of a talk with Sahil and Josh about coding with Cursor, Claude 3.5 and Tailwind CSS."
+  - "AI turns plain English prompts into code across many files, so small teams can ship much faster."
+  - "The quotes include one engineer doing the work of three and six hours saved in 30 seconds."
+basically:
+  how-ai-changes-the-workflow: "A plain English prompt now edits code across many files, and the walls between roles break down."
+  take-the-defaults: "Use Tailwind and Cursor as they come, let AI do the grunt work and iterate fast."
+  a-simple-process: "Set goals, give context, prompt clearly, review, test, then ship and learn."
+  key-takeaways: "Small teams take on bigger projects, and the biggest savings are in team communication."
+  quotes-from-the-video: "One engineer now does the work of three, and every saved hour of a senior engineer is $200."
+  the-ai-coding-revolution: "Smaller teams, lower costs, faster cycles. The future of software development runs on AI."
 ---
 A summary of a conversation with Sahil and Josh about coding with Cursor and what AI does to the way software gets built.
 
 ![](../../../media/coding-with-cursor-as-key-development-tool-and-the-role-of-ai-in-coding-by-sahil/01-7a06b5e1.png)
 
 <https://www.youtube.com/watch?v=1CC88QGQiEA>
+
+## How AI changes the workflow
 
 Software development is changing fast, and AI is the reason. Tools like Cursor, Claude 3.5 and Tailwind CSS make coding faster and easier, and open it up to a lot more people. The old walls between designers, engineers and product managers are breaking down, so the whole workflow gets simpler.
 
@@ -35,11 +48,17 @@ Tailwind CSS plays a big part in this. It's utility first, so there is a direct 
 
 What this means is big. Companies can ship features faster with smaller teams and lower costs. The old bottlenecks like design rounds, code reviews and manual testing get much smaller, and the team can react a lot quicker.
 
+## Take the defaults
+
 Take the defaults. Use Tailwind CSS and Cursor and let the AI do what it's good at. Let the AI do the grunt work and spend your own time on creative problems and on the user experience. Iterate fast, try things, build a prototype and change it quickly based on what users tell you.
 
 And don't fight the change. In their view AI is the future of software development, and you don't want to get left behind. Also don't underestimate it. These tools get better all the time, so stay curious and see how far they go.
 
+## A simple process
+
 First you set clear goals, so what the project is and what it should achieve. Then you give context and use Cursor's features to give the AI the right information about your project. You write clear prompts and describe the function or the design change in plain English. You iterate, read the code the AI wrote and give feedback. You test it well and make sure the new code works with the code you already have. And then you ship and learn, so you deploy the change and collect feedback from users.
+
+## Key takeaways
 
 Cursor makes coding a lot faster, even for people who never worked on that platform before. AI can write big parts of the code, even in a language you don't know. Tailwind keeps design simple and consistent because the design lives right in the code. With Cursor you change code right away without writing it by hand. And giving the AI specific context, also across many files, makes the code it writes more accurate.
 
@@ -48,6 +67,8 @@ A few more things came up. Tools like Cursor let small teams take on bigger and 
 If there is one thing to do, it's this. Use AI not only for coding but for the communication and collaboration of the whole team. That's where you save the most money and time, and the people on the team get to spend their time on the more important and creative work.
 
 So Cursor, Claude 3.5 and Tailwind CSS together really change how software gets built. If developers take these tools and work in this simpler way, they get a lot more done and can be more creative. The future of software development is already here, and it runs on AI.
+
+## Quotes from the video
 
 Here are exact quotes from the video, with the timestamps and what each one shows.
 
@@ -90,6 +111,8 @@ Stay open to new tools and new ways of working, even the ones you pushed back on
 "Instead of giving my engineers instructions in Notion, I can tell Cursor what I would've told them. It cuts out hours of back-and-forth communication." (at 0:30:15)
 
 AI doesn't just save time on coding. It also cuts the communication overhead, so the team works faster together.
+
+## The AI coding revolution
 
 The AI coding revolution is here, and it's f****** awesome. Cursor and Claude 3.5 change the game and you can build stuff crazy fast. The old barriers between designers, engineers and even CEOs are breaking down. Now anyone with a bit of hustle who wants to learn can design, build and ship products at a speed we never had before.
 
