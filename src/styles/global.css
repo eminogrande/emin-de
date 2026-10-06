@@ -179,3 +179,11 @@ pre code { font-size: inherit; }
 	h2 { margin-top: 2.25rem; }
 	table { min-width: 28rem; }
 }
+
+/* Blog engine additions */
+.ai-label { background: #fff7ed; border: 1px solid #fdba74; border-radius: 8px; padding: 0.75rem 1rem; }
+.provenance { color: var(--ink-soft); font-size: 0.95rem; }
+.tldr ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+a.pill { text-decoration: none; }
+article img { border-radius: 8px; }
+.changelog h2 { font-size: 1.15rem; margin-top: 2rem; }

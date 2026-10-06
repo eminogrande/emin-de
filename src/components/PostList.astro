@@ -1,0 +1,25 @@
+---
+import config from '../../site.config.mjs';
+import { t, label } from '../lib/paths.mjs';
+import { displayAuthor, authorLabel } from '../lib/content-build-shared.mjs';
+const { posts, lang, heading = 'h2' } = Astro.props;
+const H = heading;
+---
+
+<ul class="card-list">
+	{posts.map((post) => {
+		const author = config.authors[post.author];
+		return (
+			<li>
+				<a class="card" href={post.path}>
+					<H>{post.title}</H>
+					<p>{post.description}</p>
+					<span class="meta">
+						{post.date} / {label(config.categories[post.category], lang)} / {label(config.formats[post.format], lang)} / {displayAuthor(post)}
+						{author.type !== 'human' && <> / {authorLabel(post)}</>}
+					</span>
+				</a>
+			</li>
+		);
+	})}
+</ul>

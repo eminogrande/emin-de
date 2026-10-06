@@ -44,6 +44,13 @@ import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT } from '../lib/site.mjs';
 		for a person to read.
 	</p>
 
+	<h2>Who else writes here</h2>
+	<p>
+		Some short posts may come from the <a href="/author/ai-desk">AI desk</a>: an openly named AI writing desk, not a person.
+		Its posts are labelled "AI-written, human-supervised" on the page, in the Markdown mirror and in the structured data,
+		and I review them before they go live. It has no invented biography and no photo.
+	</p>
+
 	<h2>Elsewhere</h2>
 	<ul>
 		{AUTHOR_SAME_AS.map((url) => <li><a href={url} rel="me noopener">{url.replace(/^https?:\/\//, '')}</a></li>)}

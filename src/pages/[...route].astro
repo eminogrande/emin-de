@@ -1,0 +1,61 @@
+---
+// Every generated route: posts in every language, plus category, format,
+// author, archive, talks, changelog and per-language home pages. The route list
+// comes from src/lib/routes.mjs, so HTML, Markdown mirrors and the sitemap stay
+// in lockstep.
+import Base from '../layouts/Base.astro';
+import Post from '../components/Post.astro';
+import PostList from '../components/PostList.astro';
+import { CATCHALL_LIST_ROUTES, POST_ROUTES } from '../lib/routes.mjs';
+import { listSchema, postSchema } from '../lib/surfaces.mjs';
+import { changelogMarkdown } from '../lib/corpus.mjs';
+import { renderHtml } from '../lib/markdown.mjs';
+import { SITE } from '../lib/site.mjs';
+import { ogImagePath, markdownMirrorPath, DEFAULT_LANG, t } from '../lib/paths.mjs';
+
+export function getStaticPaths() {
+	return [...POST_ROUTES, ...CATCHALL_LIST_ROUTES].map((route) => ({ params: { route: route.path.slice(1) }, props: { route } }));
+}
+
+const { route } = Astro.props;
+const post = route.kind === 'post' ? route.post : null;
+const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG && changelogMarkdown ? renderHtml(changelogMarkdown.replace(/^# .*\n/, '')) : '';
+---
+
+{post ? (
+	<Base
+		title={post.seoTitle || `${post.title} | ${SITE.name}`}
+		description={post.description}
+		path={post.path}
+		lang={post.lang}
+		ogType="article"
+		ogImage={post.image || ogImagePath(post)}
+		structuredData={postSchema(post)}
+		markdownPath={post.markdownPath}
+		articleMeta={{ publishedAt: post.date, modifiedAt: post.updated, authorName: SITE.authors[post.author].name }}
+		alternates={route.alternates}
+		canonical={post.canonical}
+		noindex={post.noindex}
+	>
+		<Post post={post} alternates={route.alternates} />
+	</Base>
+) : (
+	<Base
+		title={`${route.title} | ${SITE.name}`}
+		description={route.description}
+		path={route.path}
+		lang={route.lang}
+		structuredData={listSchema(route)}
+		markdownPath={markdownMirrorPath(route.path)}
+		alternates={route.alternates}
+	>
+		<h1>{route.title}</h1>
+		{route.kind === 'author' && SITE.authors[route.id].type === 'ai_editorial' && (
+			<p class="ai-label" role="note"><strong>{SITE.authors[route.id].label[route.lang] || SITE.authors[route.id].label.en}.</strong> {route.lang === 'de' ? 'Kein Mensch, keine erfundene Biografie, kein Foto. Beaufsichtigt von' : 'Not a person, no invented biography, no photo. Supervised by'} <a href={SITE.authors[SITE.authors[route.id].supervisor].url}>{SITE.authors[SITE.authors[route.id].supervisor].name}</a>.</p>
+		)}
+		<p class="lede">{route.description}</p>
+		{changelogHtml && <div class="changelog" set:html={changelogHtml} />}
+		{route.posts.length > 0 ? <PostList posts={route.posts} lang={route.lang} /> : route.kind !== 'changelog' && <p>{route.lang === 'de' ? 'Hier ist noch nichts erschienen.' : 'Nothing published here yet.'}</p>}
+		<p><a href={markdownMirrorPath(route.path)}>Markdown</a></p>
+	</Base>
+)}

@@ -1,70 +1,115 @@
 ---
-// The only layout. Every page gets the full head: canonical, OG, entity schema,
-// discovery link rels, and the markdown mirror pointer. Keeping this in one file
-// is what stops a page from silently shipping without its machine surface.
+// The only layout. Every page gets the full head: canonical, hreflang (only for
+// translations that exist), OG image, entity schema, discovery link rels, feed
+// links and the Markdown mirror pointer. Analytics tags are emitted only when
+// enabled in site.config.mjs (off by default).
 import '../styles/global.css';
-import { SITE_NAME, SITE_ORIGIN, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchema, personSchema, websiteSchema } from '../lib/site.mjs';
+import config from '../../site.config.mjs';
+import { SITE_NAME, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchema, personSchema, websiteSchema } from '../lib/site.mjs';
+import { hreflangLinks } from '../lib/routes.mjs';
+import { DEFAULT_LANG, t, homePath, postsIndexPath, feedPath, join } from '../lib/paths.mjs';
+import { activeLangs } from '../lib/corpus.mjs';
 
 const {
 	title,
 	description,
 	path = '/',
+	lang = DEFAULT_LANG,
 	ogType = 'website',
+	ogImage = '/og/default.png',
 	structuredData = [],
 	markdownPath,
 	articleMeta,
+	alternates,
+	canonical: canonicalOverride,
+	noindex = false,
 } = Astro.props;
 
-const canonical = absoluteUrl(path);
+const canonical = canonicalOverride || absoluteUrl(path);
 const schemas = [organizationSchema(), websiteSchema(), personSchema(), ...(Array.isArray(structuredData) ? structuredData : [structuredData])].filter(Boolean);
+const hreflang = hreflangLinks(alternates);
 const year = new Date().getFullYear();
+const ph = config.analytics.posthog;
+const ga = config.analytics.ga4;
+const feedLang = activeLangs.includes(lang) ? lang : DEFAULT_LANG;
+// PostHog snippet below runs cookieless_mode "always": no cookies, no
+// local/session storage, so no consent banner is needed for it. GA4 only
+// loads after an explicit opt-in stored by the /privacy consent switch.
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
-		<meta name="author" content={AUTHOR_NAME} />
+		{noindex && <meta name="robots" content="noindex, nofollow" />}
+		{hreflang.map((a) => <link rel="alternate" hreflang={a.hreflang} href={absoluteUrl(a.path)} />)}
+		<meta name="author" content={articleMeta?.authorName || AUTHOR_NAME} />
 
 		<meta property="og:type" content={ogType} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:url" content={canonical} />
 		<meta property="og:site_name" content={SITE_NAME} />
+		<meta property="og:locale" content={lang} />
+		<meta property="og:image" content={absoluteUrl(ogImage)} />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={absoluteUrl(ogImage)} />
 
 		{articleMeta && (
 			<>
 				<meta property="article:published_time" content={articleMeta.publishedAt} />
 				<meta property="article:modified_time" content={articleMeta.modifiedAt} />
-				<meta property="article:author" content={AUTHOR_NAME} />
+				<meta property="article:author" content={articleMeta.authorName} />
 			</>
 		)}
 
 		{markdownPath && <link rel="alternate" type="text/markdown" href={markdownPath} title="Markdown version of this page" />}
-		{DISCOVERY_LINKS.map(({ href, rel, type, title: linkTitle }) => (
+		<link rel="alternate" type="application/rss+xml" href={feedPath(feedLang, 'rss')} title={`${SITE_NAME} RSS (${feedLang})`} />
+		<link rel="alternate" type="application/atom+xml" href={feedPath(feedLang, 'atom')} title={`${SITE_NAME} Atom (${feedLang})`} />
+		<link rel="alternate" type="application/feed+json" href={feedPath(feedLang, 'json')} title={`${SITE_NAME} JSON Feed (${feedLang})`} />
+		{DISCOVERY_LINKS.filter((l) => !['application/rss+xml', 'application/atom+xml', 'application/feed+json'].includes(l.type)).map(({ href, rel, type, title: linkTitle }) => (
 			<link rel={rel} type={type} href={href} title={linkTitle} />
 		))}
 
 		{schemas.map((schema) => (
 			<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 		))}
+
+		{ph.enabled && ph.projectKey && (
+			<script
+				is:inline
+				async
+				data-ph-key={ph.projectKey}
+				data-ph-host={ph.apiHost}
+				set:html={`!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},o="capture register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);var d=document.currentScript.dataset;posthog.init(d.phKey,{api_host:d.phHost,cookieless_mode:"always",person_profiles:"never",autocapture:false,disable_session_recording:true,capture_pageview:true});`}
+			/>
+		)}
+		{ga.enabled && ga.measurementId && (
+			<script
+				is:inline
+				data-ga={ga.measurementId}
+				set:html={`(function(){var id=document.currentScript.dataset.ga;if(localStorage.getItem('analytics-consent')!=='granted')return;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function g(){dataLayer.push(arguments)}g('js',new Date());g('config',id);})();`}
+			/>
+		)}
 	</head>
 	<body>
-		<a class="skip" href="#main">Skip to content</a>
+		<a class="skip" href="#main">{lang === 'de' ? 'Zum Inhalt springen' : 'Skip to content'}</a>
 		<header class="site-head">
-			<a class="brand" href="/">{SITE_NAME}</a>
+			<a class="brand" href={homePath(lang)}>{SITE_NAME}</a>
 			<nav aria-label="Main">
-				<a href="/posts">Posts</a>
+				<a href={postsIndexPath(lang)}>{t(lang, 'posts')}</a>
+				<a href={join(lang, '/archive')}>{t(lang, 'archive')}</a>
+				<a href="/talks">Talks</a>
 				<a href="/agent-ready">Agent ready</a>
-				<a href="/developers">Developers</a>
 				<a href="/about">About</a>
+				{activeLangs.filter((l) => l !== lang).map((l) => <a href={homePath(l)} hreflang={l} lang={l}>{l.toUpperCase()}</a>)}
 			</nav>
 		</header>
 
@@ -75,14 +120,14 @@ const year = new Date().getFullYear();
 		<footer class="site-foot">
 			<div>
 				<p class="foot-title">{SITE_NAME}</p>
-				<p>Written by {AUTHOR_NAME}. Source on <a href="https://github.com/eminogrande/emin-de">GitHub</a>.</p>
+				<p>Written by {AUTHOR_NAME}. Every post is a Markdown file on <a href={config.repo}>GitHub</a>.</p>
 			</div>
 			<div>
 				<p class="foot-title">For agents and developers</p>
 				<ul>
 					<li><a href="/llms.txt">llms.txt</a></li>
 					<li><a href="/llms-full.txt">llms-full.txt</a></li>
-					<li><a href="/openapi.json">OpenAPI</a></li>
+					<li><a href={feedPath(feedLang, 'rss')}>RSS</a>, <a href={feedPath(feedLang, 'atom')}>Atom</a>, <a href={feedPath(feedLang, 'json')}>JSON Feed</a></li>
 					<li><a href="/developers">Developer docs</a></li>
 					<li><a href="/sitemap.xml">Sitemap</a></li>
 				</ul>
@@ -91,11 +136,12 @@ const year = new Date().getFullYear();
 				<p class="foot-title">Site</p>
 				<ul>
 					<li><a href="/about">About</a></li>
+					<li><a href="/changelog">Changelog</a></li>
 					<li><a href="/contact">Contact</a></li>
 					<li><a href="/privacy">Privacy</a></li>
 				</ul>
 			</div>
-			<p class="copy">{year} {AUTHOR_NAME}. Text licensed CC BY 4.0, code MIT.</p>
+			<p class="copy">{year} {AUTHOR_NAME}. Text licensed {config.license.text}, code {config.license.code}.</p>
 		</footer>
 	</body>
 </html>

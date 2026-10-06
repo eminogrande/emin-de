@@ -10,15 +10,17 @@
 //   - GET /health
 //
 // Optional sibling modules (owned elsewhere) are imported defensively so this
-// server boots even when they do not exist yet:
-//   ./src/lib/mcp.mjs      export async function handleMcp(request, response, origin) -> boolean
-//   ./src/lib/x402-api.mjs export async function handleX402Api(request, response, url, origin) -> boolean
+// server boots even when they do not exist yet. Their contract:
+//   ./src/lib/mcp.mjs           handleMcp(request, response, ctx) -> boolean
+//   ./src/lib/x402.mjs          handleCorpus(request, response, ctx) -> boolean
+//   ./src/lib/articles-api.mjs  handleArticlesApi(request, response, ctx) -> boolean
+// where ctx = { origin, pathname, url, rateLimit: { remaining, reset } }.
 import http from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SITE_ORIGIN, absoluteUrl } from './src/lib/site.mjs';
-import { baseHeaders, contentTypeFor, getOrigin, robotsBody } from './src/lib/http-headers.mjs';
+import { baseHeaders, CONTENT_SIGNAL, contentTypeFor, DISCOVERY_LINK_HEADER, getOrigin, robotsBody } from './src/lib/http-headers.mjs';
 import { badRequestProblem, isApiPathname, markdownNotFoundBody, notFoundProblem, tooManyRequestsProblem } from './src/lib/problem-json.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -40,7 +42,9 @@ async function optionalImport(specifier, exportName) {
 }
 
 const handleMcp = await optionalImport('./src/lib/mcp.mjs', 'handleMcp');
-const handleX402Api = await optionalImport('./src/lib/x402-api.mjs', 'handleX402Api');
+const handleCorpus = await optionalImport('./src/lib/x402.mjs', 'handleCorpus');
+const handleArticlesApi = await optionalImport('./src/lib/articles-api.mjs', 'handleArticlesApi');
+const apiHandlers = [handleCorpus, handleArticlesApi].filter(Boolean);
 
 // --- rate limiting ------------------------------------------------------------
 // Token bucket per client IP. Only API entry points are limited; pages are not.
@@ -232,6 +236,13 @@ const server = http.createServer(async (request, response) => {
 		}
 		pathname = pathname.replace(/\/+$/, '') || '/';
 
+		// Baseline headers on EVERY response, including ones written by sibling
+		// modules that call writeHead themselves (setHeader values are merged
+		// into writeHead, so these survive).
+		response.setHeader('content-signal', CONTENT_SIGNAL);
+		response.setHeader('link', DISCOVERY_LINK_HEADER);
+		response.setHeader('vary', 'Accept');
+
 		if (request.method === 'OPTIONS') {
 			send(request, response, 204, {
 				...baseHeaders({ contentType: 'text/plain; charset=utf-8', pathname, origin }),
@@ -245,6 +256,7 @@ const server = http.createServer(async (request, response) => {
 
 		// Rate limit before any API work: the headers describe a limit this
 		// process actually enforces, and the 429 below is the proof.
+		let rateLimitState = {};
 		if (isRateLimitedPath(pathname)) {
 			const state = takeToken(clientIp(request));
 			const limited = rateLimitHeaders(state);
@@ -257,6 +269,7 @@ const server = http.createServer(async (request, response) => {
 			}
 			Object.assign(request, { rateLimitHeaders: limited });
 			for (const [name, value] of Object.entries(limited)) response.setHeader(name, value);
+			rateLimitState = { remaining: state.remaining, reset: state.reset };
 		}
 
 		if (pathname === '/health' && ['GET', 'HEAD'].includes(request.method)) {
@@ -274,14 +287,18 @@ const server = http.createServer(async (request, response) => {
 			return;
 		}
 
+		const ctx = { origin, pathname, url: request.url, rateLimit: rateLimitState };
+
 		if (pathname === '/mcp') {
-			if (handleMcp && (await handleMcp(request, response, origin))) return;
+			if (handleMcp && (await handleMcp(request, response, ctx))) return;
 			sendProblem(request, response, origin, pathname, notFoundProblem(origin, pathname), { allow: 'GET, HEAD, POST, OPTIONS' });
 			return;
 		}
 
 		if (isApiPathname(pathname)) {
-			if (handleX402Api && (await handleX402Api(request, response, url, origin))) return;
+			for (const handler of apiHandlers) {
+				if (await handler(request, response, ctx)) return;
+			}
 			await serveStatic(request, response, pathname, origin);
 			return;
 		}

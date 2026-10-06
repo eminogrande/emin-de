@@ -1,0 +1,78 @@
+---
+// Renders one post from the content graph. HTML and the Markdown mirror come
+// from the same parsed sections, so they cannot drift.
+import config from '../../site.config.mjs';
+import { t, label, dateLabel, categoryPath, formatPath, authorPath, postPath } from '../lib/paths.mjs';
+import { youtubeId } from '../lib/surfaces.mjs';
+import { displayAuthor, authorLabel } from '../lib/content-build-shared.mjs';
+const { post, alternates = [] } = Astro.props;
+const author = config.authors[post.author];
+const isAi = author.type === 'ai_editorial';
+const supervisor = isAi ? config.authors[author.supervisor] : null;
+const vid = post.video ? youtubeId(post.video.url) : null;
+const others = alternates.filter((a) => a.lang !== post.lang);
+---
+
+<article lang={post.lang}>
+	<h1>{post.title}</h1>
+
+	{isAi && (
+		<p class="ai-label" role="note"><strong>{authorLabel(post)}.</strong> {label(author.description, post.lang)}</p>
+	)}
+	{author.type === 'guest' && (
+		<p class="ai-label" role="note"><strong>{authorLabel(post)}.</strong> {post.lang === 'de' ? 'Text von' : 'Text by'} {post.originalAuthor}{post.lang === 'de' ? ', hier archiviert.' : ', archived here.'}</p>
+	)}
+	{post.thirdPartySummary && (
+		<p class="provenance">{post.lang === 'de' ? 'Zusammenfassung fremden Materials; Quelle im Original verlinkt.' : 'Summary of third-party material; see the original for the source.'}</p>
+	)}
+
+	{post.tldr.length > 0 && (
+		<div class="tldr">
+			<strong>{t(post.lang, 'tldr')}</strong>
+			<ul>{post.tldr.map((item) => <li>{item}</li>)}</ul>
+		</div>
+	)}
+
+	<div class="byline">
+		<span>{t(post.lang, 'by')} {author.type === 'guest' ? displayAuthor(post) : <a href={authorPath(post.lang, post.author)}>{author.name}</a>}{isAi && supervisor && <> ({post.lang === 'de' ? 'beaufsichtigt von' : 'supervised by'} {supervisor.name})</>}</span>
+		<span class="sep">/</span>
+		<span>{t(post.lang, 'published')} <time datetime={post.date}>{dateLabel(post.lang, post.date)}</time></span>
+		{post.updated !== post.date && (<><span class="sep">/</span><span>{t(post.lang, 'updated')} <time datetime={post.updated}>{dateLabel(post.lang, post.updated)}</time></span></>)}
+		<span class="sep">/</span>
+		<span>{post.readingTimeMinutes} {t(post.lang, 'minRead')}</span>
+	</div>
+
+	<ul class="pill-row">
+		<li><a class="pill" href={categoryPath(post.lang, post.category)}>{label(config.categories[post.category], post.lang)}</a></li>
+		<li><a class="pill" href={formatPath(post.lang, post.format)}>{label(config.formats[post.format], post.lang)}</a></li>
+	</ul>
+
+	<p class="provenance">
+		{t(post.lang, 'provenance')[post.provenance] || post.provenance}. {t(post.lang, 'aiAssisted')[String(post.aiAssisted)]}. {t(post.lang, 'reviewed')[String(post.reviewedByHuman)]}.
+		{post.externalCanonical && <> {t(post.lang, 'originallyAt')} <a href={post.canonical}>{new URL(post.canonical).hostname}</a>.</>}
+	</p>
+
+	{vid && (
+		<p class="video-link"><a href={post.video.url}>{t(post.lang, 'watch')}: {post.video.title || post.title}</a></p>
+	)}
+
+	{post.html.map((section) => (
+		<section id={section.id || undefined}>
+			{section.heading && <h2>{section.heading}</h2>}
+			<Fragment set:html={section.html} />
+			{section.id && post.basically[section.id] && <p class="basically"><b>{t(post.lang, 'basically')}</b> {post.basically[section.id]}</p>}
+		</section>
+	))}
+
+	{post.sourceLinks.length > 0 && (
+		<section id="sources" class="sources">
+			<h2>{t(post.lang, 'sources')}</h2>
+			<ul>{post.sourceLinks.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a>{s.note && <span> {s.note}</span>}</li>)}</ul>
+		</section>
+	)}
+
+	{others.length > 0 && (
+		<p>{t(post.lang, 'alsoIn')}: {others.map((a) => <a href={a.path} hreflang={a.lang} lang={a.lang}>{a.lang.toUpperCase()} </a>)}</p>
+	)}
+	<p><a href={post.markdownPath}>{t(post.lang, 'readMarkdown')}</a> / <a href={`${config.repo}/blob/main/${post.file}`}>GitHub</a></p>
+</article>

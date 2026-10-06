@@ -1,45 +1,28 @@
 ---
 import Base from '../layouts/Base.astro';
+import { renderHtml } from '../lib/markdown.mjs';
+import { markdownForPath } from '../content/pages.mjs';
+import { SITE } from '../lib/site.mjs';
+// Generated from the same Markdown as /privacy/index.md, so the policy always
+// matches the analytics switches in site.config.mjs.
+const md = markdownForPath('/privacy');
+const html = renderHtml(md.replace(/^# .*\n/, ''));
+const ga = SITE.analytics.ga4;
 ---
 
 <Base
-	title="Privacy | emin.de"
-	description="What this site collects: no analytics, no cookies, no third-party scripts, no tracking pixels. Only standard web server access logs."
+	title={`Privacy | ${SITE.name}`}
+	description="What this site collects: no cookies, no advertising pixels, no account system. Analytics, when enabled, runs cookieless; Google Analytics only after explicit opt-in."
 	path="/privacy"
 	markdownPath="/privacy/index.md"
 >
 	<h1>Privacy</h1>
-	<p class="lede">Short version: there is no tracking on this site, so there is not much to disclose.</p>
-
-	<h2>What is not collected</h2>
-	<ul>
-		<li>No analytics product, first or third party.</li>
-		<li>No cookies are set by this site.</li>
-		<li>No advertising or retargeting pixels.</li>
-		<li>No third-party fonts, scripts or embeds. Every asset is served from this domain.</li>
-		<li>No account system, so no personal data is stored.</li>
-	</ul>
-
-	<h2>What is collected</h2>
-	<p>
-		The web server writes standard access logs: IP address, timestamp, requested path, response status, user agent
-		and referrer. These exist to operate the server and to count how often AI crawlers and agents fetch content.
-		They are not joined to any other dataset and are not sold or shared.
-	</p>
-
-	<h2>If you email</h2>
-	<p>
-		Mail sent to hello@emin.de is stored in a normal mailbox and kept as long as the conversation is useful. It is
-		not added to a marketing list, because there is no marketing list.
-	</p>
-
-	<h2>Agents and API requests</h2>
-	<p>
-		Requests to the public API and the MCP server are logged the same way as page requests. The paid corpus endpoint
-		processes an x402 payment challenge; payment settlement happens on a public blockchain and is outside this
-		site's control. No payment identifiers are stored beyond what the server log records.
-	</p>
-
-	<h2>Contact</h2>
-	<p>Questions about this page: <a href="mailto:hello@emin.de">hello@emin.de</a>.</p>
+	<Fragment set:html={html} />
+	{ga.enabled && ga.measurementId && (
+		<p>
+			<button type="button" data-consent="granted">Allow Google Analytics</button>
+			<button type="button" data-consent="denied">Do not allow</button>
+		</p>
+		<script is:inline set:html={`document.querySelectorAll('[data-consent]').forEach(function(b){b.addEventListener('click',function(){localStorage.setItem('analytics-consent',b.dataset.consent);b.textContent+=' \u2713';});});`} />
+	)}
 </Base>

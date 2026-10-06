@@ -8,3 +8,6 @@ dist/
 /tmp/
 /artifacts/
 .worktrees/
+src/generated/
+.wrangler/
+public/media/

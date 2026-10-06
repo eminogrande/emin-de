@@ -1,0 +1,31 @@
+// Cloudflare Workers + Static Assets for emin.de. Deployed ONLY by
+// .github/workflows/deploy.yml on push to main (see docs/HOSTING.md).
+// Template users: change name, account_id and routes; nothing else.
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "emin-de",
+	"account_id": "60aa4fd3b9c4c1c384a3234200f42672",
+	"main": "worker/index.mjs",
+	"compatibility_date": "2026-09-26",
+	"compatibility_flags": ["nodejs_compat"],
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		// The Worker must see every request: Link headers, Content-Signal and
+		// Accept: text/markdown negotiation apply to static pages too.
+		"run_worker_first": true,
+		"html_handling": "drop-trailing-slash",
+		"not_found_handling": "none"
+	},
+	"ratelimits": [
+		{ "name": "API_RATE_LIMITER", "namespace_id": "4021", "simple": { "limit": 120, "period": 60 } }
+	],
+	// Custom domains are attached once the zone is on Cloudflare (docs/HOSTING.md
+	// step 3). Until then the Worker answers on emin-de.<subdomain>.workers.dev.
+	"routes": [
+		{ "pattern": "emin.de", "custom_domain": true },
+		{ "pattern": "www.emin.de", "custom_domain": true }
+	],
+	"workers_dev": true,
+	"observability": { "enabled": true }
+}

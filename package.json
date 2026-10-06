@@ -4,23 +4,31 @@
   "private": false,
   "license": "MIT",
   "type": "module",
-  "description": "emin.de - agent-ready long-form publishing",
+  "description": "Markdown-first, multi-language, agent-ready blog engine (template). First site: emin.de.",
   "scripts": {
-    "dev": "astro dev",
+    "content": "node scripts/generate-content.mjs",
+    "check": "node scripts/generate-content.mjs && python3 plugins/check_draft.py content/posts/en/2026/what-agent-ready-actually-means.md",
+    "new": "node scripts/new-post.mjs",
+    "prebuild": "node scripts/generate-content.mjs",
     "build": "astro build",
+    "build:test": "CONTENT_DIRS=content,tests/fixtures/sample,tests/fixtures/i18n node scripts/generate-content.mjs && astro build",
+    "dev": "node scripts/generate-content.mjs && astro dev",
     "start": "node server.mjs",
     "preview": "node server.mjs",
-    "verify:agent-ready": "node scripts/verify-agent-ready.mjs",
-    "verify:seo": "node scripts/verify-seo.mjs",
-    "verify:article": "node scripts/verify-article.mjs",
-    "verify:x402": "node scripts/verify-x402.mjs",
+    "worker:dev": "npx wrangler@latest dev",
+    "test": "node --test tests/*.test.mjs",
+    "traffic": "node plugins/traffic-report.mjs",
+    "indexnow": "node plugins/indexnow.mjs",
     "verify:all": "node scripts/verify-all.mjs"
   },
   "dependencies": {
-    "astro": "^6.1.8"
+    "astro": "^6.1.8",
+    "rehype-sanitize": "^6.0.0"
   },
   "devDependencies": {
     "lighthouse": "^13.3.0"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }
