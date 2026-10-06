@@ -1,6 +1,0 @@
----
-import { provenanceBadge } from '../lib/magazine.mjs';
-const { post } = Astro.props;
-const b = provenanceBadge(post);
----
-{b && <span class={`badge ${b.kind}`}>{b.text}</span>}

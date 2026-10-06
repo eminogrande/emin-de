@@ -1,6 +1,6 @@
 ---
 title: "Sascha Hanse on Protocols and their Importance for Society"
-description: "Here is a summary of the video in bullet points:"
+description: "Sascha Hanse on why protocols matter in decentralized networks, who they give power to, and how to design them simple and hard to attack."
 date: "2025-01-15T07:35:12.922Z"
 updated: "2025-01-15T07:35:12.922Z"
 lang: "en"
@@ -17,19 +17,18 @@ voice_check:
   em_dash: 0
   unobserved: 28
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/sascha-hanse-on-protocols-and-their-importance-for-society-4eb9783e9338"
 ---
 ![](../../../media/sascha-hanse-on-protocols-and-their-importance-for-society/01-0ac4706d.png)
 
-Here is a summary of the video in bullet points:
+A summary of a video talk by Sascha Hanse.
 
-- The speaker is discussing the importance of protocols in decentralized networks.
-- Protocols are the rules that govern how different parts of a system interact with each other.
-- They can be used to incentivize good behavior and prevent bad behavior.
-- It is important to design protocols that are simple, easy to understand, and resistant to attacks.
-- Protocols should also be designed to be used in a variety of situations.
-- The speaker also discusses the importance of considering the long-term impact of protocols.
-- Protocols can have a significant impact on the distribution of power and the way that people interact with each other.
-- It is important to be aware of these potential impacts when designing protocols.
-- The speaker concludes by emphasizing the importance of being respectful of others when designing protocols.
-- Protocols should be designed to be inclusive and to promote cooperation.
+Sascha Hanse talks about why protocols are important in decentralized networks. Protocols are the rules for how the different parts of a system interact with each other. You can use them to reward good behavior and to stop bad behavior.
+
+He says it's important to design protocols that are simple, easy to understand and hard to attack. And they should also work in a lot of different situations.
+
+He also talks about thinking about the long-term impact of a protocol. Protocols can change a lot about who has power and how people interact with each other, so when you design one, you have to be aware of that.
+
+At the end he says that you should be respectful of others when you design protocols. Protocols should include people and help them cooperate.

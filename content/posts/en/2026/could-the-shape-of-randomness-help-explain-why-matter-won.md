@@ -1,6 +1,6 @@
 ---
 title: "Could the Shape of Randomness Help Explain Why Matter Won?"
-description: "A proposal for a research conversation about Boltzmann statistics, radiation, matter, antimatter, and the early universe"
+description: "An idea to talk about with physicists. Maybe the Boltzmann peak is where a tiny matter advantage got big enough to win"
 date: "2026-06-29T01:25:05Z"
 updated: "2026-06-29T01:25:05Z"
 lang: "en"
@@ -17,464 +17,147 @@ voice_check:
   em_dash: 54
   unobserved: 437
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/could-the-shape-of-randomness-help-explain-why-matter-won/"
 ---
-<div>
-<div>
-<p><b>Could the Shape of Randomness Help Explain Why Matter Won?</b></p>
 
-<h2><span><b>A proposal for a research conversation about Boltzmann statistics, radiation, matter, antimatter, and the early universe</b></span></h2>
+I want to put an idea out there for a research conversation, about Boltzmann statistics, radiation, matter, antimatter and the early universe. I'm not saying it's proven. I'm not saying current physics is wrong, and I'm not saying I solved the matter and antimatter problem.
 
-<p>I want to propose an idea carefully.</p>
+I'm just saying there may be a link worth talking about. Maybe the imbalance between matter and antimatter isn't only about a tiny difference at the start. Maybe it's also about how randomness spreads itself out.
 
-<p>I am not saying this is proven.<br>
-I am not saying current physics is wrong.<br>
-I am not saying I have solved the matter–antimatter problem.</p>
+The mystery itself is famous. In the early universe matter and antimatter should have been made together, and when they meet they annihilate. If the balance had been perfect, almost everything would have turned into radiation. But that's not what we see. We see galaxies and stars and planets and us.
 
-<p>I am saying there may be a connection worth discussing:</p>
+CERN describes the puzzle as a tiny excess of matter, roughly one extra matter particle per billion antiparticles, that survived the annihilation and became everything we see today. So almost everything cancelled out, and the tiny bit that was left became the universe we live in. That alone is crazy.
 
-<p><b>Maybe the imbalance between matter and antimatter is not only about a tiny starting difference. Maybe it is also about how randomness distributes itself.</b></p>
+My question starts there. When particles collide at random, what you get isn't pure disorder. Randomness can make structure. In a gas, random motion leads to the Maxwell-Boltzmann distribution, a speed distribution you can predict, with a clear peak and a long tail.
 
-<p>The basic mystery is famous. In the early universe, matter and antimatter should have been created together. When matter and antimatter meet, they annihilate. If the balance had been perfect, almost everything would have disappeared into radiation. But that is not what we observe. We observe galaxies, stars, planets, and ourselves. CERN describes the puzzle as a tiny excess of matter — roughly one extra matter particle per billion antiparticles — surviving after annihilation and becoming everything we see today. <span> </span></p>
+OpenStax describes it as the predictable speed distribution of many molecules that move at random. That shape is what I find interesting.
 
-<p>That is already an astonishing idea:</p>
+My first thought was simple. Max peak = matter? Maybe the most likely part of the distribution, the peak, where most things happen, somehow ends up as the matter side. But I know that can't be taken literally.
 
-<p><b>Almost everything cancelled out, and the tiny leftover became the universe we live in.</b></p>
+Matter and antimatter aren't just slow particles and fast particles. They're particle and antiparticle partners, and a proton and an antiproton aren't different because of speed. CERN's BASE experiment even found the charge to mass ratios of the proton and the antiproton equal within 16 parts per trillion, and that strongly supports the idea that matter and antimatter have the same basic properties under the physics we know.
 
-<p>My question begins there.</p>
+So I want to make the idea better. Maybe the peak isn't matter. Maybe the peak is the amplifier. The Boltzmann distribution doesn't pick matter by itself. But if there's even a tiny rule somewhere that favors matter, a tiny asymmetry in decay or scattering or interaction or freeze-out, then the shape of the distribution could matter a lot.
 
-<p>When particles collide randomly, the result is not pure disorder. Randomness can create structure. In gases, random motion leads to the Maxwell–Boltzmann distribution: a predictable distribution of speeds with a clear peak and a long tail. OpenStax describes this as the predictable speed distribution of many randomly moving molecules. <span> </span></p>
+Because most particles and most events sit near the peak and not far out in the tail, a tiny asymmetry near the peak could have a much bigger effect than the same asymmetry in a rare part of the curve. So the better version is this.
 
-<p>That shape interests me.</p>
+The peak isn't matter. The peak is where a tiny matter advantage could get strong in the statistics.
 
-<p>My first intuition was simple:</p>
+This links to physics that already exists. People study the matter and antimatter problem through baryogenesis and leptogenesis. A classic starting point is Sakharov's idea from 1967 that a universe with more matter than antimatter needs some ingredients, namely matter number violation, C and CP violation, and a departure from thermal equilibrium.
 
-<p><b>max peak = matter?</b></p>
+CERN Courier describes the current searches around these Sakharov conditions, including CP violation, baryon and lepton number violation and physics out of equilibrium. That's already close to where my head goes. Not just particles but processes, not just symmetry but symmetry breaking, not just equilibrium but the moment equilibrium fails.
 
-<p>Maybe the most likely region of the distribution — the peak, the maximum, the place where most events happen — somehow becomes the matter side.</p>
+CERN's LHCb experiment recently saw CP violation in a baryon decay. That means a matter particle and its antimatter partner didn't behave like perfect mirror images in that decay. The asymmetry they measured was about 2.45%, with a significance of 5.2 standard deviations. CERN also says that the CP violation we know today in the Standard Model is still far too small to explain the extra matter in the cosmos.
 
-<p>But I know that this cannot be taken literally. Matter and antimatter are not just “slow particles” and “fast particles.” They are particle and antiparticle partners. A proton and antiproton are not different just because of speed. In fact, CERN’s BASE experiment found the proton and antiproton charge-to-mass ratios equal within 16 parts per trillion, which strongly supports the idea that matter and antimatter have matching basic properties under known physics. <span> </span></p>
+So there's a real direction here. Tiny differences between matter and antimatter exist, but we still don't know how the universe made them big enough.
 
-<p>So I want to refine the idea.</p>
+That's where I want to bring in Boltzmann thinking. Maybe the question shouldn't only be where the tiny bias came from. Maybe we should also ask how the statistical shape of the early universe made that tiny bias bigger, kept it, or wiped it out.
 
-<p>Maybe the peak is not matter itself.</p>
+The Boltzmann equation is already used in this research. The classic paper by Kolb and Wolfram on baryon number generation in the early universe used it to work out how an excess of baryons over antibaryons could build up over time.
 
-<p><b>Maybe the peak is the amplifier.</b></p>
+Newer papers study full Boltzmann equations for leptogenesis, sometimes without assuming kinetic equilibrium, and show that the details of the distribution can change the final asymmetry. That's important for my idea, because I'm not only interested in the total number of particles.
 
-<p>That means the Boltzmann distribution does not directly choose matter. But if there is even a tiny matter-favoring rule somewhere — a tiny asymmetry in decay, scattering, interaction, or freeze-out — then the shape of the distribution could matter enormously.</p>
+I'm interested in the shape of the distribution, where most events happen and where rare events happen, and how a tiny rule could get bigger depending on where it acts.
 
-<p>Why?</p>
+There's also research on CP violating scatterings. Nardi, Racker and Roulet studied Boltzmann equations that include decay and scattering and computed CP violating scattering asymmetries. Baldes and his co-authors studied CP violating scatterings in baryogenesis and found that scatterings can play the main role in part of the parameter space.
 
-<p>Because most particles and events happen near the peak, not in the far tail. So a tiny asymmetry near the peak could have a much bigger effect than the same asymmetry in a rare part of the distribution.</p>
+That's very close to what I'm trying to say. Collisions aren't just noise. Under the right conditions they may help shape the imbalance that's left at the end.
 
-<p>So the better version of the idea is:</p>
+Now I want to add radiation. When people say matter and antimatter annihilate and leave only radiation, the word only can mislead you. Radiation isn't nothing. It carries energy and momentum and sometimes subtle correlations. Fermilab describes matter and antimatter annihilation as making photons or gamma rays, and an electron and a positron usually annihilate into two gamma ray photons.
 
-<p><b>The peak is not matter. The peak is where a tiny matter advantage could become statistically powerful.</b></p>
+So maybe we shouldn't think of annihilation as plain destruction but as a change of form. Matter + antimatter become radiation.
 
-<p>This connects to existing physics. Scientists already study the matter–antimatter problem through baryogenesis and leptogenesis. A classic starting point is Sakharov’s 1967 idea that a universe with more matter than antimatter requires certain ingredients: matter-number violation, C/CP violation, and departure from thermal equilibrium. CERN Courier describes current searches around these Sakharov conditions, including CP violation, baryon/lepton-number violation, and out-of-equilibrium physics. <span> </span></p>
+And radiation can turn into matter again if the energy is high enough. Brookhaven reported evidence for the Breit-Wheeler process, where collisions of light make pairs of matter and antimatter, and the DOE describes it as making matter and antimatter from collisions of real photons.
 
-<p>That already sounds close to the direction I am thinking in:</p>
+That doesn't mean radiation makes matter alone. Normally radiation makes matter and antimatter together. But it does hint at a kind of recycling.
 
-<p><b>not just particles, but processes; not just symmetry, but symmetry breaking; not just equilibrium, but the moment when equilibrium fails.</b></p>
+matter + antimatter → radiation → matter + antimatter again
 
-<p>CERN’s LHCb experiment recently observed CP violation in a baryon decay. That means a matter particle and its antimatter partner did not behave as perfect mirror images in that decay. The measured asymmetry was about 2.45%, with a significance of 5.2 standard deviations. CERN also notes that the CP violation currently known in the Standard Model is still far too small to explain the cosmic matter excess. <span> </span></p>
+In the early universe, when everything was super hot and dense, this loop may have been part of the system. Particles annihilate into radiation, radiation makes pairs, collisions spread the energy around, expansion cools everything down, and at some point some processes just stop. Physicists call that stopping freeze-out. So my bigger idea is that the early universe maybe wasn't a one time matter against antimatter event.
 
-<p>So there is a real direction here:</p>
+Maybe it was a recycling system of particles, antiparticles, radiation, collisions, pair creation, annihilation and freeze-out. And in that system radiation isn't the trash at the end. It's part of the engine.
 
-<p><b>tiny matter–antimatter differences exist, but we still do not know how the universe amplified them enough.</b></p>
+This also makes me think about black holes. Black hole radiation isn't the same thing as matter and antimatter annihilation. Hawking radiation is a quantum effect where black holes give off particles as if they had a temperature, and Hawking's classic paper from 1975 showed that quantum effects make black holes emit particles like hot bodies.
 
-<p>That is where I want to bring in Boltzmann thinking.</p>
+But black holes are interesting here for another reason, and that's information. The black hole information problem asks if information gets destroyed or kept when black holes radiate. Newer work on Hawking radiation, the Page curve and islands suggests that the information may be stored in subtle correlations in the radiation, at least in some theoretical models.
 
-<p>Maybe the question should not only be:</p>
+So maybe radiation shouldn't be treated as just leftover heat. Maybe it's a carrier layer. Maybe in the early universe radiation carried energy and structure and maybe correlations through many rounds of annihilation and pair creation. Again, that alone doesn't explain why matter wins, because radiation normally makes matter and antimatter together.
 
-<p><b>Where did the tiny bias come from?</b></p>
+We still need a tiny asymmetry somewhere. But radiation could be the middle step, and the Boltzmann distribution could be the statistical amplifier. So the full picture looks like this.
 
-<p>Maybe we should also ask:</p>
+random collisions → Boltzmann-shaped distribution → annihilation → radiation → pair creation → tiny asymmetry → freeze-out → leftover matter
 
-<p><b>How did the statistical shape of the early universe amplify, preserve, or erase that tiny bias?</b></p>
+It's not a finished theory. It's a direction for research. The strongest version goes like this. The extra matter in the universe may not come only from a tiny asymmetry at the micro level. It may also depend on where that asymmetry acts inside the statistical distribution of the early universe.
 
-<p>The Boltzmann equation is already used in this research. Kolb and Wolfram’s classic paper on baryon-number generation in the early universe used the Boltzmann equation to calculate how an excess of baryons over antibaryons could develop over time. <span>  </span>Modern papers also study full Boltzmann equations for leptogenesis, sometimes without assuming kinetic equilibrium, and show that the detailed distribution can change the final asymmetry. <span> </span></p>
+If it acts near the peak, where most particles and interactions are, it could get much more important. If it only acts in the tail, it may do a lot less. That's why the max peak still feels important to me.
 
-<p>That is important for my idea.</p>
+Not because the peak really means matter, but because the peak may be the place where the tiny advantage of matter becomes visible.
 
-<p>Because I am not only interested in the total number of particles. I am interested in the <span><b>shape</b></span> of the distribution — where most events happen, where rare events happen, and how a tiny rule could be amplified depending on where it acts.</p>
+I think you could explore this with a simple mechanical model. Imagine a device on a table with lots of small balls. The balls get shaken at random, they collide and they leave at different speeds, and their speed sorts them into different bins, like a mechanical Maxwell-Boltzmann demonstrator.
 
-<p>There is also research on CP-violating scatterings. Nardi, Racker, and Roulet studied Boltzmann equations including decay and scattering processes and computed CP-violating scattering asymmetries. <span>  </span>Baldes and collaborators studied CP-violating scatterings in baryogenesis and found that scatterings can play a dominant role in part of the parameter space. <span> </span></p>
+Now use two colors. White balls are matter and black balls are antimatter.
 
-<p>This is very close to the intuition I am trying to express:</p>
+First you run a control test where the machine is totally color blind. Same ball size, same weight, same material, same rules. If everything is really symmetric, the machine shouldn't give you a stable excess of white or black.
 
-<p><b>collisions are not just noise. Under the right conditions, collisions may help shape the final imbalance.</b></p>
+It can give random swings but no winner you can repeat. That's important, because it would show that the shape of the distribution alone doesn't magically pick matter.
 
-<p>Now I want to add another part of the idea: radiation.</p>
+Then you add a tiny controlled bias, a mechanical version of a CP like asymmetry. For example a tiny difference in how balls near the peak speed get routed or kept. Then you add an annihilation stage where a white ball and a black ball can remove each other.
 
-<p>When people say matter and antimatter annihilate and leave “only radiation,” the word “only” can be misleading. Radiation is not nothing. Radiation carries energy, momentum, and sometimes subtle correlations. Fermilab describes matter–antimatter annihilation as producing photons or gamma rays, and electron–positron annihilation commonly produces two gamma-ray photons. <span> </span></p>
+And the question becomes if a tiny bias near the peak leaves a much bigger visible excess after many rounds than the same tiny bias in the tail. If yes, the device wouldn't prove that the universe works exactly like this. But it would show the principle.
 
-<p>So maybe we should not think of annihilation as simple destruction.</p>
+random collisions + peaked distribution + tiny asymmetry + annihilation = visible leftover imbalance
 
-<p>Maybe we should think of it as transformation:</p>
+That's the core of the intuition. And I find it interesting because it ties together real pieces of physics. Random collisions make distributions. Matter and antimatter almost cancel. Tiny CP violating differences exist. Boltzmann equations are already used in baryogenesis. Full distributions can matter and not only total particle counts.
 
-<p><b>matter + antimatter become radiation.</b></p>
+Annihilation makes radiation, and radiation can later make particle and antiparticle pairs. And freeze-out can keep a leftover imbalance. It also gives you a picture for the matter and antimatter problem. Instead of seeing the early universe as a coin toss between matter and antimatter, you can see it as a system that moves, a sea of collisions, radiation, pair creation, annihilation and statistical filtering.
 
-<p>And radiation can also become matter again, if the energy is high enough. Brookhaven reported evidence for the Breit–Wheeler process, where collisions of light can produce matter–antimatter pairs. The DOE describes this as generating matter and antimatter from collisions of real photons. <span> </span></p>
+In that sea a tiny asymmetry might not count the same everywhere. It may count most where the distribution is densest.
 
-<p>This does not mean radiation creates matter alone. Normally, radiation creates <span><b>matter and antimatter together</b></span>.</p>
+There are serious problems. First, the Maxwell-Boltzmann curve alone can't pick matter. A speed distribution isn't a label for matter or antimatter, and matter and antimatter partners should have the same speed distribution if they have the same mass and sit in the same thermal environment.
 
-<p>But it does suggest a possible recycling picture:</p>
+Second, radiation normally makes matter and antimatter together, so radiation alone can't explain a net excess of matter. Third, a color blind machine shouldn't make a stable color excess. If it does, there's probably a hidden bias in the machine.
 
-<p><b>matter + antimatter → radiation → matter + antimatter again</b></p>
+Fourth, big domains of matter and antimatter close to us are strongly constrained. Cohen, De Rujula and Glashow argued that a patchwork universe of matter and antimatter would make annihilation signals at the borders, including effects in gamma rays and in the cosmic microwave background, and they concluded that a matter and antimatter symmetric universe is ruled out by the data unless our matter domain is basically the whole visible universe.
 
-<p>In the early universe, when everything was extremely hot and dense, this kind of transformation loop may have been part of the active system. Particles annihilate into radiation. Radiation produces pairs. Collisions redistribute energy. Expansion cools the system. Eventually some processes stop happening. That stopping is what physicists call freeze-out.</p>
+CERN Courier also reported in 2026 that observations of the diffuse gamma ray background and the cosmic microwave background show no evidence for antimatter on large scales and rule out a matter and antimatter symmetric universe in the region we can observe.
 
-<p>So my extended proposal becomes:</p>
+So the idea shouldn't be "the Boltzmann peak is matter". The stronger idea is "Boltzmann shaped collision statistics may amplify a tiny asymmetry that favors matter, especially if that asymmetry acts near the most crowded part of the distribution". That's a lot more careful and a lot more interesting.
 
-<p><b>Maybe the early universe was not just a one-time matter-versus-antimatter event. Maybe it was a recycling system: particles, antiparticles, radiation, collisions, pair creation, annihilation, and freeze-out.</b></p>
+In one sentence, maybe matter won not only because there was a tiny bias at the micro level, but because the statistical shape of the early universe made that bias bigger in the right place, before annihilation and freeze-out locked in the leftover matter.
 
-<p>In that system, radiation is not the final trash. It is part of the engine.</p>
+I'd like to explore this in three ways. First with a simple simulation where particles get created, annihilate, scatter and freeze out, to test if a tiny bias near the peak of the distribution leaves a bigger surviving excess than the same bias in the tail.
 
-<p>This also makes me think about black holes. Black-hole radiation is not the same mechanism as matter–antimatter annihilation. Hawking radiation is a quantum effect where black holes emit particles as if they have a temperature. Hawking’s classic 1975 paper showed that quantum mechanical effects cause black holes to emit particles like hot bodies. <span> </span></p>
+Second with the mechanical model on the table, where random shaking makes a speed distribution, two colors stand for matter and antimatter, a tiny controlled bias gets added, an annihilation stage removes pairs and you measure the imbalance that's left. And third with a bridge to the literature, to compare this intuition with the work that already exists on Boltzmann equations, CP violating scatterings, leptogenesis, baryogenesis, freeze-out, physics out of equilibrium, and radiation and information.
 
-<p>But black holes are interesting here for a different reason: information.</p>
+I'm not putting this out as a conclusion. I'm putting it out as a question. Did matter win only because of a tiny asymmetry at the micro level, or also because the statistical shape of the early universe made that asymmetry bigger in the right place?
 
-<p>The black-hole information problem asks whether information is destroyed or preserved when black holes radiate. Modern work on Hawking radiation, the Page curve, and “islands” suggests that information may be encoded in subtle correlations in the radiation, at least in certain theoretical models. <span> </span></p>
+Could the shape of randomness be part of why matter won?
 
-<p>So maybe radiation should not be treated as “just leftover heat.”</p>
+Here are the sources, if you want to read more.
 
-<p>Maybe radiation is a carrier layer.</p>
+Background on antimatter and the cosmic puzzle. [CERN, Antimatter](https://home.cern/science/physics/antimatter/). [CERN, The matter–antimatter asymmetry problem](https://cds.cern.ch/record/1998489?ln=en). [CERN Courier, Exploring the origins of matter–antimatter asymmetry](https://cerncourier.com/a/exploring-the-origins-of-matter-antimatter-asymmetry/). [CERN Courier, All that antimatters in the universe](https://cerncourier.com/all-that-antimatters-in-the-universe/).
 
-<p>Maybe in the early universe, radiation carried energy, structure, and possibly correlations through repeated cycles of annihilation and pair creation.</p>
+The Maxwell-Boltzmann distribution and statistical mechanics. [OpenStax, Distribution of Molecular Speeds, Maxwell–Boltzmann distribution](https://openstax.org/books/university-physics-volume-2/pages/2-4-distribution-of-molecular-speeds). [Khan Academy, What is the Maxwell–Boltzmann distribution?](https://www.khanacademy.org/science/ap-physics-2/x0e2f5a2c%3Athermodynamics/x0e2f5a2c%3Agases/a/what-is-the-maxwell-boltzmann-distribution). [David Tong, Cosmology notes, thermal distributions and chemical potentials](https://www.davidtong.org/teaching/cosmology/cosmohtml/S2).
 
-<p>Again, this alone does not explain why matter wins. Radiation normally creates matter and antimatter together. So we still need a tiny asymmetry somewhere. But radiation could be the <span><b>middle step</b></span>, and the Boltzmann distribution could be the <span><b>statistical amplifier</b></span>.</p>
+The first papers and reviews on baryogenesis. [Sakharov, Violation of CP Invariance, C Asymmetry, and Baryon Asymmetry of the Universe](https://inspirehep.net/literature/51345). [Sakharov original paper listing, OSTI](https://www.osti.gov/biblio/4449128). [Kolb & Wolfram, Baryon Number Generation in the Early Universe](https://inspirehep.net/literature/8589). [Kolb & Wolfram PDF](https://content.wolfram.com/sw-publications/2020/07/baryon-number-generation-early-universe.pdf). [Kolb & Wolfram, The Development of Baryon Asymmetry in the Early Universe](https://content.wolfram.com/sw-publications/2020/07/development-baryon-asymmetry-early-universe.pdf). [James Cline, Baryogenesis](https://arxiv.org/abs/hep-ph/0609145). [Antonio Riotto, Theories of Baryogenesis](https://arxiv.org/abs/hep-ph/9807454). [Björn Garbrecht, Why is there more matter than antimatter?](https://arxiv.org/abs/1812.02651). [Davidson, Nardi & Nir, Leptogenesis](https://arxiv.org/abs/0802.2962).
 
-<p>So the full idea becomes:</p>
+Boltzmann equations, full distributions and leptogenesis. [Enomoto, Su, Zheng & Zhang, Boltzmann Equation and Its Cosmological Applications](https://arxiv.org/abs/2301.11819), and the [published version](https://www.mdpi.com/2073-8994/17/6/921). [Hahn-Woernle, Plumacher & Wong, Full Boltzmann equations for leptogenesis including scattering](https://arxiv.org/abs/0907.0205). [Garayoa, Pastor, Pinto, Rius & Vives, On the full Boltzmann equations for Leptogenesis](https://arxiv.org/abs/0905.4834). [Nardi, Racker & Roulet, CP violation in scatterings, three body processes and the Boltzmann equations for leptogenesis](https://arxiv.org/abs/0707.0378). [Baldes, Bell, Millar, Petraki & Volkas, The role of CP violating scatterings in baryogenesis](https://arxiv.org/abs/1410.0108). [Kainulainen, CP-violating transport theory for Electroweak Baryogenesis with thermal corrections](https://arxiv.org/abs/2108.08336).
 
-<p><b>random collisions → Boltzmann-shaped distribution → annihilation → radiation → pair creation → tiny asymmetry → freeze-out → leftover matter</b></p>
+Freeze-out, annihilation and baryogenesis linked to dark matter. [Yanou Cui, A Review of WIMP Baryogenesis Mechanisms](https://arxiv.org/abs/1510.04298). [Bernal, Colucci, Josse-Michaux, Racker & Ubaldi, On baryogenesis from dark matter annihilation](https://arxiv.org/abs/1307.6878). [Cui & Sundrum, A WIMPy Baryogenesis Miracle](https://arxiv.org/abs/1112.2704).
 
-<p>This is not a finished theory.</p>
+Other statistical distributions and related speculative directions. [Dehpour, Thermal leptogenesis in nonextensive cosmology](https://arxiv.org/abs/2401.00229). [Dehpour, Thermal leptogenesis in anisotropic cosmology](https://arxiv.org/abs/2312.10677).
 
-<p>It is a research direction.</p>
+Experiments at CERN that test matter against antimatter. [CERN, A new piece in the matter–antimatter puzzle, LHCb CP violation in baryon decay](https://home.cern/new-piece-matter-antimatter-puzzle/). [LHCb paper, Observation of charge-parity symmetry breaking in baryon decays](https://arxiv.org/abs/2503.16954). [CERN, BASE breaks new ground in matter–antimatter comparisons](https://home.cern/base-breaks-new-ground-matter-antimatter-comparisons/). [Nature, 16-parts-per-trillion measurement of antiproton-to-proton charge-to-mass ratio](https://www.nature.com/articles/s41586-021-04203-w). [CERN, ALPHA experiment observes influence of gravity on antimatter](https://home.cern/alpha-experiment-at-cern-observes-the-influence-of-gravity-on-antimatter/). [Nature, Observation of the effect of gravity on the motion of antimatter](https://www.nature.com/articles/s41586-023-06527-1).
 
-<p>The strongest version is:</p>
+Radiation, annihilation and matter from light. [Fermilab, What is annihilation?](https://www.fnal.gov/pub/science/inquiring/questions/annihilation.html). [Fermilab, Electron–positron annihilation and gamma rays](https://www.fnal.gov/pub/science/inquiring/questions/annihilation2.html). [Symmetry Magazine, What is annihilation?](https://www.symmetrymagazine.org/article/what-is-annihilation?language_content_entity=und). [Brookhaven, Collisions of Light Produce Matter/Antimatter from Pure Energy](https://www.bnl.gov/newsroom/news.php?a=119023). [DOE, Making Matter from Collisions of Light](https://www.energy.gov/science/np/articles/making-matter-collisions-light). [OSTI version, Making Matter from Collisions of Light](https://science.osti.gov/np/Highlights/2022/NP-2022-01-a).
 
-<p><b>The universe’s matter excess may not come only from a tiny microscopic asymmetry. It may also depend on where that asymmetry acts inside the statistical distribution of the early universe.</b></p>
+Cosmic radiation and the CMB. [ESA, Cosmic Microwave Background radiation](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_Microwave_Background_CMB_radiation). [ESA, Planck and the cosmic microwave background](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background). [NASA WMAP overview](https://science.nasa.gov/mission/wmap/wmap-overview/).
 
-<p>If the tiny asymmetry acts near the peak, where most particles and interactions are, it could become much more important. If it acts only in the tail, it may have much less effect.</p>
+Domains of matter and antimatter, the question of two regions. [Cohen, De Rujula & Glashow, A Matter-Antimatter Universe?](https://arxiv.org/abs/astro-ph/9707087), and the [PDF](https://arxiv.org/pdf/astro-ph/9707087). [von Ballmoos, Antimatter in the Universe, Constraints from Gamma-Ray Astronomy](https://arxiv.org/abs/1401.7258).
 
-<p>That is why the “max peak” still feels important to me.</p>
+Black hole radiation and information. [Hawking, Particle Creation by Black Holes](https://link.springer.com/article/10.1007/BF02345020), with the [DOI link](https://doi.org/10.1007/BF02345020) and the [Caltech record](https://authors.library.caltech.edu/records/2wsvj-qrt68). [Almheiri, Hartman, Maldacena, Shaghoulian & Tajdini, The entropy of Hawking radiation](https://arxiv.org/abs/2006.06872). [Replica Wormholes and the Entropy of Hawking Radiation](https://arxiv.org/abs/1911.12333). [Replica Wormholes and the Black Hole Interior](https://arxiv.org/abs/1911.11977). [Raju, Lessons from the Information Paradox](https://arxiv.org/abs/2012.05770).
 
-<p>Not because the peak literally means matter.</p>
+Speculative ideas around black holes and antimatter. [Popławski, Spinors with torsion and matter–antimatter asymmetry](https://arxiv.org/abs/2101.04212). [Popławski, Matter–antimatter asymmetry and dark matter from torsion](https://arxiv.org/abs/1101.4012). [Baryon asymmetry, dark matter, and density perturbation from primordial black holes](https://arxiv.org/abs/1401.1909). [Gravitational baryogenesis and dark matter from primordial black holes](https://arxiv.org/abs/2110.14660).
 
-<p>But because the peak may be where matter’s tiny advantage becomes visible.</p>
-
-<h2><span><b>A mechanical analogy</b></span></h2>
-
-<p>I think this idea could be explored with a simple mechanical model.</p>
-
-<p>Imagine a tabletop device with many small balls. The balls are randomly agitated, collide, and exit at different speeds. Their speed sorts them into different bins, similar to a mechanical Maxwell–Boltzmann demonstrator.</p>
-
-<p>Now use two colors:</p>
-
-<p>White balls = matter<br>
-Black balls = antimatter</p>
-
-<p>First, run a control test. The machine is completely color-blind. Same ball size, same weight, same material, same rules. If everything is truly symmetric, the machine should not produce a stable excess of white or black. It may produce random fluctuations, but not a reproducible winner.</p>
-
-<p>That is important. It would show that the distribution shape alone does not magically choose matter.</p>
-
-<p>Then add a tiny controlled bias — a mechanical version of a CP-like asymmetry. For example, a tiny difference in how balls near the peak-speed region are routed or retained.</p>
-
-<p>Then add an annihilation stage, where white and black balls can remove each other in pairs.</p>
-
-<p>The question becomes:</p>
-
-<p><b>Does a tiny bias near the peak leave a much larger visible excess after many rounds than the same tiny bias in the tail?</b></p>
-
-<p>If yes, the device would not prove the universe works exactly this way. But it would demonstrate the principle:</p>
-
-<p><b>random collisions + peaked distribution + tiny asymmetry + annihilation = visible leftover imbalance</b></p>
-
-<p>That is the core intuition.</p>
-
-<h2><span><b>Why this idea is interesting</b></span></h2>
-
-<p>The idea is interesting because it connects several real pieces of physics:</p>
-
-<p>Random collisions create distributions.<br>
-Matter and antimatter nearly cancel.<br>
-Tiny CP-violating differences exist.<br>
-Boltzmann equations are already used in baryogenesis.<br>
-Full distributions can matter, not only total particle counts.<br>
-Radiation can be produced by annihilation and can later create particle–antiparticle pairs.<br>
-Freeze-out can preserve a leftover imbalance.</p>
-
-<p>It also gives a visual way to think about the matter–antimatter problem.</p>
-
-<p>Instead of imagining the early universe as a simple coin toss between matter and antimatter, we can imagine it as a dynamic system:</p>
-
-<p><b>a sea of collisions, radiation, pair creation, annihilation, and statistical filtering.</b></p>
-
-<p>In that sea, a tiny asymmetry might not matter equally everywhere. It may matter most where the distribution is densest.</p>
-
-<h2><span><b>What could be wrong</b></span></h2>
-
-<p>There are serious challenges.</p>
-
-<p>First, the Maxwell–Boltzmann curve by itself cannot choose matter. A speed distribution is not a matter–antimatter label. Matter and antimatter partners should have the same speed distribution if they have the same mass and are in the same thermal environment.</p>
-
-<p>Second, radiation normally creates matter and antimatter together. So radiation alone cannot explain a net matter excess.</p>
-
-<p>Third, a color-blind mechanical device should not create a stable color excess. If it does, there is probably a hidden bias in the device.</p>
-
-<p>Fourth, large nearby matter–antimatter domains are strongly constrained. Cohen, De Rujula, and Glashow argued that a matter–antimatter patchwork universe would produce annihilation signals at boundaries, including gamma-ray and cosmic microwave background effects, and concluded that a matter–antimatter symmetric universe is empirically excluded unless our matter domain is basically the whole visible universe. <span>  </span>CERN Courier also reported in 2026 that diffuse gamma-ray background and cosmic microwave background observations show no evidence for antimatter on large scales and rule out a matter–antimatter symmetric universe in the observable region. <span> </span></p>
-
-<p>So the proposal should not be:</p>
-
-<p><b>“The Boltzmann peak is matter.”</b></p>
-
-<p>The stronger proposal is:</p>
-
-<p><b>“Boltzmann-shaped collision statistics may amplify a tiny matter-favoring asymmetry, especially if that asymmetry acts near the most populated region of the distribution.”</b></p>
-
-<p>That is much more careful and much more interesting.</p>
-
-<h2><span><b>The proposal in one sentence</b></span></h2>
-
-<p><b>Maybe matter won not only because there was a tiny microscopic bias, but because the statistical shape of the early universe amplified that bias in the right place, before annihilation and freeze-out locked in the leftover matter.</b></p>
-
-<h2><span><b>What I would like to explore next</b></span></h2>
-
-<p>This idea could be explored in three ways.</p>
-
-<p>First, with a simple simulation: particles are created, annihilate, scatter, and freeze out. The simulation can test whether a tiny bias near the distribution peak produces a larger surviving excess than the same bias in the tail.</p>
-
-<p>Second, with a mechanical tabletop model: random agitation creates a speed distribution; two colors represent matter and antimatter; a tiny controlled bias is added; an annihilation stage removes pairs; the leftover imbalance is measured.</p>
-
-<p>Third, with a literature bridge: compare this intuition to existing work on Boltzmann equations, CP-violating scatterings, leptogenesis, baryogenesis, freeze-out, non-equilibrium physics, and radiation/information.</p>
-
-<p>I am not presenting this as a conclusion.</p>
-
-<p>I am presenting it as a question:</p>
-
-<p><b>Could the shape of randomness be part of why matter won?</b></p>
-
-<p>Could the shape of randomness help explain why matter won over antimatter?</p>
-
-<p>This is not a finished theory. It is a proposal for a research conversation.</p>
-
-<p>The idea is that random collisions in the early universe may have created Boltzmann-like distributions with a peak and a tail. The peak does not literally “equal matter.” But the peak may act as an amplifier: if a tiny matter-favoring asymmetry acts where most particles and interactions are, it could become much more important before annihilation and freeze-out.</p>
-
-<p>Radiation may also be part of the loop. Matter and antimatter annihilate into radiation, but high-energy radiation can also create matter–antimatter pairs again. So the early universe may have been a recycling system: particles, antiparticles, radiation, pair creation, annihilation, collisions, and freeze-out.</p>
-
-<p>The question is:</p>
-
-<p><b>Did matter win only because of a tiny microscopic asymmetry, or also because the statistical shape of the early universe amplified that asymmetry in the right place?</b></p>
-
-<h2><span><b>Core background: antimatter and the cosmic puzzle</b></span></h2>
-
-<p>CERN — Antimatter<br>
-<a href="https://home.cern/science/physics/antimatter/">https://home.cern/science/physics/antimatter/</a></p>
-
-<p>CERN — The matter–antimatter asymmetry problem<br>
-<a href="https://cds.cern.ch/record/1998489?ln=en">https://cds.cern.ch/record/1998489?ln=en</a></p>
-
-<p>CERN Courier — Exploring the origins of matter–antimatter asymmetry<br>
-<a href="https://cerncourier.com/a/exploring-the-origins-of-matter-antimatter-asymmetry/">https://cerncourier.com/a/exploring-the-origins-of-matter-antimatter-asymmetry/</a></p>
-
-<p>CERN Courier — All that antimatters in the universe<br>
-<a href="https://cerncourier.com/all-that-antimatters-in-the-universe/">https://cerncourier.com/all-that-antimatters-in-the-universe/</a></p>
-
-<h2><span><b>Maxwell–Boltzmann distribution and statistical mechanics</b></span></h2>
-
-<p>OpenStax — Distribution of Molecular Speeds / Maxwell–Boltzmann distribution<br>
-<a href="https://openstax.org/books/university-physics-volume-2/pages/2-4-distribution-of-molecular-speeds">https://openstax.org/books/university-physics-volume-2/pages/2-4-distribution-of-molecular-speeds</a></p>
-
-<p>Khan Academy — What is the Maxwell–Boltzmann distribution?<br>
-<a href="https://www.khanacademy.org/science/ap-physics-2/x0e2f5a2c%3Athermodynamics/x0e2f5a2c%3Agases/a/what-is-the-maxwell-boltzmann-distribution">https://www.khanacademy.org/science/ap-physics-2/x0e2f5a2c%3Athermodynamics/x0e2f5a2c%3Agases/a/what-is-the-maxwell-boltzmann-distribution</a></p>
-
-<p>David Tong — Cosmology notes, thermal distributions and chemical potentials<br>
-<a href="https://www.davidtong.org/teaching/cosmology/cosmohtml/S2">https://www.davidtong.org/teaching/cosmology/cosmohtml/S2</a></p>
-
-<h2><span><b>Foundational baryogenesis papers and reviews</b></span></h2>
-
-<p>Sakharov — Violation of CP Invariance, C Asymmetry, and Baryon Asymmetry of the Universe<br>
-<a href="https://inspirehep.net/literature/51345">https://inspirehep.net/literature/51345</a></p>
-
-<p>Sakharov original paper listing, OSTI<br>
-<a href="https://www.osti.gov/biblio/4449128">https://www.osti.gov/biblio/4449128</a></p>
-
-<p>Kolb &amp; Wolfram — Baryon Number Generation in the Early Universe<br>
-<a href="https://inspirehep.net/literature/8589">https://inspirehep.net/literature/8589</a></p>
-
-<p>Kolb &amp; Wolfram PDF<br>
-<a href="https://content.wolfram.com/sw-publications/2020/07/baryon-number-generation-early-universe.pdf">https://content.wolfram.com/sw-publications/2020/07/baryon-number-generation-early-universe.pdf</a></p>
-
-<p>Kolb &amp; Wolfram — The Development of Baryon Asymmetry in the Early Universe<br>
-<a href="https://content.wolfram.com/sw-publications/2020/07/development-baryon-asymmetry-early-universe.pdf">https://content.wolfram.com/sw-publications/2020/07/development-baryon-asymmetry-early-universe.pdf</a></p>
-
-<p>James Cline — Baryogenesis<br>
-<a href="https://arxiv.org/abs/hep-ph/0609145">https://arxiv.org/abs/hep-ph/0609145</a></p>
-
-<p>Antonio Riotto — Theories of Baryogenesis<br>
-<a href="https://arxiv.org/abs/hep-ph/9807454">https://arxiv.org/abs/hep-ph/9807454</a></p>
-
-<p>Björn Garbrecht — Why is there more matter than antimatter?<br>
-<a href="https://arxiv.org/abs/1812.02651">https://arxiv.org/abs/1812.02651</a></p>
-
-<p>Davidson, Nardi &amp; Nir — Leptogenesis<br>
-<a href="https://arxiv.org/abs/0802.2962">https://arxiv.org/abs/0802.2962</a></p>
-
-<h2><span><b>Boltzmann equations, full distributions, and leptogenesis</b></span></h2>
-
-<p>Enomoto, Su, Zheng &amp; Zhang — Boltzmann Equation and Its Cosmological Applications<br>
-<a href="https://arxiv.org/abs/2301.11819">https://arxiv.org/abs/2301.11819</a></p>
-
-<p>Published version:<br>
-<a href="https://www.mdpi.com/2073-8994/17/6/921">https://www.mdpi.com/2073-8994/17/6/921</a></p>
-
-<p>Hahn-Woernle, Plumacher &amp; Wong — Full Boltzmann equations for leptogenesis including scattering<br>
-<a href="https://arxiv.org/abs/0907.0205">https://arxiv.org/abs/0907.0205</a></p>
-
-<p>Garayoa, Pastor, Pinto, Rius &amp; Vives — On the full Boltzmann equations for Leptogenesis<br>
-<a href="https://arxiv.org/abs/0905.4834">https://arxiv.org/abs/0905.4834</a></p>
-
-<p>Nardi, Racker &amp; Roulet — CP violation in scatterings, three body processes and the Boltzmann equations for leptogenesis<br>
-<a href="https://arxiv.org/abs/0707.0378">https://arxiv.org/abs/0707.0378</a></p>
-
-<p>Baldes, Bell, Millar, Petraki &amp; Volkas — The role of CP violating scatterings in baryogenesis<br>
-<a href="https://arxiv.org/abs/1410.0108">https://arxiv.org/abs/1410.0108</a></p>
-
-<p>Kainulainen — CP-violating transport theory for Electroweak Baryogenesis with thermal corrections<br>
-<a href="https://arxiv.org/abs/2108.08336">https://arxiv.org/abs/2108.08336</a></p>
-
-<h2><span><b>Freeze-out, annihilation, and dark-matter-related baryogenesis</b></span></h2>
-
-<p>Yanou Cui — A Review of WIMP Baryogenesis Mechanisms<br>
-<a href="https://arxiv.org/abs/1510.04298">https://arxiv.org/abs/1510.04298</a></p>
-
-<p>Bernal, Colucci, Josse-Michaux, Racker &amp; Ubaldi — On baryogenesis from dark matter annihilation<br>
-<a href="https://arxiv.org/abs/1307.6878">https://arxiv.org/abs/1307.6878</a></p>
-
-<p>Cui &amp; Sundrum — A WIMPy Baryogenesis Miracle<br>
-<a href="https://arxiv.org/abs/1112.2704">https://arxiv.org/abs/1112.2704</a></p>
-
-<h2><span><b>Statistical-distribution variations and related speculative directions</b></span></h2>
-
-<p>Dehpour — Thermal leptogenesis in nonextensive cosmology<br>
-<a href="https://arxiv.org/abs/2401.00229">https://arxiv.org/abs/2401.00229</a></p>
-
-<p>Dehpour — Thermal leptogenesis in anisotropic cosmology<br>
-<a href="https://arxiv.org/abs/2312.10677">https://arxiv.org/abs/2312.10677</a></p>
-
-<h2><span><b>CERN / experimental matter–antimatter tests</b></span></h2>
-
-<p>CERN — A new piece in the matter–antimatter puzzle / LHCb CP violation in baryon decay<br>
-<a href="https://home.cern/new-piece-matter-antimatter-puzzle/">https://home.cern/new-piece-matter-antimatter-puzzle/</a></p>
-
-<p>LHCb paper — Observation of charge-parity symmetry breaking in baryon decays<br>
-<a href="https://arxiv.org/abs/2503.16954">https://arxiv.org/abs/2503.16954</a></p>
-
-<p>CERN — BASE breaks new ground in matter–antimatter comparisons<br>
-<a href="https://home.cern/base-breaks-new-ground-matter-antimatter-comparisons/">https://home.cern/base-breaks-new-ground-matter-antimatter-comparisons/</a></p>
-
-<p>Nature — 16-parts-per-trillion measurement of antiproton-to-proton charge-to-mass ratio<br>
-<a href="https://www.nature.com/articles/s41586-021-04203-w">https://www.nature.com/articles/s41586-021-04203-w</a></p>
-
-<p>CERN — ALPHA experiment observes influence of gravity on antimatter<br>
-<a href="https://home.cern/alpha-experiment-at-cern-observes-the-influence-of-gravity-on-antimatter/">https://home.cern/alpha-experiment-at-cern-observes-the-influence-of-gravity-on-antimatter/</a></p>
-
-<p>Nature — Observation of the effect of gravity on the motion of antimatter<br>
-<a href="https://www.nature.com/articles/s41586-023-06527-1">https://www.nature.com/articles/s41586-023-06527-1</a></p>
-
-<h2><span><b>Radiation, annihilation, and matter from light</b></span></h2>
-
-<p>Fermilab — What is annihilation?<br>
-<a href="https://www.fnal.gov/pub/science/inquiring/questions/annihilation.html">https://www.fnal.gov/pub/science/inquiring/questions/annihilation.html</a></p>
-
-<p>Fermilab — Electron–positron annihilation and gamma rays<br>
-<a href="https://www.fnal.gov/pub/science/inquiring/questions/annihilation2.html">https://www.fnal.gov/pub/science/inquiring/questions/annihilation2.html</a></p>
-
-<p>Symmetry Magazine — What is annihilation?<br>
-<a href="https://www.symmetrymagazine.org/article/what-is-annihilation?language_content_entity=und">https://www.symmetrymagazine.org/article/what-is-annihilation?language_content_entity=und</a></p>
-
-<p>Brookhaven — Collisions of Light Produce Matter/Antimatter from Pure Energy<br>
-<a href="https://www.bnl.gov/newsroom/news.php?a=119023">https://www.bnl.gov/newsroom/news.php?a=119023</a></p>
-
-<p>DOE — Making Matter from Collisions of Light<br>
-<a href="https://www.energy.gov/science/np/articles/making-matter-collisions-light">https://www.energy.gov/science/np/articles/making-matter-collisions-light</a></p>
-
-<p>OSTI version — Making Matter from Collisions of Light<br>
-<a href="https://science.osti.gov/np/Highlights/2022/NP-2022-01-a">https://science.osti.gov/np/Highlights/2022/NP-2022-01-a</a></p>
-
-<h2><span><b>Cosmic radiation / CMB</b></span></h2>
-
-<p>ESA — Cosmic Microwave Background radiation<br>
-<a href="https://www.esa.int/Science_Exploration/Space_Science/Cosmic_Microwave_Background_CMB_radiation">https://www.esa.int/Science_Exploration/Space_Science/Cosmic_Microwave_Background_CMB_radiation</a></p>
-
-<p>ESA — Planck and the cosmic microwave background<br>
-<a href="https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background">https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background</a></p>
-
-<p>NASA WMAP overview<br>
-<a href="https://science.nasa.gov/mission/wmap/wmap-overview/">https://science.nasa.gov/mission/wmap/wmap-overview/</a></p>
-
-<h2><span><b>Matter–antimatter domains / “two regions” question</b></span></h2>
-
-<p>Cohen, De Rujula &amp; Glashow — A Matter-Antimatter Universe?<br>
-<a href="https://arxiv.org/abs/astro-ph/9707087">https://arxiv.org/abs/astro-ph/9707087</a></p>
-
-<p>PDF:<br>
-<a href="https://arxiv.org/pdf/astro-ph/9707087">https://arxiv.org/pdf/astro-ph/9707087</a></p>
-
-<p>von Ballmoos — Antimatter in the Universe: Constraints from Gamma-Ray Astronomy<br>
-<a href="https://arxiv.org/abs/1401.7258">https://arxiv.org/abs/1401.7258</a></p>
-
-<h2><span><b>Black-hole radiation and information</b></span></h2>
-
-<p>Hawking — Particle Creation by Black Holes<br>
-<a href="https://link.springer.com/article/10.1007/BF02345020">https://link.springer.com/article/10.1007/BF02345020</a></p>
-
-<p>DOI link:<br>
-<a href="https://doi.org/10.1007/BF02345020">https://doi.org/10.1007/BF02345020</a></p>
-
-<p>Caltech record:<br>
-<a href="https://authors.library.caltech.edu/records/2wsvj-qrt68">https://authors.library.caltech.edu/records/2wsvj-qrt68</a></p>
-
-<p>Almheiri, Hartman, Maldacena, Shaghoulian &amp; Tajdini — The entropy of Hawking radiation<br>
-<a href="https://arxiv.org/abs/2006.06872">https://arxiv.org/abs/2006.06872</a></p>
-
-<p>Replica Wormholes and the Entropy of Hawking Radiation<br>
-<a href="https://arxiv.org/abs/1911.12333">https://arxiv.org/abs/1911.12333</a></p>
-
-<p>Replica Wormholes and the Black Hole Interior<br>
-<a href="https://arxiv.org/abs/1911.11977">https://arxiv.org/abs/1911.11977</a></p>
-
-<p>Raju — Lessons from the Information Paradox<br>
-<a href="https://arxiv.org/abs/2012.05770">https://arxiv.org/abs/2012.05770</a></p>
-
-<h2><span><b>Speculative black-hole / antimatter-related ideas</b></span></h2>
-
-<p>Popławski — Spinors with torsion and matter–antimatter asymmetry<br>
-<a href="https://arxiv.org/abs/2101.04212">https://arxiv.org/abs/2101.04212</a></p>
-
-<p>Popławski — Matter–antimatter asymmetry and dark matter from torsion<br>
-<a href="https://arxiv.org/abs/1101.4012">https://arxiv.org/abs/1101.4012</a></p>
-
-<p>Baryon asymmetry, dark matter, and density perturbation from primordial black holes<br>
-<a href="https://arxiv.org/abs/1401.1909">https://arxiv.org/abs/1401.1909</a></p>
-
-<p>Gravitational baryogenesis and dark matter from primordial black holes<br>
-<a href="https://arxiv.org/abs/2110.14660">https://arxiv.org/abs/2110.14660</a></p>
-
-<hr>
-
-<p><br></p>
-</div>
-
-<div>
-<div>
-<div>
-<div></div>
-</div>
-</div>
-</div>
-</div>
-
-<p><img src="../../../media/could-the-shape-of-randomness-help-explain-why-matter-won/cover.svg" alt="cover"></p>
+![cover](../../../media/could-the-shape-of-randomness-help-explain-why-matter-won/cover.svg)

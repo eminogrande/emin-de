@@ -1,6 +1,6 @@
 ---
-title: "Essential Investment Insights & Checklist for Long-Term Success"
-description: "1. Research-Based Decisions"
+title: "Investment insights and a checklist for the long term"
+description: "Insights from 2020 on long term investing, turned into a checklist. Research, spread the risk, watch debt and ratios, and be patient."
 date: "2024-11-09T11:19:16.001Z"
 updated: "2024-11-09T11:19:16.001Z"
 lang: "en"
@@ -15,155 +15,114 @@ third_party_summary: false
 voice_check:
   em_dash: 0
   unobserved: 149
-emin_check_pct: null
+emin_check_pct: 39
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/essential-investment-insights-checklist-for-long-term-success-8e3e5badec1c"
 ---
-1. Research-Based Decisions
-
-“The moment you are financially invested in something, your interest rises. You start to read more news, you start to pay attention, you gain knowledge.”
-
-Checklist:
-
-Follow companies on financial news platforms (e.g., ARD Börse, Yahoo Finance).
-
-Track the CEO’s vision and leadership quality; check for interviews or talks they’ve given.
-
-Keep a list of competitors to understand market positioning.
-
-2. Diversification Across Sectors and Geographies
-
-“I also want to diversify with stocks from the USA, Germany, China, and more.”
-
-Checklist:
-
-Divide investments across key sectors (e.g., technology, healthcare, finance, consumer goods).
-
-Ensure geographic diversity: consider emerging markets alongside established economies.
-
-Avoid over-concentration; a balanced approach reduces risk.
-
-3. Focus on Growth Potential & Stability
-
-“Looking at Mastercard and Visa, both have a ‘Corona-Bump,’ but their past performance and returns are great.”
-
-Checklist:
-
-Examine historical growth: prefer companies with stable 3-5 year performance.
-
-Look for companies with strong, established market positions.
-
-For young or emerging companies, consider those with a high growth potential but monitor them more closely.
-
-4. Debt Management & Financial Health
-
-“I don’t want to invest in a company with crazy debt. Debt-to-equity ratios should not cross 60%.”
-
-Checklist:
-
-Review debt ratios (ideally below 60%).
-
-Avoid companies with high debt unless justified by high revenue growth or strategic investments.
-
-Check for good cash flow and revenue stability as indicators of financial health.
-
-5. Dividend Yield for Passive Growth
-
-“Dividends are a great way to reinvest without selling existing stocks.”
-
-Checklist:
-
-Look for companies with attractive, sustainable dividend yields.
-
-Consider reinvesting dividends to compound returns over time.
-
-Balance dividend stocks with growth stocks for both income and capital appreciation.
-
-6. Consistent, Incremental Investment
-
-“To reduce risk, I promised myself to buy one stock per day or week, focusing on gradual growth.”
-
-Checklist:
-
-Avoid lump-sum investing; invest consistently over time to smooth out market volatility.
-
-Rebalance regularly to maintain desired portfolio allocation.
-
-Set specific limits to avoid impulse buys during market highs or lows.
-
-7. Long-Term Perspective: Avoid Short-Term Temptations
-
-“I’m not interested in short-term returns (even 1-year returns) at all.”
-
-Checklist:
-
-Focus on a 3-10 year horizon for each investment.
-
-Avoid panic selling during market downturns.
-
-Check that each investment aligns with your long-term goals before purchasing.
-
-8. Price Ratios & Valuation Checks
-
-“P/E and P/B ratios help determine if a stock is over or undervalued. The lower, the better!”
-
-Checklist:
-
-Use the Price-to-Earnings (P/E) ratio: lower values are preferred, as they indicate better earnings relative to price.
-
-Check the Price-to-Book (P/B) ratio to see if a company is undervalued based on its book value.
-
-Review the Return on Equity (ROE) as a measure of management efficiency in generating profits.
-
-9. Build & Refine Your Watchlist
-
-“Whenever I find a stock that is better than one on my buy list, I swap it out.”
-
-Checklist:
-
-Maintain a watchlist of stocks to research further or add during market corrections.
-
-Periodically update the list based on new research, company performance, and financial health.
-
-Use a “replacement” strategy to keep only the best options on your list.
-
-10. Learning and Adaptation
-
-“If I hadn’t started buying, I wouldn’t have learned as much about these companies and the market.”
-
-Checklist:
-
-Document lessons learned from each investment decision to improve future choices.
-
-Analyze both gains and losses to understand what worked or didn’t.
-
-Keep up with trends in the sectors you’re invested in; continuous learning leads to better strategies over time.
-
-11. Stay Informed Without Overtrading
-
-“My aim is to make informed decisions without falling into the trap of daily trading.”
-
-Checklist:
-
-Set alerts for major news on your stocks instead of checking daily prices.
-
-Avoid selling or buying based on minor fluctuations; prioritize fundamental changes.
-
-Stick to a plan for reviewing portfolio performance periodically (e.g., quarterly).
-
-12. Emotion Management: Prepare for Volatility
-
-“Buying stocks can become addictive, but sticking to long-term principles helps keep emotions in check.”
-
-Checklist:
-
-Avoid emotional reactions to daily market changes.
-
-Use set buy/sell limits to reduce impulsive trading.
-
-Remind yourself of your long-term goals regularly to stay disciplined.
-
----
-
-Summary
-
-Building a strong portfolio relies on thoughtful, disciplined investing rather than chasing quick profits. This checklist captures timeless principles from 2020’s insights, emphasizing research, diversification, and patience. Following these guidelines can lead to a resilient, well-rounded portfolio that not only grows but teaches valuable lessons along the way.
+This checklist puts insights from 2020 on long term investing into one
+list. Every point has a quote from back then and a few things to
+check.
+
+1. Base decisions on research. "The moment you are financially
+invested in something, your interest rises. You start to read more
+news, you start to pay attention, you gain knowledge."
+
+So follow the companies on financial news sites like ARD Börse or
+Yahoo Finance. Track the vision of the CEO and how good they are as a
+leader, and look for interviews or talks they gave. And keep a list of
+competitors so you understand where the company stands in the market.
+
+2. Spread across sectors and countries. "I also want to diversify with
+stocks from the USA, Germany, China, and more."
+
+Split your money across the main sectors, like technology, healthcare,
+finance and consumer goods. Spread it across countries too, and look
+at emerging markets next to the established economies. Don't put too
+much in one place, because a balanced mix lowers the risk.
+
+3. Look for growth and stability. "Looking at Mastercard and Visa,
+both have a 'Corona-Bump,' but their past performance and returns are
+great."
+
+Check the growth in the past and prefer companies with stable
+performance over 3-5 years. Look for companies with a strong position
+that is already there. Young companies with a lot of growth potential
+can work too, but watch them more closely.
+
+4. Check debt and financial health. "I don't want to invest in a
+company with crazy debt. Debt-to-equity ratios should not cross 60%."
+
+So look at the debt ratios, and ideally they are below 60%. Stay away
+from companies with high debt unless strong revenue growth or
+strategic investments explain it. And check for good cash flow and
+stable revenue, because that shows the company is healthy.
+
+5. Use dividends for passive growth. "Dividends are a great way to
+reinvest without selling existing stocks."
+
+Look for companies with good dividend yields that can last. Think
+about reinvesting the dividends so the returns compound over time. And
+mix dividend stocks with growth stocks, so you get income and the
+value grows too.
+
+6. Invest small and often. "To reduce risk, I promised myself to buy
+one stock per day or week, focusing on gradual growth."
+
+Don't put everything in at once. Invest the same way over time so the
+ups and downs of the market even out. Rebalance often to keep the mix
+you want. And set clear limits so you don't buy on impulse when the
+market is very high or very low.
+
+7. Think long term. "I'm not interested in short-term returns (even
+1-year returns) at all."
+
+Look at 3-10 years for every investment. Don't sell in panic when the
+market goes down. And before you buy, check that the investment fits
+your long term goals.
+
+8. Check the price ratios. "P/E and P/B ratios help determine if a
+stock is over or undervalued. The lower, the better!"
+
+Use the price to earnings ratio, and lower is better, because it means
+more earnings for the price. Check the price to book ratio to see if a
+company is cheap compared to its book value. And look at the return on
+equity, which shows how well the management turns money into profit.
+
+9. Build your watchlist and keep making it better. "Whenever I find a
+stock that is better than one on my buy list, I swap it out."
+
+Keep a watchlist of stocks you want to research more or buy when the
+market drops. Update it from time to time based on new research, how
+the companies do and how healthy they are. And swap stocks out so only
+the best ones stay on the list.
+
+10. Keep learning. "If I hadn't started buying, I wouldn't have
+learned as much about these companies and the market."
+
+Write down what you learned from every investment so the next choice
+gets better. Look at the gains and the losses to see what worked and
+what didn't. And follow the trends in the sectors you are in, because
+learning all the time gives you better strategies.
+
+11. Stay informed but don't overtrade. "My aim is to make informed
+decisions without falling into the trap of daily trading."
+
+Set alerts for big news on your stocks and don't check the prices
+every day. Don't buy or sell because of small moves, only because of
+real changes in the company. And stick to a plan to review your
+portfolio every now and then, for example every quarter.
+
+12. Handle your emotions. "Buying stocks can become addictive, but
+sticking to long-term principles helps keep emotions in check."
+
+Don't react with emotions to the daily moves of the market. Use set
+limits for buying and selling so you trade less on impulse. And remind
+yourself of your long term goals often, so you stay disciplined.
+
+A strong portfolio comes from investing with thought and discipline
+and not from chasing quick profits. This checklist holds the
+principles from the 2020 insights, and most of all it's about
+research, spreading the risk and patience. If you follow them you can
+build a portfolio that is well mixed, holds up when things get hard,
+grows and also teaches you a lot on the way.

@@ -1,6 +1,6 @@
 ---
 title: "Power To The Baking Soda 🥤"
-description: "Because it’s one of those everyday items that packs a surprising punch. Here’s a deep dive into everything you might want to know about it:"
+description: "Baking soda is one of those cheap things in every kitchen that can do a lot more than you think. This is what it is and what you can use it for."
 date: "2024-11-02T17:45:31.909Z"
 updated: "2024-11-02T17:45:31.909Z"
 lang: "en"
@@ -17,82 +17,44 @@ voice_check:
   em_dash: 0
   unobserved: 197
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/power-to-the-baking-soda-185e71cd69c5"
 ---
-# Baking Soda is Fascinating
-
-Because it’s one of those everyday items that packs a surprising punch. Here’s a deep dive into everything you might want to know about it:
+Baking soda is fascinating, because it's one of those things you have at home anyway and it can do a lot more than you think. This is pretty much everything you might want to know about it.
 
 ![](../../../media/power-to-the-baking-soda/01-f0325655.jpeg)
 
-## Official Name and Composition
+The real scientific name of baking soda is sodium bicarbonate (NaHCO₃). In the UK and some other places it's also called bicarbonate of soda. It occurs in nature and you can find it in mineral deposits, but you can also make it with a chemical process.
 
-The official scientific name for baking soda is sodium bicarbonate (NaHCO₃). Sometimes it's also called bicarbonate of soda in the UK and other places.
+In baking it does two things. When sodium bicarbonate meets something acidic and some moisture, it gives off carbon dioxide gas. The gas makes bubbles in the dough or the batter and that makes it rise. That is why cakes get fluffy and cookies stay soft.
 
-Baking soda is a naturally occurring compound that can be found in mineral deposits or created through a chemical process.
+And because baking soda is alkaline, it can also balance out strong flavors. Some recipes add it to take the acid out of things like buttermilk, yogurt or chocolate.
 
-## How It Works in Baking
+It's also good for cleaning. It's a little bit gritty, so it scrubs surfaces gently without scratching them, which is great for sinks, countertops and ovens. Because it's alkaline it doesn't just cover up smells, it takes them away. That's why people put it in fridges, on carpets and in shoes.
 
-**Leavening Agent**: When sodium bicarbonate mixes with an acidic ingredient and moisture, it releases carbon dioxide gas. This gas forms bubbles in the dough or batter, causing it to rise. It’s what makes cakes fluffy and cookies soft.
+As a paste it can get stains out of surfaces and even some fabrics. Mixed with water it gets dirt, grime and even grease off pots, pans and bathroom tiles.
 
-**Neutralizer**: Baking soda is alkaline, so it can balance out strong flavors. It’s sometimes added to recipes to reduce the acidity of ingredients like buttermilk, yogurt, or chocolate.
+Then there is health and body care. A small amount of baking soda can neutralize stomach acid, so it helps quickly with acid reflux and heartburn. It's a little bit abrasive, so it can make teeth whiter and take off stains on the surface, and a lot of toothpastes have it in them for that.
 
-## Household Cleaning Power
+People also mix it with water into a paste for itchy skin, bug bites or sunburn. And if you dissolve it in warm water, it's good for tired feet, it takes away the smell and it can even make calluses softer.
 
-**Mild Abrasive**: Baking soda has a slightly gritty texture, which helps it gently scrub surfaces without scratching them. Perfect for cleaning sinks, countertops, and ovens.
+In the garden you can mix it with water and a little soap and spray it on plants to keep pests away. It can also help against fungus on some plants, because it's alkaline and that gets in the way of some kinds of mildew and fungi.
 
-**Deodorizer**: Its alkaline nature neutralizes odors rather than masking them. That’s why you often see it used in refrigerators, carpets, and shoes to remove smells.
+And if you want your soil more alkaline, for plants that like a higher pH, you can sprinkle a little baking soda around the base of the plants.
 
-**Stain Remover**: A baking soda paste can lift stains from surfaces and even certain fabrics. Mixed with water, it helps lift dirt, grime, and even grease from pots, pans, and bathroom tiles.
+In the laundry it makes whites brighter, makes clothes softer and gets rid of strong smells. Put half a cup into your laundry and it all smells fresher. It also makes hard water softer, so the detergent works better and the clothes feel softer, so you can use it instead of fabric softener.
 
-## Health and Personal Care Uses
+As a deodorizer it's simple. Put an open box in the fridge or the pantry and it takes in the smells. Sprinkle a bit on your pet's bed or in the litter box and it stays fresh. And a little bit in your shoes helps against the smell too.
 
-**Heartburn Relief**: Small amounts of baking soda can neutralize stomach acid, providing quick relief for acid reflux and heartburn.
+There are also medical uses, but only with care and supervision. Some people take small amounts of baking soda to balance the pH level of their body. But you have to be careful with that, because too much can mess with your electrolyte balance.
 
-**Toothpaste Alternative**: Due to its mild abrasiveness, baking soda can help whiten teeth and remove surface stains. Many toothpastes include it for its whitening effects.
+It's also sometimes used to make urine less acidic, which helps with the burning feeling of a urinary tract infection. Always ask a doctor first before you do that.
 
-**Skin Care**: It’s often used to make a paste with water for soothing itchy skin, bug bites, or sunburns.
+The name baking soda is mostly used in the U.S. The real chemical name is *sodium bicarbonate*, and some products have that on the label. In the UK the label often says *bicarbonate of soda*. You usually find it in the baking aisle of the grocery store, and also in the cleaning section, because you can use it for so many things.
 
-**Foot Soak**: Dissolving baking soda in warm water can help relax tired feet, neutralize odor, and even soften calluses.
+And there's some fun science. When you heat baking soda it gives off carbon dioxide, and that can help put out small grease fires because it cuts off the oxygen. You can sprinkle it on small fires, like in the kitchen, but only if nothing else is left.
 
-## Around the Garden
+And there's the classic vinegar and baking soda "volcano", a popular science project, because the reaction between the acid and the base looks dramatic and it's easy to do.
 
-**Pesticide**: Mixed with water and a little soap, baking soda can be sprayed on plants to deter pests.
-
-**Fungal Treatment**: It can help prevent fungus on certain plants. Its alkaline nature interferes with the growth of certain types of mildew and fungi.
-
-**Soil pH Adjuster**: If you want to make soil more alkaline (for plants that prefer a higher pH), you can sprinkle a small amount of baking soda around the base of the plants.
-
-## **In the Laundry Room**
-
-**Brightener and Stain Remover**: Baking soda works to brighten whites, soften clothes, and remove tough odors. Add a half-cup to your laundry load for extra freshness.
-
-**Fabric Softener Alternative**: Baking soda softens hard water, which helps detergents work more effectively and makes clothes feel softer.
-
-## Natural Deodorizer
-
-**In Fridge or Pantry**: Place an open box in the fridge to absorb and neutralize odors.
-
-**Pet Odor Neutralizer**: Sprinkle a bit on pet bedding or in a litter box to keep it smelling fresh.
-
-**Shoe Freshener**: A little sprinkle in shoes can help eliminate unwanted smells.
-
-## Medical Uses (Under Careful Supervision)
-
-**pH Balance in the Body**: Some people use small amounts of baking soda to help balance their body's pH level. However, it should be done with care, as excessive use can affect electrolyte balance.
-
-**Urinary Tract Infections**: It’s sometimes used to make urine less acidic, providing relief from the burning sensation. Always consult a doctor first for such use.
-
-## Official Name and Where to Find It
-
-The term baking soda is mainly used in the U.S. The official chemical name is *sodium bicarbonate*, so you'll see it labeled that way on some products. In the UK, it’s often labeled as *bicarbonate of soda*.
-
-It’s usually found in the baking aisle of grocery stores, as well as in the cleaning section because of its multiple uses.
-
-## Fun Science Facts
-
-**Fire Extinguisher**: Baking soda releases carbon dioxide gas when it’s heated, which can help put out small grease fires by cutting off oxygen. Sprinkle it on small fires, like in the kitchen, but only as a last resort.
-
-**Volcano Science Experiments**: The classic vinegar and baking soda “volcano” experiment is a popular science project because the acid-base reaction is dramatic and easy to do.
-
-Baking soda’s versatility and natural origin make it an incredible, eco-friendly option for all kinds of uses. It’s cheap, safe, and, as you’ve seen, practically endless in its uses!
+Baking soda can do so much and it comes from nature, so it's an eco friendly choice for all kinds of things. It's cheap, it's safe, and as you see, you can use it for almost anything.

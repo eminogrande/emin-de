@@ -1,6 +1,6 @@
 ---
 title: "Building a Custom GPT with Domain-Specific Knowledge: A Comprehensive Guide"
-description: "1. Introduction to AI and Its Applications 1. Understanding GPT-4 and Its Capabilities 1. The Concept of Domain-Specific Knowledge in AI 1. Case Study:..."
+description: "A summary of a video on building a Zanzibar Insider GPT with GPT-4, by feeding it local knowledge, PDFs and voice recordings."
 date: "2023-12-18T09:28:20.735Z"
 updated: "2023-12-18T09:28:20.735Z"
 lang: "en"
@@ -10,6 +10,8 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 source: "medium"
 third_party_summary: true
 cover: "../../../media/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide/01-3da78167.png"
@@ -19,75 +21,22 @@ voice_check:
 emin_check_pct: null
 original_url: "https://medium.com/@em/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide-1360994f1053"
 ---
-Building a Custom GPT with Domain-Specific Knowledge: A Comprehensive Guide
+A summary of a video about building a custom GPT for Zanzibar.
 
 <https://www.youtube.com/watch?v=DNkyL4Uw_dk>
 
-Table of Contents:
-
-1. Introduction to AI and Its Applications
-1. Understanding GPT-4 and Its Capabilities
-1. The Concept of Domain-Specific Knowledge in AI
-1. Case Study: Creating a Zanzibar Insider GPT
-
-- 4.1 Initial Setup and Basic Queries
-- 4.2 Fine-Tuning with Domain-Specific Data
-- 4.3 Uploading and Integrating New Data
-
-5. Practical Application and Results
-
-6. Conclusion and Encouragement for Personal AI Projects
-
-## 1. Introduction to AI and Its Applications
-
-In this section, the article will provide a brief overview of artificial intelligence, emphasizing its relevance in various business and knowledge domains. It will highlight how AI can be leveraged to enhance decision-making and provide specialized insights.
-
-## 2. Understanding GPT-4 and Its Capabilities
-
-Here, we will delve into the specifics of GPT-4, explaining its unique ability to access and generate information at incredible speeds. Unlike traditional search engines, GPT-4 synthesizes information from a vast range of sources, offering more nuanced and comprehensive answers.
-
-## 3. The Concept of Domain-Specific Knowledge in AI
-
-This part will introduce the concept of domain-specific knowledge in AI, using the example of a tour guide in Zanzibar. It will explain how specialized knowledge can refine AI’s responses, making them more relevant and accurate for specific use cases.
-
-## 4. Case Study: Creating a Zanzibar Insider GPT
-
-### 4.1 Initial Setup and Basic Queries
-
-The initial steps of creating a custom GPT for Zanzibar-specific knowledge will be detailed, including setting up the basic framework and testing it with general queries.
-
-### 4.2 Fine-Tuning with Domain-Specific Data
-
-This subsection will focus on the process of fine-tuning the AI with specialized knowledge, using the example of identifying the best Mediterranean restaurant in Zanzibar.
-
-### 4.3 Uploading and Integrating New Data
-
-Here, the article will describe how to upload and integrate new data, such as PDFs or voice recordings, to continually enhance the GPT’s knowledge base.
-
-## 5. Practical Application and Results
-
-The outcomes of the customized GPT will be presented, showcasing its ability to combine and accurately respond to complex queries based on the newly integrated domain knowledge.
-
-## 6. Conclusion and Encouragement for Personal AI Projects
-
-The article will conclude by summarizing the potential of customizing AI tools for specific domains and encouraging readers to explore their own AI projects.
-
 ![](../../../media/building-a-custom-gpt-with-domain-specific-knowledge-a-comprehensive-guide/01-3da78167.png)
 
-## Harnessing AI for Personalized Expertise: Building a Custom GPT for Zanzibar
+The video is about GPT-4 and how you can use it for your own knowledge domain, in this case tourism in Zanzibar. AI changes how we find and use information, and it can help with decisions and give special insights in business and in all kinds of knowledge areas.
 
-Introduction: The realm of artificial intelligence (AI) is revolutionizing the way we access and utilize information. In a fascinating exploration of this technology, a recent video delves into the potential of AI, specifically focusing on GPT-4, and its application in personalized knowledge domains, such as tourism in Zanzibar.
+GPT-4 gives you access to a huge amount of the world's knowledge, and it's very fast. It doesn't just search a database like a classic search engine. It puts the information together from many different sources and gives you a more detailed answer. The video shows this with a question every tourist asks, what is the best Mediterranean restaurant in Zanzibar, and the model gives different answers based on all the data it has.
 
-Understanding GPT-4 and Its Capabilities: GPT-4, an advanced AI model, offers unprecedented access to a wealth of global knowledge. It’s not limited to searching databases like traditional engines; instead, it synthesizes information from diverse sources, offering nuanced, comprehensive answers. This capability is demonstrated through an inquiry about the best Mediterranean restaurant in Zanzibar — a question typical in the tourism domain, showcasing the model’s ability to provide varied responses based on its vast data repository.
+Domain-specific knowledge is what makes this personal. The presenter knows Zanzibar well, the way a tour guide does, and changes GPT-4 so it only focuses on questions about Zanzibar. Special knowledge makes the answers more relevant and more accurate for one use case, and you go from general global data to local knowledge from someone who really knows the place.
 
-The Concept of Domain-Specific Knowledge in AI: Domain-specific knowledge is the cornerstone of personalized AI applications. The video presenter, an expert on Zanzibar, illustrates this by modifying the GPT-4 to focus specifically on Zanzibar-related queries. This approach underscores the importance of specialized knowledge in refining AI’s accuracy and relevance, transitioning from generalized global data to localized, expert insights.
+Then comes the Zanzibar Insider GPT. The presenter first sets up the basic framework and tests it with general questions. The answers are correct, but they don't have the depth of a local. So the next step is to fine-tune it and feed it specific, detailed knowledge about Zanzibar, for example that the better choice for a Mediterranean restaurant is the Glow restaurant in Paget.
 
-Case Study: Creating a Zanzibar Insider GPT: The practical application of this concept is demonstrated through the creation of a ‘Zanzibar Insider GPT’. The presenter initially sets up the AI, testing it with basic queries. However, the AI’s responses, though accurate, lack the depth of local expertise. This leads to the fine-tuning process, where the AI is fed with specific, detailed knowledge about Zanzibar, such as the superior choice for a Mediterranean restaurant — the Glow restaurant in Paget.
+After that you can upload more data, like PDF files and maybe voice recordings, and keep adding local knowledge. Every time the GPT gets a bit more precise and more local, and that is a big step from the broad data set it started with.
 
-The AI’s learning process is further enhanced by uploading additional data, like PDF files and potentially voice recordings. This continuous integration of local knowledge progressively refines the AI, enabling it to provide more precise, localized information, a significant leap from its original, broader data set.
+The result is a Zanzibar Insider GPT that understands the local context. It finds the best places to eat and to go out at night, and it can combine several questions into one clear and detailed answer. A generic AI model became a special tool for one domain.
 
-Practical Application and Results: As a result of this customization, the Zanzibar Insider GPT begins to reflect a deep understanding of the local context. It can now accurately identify the best dining and nightlife spots, combining multiple queries into coherent, detailed responses. This transformation from a generic AI model to a specialized tool exemplifies the potential of AI in catering to specific knowledge domains.
-
-Conclusion and Encouragement for Personal AI Projects: This exploration into AI’s potential in domain-specific applications opens up exciting possibilities for individuals and businesses alike. It encourages a proactive approach to AI, inviting enthusiasts to experiment and create AI models tailored to their unique areas of expertise. This not only enhances the utility of AI in everyday scenarios but also democratizes the technology, making it accessible and relevant to a wider audience.
-
-The video concludes with an invitation to viewers to explore their own AI projects, underscoring the practicality and transformative power of customizing AI tools. As AI continues to evolve, its application in niche domains promises a future where technology is intimately aligned with our individual needs and knowledge bases.
+At the end the video invites everyone to try their own AI projects and build models for the thing they know best. That makes AI useful in everyday life and opens it up to a lot more people. And the more AI grows, the more it can fit what each of us needs and knows.

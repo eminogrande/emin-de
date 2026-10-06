@@ -1,6 +1,6 @@
 ---
-title: "AI Content Takeover: A Threat to Future AI Evolution"
-description: "The rapid rise of AI-generated content is becoming a significant concern for the future of artificial intelligence. As AI systems improve their ability to..."
+title: "AI Content Takeover, a Threat to Future AI Evolution"
+description: "When AI learns from AI content, the data gets poor like a closed gene pool. Why that hurts future models and what we can do about it."
 date: "2024-09-05T04:54:56.315Z"
 updated: "2024-09-05T04:54:56.315Z"
 lang: "en"
@@ -17,34 +17,44 @@ voice_check:
   em_dash: 0
   unobserved: 140
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/ai-content-takeover-a-threat-to-future-ai-evolution-34d52118422e"
 ---
 ![](../../../media/ai-content-takeover-a-threat-to-future-ai-evolution/01-a0e0240f.png)
 
-The rapid rise of AI-generated content is becoming a significant concern for the future of artificial intelligence. As AI systems improve their ability to create human-like text, images, and videos, we must critically examine the implications of this shift. The overwhelming volume of AI-generated material raises serious questions about the quality and diversity of information that will be used to train future AI models, potentially leading to severe challenges that mirror issues seen in human genetics.
+AI content is growing very fast, and that is becoming a real problem for the future of AI itself. AI gets better and better at making text, images and videos that look like they come from a human, so we have to look closely at what this means.
 
-## The Volume of AI-Generated Content
+There is so much AI material now that we have to ask what the quality and the variety of the data will be that we use to train the next models. And the problems that can come out of this look a lot like things we know from human genetics.
 
-One of the most pressing issues is the sheer volume of AI-generated content flooding the internet. Experts predict that AI-created material could account for up to 90% of online information in the near future. This saturation makes it increasingly difficult to differentiate between authentic human-created content and machine-generated output. As a result, we risk a decline in overall content quality. AI systems may begin producing repetitive, low-quality, or even inaccurate information, which could mislead users and degrade the value of online resources.For example, when an AI generates an article, it may struggle with coherence, leading to disjointed paragraphs that fail to connect logically. This lack of flow is a significant drawback, especially in longer texts where maintaining a consistent theme is crucial. The challenge of coherence and relevance is a common issue in AI-generated content, as these systems often lack the nuanced understanding that human writers possess.
+The first thing is just the volume. AI content is flooding the internet, and experts predict that AI could make up to 90% of all online information in the near future. With that much of it, it gets harder and harder to tell real human content from machine output.
 
-## The Feedback Loop Problem
+So the overall quality goes down. AI systems may start to put out repetitive, low quality or even wrong information, and that misleads people and makes the stuff you find online worth less.
 
-The situation becomes even more concerning when we consider how many AI systems are trained on existing online data, which often includes a substantial amount of AI-generated content. This creates a feedback loop where AI learns from and generates more AI content. We risk developing future AI models that rely too heavily on their own outputs rather than diverse, high-quality human-generated data. This phenomenon, sometimes referred to as “model collapse,” is akin to the “Dead Internet Theory,” which posits that a significant portion of online content is produced by AI rather than humans.Research has shown that over half of the sentences on the internet have been translated multiple times by AI, leading to degraded content quality. As AI continues to generate and re-generate content, the original variety and richness of information may be lost, much like how genetic diversity diminishes in a population that reproduces within a closed gene pool. This loss of diversity can hinder the ability of AI systems to produce innovative and engaging outputs.
+An example. When an AI writes an article, it can struggle to stay coherent, and you get paragraphs that don't connect in a logical way. That is a big problem in longer texts, where you need one theme all the way through. AI content has this problem a lot, because these systems often don't get the fine details that human writers get.
 
-## The Genetic Diversity Analogy
+It gets worse when you look at how a lot of AI systems are trained. They learn from online data, and that data already has a lot of AI content in it. So there is a feedback loop where AI learns from AI content and then makes more AI content.
 
-The analogy to human DNA and genetic diversity is particularly relevant in this context. Inbreeding in humans can lead to genetic problems, such as increased susceptibility to diseases and reduced adaptability to environmental changes. Similarly, AI systems that lack diverse training data may face comparable challenges. When AI models predominantly learn from repetitive datasets, they become less capable of generating truly novel ideas or solutions. This stagnation can significantly hinder the innovation and effectiveness of AI development.Just as genetic diversity is crucial for the health and adaptability of biological populations, diversity in training data is essential for the robustness and creativity of AI systems. Without exposure to a wide range of high-quality information, AI may struggle to adapt and innovate, leading to a future where AI-generated content lacks depth and originality.
+The risk is that future models depend too much on their own output, and not on varied, high quality data made by humans. Some people call this model collapse. It's close to the Dead Internet Theory, the idea that a big part of what you see online is made by AI and not by humans.
 
-## Improving AI Data Quality
+Research has shown that over half of the sentences on the internet have been translated many times by AI, and that made the content worse. When AI keeps making and remaking content, the original variety and richness can get lost. It's just like genetic diversity that shrinks in a population that only reproduces inside a closed gene pool. And when that variety is gone, AI gets worse at making new and interesting things.
 
-To address these risks and secure a better future for AI, we must prioritize the quality and diversity of training data. Here are several strategies to consider:
+The comparison with human DNA fits really well. Inbreeding in humans can lead to genetic problems, like getting sick more easily and adapting worse when the environment changes. AI without diverse training data can run into the same kind of problems.
 
-1. Preserve Original, High-Quality Data: Safeguarding authentic datasets from contamination by AI-generated content is crucial. This ensures that future AI models have access to reliable and accurate information.
-1. Incorporate Human-Created Content: Integrating more human-generated content into training datasets can enhance the richness and diversity of information available to AI systems. Human input can help ensure that the content is engaging, relevant, and meaningful.
-1. Focus on Quality Over Quantity: Emphasizing the quality of data rather than sheer volume can lead to better outcomes for AI systems. Curating datasets that prioritize informative and engaging content can help AI produce more reliable outputs.
-1. Encourage Diverse Data Sources: Utilizing a variety of sources, including underrepresented voices, can enrich training datasets and foster more innovative outputs. This diversity can help AI systems understand different perspectives and create more nuanced content.
-1. Implement Robust Verification Mechanisms: Establishing systems to trace content origins and verify authenticity is essential for maintaining the integrity of information online. This approach is crucial for combating misinformation and ensuring that AI-generated content is accurate and trustworthy.
+When models mostly learn from repetitive data, they get worse at coming up with really new ideas or solutions, and that can slow down AI development a lot. Genetic diversity keeps living populations healthy and able to adapt. Diversity in training data does the same for AI, it keeps it strong and creative. Without a wide range of good information, AI can't adapt and invent, and the AI content of the future will have no depth and no originality.
 
-## Conclusion
+So if we want a better future for AI, the quality and the variety of training data have to come first. I see five things we can do.
 
-The challenges posed by the rise of AI-generated content are significant and multifaceted. Just as genetic diversity is crucial for the health and adaptability of biological populations, diversity in training data is essential for the robustness and creativity of AI systems. By prioritizing high-quality, diverse data sources and ensuring human involvement in the content creation process, we can better prepare AI for the future while maintaining a rich and varied information landscape. This approach not only safeguards the integrity of AI systems but also enhances their potential to contribute meaningfully to society, ultimately leading to a stronger, smarter AI future.
+First, we protect original, high quality data. Real datasets must be kept safe from getting mixed with AI content, so future models still get information that is reliable and accurate.
+
+Second, we bring more human content into training data. That makes the information richer and more diverse for AI, and human input helps to keep it interesting, relevant and meaningful.
+
+Third, quality comes before quantity. If you focus on good data and not just on more data, you get better results. And data that is picked for being informative and interesting helps AI to give more reliable answers.
+
+Fourth, we use a lot of different sources, also voices you don't hear so often. That makes training data richer and the output more inventive, and it helps AI to understand different points of view and write with more nuance.
+
+Fifth, we need strong ways to check content. There must be systems that trace where content comes from and check if it's real. That keeps information online honest, it helps to fight misinformation, and it makes sure AI content is accurate and can be trusted.
+
+The rise of AI content brings big problems, and they have many sides. Diversity in training data is for AI what genetic diversity is for living things.
+
+If we put good and diverse data first, and keep humans involved in making content, we can prepare AI much better for the future and keep the information we all use rich and varied. That protects AI, and it also gives it more potential to really give something back to society. In the end we get a stronger and smarter AI.

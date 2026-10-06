@@ -1,80 +1,134 @@
 ---
-// One post. HTML and the Markdown mirror come from the same parsed sections,
-// so they cannot drift. Magazine layout: kicker, giant serif headline, dek,
-// byline with date + reading time + provenance badge, cover, serif body.
+// One post, laid out like the nuri.com long-read: a centred hero (eyebrow,
+// huge display title, illustration, TL;DR, meta row), then every H2 section
+// as a full-width band with the copy on the left and a sticky "Basically"
+// aside on the right. The aside only appears when the author wrote one
+// (front matter or a "Basically," paragraph); nothing is ever generated.
+// HTML and the Markdown mirror come from the same parsed sections.
 import config from '../../site.config.mjs';
-import Badge from './Badge.astro';
-import { t, label, categoryPath, formatPath, authorPath } from '../lib/paths.mjs';
-import { youtubeId } from '../lib/surfaces.mjs';
-import { displayAuthor, authorLabel } from '../lib/content-build-shared.mjs';
+import { t, label, categoryPath, authorPath } from '../lib/paths.mjs';
+import { displayAuthor } from '../lib/content-build-shared.mjs';
 import { longDate, readTime, firstPublishedLine } from '../lib/magazine.mjs';
 const { post, alternates = [] } = Astro.props;
 const author = config.authors[post.author];
 const isAi = author.type === 'ai_editorial';
 const supervisor = isAi ? config.authors[author.supervisor] : null;
-const vid = post.video ? youtubeId(post.video.url) : null;
 const others = alternates.filter((a) => a.lang !== post.lang);
 const de = post.lang === 'de';
 const first = firstPublishedLine(post);
-const showCover = post.cover && !post.cover.generated && !post.cover.inBody;
-const showDek = post.description && !post.dekRepeatsBody;
-const firstSection = post.html[0];
-const dropcap = firstSection && !firstSection.heading && /^<p>[A-Za-zÄÖÜäöü]/.test(firstSection.html.trim());
+const showCover = !post.heroHtml && post.cover && !post.cover.generated && !post.cover.inBody;
+const bands = post.html.filter((s) => s.heading || s.html.trim() || post.basically[s.id || '_intro']);
+const asideFor = (s) => post.basically[s.id || '_intro'] || null;
+const hasYoutube = post.html.some((s) => s.html.includes('yt-lite'));
+const ui = de
+	? { inShort: 'Kurz gesagt:', tldr: 'Kurz gesagt:', copy: 'URL kopieren', copied: 'Kopiert', by: 'Von', info: 'Angaben zum Beitrag' }
+	: { inShort: 'In short:', tldr: 'TL;DR:', copy: 'Copy URL', copied: 'Copied', by: 'By', info: 'Article info' };
+const basicallyLabel = t(post.lang, 'basically');
+const principlesPath = de ? '/de/principles' : '/principles';
+// Closing quote: only the author's own words. The last Basically line of the
+// post, else nothing (the band then carries only the post footer).
+const closing = post.conclusion || [...bands].reverse().map(asideFor).find(Boolean) || null;
 ---
 
-<article lang={post.lang}>
-	<header class="post-head wrap">
-		<a class="kicker" href={categoryPath(post.lang, post.category)}>{label(config.categories[post.category], post.lang)}</a>
-		<h1 class="post-title">{post.title}</h1>
-		{showDek && <p class="dek post-dek">{post.description}</p>}
-		<div class="byline">
-			<p class="meta">
-				<span>{t(post.lang, 'by')} {author.type === 'guest' ? displayAuthor(post) : <a href={authorPath(post.lang, post.author)}>{author.name}</a>}{isAi && supervisor && ` (${de ? 'beaufsichtigt von' : 'supervised by'} ${supervisor.name})`}</span>
+<article class="art" lang={post.lang}>
+	<header class="art-hero">
+		<div class="container art-hero__inner">
+			<p class="art-hero__eyebrow"><a href={categoryPath(post.lang, post.category)}>{label(config.categories[post.category], post.lang)}</a></p>
+			<h1 class="display art-hero__title post-title">{post.title}</h1>
+			{post.heroHtml && <figure class="art-hero__illustration" set:html={post.heroHtml} />}
+			{showCover && (
+				<figure class="art-hero__illustration">
+					<img src={post.cover.src} srcset={post.cover.srcset} sizes="(max-width: 64rem) calc(100vw - 2.5rem), 64rem" width={post.cover.width} height={post.cover.height} alt="" fetchpriority="high" decoding="async" />
+				</figure>
+			)}
+			{post.tldr.length > 0 && <p class="art-hero__tldr tldr"><strong>{ui.tldr}</strong> {post.tldr.join(' ')}</p>}
+			{post.tldr.length === 0 && post.tldrHtml && <p class="art-hero__tldr tldr"><strong>{ui.inShort}</strong> <Fragment set:html={post.tldrHtml} /></p>}
+
+			<div class="art-meta" aria-label={ui.info}>
+				<p>{ui.by} {author.type === 'guest' ? <strong>{displayAuthor(post)}</strong> : <a href={authorPath(post.lang, post.author)}><strong>{author.name}</strong></a>}</p>
+				<span aria-hidden="true">·</span>
 				<time datetime={post.date}>{longDate(post.lang, post.date)}</time>
-				<span>{readTime(post)}</span>
-			</p>
-			<Badge post={post} />
+				<span aria-hidden="true">·</span>
+				<p>{readTime(post)}</p>
+				<span aria-hidden="true">·</span>
+				<button class="art-meta__copy" type="button" data-copy-url data-copy-label={ui.copy} data-copied-label={ui.copied} aria-live="polite">{ui.copy}</button>
+			</div>
+			
+			{others.length > 0 && (
+				<p class="art-languages">
+					{t(post.lang, 'alsoIn')}{' '}
+					{others.map((a, i) => <><a href={a.path} hreflang={a.lang} lang={a.lang}>{a.lang === 'de' ? 'Deutsch' : 'English'}</a>{i < others.length - 1 ? ', ' : ''}</>)}.
+				</p>
+			)}
 		</div>
-		{author.type === 'guest' && <p class="ai-label" role="note"><strong>{authorLabel(post)}.</strong> {de ? 'Text von' : 'Text by'} {post.originalAuthor}{de ? ', hier archiviert.' : ', archived here.'}</p>}
 	</header>
 
-	{showCover && (
-		<figure class="post-cover wrap">
-			<img src={post.cover.src} srcset={post.cover.srcset} sizes="(max-width: 1100px) 100vw, 64rem" width={post.cover.width} height={post.cover.height} alt="" fetchpriority="high" decoding="sync" />
-		</figure>
-	)}
+	{bands.map((section) => {
+		const aside = asideFor(section);
+		return (
+			<section class:list={['art-story', { 'art-story--full': !aside }]} id={section.id || undefined}>
+				<div class="container art-story__inner">
+					<div class="art-story__copy prose">
+						{section.heading && <h2>{section.heading}</h2>}
+						<Fragment set:html={section.html} />
+					</div>
+					{aside && (
+						<aside class="art-story__basically" aria-label={`${basicallyLabel} ${aside}`}>
+							<p class="art-story__summary basically"><strong>{basicallyLabel}</strong> {aside}</p>
+						</aside>
+					)}
+				</div>
+			</section>
+		);
+	})}
 
-	<div class="wrap">
-		{post.tldr.length > 0 && (
-			<div class="tldr">
-				<strong>{t(post.lang, 'tldr')}</strong>
-				<ul>{post.tldr.map((item) => <li>{item}</li>)}</ul>
-			</div>
-		)}
-
-		<div class:list={['prose', { dropcap }]}>
-			{vid && <p class="video-link"><a href={post.video.url}>{t(post.lang, 'watch')}: {post.video.title || post.title}</a></p>}
-			{post.html.map((section) => (
-				<section id={section.id || undefined}>
-					{section.heading && <h2>{section.heading}</h2>}
-					<Fragment set:html={section.html} />
-					{section.id && post.basically[section.id] && <p class="basically"><b>{t(post.lang, 'basically')}</b> {post.basically[section.id]}</p>}
-				</section>
-			))}
-		</div>
-
-		<footer class="post-foot">
-			{post.sourceLinks.length > 0 && (
-				<section id="sources" class="sources">
-					<h2>{t(post.lang, 'sources')}</h2>
-					<ul>{post.sourceLinks.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a>{s.note && <span> {s.note}</span>}</li>)}</ul>
-				</section>
+	<footer class="art-closing">
+		<div class="container">
+			{closing && (
+				<blockquote lang={post.lang}>
+					<p><q>{closing}</q></p>
+					<cite>{author.type === 'guest' ? displayAuthor(post) : author.name} · {basicallyLabel.replace(/[,:]$/, '')}</cite>
+				</blockquote>
 			)}
-			{first && <p class="first-published">{first.prefix} <a href={post.originalUrl} rel="noopener">{first.site}</a>{first.suffix}</p>}
-			{post.thirdPartySummary && <p class="provenance">{de ? 'Zusammenfassung fremden Materials; Quelle im Original verlinkt.' : 'Summary of third-party material; see the original for the source.'}</p>}
-			<p class="provenance">{isAi && <><a href={authorPath(post.lang, post.author)}>{authorLabel(post)}</a>. </>}{t(post.lang, 'provenance')[post.provenance] || post.provenance}. {t(post.lang, 'aiAssisted')[String(post.aiAssisted)]}. {t(post.lang, 'reviewed')[String(post.reviewedByHuman)]}. <a href={formatPath(post.lang, post.format)}>{label(config.formats[post.format], post.lang)}</a>.</p>
-			{others.length > 0 && <p>{t(post.lang, 'alsoIn')}: {others.map((a) => <a href={a.path} hreflang={a.lang} lang={a.lang}>{a.lang.toUpperCase()} </a>)}</p>}
-			<p><a href={post.markdownPath}>{t(post.lang, 'readMarkdown')}</a> · <a href={`${config.repo}/blob/main/${post.file}`}>GitHub</a></p>
-		</footer>
-	</div>
+			<div class="art-foot post-foot">
+				{post.sourceLinks.length > 0 && (
+					<section id="sources" class="sources">
+						<h2>{t(post.lang, 'sources')}</h2>
+						<ul>{post.sourceLinks.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a>{s.note && <span> {s.note}</span>}</li>)}</ul>
+					</section>
+				)}
+				{first && <p class="first-published">{first.prefix} <a href={post.originalUrl} rel="noopener">{first.site}</a>{first.suffix}</p>}
+				{post.thirdPartySummary && <p>{de ? 'Zusammenfassung fremden Materials; Quelle im Original verlinkt.' : 'Summary of third-party material; see the original for the source.'}</p>}
+				<p><a href={post.markdownPath}>{t(post.lang, 'readMarkdown')}</a> · <a href={`${config.repo}/blob/main/${post.file}`}>GitHub</a> · <a href={principlesPath}>{de ? 'Grundsätze' : 'Principles'}</a></p>
+			</div>
+		</div>
+	</footer>
 </article>
+
+<script is:inline>
+document.querySelectorAll('[data-copy-url]').forEach(function (node) {
+	node.addEventListener('click', function () {
+		var done = function () {
+			node.textContent = node.dataset.copiedLabel;
+			setTimeout(function () { node.textContent = node.dataset.copyLabel; }, 1600);
+		};
+		if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(location.href).then(done, done);
+		else done();
+	});
+});
+</script>
+{hasYoutube && (
+	<script is:inline>
+	document.querySelectorAll('a[data-yt]').forEach(function (a) {
+		a.addEventListener('click', function (e) {
+			e.preventDefault();
+			var f = document.createElement('iframe');
+			f.src = 'https://www.youtube-nocookie.com/embed/' + a.dataset.yt + '?autoplay=1';
+			f.title = 'YouTube video';
+			f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+			f.allowFullscreen = true;
+			a.parentNode.replaceChild(f, a);
+		});
+	});
+	</script>
+)}

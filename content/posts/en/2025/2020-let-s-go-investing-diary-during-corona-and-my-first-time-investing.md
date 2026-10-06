@@ -17,6 +17,8 @@ voice_check:
   em_dash: 21
   unobserved: 365
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/2020-lets-go-investing-diary-during-corona-and-my-first-time-investing-b0b3d2056322"
 ---
 # 2020 let’s go — Investing Diary During Corona and My First Time Investing

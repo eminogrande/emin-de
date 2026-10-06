@@ -10,6 +10,8 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/yes-you-can-work-more-than-30-hours-a-day-if-you-multi-task-on-two-devices/cover.webp"

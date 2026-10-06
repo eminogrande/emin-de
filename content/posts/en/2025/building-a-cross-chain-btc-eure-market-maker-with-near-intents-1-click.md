@@ -1,6 +1,6 @@
 ---
-title: "Building a Cross‑Chain BTC ↔ EURe Market Maker with NEAR Intents & 1‑Click"
-description: "Over the last days we wired up a complete BTC ↔ EURe swap stack:"
+title: "Building a Cross-Chain BTC-EURe Market Maker with NEAR Intents & 1-Click"
+description: "How we wired up a swap stack between BTC and EURe on NEAR Intents and 1-Click, with our own AMM solver that earns a 0.3% margin."
 date: "2025-12-06T18:35:01Z"
 updated: "2025-12-06T18:35:01Z"
 lang: "en"
@@ -17,447 +17,178 @@ voice_check:
   em_dash: 30
   unobserved: 173
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/building-a-cross-chain-btc-eure-market-maker-with-near-inten/"
 ---
 ![](../../../media/building-a-cross-chain-btc-eure-market-maker-with-near-intents-1-click/cover.jpg)
 
-Over the last days we wired up a complete BTC ↔ EURe swap stack:
+Over the last days we wired up a complete swap stack between BTC and EURe. There is a mobile-first swap UI at emino.app/intent/, an advanced tester with a history view at emino.app/intent/intend/, a live solver monitor at emino.app/solver/, and a real AMM solver that provides liquidity between BTC on Bitcoin mainnet and EURe on Gnosis, through NEAR Intents and Defuse 1-Click.
 
-  - A mobile‑first swap UI at emino.app/intent/.
-  - An advanced tester & history view at emino.app/intent/intend/.
-  - A live solver monitor at emino.app/solver/.
-  - A real AMM solver that provides liquidity between BTC (on Bitcoin
-mainnet) and EURe (on Gnosis) via
-    NEAR Intents + Defuse 1‑Click.
+This post shows how it all fits together, how a swap flows through the system, where the 0.3% margin comes from, and how a solver operator can deposit, monitor and later withdraw the profits.
 
-  This post documents how it all fits together, how swaps flow through
-the system, where the 0.3% “margin”
-  comes from, and how a solver operator can deposit, monitor, and
-eventually withdraw profits.
+## 1. How the pieces fit
 
-  ———
+There are four pieces.
 
-  ## 1. High‑Level Overview
+The first is the user UI on emino.app. /intent/ is a simple mobile-first page to start a swap between BTC and EURe, and /intent/intend/ is an advanced JSON tester with a history of the swaps that were started through this server.
 
-  At a high level we have four pieces:
+The second is the UI server on port 4100. It's an Express server that serves the static HTML and JS for /intent/ and /intent/intend/, and it has a small API with four endpoints. It talks to the Defuse 1-Click API at https://1click.chaindefuser.com for quotes and status.
 
-  1. User UI (emino.app)
-      - /intent/ – simple mobile‑first page to start a BTC ↔ EURe swap.
-      - /intent/intend/ – advanced JSON tester + history of swaps
-started through this server.
-  2. UI Server (port 4100)
-      - Express server that:
-          - Serves the static HTML/JS for /intent/ and /intent/intend/.
-          - Exposes a small API:
-              - POST /api/intend/btc-to-eure
-              - POST /api/intend/eure-to-btc
-              - GET /api/intend/history
-              - GET /api/intend/status/:depositAddress
-          - Talks to the Defuse 1‑Click API
-(https://1click.chaindefuser.com) for quotes and status.
-  3. NEAR Intents + Solver Relay
-      - NEAR Intents contract (intents.near) holds token reserves and
-tracks intents.
-      - Solver Relay (wss://solver-relay-v2.chaindefuser.com/ws)
-forwards quote requests from 1‑Click to
-        solvers and receives their responses.
-  4. Our AMM Solver
-      - Runs the official near-intents-amm-solver code with:
-          - AMM_TOKEN1_ID =
-nep141:gnosis-0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430.omft.near
-(EURe on
-            Gnosis).
-          - AMM_TOKEN2_ID = nep141:btc.omft.near (BTC on NEAR).
-      - Maintains a constant‑product AMM over the EURe/BTC reserves on
-the Intents contract.
-      - Listens to quote requests via WebSocket, calculates prices
-with a margin, signs NEP‑413 quotes,
-        and updates its view of reserves after intents execute.
+    POST /api/intend/btc-to-eure
+    POST /api/intend/eure-to-btc
+    GET /api/intend/history
+    GET /api/intend/status/:depositAddress
 
-  The UI and the solver are decoupled. The UI talks only to 1‑Click;
-the solver talks only to the solver
-  relay + NEAR. The relay + 1‑Click route quotes and intents between them.
+The third is NEAR Intents plus the solver relay. The NEAR Intents contract (intents.near) holds the token reserves and keeps track of the intents. The solver relay at wss://solver-relay-v2.chaindefuser.com/ws forwards quote requests from 1-Click to the solvers and gets their answers back.
 
-  ———
+The fourth is our own AMM solver. It runs the official near-intents-amm-solver code with EURe on Gnosis as the first token and BTC on NEAR as the second, and it keeps a constant-product AMM over the EURe and BTC reserves on the Intents contract. It listens to quote requests over WebSocket, calculates prices with a margin, signs NEP-413 quotes and updates its view of the reserves after intents execute.
 
-  ## 2. The User Experience: /intent/ and /intent/intend/
+The UI and the solver don't know each other. The UI only talks to 1-Click, and the solver only talks to the solver relay and NEAR. The relay and 1-Click route the quotes and intents between them.
 
-  ### /intent/: Mobile‑First Swap UI
+## 2. The swap pages
 
-  This is meant to be the “one‑screen” test UI:
-
-  - Two tabs:
-      - BTC → EURe
-      - EURe → BTC
-  - Fields:
-
-    For BTC → EURe:
-      - Amount you send (satoshis) – BTC in sats.
-      - EURe receiver (Gnosis EVM) – EVM address on Gnosis.
-      - BTC refund address – Bitcoin bech32 address.
-
-    For EURe → BTC:
-      - Amount you send (EURe) – EURe amount, decimal.
-      - BTC receiver address – BTC address to receive the swap.
-      - EURe refund (Gnosis EVM) – EVM address for EURe refund.
-  - We prefill it with your own addresses:
+/intent/ is meant to be the one-screen test UI. It has two tabs, BTC to EURe and EURe to BTC. For BTC to EURe you fill in the amount you send in satoshis, the EURe receiver as an EVM address on Gnosis, and a Bitcoin bech32 address for the refund. For EURe to BTC you fill in the EURe amount as a decimal, the BTC address that gets the swap, and an EVM address on Gnosis for the EURe refund. We prefill it with your own addresses.
 
     DEFAULT_EURE_EVM = 0x196C28928b1386D8Dcd32ab223bECcce6f731264
     DEFAULT_BTC_ADDR = 1LBiZCtkByR3BuH7K3RJA15fmri84NW6CT
-  - When you click “Get deposit & start swap”:
-      - The UI calls either:
-          - POST /api/intend/btc-to-eure
-          - POST /api/intend/eure-to-btc
-      - The server calls 1‑Click /v0/quote with swapType: EXACT_INPUT.
-      - On success, you get:
-          - amountInFormatted (nice units).
-          - amountOutFormatted (approx receive).
-          - A depositAddress on BTC or Gnosis.
-          - A deadline.
-      - The UI shows:
-          - A summary (“You send / You receive”).
-          - The deposit address.
-          - A QR code for wallet apps.
-          - A “status pill” that polls execution via GET
-/api/intend/status/:depositAddress.
 
-  ### /intent/intend/: Advanced Tester
+When you click "Get deposit & start swap", the UI calls POST /api/intend/btc-to-eure or POST /api/intend/eure-to-btc, and the server calls 1-Click /v0/quote with swapType EXACT_INPUT. If that works you get amountInFormatted in nice units, amountOutFormatted as the amount you will roughly receive, a depositAddress on BTC or Gnosis and a deadline. The UI then shows a summary ("You send / You receive"), the deposit address, a QR code for wallet apps and a status pill that polls the execution via GET /api/intend/status/:depositAddress.
 
-  This page is for debugging and power users:
+/intent/intend/ is for debugging and for power users. It has quick test buttons, "Test: 10,000 sats → EURe" and "Test: 10 EURe → BTC", and a custom form like the one on /intent/ but with simple text inputs. On every quote attempt it shows a success box with the same info as /intent/, or it shows the raw error from 1-Click, like this one.
 
-  - Quick test buttons:
-      - “Test: 10,000 sats → EURe”
-      - “Test: 10 EURe → BTC”
-  - A custom form similar to /intent/ but with simple text inputs.
-  - On every quote attempt:
-      - Shows a success box with the same info as /intent/.
-      - Or shows the raw error from 1‑Click, including:
+    {
+      "message": "...",
+      "status": 400,
+      "bodyMessage": "Failed to get quote",
+      "correlationId": "...",
+      "requestBody": { ...full JSON sent to /v0/quote... }
+    }
 
-        {
-          "message": "...",
-          "status": 400,
-          "bodyMessage": "Failed to get quote",
-          "correlationId": "...",
-          "requestBody": { ...full JSON sent to /v0/quote... }
-        }
-  - At the bottom, a “Recent swaps (this server)” section:
-      - Backed by GET /api/intend/history.
-      - Based purely on swaps initiated via this UI/server.
-      - Shows direction, timestamp, amount in/out, and deposit address.
+At the bottom there's a "Recent swaps (this server)" section. It's backed by GET /api/intend/history, it only knows the swaps started through this UI and server, and it shows the direction, timestamp, amount in and out and the deposit address.
 
-  ———
+## 3. The UI server
 
-  ## 3. The UI Server: Intents & History
+The server (server/index.ts) runs on port 4100 and does three things.
 
-  The server (server/index.ts) runs on port 4100 and does three things:
+First, the quote and intend endpoints, all with EXACT_INPUT. POST /api/intend/btc-to-eure validates amountInSats, recipientEvm and refundBtc, and then calls quoteExactInputBtcToEure, which uses the getQuote of 1-Click with these values and returns the deposit address and the amounts.
 
-  1. Quote + Intend endpoints (EXACT_INPUT)
-      - POST /api/intend/btc-to-eure:
-          - Validates amountInSats, recipientEvm, refundBtc.
-          - Calls quoteExactInputBtcToEure which uses 1‑Click’s getQuote with:
-              - originAsset = nep141:btc.omft.near
-              - destinationAsset = EURe
-              - amount = satsIn
-              - refundTo = refundBtc (BTC).
-              - recipient = recipientEvm (Gnosis).
-          - Returns deposit address + amounts.
-      - POST /api/intend/eure-to-btc:
-          - Validates amountInEure, recipientBtc, refundEvm.
-          - Converts EURe decimal → 18‑decimals (toUnits).
-          - Calls getQuote with origin/destination reversed.
+    originAsset = nep141:btc.omft.near
+    destinationAsset = EURe
+    amount = satsIn
+    refundTo = refundBtc (BTC).
+    recipient = recipientEvm (Gnosis).
 
-     For each successful intend quote, it appends an IntentLogItem to
-an in‑memory intentLog:
+POST /api/intend/eure-to-btc validates amountInEure, recipientBtc and refundEvm, converts the EURe decimal to 18 decimals (toUnits) and calls getQuote with origin and destination the other way round. For every successful intend quote it appends an IntentLogItem to an in-memory intentLog.
 
-     type IntentLogItem = {
-       direction: 'btc-to-eure' | 'eure-to-btc';
-       depositAddress: string;
-       createdAt: string;
-       amountIn: string;
-       amountInFormatted: string;
-       amountOut: string;
-       amountOutFormatted: string;
-       test?: boolean;
-       recipient?: string;
-       refund?: string;
-     };
-  2. History APIs
-      - GET /api/intend/history:
-          - Returns intentLog sorted newest‑first.
-      - GET /api/intend/history/:depositAddress:
-          - Returns:
-              - The log entry for that deposit (if any), and
-              - The execution status from 1‑Click getExecutionStatus.
-  3. Status proxy
-      - GET /api/intend/status/:depositAddress:
-          - Straight proxy to 1‑Click getExecutionStatus, used by
-/intent/ to update the status pill.
+    type IntentLogItem = {
+      direction: 'btc-to-eure' | 'eure-to-btc';
+      depositAddress: string;
+      createdAt: string;
+      amountIn: string;
+      amountInFormatted: string;
+      amountOut: string;
+      amountOutFormatted: string;
+      test?: boolean;
+      recipient?: string;
+      refund?: string;
+    };
 
-  ———
+Second, the history APIs. GET /api/intend/history returns intentLog with the newest first. GET /api/intend/history/:depositAddress returns the log entry for that deposit, if there is one, and the execution status from getExecutionStatus of 1-Click.
 
-  ## 4. The AMM Solver: How We Provide Liquidity
+Third, a status proxy. GET /api/intend/status/:depositAddress is a straight proxy to getExecutionStatus of 1-Click, and /intent/ uses it to update the status pill.
 
-  The solver is the official NEAR Intents AMM implementation,
-configured for EURe ↔ BTC:
+## 4. The AMM solver, and how we provide liquidity
 
-  - Tokens:
+The solver is the official NEAR Intents AMM implementation, set up for EURe and BTC. These are the tokens and the important parts of the environment.
 
-    AMM_TOKEN1_ID =
-nep141:gnosis-0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430.omft.near
-(EURe)
-    AMM_TOKEN2_ID = nep141:btc.omft.near
-              (BTC)
-  - Environment highlights:
+    AMM_TOKEN1_ID = nep141:gnosis-0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430.omft.near (EURe)
+    AMM_TOKEN2_ID = nep141:btc.omft.near (BTC)
 
     NEAR_ACCOUNT_ID = nuri-solver.near
     NEAR_PRIVATE_KEY = ed25519:...
     RELAY_WS_URL = wss://solver-relay-v2.chaindefuser.com/ws
     ONE_CLICK_API_ONLY = true
     MARGIN_PERCENT = 0.3
-  - Behavior:
-      - On startup:
-          - Connects to NEAR using near-api-js.
-          - Loads reserves of EURe & BTC from the Intents contract.
-          - Computes a deterministic nonce from reserves.
-      - Via WebSocket:
-          - Subscribes to:
-              - QUOTE events (incoming quote requests).
-              - QUOTE_STATUS events (executed intents).
-          - Filters quotes only for the EURe/BTC pair.
-      - For each quote request:
-          - Checks it’s from a trusted partner (partner_id = 1click or
-router-solver).
-          - Computes the AMM price with margin.
-          - Builds a NEP‑413 signed payload and sends a quote_response
-back to the relay.
 
-  The AMM math is constant‑product (x · y = k) with margin:
+On startup it connects to NEAR with near-api-js, loads the reserves of EURe and BTC from the Intents contract and computes a deterministic nonce from the reserves. Over the WebSocket it subscribes to QUOTE events, which are the incoming quote requests, and to QUOTE_STATUS events, which are the executed intents, and it only looks at quotes for the EURe and BTC pair. For each quote request it checks that it comes from a trusted partner (partner_id = 1click or router-solver), computes the AMM price with the margin, builds a NEP-413 signed payload and sends a quote_response back to the relay.
 
-  - For EXACT_INPUT (user specifies amount in):
+The AMM math is constant product (x · y = k) with a margin. This is for EXACT_INPUT, where the user sets the amount in.
 
-    amountInWithFee = amountIn * (1 – margin)
+    amountInWithFee = amountIn * (1 - margin)
     out = (amountInWithFee * reserveOut) / (reserveIn + amountInWithFee)
-  - For EXACT_OUTPUT (if used):
 
-    in = reserveIn * out / ((reserveOut – out) * (1 – margin))
+And this is for EXACT_OUTPUT, if it's used.
 
-  The margin is set by MARGIN_PERCENT (0.3 by default).
+    in = reserveIn * out / ((reserveOut - out) * (1 - margin))
 
-  ———
+The margin is set by MARGIN_PERCENT, and it's 0.3 by default.
 
-  ## 5. How a BTC → EURe Swap Flows End‑to‑End
+## 5. A swap from BTC to EURe, start to end
 
-  Take a BTC → EURe swap from the /intent/ UI:
+Take a swap from BTC to EURe on the /intent/ page.
 
-  1. User requests a quote
-      - UI sends POST /api/intend/btc-to-eure with:
-          - amountInSats
-          - recipientEvm
-          - refundBtc
-      - UI server calls 1‑Click /v0/quote with swapType: EXACT_INPUT.
-  2. 1‑Click asks solvers
-      - 1‑Click forwards a quote request to the solver relay.
-      - Relay broadcasts to all solvers that support the btc.omft.near
-→ EURe pair.
-  3. Our solver answers
-      - Our solver sees a QUOTE event for nep141:btc.omft.near → EURe.
-      - It:
-          - Logs the request into recent_quotes.
-          - Computes an EURe output with margin = 0.3%.
-          - Signs a NEP‑413 quote.
-          - Sends quote_response back to the relay.
-  4. 1‑Click picks a quote
-      - Once it has a quote, 1‑Click returns to our UI server:
-          - The depositAddress (usually a BTC address).
-          - amountIn, amountOut, formatted fields.
-      - The UI server saves this in intentLog.
-  5. User pays
-      - The user sends BTC to the deposit address.
-      - 1‑Click’s internal machinery:
-          - Observes the BTC payment.
-          - Creates a NEAR intent targeting intents.near.
-          - Communicates with the relay and our solver quote to
-execute the swap.
-          - Sends EURe on Gnosis to recipientEvm.
-  6. Status updates
-      - UI polls GET /api/intend/status/:depositAddress every 5 seconds.
-      - Solver receives QUOTE_STATUS events for intents that involve
-its quote and:
-          - Updates its reserves snapshot.
-          - Logs them into recent_intents.
-  7. Monitoring
-      - On emino.app/solver/ the dashboard shows:
-          - Reserves (our liquidity on intents.near).
-          - Recent quotes and intents that went through the relay.
-          - “Recent Swaps (via emino.app UI)” pulled from /api/intend/history.
+It starts when the user asks for a quote. The UI sends POST /api/intend/btc-to-eure with amountInSats, recipientEvm and refundBtc, and the UI server calls 1-Click /v0/quote with swapType EXACT_INPUT. Then 1-Click asks the solvers. It forwards a quote request to the solver relay, and the relay broadcasts it to all solvers that support the pair from btc.omft.near to EURe.
 
-  ———
+Our solver answers. It sees a QUOTE event for nep141:btc.omft.near → EURe, logs the request into recent_quotes, computes the EURe output with a margin of 0.3%, signs a NEP-413 quote and sends quote_response back to the relay. Once 1-Click has a quote, it picks it and returns the depositAddress (usually a BTC address), amountIn, amountOut and the formatted fields to our UI server, and the UI server saves this in intentLog.
 
-  ## 6. How the 0.3% Margin Generates Revenue
+Then the user pays and sends BTC to the deposit address. The internal machinery of 1-Click sees the BTC payment, creates a NEAR intent that targets intents.near, works with the relay and the quote of our solver to execute the swap, and sends EURe on Gnosis to recipientEvm.
 
-  MARGIN_PERCENT = 0.3 means the solver takes 0.3% spread on each
-swap, implemented inside the AMM.
+While that happens the status updates. The UI polls GET /api/intend/status/:depositAddress every 5 seconds. The solver gets QUOTE_STATUS events for the intents that involve its quote, updates its snapshot of the reserves and logs them into recent_intents. And on emino.app/solver/ the dashboard shows the reserves (our liquidity on intents.near), the recent quotes and intents that went through the relay, and "Recent Swaps (via emino.app UI)", which comes from /api/intend/history.
 
-  - For BTC → EURe:
-      - The solver effectively takes 0.3% of the BTC input as “fee”
-and only uses 99.7% of it to compute
-        how much EURe to send.
-      - That extra 0.3% stays inside the BTC reserve.
-  - For EURe → BTC:
-      - The fee is taken from the EURe input; 0.3% of EURe stays in
-the EURe reserve.
+## 6. Where the 0.3% comes from
 
-  Over many swaps:
+MARGIN_PERCENT = 0.3 means the solver takes a 0.3% spread on each swap, and it does that inside the AMM. For BTC to EURe the solver takes 0.3% of the BTC input as a fee and only uses 99.7% of it to compute how much EURe to send, so that extra 0.3% stays in the BTC reserve. For EURe to BTC the fee comes from the EURe input, and 0.3% of the EURe stays in the EURe reserve.
 
-  - Both EURe and BTC reserves grow relative to what a fee‑less AMM would have.
-  - That growth equals the cumulative margin – your solver revenue –
-minus any losses from adverse price
-    movements.
-  - You can think of it as being the market maker: you earn the spread
-(0.3%) but carry the risk if BTC/
-    EURe price moves.
+Over many swaps both reserves grow compared to what an AMM without fees would have. That growth is all the margin added up, so it's your solver revenue, minus any losses when the price moves against you. You can think of it as being the market maker. You earn the spread of 0.3%, but you carry the risk when the price between BTC and EURe moves.
 
-  ———
+## 7. Which currency we earn in
 
-  ## 7. In Which Currency Do We Earn?
+On each single swap the margin is paid in the asset the user sends. A swap from BTC to EURe pays the margin in BTC, and your BTC reserve goes up a bit more than it would without fees. A swap from EURe to BTC pays it in EURe, and your EURe reserve goes up. Over time you collect extra BTC when users send BTC and extra EURe when users send EURe, and your profit lives inside the reserves on the Intents contract.
 
-  On each individual swap, the margin is paid in the asset the user sends:
+The "Reserves (on intents contract)" card on the solver dashboard shows those reserves in human units, EURe and BTC, so you see at a glance how much liquidity, and with it how much profit, sits in the pool.
 
-  - BTC → EURe:
-      - Margin is in BTC; your BTC reserve goes up slightly more than
-it would without fees.
-  - EURe → BTC:
-      - Margin is in EURe; your EURe reserve goes up.
+## 8. Putting liquidity in and taking it out
 
-  Over time:
+The AMM solver expects you to fund the reserves in NEAR Intents before it runs.
 
-  - You accumulate extra BTC when users send BTC and extra EURe when
-users send EURe.
-  - Your profit lives inside the reserves on the Intents contract.
+Preparation comes first. Make sure your solver account, for example nuri-solver.near, has EURe tokens (the wrapped EURe on NEAR) and BTC tokens (btc.omft.near) on NEAR. And add the public key of the solver to intents.near, so it can sign quotes.
 
-  The solver dashboard’s “Reserves (on intents contract)” card shows
-those reserves in human units (EURe
-  and BTC) so you can see at a glance how much liquidity – and
-implicitly profit – is sitting in the pool.
+Then you deposit the tokens to Intents. With the NEAR CLI, in a simple outline, you deposit EURe to intents.near on behalf of nuri-solver.near, and then BTC the same way. The exact commands depend on the NEP-141 FT contracts you use (ft_transfer_call and storage_deposit), and they are in the README of NEAR Intents and of the AMM solver. The idea is that you move tokens from your solver account into a reserve position on the Intents contract.
 
-  ———
+Once the reserves are in place you run the solver with these eight settings.
 
-  ## 8. Depositing and Withdrawing Liquidity
+    AMM_TOKEN1_ID=...EURe...
+    AMM_TOKEN2_ID=nep141:btc.omft.near
+    NEAR_ACCOUNT_ID=nuri-solver.near
+    NEAR_PRIVATE_KEY=ed25519:...
+    RELAY_WS_URL=wss://solver-relay-v2.chaindefuser.com/ws
+    APP_PORT=4010
+    MARGIN_PERCENT=0.3
+    ONE_CLICK_API_ONLY=true
 
-  The AMM solver expects you to fund reserves in NEAR Intents before running:
+    npm start
 
-  1. Preparation
-      - Make sure your solver account (e.g. nuri-solver.near) has:
-          - EURe tokens (on NEAR, the wrapped EURe).
-          - BTC tokens (btc.omft.near) on NEAR.
-      - Add the solver’s public key to intents.near (so it can sign quotes).
-  2. Depositing tokens to Intents
+When the solver starts, emino.app/solver/ shows Health = READY, reserves of EURe and BTC that are not zero, the total supply and the recent quotes and intents.
 
-     Using NEAR CLI (simplified outline):
-      - Deposit EURe to intents.near on behalf of nuri-solver.near.
-      - Deposit BTC to intents.near similarly.
+To take profit you reduce your reserve position on intents.near and withdraw part of the EURe and BTC reserves back to nuri-solver.near. Then you bridge the assets out. You withdraw BTC from the NEAR BTC token into on-chain BTC, and EURe back to Gnosis if you want that. Again the exact commands depend on the FT bridges and the Intents tooling, but the principle is simple. The extra BTC and EURe that piled up in the reserves, compared to your first deposit, is your PnL.
 
-     The exact commands depend on the NEP‑141 FT contracts you use
-(ft_transfer_call / storage_deposit),
-     and are described in NEAR Intents’ and the AMM solver’s README.
-Conceptually, you’re moving tokens
-     from your solver account into a reserve position on the Intents contract.
-  3. Running the solver
+## 9. Monitoring on emino.app/solver/
 
-     Once reserves are in place:
+The solver dashboard answers three questions.
 
-     AMM_TOKEN1_ID=...EURe...
-     AMM_TOKEN2_ID=nep141:btc.omft.near
-     NEAR_ACCOUNT_ID=nuri-solver.near
-     NEAR_PRIVATE_KEY=ed25519:...
-     RELAY_WS_URL=wss://solver-relay-v2.chaindefuser.com/ws
-     APP_PORT=4010
-     MARGIN_PERCENT=0.3
-     ONE_CLICK_API_ONLY=true
+The first one is if our solver is healthy and connected. The health card shows ready as true or false and our solver account, nuri-solver.near. The websocket card shows the connection to the relay (CONNECTED or DISCONNECTED) and the timestamp of the last relay event.
 
-     npm start
+The second one is what liquidity we have and what's happening on NEAR. The reserves card shows the EURe and BTC reserves in human units, "Our liquidity on intents.near for this solver". The total supply card shows the global supply of EURe and BTC on NEAR Intents, across all solvers.
 
-     When the solver starts:
-      - emino.app/solver/ shows:
-          - Health = READY
-          - Reserves = non‑zero EURe & BTC.
-          - Total supply, recent quotes/intents.
-  4. Withdrawing / Taking Profit
+The third one is what activity goes through us and what goes through the network. "Recent Quotes (ours)" only shows the quotes this solver calculated and signed. "Recent Swaps (via emino.app UI)" is the history from GET /api/intend/history, so exactly what you see on /intent/intend/. "Recent Intents (network)" shows all intents seen through the relay, and the rows with asset and amount filled in are the intents that match our own quotes. "Recent Intents (details)" shows the same intents with full hashes and timestamps for deep debugging.
 
-     To realize profits, you can:
-      - Reduce your reserve position on intents.near:
-          - Withdraw part of the EURe/BTC reserves back to nuri-solver.near.
-      - Bridge assets out:
-          - Withdraw BTC from the NEAR BTC token into on‑chain BTC.
-          - Withdraw EURe back to Gnosis, if desired.
+So with one look you know how busy our solver is, if quotes get accepted and executed, if users really swap through our UI, and how much liquidity we still have.
 
-     Again, the exact commands depend on the FT bridges and Intents
-tooling, but the principle is: the
-     “extra” BTC/EURe that has accumulated in the reserves (vs. your
-initial deposit) is your PnL.
+## 10. What's next
 
-  ———
+Now everything is wired and works from end to end, so we can iterate in a few directions. Better pricing, by adjusting MARGIN_PERCENT per pair, size or volatility, and by using external price feeds to keep the AMM centered around a fair price. More pairs, by adding more tokens to the same solver or by running more solvers. And a richer UI, where users pick different swap sizes and see the slippage and the effective price, plus an "expert mode" with the raw request and response JSON embedded.
 
-  ## 9. Monitoring: emino.app/solver/
+For now we already have a fully working cross-chain swap between BTC and EURe through NEAR Intents and 1-Click, a custom AMM solver that earns a 0.3% margin on each swap, and monitoring and history with a clean split between our own data and the wider NEAR Intents network.
 
-  The solver dashboard is designed to answer three questions:
-
-  1. Is our solver healthy and connected?
-      - Health card:
-          - ready: true/false
-          - Solver account (ours): nuri-solver.near
-      - Websocket card:
-          - Connection to relay (CONNECTED / DISCONNECTED).
-          - Last relay event timestamp.
-  2. What liquidity do we have and what’s happening on NEAR?
-      - Reserves:
-          - EURe & BTC reserves in human units.
-          - “Our liquidity on intents.near for this solver”.
-      - Total supply:
-          - Global EURe/BTC supply on NEAR Intents (all solvers).
-  3. What activity is flowing through us vs. the network?
-      - Recent Quotes (ours):
-          - Only quotes calculated and signed by this solver.
-      - Recent Swaps (via emino.app UI):
-          - History from GET /api/intend/history.
-          - Exactly what you see on /intent/intend/.
-      - Recent Intents (network):
-          - All intents observed via the relay.
-          - Rows with asset/amount filled are intents that match our own quotes.
-      - Recent Intents (details):
-          - Same intents but with full hashes and timestamps for deep debugging.
-
-  Together, this gives you:
-
-  - “How busy is our solver?”
-  - “Are quotes being accepted and executed?”
-  - “Are users actually swapping via our UI?”
-  - “How much liquidity do we still have?”
-
-  ———
-
-  ## 10. Where to Go Next
-
-  Now that everything is wired and functioning end‑to‑end, we can
-iterate in a few directions:
-
-  - Better pricing policies
-      - Adjust MARGIN_PERCENT by pair, size, or volatility.
-      - Use external price feeds to keep the AMM centered around a fair price.
-  - More pairs
-      - Add additional tokens to the same solver or run multiple solvers.
-  - Richer UI
-      - Let users pick different swap sizes and see slippage and
-effective price.
-      - Add “expert mode” with raw request/response JSON embedded.
-
-  For now, we already have:
-
-  - A fully working BTC ↔ EURe cross‑chain swap via NEAR Intents & 1‑Click.
-  - A custom AMM solver earning 0.3% margin on each swap.
-  - Monitoring, history, and a clean separation between “our” data and
-the broader NEAR Intents network.
-
-  Feel free to share this post with anyone who wants to understand how
-the system works under the hood or
-  is curious how a solver can actually make money providing liquidity.
+Feel free to share this with anyone who wants to understand how the system works under the hood, or who wonders how a solver can actually make money by providing liquidity.

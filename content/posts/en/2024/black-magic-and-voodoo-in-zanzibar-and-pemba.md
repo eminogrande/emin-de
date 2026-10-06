@@ -1,6 +1,6 @@
 ---
 title: "Black Magic and Voodoo in Zanzibar and Pemba"
-description: "Zanzibar and Pemba have rich histories intertwined with black magic and traditional spiritual practices. These islands are known for their cultural heritage..."
+description: "Shetani, Popobawa, waganga and jinn. What people on Zanzibar and Pemba believe about spirits, magic and traditional healing."
 date: "2024-05-17T21:52:11.433Z"
 updated: "2024-05-17T21:52:11.433Z"
 lang: "en"
@@ -17,30 +17,36 @@ voice_check:
   em_dash: 0
   unobserved: 122
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/black-magic-and-voodoo-in-zanzibar-and-pemba-b3f94a2d2ac3"
 ---
-Zanzibar and Pemba have rich histories intertwined with black magic and traditional spiritual practices. These islands are known for their cultural heritage that includes beliefs in supernatural entities and the use of traditional medicine.
+Zanzibar and Pemba have a long history with black magic and old spiritual practices. Part of the culture on both islands is the belief in supernatural beings and the use of traditional medicine.
 
 ![](../../../media/black-magic-and-voodoo-in-zanzibar-and-pemba/01-3ab9c6c9.png)
 
-## Shetani and Popobawa
+Shetani are spirits or demons, and people in Zanzibar and Pemba believe they influence what happens to humans. The Mwinyi Mkuu, the Great Lord, used to hold his power by controlling these spirits and seeing the future.
 
-Shetani: In Zanzibar and Pemba, shetani are spirits or demons believed to influence human affairs. The Mwinyi Mkuu, or Great Lord, historically held power by controlling these spirits and foreseeing the future. The ruins of the Mwinyi Mkuu’s palace in Dunga are said to be haunted by these spirits at night​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​.
+People say the ruins of the Mwinyi Mkuu’s palace in Dunga are haunted by these spirits at night, as [Siyabona](https://www.siyabona.com/shetani-zanzibar.html) writes.
 
-Popobawa: This notorious spirit terrorized the people of Pemba and later Zanzibar. Popobawa is said to paralyze and violate its victims, causing mass hysteria whenever it is rumored to appear​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​.
+Popobawa is a spirit with a really bad name. It terrorized the people of Pemba first and later Zanzibar.
 
-## Traditional Healers (Waganga)
+People say it paralyzes and violates its victims, and every time there's a rumor that it's back, there's mass hysteria. That's also from [Siyabona](https://www.siyabona.com/shetani-zanzibar.html).
 
-Waganga, or traditional healers, play a crucial role in managing the influence of shetani and other spirits. These healers use a combination of herbal remedies and spiritual rituals to treat ailments and drive away malevolent spirits. Their practices are deeply rooted in local culture and often passed down through generations​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​​ ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/))​.
+The waganga, the traditional healers, are the ones people go to when shetani and other spirits cause trouble. They use herbal remedies and spiritual rituals together, to treat illness and to drive bad spirits away.
 
-## Genies (Jinn)
+This is deep in the local culture and often passed down from one generation to the next. More on that at [Siyabona](https://www.siyabona.com/shetani-zanzibar.html) and [Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/).
 
-Influenced by Islamic traditions, the belief in genies (jinn) is also prevalent. These entities are thought to fulfill wishes and protect individuals if properly summoned and controlled. This type of magic involves rituals that often blend Islamic prayers with traditional practices. It’s common for people to seek the services of a mganga to deal with jinn and other supernatural entities​ ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/))​.
+Because of Islamic traditions, a lot of people also believe in genies, the jinn. People think jinn can fulfill wishes and protect you, if you summon and control them the right way.
 
-## Cultural Integration
+This kind of magic uses rituals that often mix Islamic prayers with traditional practices. And it's normal for people to go to a mganga to deal with jinn and other supernatural beings, says [Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/).
 
-The cultural fabric of Zanzibar and Pemba is a blend of African, Arab, Persian, and Indian influences. This mix has created unique spiritual practices where black magic and traditional healing coexist with Islamic faith. The use of protective charms, rituals, and spirit invocation is widespread, reflecting the islands’ syncretic spiritual landscape​ ([Indigo Safaris](https://www.indigosafaris.com/pemba_island_history_and_culture.html))​​ ([Tanzania Odyssey](https://www.tanzaniaodyssey.com/blog/cadogan-guide-to-tanzania-the-indian-ocean-islands-pemba/))​.
+The culture of Zanzibar and Pemba is a mix of African, Arab, Persian and Indian influences. Out of this mix came spiritual practices where black magic and traditional healing live next to the Islamic faith.
 
-These practices are a significant part of local culture and attract both believers seeking help and researchers interested in traditional African spirituality. The islands’ remote and less-developed nature has allowed these traditions to persist relatively unchanged over centuries.
+Protective charms, rituals and calling on spirits are everywhere, and that shows how much the islands mix different beliefs. You can read more at [Indigo Safaris](https://www.indigosafaris.com/pemba_island_history_and_culture.html) and [Tanzania Odyssey](https://www.tanzaniaodyssey.com/blog/cadogan-guide-to-tanzania-the-indian-ocean-islands-pemba/).
 
-*This article was written collaboratively by Emin Mahrt, emino.ai, Bane, and ChatGPT.*
+All of this is a big part of local life. It brings believers who look for help and also researchers who are interested in traditional African spirituality.
+
+And because the islands are remote and less developed, these traditions stayed more or less the same for centuries.
+
+*This article was written together by Emin Mahrt, emino.ai, Bane and ChatGPT.*

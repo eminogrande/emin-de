@@ -1,6 +1,6 @@
 ---
 title: "Neurobiological Theories of Consciousness: A Practical Map"
-description: "The neurobiological approach asks a simple question with huge implications: if consciousness happens in nature, what exactly is the brain doing when..."
+description: "If consciousness happens in nature, what is the brain doing when experience shows up? Searle, Block, Baars, Dehaene, Northoff and more, in plain words."
 date: "2026-02-20T23:05:00Z"
 updated: "2026-02-20T23:05:00Z"
 lang: "en"
@@ -17,207 +17,82 @@ voice_check:
   em_dash: 0
   unobserved: 227
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100001-neurobiological-theories-of-consciousness-a-practical-map/"
 ---
-## Overview
+The neurobiological approach asks a simple question, and a lot hangs on it. If consciousness happens in nature, what exactly is the brain doing when experience shows up?
 
-The neurobiological approach asks a simple question with huge implications: **if consciousness happens in nature, what exactly is the brain doing when experience appears?**
+This column isn't one single theory. It's a toolbox of proposals that overlap, global broadcasting, recurrent loops, dendritic integration, predictive control and coordination across big networks.
 
-This column is not one single theory. It’s a toolbox of overlapping proposals: global broadcasting, recurrent loops, dendritic integration, predictive control, and large-scale network coordination.
+There is a helpful way to read it, in three steps. One, every thinker and every model tries to solve one specific part of the puzzle.
 
-A helpful way to read this post:
+Two, no model explains everything yet. And three, the most progress comes from combining insights, not from picking a cult favorite.
 
-1. each thinker/model is trying to solve a specific part of the puzzle;
-2. no one model explains everything yet;
-3. the strongest progress comes from combining insights, not picking a cult favorite.
+John Searle argues that consciousness is a real biological feature of brains, not some software abstraction floating free of biology. In plain words, brains cause consciousness the way stomachs cause digestion, and experience is natural but can't be reduced to pure computation.
 
----
+That's useful because it keeps the discussion grounded in biology and rejects both dualist mysticism and the mind-is-just-code shortcut. The main criticism is that calling consciousness biological points the right way, but we still need the mechanism.
 
-## Searle
+Ned Block is famous for the split between access consciousness and phenomenal consciousness. Access consciousness is information that is available for report, decisions and control. Phenomenal consciousness is what it feels like from the inside.
 
-John Searle argues consciousness is a **real biological feature** of brains, not software-level abstraction floating free of biology.
+For neuroscience this matters a lot, because a model can explain why you can report something without fully explaining how it feels. Block stops us from mixing up the two.
 
-In plain language:
-- brains cause consciousness the way stomachs cause digestion;
-- experience is natural, but not reducible to pure computation.
+Gerald Edelman proposed dynamic selectionist models, often linked to neural Darwinism. Groups of neurons compete, stabilize and coordinate through reentrant signaling.
 
-Why useful:
-- keeps the discussion grounded in biology;
-- rejects both dualist mysticism and "mind is just code" shortcuts.
+What non-specialists can take from it is that consciousness may depend less on one magic center and more on ongoing coordination across changing populations in the brain.
 
-Main criticism:
-- saying consciousness is "biological" is directionally right, but we still need the mechanism.
+Crick and Koch helped make serious consciousness science normal, because they framed it as a biological research problem you can solve and pushed the search for NCCs, the neural correlates of consciousness.
 
----
+What they left behind is a field driven by tests, a focus on specific circuits and timing, and a move from abstract metaphysics to hypotheses you can measure.
 
-## Block
+Global Workspace Theory from Baars and the Global Neuronal Workspace from Dehaene and colleagues say that conscious content is information that gets broadcast globally, so many systems can use it.
 
-Ned Block’s famous contribution is the split between:
-- **access consciousness** (information available for report, decision, control), and
-- **phenomenal consciousness** (what it feels like from the inside).
+The simple version is that unconscious processing is local and specialized, and conscious processing is globally available and ready to report. It fits very well with a lot of findings on attention, report, masking and ignition.
 
-Why this matters for neuroscience:
-A model may explain reportability without fully explaining subjective feel. Block prevents us from mistaking one for the other.
+The limit is that it's still debated whether global availability explains the felt experience itself or mostly cognitive access.
 
----
+William Calvin has looked at pattern dynamics across the cortex and at timing architectures that matter for thought and awareness.
 
-## Edelman
+In this map he stands for the attempts to explain consciousness through patterns that evolve across the brain, and not through modules sitting in one spot.
 
-Gerald Edelman proposed dynamic selectionist models (often associated with neural Darwinism): neural groups compete, stabilize, and coordinate through reentrant signaling.
+Claire Sergent's work on the timing of conscious access, especially with near-threshold paradigms, made the neural timeline of awareness sharper.
 
-Takeaway for non-specialists:
-Consciousness may depend less on one "magic center" and more on ongoing large-scale coordination across changing brain populations.
+It matters because consciousness isn't only about *where* in the brain, but also *when* and *how quickly* information becomes usable everywhere.
 
----
+Jesse Prinz proposes views based on attention and on intermediate level representations. Consciousness tracks the intermediate representations you pay attention to.
 
-## Crick–Koch
+In plain words, not every representation in the brain becomes conscious, attention and the format of the representation both matter.
 
-Crick and Koch helped normalize serious consciousness science by framing it as a solvable biological research problem and by pushing the search for NCCs (neural correlates of consciousness).
+Kent Bach shows up here because of his work on clear representations and concepts in theories of mind. In practice he helps keep the lines clean between having information, accessing it and experiencing it.
 
-Their legacy:
-- make the field test-driven;
-- focus on specific circuits and timing;
-- move from abstract metaphysics to measurable hypotheses.
+Circuits and cycles sum up a broad trend that most people agree on. Consciousness probably depends on circuit motifs and on things going round in cycles, thalamocortical loops, recurrent interaction in the cortex, oscillatory synchrony and feedback, and not on one single feed-forward pass.
 
----
+Dendritic computation is newer work that treats dendrites as active units that compute, not as passive wires. That's exciting, because if single neurons do richer local computation than the old models assumed, the biological basis of conscious integration may be stronger, and more subtle, than the classic simple neural nets.
 
-## Baars / Dehaene (Global Workspace)
+Georg Northoff focuses on spatiotemporal brain dynamics and on how the brain processes the self. His core idea is that consciousness may need a specific organization of brain activity in time and space, including the structure of the resting state, and not just events of stimulus and response.
 
-Global Workspace Theory (Baars) and Global Neuronal Workspace (Dehaene and colleagues) suggest conscious content is information that gets globally broadcast so many systems can use it.
+That helps explain why the baseline state of the brain shapes experience so much.
 
-Simple version:
-- unconscious processing is local and specialized;
-- conscious processing is globally available and report-ready.
+Mario Bunge defended a scientifically serious materialism that looks at systems and resists both dualism and hand-waving reduction. It's relevant because thinking like Bunge pushes for clear mechanisms and still respects that each level has its own explanations.
 
-Strength:
-Excellent fit with many attention, report, masking, and ignition findings.
+Robert Sapolsky brings the broad biological context. Behavior and thinking come out of layered causes, genes, development, hormones, environment, social structure and the state of the neurons right in that moment.
 
-Limit:
-Still debated whether global availability explains phenomenal feel itself or mainly cognitive access.
+For consciousness that means stories on one level only are usually wrong, and awareness sits inside biology that runs on many timescales.
 
----
+The free agents debate is the question of agency inside neurobiology. If conscious decisions go together with neural preparation you can measure, what is left of free will? The nuance is that the debate isn't about free or not free in a cartoon way anymore.
 
-## Calvin
+It's about what kind of control, self-modeling and choosing of policies a conscious system can really do inside real biological limits.
 
-William Calvin has explored large-scale cortical pattern dynamics and timing architectures relevant to thought and awareness.
+William Hirstein's work on confabulation, self-representation and neuropsychological syndromes reminds us of something important. Our first person certainty can be distorted in a systematic way by brain damage or dysfunction.
 
-Value in this map:
-He represents efforts to explain consciousness through distributed pattern evolution rather than point-location modules.
+So theories of consciousness have to explain not only normal experience but also the pathological edge cases where self-models break.
 
----
+There are four things this whole column gets right. One, it is testable. Two, it builds up over time. Three, it ties philosophy to data. And four, it explains a lot about conscious access, report and integration.
 
-## Sergent
+And there are three things it still struggles with. One is why specific neural dynamics feel like something from the inside.
 
-Claire Sergent’s work on conscious access timing (especially near-threshold paradigms) helped sharpen the neural timeline of awareness.
+Two is how to bridge mechanism and phenomenology without hand-waving. Three is how to bring competing models together into one mature framework.
 
-Why important:
-Consciousness is not only *where* in the brain, but *when* and *how quickly* information becomes globally usable.
+In plain language, neurobiological theories are the strongest empirical path we have right now. They don't solve everything, but they give real traction and real predictions.
 
----
-
-## Prinz
-
-Jesse Prinz proposes attention-based and intermediate-level representational views: consciousness tracks attended intermediate representations.
-
-In plain words:
-Not every brain representation becomes conscious; attention and representational format matter.
-
----
-
-## Bach
-
-Kent Bach appears here in relation to representational and conceptual clarity in mind theories.
-
-Practical contribution:
-He helps keep distinctions clean between having information, accessing it, and experiencing it.
-
----
-
-## Circuits / Cycles
-
-This point summarizes a broad consensus trend:
-
-Consciousness likely depends on circuit motifs and cyclical interactions (thalamocortical loops, recurrent cortical interactions, oscillatory synchrony, feedback cycles), not one feed-forward pass.
-
----
-
-## Dendritic Computation
-
-Recent work emphasizes dendrites as active computational units, not passive wires.
-
-Why this is exciting:
-If single neurons do richer local computation than old models assumed, the biological basis of conscious integration may be more powerful (and more nuanced) than classic neural-net simplifications.
-
----
-
-## Northoff
-
-Georg Northoff focuses on spatiotemporal brain dynamics and self-related processing.
-
-Core idea:
-Consciousness may require specific temporal and spatial organization of brain activity, including resting-state structure, not just stimulus-response events.
-
-This helps explain why baseline brain state strongly shapes experience.
-
----
-
-## Bunge
-
-Mario Bunge defended scientifically serious, system-oriented materialism that resists both dualism and hand-wave reduction.
-
-Why relevant:
-Bunge-style thinking pushes for mechanistic clarity while respecting level-specific explanation.
-
----
-
-## Sapolsky
-
-Robert Sapolsky contributes broad biological context: behavior and cognition emerge from layered causes (genes, development, hormones, environment, social structure, immediate neural state).
-
-Implication for consciousness:
-Single-level stories are usually wrong. Conscious awareness is embedded in multi-timescale biology.
-
----
-
-## Free Agents Debate
-
-This point captures the agency question inside neurobiology:
-
-If conscious decisions correlate with measurable neural preparation, what remains of free will?
-
-Important nuance:
-The debate is no longer "free or not free" in a cartoon sense. It’s about what kind of control, self-modeling, and policy selection conscious systems can implement in real biological constraints.
-
----
-
-## Hirstein
-
-William Hirstein’s work on confabulation, self-representation, and neuropsychological syndromes reminds us of something crucial:
-
-Our first-person certainty can be systematically distorted by brain damage or dysfunction.
-
-Why this matters:
-Consciousness theories must explain not only normal experience, but also pathological edge cases where self-models break.
-
----
-
-## What this whole column gets right
-
-1. It is testable.
-2. It is cumulative.
-3. It ties philosophy to data.
-4. It explains many features of conscious access, report, and integration.
-
-## What it still struggles with
-
-1. Why specific neural dynamics feel like something from inside.
-2. How to bridge mechanism and phenomenology without hand-waving.
-3. How to unify competing models into one mature framework.
-
----
-
-## Bottom line (plain language)
-
-Neurobiological theories are currently our strongest empirical path. They don’t solve everything, but they give real traction and real predictions.
-
-If you care about truth over ideology, this column is essential: it forces every philosophical claim to eventually face the brain.
+If you care about truth more than ideology, this column is essential, because it makes every philosophical claim face the brain sooner or later.

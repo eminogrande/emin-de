@@ -1,6 +1,6 @@
 ---
 title: "Complete iOS Developer Onboarding Guide for EAS Build with Expo.dev"
-description: "Developer Needs From You: - Repository URL - Project name - Which branch to use - Any ENV variables or secrets"
+description: "Every step to get a new iOS developer building with EAS Build and Expo, from Apple and Expo invites to the first build on the phone. No Mac needed."
 date: "2025-08-29T07:15:02Z"
 updated: "2025-08-29T07:15:02Z"
 lang: "en"
@@ -17,159 +17,81 @@ voice_check:
   em_dash: 0
   unobserved: 53
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/"
 ---
 ![](../../../media/complete-ios-developer-onboarding-guide-for-eas-build-with-expo-dev/cover.jpg)
 
-# Complete iOS Developer Onboarding Guide for EAS Build
+This is the full list of steps to get a new iOS developer building with EAS Build. You don't need a Mac for any of it. Everything runs on Windows or Linux through the EAS Build cloud service.
 
-## Phase 1: Company Admin Setup (You Do This First)
+Before you start, swap a few things. The developer needs the repository URL, the project name, which branch to use and any ENV variables or secrets from you. You need their email address, their iPhone UDID and a short message when they accepted the invitations. EAS then takes care of all certificates, provisioning profiles, code signing and the bundle ID configuration automatically.
 
-### 1. Add Developer to Apple Developer Account
-- Go to https://developer.apple.com
-- Click "Users and Access"
-- Click "+" button
-- Enter developer's email
-- Select "Admin" or "Developer" role
-- Click "Invite"
+## What you do first, as the company admin
 
-### 2. Add Developer to App Store Connect
-- Go to https://appstoreconnect.apple.com/access/users
-- Click "+" button
-- Enter same email as above
-- Select appropriate role (Developer/Admin/App Manager)
-- Click "Invite"
+1. Add the developer to the Apple Developer account. Go to https://developer.apple.com, click "Users and Access", click the "+" button, enter the developer's email, pick the "Admin" or "Developer" role and click "Invite".
+2. Add them to App Store Connect. Go to https://appstoreconnect.apple.com/access/users, click "+", enter the same email, pick the role that fits (Developer, Admin or App Manager) and click "Invite".
+3. Add them to the Expo organization. Go to https://expo.dev, open Settings → Members, click "Invite Member", enter their email, pick "Developer" or "Admin" and send the invitation.
+4. Get the UDID of their device. Ask them to go to Settings → General → About and tap and hold "Serial Number" until "UDID" shows up, and then send you that string.
+5. Register the device in the Apple Developer portal. Go to https://developer.apple.com, open "Devices", click "+", enter a name (e.g., "John's iPhone 14"), enter the UDID and save.
+6. Give them access to the repository. Add them on GitHub, GitLab or Bitbucket, give them the right permissions and send them the repository URL.
 
-### 3. Add Developer to Expo Organization
-- Go to https://expo.dev
-- Navigate to Settings → Members
-- Click "Invite Member"
-- Enter developer's email
-- Select "Developer" or "Admin" role
-- Send invitation
+## What the developer does
 
-### 4. Get Developer's Device UDID
-- Ask developer to go to: Settings → General → About
-- Tap and hold "Serial Number" until "UDID" appears
-- Have them send you the UDID string
-
-### 5. Register Device in Apple Developer Portal
-- Go to https://developer.apple.com
-- Navigate to "Devices" section
-- Click "+" to add device
-- Enter name (e.g., "John's iPhone 14")
-- Enter the UDID
-- Save
-
-### 6. Share Repository Access
-- Add developer to GitHub/GitLab/Bitbucket
-- Grant appropriate permissions
-- Share repository URL
-
-## Phase 2: Developer Account Setup (Developer Does This)
-
-### 7. Accept Apple Developer Invitation
-- Check email for Apple invitation
-- Click accept link
-- Sign in with personal Apple ID (or create one)
-- Accept terms and conditions
-
-### 8. Accept App Store Connect Invitation
-- Check email for App Store Connect invitation
-- Click accept link
-- Sign in with same Apple ID
-- Accept terms
-
-### 9. Create and Setup Expo Account
-- Go to https://expo.dev
-- Create account with same email
-- Verify email address
-- Accept organization invitation from email
-
-### 10. Setup Development Environment
-- Install Node.js (v16 or higher)
-- Install Git
-- Install VS Code or preferred editor
-- Open terminal/command prompt
-
-### 11. Install Required CLI Tools
+7. Accept the Apple Developer invitation. It comes by email. Click the link, sign in with a personal Apple ID (or create one) and accept the terms and conditions.
+8. Accept the App Store Connect invitation the same way, with the same Apple ID, and accept the terms.
+9. Create an Expo account. Go to https://expo.dev, sign up with the same email, verify it and accept the organization invitation from the email.
+10. Set up the computer. Install Node.js (v16 or higher), Git and VS Code or whatever editor you like, and open a terminal.
+11. Install the CLI tools.
 ```bash
 npm install -g expo-cli
 npm install -g eas-cli
 ```
 
-### 12. Login to Expo/EAS
+12. Log in to Expo and EAS with your own Expo account, not the company's.
 ```bash
 eas login
 # Enter personal Expo credentials (not company's)
 ```
 
-### 13. Clone and Setup Project
+13. Clone the project and install it.
 ```bash
 git clone [repository-url]
 cd [project-name]
 npm install
 ```
 
-## Phase 3: First Development Build
+## The first development build
 
-### 14. Verify EAS Configuration
+14. Check that eas.json is there and has a development profile.
 ```bash
 # Check that eas.json exists and has development profile
 cat eas.json
 ```
 
-### 15. Create Development Build
+15. Start the development build.
 ```bash
 eas build --profile development --platform ios
 ```
-- EAS automatically uses company's stored credentials
-- Wait for build to complete (10-20 minutes)
-- Build appears in Expo dashboard
+EAS just uses the company's stored credentials. The build takes 10-20 minutes and then shows up in the Expo dashboard.
 
-## Phase 4: Device Setup (Developer's iPhone)
+## On the iPhone
 
-### 16. Enable Developer Mode (iOS 16+)
-- Settings → Privacy & Security
-- Scroll to "Developer Mode" (won't appear until step 17 fails first)
-- Toggle ON
-- Device will restart
-- After restart: confirm "Turn On Developer Mode"
-- Enter device passcode
+16. Turn on Developer Mode (iOS 16+). It's in Settings → Privacy & Security, but "Developer Mode" only shows up there after step 17 failed once. Switch it on, the phone restarts, then confirm "Turn On Developer Mode" and enter your passcode.
+17. Install the build. Open the EAS dashboard in Safari on the iPhone, or use the direct link the terminal gives you when the build is done, and tap "Install". If Developer Mode isn't on yet, this fails, so go back to step 16.
+18. Trust the developer certificate. Go to Settings → General → VPN & Device Management, find the profile under "Developer App", tap the company name profile, tap "Trust [Company Name]" and confirm.
+19. Open the app. The icon is on the home screen now, tap it and it should just run.
 
-### 17. Install Development Build
-- Open EAS dashboard in Safari on iPhone
-- Or get direct link from terminal after build completes
-- Tap "Install" on the build
-- If Developer Mode not enabled, it will fail (go back to step 16)
+## Every day after that
 
-### 18. Trust Developer Certificate
-- Go to Settings → General → VPN & Device Management
-- Find profile under "Developer App"
-- Tap company name profile
-- Tap "Trust [Company Name]"
-- Confirm trust
-
-### 19. Launch App
-- App icon appears on home screen
-- Tap to open
-- App should run successfully
-
-## Phase 5: Daily Development Workflow
-
-### 20. Start Development Server
+20. Start the development server.
 ```bash
 # In project directory
 npx expo start --dev-client
 ```
 
-### 21. Connect Device to Development Server
-- Ensure iPhone and computer on same WiFi
-- Open installed app on iPhone
-- App connects to Metro bundler
-- See live updates as you code
-
-### 22. Creating New Builds
+21. Connect the phone. iPhone and computer have to be on the same WiFi. Open the installed app, it connects to the Metro bundler, and you see your changes live while you code.
+22. Make new builds when you need them.
 ```bash
 # Development build (for testing)
 eas build --profile development --platform ios
@@ -181,49 +103,14 @@ eas build --profile preview --platform ios
 eas build --profile production --platform ios
 ```
 
-### 23. Submitting to TestFlight
+23. Send it to TestFlight.
 ```bash
 # After production build completes
 eas submit -p ios
 ```
 
-## Phase 6: Troubleshooting Checklist
+## When something breaks
 
-### 24. If Build Won't Install
-- ✓ Check UDID is registered in Apple Developer
-- ✓ Check Developer Mode is enabled
-- ✓ Check device management trust settings
-- ✓ Rebuild with `--clear-cache` flag
-
-### 25. If Can't Access Expo Project
-- ✓ Verify logged into correct Expo account
-- ✓ Check organization membership accepted
-- ✓ Run `eas whoami` to verify identity
-
-### 26. If Build Fails
-- ✓ Check Apple Developer access is active
-- ✓ Verify eas.json configuration
-- ✓ Check bundle ID matches Apple settings
-- ✓ Review build logs in EAS dashboard
-
-## Required Information Summary
-
-**Developer Needs From You:**
-- Repository URL
-- Project name
-- Which branch to use
-- Any ENV variables or secrets
-
-**You Need From Developer:**
-- Email address
-- iPhone UDID
-- Confirmation when invitations accepted
-
-**Automatic via EAS:**
-- All certificates
-- Provisioning profiles
-- Code signing
-- Bundle ID configuration
-
-**No Mac Required!** Everything works on Windows/Linux through EAS Build
-cloud service.
+24. If the build won't install, check that the UDID is registered in Apple Developer, that Developer Mode is on and that the device management trust is set, and rebuild with the `--clear-cache` flag.
+25. If you can't get into the Expo project, check that you're logged into the right Expo account and that the organization invite was accepted, and run `eas whoami` to see who you are.
+26. If the build fails, check that the Apple Developer access is still active, look at eas.json again, check that the bundle ID matches the Apple settings and read the build logs in the EAS dashboard.

@@ -1,6 +1,6 @@
 ---
-title: "Continuous Clearing Auctions (CCA): Technical Overview"
-description: "Continuous Clearing Auctions (CCA) are an on-chain auction protocol designed by Uniswap (Universal Navigation Inc.) to conduct multi-period token sales with..."
+title: "How Continuous Clearing Auctions (CCA) work, the technical version"
+description: "Uniswap's CCA sells a token over many blocks at one fair price per block and then seeds a Uniswap v4 pool. Here is the math and an example"
 date: "2025-12-02T18:15:02Z"
 updated: "2025-12-02T18:15:02Z"
 lang: "en"
@@ -18,118 +18,54 @@ voice_check:
   em_dash: 0
   unobserved: 227
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/untitled-post/"
 ---
 ![](../../../media/continuous-clearing-auctions-cca-technical-overview/cover.jpg)
 
-# Continuous Clearing Auctions (CCA): Technical Overview
+# How Continuous Clearing Auctions (CCA) work, the technical version
 
-Continuous Clearing Auctions (CCA) are an on-chain auction protocol
-designed by Uniswap (Universal Navigation Inc.) to conduct multi-period
-token sales with automated liquidity bootstrapping into a Uniswap v4 pool.
-Projects configure a sale that runs over many discrete auction blocks;
-bidders submit size–price instructions that are split across blocks, and
-each block clears at a uniform “market” price based on the submitted demand.
+Continuous Clearing Auctions, or CCA, are an on-chain auction protocol from Uniswap (Universal Navigation Inc.). The idea is to sell a token over many periods and then put the liquidity straight into a Uniswap v4 pool. A project sets up a sale that runs over many separate auction blocks. Bidders send in a size and a price, the protocol splits that across the blocks, and each block clears at one uniform market price based on the demand that came in.
 
-The protocol is implemented as a separate smart-contract system
-(“Continuous Clearing Auction” + factory) and is intended to be used
-together with the Uniswap Liquidity Launcher. The Aztec Network public
-token sale is the first large production use of this mechanism.
+It's built as its own smart contract system, a Continuous Clearing Auction contract plus a factory, and it's meant to be used together with the Uniswap Liquidity Launcher. The Aztec Network public token sale is the first big real use of it.
 
----
+How does it work? First the setup. A project defines at least the total tokens to sell `Q_total` and how long the auction runs, as a number of blocks or a time range. It also sets some starting guidance, like a starting price and maybe a price floor or a reserve curve. Then the graduation conditions, so the checks that decide if the sale is done and worked, for example a minimum of capital raised, a minimum average price or other criteria. And the rules for seeding liquidity, so how much of the raised assets and the leftover tokens go into a Uniswap v4 pool at the end. During the sale window the auction contract is the only seller of the token.
 
-## 1. Mechanism Outline
+Then the bid. A bidder sends one order with a maximum spend or the quantity they want, and the highest price they accept, `P_max`. They can also add other wishes like a minimum fill size. The protocol spreads this bid over all the auction blocks that are left, and in each block a part of the bid takes part in price discovery.
 
-### 1.1 Setup
+For a given block `t`, let `S_t` be the token supply for block `t`, and let `B_t` be the multiset of active bid slices for block `t`, each with `(P_max_i, Q_i^t)`.
 
-A project defines at minimum:
-
-- Total tokens to sell `Q_total`
-- Auction duration (number of blocks or time range)
-- Initial guidance parameters (e.g., starting price, optional price floor
-or reserve curve)
-- Graduation conditions / completion checks (for example: minimum capital
-raised, minimum average price, or other criteria)
-- Liquidity seeding rules (e.g., what fraction of raised assets and
-remaining tokens are deposited into a Uniswap v4 pool at the end)
-
-The auction smart contract then acts as the sole seller of the token during
-the sale window.
-
-### 1.2 Bid Model
-
-A bidder submits a single order specifying:
-
-- Maximum spend or desired quantity
-- Maximum acceptable price `P_max`
-- (Optionally) additional preferences such as minimum fill size
-
-The protocol conceptually “spreads” this bid across all remaining auction
-blocks. In each block, a portion of the bid participates in price discovery.
-
-For a given block `t`:
-
-- Let `S_t` be the token supply allocated to block `t`
-- Let `B_t` be the multiset of active bid slices for block `t`, each with
-`(P_max_i, Q_i^t)`
-
-The block’s **clearing price** `P_clear_t` is the lowest price such that
-cumulative demand at or above that price weakly exceeds `S_t`.
-
-Formally, if we sort all `P_max_i` in descending order and accumulate the
-corresponding `Q_i^t` until:
+The clearing price of the block, `P_clear_t`, is the lowest price where the total demand at or above that price weakly exceeds `S_t`. So you sort all `P_max_i` from high to low and add up the matching `Q_i^t` until
 
 \[
 \sum_{i: P_{\text{max},i} \ge P_{\text{clear},t}} Q_i^t \ge S_t
 \]
 
-then `P_clear_t` is the threshold price for that block.
+and then `P_clear_t` is the threshold price for that block.
 
-All filled slices in block `t` transact at `P_clear_t`, subject to pro-rata
-scaling when demand at or above the clearing price strictly exceeds `S_t`.
+All filled slices in block `t` trade at `P_clear_t`. If demand at or above the clearing price is strictly bigger than `S_t`, they get scaled pro rata.
 
-### 1.3 Pro-Rata Allocation at the Margin
-
-If the last price level that allows filling the block is oversubscribed,
-the protocol scales allocations of bidders at that exact threshold price:
-
-- Let `D_strict` be total demand from bids with `P_max > P_clear_t`
-- Let `D_equal` be total demand from bids with `P_max = P_clear_t`
-- If `D_strict ≥ S_t`, then all volume is filled strictly above the
-threshold and a slightly higher clearing price is chosen.
-- Otherwise, the remaining capacity is `S_t - D_strict`. Bids at
-`P_clear_t` are scaled:
+That scaling happens at the margin. If the last price level that fills the block is oversubscribed, the protocol scales the bidders who sit exactly at that threshold price. Let `D_strict` be the total demand from bids with `P_max > P_clear_t` and `D_equal` the total demand from bids with `P_max = P_clear_t`. If `D_strict ≥ S_t`, then everything is filled strictly above the threshold and a slightly higher clearing price is picked. If not, the capacity left is `S_t - D_strict`, and the bids at `P_clear_t` get scaled like this
 
 \[
 \text{allocation}_i = Q_i^t \times \frac{S_t -
 D_{\text{strict}}}{D_{\text{equal}}}
 \]
 
-All allocations pay exactly `P_clear_t`.
+and every allocation pays exactly `P_clear_t`.
 
-### 1.4 Max-Price Safety
-
-For every bidder `i` and every block `t`, if:
+And there is a max price safety. For every bidder `i` and every block `t`, if
 
 \[
 P_{\text{clear},t} > P_{\text{max},i}
 \]
 
-then their slice for that block is not executed. Unused slices remain
-available for future blocks (as long as the auction is ongoing) or can be
-withdrawn according to the sale’s rules.
+then their slice for that block just doesn't execute. Slices that weren't used stay there for later blocks as long as the auction runs, or you can withdraw them, depending on the rules of the sale.
 
----
+## A simple example with numbers
 
-## 2. Simple Numerical Example
-
-Assume:
-
-- Single-block auction (for simplicity)
-- Supply in this block: `S = 1,000` tokens
-- 10 participants, each with `(P_max, Q)` as below
-
-### 2.1 Raw Bids
+To keep it simple, take an auction with a single block. The supply in this block is `S = 1,000` tokens and there are 10 participants, each with `(P_max, Q)` like this.
 
 | Participant | Max Price `P_max` | Quantity `Q` |
 |------------|-------------------|--------------|
@@ -144,9 +80,7 @@ Assume:
 | I | 1.20 | 100 |
 | J | 0.75 | 40 |
 
-### 2.2 Order Book by Descending `P_max`
-
-Sort bidders by decreasing `P_max` and compute cumulative demand:
+Now sort the bidders by `P_max` from high to low and add up the demand.
 
 | Rank | Participant | `P_max` | `Q` | Cumulative Demand |
 |------|-------------|---------|-----|-------------------|
@@ -157,33 +91,26 @@ Sort bidders by decreasing `P_max` and compute cumulative demand:
 | 5 | A | 1.80 | 150 | 1,450 |
 | ... | others | ≤ 1.60 | ... | ... |
 
-We first cross the supply `S = 1,000` when including B.
-This implies **clearing price**:
+We first go over the supply `S = 1,000` when we include B. So the clearing price is
 
 \[
 P_{\text{clear}} = 2.20
 \]
 
-Eligible bidders are those with `P_max ≥ 2.20`:
-
-- G: 500
-- D: 400
-- B: 200
-
-Total eligible demand:
+The eligible bidders are the ones with `P_max ≥ 2.20`, so G with 500, D with 400 and B with 200. The total eligible demand is
 
 \[
 D_{\text{eligible}} = 500 + 400 + 200 = 1{,}100
 \]
 
-Pro-rata factor on the margin:
+and the pro rata factor at the margin is
 
 \[
 \alpha = \frac{S}{D_{\text{eligible}}} = \frac{1{,}000}{1{,}100} \approx
 0.909
 \]
 
-### 2.3 Final Allocations
+That gives these final allocations.
 
 | Participant | Demand | Allocation `= Q × α` | Price Paid |
 |------------|--------|----------------------|------------|
@@ -191,146 +118,50 @@ Pro-rata factor on the margin:
 | D | 400 | 363.6 | 2.20 |
 | B | 200 | 181.8 | 2.20 |
 
-- All other participants receive zero in this block.
-- No one pays above their specified `P_max`.
-- Every filled unit transacts at the same uniform price `2.20`.
+Everyone else gets zero in this block. Nobody pays more than the `P_max` they set, and every filled unit trades at the same uniform price of `2.20`. An auction with many blocks is just this logic again, run for every block with its share of tokens and the bid slices that are active.
 
-A multi-block auction generalizes this logic by re-running the clearing
-process for each block with its share of tokens and the active bid slices.
+## Uniswap v4, and how it compares
 
----
+In Uniswap's version CCA is its own protocol, but it's built to feed straight into a Uniswap v4 pool through hooks when the sale ends. The final state of the auction, so the total capital raised, the last clearing price and the tokens that are left, sets up the first liquidity position. So the auction is the price discovery phase and also pre-funds the pool, and you don't need a separate step to figure out liquidity later. The Aztec sale uses exactly this. The CCA contract does the price discovery and a dedicated "Aztec: Continuous Clearing Auction" contract address on Ethereum tracks bids and fills.
 
-## 3. Integration With Uniswap v4 and Liquidity Bootstrapping
+Compare that to a fixed price sale. There the project sets one price up front and it's first come first served until the allocation is gone. Latency and gas bidding decide who gets in early, and the price is often wrong, so either the issuer leaves capital on the table or buyers see slippage right when secondary trading starts. With CCA the clearing price comes out of the order book of each block, allocation depends on how much price you tolerate and not on how fast your transaction is, and the final price fits the total demand by construction.
 
-In Uniswap’s implementation:
+A Dutch auction starts high and ticks down over time. Rational bidders try to wait for lower prices but not so long that supply runs out, so strategic timing and sniping at the block level matter a lot, and the clearing price you see may show the timing game more than a best guess of long-term value. With CCA you state your `P_max` once and your bid gets sliced across blocks. You don't have to watch and resubmit when the price moves. And clearing happens continuously in blocks, not on one descending path, so it's closer to repeated uniform price auctions than to one Dutch clock.
 
-- CCA is exposed as a distinct protocol, but is designed to feed directly
-into a Uniswap v4 pool via hooks at the end of the sale.
-- The final auction state (total capital raised, terminal clearing price,
-remaining tokens) is used to parameterize an initial liquidity position.
-- The auction thus serves both as a price-discovery phase and as a way to
-pre-fund the pool, avoiding a separate “figure out liquidity later” step.
+A one-shot uniform price auction, the sealed bid kind, takes all bids once and computes one clearing price with pro rata scaling at the margin. But it doesn't bootstrap AMM liquidity by itself, there is often a separate pool creation transaction after, and bidders can't react to new information between blocks. CCA keeps the uniform price but repeats the clearing over many intervals, connects automatically to a Uniswap v4 pool at the end, and allows longer sale windows where participation changes while every block still gets a clear price.
 
-The Aztec sale uses this infrastructure, with the CCA contract handling
-price discovery and a dedicated “Aztec: Continuous Clearing Auction”
-contract address on Ethereum tracking bids and fills.
+And then the AMM instant listing, like launching a Uniswap v3 or v4 pool directly. Tokens go into a pool and trading starts right away. Early trades hit thin liquidity and high slippage, MEV and mempool competition shape the launch price a lot, and there is no real clearing price or ordered demand curve. In CCA explicit bidding replaces trading during the sale, price discovery happens by adding up an order book and not along a constant product curve, and the final clearing state then sets up the pool. So the sale and secondary trading are two separate phases.
 
----
-
-## 4. Comparison With Other Token Sale Mechanisms
-
-### 4.1 Fixed-Price Sales
-
-- Project sets a single sale price ex-ante.
-- First-come-first-served fills the allocation until exhausted.
-- Latency and gas-bidding advantages dominate early access.
-- Mispricing is common: either the issuer leaves capital on the table or
-buyers immediately see slippage once secondary trading starts.
-
-**CCA contrast:**
-
-- Clearing price is endogenously determined from the order book per block.
-- Allocation is based on price tolerance, not transaction speed.
-- Final price is by construction consistent with the aggregate demand
-profile.
-
-### 4.2 Dutch Auctions (Descending Price)
-
-- Price starts high and ticks downward over time.
-- Rational bidders attempt to wait for lower prices but not so long that
-supply runs out.
-- Strategic timing and block-level sniping play a large role.
-- The observed clearing price may reflect game-theoretic timing rather than
-a best estimate of long-run value.
-
-**CCA contrast:**
-
-- Bidders state their `P_max` once; their bids are sliced across blocks.
-- No requirement to monitor and re-submit as price changes.
-- Clearing is continuous in blocks, not a single descending path; the
-mechanism is closer to repeated uniform-price auctions than a single Dutch
-clock.
-
-### 4.3 One-Shot Uniform-Price (Sealed-Bid) Auctions
-
-- All bids submitted once.
-- A single clearing price is computed, with pro-rata scaling at the margin.
-- Does not naturally bootstrap AMM liquidity; often followed by a separate
-pool-creation transaction.
-- No intra-auction adaptation: bidders cannot react to emerging information
-between blocks.
-
-**CCA contrast:**
-
-- Keeps the uniform-price property but repeats clearing over many intervals.
-- Facilitates automated connection to a Uniswap v4 pool at completion.
-- Allows longer sale windows with evolving participation while still
-computing a clear per-block price.
-
-### 4.4 AMM Instant Listings (e.g., Direct Uniswap v3/v4 Pool Launch)
-
-- Tokens are deposited into a pool and trading goes live immediately.
-- Early trades suffer from thin liquidity and high slippage.
-- MEV and mempool competition strongly influence the realized “launch
-price.”
-- No explicit notion of a clearing price or ordered demand curves.
-
-**CCA contrast:**
-
-- Trading is replaced by explicit bidding during the sale.
-- Price discovery happens via order-book style aggregation rather than a
-constant-product curve.
-- The terminal clearing state is then used to parameterize the pool,
-separating “sale” from “secondary trading” phases.
-
----
-
-## 5. Relation to the Aztec Token Sale
-
-- The Aztec Network public auction terms describe the use of a “novel
-Uniswap Continuous Clearing Auction (CCA) format,” designed to reduce price
-manipulation and foster open, on-chain price discovery.
-- Bids for the Aztec sale are placed via the CCA contract, which
-periodically computes clearing prices and token allocations.
-- After the sale, remaining tokens plus a portion of funds raised are
-expected to seed a Uniswap v4 pool, as per the CCA + Liquidity Launcher
-design.
-
----
+For the Aztec token sale, the Aztec Network public auction terms talk about a "novel Uniswap Continuous Clearing Auction (CCA) format" that should reduce price manipulation and support open, on-chain price discovery. Bids go through the CCA contract, which computes clearing prices and token allocations again and again. After the sale the leftover tokens plus a part of the money raised are expected to seed a Uniswap v4 pool, as the CCA and Liquidity Launcher design says.
 
 ## Sources
 
-1. **Uniswap – Continuous Clearing Auctions: Bootstrapping Liquidity on
-Uniswap v4 (official blog)**
+Uniswap, Continuous Clearing Auctions, Bootstrapping Liquidity on Uniswap v4 (official blog)
 https://blog.uniswap.org/continuous-clearing-auctions
 
-2. **Uniswap – Continuous Clearing Auctions Product Page**
+Uniswap, Continuous Clearing Auctions Product Page
 https://cca.uniswap.org/en/
 
-3. **Uniswap – Continuous Clearing Auction Smart-Contract Repository
-(GitHub)**
+Uniswap, Continuous Clearing Auction Smart-Contract Repository (GitHub)
 https://github.com/Uniswap/continuous-clearing-auction
 
-4. **Aztec Network – Auction Terms and Conditions**
+Aztec Network, Auction Terms and Conditions
 https://aztec.network/auction-terms-conditions
 
-5. **Markets.com – Continuous Clearing Auction: New Asset Price Discovery
-With Uniswap and Aztec**
+Markets.com, Continuous Clearing Auction, New Asset Price Discovery With Uniswap and Aztec
 https://www.markets.com/news/continuous-clearing-auction-uniswap-aztec-2195-en
 
-6. **The Defiant – Aztec Network Launches First Token Sale Using Uniswap’s
-Continuous Clearing Auction**
+The Defiant, Aztec Network Launches First Token Sale Using Uniswap's Continuous Clearing Auction
 https://thedefiant.io/news/defi/aztec-network-launches-first-token-sale-using-uniswaps-continuous-clearing-auction
 
-7. **Algebra (Medium) – Continuous Clearing Auctions: A New Standard for
-Fair Token Launches by Uniswap & Aztec**
+Algebra (Medium), Continuous Clearing Auctions, A New Standard for Fair Token Launches by Uniswap & Aztec
 https://medium.com/@crypto_algebra/continuous-clearing-auctions-a-new-standard-for-fair-token-launches-by-uniswap-aztec-739ba1767fd7
 
-8. **Uniswap CCA Aztec Contract Instance (Etherscan)**
+Uniswap CCA Aztec Contract Instance (Etherscan)
 https://etherscan.io/address/0x608c4e792C65f5527B3f70715deA44d3b302F4Ee
 
-9. **Panews – A Detailed Look at the Unique Features of Uniswap’s New CCA**
+Panews, A Detailed Look at the Unique Features of Uniswap's New CCA
 https://www.panewslab.com/en/articles/50611532-a7d8-4f14-ad67-b460319bc720
 
-10. **Dennison Bertram – X Thread Explaining the Aztec CCA Sale**
+Dennison Bertram, X Thread Explaining the Aztec CCA Sale
 https://x.com/dennisonbertram/status/1995911827171991948?s=46

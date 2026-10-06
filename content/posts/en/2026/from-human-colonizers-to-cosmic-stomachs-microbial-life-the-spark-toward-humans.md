@@ -1,6 +1,6 @@
 ---
-title: "From Human “Colonizers” to Cosmic “Stomachs”: Microbial Life, the Spark Toward Humans, and Darwin-Like Selection in Quantum Physics"
-description: "This article synthesizes a set of linked questions: (i) how many species live on or in humans and which “living beings” are closest to us as constant..."
+title: "From Human Colonizers to Cosmic Stomachs, Microbial Life, the Spark Toward Humans and Darwin-Like Selection in Quantum Physics"
+description: "I asked a chain of questions about the microbes living on us, the spark that led to humans and if quantum physics has something like Darwinian selection."
 date: "2026-01-17T08:50:02Z"
 updated: "2026-01-17T08:50:02Z"
 lang: "en"
@@ -17,868 +17,118 @@ voice_check:
   em_dash: 26
   unobserved: 564
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-/"
 ---
-<p></p>
+# From Human Colonizers to Cosmic Stomachs, Microbial Life, the Spark Toward Humans and Darwin-Like Selection in Quantum Physics
 
-<h1>
-<img>
-From Human “Colonizers” to Cosmic “Stomachs”: Microbial Life, the Spark Toward Humans, and Darwin-Like Selection in Quantum Physics</h1>
+This post pulls together a chain of questions I kept asking. How many species live on or in humans, and which living beings are closest to us as constant colonizers. If anything sits alone at the top of the food chain on Earth. What kind of alien life we will most likely find. If a meteorite like Murchison could be the one event that started life. What exactly could count as the spark that makes a human possible. And if physics, especially quantum entanglement and decoherence, has processes that work like Darwinian evolution. The thread through all of it is information. In biology information gets copied and selected, and that is Darwinian evolution. In physics information can be kept, spread out, recorded many times or filtered by stability, but that doesn't have to be Darwinian at all.
 
-<p></p>
+## 1) What does living on or in humans constantly even mean?
 
-<p>
-</p>
+I asked for all identified species, ordered from most to least, that live on or in humans constantly. The first problem is the definition. "All identified" is not a closed set, because metagenomics keeps growing the catalogs, especially for viruses and for microbes nobody has cultured. "Constantly" can mean in every human, in most humans or in humans as a species, so the global pool, and those are very different things. And "species" is easy for animals but harder for microbes and even harder for viruses, which are often defined by sequence clusters and not by the classic idea of a species. So a practical way is to split the global pool of human-associated species from what a typical person hosts at one time, and to treat viruses on their own, because a lot of people don't count them as alive.
 
-<p></p>
+## 2) How many microbial species are human-associated, and which groups lead by species count?
 
-<h2>Abstract</h2>
+### 2.1 The global pool, across humans and many body sites
 
-<p></p>
+A framing from the NIH Human Microbiome Project that gets cited a lot says humans host roughly 10,000 bacterial species globally, while one person hosts around 1,000 species at a time. Beyond that headline number, the newer reference catalogs show why "all identified" keeps moving. For gut bacteria and archaea, the prokaryotes, the UHGG catalog reports 4,644 gut prokaryote species, meaning species-level groups from large genome collection work. For gut viruses, which are mostly bacteriophages, a big metagenomic survey reported more than 140,000 gut viral "species", groups defined by sequence, and a lot of them new. For fungi, the mycobiome, reviews count more than 390 fungal species across the places they live on the human body. And archaea are less diverse than bacteria, but they get described better all the time, and large genome-based surveys show a lot of archaeal genome diversity in humans.
 
-<p>
-</p>
+### 2.2 Most to least by species count, global and human-associated
 
-<p>This article synthesizes a set of linked questions: (i) how many species live on or in humans and which “living beings” are closest to us as constant colonizers; (ii) whether anything sits alone atop Earth’s food chain; (iii) what kind of alien life we’re most likely to detect; (iv) whether meteorites such as Murchison could plausibly represent a pivotal “event” for life’s emergence; (v) what, specifically, could count as the “spark” that makes a human possible; and (vi) whether physics—especially quantum entanglement and decoherence—contains processes analogous to Darwinian evolution. The central unifying thread is information: in biology, information is copied and selected (Darwinian evolution); in physics, information can be preserved, dispersed, redundantly recorded, or filtered by stability, but not necessarily in a Darwinian way.</p>
+If you count viruses as living, then viruses most likely lead by species-level group counts in the current catalogs. If you don't, bacteria lead among cellular life. The rough order by identified diversity goes like this. Viruses come first, if you count them, with extremely high diversity in the gut virome catalogs. Then bacteria, thousands globally and around 10,000 species in the framing of the Human Microbiome Project. Then fungi, with hundreds identified across human body sites. And then archaea, fewer than bacteria, but not trivial and better cataloged than people used to think.
 
-<p></p>
-<hr>
-<p></p>
+## 3) If we only count things with a brain and a heart, what are the closest human colonizers?
 
-<p></p>
+I suggested making it simpler and only looking at organisms closer to humans, so animals with a nervous system and a pump that works like a heart. That moves the whole question from microbiomes to ectoparasites and to arthropods that live on the skin. And here "constant colonizer" gets narrow. The most normal long-term residents are mites. Lice and scabies are obligate human parasites, but not everyone has them. Others like bed bugs, botflies and sand fleas are tied to humans, but they usually don't stay for good.
 
-<h2>1) What does “living on/in humans constantly” even mean?</h2>
+Here are the top ten animal colonizers and human-associated parasites that act like residents, going roughly from the most common long-term residents to the ones that are less common, more regional and more occasional. First is Demodex folliculorum, the face mite. It's common on humans and lives in hair follicles, especially on the eyelashes and the face, often without any symptoms. Second is Demodex brevis, also a face mite, common on humans too, and it tends to live in the sebaceous glands, so the oil glands, and in follicles. Third is the head louse, Pediculus humanus capitis, a parasite that feeds on blood, lives on the scalp and lays eggs on the hair shafts. Fourth is the body louse, Pediculus humanus humanus, also called corporis. It usually lives and lays eggs in the seams of clothes and goes to the skin to feed, and it can stay as long as the conditions that expose people to it stay. Fifth is the pubic louse, Pthirus pubis, a louse that looks like a crab, lives in coarse hair, usually in the pubic region, and feeds on blood.
 
-<p></p>
+Sixth is the scabies mite, Sarcoptes scabiei var. hominis. Fertilized females burrow into the top layer of the skin and lay eggs, so without treatment it can stay for a long time. Seventh is the common bed bug, Cimex lectularius. It doesn't live on the body, but it's a persistent blood feeder that lives near where people sleep and feeds on them again and again. Eighth is the tropical bed bug, Cimex hemipterus, and it's the same story, it lives in the environment, in beds and furniture, and feeds on people again and again. Ninth is the sand flea or chigoe, Tunga penetrans. Adult females can burrow into the skin, often in the feet, and stay there while they produce eggs, and that's called tungiasis. And tenth are the larvae of the human botfly, Dermatobia hominis. They can grow in human skin for weeks, which is called furuncular myiasis, but it only happens in some regions and only now and then.
 
-<p>
-</p>
+The important caveat is that only a few of these are real constant colonizers in normal healthy adults, mainly Demodex. The rest are better called parasites or infestations that can stay for a long time when the social and ecological conditions are right.
 
-<p>You asked for all identified species, ordered “most to least,” that live on or in humans constantly. The immediate scientific complication is definitional:</p>
+## 4) Who is the ultimate master of Earth at the top of the food chain?
 
-<p></p>
+I asked for one single being that is on top of the food chain alone and doesn't get eaten, like humans. In ecology the question doesn't really fit. Apex predators can be hard to hunt while they are alive, but no organism escapes being eaten by decomposers in the end. A better way to see it is my later idea of the stomach of the world, so the organisms that in the end digest everything. And there the closest answer is the decomposers, especially fungi and bacteria. They close the food webs by breaking down dead organic matter and recycling the nutrients. So if master means the final consumer, the stomach of the biosphere, it's the microbial decomposers. If master means whoever shapes the surface of Earth the most right now, you can argue for humans, but that's about technology and global impact and not about never being eaten in the long run.
 
-<ul>
-<li>
+## 5) What's the most likely alien life we'll find?
 
-<p>“All identified” is not a closed set; metagenomics keeps expanding catalogs (especially for viruses and uncultured microbes).</p>
+My intuition was that the first aliens we find will most likely be microbes, and that fits the mainstream strategy in astrobiology. Microbes are simpler and tougher, and they can use chemical energy in dark places like oceans under the surface. NASA discussions about detecting life on Europa and Enceladus usually focus on biosignatures that fit microbial life and on how realistic it is to take samples for them. I also raised a second point without saying it directly. We may detect biosignatures, so chemical, isotopic or mineral patterns, before we ever see a cell. That's why sample return and life detection on site are big priorities for Mars and for the ocean worlds.
 
-</li>
+## 6) Is there one single event in world history, like the Murchison meteorite bringing the building blocks of life?
 
-<li>
+My idea was that a carbonaceous meteorite brings amino acids and other organics and seeds Earth with the building blocks for microbes. Murchison is a good symbol for that, because there's strong evidence it contains a lot of organics, including many amino acids, with isotopic signatures that point to an origin outside Earth. Isotopic and enantiomeric analyses support that many of the Murchison amino acids come from space and are not contamination from Earth. And reviews mention dozens of amino acids identified in Murchison, and many more found across carbonaceous meteorites. But it's best to see this as one input stream and not as the origin event. Early Earth most likely got organics from many sources, made on Earth itself and brought by many impacts, and in a lot of different environments.
 
-<p>“Constantly” can mean “in every human,” “in most humans,” or “in humans as a species (the global pool).” Those differ dramatically.</p>
+## 7) "Good luck explaining the origin of life", so here is a more specific path to humans
 
-</li>
+I pushed for a concrete spark and not just "billions of years happened". The spark that is useful in science is not a random amino acid. It's something else, and it comes in two steps.
 
-<li>
+### 7.1 The earliest spark that makes humans possible
 
-<p>“Species” is straightforward for animals, less so for microbes and especially viruses (often defined by sequence clusters rather than classical species concepts).</p>
+The first one is a self-copying system with heredity and variation that can go through Darwinian evolution. People often talk about it as an RNA-like replicator, which stores information and does catalysis, coupled to compartments, the protocells. This is the point where chemistry turns into an evolutionary process and stops being just reactions. Work on fatty acid vesicles that hold genetic polymers is one line backed by experiments for how systems like protocells could appear and couple growth with division. And the RNA world literature explains why RNA, or a polymer like RNA, is attractive. It can carry information and catalyze reactions, so it's a bridge from chemistry to heredity.
 
-</li>
-</ul>
+### 7.2 The later spark closest to a human
 
-<p></p>
+I also asked what the spark of a human is, and not only of life. A strong candidate for the big transition that made complex multicellular life possible is eukaryogenesis with mitochondria. Mitochondria come from an ancestral alphaproteobacterium that lived inside another cell as an endosymbiont, and this event is tightly linked to the rise of the complex eukaryotic cell. From there the path to humans is the standard evolutionary history, multicellularity, then animals, vertebrates, mammals, primates and hominins.
 
-<p>
-</p>
+## 8) My physics analogy, chain reactions, heat mixing and matter competing to be the same
 
-<p>A practical compromise is to distinguish:</p>
+I suggested that physical processes like nuclear chains, fusion and fission and even warm and cold air mixing look like competition, variation and keeping information, and that maybe there is an RNA-like flow of information in matter itself. A careful way to put it goes like this. A lot of physical systems show amplification, like chain reactions, and pattern formation, like convection, and they can keep information at the microscopic level. But Darwinian evolution needs one special thing, high-fidelity copying from a template with variation that gets inherited, so adaptation can add up. Turbulent mixing and thermal equilibrium usually erase the useful macroscopic information, even if the microscopic dynamics stay reversible in principle, and that's the opposite of what genomes do. So my analogy works best if you read it as physics far from equilibrium producing structures that last, while open-ended Darwinian evolution needs heredity through templates.
 
-<p>(A) the global human-associated pool vs (B) what a typical individual hosts at a time, and to treat viruses separately because many people do not consider them “alive.”</p>
+## 9) Entanglement, if A changes then B changes, so why doesn't B's environment change?
 
-<p></p>
-<hr>
-<p></p>
+This was the knot I kept coming back to. The answer is that people mean two different things when they say "state change".
 
-<p></p>
+### 9.1 What does change instantly, in the joint description
 
-<h2>2) How many microbial species are human-associated (and which groups dominate by </h2>
+If A and B are entangled, a measurement on A lets you update the conditional state you give to B, based on the outcome at A.
 
-<h2>species count</h2>
+### 9.2 What does not change locally at B, without classical communication
 
-<h2>)?</h2>
+The local physics at B follows the reduced state of B. The no-communication principle, also called no-signaling, says local operations and measurements on A can't be used to send information to B faster than light. The local outcome statistics at B stay the same until a classical signal arrives.
 
-<p></p>
+### 9.3 How entanglement is proven in experiments
 
-<p>
-</p>
+I asked how we influence it and prove it, and if we need to change both sides at the same time. A standard approach is to choose the measurement bases on each side independently, record the outcomes and then show that the correlations violate a Bell inequality, for example CHSH. That rules out explanations with local hidden variables, under the assumptions of the experiment. A landmark loophole-free Bell test with separated systems is one example of this kind of experiment. And the answer to my timing question is no, you don't need to change both sides at the same time. You need measurements on both sides and an analysis of the correlations, and spacelike separation is used so normal causal coordination is ruled out.
 
-<p></p>
+## 10) Is entanglement only spin zero or one, and does spin matter for fusion and fission?
 
-<h3>2.1 Global pool (across humans, multiple body sites)</h3>
+I asked if entanglement only works with two states, spin up and spin down, and if spin has real physical effects in nuclear processes.
 
-<p></p>
+### 10.1 Degrees of freedom in entanglement
 
-<p>
-</p>
+Entanglement can involve many degrees of freedom, like polarization, path, energy and time bins or orbital angular momentum. And systems are not limited to two levels. Qudits and continuous-variable entanglement exist in principle and in practice.
 
-<p>A widely cited NIH/HMP framing is that humans are hosts to roughly 10,000 bacterial species globally, while an individual hosts on the order of ~1,000 species at a time.  </p>
+### 10.2 Does spin matter in fusion?
 
-<p>
-</p>
+Yes. The probability of a reaction can depend on how the spins are set up. Spin-polarized fusion is studied for exactly this reason, because aligning the spins of the reactants can increase the cross sections. First-principles nuclear calculations and fusion research report that fully aligned D–T polarization can increase the D–T fusion cross section by about 50%, so roughly a factor of 1.5, with ideal polarization. This is a local effect. Spin changes the nuclear reaction channels and the cross sections. It's not an example of remote entanglement making matter far away behave differently.
 
-<p>Beyond that headline number, modern reference catalogs show why “all identified” keeps moving:</p>
+## 11) My goal, an experiment where entanglement triggers a Darwinistic reaction on both sides
 
-<p></p>
+I asked for the closest experiment where two entangled systems each interact with their own local environment in a way that looks Darwinian, so things persist, compete and stable winners come out. The closest framework that is well developed is Quantum Darwinism. Decoherence filters out the fragile superpositions. A small set of stable pointer states survives the contact with the environment, and that's called environment-induced superselection, or einselection. And then the environment stores many redundant records of the pointer state information, so many observers can agree on the same classical reality. A recent experiment with superconducting circuits reports a full demonstration that fits these Quantum Darwinism signatures, the branching structure and the redundancy, with the plateau in mutual information.
 
-<ul>
-<li>
+### 11.1 A concrete two-sided design that matches what I suggested
 
-<p>Gut bacteria/archaea (prokaryotes): The UHGG catalog reports 4,644 gut prokaryote species (species-level groups) from large-scale genome collection work.  </p>
+Step 1, prepare A and B in an entangled state.
 
-</li>
+Step 2, couple A to a local environment E_A, many ancilla qubits or photonic modes, and couple B to an independent local environment E_B.
 
-<li>
+Step 3, build the coupling so each environment monitors its system, selects pointer states and imprints redundant copies of the classical information of the system into many fragments of the environment.
 
-<p>Gut viruses (mostly bacteriophages): A large metagenomic survey reported >140,000 gut viral “species” (sequence-defined groups), with many novel.  </p>
+Step 4, check for behavior like Darwinism by showing that small fragments of E_A, and separately of E_B, each reveal basically the same pointer state information, the redundancy plateau, while the quantum coherences underneath are suppressed.
 
-</li>
+This is Darwin-like only in a precise and limited sense. The selection is that pointer states are the stable survivors of decoherence. The replication is that the environment stores many copies, redundant records, of those survivors. What it is not is the open-ended adaptation of biological evolution, through variation that gets inherited over generations.
 
-<li>
+## 12) My universe-scale extension, black holes, expansion and chaos far away
 
-<p>Fungi (mycobiome): Reviews note >390 fungal species identified across human niches.  </p>
+I suggested a speculative extrapolation. If distant systems are entangled, for example black hole interiors with Hawking radiation or other cosmological degrees of freedom, maybe one side could create changes or chaos somewhere else in a Darwin-like way. A careful statement that fits what we know goes like this. Black holes and Hawking radiation raise deep questions about entanglement and information, like the black hole information paradox and the Page curve. There are speculative ideas that link entanglement and geometry, for example ER=EPR, a conjecture that wormholes and entanglement are related. But entanglement alone doesn't give you a causal channel you can control. It reshapes correlations, and it doesn't change local dynamics in a way you could use to force effects in a distant environment, because no-signaling is still the rule. So my picture of black holes, expansion and creation is best treated as research-level speculation about global correlations, and not as a mechanism for remote Darwin-like causal influence.
 
-</li>
+## The whole arc in short
 
-<li>
+Humans host a huge biodiversity, mostly microbial. Global catalogs suggest around 10,000 bacterial species associated with humans and about 1,000 per person at one time, the gut prokaryote catalogs are at 4,644 species, the gut viromes at more than 140,000 viral groups and the mycobiomes at more than 390 fungal species. If you only count animals with a brain and a heart, the closest colonizers are mainly Demodex mites, plus lice and scabies as parasites that stay, and the others like bed bugs, sand fleas and botfly larvae come and go or live in the environment. No organism escapes being eaten in the end, and the decomposers, bacteria and fungi, are the final digesters of the biosphere. The first alien life we find will most likely be microbial, and we may detect biosignatures before we find organisms.
 
-<p>Archaea: Archaeal diversity is smaller than bacterial diversity but increasingly characterized; large genome-based surveys show substantial archaeal genome diversity in humans.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>2.2 “Most to least” by species richness (global, human-associated)</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>If you include viruses as “living,” then viruses likely dominate by species-level group counts in current catalogs; if you exclude them, bacteria dominate among cellular life. The rough ordering by identified diversity is:</p>
-
-<p></p>
-
-<ol>
-<li>
-
-<p>Viruses (if counted) — extremely high diversity in gut virome catalogs.  </p>
-
-</li>
-
-<li>
-
-<p>Bacteria — thousands globally; ~10,000 species framing in NIH/HMP.  </p>
-
-</li>
-
-<li>
-
-<p>Fungi — hundreds identified across human body sites.  </p>
-
-</li>
-
-<li>
-
-<p>Archaea — fewer than bacteria, but nontrivial and better cataloged than historically appreciated.  </p>
-
-</li>
-</ol>
-
-<p></p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>3) If we restrict to “things with a brain and a heart,” what are the closest human colonizers?</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You proposed simplifying to organisms “closer to humans” (animals with nervous systems and a heart-like pump). That essentially shifts the discussion from microbiomes to ectoparasites and skin-associated arthropods. Here, “constant colonizer” becomes narrow: the most “normal” long-term residents are mites; lice and scabies are obligate human parasites but not universal; others (bed bugs, botflies, sand fleas) are human-associated but usually not permanent residents.</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>Top 10 animal colonizers / human-associated “resident-like” parasites (with one-sentence rationale)</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>(Ordered roughly from “most commonly present as a long-term resident” → “less common / more regional / more episodic.”)</p>
-
-<p></p>
-
-<ol>
-<li>
-
-<p>Demodex folliculorum (face mite) — common on humans, living in hair follicles (notably eyelashes/face) often without symptoms.  </p>
-
-</li>
-
-<li>
-
-<p>Demodex brevis (face mite) — commonly found on humans, tending to inhabit sebaceous (oil) glands and follicles.  </p>
-
-</li>
-
-<li>
-
-<p>Head louse (Pediculus humanus capitis) — a blood-feeding parasite that lives on the scalp and lays eggs on hair shafts.  </p>
-
-</li>
-
-<li>
-
-<p>Body louse (Pediculus humanus humanus/corporis) — typically resides and lays eggs in clothing seams, migrating to skin to feed; can persist with ongoing exposure conditions.  </p>
-
-</li>
-
-<li>
-
-<p>Pubic louse (Pthirus pubis) — a crab-like louse inhabiting coarse hair (usually pubic region), feeding on blood.  </p>
-
-</li>
-
-<li>
-
-<p>Scabies mite (Sarcoptes scabiei var. hominis) — fertilized females burrow into the top skin layer and lay eggs, enabling sustained colonization without treatment.  </p>
-
-</li>
-
-<li>
-
-<p>Common bed bug (Cimex lectularius) — not a body resident, but a persistent human-associated blood feeder that lives near sleeping areas and repeatedly feeds on humans.  </p>
-
-</li>
-
-<li>
-
-<p>Tropical bed bug (Cimex hemipterus) — similarly human-associated, repeatedly feeding on people while residing in the environment (beds/furniture).  </p>
-
-</li>
-
-<li>
-
-<p>Sand flea / chigoe (Tunga penetrans) — adult females can burrow into skin (often feet) and remain embedded during egg production (tungiasis).  </p>
-
-</li>
-
-<li>
-
-<p>Human botfly (Dermatobia hominis) larvae — larvae can develop in human skin (furuncular myiasis) for weeks, but this is geographically limited and episodic.  </p>
-
-</li>
-</ol>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Key caveat: only a few of these are plausibly “constant colonizers” in ordinary, healthy adults (notably Demodex). The rest are better described as parasites/infestations that can become persistent in the right social/ecological conditions.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>4) Who is “the ultimate master of Earth” at the top of the food chain?</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You asked for a single being “on top of the food chain alone,” not getting eaten “like humans.” Ecologically, there’s a mismatch in the framing: apex predators can be hard to prey upon while alive, but no organism escapes being consumed by decomposers eventually.</p>
-
-<p>
-</p>
-
-<p>A useful reframing is your later “stomach of the world” idea: the organisms that ultimately digest everything. In that framing, the closest answer is:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Decomposers—especially fungi and bacteria—complete food webs by breaking down dead organic matter and recycling nutrients.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>So if “master” means “final consumer / the biosphere’s stomach,” it’s microbial decomposers.</p>
-
-<p>
-</p>
-
-<p>If “master” means “dominant shaper of Earth’s surface right now,” you can argue for humans, but that’s a statement about technology and global impact—not immunity from being consumed in the long run.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>5) What’s the most likely alien life we’ll find?</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Your intuition that the first aliens are likely microbial is consistent with mainstream astrobiology strategy: microbes are simpler, more robust, and can exploit chemical energy in dark environments (e.g., subsurface oceans). NASA discussions of Europa/Enceladus life-detection commonly emphasize biosignatures compatible with microbial life and the plausibility of sampling for such signatures.  </p>
-
-<p>
-</p>
-
-<p>A second point you implicitly raised: we may detect biosignatures (chemical/isotopic/mineral patterns) before we ever “see” a cell. That’s why sample return and in situ life-detection are major priorities in Mars and ocean-world exploration.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>6) Is there a single “event” in world history like the Murchison meteorite delivering life’s building blocks?</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You proposed something like: a carbonaceous meteorite delivers amino acids and other organics, seeding Earth with the building blocks for microbes. Murchison is a good symbol because we have strong evidence it contains abundant organics, including many amino acids, with isotopic signatures supporting extraterrestrial origin.</p>
-
-<p>
-</p>
-
-<p>Examples of the evidence:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Isotopic and enantiomeric analyses support that many Murchison amino acids are extraterrestrial rather than terrestrial contamination.  </p>
-
-</li>
-
-<li>
-
-<p>Reviews note dozens of amino acids identified in Murchison, with many more detected across carbonaceous meteorites.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>However: this is best viewed as one input stream, not “the origin event.” Early Earth likely received organics from multiple sources (endogenous synthesis + many impacts), across many environments.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>7) “Good luck explaining the origin of life”: a more specific, non-handwavy path to humans</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You pressed for a concrete “spark” rather than “billions of years happened.” The scientifically useful “spark” is not “a random amino acid,” but:</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>7.1 The earliest spark that makes humans possible</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>A self-copying system with heredity and variation capable of Darwinian evolution—often discussed as an RNA-like replicator (information storage + catalysis) coupled to compartments (protocells). This is the point where chemistry becomes an evolutionary process, not just reactions.</p>
-
-<p>
-</p>
-
-<p>Work on fatty-acid vesicles encapsulating genetic polymers is one experimentally grounded line for how protocell-like systems could arise and couple growth with division.  </p>
-
-<p>RNA-world literature motivates why RNA (or an RNA-like polymer) is attractive: it can carry information and catalyze reactions, enabling a bridge from chemistry to heredity.  </p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>7.2 The later spark “closest to a human”</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You also asked what’s “the spark of a human,” not just life. A strong candidate for the pivotal transition enabling complex multicellular life is:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Eukaryogenesis with mitochondria: mitochondria derive from an ancestral endosymbiotic alphaproteobacterium, and this event is tightly coupled to the rise of complex eukaryotic cellular architecture.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>From there, the path to humans is “standard” evolutionary history: multicellularity → animals → vertebrates → mammals → primates → hominins.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>8) Your physics analogy: chain reactions, heat mixing, and “matter competing to be the same”</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You proposed that physical processes—nuclear chains, fusion/fission transformations, even warm/cold air exchange—look like “competition,” “variation,” and “information preservation,” suggesting an RNA-like information flow in matter itself.</p>
-
-<p>
-</p>
-
-<p>A careful synthesis is:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Many physical systems show amplification (e.g., chain reactions) and pattern formation (e.g., convection), and they can preserve information at the microscopic level.</p>
-
-</li>
-
-<li>
-
-<p>But Darwinian evolution requires a special ingredient: high-fidelity template-based copying with heritable variation, enabling cumulative adaptation.</p>
-
-</li>
-
-<li>
-
-<p>Turbulent mixing and thermal equilibration typically erase usable macroscopic information (even if microscopic dynamics remain reversible in principle), which is the opposite of what genomes do.</p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>So your analogy works best if interpreted as: far-from-equilibrium physics can generate persistent structures, but open-ended Darwinian evolution needs templated heredity.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>9) Entanglement: “If A changes, B changes—so why doesn’t B’s environment change?”</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>This was the core conceptual knot you kept returning to. The resolution is that there are two different things people call “state change”:</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>9.1 What does change instantly (in the joint description)</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>If A and B are entangled, a measurement on A lets you update the conditional state you assign to B given the outcome at A.</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>9.2 What does </h3>
-
-<h3>not</h3>
-
-<h3> change locally at B (without classical communication)</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Local physics at B is governed by B’s reduced state. The no-communication (no-signaling) principle says local operations/measurements on A cannot be used to transmit information to B faster than light; B’s local outcome statistics remain unchanged unless a classical signal arrives.  </p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>9.3 How entanglement is experimentally </h3>
-
-<h3>proven</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You asked: “How do we influence it and prove it—do we need to change both sides at the same time?” A standard approach:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Choose measurement bases independently on each side,</p>
-
-</li>
-
-<li>
-
-<p>record outcomes,</p>
-
-</li>
-
-<li>
-
-<p>show the correlations violate a Bell inequality (e.g., CHSH), ruling out local hidden-variable explanations under the experiment’s assumptions.</p>
-
-<p>A landmark “loophole-free” Bell test with separated systems is one example of this experimental strategy.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Answer to your timing question: you do not need to “change both sides simultaneously.” You need measurements on both sides and a correlation analysis; spacelike separation is used to prevent ordinary causal coordination.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>10) Is entanglement only “spin 0/1”? And does spin matter for fusion/fission?</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You asked whether entanglement is limited to two-state “spin up/down,” and whether spin has real physical consequences in nuclear processes.</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>10.1 Entanglement degrees of freedom</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Entanglement can involve many degrees of freedom (polarization, path, energy/time bins, orbital angular momentum, etc.), and systems are not limited to two levels—qudits and continuous-variable entanglement exist in principle and practice.</p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>10.2 Does spin matter in fusion?</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Yes: reaction probabilities can depend on spin configurations. In particular, spin-polarized fusion is studied because aligning spins of reactants can increase cross sections.</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>First-principles nuclear calculations and fusion research discussions report that fully aligned D–T polarization can increase the D–T fusion cross section by ~50% (≈ factor 1.5) under ideal polarization assumptions.  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>This is a local effect: spin influences nuclear reaction channels and cross sections. It is not an example of “remote entanglement making distant matter behave differently.”</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>11) Your goal: an experiment where entanglement triggers a “Darwinistic reaction” on both sides</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You asked for the closest experiment where two entangled systems each interact with their local environments in a way that looks Darwinian—i.e., persistence + competition + emergence of stable “winners.”</p>
-
-<p>
-</p>
-
-<p>The closest well-developed framework is Quantum Darwinism:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Decoherence filters out fragile superpositions.</p>
-
-</li>
-
-<li>
-
-<p>A small set of stable pointer states survives interaction with the environment (environment-induced superselection, “einselection”).  </p>
-
-</li>
-
-<li>
-
-<p>The environment then stores many redundant records of the pointer-state information, enabling multiple observers to agree on the same “classical reality.”  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>A recent superconducting-circuit experiment reports a comprehensive demonstration consistent with these Quantum Darwinism signatures (branching structure, redundancy / mutual information plateau behavior).  </p>
-
-<p>
-</p>
-
-<p></p>
-
-<h3>11.1 A concrete “two-sided” design that matches what you proposed</h3>
-
-<p></p>
-
-<p>
-</p>
-
-<p>Step 1: Prepare A and B in an entangled state.</p>
-
-<p>Step 2: Couple A to a local environment E_A (many ancilla qubits or photonic modes), and couple B to an independent local environment E_B.</p>
-
-<p>Step 3: Engineer the coupling so that each environment “monitors” its system, selecting pointer states and imprinting redundant copies of the system’s classical information into many environment fragments.  </p>
-
-<p>Step 4: Verify Darwinism-like behavior by showing that small fragments of E_A (and separately E_B) each reveal essentially the same pointer-state information (redundancy / plateau), while the underlying quantum coherences are suppressed.  </p>
-
-<p>
-</p>
-
-<p>This is “Darwin-like” in a precise, limited sense:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Selection: pointer states are the stable survivors under decoherence.  </p>
-
-</li>
-
-<li>
-
-<p>Replication: the environment stores many copies (redundant records) of those survivors.  </p>
-
-<p>What it is not: biological evolution’s open-ended adaptation via heritable variation across generations.</p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>12) Your universe-scale extension: black holes, expansion, and distant “chaos”</h2>
-
-<p></p>
-
-<p>
-</p>
-
-<p>You suggested a speculative extrapolation: if distant systems are entangled (e.g., black hole interiors entangled with Hawking radiation or other cosmological degrees of freedom), perhaps “one side” could create changes or chaos elsewhere in a Darwin-like way.</p>
-
-<p>
-</p>
-
-<p>A careful statement consistent with known constraints is:</p>
-
-<p></p>
-
-<ul>
-<li>
-
-<p>Black holes and Hawking radiation raise deep questions about entanglement and information (the black hole information paradox, Page curve, etc.).  </p>
-
-</li>
-
-<li>
-
-<p>There are speculative ideas linking entanglement and geometry (e.g., ER=EPR as a conjectured relationship between wormholes and entanglement).  </p>
-
-</li>
-
-<li>
-
-<p>But entanglement alone does not provide a controllable causal channel: it reshapes correlations, not local dynamics in a way you can use to force distant environmental effects (no-signaling remains the operational constraint).  </p>
-
-</li>
-</ul>
-
-<p></p>
-
-<p>
-</p>
-
-<p>So your “black hole ↔ expansion ↔ creation” picture is best treated as a research-level speculation about global correlations, not as a mechanism for remote Darwin-like causal influence.</p>
-
-<p></p>
-<hr>
-<p></p>
-
-<p></p>
-
-<h2>Conclusions (the shortest faithful summary of the whole arc)</h2>
-
-<p></p>
-
-<p></p>
-
-<ol>
-<li>
-
-<p>Humans host vast biodiversity, especially microbial; global catalogs suggest ~10,000 bacterial species associated with humans, ~1,000 per person at a time, gut prokaryote catalogs at 4,644 species, gut viromes at >140,000 viral groups, and mycobiomes at >390 fungal species.  </p>
-
-</li>
-
-<li>
-
-<p>If you restrict to animals with “brain + heart,” the closest “colonizers” are mainly Demodex mites, plus lice and scabies as persistent parasites; others are more episodic or environment-dwelling (bed bugs, sand fleas, botfly larvae).  </p>
-
-</li>
-
-<li>
-
-<p>No organism is “not eaten” in an ultimate sense; decomposers (bacteria/fungi) are the biosphere’s final digesters.  </p>
-
-</li>
-
-<li>
-
-<p>The most likely first alien life is microbial, and we may detect biosignatures before organisms.  </p>
-
-</li>
-
-<li>
-
-<p>Meteorites like Murchison plausibly contributed organics (including amino acids) to early Earth, but they’re likely one part of a broader chemical supply chain.  </p>
-
-</li>
-
-<li>
-
-<p>The most defensible “spark” for life is a templated, self-copying system capable of Darwinian evolution, plausibly in protocell-like compartments; the most defensible “spark” for human-level complexity is eukaryogenesis with mitochondria.  </p>
-
-</li>
-
-<li>
-
-<p>Entanglement creates strong nonclassical correlations, verified via Bell tests, but does not allow remote causal control of a distant environment (no-signaling).  </p>
-
-</li>
-
-<li>
-
-<p>The closest thing to “Darwinism in physics” is Quantum Darwinism: decoherence selects stable pointer states and the environment replicates their information redundantly.  </p>
-
-</li>
-</ol>
-
-<p></p>
-
-<p></p>
-
-<p>
-</p>
+Meteorites like Murchison probably brought organics, including amino acids, to early Earth, but they were most likely one part of a bigger chemical supply chain. The spark for life that is easiest to defend is a templated self-copying system that can go through Darwinian evolution, probably in compartments like protocells. The spark for human-level complexity that is easiest to defend is eukaryogenesis with mitochondria. Entanglement creates strong nonclassical correlations, verified with Bell tests, but it doesn't allow remote causal control of a distant environment, because of no-signaling. And the closest thing to Darwinism in physics is Quantum Darwinism, where decoherence selects stable pointer states and the environment copies their information again and again.
 
 ![IMG_7971](../../../media/from-human-colonizers-to-cosmic-stomachs-microbial-life-the-spark-toward-humans/IMG_7971.jpeg)

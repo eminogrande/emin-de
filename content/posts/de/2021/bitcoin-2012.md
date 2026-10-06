@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin 2012"
-description: "Julian: es gibt internetbörsen die mit digitalen währungen handeln Julian: such mal nach bitcoins me: Diese teile hier..."
+description: "Ein Chat mit Julian aus 2012 über Bitcoin, Internetbörsen, Arbitrage und die Frage, ob man lieber eigene Projekte startet."
 date: "2021-11-03T18:34:41.078Z"
 updated: "2021-11-03T18:34:41.078Z"
 lang: "de"
@@ -16,6 +16,9 @@ voice_check:
   em_dash: 1
   unobserved: 38
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
+
 original_url: "https://medium.com/@em/bitcoin-2012-6b19cea8392f"
 ---
 **Julian**: es gibt internetbörsen die mit digitalen währungen handeln

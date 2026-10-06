@@ -1,6 +1,6 @@
 ---
-title: "The Future of Music: How AI, Blockchain, and the Internet Are Revolutionizing the Industry"
-description: "The music industry is undergoing a profound transformation driven by AI, blockchain, and the internet. These technologies are challenging the dominance of..."
+title: "The Future of Music, How AI, Blockchain and the Internet Are Changing the Industry"
+description: "AI, blockchain and the internet take away the unfair advantage of big labels, and artists can now do from home what a label did for most of their profits."
 date: "2024-07-29T12:40:45.246Z"
 updated: "2024-07-29T12:40:45.246Z"
 lang: "en"
@@ -17,40 +17,24 @@ voice_check:
   em_dash: 0
   unobserved: 100
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-future-of-music-how-ai-blockchain-and-the-internet-are-revolutionizing-the-industry-6bd0b0c970d0"
 ---
-The music industry is undergoing a profound transformation driven by AI, blockchain, and the internet. These technologies are challenging the dominance of big labels and dismantling the unfair advantages held by those with money and fame. They are democratizing the artistic space, making artists more independent than ever before.
+AI, blockchain and the internet are changing the music industry a lot. They challenge the big labels and the unfair advantage of people with money and fame. They make the artistic space more democratic, and artists get more independent than ever before. Everything a big label was providing, for most of the profits of the artist, can now be done from home.
 
 ![](../../../media/the-future-of-music-how-ai-blockchain-and-the-internet-are-revolutionizing-the-i/01-e9523d5c.png)
 *A aquarell painting of The Future of Music: How AI, Blockchain, and the Internet Are Revolutionizing the Industry made with [venice.ai](http://venice.ai)*
 
-### AI and Digital Distribution: Empowering Artists
+It starts with production. With AI, artists can remix songs or create completely new ones from home, and they keep full control over the royalties. So they can surprise their fans again and again with new tracks, also during gigs, and they don't have to play songs by other artists anymore. Music videos also get simple, fast and high quality with AI. An artist can make unique videos quickly, and that is one more source of income and attention on platforms like YouTube.
 
-AI has revolutionized music production. Artists can now remix or create entirely new songs from home, retaining full control over their royalties. This newfound creative freedom allows them to continually surprise their fans with unique tracks during gigs, eliminating the need to rely on songs by other artists.
+Then there is content. One of the biggest problems for artists has always been making content for online marketing and social media, because they just don't have the time for it. With AI, one simple voice message a day can be enough. It gets turned into articles, images and media content for their channels, and that keeps fans, friends and family updated about their journey, their ideas and how they develop, so the people around them stay engaged.
 
-Music video production has also become simpler, more straightforward, and faster, thanks to AI. Artists can now produce high-quality, unique videos quickly, providing an additional source of income and attention through platforms like YouTube.
+Publishing got easy too. With platforms like SoundCloud and DistroKid, artists can release their music on their own and get 100% of their royalties. There is no middleman anymore, and the artist keeps control over the work and the money.
 
-### Content Creation and Online Marketing
+Blockchain and NFTs change how artists make money from their work. Platforms like Royal.io let artists split their tracks into NFTs and share ownership and royalties with their fans and supporters. So fans can invest into music without "owning" the artist, and the artist gets a steady income and more financial stability. On top of that, Instagram, TikTok, YouTube and Twitter started to share advertising revenue with successful publishers. If an artist's music is trending and reaching a lot of people, the artist also gets paid for it.
 
-One of the biggest challenges for artists has been managing content production for online marketing and social media. Limited time often hinders their ability to engage with fans. AI addresses this by transforming a simple daily voice message into articles, images, and media content for their channels. This keeps fans, friends, and family updated on their journey, ideas, and developments, fostering continuous engagement.
-
-### Self-Publishing and Distribution
-
-Platforms like SoundCloud and DistroKid have made self-publishing and distribution straightforward. Artists can now release their music independently and receive 100% of their royalties. This eliminates the need for intermediaries and ensures that artists retain control over their work and earnings.
-
-### Blockchain, NFTs, and Royalties
-
-Blockchain technology and NFTs are reshaping how artists monetize their work. Platforms like Royal.io allow artists to fractionalize their tracks into NFTs, sharing ownership and royalties with fans and supporters. This innovative approach enables fans to invest in music without “owning” the artist, providing artists with a steady income stream and financial stability.
-
-### Social Media Monetization
-
-Social media platforms like Instagram, TikTok, YouTube, and Twitter have started sharing advertising revenue with successful publishers. This means that if an artist’s music is trending and reaching a wide audience, they will also be rewarded financially, further supporting their artistic endeavors.
-
-### A Bright Future for Artists
-
-The future looks promising for artists, not just musicians but digital publishers in general. With the right tools, especially AI, artists can create high-quality content and achieve visibility like never before. This technological empowerment paves the way for new forms of agencies and artist managers who can amplify the success of great artists.
-
-In conclusion, the convergence of AI, blockchain, and the internet is revolutionizing the music industry. Artists now have unprecedented opportunities to control their creative output, engage with fans, and monetize their work. The future of music is bright, and the possibilities are endless.
+Overall I see a bright future for artists, and not only musicians but digital publishers in general, to make a living with their art. With the right tools, especially AI, they can create high quality content and get visibility like never before. And I also see a chance for a new kind of agency and artist manager, who can make great artists even more visible and successful with these tools.
 
 ### Original notes
 

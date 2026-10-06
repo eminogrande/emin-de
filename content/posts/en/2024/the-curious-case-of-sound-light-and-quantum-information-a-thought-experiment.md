@@ -1,6 +1,6 @@
 ---
 title: "The Curious Case of Sound, Light, and Quantum Information: A Thought Experiment"
-description: "In the realm of physics, seemingly disparate phenomena often intertwine in fascinating ways. Today, we’re diving into a thought-provoking question: Could..."
+description: "Light can carry quantum information and sound can change light. So can sound carry quantum information too? A short thought experiment."
 date: "2024-07-16T11:57:26.783Z"
 updated: "2024-07-16T11:57:26.783Z"
 lang: "en"
@@ -17,46 +17,31 @@ voice_check:
   em_dash: 2
   unobserved: 99
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment-51ac057a00fb"
 ---
 ![](../../../media/the-curious-case-of-sound-light-and-quantum-information-a-thought-experiment/01-66355f94.png)
 
-In the realm of physics, seemingly disparate phenomena often intertwine in fascinating ways. Today, we’re diving into a thought-provoking question: Could sound waves potentially carry or influence quantum information? Let’s explore this idea, examining the intersections between acoustics, optics, and quantum mechanics.
+In physics, things that look like they have nothing to do with each other often turn out to be connected. So here is a question I want to think through. Could sound waves carry quantum information, or at least influence it? To get there we look at where acoustics, optics and quantum mechanics meet.
 
-### ## The Building Blocks: Light and Quantum Information
+We start with something well known. Light can carry quantum information. In quantum optics, photons, the particles of light, can be in quantum states. These states can encode quantum bits (qubits), and that is the base of some approaches to quantum computing and quantum communication.
 
-We begin with a well-established concept: light can carry quantum information. In the world of quantum optics, photons — the fundamental particles of light — can exist in quantum states. These states can encode quantum bits (qubits), forming the basis of some approaches to quantum computing and communication.
+Now add sound. There is an effect called the acousto-optic effect, where sound waves change the properties of light that goes through certain materials. People use it in a lot of things, from telecommunications to laser technology.
 
-### ## The Acoustic Connection: Sound Influencing Light
+And here the thought experiment starts. If light can carry quantum information, and sound can influence light, could sound waves themselves carry or influence quantum information?
 
-Now, let’s introduce sound into the equation. There’s an interesting phenomenon called the acousto-optic effect, where sound waves can modulate the properties of light passing through certain materials. This effect is used in various applications, from telecommunications to laser technology.
+At first it sounds nice. But like so often in physics, it's more complex than that, for four reasons.
 
-### ## The Leap: Can Sound Carry Quantum Information?
+One is classical and quantum. The acousto-optic effect is mostly a classical effect, and quantum information lives in the quantum world. Getting from one to the other isn't easy.
+Two, the medium matters. Sound waves, the way we normally understand them, need a medium to travel through. That is a problem when you think about quantum systems or places like the vacuum of space.
+Three is quantum sound. Sound can have quantum properties in some cases. In solids there are quantized vibrations called phonons, and they are the quantum side of sound. But they are very different from the big sound waves we hear every day.
+And four is decoherence. Even if we could encode quantum information in sound waves, keeping it coherent in a big system is extremely hard, because the system keeps interacting with its environment.
 
-Here’s where our thought experiment takes flight. If light can carry quantum information, and sound can influence light, could sound waves themselves potentially carry or influence quantum information?
+So this thought experiment doesn't give us a direct link between sound waves and quantum information that could, say, solve the black hole information paradox. But it does show how connected physics is.
 
-At first glance, this idea seems appealing. However, as with many concepts in physics, the reality is more complex:
+And it points to a few things worth looking into. The quantum properties of phonons and if they can be used to process quantum information. New ways to use acousto-optic interactions in quantum systems. And how other kinds of waves might interact with quantum information in extreme environments.
 
-1. **Classical vs. Quantum:** The acousto-optic effect is primarily a classical phenomenon, while quantum information operates in the quantum realm. Bridging these two domains isn’t straightforward.
+The way from sound waves to quantum information isn't direct, but it makes you think. In physics, thinking creatively can lead to connections you don't expect. Big everyday sound waves are probably not the key to keeping quantum information, but how different effects in physics play together is still a great field for research.
 
-2. **Medium Matters:** Sound waves as we typically understand them require a medium to propagate. This poses challenges when considering quantum systems or environments like the vacuum of space.
-
-3. **Quantum Sound:** Interestingly, sound can have quantum properties in certain contexts. In solids, quantized vibrations known as phonons represent the quantum nature of sound. However, these are quite different from the macroscopic sound waves we’re familiar with.
-
-4. **Decoherence:** Even if we could encode quantum information in sound waves, maintaining quantum coherence in a macroscopic system is extremely challenging due to interactions with the environment.
-
-### ## Implications and Future Directions
-
-While our thought experiment doesn’t provide a direct link between sound waves and quantum information in a way that could, say, solve the black hole information paradox, it does highlight the fascinating interconnections in physics.
-
-This exploration opens up several avenues for further investigation:
-
-- Studying the quantum properties of phonons and their potential for quantum information processing.
-- Investigating novel ways to use acousto-optic interactions in quantum systems.
-- Exploring how other wave phenomena might interact with quantum information in extreme environments.
-
-### ## Conclusion
-
-The journey from sound waves to quantum information is not a direct path, but it’s a thought-provoking one. It reminds us that in physics, creative thinking can lead to unexpected connections. While macroscopic sound waves aren’t likely to be the key to preserving quantum information, the interplay between different physical phenomena continues to be a rich area for research and discovery.
-
-As we continue to push the boundaries of our understanding in quantum mechanics and information theory, who knows what surprising connections we might uncover? The symphony of the quantum world still has many movements yet to be heard.
+The more we learn about quantum mechanics and information theory, the more surprising connections we might find. There is still a lot in the quantum world we haven't heard yet.

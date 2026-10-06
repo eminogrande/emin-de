@@ -17,6 +17,8 @@ voice_check:
   em_dash: 0
   unobserved: 3
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/this-is-a-chicken/"
 ---
 My Chicken

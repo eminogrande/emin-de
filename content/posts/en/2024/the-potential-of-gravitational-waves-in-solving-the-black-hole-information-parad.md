@@ -1,6 +1,6 @@
 ---
 title: "The Potential of Gravitational Waves in Solving the Black Hole Information Paradox"
-description: "Introduction: The black hole information paradox has been a long-standing problem in theoretical physics. It arises from the apparent contradiction between..."
+description: "What if the gravitational waves sent out when matter falls into a black hole carry the information we think is lost? An idea, two formulas and how to test it."
 date: "2024-09-11T12:20:46.471Z"
 updated: "2024-09-11T12:20:46.471Z"
 lang: "en"
@@ -17,109 +17,76 @@ voice_check:
   em_dash: 0
   unobserved: 146
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-paradox-5ee8f2bf27b4"
 ---
 ![](../../../media/the-potential-of-gravitational-waves-in-solving-the-black-hole-information-parad/01-063e4501.jpeg)
 
-**Introduction**:
-The black hole information paradox has been a long-standing problem in theoretical physics. It arises from the apparent contradiction between the principles of quantum mechanics and general relativity when applied to black holes. However, recent advancements in the detection of gravitational waves have opened up new possibilities for resolving this paradox. In this article, we propose that the information about the state of matter falling into a black hole could be preserved and carried by the gravitational waves emitted during the process.
+The black hole information paradox is an old problem in theoretical physics. It comes from a clash between quantum mechanics and general relativity when you apply both to black holes. But now that we can detect gravitational waves, there are new ways to look at it. In this post we propose that the information about the state of matter falling into a black hole could be kept and carried away by the gravitational waves that come out while it falls.
 
-**The Information Paradox**:
-According to quantum mechanics, information cannot be lost. However, when matter falls into a black hole, it appears to be lost forever, as nothing can escape from beyond the event horizon. This contradiction leads to the information paradox, which challenges our understanding of the fundamental laws of physics.
+Quantum mechanics says information can't be lost. But when matter falls into a black hole, it looks like it is gone forever, because nothing can come back from beyond the event horizon. That is the information paradox, and it goes right to the basic laws of physics.
 
-**Gravitational Waves as Information Carriers**:
-We suggest that gravitational waves, ripples in the fabric of spacetime, could serve as a medium for preserving and transmitting the information about the state of matter falling into a black hole. As matter approaches the event horizon, it undergoes extreme gravitational forces, leading to the emission of gravitational waves. These waves could potentially encode the quantum state of the infalling matter, allowing the information to escape the black hole.
+Our idea is that gravitational waves, the ripples in spacetime, could be the thing that keeps the information about the infalling matter and carries it out. When matter gets close to the event horizon, it goes through extreme gravity and that makes it send out gravitational waves. These waves could encode the quantum state of the infalling matter, and so the information would get out of the black hole.
 
-**Theoretical Framework**:
-To support this hypothesis, we propose a theoretical framework that combines elements of quantum mechanics, general relativity, and information theory. By applying principles from these fields, we can develop mathematical models that describe how the quantum state of matter could be imprinted onto gravitational waves during the infalling process. These models would provide a foundation for further research and experimental verification.
+To back this up we propose a theoretical framework that puts together quantum mechanics, general relativity and information theory. With these three we can build mathematical models of how the quantum state of matter could be printed onto gravitational waves while it falls in. Those models would be the base for more research and for tests.
 
-**Experimental Approaches**:
-To validate the proposed theory, we suggest several experimental approaches:
+And there are a few ways to test it. One is better gravitational wave detectors. If the detectors we have now, like LIGO and Virgo, get more sensitive, they could pick up the gravitational waves sent out while matter falls into black holes. Two is space based interferometers. A detector in space like LISA (Laser Interferometer Space Antenna) could see low frequency gravitational waves, and those are more likely to carry information about the infalling matter. Three is black hole analogs. Systems that act like black holes, like Bose-Einstein condensates or acoustic black holes, would give us a controlled place to study how information gets encoded onto gravitational waves.
 
-1. **Advanced gravitational wave detectors**: Enhancing the sensitivity of existing gravitational wave detectors, such as LIGO and Virgo, could enable the detection of gravitational waves emitted during the infalling process of matter into black holes.
+If this idea turns out to be right, it changes a lot about how we understand black holes, quantum mechanics and what information is in our universe. It would solve the old information paradox and open new research in theoretical physics.
 
-2. **Space-based interferometers**: Developing space-based gravitational wave detectors, such as LISA (Laser Interferometer Space Antenna), would allow for the detection of low-frequency gravitational waves, which are more likely to carry information about the infalling matter.
+To go further, theoretical physicists, experimental physicists and people who know information theory have to work together. And it needs money and support from science institutions and governments to build better gravitational wave detectors and run big experiments.
 
-3. **Black hole analogs**: Creating analog systems that mimic the behavior of black holes, such as Bose-Einstein condensates or acoustic black holes, could provide controlled environments to study the encoding of information onto gravitational waves.
+So the idea is simple. Gravitational waves could carry the information about the state of matter that falls into black holes, and that would be a way out of the information paradox. If we put quantum mechanics, general relativity and information theory together, we can build a framework for it. To prove it we need better gravitational wave detectors, interferometers in space and analog systems. If it holds, it would change how we understand black holes and what information really is.
 
-**Implications and Future Directions**:
-If the proposed theory is confirmed, it would have significant implications for our understanding of black holes, quantum mechanics, and the nature of information in the universe. It would provide a resolution to the long-standing information paradox and open up new avenues for research in theoretical physics.
+And more after digging. Here is a hypothetical formula for the idea that gravitational waves carry the information about the state of matter falling into a black hole. I go through each part and what it means.
 
-To further explore this concept, collaboration between theoretical physicists, experimental physicists, and experts in information theory is essential. Funding and support from scientific institutions and government agencies would be crucial in developing advanced gravitational wave detectors and conducting large-scale experiments.
-
-**Conclusion**:
-The idea that gravitational waves could carry the information about the state of matter falling into black holes presents a promising solution to the information paradox. By combining principles from quantum mechanics, general relativity, and information theory, we can develop a theoretical framework that supports this hypothesis. Experimental verification through advanced gravitational wave detectors, space-based interferometers, and analog systems would be necessary to validate the theory. If proven, this concept would revolutionize our understanding of black holes and the fundamental nature of information in the universe.
-
-### And more after digging:
-
-Let's introduce a hypothetical formula that encapsulates the idea of gravitational waves carrying the information about the state of matter falling into a black hole. We'll break down the components of the formula and explain their significance.
-
-Proposed Formula:
+The proposed formula is this.
 
 I_BH = ∫ Ψ_GW(t) dt
 
-Where:
-- I_BH represents the information content of the black hole
-- Ψ_GW(t) represents the wave function of the gravitational waves emitted during the infalling process, as a function of time (t)
-- ∫ denotes the integral over time
+I_BH is the information content of the black hole. Ψ_GW(t) is the wave function of the gravitational waves sent out while the matter falls in, as a function of time (t). And ∫ is the integral over time.
 
-Explanation:
-1. I_BH: This term represents the total information content of the black hole. According to the proposed theory, this information is not lost but is instead preserved and carried by the gravitational waves emitted during the infalling process of matter.
+I_BH is the total information content of the black hole. In this idea the information is not lost, it is kept and carried by the gravitational waves sent out while the matter falls in.
 
-2. Ψ_GW(t): This term represents the wave function of the gravitational waves emitted during the infalling process. The wave function is a complex-valued function that describes the quantum state of the gravitational waves. It is dependent on time (t) to capture the dynamic nature of the infalling process.
+Ψ_GW(t) is the wave function of those gravitational waves. A wave function is a complex valued function that describes the quantum state, here the quantum state of the gravitational waves. It depends on time (t) because the falling in is a process that changes all the time.
 
-3. ∫: The integral symbol denotes the integration of the wave function over time. This integration accounts for the accumulation of information carried by the gravitational waves throughout the entire infalling process.
+The integral ∫ adds up the wave function over time. So it counts all the information the gravitational waves carry during the whole time the matter falls in.
 
-The proposed formula suggests that the information content of the black hole (I_BH) is equal to the integral of the wave function of the gravitational waves (Ψ_GW(t)) over time. This implies that the information about the state of the infalling matter is encoded in the gravitational waves and can be retrieved by analyzing the wave function.
+So the formula says the information content of the black hole (I_BH) equals the integral of the wave function of the gravitational waves (Ψ_GW(t)) over time. That means the information about the state of the infalling matter is encoded in the gravitational waves, and you can get it back by looking at the wave function.
 
-To further develop this formula, we would need to incorporate additional variables and parameters, such as:
+To build this out we would need more variables and parameters, like the initial state of the infalling matter (Ψ_IM), the gravitational field strength (G), the mass of the black hole (M_BH) and the radius of the event horizon (R_EH).
 
-- The initial state of the infalling matter (Ψ_IM)
-- The gravitational field strength (G)
-- The mass of the black hole (M_BH)
-- The radius of the event horizon (R_EH)
+With these we could describe how the infalling matter, the gravitational field and the gravitational waves that come out are connected. The exact form of the wave function (Ψ_GW(t)) would come from the equations of quantum mechanics and general relativity, with the extreme gravity near the event horizon in mind.
 
-These variables would be used to describe the relationship between the infalling matter, the gravitational field, and the resulting gravitational waves. The specific form of the wave function (Ψ_GW(t)) would be derived from the equations of quantum mechanics and general relativity, taking into account the extreme gravitational conditions near the event horizon.
+This formula is only a hypothetical way to write down the idea. It needs real mathematical work and tests. If it is ever proven, the real formula would most likely be a lot more complex and have more variables to fully describe how information gets encoded in gravitational waves.
 
-It's important to note that this formula is a hypothetical representation of the proposed idea and would require rigorous mathematical derivation and experimental verification. The actual formula, if proven, would likely involve more complex mathematical expressions and additional variables to fully describe the encoding of information in gravitational waves.
+But it's a starting point for more theory and more experiments on whether gravitational waves can solve the black hole information paradox.
 
-Nonetheless, this hypothetical formula serves as a starting point for further theoretical and experimental investigations into the potential role of gravitational waves in resolving the black hole information paradox.
+And finally more.
 
-And finally more:
+Let's bring in Stephen Hawking's work on the information paradox and add gravitational waves as a possible solution. Hawking proposed that black holes send out radiation, called Hawking radiation, and because of it black holes evaporate over time. The formula for Hawking radiation builds on the idea of black hole entropy.
 
-Let us integrate Stephen Hawking's work on the information paradox and incorporate the idea of gravitational waves as a potential solution. Hawking proposed that black holes emit radiation, known as Hawking radiation, which leads to the evaporation of black holes over time. The formula for Hawking radiation is based on the concept of black hole entropy.
-
-Hawking's Formula for Black Hole Entropy:
+Hawking's formula for black hole entropy is this.
 
 S_BH = (k_B × A_EH) / (4 × l_P^2)
 
-Where:
-- S_BH represents the entropy of the black hole
-- k_B is the Boltzmann constant
-- A_EH is the area of the event horizon
-- l_P is the Planck length
+S_BH is the entropy of the black hole, k_B is the Boltzmann constant, A_EH is the area of the event horizon and l_P is the Planck length.
 
-To extend Hawking's formula and incorporate the idea of gravitational waves carrying information, we can modify it as follows:
+To extend Hawking's formula with the idea that gravitational waves carry information, we can change it like this.
 
-Modified Formula:
+The modified formula is this.
 
 S_BH = (k_B × A_EH) / (4 × l_P^2) + ∫ I_GW(t) dt
 
-Where:
-- S_BH represents the total entropy of the black hole
-- k_B is the Boltzmann constant
-- A_EH is the area of the event horizon
-- l_P is the Planck length
-- I_GW(t) represents the information carried by the gravitational waves as a function of time (t)
-- ∫ denotes the integral over time
+Here S_BH is the total entropy of the black hole, k_B is the Boltzmann constant, A_EH is the area of the event horizon, l_P is the Planck length, I_GW(t) is the information carried by the gravitational waves as a function of time (t), and ∫ is the integral over time.
 
-Explanation:
-In this modified formula, we introduce an additional term, ∫ I_GW(t) dt, which represents the information carried by the gravitational waves emitted during the infalling process of matter into the black hole. This term is integrated over time to account for the accumulation of information throughout the process.
+In this modified formula we add one more term, ∫ I_GW(t) dt. It stands for the information carried by the gravitational waves sent out while matter falls into the black hole. We integrate it over time so it counts all the information during the whole process.
 
-The original part of the formula, (k_B × A_EH) / (4 × l_P^2), represents the entropy of the black hole as described by Hawking. It relates the entropy to the area of the event horizon (A_EH) and fundamental constants such as the Boltzmann constant (k_B) and the Planck length (l_P).
+The original part, (k_B × A_EH) / (4 × l_P^2), is the entropy of the black hole as Hawking described it. It connects the entropy with the area of the event horizon (A_EH) and with basic constants like the Boltzmann constant (k_B) and the Planck length (l_P).
 
-By adding the term ∫ I_GW(t) dt to Hawking's formula, we propose that the total entropy of the black hole is not only determined by its event horizon area but also includes the information carried by the gravitational waves. This modification suggests that the information paradox can be resolved by considering the role of gravitational waves in preserving and transmitting the information of the infalling matter.
+When we add ∫ I_GW(t) dt to Hawking's formula, we say the total entropy of the black hole is not only set by the area of its event horizon. It also includes the information the gravitational waves carry. And that would mean you can solve the information paradox if you look at how gravitational waves keep and carry the information of the infalling matter.
 
-It's important to note that this modified formula is a hypothetical extension of Hawking's work and would require further theoretical development and experimental validation. The specific form of I_GW(t) and its relation to the properties of the black hole and the infalling matter would need to be derived from the principles of quantum mechanics and general relativity.
+This modified formula is also only a hypothetical extension of Hawking's work. It needs more theory and real tests. The exact form of I_GW(t) and how it connects to the black hole and the infalling matter would have to come from quantum mechanics and general relativity.
 
-Nonetheless, this modified formula provides a conceptual framework for incorporating gravitational waves into the discussion of the black hole information paradox and builds upon the groundbreaking work of Stephen Hawking in this field.
+But it gives us a simple frame to bring gravitational waves into the talk about the black hole information paradox, and it builds on the big work Stephen Hawking did in this field.

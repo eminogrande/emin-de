@@ -1,6 +1,6 @@
 ---
 title: "Panpsychisms: A Comparative Map"
-description: "Panpsychism is the view that mind-like or experiential aspects are fundamental and pervasive in reality. It does not necessarily say that rocks have human..."
+description: "What if experience is built into reality from the start? A plain map of the kinds of panpsychism and the people who argue about them."
 date: "2026-02-20T23:30:00Z"
 updated: "2026-02-20T23:30:00Z"
 lang: "en"
@@ -17,162 +17,54 @@ voice_check:
   em_dash: 1
   unobserved: 185
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-013000-panpsychisms-a-comparative-map/"
 ---
-## Overview
+Panpsychism is the view that something like mind, some kind of experience, is basic and is everywhere in reality. It doesn't have to mean that rocks have human minds. It means consciousness is not a late accident, but part of the fabric of what exists.
 
-Panpsychism is the view that mind-like or experiential aspects are fundamental and pervasive in reality. It does not necessarily say that rocks have human minds; it says that consciousness is not a late anomaly but built into the fabric of existence.
+It's coming back today because people are unhappy with both sides. Reductive physicalism has a hard time with qualia, and substance dualism has a hard time with how mind and body act on each other.
 
-Its modern revival comes from dissatisfaction with both reductive physicalism (which struggles with qualia) and substance dualism (which struggles with interaction).
+If you're new to this, here is the two minute version. It's a map and not a final answer. Each part explains one idea in plain words and then shows where it helps and where it struggles. You don't need to agree with all of it. You just need to see the options clearly.
 
-### Quick start (2-minute version)
+Micropsychism says the tiny parts of reality have very simple experiences, and complex consciousness comes out of how they combine.
 
-If you're new to consciousness philosophy, start here:
+The good part is a natural line from the smallest level up to complex minds. The big problem is the combination problem. It's not clear how many tiny experiences turn into one single big experience.
 
-- This article gives you a **map**, not a final answer.
-- Each section explains one idea in plain language, then shows where it helps and where it struggles.
-- You do **not** need to agree with everything — the goal is to understand the options clearly.
+Panprotopsychism is a softer version of micropsychism. Here the basic things have proto-phenomenal properties. They're not full experience yet, but they can be the ground for it.
 
-## Micropsychism
+The plus is that you don't have to put rich experience at such a low level. The challenge is to explain how these proto properties cross the line into real experience.
 
-Micropsychism says tiny constituents of reality have primitive experiential properties, and complex consciousness emerges from combinations of these.
+Cosmopsychism turns it around. The cosmos as a whole is the basic subject, and our single minds are parts or expressions of it.
 
-Strength:
-- Natural continuity from fundamental to complex minds.
+Why people like it is that it may make the combination problem easier, because it swaps it for a decomposition problem. But then there is a new question, and that is how one cosmic consciousness gives you many separate points of view.
 
-Major problem:
-- **Combination problem:** how do many micro-experiences become one unified macro-experience?
+Qualia force frameworks say that how experience feels is not a passive side effect. It's tied to what moves us and to how things change.
 
----
+The value could be a bridge between how things feel and what causes what. The risk is that without careful formal work it just drifts into metaphor.
 
-## Panprotopsychism
+Qualia space approaches model experiences as points in structured spaces or geometries.
 
-Panprotopsychism softens micropsychism: fundamental entities have proto-phenomenal properties that are not yet full experience but can ground it.
+The good part is that you can compare experiences precisely. The open issue is how to map that formal geometry to what neurons do and to what grounds it all.
 
-Advantage:
-- Avoids attributing rich experience too low-level.
+David Chalmers did a lot to make panpsychist and panprotopsychist options serious again. He argued that reductive accounts leave the hard problem unsolved. What he brought is clear concepts and real metaphysical alternatives.
 
-Challenge:
-- Clarify how proto-properties cross the threshold into actual phenomenality.
+Galen Strawson's realistic monism says that if consciousness is real, and everything is physical, then the physical must have experience in it at its base. He is a key bridge between the language of physicalism and what that means for panexperientialism.
 
----
+Philip Goff is one of the leading defenders of panpsychism today. His strength is that he shows clearly why panpsychism may do better than both dualism and reductionism on the hard problem. The central hurdle is still how combination and decomposition work.
 
-## Cosmopsychism
+Michael Tye is often linked with representationalist theories, and he is often critical of some panpsychist moves. He is on this map because he stands for the pressure from theories that want to explain how experience feels through what it represents, and not through a panpsychist ontology.
 
-Cosmopsychism inverts the direction: the cosmos as a whole is fundamental subjectivity, and individual minds are derivative partitions/manifestations.
+Hedda Hassel Mørch builds careful panpsychist and related arguments, mostly around phenomenal consciousness and explanatory gaps. She brings refined answers to the big objections and handles the questions about what makes up a mind with care.
 
-Why it’s compelling:
-- May ease the combination problem by replacing it with a decomposition problem.
+Susan Schneider and Andrew Bailey, and others in this group, add critical and open discussion about what consciousness is, about AI consciousness, and about being precise with concepts. In the panpsychism debate they keep the scope clear. They push back when it gets stretched too far, but they still take the question seriously.
 
-New question:
-- How does one cosmic consciousness yield distinct individual perspectives?
+The Kadić-linked lines in this area try to bring together the structure of how things feel, metaphysics and current models. The value is that this widens the comparison and keeps panpsychism in conversation with the ideas next to it.
 
----
+Panpsychism is no longer fringe in serious philosophy of consciousness. It wins points because it takes experience as basic data and avoids interaction dualism. But it still has to solve its structural problems, mostly combination and decomposition, with stronger formal tools.
 
-## Qualia Force
+The most likely future is hybrid models. They would combine panpsychist ideas with information geometry, causal emergence and limits from neuroscience.
 
-Qualia-force frameworks propose that experiential qualities are not passive byproducts but tied to motivational or dynamical tendencies.
+A few words in plain English, if you need them. Consciousness is your felt inner experience, what it is like to be you. Physicalism is the view that reality is fully part of nature and physics. Dualism says mind and matter are deeply different in at least one important way.
 
-Potential value:
-- Bridges phenomenology and causation.
-
-Risk:
-- Needs careful formalization to avoid metaphorical drift.
-
----
-
-## Qualia Space
-
-Qualia-space approaches model experiences as positions in structured manifolds or geometries.
-
-Strength:
-- Supports precision in comparing experiential states.
-
-Open issue:
-- Mapping formal geometry to neural mechanisms and metaphysical grounding.
-
----
-
-## Chalmers
-
-David Chalmers has been pivotal in reopening serious space for panpsychist and panprotopsychist options by arguing that reductive accounts leave the hard problem unresolved.
-
-Contribution:
-- Conceptual clarity and serious metaphysical alternatives.
-
----
-
-## Strawson
-
-Galen Strawson’s realistic monism argues that if consciousness is real, and everything is physical, then the physical must include experiential nature at base.
-
-He is a key bridge between physicalist language and panexperiential implications.
-
----
-
-## Goff
-
-Philip Goff is one of the leading contemporary defenders of panpsychism.
-
-Strength:
-- Clear presentation of why panpsychism may outperform both dualism and reductionism on the hard problem.
-
-Central hurdle remains the combination/decomposition architecture.
-
----
-
-## Tye
-
-Michael Tye is often associated with representationalist theories, frequently critical of some panpsychist moves.
-
-Why included:
-- Represents pressure from theories that seek to explain phenomenal character through representational content rather than panpsychist ontology.
-
----
-
-## Mørch
-
-Hedda Hassel Mørch develops nuanced panpsychist and related arguments, especially around phenomenal consciousness and explanatory gaps.
-
-Contribution:
-- Refined responses to major objections.
-- Careful treatment of constitutive questions.
-
----
-
-## Schneider / Bailey
-
-Susan Schneider and Andrew Bailey (among others in this cluster) contribute critical and exploratory discussion around consciousness ontology, AI consciousness, and conceptual rigor.
-
-Role in panpsychism debates:
-- Keep scope conditions clear.
-- Challenge overextension while preserving serious inquiry.
-
----
-
-## Kadić
-
-Kadić-linked lines in this area emphasize synthesis attempts between qualitative structure, metaphysics, and contemporary modeling.
-
-Value:
-- Expands comparative reach and keeps panpsychism in dialogue with adjacent frameworks.
-
----
-
-## Final Assessment
-
-Panpsychism is no longer fringe in serious consciousness philosophy. It wins points for taking experience as fundamental data and for avoiding interaction dualism. It still must solve structural problems (especially combination/decomposition) with stronger formal tools.
-
-Most likely future: hybrid models that combine panpsychist insights with information geometry, causal emergence, and neuroscience constraints.
-
----
-
-### Mini glossary (plain English)
-
-- **Consciousness:** your felt inner experience (what it is like to be you).
-- **Physicalism:** the view that reality is fully part of nature/physics.
-- **Dualism:** mind and matter are fundamentally different in at least one important sense.
-- **Monism:** reality is ultimately one kind of thing or one underlying principle.
-- **Emergence:** complex systems can show new patterns not obvious from their parts alone.
-- **Qualia:** the felt qualities of experience (like the redness of red or pain as felt).
-- **Explanatory gap:** the gap between describing brain processes and explaining felt experience.
+Monism says reality is in the end one kind of thing or one basic principle. Emergence means complex systems can show new patterns that you can't see from their parts alone. Qualia are the felt qualities of experience, like the redness of red or pain as it feels. And the explanatory gap is the gap between describing what the brain does and explaining how it feels.

@@ -17,6 +17,8 @@ voice_check:
   em_dash: 0
   unobserved: 199
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/kuala-lumpur-photography-day-trip-with-omd-em5ii-and-voigtl%C3%A4nder-25mm-f0-95-and-furaha-to-the-caves-9f1bef434e0d"
 ---
 # Kuala Lumpur Photography Day-Trip with OMD-EM5II Micro 4/3 and Voigtländer 25mm F0.95 and Furaha to the Caves

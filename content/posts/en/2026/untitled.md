@@ -1,6 +1,6 @@
 ---
-title: "Untitled"
-description: "Untitled"
+title: "Snowy rooftops at dusk"
+description: "A photo out of the window. Snowy rooftops, trees and the sky at dusk."
 date: "2026-01-06T06:30:01Z"
 updated: "2026-01-06T06:30:01Z"
 lang: "en"
@@ -18,8 +18,9 @@ voice_check:
   em_dash: 0
   unobserved: 4
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
+
 original_url: "https://emino.app/posts/untitled-post/"
 ---
-<img>
-
 ![IMG_7629](../../../media/untitled/IMG_7629.jpg)

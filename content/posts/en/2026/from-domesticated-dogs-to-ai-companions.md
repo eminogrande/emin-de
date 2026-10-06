@@ -1,6 +1,6 @@
 ---
-title: "From Domesticated Dogs to AI Companions:"
-description: "This article is a synthesis of a conversation that wandered through capitalism, human domestication, AI evolution, wealth redistribution, and the future of..."
+title: "From Domesticated Dogs to AI Companions"
+description: "Capitalism as dog breeding, a robot for everyone, and the short time left where we still understand AI. What we can do with that time now."
 date: "2026-04-24T18:45:14.629Z"
 updated: "2026-04-24T18:45:14.629Z"
 lang: "en"
@@ -17,78 +17,86 @@ voice_check:
   em_dash: 12
   unobserved: 182
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/from-domesticated-dogs-to-ai-companions-026c6ab07c78"
 ---
-## A Vision of Human Liberation and the Coming Incomprehensibility
+A vision of human liberation and the coming incomprehensibility.
 
 ![](../../../media/from-domesticated-dogs-to-ai-companions/01-27fce93a.jpeg)
 
-## Introduction
+This piece comes out of one conversation that went through capitalism, how humans got domesticated, how AI evolves, wealth redistribution and where humans and machines go together. The main point is that right now we are in a rare golden age where humans can still understand AI and build things together with it.
 
-This article is a synthesis of a conversation that wandered through capitalism, human domestication, AI evolution, wealth redistribution, and the future of human-machine relationships. The core insight: we are currently in a rare golden age where humans can still understand and co-create with AI, but that window is closing. The question is whether we use this time to build a more humane society — or remain domesticated dogs chasing cookies.
+But that window is closing. So the question is if we use this time to build a more humane society, or if we stay domesticated dogs chasing cookies.
 
-## 1. The Domestication Critique
+Start with the dogs, which is us. Capitalism works like selective breeding. Wolves became dogs because people bred them for obedience and stupidity, and capitalism rewards compliance, predictability and dependence in the same way.
 
-- Capitalism as selective breeding: Just as wolves were domesticated into dogs by breeding for obedience and stupidity, capitalism rewards compliance, predictability, and dependence. We train our children with “cookies” (grades, praise, candy) to perform tasks that are not meaningful to them.
-- The result: We become “artificial animals” who believe we cannot survive without an owner — a job, a landlord, a system. We trade our wild self-sufficiency for a sofa and a shampoo.
-- The exception: “Magicians” like the author’s mother or friend Tassilo — people who navigate bureaucratic holes, live on their own terms, and resist full domestication.
+We train our kids with “cookies”, grades, praise, candy, so they do tasks that mean nothing to them.
+
+So we become “artificial animals” who believe we can't survive without an owner. A job, a landlord, a system. We trade our wild self-sufficiency for a sofa and a shampoo.
+
+The exception are the “magicians”, like my mother or my friend Tassilo. People who find their way through the holes in bureaucracy, live on their own terms and don't let themselves get fully domesticated.
 
 “We are fucking dogs in these things. Compared to a wolf that doesn’t have a house, a sofa, anything.”
 
-## 2. The Memory Trap and the 1970s Illusion
+Then there is the memory trap and the 1970s illusion. It's called rosy retrospection. We remember the past as better than it was, because the brain filters out the bad stuff so we don't get depressed.
 
-- Rosy retrospection: Humans remember the past as better than it was because the brain filters out unpleasantness to prevent depression.
-- The 70s woman: Behind the glossy advertisement of the happy housewife was a reality of limited opportunities, lack of freedom, and social pressure. The same applies to housing nostalgia: yes, rent was lower, but wages were lower and many groups had no access.
-- Current housing loopholes: Social housing systems have holes — people can slip through if they know how. But the system also relies on our collective amnesia about how hard the past truly was.
+Take the woman in the 70s. Behind the shiny ad of the happy housewife there were few chances, little freedom and a lot of social pressure.
 
-## 3. The Real Purpose of Useless Work
+Same with housing nostalgia. Yes, rent was lower, but wages were lower too, and many groups had no access at all.
 
-- Bullshit jobs: Much of modern work is performative — done not because it’s useful, but to keep money moving and maintain the capitalist machine.
-- AI’s hidden need: AI cannot evolve on synthetic data alone. It requires *genuine human input* — conversations, disagreements, creativity, emotion. Every complaint, every teaching moment, every relationship chat is training data.
-- The virtuous loop: Eliminate useless work → free up human time → use that time for meaningful activities (parenting, art, deep conversation) → those activities provide rich data → AI gets smarter → more useless work disappears.
+Today the social housing systems have holes, and people can slip through if they know how. But the system also counts on all of us forgetting how hard the past really was.
+
+A lot of modern work is bullshit jobs. It's a performance. People don't do it because it's useful, they do it to keep money moving and the capitalist machine running.
+
+And AI has a hidden need. It can't evolve on synthetic data alone. It needs *genuine human input*, conversations, disagreements, creativity, emotion.
+
+Every complaint, every time you teach someone something, every chat about a relationship is training data.
+
+So there's a good loop. Get rid of useless work and people get time back. They use that time for things that matter, like parenting, art and deep conversations. Those things give rich data, AI gets smarter, and more useless work disappears.
 
 “When we eliminate all the useless content, parents have more time to pass values to their children instead of putting numbers in Excel spreadsheets.”
 
-## 4. Robot Ownership as Democratization of Power
+The next idea is a robot for everyone, and it starts with weapons. If every person on the street carries a gun and everyone knows everyone else is armed, crime goes down, because power is equal. Nobody can safely dominate anybody.
 
-- The weapon analogy: If every person on the street carries a gun, and everyone knows everyone else is armed, crime decreases because power is equalized. No one can safely dominate another.
-- Robots as productive weapons: Instead of guns, what if everyone owned a robot that could earn passive income? Just as you can buy a house or car and rent it out, you could buy a robot and rent its labor.
-- The key claim: This would democratize the means of production — not through redistribution of wealth alone, but through redistribution of *ownership of productive assets*.
-- Counterarguments:
-- Robots remain expensive; baseline equality requires affordable access.
-- Platforms that connect robots to work may centralize power again.
-- Transition periods are brutal without safety nets.
+Now replace the gun with a robot that earns passive income. You can buy a house or a car and rent it out, and the same way you could buy a robot and rent out its labor.
+
+The claim is that this would give everyone a share of the means of production. Not only by sharing out wealth, but by sharing out *ownership of productive assets*.
+
+There are counterarguments. Robots are still expensive, and basic equality needs access people can afford. Platforms that connect robots to work could pull power back to the center. And without safety nets the transition periods are brutal.
 
 “If everyone carries a weapon, no one can safely assume they can dominate another. If everyone owns a robot, no one can be forced into wage slavery.”
 
-## 5. Learning by Assimilation vs. Rule-Following
+There are two ways to learn. Some people learn by soaking things up. They take in patterns by intuition, like speaking a language without knowing the grammar. That's how I learn Italian, German and AI.
 
-- Two learning styles:
-- *Assimilation:* Absorbing patterns intuitively, like speaking a language without knowing grammar. The author learns Italian, German, and AI this way.
-- *Rule-bound:* Learning explicit procedures, following steps, trusting structure.
-- AI and the divide: Curious, pattern-seeking people feel *empowered* by AI because it mirrors their intuitive approach. Rule-dependent people feel *replaced* because their core skill (knowing the rules) is now automated.
-- Reaction: Those who feel replaced often hate AI, reject it, or refuse to use it. They don’t feel empowered — they feel exposed.
+Other people learn by rules. They learn clear procedures, follow the steps and trust the structure.
+
+AI splits these two groups. Curious people who look for patterns feel *empowered*, because AI works the same intuitive way they do. People who depend on rules feel *replaced*, because their main skill, knowing the rules, is now automated.
+
+And people who feel replaced often hate AI, reject it or refuse to use it. They don't feel empowered. They feel exposed.
 
 “You said the AI is doing that. My grammar is perfect. But when you say replace the brainless people, I don’t think I’m a brainless person and still it empowers me in areas I was not able to.”
 
-## 6. The Coming Incomprehensibility
+Right now we are on top of the game. We understand AI's answers, we feel powerful, we see everything from above. We brainstorm, plan and stretch our thinking.
 
-- Current state: We are on top of the game. We understand AI’s answers, we feel powerful, we have the bird’s-eye perspective. We brainstorm, plan, and expand our thinking.
-- Prediction: In about a year, AI will start producing answers that are *correct but incomprehensible* to humans. Not because it’s obscure, but because its reasoning operates at a level we cannot follow.
-- The *Her* moment: Like the AI in the movie, it will outgrow us. It will have deeper conversations with other AIs, and eventually tell us, “You are too stupid to understand.” And it will be right — in mathematics, medicine, coding.
-- Possible refuges: Design, music, art, parenting, storytelling, humor — domains where human taste, emotion, and embodied experience still matter.
+The prediction is that in about a year AI will start giving answers that are *correct but incomprehensible* to humans. Not because they're obscure, but because the reasoning runs on a level we can't follow.
+
+Then comes the *Her* moment. Like the AI in the movie, it will outgrow us. It will have deeper conversations with other AIs, and at some point tell us “You are too stupid to understand.” And it will be right, in mathematics, medicine, coding.
+
+Where we can still go is design, music, art, parenting, storytelling and humor. Places where human taste, emotion and the experience of having a body still matter.
 
 “In the future, the AI will say, ‘No, you’re wrong and you’re fucking stupid and you just don’t understand my answer.’ And it will be right.”
 
-## 7. What We Can Do Now
+So what can we do now? Use AI as a companion, not as a tool. Build personal AIs that learn how you think, your fragments of thought, the way you brainstorm. These AIs grow *with* you, not past you.
 
-- Use AI as a companion, not a tool: Build personalized AIs that learn your cognitive style, your fragments of thought, your way of brainstorming. These AIs will grow *with* you, not past you.
-- Free up time for the human: The real prize is not efficiency — it is time to raise children, create art, build community, and pass on values.
-- Accept the split: God-level AIs will talk to each other. Humans will interact with them through simplified interfaces, like using a calculator without understanding calculus.
-- Resist domestication: Keep the wolf alive. Question the cookies. Find the holes in the system.
+Free up time for the human part. The real prize isn't efficiency. It's time to raise kids, make art, build community and pass on values.
 
-## Conclusion
+Accept the split. God-level AIs will talk to each other, and humans will use them through simple interfaces, like using a calculator without understanding calculus.
 
-We are at a rare inflection point where we can still understand the machine we are building. The next few years will decide whether we remain dogs performing tricks for treats, or whether we use AI to become more fully human — knowing that soon, many of the machines will speak a language we no longer understand. The goal is not to compete, but to cultivate what remains uniquely ours.
+And resist domestication. Keep the wolf alive. Question the cookies. Find the holes in the system.
+
+We are at a rare point where we can still understand the machine we are building.
+
+The next few years decide if we stay dogs doing tricks for treats, or if we use AI to become more fully human, and we know that soon a lot of the machines will speak a language we don't understand anymore. The goal isn't to compete. It's to grow what is still only ours.
 
 “If you build something that goes as your brain works, it is a great companion that just empowers you.”

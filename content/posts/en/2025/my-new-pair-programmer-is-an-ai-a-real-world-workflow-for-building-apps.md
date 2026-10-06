@@ -1,6 +1,6 @@
 ---
 title: "My New Pair Programmer is an AI: A Real-World Workflow for Building Apps"
-description: "The world of software development is buzzing with the promise of AI. We see demos of complex applications being built in minutes from a single prompt. But..."
+description: "I spent a day building and fixing an iOS app with an AI coding assistant. This is the workflow I use, and where it goes wrong."
 date: "2025-06-30T10:44:48.609Z"
 updated: "2025-06-30T10:44:48.609Z"
 lang: "en"
@@ -16,75 +16,56 @@ voice_check:
   em_dash: 5
   unobserved: 103
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/my-new-pair-programmer-is-an-ai-a-real-world-workflow-for-building-apps-041b168cb1cb"
 ---
-The world of software development is buzzing with the promise of AI. We see demos of complex applications being built in minutes from a single prompt. But what does the day-to-day reality look like for a developer using these tools? How do you go from a bug to a bug-fix, from an idea to a feature, when your primary collaborator is an AI?
+Everybody talks about AI in software right now. You see demos where a whole app gets built in minutes from one prompt. But what does a normal day look like when you build with these tools? How do you get from a bug to a fix, or from an idea to a feature, when the one you work with the most is an AI?
 
-I spent a day building and fixing an iOS application using an AI-powered coding assistant. The process was a fascinating, frustrating, and ultimately productive dance between human instruction and artificial intelligence. This is a real-world look at that workflow — the good, the bad, and the buggy.
+I spent a day building and fixing an iOS app with an AI coding assistant. It was interesting, it was frustrating, and in the end I got a lot done. This is what the workflow really looks like, the good parts, the bad parts and the bugs.
 
-## The Core Workflow: From Prompt to Push
+## From prompt to push
 
-My process for working with the AI has evolved into a clear, iterative cycle. It’s less about writing code and more about being an expert director.
+My way of working with the AI has turned into a loop that I just repeat. I write less code and I direct more.
 
-### Step 1: See It, Circle It, Ship It to the AI
+Step 1 is to see it, circle it and give it to the AI. It starts with a bug you can see. In my app the "Add Money" button didn't work, but a similar "Top-up" button worked fine. I didn't open the code first. I took a screenshot of the screen on my phone. Then I used a simple editing tool and circled the broken "Add Money" button and the working "Top-up" button, because that picture tells the AI a lot.
 
-It starts with a visual bug. In my app, the “Add Money” button wasn’t working, while a similar “Top-up” button worked perfectly. Instead of diving into the code, my first step was documentation.
+My phone is connected to my computer, so I copy the marked screenshot and paste it right into the chat with the assistant. The AI can see what I mean.
 
-1. **Screenshot:** I take a screenshot of the app screen on my phone.
-1. **Annotate:** Using a simple editing tool, I circle the broken “Add Money” button and the working “Top-up” button. This visual context is invaluable for the AI.
-1. **Copy & Paste:** With my phone connected to my computer, I copy the annotated screenshot and paste it directly into the AI assistant’s chat. The AI can *see* what I’m talking about.
+Step 2 is to write what I want in plain English. My programming language is English now. I write a clear prompt with all the details I have.
 
-*(Note: This is a descriptive placeholder for a visual element described in the text.)*
+*"On the Card View screen, when you click the Add Money button in the top right, can you please open the same screen as when you click the top up icon below the card? I circled both in red on the screenshot."*
 
-### Step 2: Write the Instruction in Plain English
+The more exact I am, the better it gets. I name the screen (`Card View`), the components (`NuriHed`, `NuriButton`) and what should happen.
 
-Next, I become an instructor. My programming language is now English. I write a clear, detailed prompt:
+Step 3 is to look at the changes, test them and commit. The AI reads my request and the code it already has, and then it shows me what it wants to change as a diff, lines it deletes in red and lines it adds in green. My job is the senior developer who reviews the pull request. Does it make sense? Does it look right?
 
-*“On the Card View screen, when you click the Add Money button in the top right, can you please open the same screen as when you click the top up icon below the card? I circled both in red on the screenshot.”*
+If it does, I accept it, build the app again and test it right away on my phone. This time the "Add Money" button worked fine.
 
-The more specific I am — mentioning screen names (`Card View`), component names (`NuriHed`, `NuriButton`), and desired behavior—the better the result.
+And then I commit, and I never skip that. I tell the AI `"Please commit and push this to GitHub."` Git is my safety net. If the AI breaks something later, I can always go back to a version that worked.
 
-### Step 3: Review the Changes, Test, and Commit
+## When the AI gets it wrong
 
-The AI analyzes my request and the existing code, then presents its proposed changes in a “diff” view — lines to be deleted in red, lines to be added in green. My job is to be the senior developer, reviewing the pull request. Does it make sense? Does it look right?
+That sounds smooth, but it almost never goes in a straight line. The AI is strong, and it also makes a lot of mistakes.
 
-If it does, I accept the changes, rebuild the application, and test it immediately on my device. In this case, the “Add Money” button now worked perfectly. Success!
+Once I asked it to fix the vertical alignment of a small chevron icon. It fixed the alignment, but it also changed the size of the whole card on that screen. Why? I don't know. For now I could live with it. This happens all the time, you fix one thing and the AI changes another thing on the way. You have to watch it the whole time.
 
-The final, crucial step is to commit the change. I instruct the AI: `"Please commit and push this to GitHub."` Using version control is my safety net. If the AI destroys something later, I can always revert to a working version.
+Sometimes it just gets stuck. It runs in a loop and tries the same change again and again and fails. I saw it get confused by its own tools and throw internal errors. The old IT trick often helps, close the program and start it again. Sometimes it also helps to switch to another model, for example from Gemini to Claude 3 Opus, but that can cost more.
 
-## The Reality: When the AI Gets It Wrong
+It's also easy to get lost in new features that weren't planned. I had a nice-to-have idea, a "Share" button on a QR code screen. The AI built it fast. But it was only half done. It shared the address as text, but not the QR code image itself.
 
-This workflow sounds smooth, but it’s rarely a straight line. The AI is a powerful but flawed partner.
+That is a trap. I spent time on a feature that wasn't on my roadmap and didn't even work. When starting something new costs you only one sentence, it's more important than ever to stick to the plan.
 
-**The Unintended Side Effects**
+## From coder to conductor
 
-In another instance, I asked the AI to fix the vertical alignment of a small chevron icon. It fixed the alignment, but in the process, it changed the size of the entire card element on the screen. Why? I don’t know. For now, it was an acceptable trade-off. This is a common occurrence: you fix one thing, and the AI inadvertently alters another. You have to be constantly vigilant.
+Working with an AI assistant changed how I relate to code.
 
-**Spiraling and Getting Stuck**
+I used to be proud that I could speak the language of the computer, and now I tell it what to do in English. I build less with my own hands. I'm more the architect, the reviewer and the QA person, all in one.
 
-Sometimes, the AI simply gets stuck. It can get caught in a loop, repeatedly trying and failing to implement a change. I’ve seen it get confused by its own tools, throwing internal errors. The classic IT solution often works: **close the program and restart it.** Sometimes, switching to a different AI model (e.g., from Gemini to Claude 3 Opus) can break the deadlock, although this can have cost implications.
+I used to like writing a perfect function myself, and now I like getting a strong tool to the result I want. It's a different kind of pride, more like a manager's.
 
-**The Siren Song of Unplanned Features**
+If you want to work with an AI pair programmer, this is what I learned. Be very exact, because vague prompts give you vague and often wrong results, so use screen names, component names and clear logic. A picture is often worth 1,000 lines of code, so use marked screenshots when you can. Start a new chat for every bug or feature, so the AI doesn't mix them up. Commit all the time, git is your best friend, and if you commit working changes often you can always go back.
 
-It’s easy to get lost in “feature universes.” I had a “nice-to-have” idea: add a “Share” button to a QR code screen. The AI implemented it quickly. But the result was half-baked — it shared the text address but failed to share the QR code image itself.
+Make it work, then make it pretty. Get it working first, and ask the AI to clean up the code or the UI in a second step. And know when to stop. If the AI fails at a task for more than a couple of rounds, it can be faster to write the code yourself or to think about the problem again.
 
-This is a trap. I spent time on a feature that wasn’t on my roadmap and didn’t even work correctly. The discipline to stick to the plan is more important than ever when the barrier to starting something new is just a single sentence.
-
-## The New Role of the Developer: From Coder to Conductor
-
-Using an AI assistant has fundamentally changed my relationship with code.
-
-I’ve gone from someone who was proud to “speak the language of the computer” to someone who instructs it in English. I’m less of a hands-on builder and more of an architect, a reviewer, and a quality assurance engineer, all rolled into one. The satisfaction of crafting a perfect function with my own hands is replaced by the satisfaction of guiding a powerful tool to a desired outcome. It’s a different, more managerial kind of pride.
-
-## Key Lessons Learned
-
-If you’re going to integrate an AI pair programmer into your workflow, here are my key takeaways:
-
-- **Be Hyper-Specific:** Vague instructions lead to vague (and often wrong) results. Use screen names, component names, and clear logic.
-- **A Picture is often Worth 1,000 Lines of Code:** Use annotated screenshots whenever possible.
-- **Isolate Your Tasks:** Start a new chat for each distinct bug or feature to prevent the AI from mixing up contexts.
-- **Commit Religiously:** Version control is your best friend. Commit working changes often so you can always go back.
-- **“Make It Work, Then Make It Pretty”:** Get the functionality right first. You can always ask the AI to refactor or clean up the UI in a separate step.
-- **Know When to Walk Away:** If the AI is struggling with a task for more than a couple of iterations, it might be faster to either write the code yourself or re-think your approach.
-
-AI-assisted development isn’t magic. It’s a powerful, imperfect tool that requires a new set of skills. It demands clear communication, sharp-eyed reviewing, and disciplined project management. It won’t replace developers, but it is changing what it means to be one.
+AI coding isn't magic. It's a strong tool that isn't perfect, and you need new skills for it. You have to explain clearly, review with sharp eyes and stick to your plan. It won't replace developers, but it changes what it means to be one.

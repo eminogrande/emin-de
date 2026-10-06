@@ -17,6 +17,8 @@ voice_check:
   em_dash: 0
   unobserved: 74
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/sport-als-hobby-6e4e489ba6bb"
 ---
 ![](../../../media/sport-als-hobby/01-ff1217f2.png)

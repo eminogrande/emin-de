@@ -1,6 +1,6 @@
 ---
-title: "Advantages of Acquiring an Investment Bank License in Labuan, Malaysia and the Tokenization of Real…"
-description: "Labuan offers a unique and strategic location for incorporating an investment bank, combining favorable regulatory frameworks with attractive tax benefits...."
+title: "Advantages of Acquiring an Investment Bank License in Labuan, Malaysia and the Tokenization of Real World Assets and Securities"
+description: "Why Labuan works for an investment bank. Tax, costs, capital, what you may and may not do, and how digital assets and tokenization fit in."
 date: "2024-08-02T12:33:01.408Z"
 updated: "2024-08-02T12:33:01.408Z"
 lang: "en"
@@ -17,152 +17,66 @@ voice_check:
   em_dash: 0
   unobserved: 230
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/advantages-of-acquiring-an-investment-bank-license-in-labuan-malaysia-and-the-tokenization-of-real-f4017f812904"
 ---
-# Advantages of Acquiring an Investment Bank License in Labuan, Malaysia and the Tokenization of Real World Assets + Securities.
-
 ![](../../../media/advantages-of-acquiring-an-investment-bank-license-in-labuan-malaysia-and-the-to/01-2636d55b.png)
 
-## Why Incorporate in Labuan?
+Labuan is a good place to set up an investment bank. You get clear rules and good tax benefits in one place. It's part of Malaysia, it's known as business friendly and it has a strong financial services sector, so it works really well for international business and investment.
 
-Labuan offers a unique and strategic location for incorporating an investment bank, combining favorable regulatory frameworks with attractive tax benefits. Known for its business-friendly environment, Labuan is part of Malaysia and is renowned for its robust financial services sector, making it an ideal jurisdiction for international business and investment activities.
+Labuan is a federal territory of Malaysia off the coast of Borneo. It's one main island and six smaller ones. It sits right in the middle of Asia, so the big financial markets in the region are easy to reach. The island has built a name as a top international business and financial center, and the legal framework behind it is well regulated and transparent.
 
-## About Labuan
+The history goes back to the 19th century, when the Sultan of Brunei ceded Labuan to the British Crown. In World War II the island was a base for the Allied forces. In 1984 Labuan became a federal territory of Malaysia. Since then it turned into an international financial hub, mostly after the Labuan International Business and Financial Centre (Labuan IBFC) was set up in 1990.
 
-### General Overview
+So what do you get there? The tax is low. The corporate tax is 3% on audited net profits, or a flat MYR 20,000. And there is no withholding tax, no capital gains tax, no inheritance tax and no sales tax, which is very attractive for financial institutions.
 
-Labuan is a federal territory of Malaysia located off the coast of Borneo. It consists of one main island and six smaller ones. Labuan is strategically positioned in the heart of Asia, providing easy access to major financial markets across the region. The island has developed a reputation as a premier international business and financial center, supported by its well-regulated and transparent legal framework.
+The Labuan Financial Services Authority (Labuan FSA) gives you a clear and transparent framework that supports you. It keeps you compliant and still lets the business grow.
 
-### Historical Background
+The location is in Asia, with good connections to the key financial markets, so you reach regional and global markets easily.
 
-Labuan has a rich history dating back to the 19th century when it was ceded to the British Crown by the Sultan of Brunei. The island played a significant role during World War II as a base for Allied forces. In 1984, Labuan became a federal territory of Malaysia. Since then, it has been transformed into an international financial hub, particularly after the establishment of the Labuan International Business and Financial Centre (Labuan IBFC) in 1990.
+The infrastructure is well developed. Modern telecommunications, banking and professional services are all there, so the business can run efficiently.
 
-## Benefits of Incorporating in Labuan
+And as part of Malaysia, Labuan gets the political stability and the solid economic policies of the country.
 
-1. **Favorable Tax Regime**: Labuan offers a low corporate tax rate of 3% on audited net profits or a flat rate of MYR 20,000. Additionally, there are no withholding taxes, capital gains taxes, inheritance taxes, or sales taxes, making it highly attractive for financial institutions.
-1. **Regulatory Environment**: The Labuan Financial Services Authority (Labuan FSA) provides a clear, transparent, and supportive regulatory framework, ensuring compliance while fostering business growth.
-1. **Strategic Location**: Situated in Asia, Labuan provides excellent connectivity to key financial markets, facilitating easy access to regional and global markets.
-1. **Robust Infrastructure**: Labuan has a well-developed infrastructure, including modern telecommunications, banking, and professional services, supporting efficient business operations.
-1. **Political Stability**: As part of Malaysia, Labuan benefits from the country’s political stability and robust economic policies.
+Now the costs. To start, the government fees for incorporating a company in Labuan are low compared to other places. They go from MYR 1,000 to MYR 6,000, depending on the type of entity. Legal and professional fees can vary, but usually they are between MYR 10,000 and MYR 20,000 for setting up the company, with legal, accounting and advisory services included.
 
-## Expenses of Founding and Running an Investment Bank in Labuan
+Then the running costs. An investment bank must keep a minimum paid-up capital of RM 10 million or its equivalent. Office space in Labuan is fairly cheap to rent. You also have to meet the substantial activity requirements, and that includes an operational office on the island. Salaries for skilled people in Labuan are competitive, and hiring local talent can save money. And you have ongoing costs for compliance, reporting and audits, which depend on how complex and how big the business is.
 
-### Initial Setup Costs
+So Labuan is a real opportunity for an investment bank, with strategic advantages and low costs. With the right guidance and support you can use what Labuan offers to reach your business goals.
 
-- **Incorporation Fees**: The cost of incorporating a company in Labuan is relatively low compared to other jurisdictions, with government fees ranging from MYR 1,000 to MYR 6,000 depending on the type of entity.
-- **Legal and Professional Fees**: These can vary but typically range from MYR 10,000 to MYR 20,000 for company setup, including legal, accounting, and advisory services.
+So what can a Labuan investment bank actually do? In investment banking you can do underwriting and placement of securities, both equity and debt. You can do corporate advisory, like mergers and acquisitions, corporate restructuring and raising capital. And you can manage investment portfolios for clients.
 
-### Operational Costs
+In trading and brokerage you can buy and sell securities for clients. You can also do market making and proprietary trading, so trading for your own profit.
 
-- **Capital Requirements**: Investment banks must maintain a minimum paid-up capital of RM 10 million or its equivalent.
-- **Office Expenses**: The cost of renting office space in Labuan is relatively affordable. Companies must also comply with substantial activity requirements, including maintaining an operational office on the island.
-- **Staffing Costs**: Salaries for skilled professionals in Labuan are competitive, and hiring local talent can be cost-effective.
-- **Compliance and Reporting**: Ongoing costs for compliance, reporting, and audits must be considered, which vary based on the complexity and size of operations.
+In fund management you can run collective investment schemes, like mutual funds and other collective investment vehicles. You can also offer private banking, so asset management made for high-net-worth individuals.
 
-Labuan presents a compelling opportunity for establishing an investment bank, offering a combination of strategic advantages and cost efficiencies. With the right guidance and support, you can leverage Labuan’s unique benefits to achieve your business objectives.
+In financial advisory you can do corporate finance advisory on investment products, strategies and securities, and give expert guidance on investment options.
 
-## Permissible Activities for Labuan Investment Banks
+In treasury and risk management you can offer risk management services, including derivatives trading to manage financial risk. And treasury services like foreign exchange and money market instruments.
 
-### Investment Banking Activities
+And here is what a Labuan investment bank can't do. No retail banking. That means no savings or current accounts, no debit or credit cards and no personal loans or mortgages.
 
-- **Underwriting and Placement of Securities**: Involves equity and debt instruments.
-- **Corporate Advisory Services**: Including mergers and acquisitions, corporate restructuring, and capital raising.
-- **Investment Portfolio Management**: Managing investment portfolios for clients.
+No deposits from the general public. It can't take deposits from the public like a commercial bank does.
 
-### Trading and Brokerage
+No activities without the right license. Insurance underwriting or brokerage is not allowed without the insurance licenses. And there are limits on which clients you can work with. Usually the focus is on corporate and institutional clients and high-net-worth individuals, not retail clients.
 
-- **Buying and Selling Securities**: Conducting trades on behalf of clients.
-- **Market Making and Proprietary Trading**: Engaging in trading activities for profit.
+For compliance, you have to follow the AML/KYC rules, so anti-money laundering and know-your-customer. You report regularly to the Labuan Financial Services Authority (LFSA) and stick to their transparency standards.
 
-### Fund Management
+You keep a minimum paid-up capital of RM10 million or more, depending on your risk profile. You need an operational office in Labuan. You set up strong internal controls for compliance, corporate governance and risk management. Your board members and senior management have to be competent and experienced. You appoint internal and external auditors for the yearly audits. You get approval from Labuan FSA before big changes to the business. And every year you submit audited financial statements to LFSA.
 
-- **Collective Investment Schemes**: Managing mutual funds and other collective investment vehicles.
-- **Private Banking Services**: Offering tailored asset management services to high-net-worth individuals.
+On tax again, the corporate tax is 3%. There is no withholding tax on dividends, interest, royalties or service fees paid to non-residents. And you don't pay capital gains tax, inheritance tax or other indirect taxes like GST and sales tax.
 
-### Financial Advisory Services
+Then digital assets and DeFi. Buying digital assets, for example Bitcoin, is allowed under securities trading and investment management. DeFi investments are allowed if they fit the client's investment goals and risk profile.
 
-- **Corporate Finance Advisory**: Advising on investment products, strategies, and securities.
-- **Investment Products and Strategies**: Providing expert guidance on investment options.
+Staking is allowed as part of managing digital assets to get better returns. Collateralized loans are allowed as long as they follow the rules for credit facilities.
 
-### Treasury and Risk Management
+You can also be a custodian for digital assets, with strong internal controls and following the AML/KYC rules.
 
-- **Risk Management Services**: Including derivatives trading to manage financial risk.
-- **Treasury Services**: Offering services such as foreign exchange and money market instruments.
+And then tokenization of real world assets and securities. Tokenizing real world assets is allowed under securities trading and issuing financial products. Tokenizing securities is allowed as part of dealing in securities and listing financial instruments on exchanges.
 
-## Restrictions for Labuan Investment Banks
+For both you have to follow the Labuan FSA rules, the AML/KYC requirements and your internal controls. And for new financial products or services you may need approval from Labuan FSA first.
 
-### Retail Banking
+So a Labuan investment bank can do a lot of investment banking, like trading, fund management, corporate advisory and managing digital assets. But it can't do retail banking and it can't take deposits from the general public. Following the Labuan FSA rules and the AML/KYC requirements is a must.
 
-- **Savings or Current Accounts**: Not permitted to offer these services.
-- **Debit or Credit Cards**: Issuing these cards is prohibited.
-- **Personal Loans or Mortgages**: Not allowed to provide these services.
-
-### Deposits from General Public
-
-- **Accepting Deposits**: Not allowed to accept deposits from the general public like commercial banks.
-
-### Non-licensed Activities
-
-- **Insurance Underwriting or Brokerage**: Not allowed without the necessary insurance licenses.
-- **Non-eligible Clients**: Restrictions on engaging with certain types of clients, typically focusing on corporate, institutional, and high-net-worth individuals rather than retail clients.
-
-## Compliance and Operational Requirements
-
-### Regulatory Compliance
-
-- **AML/KYC Regulations**: Mandatory compliance with anti-money laundering and know-your-customer regulations.
-- **Reporting and Transparency**: Regular reporting to Labuan Financial Services Authority (LFSA) and adherence to transparency standards.
-
-### Capital and Operational Requirements
-
-- **Capital Adequacy**: Maintain a minimum paid-up capital of RM10 million or more, depending on risk profile.
-- **Physical Presence**: Must have an operational office in Labuan.
-- **Internal Policies**: Implement robust internal controls for compliance, corporate governance, and risk management.
-- **Board and Management**: Ensure competent and experienced board members and senior management.
-- **Auditing**: Appoint internal and external auditors for annual audits.
-- **Regulatory Approvals**: Obtain approval from Labuan FSA for significant business changes.
-- **Reporting**: Submit audited financial statements annually to LFSA.
-
-## Tax Benefits
-
-### Taxation
-
-- **Corporate Tax**: Benefit from a low corporate tax rate of 3%.
-- **No Withholding Taxes**: Exempt from withholding tax on dividends, interest, royalties, or service fees paid to non-residents.
-- **Other Exemptions**: Exempt from capital gains tax, inheritance tax, and other indirect taxes such as GST and sales tax.
-
-## Activities Related to Digital Assets and DeFi Investments
-
-### Permissible Activities
-
-### Digital Assets
-
-- **Buying Digital Assets (e.g., Bitcoin)**: Allowed under securities trading and investment management.
-- **DeFi Investments**: Permitted if aligned with clients’ investment objectives and risk profiles.
-
-### Staking and Collateralized Loans
-
-- **Staking**: Allowed as part of managing digital assets to optimize returns.
-- **Collateralized Loans**: Permitted provided they adhere to credit facility provisions.
-
-### Custodianship
-
-- **Custodian for Digital Assets**: Permissible with robust internal controls and compliance with AML/KYC regulations.
-
-## Tokenization of Real World Assets and Securities
-
-### Tokenization Activities
-
-- **Real World Assets**: Permissible under securities trading and financial product issuance.
-- **Securities**: Allowed as part of dealing in securities and listing financial instruments on exchanges.
-
-### Conditions and Compliance
-
-- **Regulatory Compliance**: Must comply with Labuan FSA regulations, AML/KYC requirements, and internal controls.
-- **Approvals**: May require prior approval from Labuan FSA for new financial products or services.
-
-## Summary
-
-Labuan Investment Banks can engage in a wide range of investment banking activities, including trading, fund management, corporate advisory, and digital asset management. However, they cannot engage in retail banking or accept deposits from the general public. Compliance with Labuan FSA regulations and AML/KYC requirements is essential.
-
-For more detailed information, refer to the [Labuan IBFC page](https://www.labuanibfc.com/sectors-offerings/banking/labuan-investment-banking).
+For more details, check the [Labuan IBFC page](https://www.labuanibfc.com/sectors-offerings/banking/labuan-investment-banking).

@@ -10,6 +10,8 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 source: "emino.app"
 third_party_summary: false
 cover: "../../../media/iceland/cover.webp"

@@ -1,6 +1,6 @@
 ---
-title: "What We Built (Nostr DM in Nuri)"
-description: "What We Built (Nostr DM in Nuri) This is a lightweight, encrypted, relay-based 1:1 chat that lives inside your app and uses the user’s existing wallet key..."
+title: "What we built, Nostr DM in Nuri"
+description: "We built a small encrypted 1:1 chat into Nuri. It runs over Nostr relays and gets its identity from the wallet key you already have."
 date: "2026-01-15T19:40:01Z"
 updated: "2026-01-15T19:40:01Z"
 lang: "en"
@@ -17,151 +17,50 @@ voice_check:
   em_dash: 2
   unobserved: 101
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/what-we-built-nostr-dm-in-nuri/"
 ---
 ![](../../../media/what-we-built-nostr-dm-in-nuri/cover.jpg)
 
-What We Built (Nostr DM in Nuri)
-  This is a lightweight, encrypted, relay-based 1:1 chat that lives
-inside your app and uses the user’s existing wallet key material to
-derive a Nostr identity. It’s wired into screens/BitcoinDebugModal.tsx
-and
-  exposed through components/NostrChatModal.tsx, with the support
-contact hard‑coded to
-npub1r7y83c4w57jc8skud7e4m6x9qt9g7s6zel6mnvj64lh00lc7tynsdx89vj.
+We built a small 1:1 chat into Nuri. It's encrypted, it runs over Nostr relays, and it lives inside the app. The Nostr identity is derived from the key material of the wallet the user already has. It's wired into screens/BitcoinDebugModal.tsx and the chat itself is in components/NostrChatModal.tsx. The support contact is hard-coded to npub1r7y83c4w57jc8skud7e4m6x9qt9g7s6zel6mnvj64lh00lc7tynsdx89vj.
 
-  Identity & Key Management
-  We derive a deterministic Nostr keypair from the device’s Bitcoin
-private key (fallback to Ethereum key, then random if neither exists).
-The Nostr private key is stored in secure storage and can be wiped on
-factory
-  reset.
+## Keys from the wallet
 
-  - Derivation: HKDF-SHA256 over sha256(btcKey) with a constant
-salt/info, then validation retry loop; implemented in
-lib/nostr/nostr.ts.
-  - Storage: Nostr key is stored in Keychain with biometrics, via
-lib/secureKeyStorage.ts (NOSTR_KEY_ID).
-  - Determinism: same Bitcoin key -> same Nostr npub; factory reset
-wipes local key, so a new wallet key yields a new npub.
-  - The app exposes your npub suffix in the input row (tap to copy
-full npub) in components/NostrChatModal.tsx.
+We derive a deterministic Nostr keypair from the Bitcoin private key on the device. If there is no Bitcoin key we fall back to the Ethereum key, and if neither exists we just take a random one. The Nostr private key sits in secure storage and gets wiped on factory reset.
 
-  End‑to‑End Encryption (NIP‑17 + NIP‑44)
-  We use NIP‑17 “gift wrap” with NIP‑44 v2 encryption
-(XChaCha20‑Poly1305). Relays only see encrypted blobs; only the
-recipient’s private key can decrypt.
+The derivation is HKDF-SHA256 over sha256(btcKey) with a constant salt and info, plus a retry loop that checks the key is valid. That code is in lib/nostr/nostr.ts. The key is stored in the Keychain with biometrics, through lib/secureKeyStorage.ts (NOSTR_KEY_ID).
 
-  Encryption flow is implemented in lib/nostr/nostr.ts:
+So the same Bitcoin key always gives you the same Nostr npub. A factory reset wipes the local key, and a new wallet key then gives you a new npub. In the input row of components/NostrChatModal.tsx you see the end of your own npub, and you tap it to copy the full npub.
 
-  - Create a “rumor” (kind 14) with the plaintext message and sender pubkey.
-  - Encrypt the rumor to the recipient using a random “seal” key
-(NIP‑44), sign it as kind 13.
-  - Encrypt the seal to the recipient using a random “wrap” key
-(NIP‑44), sign it as kind 1059 (gift wrap), tag ["p",
-recipientPubkey].
-  - The outer gift‑wrap (kind 1059) is published to relays; only the
-recipient can decrypt it.
+## Encryption
 
-  NIP‑44 details (also in lib/crypto.ts):
+We use NIP-17 gift wrap with NIP-44 v2 encryption, which is XChaCha20-Poly1305. The relays only ever see encrypted blobs, and only the private key of the recipient can open them.
 
-  - ECDH shared secret is computed from secp256k1 keys.
-  - We derive the NIP‑44 key as HKDF(SHA256(x-only-shared-secret),
-info="nip44-v2").
-  - Payload encryption is XChaCha20‑Poly1305 with a 24‑byte random nonce.
+The flow is in lib/nostr/nostr.ts. First we create a rumor (kind 14) with the plain message and the sender pubkey. Then we encrypt the rumor to the recipient with a random seal key (NIP-44) and sign it as kind 13. Then we encrypt that seal to the recipient with a random wrap key (NIP-44), sign it as kind 1059, the gift wrap, and tag it ["p", recipientPubkey]. That outer gift wrap (kind 1059) is what goes to the relays, and only the recipient can decrypt it.
 
-  Important security note
-  Right now the sender’s long‑term secret is not used to sign the
-rumor. That means the content is confidential (E2E), but sender
-identity is not cryptographically authenticated — any sender could
-spoof the pubkey
-  inside the rumor. If you want authenticated sender identity, we
-should sign the rumor (or switch to a NIP‑44 DM flow that includes
-authentication). This is the one notable integrity gap today in
-lib/nostr/nostr.ts.
+The NIP-44 part is also in lib/crypto.ts. The ECDH shared secret comes from the secp256k1 keys. We derive the NIP-44 key as HKDF(SHA256(x-only-shared-secret), info="nip44-v2"). And the payload is encrypted with XChaCha20-Poly1305 and a random 24-byte nonce.
 
-  Send Path (Client -> Relay)
-  Handled in components/NostrChatModal.tsx.
+Right now the long-term secret of the sender is not used to sign the rumor. So the content is confidential end to end, but the sender identity is not proven with cryptography. Anyone could put a fake pubkey inside the rumor. If we want an authenticated sender, we should sign the rumor, or switch to a NIP-44 DM flow that has authentication built in. This is the one real integrity gap today in lib/nostr/nostr.ts.
 
-  - Validate recipient pubkey; block self‑chat.
-  - Create gift wrap with createNip17GiftWrap, then send ["EVENT",
-giftwrap] over all open relay WebSockets.
-  - Log: sender, recipient, event id, message length, and relay
-acknowledgements.
-  - UI immediately appends the outgoing message to local state.
+Sending happens in components/NostrChatModal.tsx. We check the recipient pubkey and block chatting with yourself. Then we build the gift wrap with createNip17GiftWrap and send ["EVENT", giftwrap] over every open relay WebSocket. We log the sender, the recipient, the event id, the message length and what the relays acknowledge. The UI adds the outgoing message to local state right away.
 
-  Receive Path (Relay -> Client)
-  Also in components/NostrChatModal.tsx.
+Receiving is also in components/NostrChatModal.tsx. We subscribe to kind 1059 with a #p tag equal to our pubkey. We drop duplicates by event id and decrypt with openNip17GiftWrap. Then we take the rumor content and the sender pubkey and show it as an incoming message. The sender is added to the local contacts on its own.
 
-  - Subscribe to kind 1059 with a #p tag equal to our pubkey.
-  - Deduplicate by event id and decrypt via openNip17GiftWrap.
-  - Extract rumor content + sender pubkey, then display as an incoming message.
-  - Auto‑add sender to local contacts.
+We also added a light catch-up flow that pulls in the messages you missed while you were away. We keep a last_seen timestamp per pubkey in the Keychain, with NOSTR_LAST_SEEN_CACHE_KEY in lib/nostr/storage.ts. On every relay subscription we add since = last_seen - 60s to the filter, so recent messages get filled in. That lives in components/NostrChatModal.tsx, and services/factoryReset.ts wipes the cache on factory reset.
 
-  Catch‑Up Behavior (Missed Messages)
-  We added a light “catch‑up” flow that pulls missed messages after reconnect.
+By default we use a small set of public relays, so we don't need any infra right now. The defaults are wss://relay.damus.io, wss://relay.primal.net and wss://nostr21.com. The WebSocket connections open when the chat modal opens and close when it closes. If the app is closed or offline, real-time delivery stops, and catch-up works as long as the relays still have the message.
 
-  - We store a last_seen timestamp per pubkey in Keychain using
-NOSTR_LAST_SEEN_CACHE_KEY in lib/nostr/storage.ts.
-  - On each relay subscription, we add since = last_seen - 60s to the
-filter to backfill recent messages.
-  - This is implemented in components/NostrChatModal.tsx, and the
-cache is wiped on factory reset in services/factoryReset.ts.
+The UI is minimal and fits the design of the app. The chat list shows Private Support, Group Support (disabled) and your contacts, with the last message and the date and time below. The title of an open chat is the last 5 characters of the recipient npub, with a copy icon. The back link is just text, "< back", and underlined so it's clear. The composer is a one-line input with the send icon inside, and you can also send with the Send key on the keyboard. We took out the You label. Only your own suffix is shown, and you tap it to copy. All of this is in components/NostrChatModal.tsx.
 
-  Relay Connectivity
-  We use a small set of public relays by default (no infra needed right now).
+Support is hard-coded and every user who is not support sees it. The support npub is set in screens/BitcoinDebugModal.tsx. If your npub is the support npub, the support chat is hidden and chatting with yourself is blocked.
 
-  - Default relays: wss://relay.damus.io, wss://relay.primal.net,
-wss://nostr21.com.
-  - WebSocket connections are created while the chat modal is open and
-closed when it closes.
-  - If the app is closed/offline, real‑time delivery pauses; catch‑up
-works if the relays still have the message.
+We keep only what we need. The contacts cache is @cache:nostr_contacts in the Keychain, and the last-seen cache is @cache:nostr_last_seen, also in the Keychain. Messages are only in memory, so they are gone when you close the modal or restart the app. A factory reset clears all of that plus the Nostr private key (see services/factoryReset.ts).
 
-  Chat UX + Contact List
-  The UI is minimal and built to fit the app’s design language.
+## What end to end means here
 
-  - Chat list shows: Private Support, Group Support (disabled), and
-dynamic contacts; last message + date/time appear in subtitle.
-  - Active chat title is last 5 chars of recipient npub, with a copy icon.
-  - Back link is text (“< back”) and underlined for clarity.
-  - Composer is one‑line input with a send icon inside; send can also
-use keyboard “Send”.
-  - “You” label removed; only your own suffix is shown and tappable to copy.
+The content is confidential. Relays never see plain text and only the recipient with the private key can decrypt. There is also forward secrecy, because every message uses fresh seal and wrap keys. What we don't have yet is authentication. The sender identity can be faked because the rumor isn't signed.
 
-  All of this lives in components/NostrChatModal.tsx.
+There is no infra needed today. If you want it more reliable, run your own relay and add it to the list. There are no push notifications, so catch-up happens when you open the chat. And delivery depends on how long the relays keep messages, because some relays drop DMs.
 
-  Support Logic
-  Support is hard‑coded and shown to all non‑support users.
-
-  - Support npub configured in screens/BitcoinDebugModal.tsx.
-  - If the user’s npub matches support, the support chat is hidden and
-self‑chat is blocked.
-
-  Storage & Reset
-  We persist only what we need.
-
-  - Contacts cache: @cache:nostr_contacts in Keychain.
-  - Last‑seen cache: @cache:nostr_last_seen in Keychain.
-  - Messages are in memory only; they do not persist across modal
-closes or app restarts.
-  - Factory reset clears all of the above + Nostr private key (see
-services/factoryReset.ts).
-
-  What “End‑to‑End Encrypted” Means Here
-
-  - Confidentiality: Relays never see plaintext; only the recipient
-with the private key can decrypt.
-  - Forward secrecy: Each message uses fresh seal/wrap keys.
-  - Authentication: Not yet guaranteed — sender identity can be
-spoofed because the rumor isn’t signed.
-
-  Operational Notes
-
-  - No infra required today. If you want stronger reliability, run
-your own relay and add it to the list.
-  - No push notifications; catch‑up works when the chat opens.
-  - Delivery depends on relay retention; some relays drop DMs.
-
-  If you want me to add sender authentication (signed rumor) or
-background delivery, I can outline the minimal changes.
+The next things would be sender authentication with a signed rumor, and delivery in the background. Both need only small changes, and we can lay them out.

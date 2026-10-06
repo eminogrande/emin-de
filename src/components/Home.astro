@@ -1,8 +1,8 @@
 ---
-// The magazine front page for one language: hero, lead story, 3-column image
-// grid, theme rows, a compact "More" list.
+// The front page for one language, in the article's rhythm: a big display
+// hero, the lead story with its cover, then Solarized bands (latest, one per
+// theme, more) with clean lists and big titles.
 import Story from './Story.astro';
-import Portrait from './Portrait.astro';
 import config from '../../site.config.mjs';
 import { postsIn } from '../lib/corpus.mjs';
 import { homeSections, longDate } from '../lib/magazine.mjs';
@@ -13,37 +13,44 @@ const list = postsIn(lang);
 const { lead, grid, themes, more } = homeSections(list, lang);
 const pub = config.publisher;
 ---
-<div class="wrap">
-	<section class="hero" aria-labelledby="hero-title">
-		<div>
-			<p class="kicker">{label(pub.role, lang)}</p>
-			<h1 id="hero-title">{label(config.hero, lang)}</h1>
-			<p class="lede">{de ? `Ich bin ${pub.name}, Herausgeber von ${pub.publication.name} und Gründer in Berlin und Sansibar. Hier schreibe ich lang und frei über das, was ich baue und denke.` : `I'm ${pub.name}, publisher of ${pub.publication.name} and a founder in Berlin and Zanzibar. This is where I write at length, and freely, about what I build and think.`} <a href={de ? '/about' : '/about'}>{de ? 'Mehr über mich' : 'More about me'}</a>.</p>
-		</div>
-		<Portrait name={pub.name} eager={false} />
+<header class="home-hero">
+	<div class="container home-hero__inner">
+		<p class="eyebrow">{pub.name} · {label(pub.role, lang)}</p>
+		<h1 id="hero-title" class="display home-hero__title">{label(config.hero, lang)}</h1>
+		<p class="home-hero__lede">{de ? `Ich bin ${pub.name}, Herausgeber von ${pub.publication.name} und Gründer in Berlin und Sansibar. Hier schreibe ich lang und frei über das, was ich baue und denke.` : `I'm ${pub.name}, publisher of ${pub.publication.name} and a founder in Berlin and Zanzibar. This is where I write at length, and freely, about what I build and think.`} <a href="/about">{de ? 'Mehr über mich' : 'More about me'}</a>.</p>
+	</div>
+</header>
+
+{lead && (
+	<section class="band band--alt" aria-label={de ? 'Titelgeschichte' : 'Lead story'}>
+		<div class="container"><Story post={lead} variant="lead" eager level={2} /></div>
 	</section>
+)}
 
-	{lead && <Story post={lead} variant="lead" eager level={2} />}
+{grid.length > 0 && (
+	<section class="band" aria-labelledby="latest">
+		<div class="container">
+			<div class="band-head"><h2 id="latest">{de ? 'Neu' : 'Latest'}</h2><a href={postsIndexPath(lang)}>{de ? 'Alle Beiträge' : 'All posts'}</a></div>
+			<ul class="rows">{grid.map((post) => <Story post={post} variant="row" />)}</ul>
+		</div>
+	</section>
+)}
 
-	{grid.length > 0 && (
-		<section aria-labelledby="latest">
-			<div class="section-head"><h2 id="latest">{de ? 'Neu' : 'Latest'}</h2><a href={postsIndexPath(lang)}>{de ? 'Alle Beiträge' : 'All posts'}</a></div>
-			<ul class="grid3">{grid.map((post) => <Story post={post} />)}</ul>
-		</section>
-	)}
-
-	{themes.map((theme) => (
-		<section aria-labelledby={`t-${theme.id}`}>
-			<div class="section-head"><h2 id={`t-${theme.id}`}>{theme.title}</h2><a href={categoryPath(lang, theme.categories[0])}>{de ? 'Mehr' : 'More'}<span class="sr"> {theme.title}</span></a></div>
+{themes.map((theme, i) => (
+	<section class:list={['band', { 'band--alt': i % 2 === 0 }]} aria-labelledby={`t-${theme.id}`}>
+		<div class="container">
+			<div class="band-head"><h2 id={`t-${theme.id}`}>{theme.title}</h2><a href={categoryPath(lang, theme.categories[0])}>{de ? 'Mehr' : 'More'}<span class="sr"> {theme.title}</span></a></div>
 			<ul class="rows">{theme.posts.map((post) => <Story post={post} variant="row" />)}</ul>
-		</section>
-	))}
+		</div>
+	</section>
+))}
 
-	{more.length > 0 && (
-		<section aria-labelledby="more">
-			<div class="section-head"><h2 id="more">{de ? 'Weitere' : 'More'}</h2><a href={archivePath(lang)}>{de ? 'Archiv' : 'Archive'}</a></div>
+{more.length > 0 && (
+	<section class:list={['band', { 'band--alt': themes.length % 2 === 0 }]} aria-labelledby="more">
+		<div class="container">
+			<div class="band-head"><h2 id="more">{de ? 'Weitere' : 'More'}</h2><a href={archivePath(lang)}>{de ? 'Archiv' : 'Archive'}</a></div>
 			<ul class="more">{more.map((post) => <li><a href={post.path}>{post.title}</a><span class="meta"><time datetime={post.date}>{longDate(lang, post.date)}</time></span></li>)}</ul>
 			<a class="all-link" href={postsIndexPath(lang)}>{de ? `Alle ${list.length} Beiträge` : `All ${list.length} posts`} →</a>
-		</section>
-	)}
-</div>
+		</div>
+	</section>
+)}

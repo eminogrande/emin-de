@@ -1,6 +1,6 @@
 ---
 title: "Predictive History, A Bullshit-Fact-Check by Venice"
-description: "I stumbled upon this Channel on YouTube the other day. Quite impossible to miss. A professor explaining what could have let to todays war between Israel and..."
+description: "A professor on YouTube predicted a lot of today's Israel and Iran war a year ago. I asked Venice to check his claims point by point."
 date: "2025-06-24T07:11:13.185Z"
 updated: "2025-06-24T07:11:13.185Z"
 lang: "en"
@@ -17,8 +17,12 @@ voice_check:
   em_dash: 1
   unobserved: 371
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/predictive-history-a-bullshit-fact-check-by-venice-4d5165d9c962"
 ---
+A summary of the video "Geo-Strategy #8: The Iran Trap" from the YouTube channel Predictive History, with a fact check written by Venice, an AI.
+
 ![](../../../media/predictive-history-a-bullshit-fact-check-by-venice/01-9f4a45d1.png)
 *[https://www.youtube.com/@PredictiveHistory/videos](https://www.youtube.com/@PredictiveHistory/videos)*
 
@@ -32,73 +36,62 @@ His [YouTube Channel Predictive History](https://www.youtube.com/@PredictiveHist
 
 In his Foundation series, Isaac Asimov proposed that the science of “psycho-history” will help humanity understand its past, predict its future, and control its present. This channel is dedicated to exploring if “psycho-history” is indeed possible.
 
-This channel seeks to answer the following three questions: 
-1. What models, theories, and paradigms help us best understand world history? 
-2. What does history teach us about our current predicament? 
+This channel seeks to answer the following three questions.
+
+1. What models, theories, and paradigms help us best understand world history?
+2. What does history teach us about our current predicament?
 3. How much of the future can be predicted?
 
-### Here are the main points discussed in the video: Geo-Strategy #8: The Iran Trap
+The video is about a possible war between the United States and Iran. The speaker sees three big forces pushing toward it. The Israel Lobby, made of Jewish and Christian interests, America's "addiction to Empire" with the money behind it like Wall Street, and Saudi Arabia's existential fear of Iran. [[00:10](http://www.youtube.com/watch?v=7y_hbz6loEo&t=10), [02:09](http://www.youtube.com/watch?v=7y_hbz6loEo&t=129)]
 
-- The video discusses the potential for a war between the United States and Iran, highlighting three major forces pushing towards this conflict: the Israel Lobby (composed of Jewish and Christian interests), America’s “addiction to Empire” and its associated financial interests like Wall Street, and Saudi Arabia’s existential concerns regarding Iran. [[00:10](http://www.youtube.com/watch?v=7y_hbz6loEo&t=10), [02:09](http://www.youtube.com/watch?v=7y_hbz6loEo&t=129)]
-- Donald Trump is presented as a central figure, potentially influenced by these forces, particularly through his son-in-law Jared Kushner, who has close ties with leaders in both Israel and Saudi Arabia. [[02:54](http://www.youtube.com/watch?v=7y_hbz6loEo&t=174), [04:05](http://www.youtube.com/watch?v=7y_hbz6loEo&t=245)]
-- The speaker suggests that if Trump wins the next election and picks Nikki Haley as his VP, she would be a key advocate for war against Iran within the White House. [[04:30](http://www.youtube.com/watch?v=7y_hbz6loEo&t=270)]
-- Evidence from Trump’s first term, such as withdrawing from the Iran nuclear deal, moving the US embassy to Jerusalem, ignoring the killing of a journalist by MBS, sponsoring the Abraham Accords, and assassinating General Soleimani, are cited as indicators of his administration’s stance towards Iran. [[05:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=306), [06:04](http://www.youtube.com/watch?v=7y_hbz6loEo&t=364)]
-- The US military’s doctrine has shifted from traditional warfare principles (mass forces, avoid encirclement, protect supply lines) which required public consent, to a “shock and awe” approach that relies on air supremacy, technological omniscience, and special forces, leading to a sense of “hubris.” [[07:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=426), [08:25](http://www.youtube.com/watch?v=7y_hbz6loEo&t=505)]
-- The recent inability of the US military to effectively counter Houthi attacks in the Red Sea is presented as evidence that the “shock and awe” doctrine has limitations and that the military might be overconfident. [[08:50](http://www.youtube.com/watch?v=7y_hbz6loEo&t=530), [10:31](http://www.youtube.com/watch?v=7y_hbz6loEo&t=631)]
-- The Iranian Revolutionary Guard Corps is also depicted as wanting war with the US due to past grievances, including US support for the Shah’s regime, protection of Israel and Saudi Arabia, and the killing of General Soleimani. [[11:16](http://www.youtube.com/watch?v=7y_hbz6loEo&t=676), [11:52](http://www.youtube.com/watch?v=7y_hbz6loEo&t=712)]
-- A hypothetical scenario of a US-led invasion of Iran (“Operation Iranian Freedom”) in March 2027 is outlined, along with the justifications Trump might provide, such as internal protests in Iran, Iran nearing nuclear capability, disruption of global shipping, attacks on allies, and Iranian sponsorship of terrorism. [[13:51](http://www.youtube.com/watch?v=7y_hbz6loEo&t=831), [17:44](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1064)]
-- Despite initial appearances of US military dominance in this hypothetical invasion, the speaker argues Iran would ultimately “win” because the US forces would violate traditional military doctrines: they would be encircled in Iran’s mountainous terrain, lack sufficient massed forces to conquer the country, and crucially, be unable to maintain supply lines. [[22:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1326), [24:55](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1495)]
-- The speaker believes the Iranian people would not support a US invasion due to historical animosity towards American interference, the negative example of the US intervention in Iraq, and a strong sense of national pride and religious conviction. [[26:50](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1610), [28:53](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1733)]
-- Historical parallels are drawn to support the argument of a potential US military trap:
-- The Athenian invasion of Sicily (415 BC), where a large expeditionary force was lost due to resupply issues and hubris. [[34:09](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2049), [39:02](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2342)]
-- The Vietnam War, where the US military became bogged down, knew the war was unwinnable but stayed due to “credibility” and the sunk cost fallacy. [[39:37](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2377), [43:43](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2623)]
-- The Russia-Ukraine War, highlighting Ukrainian mistakes like refusing to cede territory initially and launching costly counter-offensives, influenced by leadership focused on public image (Zelenskyy) and extremist elements, with potential for NATO escalation. [[45:34](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2734), [52:18](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3138)]
-- Game theory analysis suggests that while the US wants to topple the Iranian regime, Iran wants to draw the US into an unwinnable invasion. Israel and Saudi Arabia might see an outcome where both the US and Iran are weakened as beneficial, leaving them as dominant regional powers. [[54:27](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3267), [57:51](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3471)]
-- The video concludes by posing the question of how Iran would counter a US nuclear threat if US troops were trapped. The suggested answer is a pre-war agreement with Russia, where Putin would declare that no nuclear weapons are to be used by any party, thus neutralizing the US nuclear advantage and trapping the US in a conventional war it cannot win due to lack of manufacturing capacity for resupply. [[59:22](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3562), [01:03:12](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3792)]
+Donald Trump is at the center, and he could be pushed by these forces, mostly through his son-in-law Jared Kushner, who is close to leaders in both Israel and Saudi Arabia. [[02:54](http://www.youtube.com/watch?v=7y_hbz6loEo&t=174), [04:05](http://www.youtube.com/watch?v=7y_hbz6loEo&t=245)] If Trump wins the next election and picks Nikki Haley as his VP, the speaker thinks she would be a key voice for war against Iran inside the White House. [[04:30](http://www.youtube.com/watch?v=7y_hbz6loEo&t=270)]
+
+As evidence he points to Trump's first term. He pulled out of the Iran nuclear deal, moved the US embassy to Jerusalem, ignored the killing of a journalist by MBS, sponsored the Abraham Accords and killed General Soleimani. [[05:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=306), [06:04](http://www.youtube.com/watch?v=7y_hbz6loEo&t=364)]
+
+Then the military side. US doctrine used to follow old rules of war, mass your forces, avoid encirclement and protect your supply lines, and that kind of war needed the public to agree. Now it is "shock and awe", which relies on air supremacy, knowing everything through technology and special forces, and the speaker calls that "hubris". [[07:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=426), [08:25](http://www.youtube.com/watch?v=7y_hbz6loEo&t=505)] As proof he uses the Red Sea, where the US military could not really stop the Houthi attacks, so "shock and awe" has limits and the military might be overconfident. [[08:50](http://www.youtube.com/watch?v=7y_hbz6loEo&t=530), [10:31](http://www.youtube.com/watch?v=7y_hbz6loEo&t=631)]
+
+The Iranian Revolutionary Guard Corps also wants war with the US in his view, because of old grievances. The US backed the Shah, protects Israel and Saudi Arabia, and killed General Soleimani. [[11:16](http://www.youtube.com/watch?v=7y_hbz6loEo&t=676), [11:52](http://www.youtube.com/watch?v=7y_hbz6loEo&t=712)]
+
+He then plays through a made up scenario, a US-led invasion of Iran called "Operation Iranian Freedom" in March 2027, with the reasons Trump might give. Protests inside Iran, Iran getting close to a nuclear weapon, disrupted global shipping, attacks on allies and Iran sponsoring terrorism. [[13:51](http://www.youtube.com/watch?v=7y_hbz6loEo&t=831), [17:44](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1064)] At first the US would look dominant, but he argues Iran would "win" in the end, because the US would break the old rules. The troops would get encircled in Iran's mountains, they would not have enough mass to conquer the country, and above all they could not keep their supply lines going. [[22:06](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1326), [24:55](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1495)] And the Iranian people would not back an invasion, because of their long anger about American meddling, the bad example of Iraq, and a strong national pride and faith. [[26:50](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1610), [28:53](http://www.youtube.com/watch?v=7y_hbz6loEo&t=1733)]
+
+He backs the trap idea with history. The Athenian invasion of Sicily (415 BC), where a big expedition was lost because of resupply problems and hubris. [[34:09](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2049), [39:02](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2342)] The Vietnam War, where the US got stuck, knew it could not win, and stayed anyway because of "credibility" and the sunk cost fallacy. [[39:37](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2377), [43:43](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2623)] And the Russia-Ukraine War, where he sees Ukrainian mistakes like refusing to give up territory early and running costly counter-offensives, driven by a leadership focused on its public image (Zelenskyy) and by extremist elements, with a chance of NATO escalation. [[45:34](http://www.youtube.com/watch?v=7y_hbz6loEo&t=2734), [52:18](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3138)]
+
+With game theory he says the US wants to topple the Iranian regime and Iran wants to pull the US into an invasion it can't win. Israel and Saudi Arabia might like an outcome where both the US and Iran end up weaker, because then they are the strongest powers in the region. [[54:27](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3267), [57:51](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3471)]
+
+At the end he asks how Iran would deal with a US nuclear threat once US troops are trapped. His answer is a deal with Russia before the war, where Putin says no party may use nuclear weapons. That takes away the US nuclear advantage and leaves the US stuck in a normal war it can't win, because it lacks the factories to resupply. [[59:22](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3562), [01:03:12](http://www.youtube.com/watch?v=7y_hbz6loEo&t=3792)]
 
 As its sometimes hard to 100% verify what people on YouTube say, and sometimes they just sound right, I enjoy making my “Bullshit”-check via a trusted LLM.
 
-Give me a sorrow bullshit check of information and facts presented in the following bullet points, you can be critical, you can also confirm, and provide sources, the answer should be point by point “bullshit check” so i can give it a rating “how true it is”. Thank you:
+Give me a sorrow bullshit check of information and facts presented in the following bullet points, you can be critical, you can also confirm, and provide sources, the answer should be point by point “bullshit check” so i can give it a rating “how true it is”. Thank you
 
-1. **Claim: Israel Lobby pushing US-Iran war** 
-*Bullshit rating: 6/10*. The Israel Lobby’s influence on U.S. Middle East policy is well-documented (e.g., lobbying groups like AIPAC), but its role in a hypothetical Iran conflict is speculative. Sources like John Mearsheimer and Stephen Walt’s *The Israel Lobby* argue pro-Israel advocacy shapes U.S. actions, though direct causation to war with Iran lacks concrete evidence. Christian interests are less central in this context.
+This is what Venice answered, a bit shortened in the wording but with every rating and source.
 
-2.** Claim: Trump influenced by Kushner via Israel/Saudi ties** 
-*Bullshit rating: 7/10*. Kushner’s role in Middle East diplomacy (e.g., Abraham Accords) is factual, but asserting he *directly influences* Trump on Iran policy oversimplifies. Trump’s decisions (e.g., Soleimani strike) were driven by broader geopolitical goals, not solely Kushner’s connections.
+Point 1. The Israel Lobby pushes a US-Iran war. Bullshit rating 6/10. The Israel Lobby's influence on U.S. Middle East policy is well documented (e.g., lobbying groups like AIPAC), but its role in a hypothetical Iran conflict is speculation. John Mearsheimer and Stephen Walt argue in *The Israel Lobby* that pro-Israel advocacy shapes U.S. actions, but there is no concrete evidence of a direct link to war with Iran. Christian interests matter less here.
 
-3. **Claim: Nikki Haley as war hawk VP** 
-*Bullshit rating: 5/10*. Haley has advocated for hardline policies toward Iran (e.g., sanctions, military deterrence), but her hypothetical role as a “key advocate” for invasion under Trump is conjecture. No public record confirms she supports unilateral war.
+Point 2. Kushner influences Trump through his Israel and Saudi ties. Bullshit rating 7/10. Kushner's role in Middle East diplomacy (e.g., Abraham Accords) is a fact, but saying he *directly influences* Trump on Iran is too simple. Trump's decisions (e.g., Soleimani strike) came from bigger geopolitical goals, not only from Kushner's connections.
 
-4. **Claim: Trump’s actions as evidence (JCPOA withdrawal, Soleimani assassination)** 
-*Bullshit rating: 9/10*. These events are historically accurate. Trump withdrew from the Iran nuclear deal (2018), moved the embassy to Jerusalem (2017), downplayed Saudi responsibility for Jamal Khashoggi’s murder, and ordered Soleimani’s killing (2020).
+Point 3. Nikki Haley as a war hawk VP. Bullshit rating 5/10. Haley has pushed hard line policies toward Iran (e.g., sanctions, military deterrence), but her role as a "key advocate" for invasion under Trump is a guess. No public record shows she supports going to war alone.
 
-5. **Claim: Shift to “shock and awe” doctrine** 
-*Bullshit rating: 7/10*. The U.S. military has increasingly relied on air power and special forces since the 1991 Gulf War, but traditional doctrines (e.g., mass, logistics) remain critical in large-scale conflicts. The idea of abandoning them entirely is an overstatement.
+Point 4. Trump's actions as evidence (JCPOA withdrawal, Soleimani assassination). Bullshit rating 9/10. These events are historically accurate. Trump withdrew from the Iran nuclear deal (2018), moved the embassy to Jerusalem (2017), downplayed Saudi responsibility for Jamal Khashoggi's murder, and ordered Soleimani's killing (2020).
 
-6. **Claim: Red Sea Houthi attacks undermine “shock and awe”** 
-*Bullshit rating: 6/10*. The Houthis have exploited U.S. military’s focus on cost-effectiveness and aversion to casualties, but the U.S. and allies have successfully countered many attacks. The narrative conflates limited tactical challenges with strategic failure.
+Point 5. The shift to "shock and awe". Bullshit rating 7/10. The U.S. military has relied more and more on air power and special forces since the 1991 Gulf War, but the old doctrines (e.g., mass, logistics) still matter a lot in large wars. Saying they were dropped completely is an overstatement.
 
-7. **Claim: IRGC seeks war due to historical grievances** 
-*Bullshit rating: 8/10*. The IRGC’s hostility toward the U.S. (post-Shah, post-Soleimani killing) is credible. However, framing them as monolithic “war advocates” ignores internal Iranian politics and their primary focus on regime survival.
+Point 6. Houthi attacks in the Red Sea undermine "shock and awe". Bullshit rating 6/10. The Houthis have used the U.S. military's focus on cost and its fear of casualties, but the U.S. and its allies have stopped many attacks. The story mixes up limited tactical problems with strategic failure.
 
-8. **Hypothetical 2027 invasion justifications** 
-*Bullshit rating: 3/10*. Speculative scenarios (Iranian protests, nuclear capability, shipping disruption) mirror pretexts used in past conflicts (e.g., Iraq War), but no concrete evidence supports planning for such an operation. Pure conjecture.
+Point 7. The IRGC wants war because of old grievances. Bullshit rating 8/10. The IRGC's hostility toward the U.S. (post-Shah, post-Soleimani killing) is credible. But painting them as one block of "war advocates" ignores internal Iranian politics and that their main goal is regime survival.
 
-9. **Claim: U.S. would fail invasion via doctrinal violations** 
-*Bullshit rating: 7/10*. Mountainous terrain and supply line vulnerabilities are valid challenges (e.g., Afghanistan), but U.S. military doctrine adapts. The argument assumes static tactics, ignoring potential adjustments like decentralized logistics.
+Point 8. The reasons for a hypothetical 2027 invasion. Bullshit rating 3/10. The scenarios (Iranian protests, nuclear capability, shipping disruption) look like the excuses used in past wars (e.g., Iraq War), but there is no concrete evidence that anyone plans such an operation. Pure conjecture.
 
-10. **Claim: Iranians would resist U.S. invasion due to national pride** 
-*Bullshit rating: 8/10*. Historical distrust of U.S. intervention (e.g., 1953 coup) and Iraq War parallels are accurate. However, Iran’s population is heterogeneous; some might support regime change, complicating monolithic narratives.
+Point 9. The U.S. would lose by breaking its own doctrine. Bullshit rating 7/10. Mountains and weak supply lines are real problems (e.g., Afghanistan), but U.S. military doctrine adapts. The argument assumes tactics never change and ignores options like decentralized logistics.
 
-11. **Historical analogies: Sicily, Vietnam, Ukraine** 
-*Bullshit rating: 6/10*. Sicilian expedition and Vietnam comparisons are apt (logistical nightmares, hubris). Ukraine parallels are weaker — Zelenskyy’s leadership and NATO dynamics differ vastly from a hypothetical Iran scenario.
+Point 10. Iranians would fight a U.S. invasion out of national pride. Bullshit rating 8/10. The historical distrust of U.S. intervention (e.g., 1953 coup) and the Iraq War parallels are accurate. But Iran's population is mixed, and some might support regime change, so the one-block story doesn't hold.
 
-12. **Game theory: Israel/Saudi benefit from U.S.-Iran mutual exhaustion** 
-*Bullshit rating: 5/10*. Realpolitik suggests regional rivals might exploit superpower conflicts, but Israel’s existential fear of Iran’s nuclear program and Saudi security dependence on the U.S. complicate this logic.
+Point 11. The history comparisons, Sicily, Vietnam, Ukraine. Bullshit rating 6/10. Sicily and Vietnam fit (logistical nightmares, hubris). Ukraine fits less, because Zelenskyy's leadership and NATO dynamics are very different from a hypothetical Iran scenario.
 
-13. **Claim: Iran-Russia pact to block U.S. nukes** 
-*Bullshit rating: 2/10*. No evidence supports such an agreement. Putin’s opposition to nuclear use in Ukraine is context-specific; extending this to Iran is baseless speculation.
+Point 12. Game theory, Israel and Saudi Arabia win when the U.S. and Iran wear each other out. Bullshit rating 5/10. Realpolitik says regional rivals might use a superpower conflict for themselves, but Israel's existential fear of Iran's nuclear program and Saudi Arabia's dependence on the U.S. for security make this logic harder.
 
-Final verdict: Mix of factual history (e.g., Trump’s actions), plausible analysis (e.g., military limitations), and unfounded speculation (e.g., 2027 invasion). The speaker conflates documented events with alarmist scenarios without rigorous proof.
+Point 13. An Iran-Russia pact to block U.S. nukes. Bullshit rating 2/10. No evidence supports such a deal. Putin's opposition to nuclear use in Ukraine is about that context, and stretching it to Iran is baseless speculation.
 
-**Overall I can still highly recommend his channel and its interesting to listen and discuss, perfect for class!**
+Venice's final verdict is a mix of real history (e.g., Trump's actions), plausible analysis (e.g., military limits) and speculation without a base (e.g., 2027 invasion). The speaker mixes documented events with alarmist scenarios without hard proof.
+
+Overall I can still highly recommend his channel and its interesting to listen and discuss, perfect for class!

@@ -1,6 +1,6 @@
 ---
-title: "My First Conversation About Bitcoin and Arbitrage Trading: A Look Back from 2012 to 2023"
-description: "In 2012, I, Emin Mahrt, had an eye-opening conversation with a friend named Julian about the emerging world of Bitcoin and the financial markets. That year..."
+title: "My First Conversation About Bitcoin and Arbitrage Trading, Looking Back from 2012 to 2023"
+description: "In 2012 I talked with my friend Julian about Bitcoin, exchanges and arbitrage, and I paid for a burger in Bitcoin. A look back from 2023."
 date: "2023-10-31T21:38:51.937Z"
 updated: "2023-10-31T21:38:51.937Z"
 lang: "en"
@@ -17,34 +17,22 @@ voice_check:
   em_dash: 0
   unobserved: 105
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012-to-2023-2cafe0d10c23"
 ---
 ![](../../../media/my-first-conversation-about-bitcoin-and-arbitrage-trading-a-look-back-from-2012/01-66725897.jpeg)
 
-## Introduction
+In 2012 I had a conversation with my friend Julian about Bitcoin and the financial markets, and it really opened my eyes. That same year my first Bitcoin purchase was at Room77 in Berlin, where I gave 1 Bitcoin for a burger. Bitcoin was still pretty new then, and we talked about a lot of things, the technical side of trading but also the bigger question if you should build a company or trade the markets. When I think about that conversation today, it's interesting how much has changed and how much is still the same.
 
-In 2012, I, Emin Mahrt, had an eye-opening conversation with a friend named Julian about the emerging world of Bitcoin and the financial markets. That year also marked my first Bitcoin purchase at Room77 in Berlin, where I exchanged 1 Bitcoin for a burger. At that time, Bitcoin was still a relatively new phenomenon, and the conversation touched on various aspects, from the technicalities of trading to the philosophical questions about entrepreneurship versus market trading. As I reflect on that conversation today, it’s fascinating to see how much has changed and how much has stayed the same.
+In 2012 Julian told me about internet exchanges for digital currencies like Bitcoin. A lot of them had JavaScript APIs for automated trading, and that was quite advanced for that time. In 2023 these exchanges have changed a lot. They have many more features, like futures trading and staking. And regulation has become a big factor, so there is a layer of security that mostly didn't exist in the early days.
 
-## The Early Days of Digital Currency Exchanges
+Julian had some experience with arbitrage trading between different Bitcoin exchanges. He explained it to me as buying and selling on different markets, because the same asset has different prices there. The catch was that it only works until more people find out about it. In 2023 arbitrage still exists, but it happens much less and the competition is much harder. With algorithmic trading and faster information it has become a high stakes game and you need good tools and strategies for it.
 
-Back in 2012, Julian introduced me to the concept of internet exchanges that dealt with digital currencies like Bitcoin. These platforms often provided JavaScript APIs for automated trading, a feature that was quite advanced for its time. Fast forward to 2023, and the landscape of digital currency exchanges has evolved dramatically. Today’s platforms offer a plethora of advanced features, including futures trading and staking options. Regulatory oversight has also become a significant factor, providing a layer of security that was largely absent in the early days.
+One part of our conversation in 2012 I remember well is about the risks of Bitcoin trading. I asked if this was even legal, and Julian said it's not illegal but it can be risky. In 2023 the rules for Bitcoin are clearer, but the risks have not gone away. The price still moves a lot and Bitcoin had several big price changes over the years. In December 2017, for example, it reached an all-time high of nearly $20,000.
 
-## The Allure and Pitfalls of Arbitrage Trading
+My second Bitcoin purchase was also at Room77, and I bought a salad and a hot tea for 0.46 Bitcoin. The all-time high for Bitcoin that I know of is that nearly $20,000. So my first burger cost me what could have been $20,000, and the salad and hot tea could have been worth around $9,200 at that peak. For me these purchases show how much Bitcoin moves, and that you can win a lot with it and also lose a lot.
 
-Julian had some experience with arbitrage trading between different Bitcoin exchanges. He explained that this strategy involved buying and selling on different markets to take advantage of differing prices for the same asset. The catch was that this was effective only until more people discovered it. In 2023, the arbitrage opportunities still exist but are far less frequent and more competitive. Algorithmic trading and faster information flow have made it a high-stakes game that requires sophisticated tools and strategies.
+At the end of the conversation I asked myself if it makes more sense to really understand the Bitcoin markets or to put my energy into starting a business. Julian thought trading is hard to make profitable, especially if you don't have a lot of money to put in. In 2023, with all the blockchain startups and with crypto going mainstream, it looks like both ways can pay off well, but both come with their own problems and risks.
 
-## Risks, Rewards, and Fears
-
-One of the most striking parts of our 2012 conversation was the discussion about the risks involved in Bitcoin trading. I remember questioning the legality of such activities, to which Julian clarified that it wasn’t illegal but could be risky. In 2023, the regulatory landscape for Bitcoin has become clearer, but the risks have not entirely disappeared. Market volatility remains a significant concern, with Bitcoin having experienced several dramatic price fluctuations over the years. In December 2017, for instance, Bitcoin reached an all-time high of nearly $20,000.
-
-## My Bitcoin Purchases: A Price Perspective
-
-My second Bitcoin purchase was also at Room77, where I bought a salad and a hot tea for 0.46 Bitcoin. To put these purchases in perspective, the all-time high price for Bitcoin that I’m aware of is nearly $20,000. That means my first burger cost me what could have been $20,000, and my salad and hot tea could have been worth around $9,200 at that peak price. These purchases serve as a vivid reminder of Bitcoin’s incredible volatility and potential for both gain and loss.
-
-## Entrepreneurship vs Trading: A Personal Dilemma
-
-Towards the end of our conversation, I pondered whether it made more sense to focus on understanding the Bitcoin markets or to channel my energies into starting a business. Julian believed that trading could be difficult to make profitable, especially without a substantial investment. In 2023, the rise of blockchain startups and the mainstream adoption of cryptocurrencies suggest that both avenues can be lucrative but come with their own sets of challenges and risks.
-
-## Conclusion
-
-Looking back, that 2012 conversation with Julian served as a snapshot of the Bitcoin landscape at the time. It offered insights into trading strategies like arbitrage and highlighted the risks and uncertainties that came with this new digital asset. Fast forward to 2023, and many of those early questions have been answered, but new challenges and opportunities have arisen. Whether it’s trading or entrepreneurship, the key to success in this ever-changing landscape is adaptability and a keen understanding of the market dynamics.
+Looking back, that conversation with Julian in 2012 was a snapshot of Bitcoin at that time. It was about trading strategies like arbitrage and about the risks and the uncertainty of this new digital asset. Now in 2023 a lot of those early questions have answers, but there are new problems and new opportunities. Trading or building a company, what matters is that you can adapt and that you really understand how the market works.

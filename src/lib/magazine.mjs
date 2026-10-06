@@ -17,15 +17,15 @@ export const categoryLabel = (post) => label(config.categories[post.category], p
 export function provenanceBadge(post) {
 	const de = post.lang === 'de';
 	if (post.provenance === 'ai_generated' || post.authorType === 'ai_editorial') return { kind: 'ai', text: de ? 'KI-geschrieben' : 'AI-written' };
-	if (post.provenance === 'mixed' || post.aiAssisted === true) return { kind: 'mixed', text: de ? 'Mensch + KI' : 'Human + AI' };
+	if (post.provenance === 'mixed' || post.aiAssisted === true) return { kind: 'mixed', text: de ? 'KI-unterstützt' : 'AI-assisted' };
 	if (post.provenance === 'unknown') return null;
 	return { kind: 'human', text: de ? 'Von Hand' : 'Human-written' };
 }
 
 // One-line explainer, shown once in the footer and on /about, never per card.
 export const DISCLOSURE = {
-	en: 'Badges on each post say how it was made: human-written, human + AI, or AI-written under my supervision. The words are mine either way, and every label is also in the page metadata.',
-	de: 'Die Plaketten an jedem Beitrag sagen, wie er entstanden ist: von Hand, Mensch + KI, oder KI-geschrieben unter meiner Aufsicht. Die Worte sind so oder so meine, und jede Kennzeichnung steht auch in den Metadaten.',
+	en: 'Badges on each post say how it was made: human-written, AI-assisted, or AI-written under my supervision. Every label is also in the page metadata.',
+	de: 'Die Plaketten an jedem Beitrag sagen, wie er entstanden ist: von Hand, KI-unterstützt, oder KI-geschrieben unter meiner Aufsicht. Jede Kennzeichnung steht auch in den Metadaten.',
 };
 
 export function firstPublishedLine(post) {

@@ -17,7 +17,7 @@ export const PROVENANCE = ['transcript', 'written', 'ai_generated', 'human', 'mi
 const BASICALLY_MAX = 140;
 
 import { renderHtml, preprocess } from './markdown.mjs';
-import { cleanTitle, cleanExcerpt, decodeEntities, firstHeading, bodyExcerpt, originLabel } from './text-clean.mjs';
+import { cleanTitle, cleanExcerpt, decodeEntities, firstHeading, bodyExcerpt, originLabel, sentenceCaseTitle } from './text-clean.mjs';
 export { renderHtml };
 
 function walk(dir) {
@@ -54,6 +54,50 @@ export function splitSections(body) {
 	return sections
 		.map(({ id, heading, lines }) => ({ id, heading, body: lines.join('\n').trim() }))
 		.filter((section) => section.heading || section.body);
+}
+
+
+// "Basically," lines. A paragraph inside a section that starts with
+// "Basically," (en) or "Im Kern," (de) is the author's own summary of that
+// section: it moves into the aside and is removed from the body, so it is
+// never shown twice. Nothing is generated when a section has none.
+const BASICALLY_RE = /^(?:\*\*|__)?(Basically|Im Kern)(?:\*\*|__)?\s*[,:]\s*(?:\*\*|__)?\s*/;
+export function extractBasically(body) {
+	const blocks = body.split(/\n{2,}/);
+	let inFence = false;
+	for (let i = blocks.length - 1; i >= 0; i -= 1) {
+		// Skip blocks inside fenced code (count fences before this block).
+		const before = blocks.slice(0, i).join('\n\n').match(/^(```|~~~)/gm) || [];
+		inFence = before.length % 2 === 1;
+		if (inFence) continue;
+		const block = blocks[i].trim();
+		if (!BASICALLY_RE.test(block) || block.includes('\n#')) continue;
+		const text = block.replace(BASICALLY_RE, '').replace(/\s*\n\s*/g, ' ').trim();
+		if (!text) continue;
+		blocks.splice(i, 1);
+		return { line: text, body: blocks.join('\n\n').trim() };
+	}
+	return { line: null, body };
+}
+
+// First real paragraph of a body as plain text (no image, heading, list,
+// quote, table, code or raw HTML). Used verbatim as the "In short" line when a
+// post has no TL;DR in its front matter. Never rewritten, never shortened.
+export function firstParagraph(body) {
+	let inFence = false;
+	for (const raw of String(body).split(/\n{2,}/)) {
+		const block = raw.trim();
+		const fences = (block.match(/^(```|~~~)/gm) || []).length;
+		if (inFence || fences) {
+			if (fences % 2 === 1) inFence = !inFence;
+			continue;
+		}
+		if (!block) continue;
+		if (/^(#|!\[|<|>|\||[-*+] |\d+[.)] |\[!\[|---|\*\*\*)/.test(block)) continue;
+		if (/^\[[^\]]*\]\([^)]*\)$/.test(block) || /^<?https?:\/\/\S+>?$/.test(block)) continue;
+		return block;
+	}
+	return null;
 }
 
 const words = (text) => text.replace(/[#*_>`|[\]()-]/g, ' ').split(/\s+/).filter(Boolean).length;
@@ -138,7 +182,7 @@ export function postMarkdown(post) {
 	for (const section of post.sections) {
 		if (section.heading) lines.push(`## ${section.heading}`, '');
 		if (section.body) lines.push(mirrorBody(section.body), '');
-		const line = section.id && post.basically[section.id];
+		const line = post.basically[section.id || '_intro'];
 		if (line) lines.push(`**${t(post.lang, 'basically')}** ${line}`, '');
 	}
 	if (post.sourceLinks.length) {
@@ -167,6 +211,28 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 			if (data.draft === true) continue;
 			const sections = splitSections(body);
 			const errors = errorList(file, data, sections, rel);
+			// Basically lines: front matter `basically` (map by section id) or
+			// `sections[].basically` (by heading or by order), else a
+			// "Basically," paragraph inside the section, moved to the aside.
+			const basically = { ...(data.basically || {}) };
+			const fmSections = Array.isArray(data.sections) ? data.sections : [];
+			const headed = sections.filter((s) => s.heading);
+			fmSections.forEach((entry, index) => {
+				if (!entry?.basically) return;
+				const target = entry.heading ? headed.find((s) => s.heading === entry.heading || s.id === entry.id) : headed[index];
+				if (target && !basically[target.id]) basically[target.id] = String(entry.basically);
+			});
+			const basicallyFrom = {};
+			for (const section of sections) {
+				const key = section.id || '_intro';
+				const found = extractBasically(section.body);
+				if (!found.line) continue;
+				section.body = found.body;
+				if (!basically[key]) {
+					basically[key] = found.line;
+					basicallyFrom[key] = 'body';
+				}
+			}
 			if (errors.length) {
 				problems.push(...errors.map((e) => `${dir}/posts/${rel}: ${e}`));
 				continue;
@@ -185,12 +251,13 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 			const fmtLabel = ({ photo: { en: 'Photo', de: 'Foto' }, video: { en: 'Video', de: 'Video' }, note: { en: 'Note', de: 'Notiz' } }[data.format] || {})[data.lang] || '';
 			const title = cleanTitle(data.title, { fallback: firstHeading(body), lang: data.lang, date: day(data.date), formatLabel: fmtLabel });
 			const description = cleanExcerpt(data.description, { body, title });
+			const displayTitle = data.lang === 'en' ? sentenceCaseTitle(title, body) : title;
 			const originalUrl = data.original_url || null;
 			const post = {
 				id: `${data.lang}/${slug}`,
 				slug,
 				lang: data.lang,
-				title,
+				title: displayTitle,
 				rawTitle: data.title,
 				seoTitle: data.seo_title ? decodeEntities(data.seo_title) : null,
 				description,
@@ -219,8 +286,11 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				originalSite: originalUrl ? originLabel(originalUrl) : null,
 				tags: data.tags || [],
 				sourceLinks: data.source_links || [],
-				tldr: data.tldr || [],
-				basically: data.basically || {},
+				tldr: Array.isArray(data.tldr) ? data.tldr.map(String) : data.tldr ? [String(data.tldr)] : [],
+				tldrFromBody: null,
+				tldrLabel: 'tldr',
+				basically,
+				basicallyFrom,
 				image: toSitePath(data.image || data.cover),
 				video: data.video || null,
 				importNote: data.import_note || null,
@@ -230,13 +300,50 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				file: `${dir}/posts/${rel}`,
 				sections,
 			};
+			// TL;DR: front matter (array or string). Without one, the post's own
+			// first paragraph is shown as "In short" (verbatim, not generated).
+			if (!post.tldr.length) {
+				const firstSection = sections.find((s) => !s.heading) || null;
+				const first = firstSection ? firstParagraph(firstSection.body) : null;
+				if (first && first.length <= 600) {
+					post.tldrFromBody = first;
+					post.tldrLabel = 'inShort';
+				}
+			}
 			const lead = bodyExcerpt(body, 220).toLowerCase();
 			const dekProbe = description.replace(/(\.\.\.|…)$/, '').slice(0, 60).toLowerCase();
 			post.dekRepeatsBody = Boolean(dekProbe) && lead.includes(dekProbe.slice(0, 40));
-			post.html = sections.map((s) => ({ ...s, html: renderHtml(s.body, { sizes, srcsets }) }));
+			// HTML view. The Markdown mirror keeps the body as written; the page
+			// lifts two blocks of the intro into the hero instead of showing them
+			// twice: a leading image (hero illustration) and, when it serves as the
+			// "In short" line, the first paragraph.
+			const lift = (body, block) => {
+				const blocks = body.split(/\n{2,}/);
+				const i = blocks.findIndex((b) => b.trim() === block.trim());
+				if (i >= 0) blocks.splice(i, 1);
+				return blocks.join('\n\n').trim();
+			};
+			post.heroHtml = null;
+			post.html = sections.map((s) => {
+				let view = s.body;
+				if (!s.heading) {
+					const lead = view.split(/\n{2,}/)[0]?.trim() || '';
+					if (/^!\[[^\]]*\]\([^)\s]+\)$/.test(lead)) {
+						post.heroHtml = renderHtml(lead, { sizes, srcsets }).replace(/^<p>|<\/p>\s*$/g, '').trim();
+						view = lift(view, lead);
+					}
+					if (post.tldrFromBody) view = lift(view, post.tldrFromBody);
+				}
+				return { id: s.id, heading: s.heading, body: s.body, html: view ? renderHtml(view, { sizes, srcsets }) : '' };
+			});
+			if (post.tldrFromBody) post.tldrHtml = renderHtml(post.tldrFromBody).replace(/^<p>|<\/p>\s*$/g, '').trim();
+			else post.tldrHtml = null;
 			// The first image is the likely LCP element: load it eagerly.
-			const first = post.html.find((s) => s.html.includes('loading="lazy"'));
-			if (first) first.html = first.html.replace('loading="lazy"', 'loading="eager" fetchpriority="high"');
+			if (post.heroHtml) post.heroHtml = post.heroHtml.replace('loading="lazy"', 'loading="eager" fetchpriority="high"').replace(/sizes="[^"]*"/, 'sizes="(max-width: 64rem) calc(100vw - 2.5rem), 64rem"');
+			else {
+				const first = post.html.find((s) => s.html.includes('loading="lazy"'));
+				if (first) first.html = first.html.replace('loading="lazy"', 'loading="eager" fetchpriority="high"');
+			}
 			post.wordCount = words([post.tldr.join(' '), ...sections.map((s) => `${s.heading || ''} ${s.body}`), ...Object.values(post.basically)].join(' '));
 			post.readingTimeMinutes = Math.max(1, Math.round(post.wordCount / 230));
 			post.markdown = postMarkdown(post);

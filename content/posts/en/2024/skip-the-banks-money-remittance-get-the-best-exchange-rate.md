@@ -1,6 +1,6 @@
 ---
-title: "Skip the Banks: Money Remittance & Get The Best Exchange Rate."
-description: "- Cryptocurrency enables cheaper money transfers and currency exchanges compared to NALA, Revolut, Transfer Wise, Remitly, Western Union, Moneygram, and..."
+title: "Skip the Banks: Money Remittance & Get The Best Exchange Rate"
+description: "Sending money to Tanzania through banks costs too much. Crypto, licensed traders and Wakala shops make it cheaper for families and businesses."
 date: "2024-09-06T03:56:05.450Z"
 updated: "2024-09-06T03:56:05.450Z"
 lang: "en"
@@ -17,88 +17,79 @@ voice_check:
   em_dash: 0
   unobserved: 156
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/skip-the-banks-money-remittance-get-the-best-exchange-rate-972f1ce0cebd"
 ---
-# Skip the Banks do Remittance and get the best Exchange Rate. **How to Send Money to Tanzania: Bank or Credit Card to Mobile Money (M-Pesa, Tigo Pesa, Airtel Money) and Cash Pickup in Every Village via Wakala Shops in Sub-Saharan Africa**
+This is about how to send money to Tanzania. From a bank account or a credit card to mobile money like M-Pesa, Tigo Pesa and Airtel Money, or as cash that you pick up at a Wakala shop.
 
-## Too Long to Read
+There is one in almost every village in Sub-Saharan Africa.
 
-- **Cryptocurrency **enables cheaper money transfers and currency exchanges compared to NALA, Revolut, Transfer Wise, Remitly, Western Union, Moneygram, and traditional banks.
-- **Benefits for Remittances**: Send money directly to local bank accounts, mobile money, or have it delivered in cash.
-- **Benefits for Businesses**: Significant cost savings when exchanging large amounts of foreign currency and settling invoices abroad.
-- **Benefits for Foreign Investors**: Gain 10% more money when investments are made through the correct currency exchange.
-- **Global Payments with No Additional Costs**: **Cryptocurrency**handles currency transfers and exchanges with no additional bank transfer or exchange fees.
-- **Collaboration with Licensed Traders** and the use of cryptocurrencies to make currency exchange more efficient.
-- **Savings of 15–20%** through better exchange rates and lower fees compared to traditional methods.
+The short version. Cryptocurrency makes sending money and changing currency cheaper than NALA, Revolut, Transfer Wise, Remitly, Western Union, Moneygram and the normal banks. You save around 15 to 20%, because the rates are better and the fees are lower.
 
-## Table of Contents
+If you send money home, it can go straight to a local bank account, to mobile money, or it gets delivered as cash.
 
-1. Introduction to the Foreign Currency Liquidity Crisis in Sub-Saharan Africa
-1. Government Measures and Their Impact on Local Businesses
-1. Example: Gas stations and the purchase of gasoline on the world market
-1. Challenges in Currency Exchange
-1. Poor exchange rates and losses of up to 50%
-1. Speculation on the black market and price increases
-1. Problems with Transferring Foreign Currencies to Africa
-1. High bank fees and poor exchange rates
-1. Burden on remittances
-1. Solutions Offered by **Cryptocurrency**
-1. Network of licensed traders
-1. Use of cryptocurrencies to optimize currency exchange
-1. Examples: Car dealerships, supermarkets, airlines
-1. Benefits of **Cryptocurrency **for Individuals
-1. Direct transfers to local bank accounts, mobile money, or in cash
-1. Cheaper than NALA, Revolut, TransferWise, Remitly, Western Union, and Moneygram
-1. Benefits of **Cryptocurrency **for Businesses and Global Payments
-1. Efficient settlement of invoices abroad without additional costs for bank transfers or currency exchange
-1. Significant savings for businesses that source goods from abroad
-1. Benefits of **Cryptocurrency **for Foreign Investors
-1. 10% savings on investment through optimal currency exchange
-1. Reduction of transaction costs
-1. Table: Comparison of Money Transfer Methods
-1. Summary and Outlook
+Businesses save a lot when they change big amounts of foreign currency and pay invoices abroad. And foreign investors can get 10% more money when they bring it in through the right exchange.
 
-## Introduction to the Foreign Currency Liquidity Crisis in Sub-Saharan Africa
+The reason behind all of this is that there is not enough foreign currency.
 
-In many parts of the world, governments try to keep the prices of essential goods like gasoline low by setting a maximum price. In Tanzania, this pricing is based on the Tanzanian Shilling (TZS). However, this measure poses a significant problem: on the world market, gasoline is traded in foreign currencies like the US dollar, and outside Tanzania, there is little demand for the Tanzanian Shilling.
+In a lot of countries the government tries to keep the price of things people really need, like gasoline, low. So it sets a maximum price. In Tanzania that price is in Tanzanian Shilling (TZS).
 
-## Government Measures and Their Impact on Local Businesses
+And here is the problem. On the world market gasoline is paid in foreign currency like the US dollar. Outside of Tanzania almost nobody wants Tanzanian Shilling.
 
-This situation presents a significant challenge for local businesses. For example, a gas station must buy gasoline in foreign currency but can only sell it in TZS. Due to the shortage of foreign currency in Tanzania, gas station operators are often forced to exchange TZS at unfavorable rates, resulting in a loss of up to 10%. In other Sub-Saharan countries, this loss can even reach 40% to 50%. These poor exchange rates make it nearly impossible for gas stations to remain competitive in the global market, leading to empty pumps and frustrated drivers across the region.
+For local businesses this is hard. A gas station has to buy gasoline in foreign currency, but it can only sell it in TZS.
 
-## Challenges in Currency Exchange
+There isn't enough foreign currency in Tanzania, so the people who run gas stations often have to change their TZS at a bad rate and lose up to 10%.
 
-The problem extends further. In addition to the high losses from directly exchanging TZS into foreign currency, many speculate on the black market with US dollars, driving prices even higher. This leads to an even greater burden on businesses that rely on international trade, such as car dealerships, supermarkets, and airlines.
+In other countries in Sub-Saharan Africa that loss can even be 40% to 50%. With rates like that a gas station can't keep up on the world market. So you get empty pumps and angry drivers all over the region.
 
-## Problems with Transferring Foreign Currencies to Africa
+It gets worse. On top of the loss from changing TZS, a lot of people speculate with US dollars on the black market, and that pushes the price up even more.
 
-The situation is further exacerbated by the high costs associated with transferring foreign currencies to Africa. Banks charge high fees and often offer poor exchange rates, leading to additional financial losses. For someone sending money home from abroad, this means that a significant portion of their hard-earned money is lost to fees and poor exchange rates. This is a considerable burden on the millions of people who depend on these remittances to support their families.
+Everyone who depends on trade with other countries pays for it, like car dealers, supermarkets and airlines.
 
-## The Role of Wakala Shops in Money Transfers
+Then there is the cost of sending foreign currency to Africa at all. Banks take high fees and often give you a bad rate, so you lose money twice.
 
-In Tanzania and across Sub-Saharan Africa, the Wakala shop infrastructure plays a critical role in money transfers. These local agents are strategically placed in almost every village, enabling individuals to instantly pick up cash or receive money directly to their mobile phone through services like M-Pesa or Tigo Pesa. Unlike traditional bank transfers, which can be slow, costly, and limited in accessibility, Wakala shops provide a fast, convenient, and cost-effective alternative for money transfers. By leveraging the Wakala network, you can send money from your bank account or credit card directly to someone’s mobile wallet, or arrange for cash pickup at a nearby Wakala shop, all while avoiding the high fees and unfavorable exchange rates typically associated with banks. This infrastructure ensures that no matter where your recipient is located, they can access their funds quickly and easily, making it an essential service for millions across the region.
+If you work abroad and send money home, a big part of what you earned just goes away in fees and bad rates. Millions of people depend on this money to support their families, so it hurts a lot.
 
-## Solutions Offered by **Cryptocurrency**
+This is where the Wakala shops come in. In Tanzania and all over Sub-Saharan Africa they are a big part of how money moves. These local agents are in almost every village.
 
-This is where **Cryptocurrency **comes into play. **Cryptocurrency **has launched a project aimed at normalizing exchange rates and reducing the costs of money transfers. Instead of relying on traditional banks and SWIFT transfers, **Cryptocurrency **uses a network of licensed traders and cryptocurrencies. For example, a Tanzanian car dealer can now convert TZS into cryptocurrency, send it to Japan, and exchange it for yen there. This process is not only faster but also significantly cheaper. Instead of a 15% loss, the dealer could actually make a 5% profit on the exchange.
+You can pick up cash there right away, or get the money straight to your phone with M-Pesa or Tigo Pesa.
 
-## Benefits of **Cryptocurrency **for Individuals
+A bank transfer is slow and expensive, and a lot of people can't really get to a bank anyway. A Wakala shop is fast, close and cheap.
 
-**Cryptocurrency **also provides a powerful solution for individuals who want to send money to their loved ones in Africa. It is cheaper than services like NALA, Revolut, TransferWise, Remitly, Western Union, or Moneygram and offers the flexibility to send money directly to local bank accounts, mobile money, or even have it delivered in cash. This makes it a safer and more affordable option for millions of people in Sub-Saharan Africa who rely on remittances.
+So you can send money from your bank account or your credit card straight to someone's mobile wallet. Or they pick it up as cash at the next Wakala shop. You skip the high fees and the bad bank rates.
 
-## Benefits of **Cryptocurrency **for Businesses and Global Payments
+It doesn't matter where the person lives, they get the money fast. That's why millions of people in the region use it.
 
-**Cryptocurrency **is not only a solution for remittances but also an effective tool for businesses that need to source goods from abroad. **Cryptocurrency **handles currency transfers and exchanges without additional costs for bank transfers or exchange fees. This allows businesses to make significant savings and run their operations more efficiently.
+And this is where cryptocurrency comes in. There is a project that wants to bring exchange rates back to normal and make sending money cheaper. It doesn't go through banks and SWIFT transfers. It uses a network of licensed traders and crypto.
 
-## Benefits of **Cryptocurrency **for Foreign Investors
+An example. A car dealer in Tanzania can now change TZS into crypto, send it to Japan and change it into yen there. That is faster and a lot cheaper. Instead of losing 15%, the dealer could even make 5% on the exchange.
 
-A particularly interesting aspect of **Cryptocurrency **is the advantage it offers foreign investors. When a foreign investor comes to Tanzania, where everything is priced in TZS, they can effectively get 10% more money when they bring their funds into their investments. By using the correct currency exchange, they do not lose 5% but gain 10%. This means that they effectively receive a 10% discount on their entire investment simply because they hold foreign currency. This advantage could be a decisive factor for investments in the region.
+If you want to send money to your family in Africa, it's also cheaper than NALA, Revolut, TransferWise, Remitly, Western Union or Moneygram. And you can choose. The money goes to a local bank account, to mobile money, or it gets delivered as cash.
 
-## Table: Comparison of Money Transfer Methods
+For millions of people in Sub-Saharan Africa who live from money their family sends home, that is safer and cheaper.
+
+It's not only for families. Businesses that buy goods from abroad can use it too. Crypto moves and changes the money with no extra costs for bank transfers and no exchange fees. So they save a lot and can run their business better.
+
+And then there are foreign investors, and this part is really interesting. When a foreign investor comes to Tanzania, everything is priced in TZS. If they bring their money in through the right exchange, they get 10% more.
+
+They don't lose 5%, they gain 10%. So it's basically a 10% discount on the whole investment, just because they hold foreign currency. That alone could decide if someone invests in the region.
+
+Here is how the ways to send money compare, for $100.
 
 ![](../../../media/skip-the-banks-money-remittance-get-the-best-exchange-rate/01-b9518e2d.png)
-*MethodFees (%)Exchange Rate Loss (%)Remaining Money (Example: $100)Transfer TimeRemarksCurrency Exchange15%5%$80ImmediateHighest fees, unfavorable exchange rateATM Withdrawal10%4%$86ImmediateHigh withdrawal feesRemitly8%3%$891–2 DaysMore expensive than TransferWise and RevolutTransferWise5%2%$931–2 DaysCheaper but no transfers to mobile moneyRevolut5%2%$931–2 DaysSimilar to TransferWise, limited optionsNALA7%3%$90ImmediateMore expensive than Revolut and TransferWiseWestern Union10%4%$861–2 DaysVery expensive, comparable to ATMMoneygram10%4%$861–2 DaysVery expensive, comparable to ATM*
 
-## Summary and Outlook
+| Method | Fees (%) | Rate loss (%) | Left of $100 | Time | Remarks |
+|---|---|---|---|---|---|
+| Currency Exchange | 15% | 5% | $80 | Immediate | Highest fees, bad rate |
+| ATM Withdrawal | 10% | 4% | $86 | Immediate | High withdrawal fees |
+| Remitly | 8% | 3% | $89 | 1 to 2 days | More expensive than TransferWise and Revolut |
+| TransferWise | 5% | 2% | $93 | 1 to 2 days | Cheaper but no transfers to mobile money |
+| Revolut | 5% | 2% | $93 | 1 to 2 days | Like TransferWise, limited options |
+| NALA | 7% | 3% | $90 | Immediate | More expensive than Revolut and TransferWise |
+| Western Union | 10% | 4% | $86 | 1 to 2 days | Very expensive, like an ATM |
+| Moneygram | 10% | 4% | $86 | 1 to 2 days | Very expensive, like an ATM |
 
-In summary, **Cryptocurrency **not only aims to make money transfers cheaper; it is about creating opportunities. It is about providing people and businesses in Sub-Saharan Africa with the financial tools they need to succeed, and it is about offering foreign investors a safe and profitable way to invest in the region. While the foreign currency liquidity crisis continues to cripple economies in Sub-Saharan Africa, **Cryptocurrency **stands out as a beacon of hope and a pathway to economic resilience.
+Cheaper transfers are only one part of it. It's about giving people and businesses in Sub-Saharan Africa the money tools they need. And it's about giving foreign investors a safe way to invest in the region and make money with it.
+
+The lack of foreign currency still hurts the economies in Sub-Saharan Africa a lot. Crypto is a real way out of it.

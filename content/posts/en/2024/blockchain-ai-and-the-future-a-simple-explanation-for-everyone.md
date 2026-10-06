@@ -1,6 +1,6 @@
 ---
-title: "Blockchain, AI, and the Future: A Simple Explanation for Everyone"
-description: "Blockchain and AI: Unlocking the Future"
+title: "Blockchain, AI and the future, explained simply for everyone"
+description: "I talked with my sister Lale about blockchain and AI. Automating her accounting, why AI guesses, and why you don't need to be a tech expert."
 date: "2024-08-17T02:44:31.279Z"
 updated: "2024-08-17T02:44:31.279Z"
 lang: "en"
@@ -17,67 +17,40 @@ voice_check:
   em_dash: 8
   unobserved: 140
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/blockchain-ai-and-the-future-a-simple-explanation-for-everyone-c50dd24cb88f"
 ---
-**Blockchain and AI: Unlocking the Future**
-
 ![](../../../media/blockchain-ai-and-the-future-a-simple-explanation-for-everyone/01-1327156b.png)
 
-Blockchain and AI. These are two of the most exciting — and yes, complex — technologies of our time. They often seem daunting, shrouded in technical jargon that makes them feel inaccessible. But here’s the thing: they don’t have to be. When I sat down with my sister Lale to chat about these technologies, it became clear that with the right approach, anyone can understand them. We talked about how these innovations are not just changing the world, but also how they could transform our daily lives.
+Blockchain and AI. Two of the most exciting things of our time, and yes, also two of the most complex. They often look scary and full of tech words that make them feel far away. But they don't have to be. When I sat down with my sister Lale to talk about them, it got clear that anyone can understand them if you explain them the right way. We talked about how these things are changing the world and also how they could change our daily lives.
 
-## Automating Accounting with AI: A Real-World Application
+We started with a normal problem, manual accounting. It's boring, it takes a lot of time and you make mistakes. So I suggested something different, automation. With AI and a few handy tools like Gumloop.com and Google Spreadsheet Scripts we could save time and make fewer mistakes. Lale wouldn't have to type in every transaction by hand anymore, the AI does it, and she just checks the results. She stays in control.
 
-We started with a common problem: manual accounting. It’s tedious. Time-consuming. Prone to errors. So, I suggested something different: automation. With the help of AI and a few handy tools like Gumloop.com and Google Spreadsheet Scripts, we could save time and reduce mistakes. Imagine this: instead of Lale having to enter every transaction manually, the AI does it all. Her role? Simply reviewing the results. That’s the power of control.
+But to be clear, Google Spreadsheet Scripts aren't really AI. They just automate the same tasks again and again. That's useful, but it's not the same as real AI. Real AI, the kind that learns and adapts, could take this a lot further. It could make the process better, find mistakes people miss and even predict where the money is going in the future.
 
-However, let’s be clear — Google Spreadsheet Scripts aren’t truly AI. They’re more about automating repetitive tasks, which is useful, but not as sophisticated as true AI. Real AI, the kind that learns and adapts, could take this to another level. It could optimize processes, detect errors that humans might miss, and even predict future financial trends.
+But why stop at AI, I asked Lale. Let's go further and add blockchain. Blockchain is not just a buzzword. It's a secure ledger that nobody can change, and that makes it a good partner for AI. With APIs like Etherscan we could read the blockchain and check transactions very precisely. Think of one tool that is a blockchain explorer and an accounting helper at the same time. That's a new level of automation and security.
 
-## Combining Blockchain and AI: A Step Beyond Automation
+We also have to understand that a blockchain records transactions securely, but it doesn't write the entries for you by itself. For full automation you need an app on top that talks to the blockchain and handles everything from creating a transaction to checking it. Put AI on top of that and it could change how we handle and look at money data, and make the whole thing faster, safer and more transparent.
 
-But why stop at AI? I asked Lale. Let’s take it further. Let’s integrate blockchain. Blockchain isn’t just a buzzword; it’s a secure, unchangeable ledger — a perfect partner for AI. By using APIs like Etherscan, we could access blockchain and analyze transactions with unprecedented accuracy. Imagine a tool that’s both a blockchain explorer and an accounting assistant. That’s a new level of automation and security.
+Lale liked the idea, but she was also worried. Why does AI make mistakes sometimes? Isn't it supposed to be smart? The thing is, AI isn't a calculator. It's more like a very good guesser. It works with probabilities and makes predictions from patterns it learned from data. Sometimes it's right on, sometimes not so much. If you ask it "What do people walk with?" it might say "dog" or "shoes". Or it surprises you with "cat". That's AI.
 
-Yet, we must understand that while blockchain can securely record transactions, it doesn’t automatically log entries by itself. For full automation, we’d need an application layer to interface with the blockchain, handling everything from transaction creation to verification. When combined with AI, this could transform how we manage and analyze financial data, making the entire process faster, safer, and more transparent.
+But AI is more than a word machine. It can see patterns, predict outcomes and get better over time. It's only as good as the data it learned from though. Bad data, bad predictions. So you have to give AI correct and varied data and keep improving how it learns.
 
-## AI: More Than Just a Calculator
+AI can also be creative. Yes, creative. If you let it take risks, it can come up with surprising and even inspiring things. Think about writing a story. Sometimes you want the unexpected, and AI can help with that. "I'm walking with my cat." Unusual? Yes. You remember it? Definitely. That's AI leaving the obvious path and giving you something new.
 
-Lale was intrigued, but also concerned. Why does AI sometimes make mistakes? Isn’t it supposed to be smart? Here’s the thing: AI isn’t a calculator. It’s more like a sophisticated guesser. It works on probabilities, making predictions based on patterns it has learned from data. Sometimes it’s right on target. Other times, not so much. For example, if you ask it, “What do people walk with?” it might say “dog” or “shoes.” Or it might surprise you with “cat.” That’s AI for you.
+But AI is creative in a different way than people. It doesn't get inspired and it doesn't get ideas out of nowhere. It mixes patterns and data in new ways, and the result is often fresh and unexpected, but it still comes from the data it was given.
 
-But AI is more than just a word generator. It’s a tool that can recognize patterns, predict outcomes, and improve over time. However, its intelligence is only as good as the data it’s trained on. Poor data leads to poor predictions. That’s why it’s crucial to feed AI accurate, diverse information and continually refine its learning process.
+Lale still wasn't sure. How could AI handle something as complex as checking blockchain transactions? The answer is training. AI learns when you feed it data and correct it when it gets things wrong. Over time it gets smarter, more precise and more reliable. With enough practice AI could even beat people at specific tasks, like finding fraud in blockchain data.
 
-## Creativity Through AI: When Probabilities Create Surprises
+But even when AI is great at these things, it often misses the bigger picture and the context that people bring. AI is fantastic at seeing patterns and deciding based on data, but it's people who bring empathy and the critical thinking you need for the harder, more subtle stuff.
 
-AI can also be creative. Yes, you read that right — creative. If you let it take risks, it can produce surprising, even inspiring results. Think about writing a story. Sometimes, you want the unexpected. AI can help with that. Picture this: “I’m walking with my cat.” Unusual? Yes. Memorable? Definitely. That’s AI, breaking away from the obvious and offering something new.
+Then we talked about the future. AI is getting more powerful and it's in more and more parts of our lives. Lale was worried. What if people misuse AI? That's a fair worry, there are bad people out there. But we also can't ignore how much good AI can do. It can change whole industries, make things more efficient and even solve problems we haven't thought of yet. That only happens if we build it wisely and ethically.
 
-But remember, AI’s creativity is different from human creativity. It doesn’t get inspired or come up with ideas out of nowhere. Instead, it combines patterns and data in novel ways, often producing results that are fresh and unexpected, but still rooted in the information it has been given.
+So the way to get the good parts and keep the risks small is to build it responsibly and with strict rules. AI can change everything, but without someone watching closely it could also do harm. We need to balance new ideas with ethics, so AI helps everyone and not just a few people.
 
-## Training AI: Making It Smarter Over Time
+To make it lighter I asked Lale a fun question. What do people walk with the most? My list went like this. Feet, because you can't walk without them. Shoes, they protect your feet. Thoughts, we think a lot while walking. A dog, man's best friend. The phone, for music, calls and photos, it's always with us. A partner, walking together is always nice. A stroller, for parents with babies. A backpack for the things you need. A walking stick, especially on hikes. And a camera for capturing moments.
 
-Despite its capabilities, Lale was still unsure. How could AI handle something as complex as analyzing blockchain transactions? The answer lies in training. AI learns by being fed data and corrected when it makes mistakes. Over time, it gets smarter, more accurate, more reliable. With enough practice, AI could even outperform humans in specific tasks — like detecting fraudulent transactions in blockchain data.
+And then I asked her, do we walk with our phones more than with our partners? We both laughed, but it's true, isn't it? Technology is so deep in our lives, often more than we notice.
 
-However, while AI can excel in these areas, it’s important to acknowledge that it often lacks the broader understanding and context that humans bring to problem-solving. AI is fantastic at recognizing patterns and making decisions based on data, but it’s humans who bring the empathy and critical thinking needed for more nuanced tasks.
-
-## The Future of AI: Opportunities and Challenges
-
-As we talked, our conversation naturally shifted to the future. AI is becoming more powerful and present in our lives. Lale expressed concern: what if AI is misused? It’s a valid worry. Bad actors exist. But we can’t ignore the enormous potential of AI. It can revolutionize industries, improve efficiency, and even solve problems we haven’t yet thought of. But this only happens if we develop it wisely and ethically.
-
-The key to harnessing AI’s power while minimizing risks lies in responsible development and strict governance. AI has the potential to change everything, but without careful oversight, it could also cause harm. We need to balance innovation with ethical considerations to ensure that AI benefits everyone, not just a select few.
-
-## What Do People Walk With the Most?
-
-To lighten the mood, I asked Lale a fun question: What do people walk with the most? Here’s my list:
-
-- Feet. Can’t walk without them.
-- Shoes. They protect your feet.
-- Thoughts. We think a lot while walking.
-- Dog. Man’s best friend.
-- Phone. Music, calls, photos — it’s always with us.
-- Partner. Walking together is always nice.
-- Stroller. For parents with babies.
-- Backpack. For essentials.
-- Walking stick. Especially on hikes.
-- Camera. For capturing moments.
-
-Then I hit her with this: Do we walk with our phones more than with our partners? We both laughed, but it’s true, isn’t it? Technology is so deeply integrated into our lives, often more than we realize.
-
-## Conclusion: Blockchain and AI for Everyone
-
-This conversation with Lale made one thing clear: Blockchain and AI aren’t just for tech experts. With the right approach, they can fit into everyone’s daily life, making things easier, smoother, and more efficient. But here’s the catch — we need to be smart about how we use them. These technologies have incredible potential, but we must use them wisely to ensure they serve us well. The future is bright, but only if we’re ready for it.
+This talk with Lale made one thing clear to me. Blockchain and AI aren't just for tech experts. Explained the right way, they can fit into everyone's daily life and make things easier and faster. But we have to be smart about how we use them. These things can do a lot, and we have to use them wisely so they really help us. The future looks good, but only if we're ready for it.

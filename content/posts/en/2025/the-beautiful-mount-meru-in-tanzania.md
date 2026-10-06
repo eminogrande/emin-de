@@ -17,6 +17,9 @@ voice_check:
   em_dash: 0
   unobserved: 2
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
+
 original_url: "https://emino.app/posts/the-beautiful-mount-meru-in-tanzania/"
 ---
 ![IMG 4437.jpeg](../../../media/the-beautiful-mount-meru-in-tanzania/IMG_4437.jpeg)

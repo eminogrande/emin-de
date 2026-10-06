@@ -17,79 +17,58 @@ voice_check:
   em_dash: 0
   unobserved: 205
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/a-guide-to-affordable-solar-power-in-zanzibar-harnessing-the-suns-energy-sidestepping-pitfalls-7181fb60620a"
 ---
 ![](../../../media/a-guide-to-affordable-solar-power-in-zanzibar-harnessing-the-sun-s-energy-sidest/01-4b383433.png)
 
-**Disclaimer:** The solar industry in Zanzibar, while brimming with potential, is unfortunately also plagued by unscrupulous individuals seeking to exploit the market. It’s crucial to note that many foreigners and even some locals have been flooding the market with substandard hardware. One particularly egregious example is a German national named Linus Gatterman (or Lino Gattermann acting as Sunzibar among others), who has been accepting payments for solar systems but failing to deliver, leaving customers like myself (who paid $10,000 to take my home off-grid) in a difficult situation.
+A disclaimer first. Solar in Zanzibar has a lot of potential. But the market is also full of people who just want to take your money. Many foreigners and even some locals are flooding the island with bad hardware. One example is a German named Linus Gatterman (or Lino Gattermann, acting as Sunzibar among others). He has been taking payments for solar systems and then not delivering. I am one of those customers. I paid $10,000 to take my home off-grid, and I was left in a difficult situation.
 
-I’ve previously invested into educative matters, like giving speeches on conferences. Please reach out via WhatsApp for more [+13103408213](http://whatsapp.emin.de)
+I have put time into teaching people about this before, for example with talks at conferences. If you want to know more, reach out on WhatsApp [+13103408213](http://whatsapp.emin.de)
 
 <https://www.youtube.com/watch?v=TnAVxZRiDgE>
 
-This guide aims to empower you with the knowledge and resources needed to navigate the Zanzibar solar market safely and effectively. We’ll explore how you can import high-quality solar components tax-free, connect with reliable local electricians, and even benefit from free consultations to ensure your solar journey is a success.
+This guide is here so you can buy solar in Zanzibar without getting burned. You can import good solar parts tax-free. You can find reliable local electricians. And you can get a free consultation before you spend anything.
 
-**Key Takeaways:**
+The short version. Zanzibar has a lot of sun, so solar makes sense here. Importing solar parts tax-free is fully legal and saves a lot of money. The Zanzibar Investment Promotion Authority (ZIPA) supports solar. Watch out for scams and cheap products, and check people before you pay them. Free consultations and support are there if you need help.
 
-- Zanzibar offers a prime environment for solar power due to its abundant sunshine.
-- Importing solar components tax-free is entirely legal and can lead to significant savings.
-- The Zanzibar Investment Promotion Authority (ZIPA) actively supports solar initiatives.
-- Be wary of scams and low-quality products; do your due diligence before making any payments.
-- Free consultations and support are available to guide you through the process.
+## Why solar in Zanzibar
 
-**Why Choose Solar Power in Zanzibar?**
+Zanzibar gets around 3,000 hours of sunshine a year. That puts it among the sunniest places on Earth. With the right setup you can use the grid a lot less or not at all. You save money and the air gets cleaner.
 
-Zanzibar enjoys an average of 3,000 sunshine hours per year, making it one of the sunniest places on Earth. This makes it an ideal location for harnessing solar energy. With the right setup, you can significantly reduce or even eliminate your reliance on the grid, saving money and contributing to a cleaner environment.
+ZIPA made importing solar parts into Zanzibar completely tax-free. So you can get good equipment for much less than local vendors charge. The import process is also simple and your parts arrive fast.
 
-**Benefits of Tax-Free Import**
+## How to do it
 
-Thanks to the progressive policies of ZIPA, importing solar components into Zanzibar is entirely tax-free. This means you can access high-quality equipment at significantly lower prices than those offered by local vendors. Furthermore, the import process is streamlined and efficient, ensuring your solar components arrive promptly.
+First, learn. Read about the different solar technologies, the parts and how installation works. Free consultations can help you decide.
 
-**Steps to Solar Success:**
+Then find your parts. Work with suppliers you can trust, from China, Germany or other countries. Make sure the parts fit Zanzibar’s grid and climate.
 
-1. **Educate Yourself:** Gather information about different solar technologies, components, and installation processes. Free consultations are available to help you make informed decisions.
-1. **Source Your Components:** Partner with reputable suppliers from China, Germany, or other countries. Ensure the components are compatible with Zanzibar’s electrical grid and climate.
-1. **Import Tax-Free:** Utilize the services of trusted forwarding and importing companies to navigate the import process smoothly and legally.
-1. **Engage Local Electricians:** Connect with qualified and experienced local electricians to handle the installation process. Ensure they adhere to safety standards and best practices.
-1. **Enjoy Clean Energy:** Once your solar system is up and running, you can start reaping the benefits of clean, affordable energy. Most systems pay for themselves within a few years through energy savings.
+Import them tax-free. Use forwarding and import companies you trust, so everything stays smooth and legal.
 
-**Free Consultation and Support**
+Get a local electrician. Pick someone qualified and experienced, who follows safety standards and does the job right.
 
-To assist you on your solar journey, I’m offering free consultations via WhatsApp at +13103408213. I can provide guidance on component selection, importing, installation, and maintenance. Additionally, I can refer you to reliable local electricians and even assist with the full import and installation process if desired.
+Then use your clean power. Most systems pay for themselves within a few years through what you save on electricity.
 
-**Pricing (New 2024 Models)**
+I offer free consultations on WhatsApp at +13103408213. I can help you choose parts and with importing, installation and maintenance. I can also send you to good local electricians, and if you want, I can handle the full import and installation for you.
 
-- High Volt Solar Panels: $130 per 1 kWh
-- Solar LifePo4 Battery Power Storage: $1200 per 1 kWh
-- Hybrid High Volt Solar Inverters: $800 per 1 kWh
-- Installation and Import (Tax-Free!) costs vary based on your specific needs
+My prices for the new 2024 models are $130 per 1 kWh for high volt solar panels, $1200 per 1 kWh for solar LifePo4 battery storage and $800 per 1 kWh for hybrid high volt solar inverters. Installation and import (tax-free!) depend on what you need.
 
-**Remember:**
+So check any company or person before you pay them. Go for good parts and a proper installation, so your system lasts and performs. And for a home or a business in Zanzibar, solar is a sustainable and cheap way to get energy.
 
-- Thoroughly research any company or individual before making any payments.
-- Prioritize quality components and professional installation to ensure your solar system’s longevity and performance.
-- Embrace solar power as a sustainable and cost-effective energy solution for your home or business in Zanzibar.
+## Does it pay off
 
-**Conclusion: A Bright Future for Solar in Zanzibar**
+Solar in Zanzibar is good for the environment and good for your wallet. The island has plenty of sun, import is tax-free, and you can become independent from the grid, cut your carbon footprint and save a lot over the years.
 
-As we’ve explored in this guide, embracing solar power in Zanzibar is not only a sound environmental choice but also a financially savvy one. By harnessing the island’s abundant sunshine and capitalizing on tax-free import opportunities, you can achieve energy independence, reduce your carbon footprint, and enjoy significant long-term savings.
+In my presentation on solar in Zanzibar I went deeper into the technology, installation and maintenance. I said it there and I say it here. Buy good parts, work with suppliers you can trust and hire qualified local electricians. Then your system runs at its best for years.
 
-In my presentation on solar in Zanzibar, I delved deeper into the specifics of solar technology, installation, and maintenance. I emphasized the importance of selecting high-quality components, partnering with reputable suppliers, and engaging qualified local electricians to ensure your solar system operates at its peak efficiency for years to come.
+The part people like most is the money. With the right setup you get your investment back in under three years. The start is cheap because import is tax-free and parts are well priced. The panels produce a lot because there is so much sun all year. Solar systems need very little maintenance, so the cost stays low over time. And electricity keeps getting more expensive, so what you save keeps growing.
 
-One of the most compelling aspects of solar power in Zanzibar is its remarkable profitability. With the right setup, you can expect a return on your investment in under three years. This is due to a combination of factors, including:
+There is more to it than money. When you make your own clean power, you no longer depend on changing electricity prices or an unreliable grid. And you help Zanzibar and the planet a bit.
 
-- **Low upfront costs:** Tax-free import and competitive pricing on components significantly reduce the initial investment.
-- **High energy yields:** Zanzibar’s abundant sunshine ensures your solar panels generate ample electricity throughout the year.
-- **Minimal maintenance:** Solar systems require very little maintenance, further enhancing their long-term cost-effectiveness.
-- **Rising electricity prices:** As conventional energy costs continue to rise, the savings from solar power become even more substantial.
+It all starts with learning and making good decisions. Reach out for a free consultation and support. We can do this together, safely, and make your solar investment last for years.
 
-Beyond the financial benefits, solar power offers a sense of empowerment and self-sufficiency. By generating your own clean energy, you’re no longer at the mercy of fluctuating electricity prices or unreliable grid infrastructure. You’re also contributing to a more sustainable future for Zanzibar and the planet.
+Embrace the sun, embrace the savings, and embrace a brighter future with solar power in Zanzibar.
 
-Remember, the journey to solar success starts with education and informed decision-making. Don’t hesitate to reach out for free consultations and support. Together, we can navigate the Zanzibar solar market safely and effectively, ensuring your solar investment shines brightly for years to come.
-
-**Embrace the sun, embrace the savings, and embrace a brighter future with solar power in Zanzibar.**
-
-**Additional Resources:**
-
-- Presentation on Solar in Zanzibar
-- Video on Importing Solar to Zanzibar
+More material is in my Presentation on Solar in Zanzibar and in my Video on Importing Solar to Zanzibar.

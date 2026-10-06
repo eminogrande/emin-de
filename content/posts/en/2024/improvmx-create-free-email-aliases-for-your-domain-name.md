@@ -10,6 +10,8 @@ author: "emin"
 provenance: "human"
 ai_assisted: false
 reviewed_by_human: false
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/improvmx-create-free-email-aliases-for-your-domain-name/01-df42de39.png"

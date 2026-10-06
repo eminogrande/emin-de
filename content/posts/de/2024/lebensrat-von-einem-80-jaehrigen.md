@@ -1,6 +1,6 @@
 ---
 title: "Lebensrat von einem 80 Jährigen"
-description: "Hier ist die Übersetzung ins Deutsche von “Life Lessons From An 80 Year Old Men” von Pat Divilly:"
+description: "Text von Pat Divilly, aus dem Englischen übersetzt. 50 Ratschläge von einem 80 Jährigen."
 date: "2024-09-29T08:10:22.384Z"
 updated: "2024-09-29T08:10:22.384Z"
 lang: "de"
@@ -18,9 +18,13 @@ voice_check:
   em_dash: 0
   unobserved: 113
 emin_check_pct: null
+voice_rewrite: "framing-only"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/lebensrat-von-einem-80-j%C3%A4hrigen-cebeb05bd97a"
 ---
-Hier ist die Übersetzung ins Deutsche von “Life Lessons From An 80 Year Old Men” von [Pat Divilly](/bigger-picture/lifelessons-advice-from-an-80-year-old-man-799510fb0f91):
+Text von [Pat Divilly](https://medium.com/bigger-picture/lifelessons-advice-from-an-80-year-old-man-799510fb0f91), aus dem Englischen übersetzt.
+
+Eine Liste mit 50 Ratschlägen von einem 80 Jährigen. Ich teile sie hier auf Deutsch, weil man sie immer wieder lesen kann.
 
 ![](../../../media/lebensrat-von-einem-80-jaehrigen/01-4959cfad.webp)
 

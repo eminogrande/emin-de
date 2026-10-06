@@ -1,6 +1,6 @@
 ---
 title: "Dualisms: A Comparative Map"
-description: "Dualism, in the philosophy of mind, says mental reality cannot be fully reduced to physical reality. The split may be ontological (two substances),..."
+description: "Dualism says the mind can't be fully reduced to physical stuff. A plain map of the main versions, the people behind them and where each one struggles"
 date: "2026-02-20T23:40:00Z"
 updated: "2026-02-20T23:40:00Z"
 lang: "en"
@@ -17,179 +17,38 @@ voice_check:
   em_dash: 2
   unobserved: 196
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-014000-dualisms-a-comparative-map/"
 ---
-## Overview
+Dualism, in the philosophy of mind, says mental reality can't be fully reduced to physical reality. The split can be ontological, so two substances. It can be about properties, so one substance with two kinds of properties that don't reduce to each other. Or it can be causal and structural. And dualism is still alive because consciousness still doesn't fit into an explanation that is only physical.
 
-Dualism, in the philosophy of mind, says mental reality cannot be fully reduced to physical reality. The split may be ontological (two substances), property-based (one substance, two irreducible property domains), or causal-structural.
+This is a map and not a final answer. Every part explains one idea in plain words and then shows where it helps and where it struggles. You don't need to agree with all of it, the point is just to see the options clearly. If you're new to the philosophy of consciousness, the two minute version is this paragraph, and there is a short glossary at the end.
 
-Dualism remains alive because consciousness still resists complete explanation in strictly physical terms.
+From Plato and Augustine to Descartes and after them, the same dualist intuitions keep coming back. Inner life seems to be a different kind of thing than matter that takes up space. Thinking, acting for reasons and following norms are hard to model as plain mechanics. And subjective experience doesn't seem to reduce to a description from the outside, in the third person. Modern science made some of the old arguments for a soul substance weaker, but it didn't close the explanatory gap.
 
-### Quick start (2-minute version)
+Traditional dualism, also called substance dualism, says mind and body are two different substances. Its strength is that consciousness keeps its own strong autonomy. The main problem is interaction, because how do two different substances act on each other?
 
-If you're new to consciousness philosophy, start here:
+Property dualism says there is one kind of substance, usually physical, but it can have two kinds of properties that don't reduce to each other, physical and mental. It's attractive because it doesn't multiply substances and it keeps qualia irreducible. But it has to explain how the mind causes things without a contradiction with the idea that the physical world is causally closed.
 
-- This article gives you a **map**, not a final answer.
-- Each section explains one idea in plain language, then shows where it helps and where it struggles.
-- You do **not** need to agree with everything — the goal is to understand the options clearly.
+Epiphenomenalism lives in the same neighborhood. It says conscious properties are real but they don't cause anything. The good part is that physical causal closure stays intact. The cost is that conscious life becomes passive and explains nothing.
 
-## History
+Composite models see a person as one whole made of physical and non-physical aspects, or of domains that are tightly coupled, and not as two Cartesian parts you can pull apart. That fits better with how unified we feel when we live and it avoids some crude pictures of interaction. But it still needs the detailed metaphysical mechanics.
 
-From Plato and Augustine to Descartes and beyond, dualist intuitions have persisted:
+Interactive dualism says mind and body really do act on each other. That matches the everyday feeling that we are the ones who act. The problem is to explain how this interaction follows laws without breaking physical dynamics that are very well confirmed. Modern attempts often look for bridges based on information theory or on boundary conditions.
 
-- Inner life seems categorically different from extended matter.
-- Rational agency and normativity seem hard to model as brute mechanics.
-- Subjective experience appears irreducible to third-person description.
+Richard Swinburne defends strong forms of dualism with a soul, tied to personal identity and to theism. He gives clear arguments that a person can persist beyond strict physical continuity. But the metaphysical commitments are heavy and the interaction problems are still contested.
 
-Modern science weakened some classic soul-substance arguments but did not dissolve the explanatory gap.
+Eleonore Stump has done deep work on personal identity, on the unity of soul and body and on bringing Aristotelian and Thomistic thinking together. Her picture of the human person is richer than splitting mind and body into atoms, and it shows that models friendly to dualism can have a lot more structure than the textbook caricatures.
 
----
+Edward Feser defends neo-Aristotelian and Thomistic metaphysics, and that often supports hylomorphic alternatives to strict physicalism. He brings back form, potency, finality and act as tools to explain things, and he challenges the assumption that mechanistic closure is the metaphysical default.
 
-## Traditional Dualism
+J. P. Moreland defends substance dualism and anti-physicalist lines, especially around qualia, intentionality and the self. He wrote systematic critiques of reductive accounts and he puts a strong weight on first-person evidence.
 
-Traditional (substance) dualism claims mind and body are distinct substances.
+The lines associated with Pitts in this context are often about making the logical structure around claims of causation and interaction sharper. That's useful because it forces dualist models to move from intuition to formal coherence.
 
-Strength:
-- Preserves robust autonomy of consciousness.
+David Chalmers isn't a standard traditional dualist, but his naturalistic dualism keeps phenomenal consciousness as something fundamental and irreducible. He's central because the way he framed the hard problem gave views close to dualism a new legitimacy, and it opens real room in principle for psychophysical bridging laws.
 
-Main problem:
-- Interaction: how do distinct substances causally influence one another?
+Dualism is still convincing where reduction fails, but it pays a coherence tax, because interaction, closure and fitting into a mechanistic picture are hard demands. The best progress right now often comes from hybrid models, like dual-aspect frameworks, non-reductive physicalism that refuses to eliminate the mind, panpsychist bridges, or naturalistic dualism with an explicit structure like a law. What dualism leaves us is more than a doctrine. It reminds us that consciousness is data philosophy can't treat as optional.
 
----
-
-## Property Dualism
-
-Property dualism claims one kind of substance (usually physical) can instantiate two irreducible property classes: physical and mental.
-
-Why attractive:
-- Avoids substance proliferation.
-- Keeps qualia irreducibility.
-
-Challenge:
-- Must explain mental causation without contradiction with physical closure.
-
----
-
-## Epiphenomenalism
-
-Within dualist neighborhoods, epiphenomenalism treats conscious properties as real but causally inert.
-
-Benefit:
-- Preserves physical causal closure.
-
-Cost:
-- Makes conscious life explanatorily passive.
-
----
-
-## Swinburne
-
-Richard Swinburne defends robust forms of soul-involving dualism tied to personal identity and theism.
-
-Contribution:
-- Clear arguments for persistence of personhood beyond strict physical continuity.
-
-Critique:
-- Heavy metaphysical commitments and interaction issues remain contested.
-
----
-
-## Composite
-
-Composite models treat persons as unified wholes constituted by physical and non-physical aspects (or tightly coupled domains) rather than simple Cartesian separables.
-
-Value:
-- Better fit for lived unity.
-- Avoids some crude interaction caricatures.
-
-Still requires detailed metaphysical mechanics.
-
----
-
-## Stump
-
-Eleonore Stump contributes deeply to personal identity, soul-body unity, and Aristotelian-Thomistic integration.
-
-Relevance:
-- Offers richer anthropology than atomistic mind-body splits.
-- Shows dualist-friendly models can be more structurally nuanced than textbook caricatures.
-
----
-
-## Feser
-
-Edward Feser defends neo-Aristotelian and Thomistic metaphysics that often support hylomorphic alternatives to strict physicalism.
-
-Importance:
-- Reintroduces form, potency, finality, and act as explanatory tools.
-- Challenges assumptions of mechanistic closure as metaphysical default.
-
----
-
-## Moreland
-
-J. P. Moreland defends substance dualist and anti-physicalist lines, especially around qualia, intentionality, and selfhood.
-
-Contribution:
-- Systematic critiques of reductive accounts.
-- Strong emphasis on first-person evidence.
-
----
-
-## Interactive Dualism
-
-Interactive dualism insists mind and body causally affect each other.
-
-Strength:
-- Matches everyday intuition about agency.
-
-Problem:
-- Must explain lawful interaction without violating well-confirmed physical dynamics.
-
-Modern attempts often seek information-theoretic or boundary-condition style bridges.
-
----
-
-## Pitts
-
-Pitts-associated lines in this context are often about sharpening logical structure around causation and interaction claims.
-
-Usefulness:
-- Forces dualist models to move from intuition to formal coherence.
-
----
-
-## Chalmers
-
-David Chalmers is not a standard traditional dualist, but his naturalistic dualism keeps phenomenal consciousness as fundamental and irreducible.
-
-Why central:
-- Hard problem framing gives dualist-adjacent views renewed legitimacy.
-- Opens principled space for psychophysical bridging laws.
-
----
-
-## Final Assessment
-
-Dualism remains compelling where reduction fails, but it pays a coherence tax: interaction, closure, and mechanistic integration are non-trivial demands.
-
-Best current progress often comes from hybrid models:
-
-- dual-aspect frameworks,
-- non-reductive physicalism with anti-eliminative commitments,
-- panpsychist bridges,
-- or naturalistic dualism with explicit law-like structure.
-
-Dualism’s lasting contribution is not only a doctrine—it is a reminder that consciousness is not philosophically optional data.
-
----
-
-### Mini glossary (plain English)
-
-- **Consciousness:** your felt inner experience (what it is like to be you).
-- **Physicalism:** the view that reality is fully part of nature/physics.
-- **Dualism:** mind and matter are fundamentally different in at least one important sense.
-- **Monism:** reality is ultimately one kind of thing or one underlying principle.
-- **Emergence:** complex systems can show new patterns not obvious from their parts alone.
-- **Qualia:** the felt qualities of experience (like the redness of red or pain as felt).
-- **Explanatory gap:** the gap between describing brain processes and explaining felt experience.
+A few words in plain English. Consciousness is your felt inner experience, what it is like to be you. Physicalism is the view that reality is fully part of nature and physics. Dualism says mind and matter are different at the root in at least one important way. Monism says reality is in the end one kind of thing or one principle underneath. Emergence means complex systems can show new patterns you don't see from their parts alone. Qualia are the felt qualities of experience, like the redness of red or pain as it feels. And the explanatory gap is the gap between describing what the brain does and explaining how it feels.

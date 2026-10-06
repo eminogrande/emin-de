@@ -1,5 +1,5 @@
 ---
-title: "proud magazine Berlin — EIN PICASSO ALS THEATERSTÜCK IN BERLIN MITTE, by Daniel Penk"
+title: "proud magazine Berlin, EIN PICASSO ALS THEATERSTÜCK IN BERLIN MITTE, by Daniel Penk"
 description: "Impulsiv, provokativ und überraschend anders. Pablo Picassos Theaterstück „Wie man Wünsche beim Schwanz packt” wurde in den Galerieetagen in Mitte gespielt..."
 date: "2025-06-26T17:34:24.311Z"
 updated: "2025-06-26T17:34:24.311Z"
@@ -18,9 +18,15 @@ voice_check:
   em_dash: 1
   unobserved: 184
 emin_check_pct: null
+voice_rewrite: "framing-only"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-ein-picasso-als-theaterst%C3%BCck-in-berlin-mitte-by-daniel-penk-750997faeecc"
 ---
-# proud magazine Berlin — Ein Picasso als Theaterstück in Berlin Mitte, by Daniel Penk
+# proud magazine Berlin, Ein Picasso als Theaterstück in Berlin Mitte, by Daniel Penk
+
+Text von Daniel Penk, erschienen im proud magazine Berlin. Fotos von Anne Eger.
+
+Ein Text aus dem proud magazine über Picassos Theaterstück in den Galerieetagen in Mitte. Ich teile ihn hier, weil genau solche Sachen in Berlin passieren und es schade wäre, wenn das nur im Heft steht.
 
 ![](../../../media/proud-magazine-berlin-ein-picasso-als-theaterstueck-in-berlin-mitte-by-daniel-pe/01-f46bdeae.png)
 *DAS HIRNVERBRANNTE MEINER INNERSTEN*

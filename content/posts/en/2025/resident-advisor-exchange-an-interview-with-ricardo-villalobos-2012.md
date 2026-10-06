@@ -1,6 +1,6 @@
 ---
-title: "Resident Advisor Exchange: An Interview with Ricardo Villalobos (2012)"
-description: "Host: Todd L. Burns Date: Broadcast approx. 2012 (RA Exchange 100) Source: Resident Advisor"
+title: "Resident Advisor Exchange, an interview with Ricardo Villalobos (2012)"
+description: "Todd L. Burns talks to Ricardo Villalobos for RA Exchange 100 about vinyl, the internet, parties, ECM, modular and staying innocent"
 date: "2025-12-17T18:25:01Z"
 updated: "2025-12-17T18:25:01Z"
 lang: "en"
@@ -13,6 +13,8 @@ reviewed_by_human: false
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/resident-advisor-exchange-an-interview-with-ricardo-villalobos-2012/cover.webp"
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 voice_check:
   em_dash: 32
   unobserved: 423
@@ -21,601 +23,449 @@ original_url: "https://emino.app/posts/resident-advisor-exchange-an-interview-wi
 ---
 ![](../../../media/resident-advisor-exchange-an-interview-with-ricardo-villalobos-2012/cover.jpg)
 
-# Resident Advisor Exchange: Ricardo Villalobos
+# Resident Advisor Exchange with Ricardo Villalobos
 
-**Host:** Todd L. Burns
-**Date:** Broadcast approx. 2012 (RA Exchange 100)
-**Source:** [Resident
-Advisor](https://soundcloud.com/ra-exchange/ra-exchange-100)
+This is a summary of RA Exchange 100, a talk between Todd L. Burns,
+Editor-in-Chief of Resident Advisor, and Ricardo Villalobos, broadcast
+around 2012. You can hear the original on [Resident Advisor's
+SoundCloud](https://soundcloud.com/ra-exchange/ra-exchange-100).
+Everything below is what Ricardo says, not my opinion.
 
-> **Intro:** Hello, and welcome to Resident Advisor's Exchange, a series of conversations with the artists, labels, and promoters that are shaping the electronic music landscape. My name is Todd L. Burns, and I'm the Editor-in-Chief of Resident Advisor. For our 100th RA Exchange, I spoke to Chilean-born, German-bred DJ and producer Ricardo Villalobos.
->
-> For many of you, Villalobos needs no introduction. He's one of the most popular house music producers in the world. He grew up near Frankfurt, his parents moving away from the South American country in the 70s. It was a fortuitous choice. Frankfurt was one of the hubs of electronic music in the 90s, with Playhouse being one of its most important labels. Villalobos first made his name there, and then went on to forge equally important relationships with the Cocoon family and its booking agency, London's Fabric Club (with which he released a mixed CD in 2007), and Perlon, the Berlin label that is now largely his dance music home.
->
-> Lately, Villalobos has been dabbling more and more in experimental music. Last year he released a collaboration with Max Loderbauer in which they reworked tracks from ECM, a German jazz and classical imprint. In this rare interview, he talks about the importance of maintaining an innocent outlook in everything that you do, why he shies away from the Internet, and much more.
+RA Exchange is a series of conversations with the artists, labels and
+promoters that shape electronic music, and for the 100th one Todd
+spoke to the Chilean-born, German-bred DJ and producer. Ricardo is one
+of the most popular house music producers in the world. He grew up
+near Frankfurt, because his parents left Chile in the 70s, and that
+was a lucky choice.
 
-***
+Frankfurt was one of the hubs of electronic music in the 90s and
+Playhouse was one of its most important labels. Ricardo first made his
+name there and then built just as important ties with the Cocoon
+family and its booking agency, with London's Fabric club, where he
+released a mixed CD in 2007, and with Perlon, the Berlin label that is
+now more or less his dance music home.
 
-**Todd L. Burns:** I guess I wanted to begin with how you're feeling.
-I’m feeling this back thing?
+Lately he's been doing more and more experimental music. The year
+before, he and Max Loderbauer released an album where they reworked
+tracks from ECM, the German jazz and classical label. In this rare
+interview he talks about keeping an innocent outlook in everything you
+do, why he stays away from the internet and a lot more.
 
-**Ricardo Villalobos:** Okay, the back thing. I think it's the damage
-from a long time of working in a wrong position. It’s a general
-problem for people who are a little bit taller, and also a problem for
-people who have been doing sports and then stopped. When I was
-twenty-four, I stopped doing sports.
+Todd starts by asking about his back. Ricardo thinks it's damage from
+working a long time in a wrong position. It's a common problem for
+taller people and also for people who did sports and then stopped, and
+he stopped at twenty-four. He played volleyball, athletics and soccer,
+all kinds of sports, and volleyball for the last five or six years.
 
-**Todd L. Burns:** What sport were you playing when you were younger?
+Todd says a lot of Berlin DJs seem to play volleyball together, but
+Ricardo says that was his time before Berlin. He relaxed because he
+thought all that sport would carry him for life, and it's not true.
+From a certain point you have to do sports again, so the muscles make
+up for the wrong positions you have as a DJ.
 
-**Ricardo Villalobos:** I was playing volleyball, athletics, soccer. I
-was doing all kinds of sports, but for the last five or six years, I
-was playing volleyball.
+Wherever he plays there's no place left for the records, or if there
+is, his friends are sitting there, so the records end up on the ground
+and he has to go all the way down, for hours and for many years. And
+the turntables are a bit too low most of the time. In the clubs of the
+last three, four, five years there's no place for records anymore
+because nobody plays records anymore, which he finds very sad.
 
-**Todd L. Burns:** Seems like there are a lot of Berlin DJs that play
-volleyball together.
+He couldn't stand for more than five minutes, so he had to cancel
+everything, because playing would only have worked with a lot of
+painkillers. He took a break, recovered and trained his back. No
+operation was needed, which is what he feared at first, and now
+everything is good.
 
-**Ricardo Villalobos:** Well, I don't know. This was in my pre-Berlin
-period. I was relaxed because I thought, okay, I’ve been doing so many
-sports, so I can relax and live my whole life with this background.
-But it's not true. From a certain point on, you have to start to do
-sports again, especially for the muscles to compensate for the wrong
-positions you have as a DJ.
+Then the new 12-inch for Perlon, which he calls the pre-album 12-inch.
+So another album is coming. He's not only making spaced-out electronic
+jazz lately, he's been producing dance floor music all the time too,
+and the album is a selection of that. They produce and produce and
+swap a lot between friends who also produce, and "ninety-nine percent
+of the things are not coming out."
 
-You have to go down completely because there's no place anymore to put
-the records wherever I play. Or if there is a place, all my friends
-are sitting there. So, in the end, I have to put the records on the
-ground. This movement is a horrible movement to do for hours and for
-many, many years. Also, the turntables are a little bit too low most
-of the time.
+It's a small group of producing and DJing friends, maybe ten, swapping
+long studio sessions, and a selection of those tracks now comes out on
+Perlon.
 
-**Todd L. Burns:** This business wasn't made for people as tall as yourself.
+But vinyl stays very important to them, an original copy of the music.
+It means the artist gets money for it, and so do the distributor, the
+record store and the designer for the label. That's what they want to
+protect, because "this is financing our whole scene and our whole
+culture."
 
-**Ricardo Villalobos:** Yeah. Recently, the last three, four, five
-years, in the clubs there is no place to put the records anymore
-because no one is playing with records anymore, which is very sad.
+Todd says this protect idea seems big for him. Ricardo says a lot of
+moral things and rules about how people live together are getting
+mixed up, and some traditional things are worth protecting, like
+conversations, writing a letter, reading a book, things that seem
+old-fashioned. Right now the thing to protect is an intimate life that
+isn't public, protected from the internet spy machinery.
 
-But my back is good now. I couldn't be standing more than five
-minutes, so I had to cancel everything because it would have been
-possible only with a lot of painkillers. I really had to take a break,
-recover, and train my back a little bit. Now everything is good. There
-was no operation necessary, which is what I thought at the beginning.
+In his words, "The computer knows much more about me than my wife,"
+about his needs and his inner thoughts. So a lot of people talk about
+not taking part in this spy machinery. He calls the internet a very
+critical thing and says all the social networks are like
+disinformation, and he wonders where this information goes.
 
-**Todd L. Burns:** It's good to hear. I saw recently—and it may be out
-by the time this is released—that you have a new 12-inch coming out
-for Perlon.
+He has said in interviews that George Orwell's Big Brother idea is a
+cold joke compared to what's happening now. "At the moment, Big
+Brother is coming into your house, fucking your wife and guests." It
+goes into your most intimate situations.
 
-**Ricardo Villalobos:** Ah yes, this is the pre-album 12-inch, yeah.
-
-**Todd L. Burns:** So another album is on the way?
-
-**Ricardo Villalobos:** Yeah, another album. It's clear that I'm not
-only producing spaced-out electronic jazz music recently. All the time
-I've been producing electronic music for the dance floor also. So this
-is a selection of all these productions.
-
-We produce and produce, but we have a big exchange in between friends
-who are also producing, and many of the things are not coming out.
-Like ninety-nine percent of the things are not coming out. It's not
-only me; in between all our producing and DJing friends, we have a
-little group to exchange this kind of music. A selection of these
-tracks will come out now on Perlon.
-
-**Todd L. Burns:** With the tracks that you're exchanging with people,
-you talk very much about vinyl.
-
-**Ricardo Villalobos:** Yeah, we exchange tracks produced here in the
-studio—very long sessions—with a very little group of friends. Maybe
-ten friends. They are also producing a lot, so we exchange the music.
-
-But for us, of course, it's very important to go on producing vinyl,
-an original copy of the music. It means that the artist will get money
-for it, the distributor, the record store, the designer for the label.
-This is what we want to provide and protect—that this goes on—because
-this is financing our whole scene and our whole culture.
-
-**Todd L. Burns:** I read an interview with you recently and it seems
-like the "protect" idea is very important to you.
-
-**Ricardo Villalobos:** Many moral things, or rules regarding how
-people live together, are getting mixed up. There are some traditional
-things it is important to protect: conversations, writing a letter,
-reading a book. Things which seem to be old-fashioned.
-
-There is something to protect at the moment: to have an intimate
-situation of life which is not public. To protect from the Internet
-spy machinery. The computer knows much more about me than my
-wife—about my needs, my inner thoughts, everything. So, many people
-are discussing not taking part in this big spy machinery. The Internet
-is a very critical thing. All the social networks are like
-disinformation. I wonder where this information is going.
-
-In recent interviews, I was saying that the Big Brother idea of George
-Orwell is a cold joke compared to what's happening at the moment. At
-the moment, Big Brother is coming into your house, fucking your wife
-and guests. It is going into your most intimate situations.
-
-I have the impression that the Internet is like a big gift, a free
-playground where everyone can exchange. But at the end, I have the
-impression that this will disappear. You will have Facebook, Google,
-Apple TV—four or six or seven giant providers—and you will have to pay
-for all information, and the "Internet" as we know it will disappear.
-It was used for twenty-five years to spy on necessities and the most
+He sees the internet as a big gift, a free playground where everyone
+can exchange, but he thinks it will disappear. You'll have Facebook,
+Google, Apple TV, four or six or seven giant providers, you'll pay for
+all information, and the internet as we know it will be gone. In his
+view it was used for twenty-five years to spy on the needs and most
 hidden wishes of every person.
 
-**Todd L. Burns:** It seems like at the same time that you, for good
-reason, don't like the Internet, the Internet has helped you.
+Todd points out that the internet also helped him. Ricardo says every
+form of communication helps, but the most important promotion for what
+they do is the party itself, the record you make, helping other people
+and spreading information directly. "The only promotion is the party
+where you're playing for the next party." The distribution network
+matters too, so a record can reach someone in Jakarta, but he thinks
+the party decides about the next party.
 
-**Ricardo Villalobos:** Every form of communication helps. But the
-most important promotion for what we are doing is the party in itself.
-The record you produce, helping other people, spreading information
-directly—this is what is important. The only promotion is the party
-where you're playing for the next party.
+Todd remembers him saying a party is one of the few places where
+people get together in a peaceful and fruitful way. Ricardo agrees.
+There are concerts and soccer games, but not many situations anymore
+where people get together voluntarily for a common reason, and what's
+nice about parties is the get-together and that there's no aggression
+and no conflict.
 
-Of course, the distribution network to sell records so a record can
-reach someone in Jakarta is very important. But I think the party
-decides about the next party.
+That's why he wants to be there and be part of this collective
+get-together, and he says it's the only reason he DJs. He wants to
+belong to something and be dependent on a whole group. In his view the
+promotion of independence is used to create values, needs and products
+to sell, and he follows what he calls the doctrine of dependency.
 
-**Todd L. Burns:** I think you said once that it's one of the few
-places where people get together and it's peaceful and fruitful.
+You have to be dependent on people and aware of it, be necessary and
+belong to a special place where you're necessary. He thinks
+dependency, like in family systems or a child depending on its mother,
+leads to happiness, and belonging to something leads to happiness, not
+independence. "The promised freedom of independency means to be
+lonesome at the end."
 
-**Ricardo Villalobos:** Yes. There are some places where people get
-together—concerts, soccer games—but there are not so many situations
-anymore where people are voluntarily getting together for a common
-reason. This is the nice thing about parties: the get-together and the
-absence of aggression and conflict.
+Todd asks where this philosophy comes from and if it's from his
+parents. Ricardo says it's not a philosophy. We all get a socially
+responsible education, otherwise we wouldn't have friends or family,
+and it's based on belonging, dependency and social behavior. Making a
+career is another story, but with friends and family you're social and
+you don't try to do business.
 
-This is why I really want to be there. I want to be part of this
-collective get-together. That's the only reason I'm DJing. I want to
-belong to something, be dependent on a whole group. The promotion of
-"independence" is used to create values, necessities, and products to
-sell. But I follow the doctrine of dependency. That means you have to
-be dependent on people and be aware of dependency. To be necessary,
-and to belong to a special place where you are necessary.
+He says the saying "never mix business and friends" is very true,
+because you shouldn't look for an advantage over the other person, or
+you'd have to buy your friends. It's the family idea. Later you swap
+your family for friends and your mother for a new girlfriend, but it
+stays the idea of belonging together and being interdependent, and you
+see it every day.
 
-I think dependency—like you see in family systems, the dependency of a
-child to a mother—these things are leading to happiness. Belonging to
-something leads to happiness, not independency. The promised freedom
-of independency means to be lonesome at the end.
+When his little child cries, the mother runs right away to find a
+solution, with no discussion and no transaction. People who belong to
+each other just do things for each other, and he calls this "the most
+important thing rescuing our world."
 
-**Todd L. Burns:** Where does this philosophy come from? Is this
-something from your parents?
+He grew up in Darmstadt. Making friends is hard in general, he says,
+because you have to invest a lot of time and find common interests.
+His common interest with his father was playing, being as innocent and
+as irresponsible as possible. His father was a mathematician and
+"irresponsible" in a way, he jokes, but after he had to leave Chile he
+couldn't work as a mathematician.
 
-**Ricardo Villalobos:** It's not a philosophy. Of course, there is a
-socially responsible education. We are all educated like that,
-otherwise, we wouldn't have friends or family. Our foundational
-education is based on the idea of belonging, of dependency, and of
-social behavior.
+He worked as an engineer or whatever came, because he was in a new
+country and the family had to survive.
 
-When you have to make a career, that’s another story. But I'm talking
-about having friends and family. We treat friends in a social way; we
-are not trying to make business with friends. The saying "never mix
-business and friends" is very true because you shouldn't try to find
-an advantage over the other person. You would have to buy your friends
-if you did that.
+The area was very nice. There was a lot of information about
+electronic music and a good school system, and it was a bit in the
+countryside, so he saw a lot of nature but also technology and
+culture. Of course it's a different mentality than the Spanish or
+Latin one in South America, and there were moments where you notice
+someone from Northern Europe reacts differently than someone south of
+the Alps.
 
-This behavior is shown in the family system. What family means for you
-and me comes from that idea. Then you substitute your family with
-friends, you substitute your mother with a new girlfriend. But it’s
-the family idea of belonging together and being interdependent. It’s
-not a philosophy, it’s something you see every day. When my little
-child cries, the mother runs immediately to find a solution. There is
-no discussion or transaction. People who belong to each other just do
-things for each other. This is the most important thing rescuing our
-world.
+One example is how you handle truth. In Latin culture there are
+different ways of explaining reality with different truths, and
+there's always a little back door to get out of a situation. In
+Northern Europe people always try to say the truth, their own personal
+subjective truth, and he says that right can be very useful for
+scientists but not very useful for human relationships.
 
-**Todd L. Burns:** When you were growing up near Frankfurt, was it
-hard to make friends?
+His first parties were his parents' kitchen parties. Always music and
+always dancing, when Chilean people in Germany came together to
+celebrate and listen to South American dance music. Todd asks about
+Violeta Parra, and Ricardo says they listened to all kinds of South
+American folk music, but what he remembers most is the parties, the
+dance and the rhythm.
 
-**Ricardo Villalobos:** I grew up in Darmstadt. It's hard to make
-friends in general because you have to invest a lot of time and find
-common interests.
+That impressed him the most. Todd asks if his house is also full of
+dancing. "Of course. I try to."
 
-**Todd L. Burns:** What was your common interest with your father?
+Roman Flügel once told Todd that Ricardo used to have after-parties in
+his basement. Ricardo confirms it. At twenty, out of school and still
+living with his parents, he was DJing a lot. They invited friends,
+people from Detroit or wherever, made parties and then had their own
+little after-hour in the basement of his parents' house.
 
-**Ricardo Villalobos:** My common interest was playing. Being as
-innocent as possible. As irresponsible as possible.
-
-**Todd L. Burns:** But your father was a mathematician?
-
-**Ricardo Villalobos:** Yes. My father was "irresponsible" in a way
-[laughs]. No, after he had to leave Chile, he couldn't work as a
-mathematician. He had to work as an engineer or whatever work came
-because he was in a new country and his family had to survive.
-
-**Todd L. Burns:** What was Frankfurt like growing up?
-
-**Ricardo Villalobos:** It was very nice. There was a lot of
-information about electronic music and a good educational system. It
-was in the countryside a little bit, so I saw a lot of nature, but
-also technology and culture.
-
-Of course, it's a different mentality than the Spanish or Latin
-mentality we have in South America. There were moments where you
-realize someone from Northern Europe reacts differently to someone
-south of the Alps.
-
-**Todd L. Burns:** What were some of the things where you thought,
-"Oh, that is a little bit different"?
-
-**Ricardo Villalobos:** For example, the way you handle truth. In
-Latin culture, there are different ways of explaining reality with
-"different truths," and you always have a little back door where you
-can escape the situation. In Northern Europe, you have the mentality
-to always try to say the truth—your own personal, subjective truth.
-This right to say a personal truth can be very useful for scientists,
-but not very useful for human relationships.
-
-**Todd L. Burns:** What were some of the first parties that you were going to?
-
-**Ricardo Villalobos:** The first parties were the kitchen parties of
-my parents. Always music, always dancing in whatever situation. When
-Chilean people in Germany came together to celebrate and listen to
-South American dance music.
-
-**Todd L. Burns:** Were you listening to Violeta Parra?
-
-**Ricardo Villalobos:** Yeah, we were listening to all kinds of South
-American folk music. But what I remember more than anything is the
-parties. The dance situation. The rhythm situation. This is what
-impressed me the most.
-
-**Todd L. Burns:** Is your house also full of dancing?
-
-**Ricardo Villalobos:** Of course. I try to.
-
-**Todd L. Burns:** I remember talking to Roman Flügel and he said that
-you used to have after-parties in your basement.
-
-**Ricardo Villalobos:** Yeah, when I was twenty, getting out of school
-and still living with my parents, I was DJing a lot. We had invited
-friends—people from Detroit or wherever—making parties and then having
-our personal little after-hour in the basement of my parents' house.
-
-**Todd L. Burns:** He said he remembers coming up out of the basement
-and your dad was just sitting there like, "Oh, hello."
-
-**Ricardo Villalobos:** Exactly. He was sitting in the kitchen. In the
-basement, I know Carl Craig was playing, and he was 22 years old,
-playing one of the most amazing sets I've ever heard. It was a very
+Roman remembered coming up out of the basement with Ricardo's dad just
+sitting there saying "Oh, hello." Ricardo says exactly, he was sitting
+in the kitchen. Down in the basement Carl Craig played, 22 years old,
+one of the most amazing sets Ricardo has ever heard. It was a very
 nice period, from ninety-two till ninety-six.
 
-**Todd L. Burns:** And you were hanging out with all the Playhouse guys.
-
-**Ricardo Villalobos:** They were very active in Frankfurt selling
-records and having record stores—Delirium record store—and before that
-working at Boy Records. They provided music to all the known Frankfurt
-DJs, specifically Ata and Heiko M/S/O. This was the central point for
-meeting people interested in house music.
-
-**Todd L. Burns:** It seems like the center in a lot of ways.
-
-**Ricardo Villalobos:** It was a center of information. There was a
-culture, a lot of record stores, and very important clubs like the
-Dorian Gray, and later The Omen. There was a lot of money for
-entertainment in the night. These are the basics for creating a
-cultural nucleus.
-
-**Todd L. Burns:** Who were you talking to when you were first
-starting to produce to get advice?
-
-**Ricardo Villalobos:** There is no source of advice. Your whole
-musical experience decides what you're doing. It’s about the music
-you're listening to and the friends who have this common interest
-helping each other.
-
-Buying the first synthesizer... I wanted to have one, so my parents,
-my grandmother, everyone collected money because it was too expensive.
-To have a DX11 or DX7 was a dream. They collected about 700 Marks for
-a Christmas present and bought a Roland SH-101. I was super
-disappointed. I was like, "What should I do with this shit?"
-
-Children are sometimes very unjust treating their parents. I realize
-it now with my two and four-year-old kids. But after half a year, I
-looked at the 101 and said, "Okay, let's start to do something." A
-friend bought his first drum machine, a 707.
-
-We started to do pop music, Depeche Mode oriented music. Daniel
-Miller, the producer of Depeche Mode, was behind that whole sound
-structure. You were always recognizing some repetitive
-four-to-the-floor beat—like the "Get the Balance Right!" maxi-single,
-for example, from eighty-one or eighty-two. That was a revolution.
-It's one of the first techno things. That was a big influence, along
-with Italo disco.
-
-**Todd L. Burns:** Did you go see Depeche Mode play?
-
-**Ricardo Villalobos:** Yes, from when I was twelve until I was
-seventeen, I was at thirty-two concerts. I was following them
-everywhere in Europe with the train. We were huge fans. Until I was
-sixteen or seventeen, then I had to start taking care of my own life.
-
-**Todd L. Burns:** That was the one band that you really followed.
-
-**Ricardo Villalobos:** Depeche Mode was a good compromise between the
-pop world and the new technology of electronic music. For me, they are
-the Beatles of our new era. They explained to a bigger mass of people
-that electronic music is also music, and the synthesizer is also an
-instrument. And especially the quality of how many good pop songs they
-were writing.
-
-**Todd L. Burns:** How did you get to house music from pop music?
-
-**Ricardo Villalobos:** The South American rhythm music was there, and
-then disco came on. My parents took me to the discotheque on vacation.
-For me, it was always the same thing. Through the whole electronic
-wave scene at the beginning of the eighties, something happened where
-it became house music. This mixture. It was so natural that house
-music was a base or a common thing I was interested in.
-
-**Todd L. Burns:** I think for a lot of Americans it's hard sometimes
-because it is "pop music" in Germany.
-
-**Ricardo Villalobos:** It's not pop music in Germany. What happened
-is that from the song-oriented house track, there suddenly came this
-new "dance floor" style, which is a very cheesy form of electronic pop
-music based on house. I don't consider it house music anymore.
-
-But the techno, house, and Euro-trance thing follows certain dance
-rules or rhythmical rules. If you see it as a whole, it's pop also.
-What I'm trying to contribute concerns so many thousands of people in
-the world that I would consider it something like pop music. Pop music
-is popular music—it belongs to as many people as possible.
-
-**Todd L. Burns:** Tell me about putting out your first record. It was
-on Playhouse in 1994?
-
-**Ricardo Villalobos:** No, my first record was on Overdrive, a label
-from Mainz near Frankfurt, in ninety-two. Then we had two little
-labels, Elastic [and] Placid Flavour. Then at the end of ninety-four,
-my first Playhouse record came out, but that was my fifth or seventh
-record.
-
-**Todd L. Burns:** When did you feel like you had an individual voice,
-that maybe you weren't copying something?
-
-**Ricardo Villalobos:** I really never try to feel that I have it
-because I don't want to define what I'm doing. When I sit here in the
-studio and press record, I don't have a concept. It has to sound nice
-for me.
-
-Music is like a language. It has to be in a nice, non-aggressive,
-explaining voice. If someone is screaming at you or talking too much,
-I stop understanding. I try to produce a hearable and nice form of
-clear language. The most important thing is not to have a concept. It
-has to sound nice to me—the frequency of the bass drum, the bassline.
-And then record. It doesn't matter if it's house, techno, or
-electronic jazz.
-
-Generally, when we are talking, we talk in a gentle way. That's the
-best way of communication. I think music should be like that too.
-
-**Todd L. Burns:** But there is a lot of aggressive music out there.
-
-**Ricardo Villalobos:** Yes, and I really love moments of pure energy
-exchange. I love rock situations. I love when a hard techno track
-really crashes me away. But not all the time. I like dark holes and
-bass, but I also like bright, colorful situations.
-
-The worst thing you can do is declare music "good" or "bad." Good or
-bad music doesn't exist. There is music where you understand the
-language, or the communication failed and you don't understand. That
-doesn't mean the music is bad. Music is just a language you understand
-or not.
-
-**Todd L. Burns:** I think with your DJ sets, over time you've
-incorporated more influences and audiences are willing to go with you
-further.
-
-**Ricardo Villalobos:** In every DJ situation, you have to convince
-the people. No matter if they are prepared or have no clue. You have
-to convince them with the language you are talking in that moment.
-
-You have to have the energy to convince. Even if you feel bad, you
-have to try to establish this form of communication. If it fails,
-maybe they won't book you again. Success for a DJ is being able to
-explain something so people understand.
-
-It's interesting regarding the cultural background. You notice that
-people have completely different backgrounds, but with the rhythmical
-formula, you can convince anyone in the whole world to dance.
-
-For example, at the moment I'm playing a record from a Palestinian
-guy. They are doing folk music with clapping hands—more or less the
-same BPM as house music—chanting around a fire. Even if parts of the
-world condemn Arab culture for whatever enemy it supposedly is, when
-you play this music, everyone becomes Arab. Everyone is fascinated.
-First, the Arab people come and say, "Hey, this is Arab music!" Then
-suddenly you realize that people who might think the guy on the sleeve
-looks like a "terrorist" are convinced the music is wonderful.
-
-This is the universal language of music. It’s an anti-Babylon. It
-doesn't matter from which culture you come. If this Arab guy convinces
-you with his chanting, even the biggest Arab-hater will dance. Music
-shows that we all have something in common. We all belong to the
-Indo-European culture—three and a half billion people speaking
-English, Spanish, Persian, Hindi. All these languages belong together.
-
-It's very strange when people invent reasons to bomb the Persians,
-because we belong together. Music shows that we can love each other
-and dance together without having any problem.
-
-**Todd L. Burns:** You have a really interesting perspective. Any
-person who is an international DJ has an interesting perspective
-because they see all these people dancing to the same songs.
-
-**Ricardo Villalobos:** Exactly. I don't want to be a politician. I
-don't want to blow up our bubble because we exist in a bubble. Our
-movement is a still-accepted bubble which has no political meaning. If
-we try to produce political meanings out of our bubble, it could be
-dangerous. We should protect our bubble and be happy that we are able
-to make parties.
-
-**Todd L. Burns:** You have to work very hard to create that bubble.
-
-**Ricardo Villalobos:** Yes, and defend it. We are not "DJ
-terrorists." As long as no DJ terrorist is killed by some agency, we
-are safe. We have to be happy for those eight or ten hours where we
-can meet and hear music.
-
-**Todd L. Burns:** When you were doing interviews around the ECM
-release, you mentioned there was a point you started putting Arvo Pärt
-and Alexander Knaifel in your DJ sets. When did this start?
-
-**Ricardo Villalobos:** There are certain moments in the party where
-you feel very dizzy, and the party is losing control of the normal
-state of life. It’s very monotone and rhythmical. Then you think, "It
-would be nice to put a choir or a violin on it." A melody from
-somewhere else gives a colorful touch.
-
-I wasn't into classic or jazz music back then, but every time I
-listened, I was emotionally impressed. So I thought I could put what
-impressed me into the DJ set—especially pieces which are not
-rhythmical, to put them on top of monotone rhythmical music.
-
-**Todd L. Burns:** And when did you get into jazz and classical?
-
-**Ricardo Villalobos:** Because of ECM. When I was a child, I bought
-my first ECM record, an interpretation of Keith Jarrett's music. My
-parents brought me to concerts. But when you are innocent, you don't
-make a difference between jazz or classic; it's just music.
-
-**Todd L. Burns:** And when you were doing the ECM thing, you said you
-were looking for "empty."
-
-**Ricardo Villalobos:** Exactly. The things I used in my sets were
-non-rhythmical—one instrument or a choir. Some people from ECM heard
-that at parties. They suggested making an evening where we play ECM
-records with my music. Then suddenly, "Why don't we record a record?"
-
-**Todd L. Burns:** It seems really hard. Were you nervous?
-
-**Ricardo Villalobos:** No. Working with a concept is difficult for
-me, but I was working with Max Loderbauer. We are good friends. We
-listen to more music here than we produce. We sit here, smoke
-cigarettes, and listen. So it was clear: "Let's take this part of an
-ECM track, loop it, and put something on it." We did it in a very
-innocent way, without thinking, "Oh shit, perhaps it's not serious
-enough for the jazz people."
-
-**Todd L. Burns:** When you met Manfred Eicher, what did you play him first?
-
-**Ricardo Villalobos:** We played him the first four tracks we made.
-He recognized immediately that it was a good form of mixing ECM music
-with a new electronic approach. He said, "Okay, do whatever you want."
-
-We produced twenty more tracks. He sent us suggestions, searching for
-"empty parts" of tracks. It was very fertile. We had about twenty-four
-tracks, edited them, and then had to kick out five or six because it
-was too much music for two CDs.
-
-**Todd L. Burns:** You played live with it as well.
-
-**Ricardo Villalobos:** Yeah, always Max and me with the modular
-systems and one jazz musician. We played with Christian Wallumrød. The
-first concert here in Berghain was with Claudio Puntin. Our Italy tour
-was with Gianluca Petrella, an amazing trombone player.
-
-We play in these old places—Puccini, Paganini—incredible Italian
-concert halls, 500 years old, full of gold. It’s nice to get in touch
-with this traditional culture.
-
-**Todd L. Burns:** It must be exciting to have this challenge,
-performing this way for the first time.
-
-**Ricardo Villalobos:** Yes, but then you have your Italian friends
-coming who know the parties but never listened to the ECM records.
-After twenty minutes, the first guy is screaming "Bass drum!" and "I
-want my money back!" They think it’s a Ricardo performance and I’m
-going to play danceable music. There is a rhythmical situation, but
-only for five minutes. Everything is improvised.
-
-**Todd L. Burns:** How do you go about playing the modular live?
-
-**Ricardo Villalobos:** Max and I separate roles. I take care of the
-rhythmical sound structure. He takes care of the melody or harmonic
-part. But it can go wrong. If you don't have enough light or you're
-nervous, you might not find the right hole for the cable.
-
-It's completely improvised. You can't stop the concert; you have to
-deal with the situation.
-
-**Todd L. Burns:** Do you feel like you're getting better?
-
-**Ricardo Villalobos:** You get less nervous. Pressure always causes
-unskilled actions. Innocence is free of pressure. Observing my kids, I
-see what it means to be innocent, free of responsibility and
-competition.
-
-To stay out of competition is the most important sentence in my life.
-To say, "Sorry, I'm not competing with you. I don't want to be the
-best or richest." Just let us do things.
-
-**Todd L. Burns:** It seems like so many electronic musicians are
-playing around with the modular.
-
-**Ricardo Villalobos:** I think it's an emancipation. It's more fun to
-find the cable and connect this hole with this hole. You can have the
-same modules digitally in Reaktor or Kyma or Max MSP, but with
-modular, you have the impression that you can find a more individual
-sound.
-
-If you use a computer, you often have a preset influencing you. With
-modular, you always start from zero. It feels more personal. And it's
-not elite; you can buy one module per month.
-
-**Todd L. Burns:** Are you using that quite a bit in your dance music?
-
-**Ricardo Villalobos:** Yes, of course. It's less boring for me. It’s
-like playing with Lego or Fischertechnik as a child. It's like a game.
-
-**Todd L. Burns:** It seems like keeping things "like a child" is very
-important to you.
-
-**Ricardo Villalobos:** Not losing the relationship to innocence is
-very important. When we go to a party, suddenly everyone becomes a
-child—smiling, hugging, no competition. Going to a party is like going
-to kindergarten.
-
-My children are my biggest idols now. How they handle being innocent,
-how they don't use their intellect but just decide based on
-subconscious information. Consciousness is sometimes my biggest
-enemy—thinking about the future and the past. My children just decide.
-
-**Todd L. Burns:** How do you balance the responsibility?
-
-**Ricardo Villalobos:** I give all responsibility to my wife [laughs].
-My wife is taking a lot of responsibility. Thank God I found someone
-who is different than me, organizing and planning. She gives me a
-shelter where I can be free and out of competition. It's important to
-find someone who protects you and says, "Okay, let me do the
-organizing, you go to the studio for eight hours and be a child."
-
-**Todd L. Burns:** Last time we talked, I asked what you want to be
-doing, and you said soundtrack work, more jazz things. You've been
-doing that. What next?
-
-**Ricardo Villalobos:** I don't know. If you define the future, it’s
-complicated. The ECM thing is nearly the same thing I’m doing
-otherwise—recording whatever comes out of the studio without a
-specific purpose.
-
-For me, it's most important to just go on doing what I do. Not try to
-reinvent myself. I really love the party, I love to produce dance
-tracks, and I will go on doing that. If something jazzy comes out,
-okay. But it is the worst to define the future. Being a DJ and
-producing is what I’m going to do for the next 10, 15, 20 years if my
-health admits it.
-
-***
-
-### References & Links
-
-* **Original Interview:** [Resident Advisor Exchange](https://ra.co/exchange)
-* **Artist Profile:** [Ricardo Villalobos on Resident
-Advisor](https://ra.co/dj/ricardovillalobos)
-* **Featured Label:** [Perlon Records](https://www.discogs.com/label/396-Perlon)
-* **Featured Collaboration:** [Ricardo Villalobos & Max Loderbauer -
-Re: ECM](https://www.ecmrecords.com/)
-* **Key Venue:** [Robert Johnson
-(Frankfurt)](https://www.robert-johnson.de/) | [Fabric
-(London)](https://www.fabriclondon.com/)
+He was hanging out with the Playhouse guys. They were very active in
+Frankfurt, selling records and running record stores, the Delirium
+record store and before that Boy Records. They supplied all the known
+Frankfurt DJs, mostly Ata and Heiko M/S/O, and it was the central
+meeting point for people into house music. A center of information, he
+says.
+
+There was a culture, a lot of record stores and very important clubs
+like the Dorian Gray and later The Omen, and a lot of money for
+nightlife entertainment. Those are the basics for a cultural nucleus.
+
+Asked who gave him advice when he started producing, he says "There is
+no source of advice." Your whole musical experience decides what you
+do, the music you listen to and friends with the same interest helping
+each other. He wanted a synthesizer and it was too expensive, so his
+parents, his grandmother and everyone collected money.
+
+A DX11 or DX7 was a dream. They collected about 700 Marks for a
+Christmas present and bought a Roland SH-101, and he was super
+disappointed. "What should I do with this shit?" He says children are
+sometimes very unjust to their parents, and he sees it now with his
+two and four-year-old kids. After half a year he looked at the 101 and
+said "Okay, let's start to do something." A friend bought his first
+drum machine, a 707.
+
+They started with pop music, oriented on Depeche Mode. Daniel Miller,
+the producer of Depeche Mode, was behind that whole sound, and you
+always heard some repetitive four-to-the-floor beat, for example on
+the "Get the Balance Right!" maxi-single from eighty-one or
+eighty-two. Ricardo calls it a revolution and one of the first techno
+things. That was a big influence, together with Italo disco.
+
+From twelve to seventeen he went to thirty-two Depeche Mode concerts
+and followed them all over Europe by train. They were huge fans, until
+at sixteen or seventeen he had to start taking care of his own life.
+For him Depeche Mode was a good compromise between the pop world and
+the new technology of electronic music.
+
+"For me, they are the Beatles of our new era." They explained to a lot
+of people that electronic music is also music and the synthesizer is
+also an instrument, and they wrote so many good pop songs.
+
+The way to house was natural. South American rhythm music was there
+first, then disco came, and his parents took him to the discotheque on
+vacation. For him it was always the same thing. Out of the whole
+electronic wave scene at the start of the eighties something happened
+and it became house music, this mixture, and so house was the common
+base of what he was into.
+
+Todd says it's hard for a lot of Americans because house is pop music
+in Germany. Ricardo says it's not pop music in Germany. What happened
+is that the song-oriented house track turned into this new dance floor
+style, a very cheesy form of electronic pop based on house, and he
+doesn't count that as house anymore.
+
+But techno, house and the Euro-trance thing all follow certain dance
+and rhythm rules, and seen as a whole it's pop too. What he tries to
+contribute reaches so many thousands of people that he'd call it
+something like pop music. pop music is popular music and belongs to as
+many people as possible.
+
+His first record was not on Playhouse in 1994, as Todd thought. It
+came out on Overdrive, a label from Mainz near Frankfurt, in
+ninety-two. Then they had two small labels, Elastic and Placid
+Flavour, and at the end of ninety-four his first Playhouse record came
+out, which was already his fifth or seventh record.
+
+Todd asks when he felt he had his own voice. Ricardo says he never
+tries to feel that, because he doesn't want to define what he does.
+When he sits in the studio and presses record he has no concept, and
+it just has to sound nice to him. He says music is like a language and
+should come in a nice, non-aggressive, explaining voice.
+
+If someone screams at you or talks too much, you stop understanding.
+He tries to produce a hearable, nice and clear language. The most
+important thing is to have no concept. The frequency of the bass drum
+and the bassline have to sound nice to him, and then he records, and
+it doesn't matter if it's house, techno or electronic jazz.
+
+When we talk we usually talk in a gentle way, which is the best way to
+communicate, and he thinks music should be like that too.
+
+There's a lot of aggressive music, Todd says. Ricardo agrees and loves
+moments of pure energy exchange, rock situations and a hard techno
+track that "really crashes me away," just not all the time. He likes
+dark holes and bass but also bright colorful situations. To him the
+worst thing you can do is call music good or bad.
+
+"Good or bad music doesn't exist." There's music where you understand
+the language and music where the communication fails, and that doesn't
+make it bad. "Music is just a language you understand or not."
+
+Todd says his DJ sets took in more influences over time and audiences
+follow him further. Ricardo says in every DJ situation you have to
+convince the people, no matter if they're prepared or have no clue,
+with the language you speak in that moment. You need the energy to
+convince, even when you feel bad, and if it fails maybe they won't
+book you again.
+
+"Success for a DJ is being able to explain something so people
+understand." People have completely different cultural backgrounds,
+but with the rhythm formula you can get anyone in the world to dance.
+
+His example is a record he's playing at the moment by a Palestinian
+guy. It's folk music with clapping hands at more or less the same BPM
+as house, chanting around a fire. Even if parts of the world condemn
+Arab culture as whatever enemy, when you play this music "everyone
+becomes Arab," and everyone is fascinated.
+
+First the Arab people come and say "Hey, this is Arab music!" and then
+people who might think the guy on the sleeve looks like a terrorist
+are convinced the music is wonderful. He calls it the universal
+language of music, an anti-Babylon. It doesn't matter which culture
+you come from, and if this guy convinces you with his chanting, even
+the biggest Arab-hater will dance.
+
+Music shows we all have something in common. He says we all belong to
+the Indo-European culture, three and a half billion people speaking
+English, Spanish, Persian and Hindi, and all these languages belong
+together. So it's very strange to him when people invent reasons to
+bomb the Persians, because we belong together, and music shows we can
+love each other and dance together without any problem.
+
+Todd says every international DJ gets an interesting view because they
+see all these people dancing to the same songs. Ricardo says exactly,
+but he doesn't want to be a politician or blow up the bubble they live
+in. Their movement is a still-accepted bubble with no political
+meaning, and trying to make political meaning out of it could be
+dangerous.
+
+They should protect the bubble and be happy they can make parties.
+Todd says you have to work hard to create it. Yes, Ricardo says, and
+defend it. They are not DJ terrorists, and as long as no DJ terrorist
+gets killed by some agency they're safe, and they should be happy for
+those eight or ten hours where they can meet and hear music.
+
+Around the ECM release he mentioned putting Arvo Pärt and Alexander
+Knaifel into his DJ sets. He explains that there are moments in a
+party where you feel very dizzy and the party loses control of the
+normal state of life. It's very monotone and rhythmic, and then you
+think "It would be nice to put a choir or a violin on it."
+
+A melody from somewhere else gives it some color. He wasn't into
+classical or jazz back then, but every time he listened he was moved,
+so he put what moved him into the set, especially pieces without
+rhythm, on top of monotone rhythmic music.
+
+He got into jazz and classical because of ECM. As a child he bought
+his first ECM record, an interpretation of Keith Jarrett's music, and
+his parents took him to concerts. But when you're innocent you don't
+make a difference between jazz and classical, it's just music. Todd
+says he was looking for empty on the ECM project.
+
+Exactly, Ricardo says. What he used in his sets had no rhythm, one
+instrument or a choir. People from ECM heard that at parties and
+suggested an evening where they play ECM records with his music, and
+then suddenly it was "Why don't we record a record?"
+
+He wasn't nervous. Working with a concept is hard for him, but he did
+it with Max Loderbauer, a good friend. They listen to more music in
+the studio than they produce, they sit there, smoke cigarettes and
+listen. So it was clear, take this part of an ECM track, loop it and
+put something on it.
+
+They did it in a very innocent way, without thinking "Oh shit, perhaps
+it's not serious enough for the jazz people."
+
+When they met Manfred Eicher they played him the first four tracks. He
+saw right away it was a good way of mixing ECM music with a new
+electronic approach and said "Okay, do whatever you want." They made
+twenty more tracks, and Eicher sent suggestions and went looking for
+empty parts of tracks. Ricardo says it was very fertile.
+
+They had about twenty-four tracks, edited them and had to kick out
+five or six because it was too much music for two CDs.
+
+They also play it live, always Max and Ricardo with the modular
+systems plus one jazz musician. They played with Christian Wallumrød,
+the first concert at Berghain was with Claudio Puntin, and the Italy
+tour was with Gianluca Petrella, an amazing trombone player. They play
+in old places, Puccini, Paganini, incredible Italian concert halls,
+500 years old and full of gold, and he likes getting in touch with
+that traditional culture.
+
+But then Italian friends come who know the parties and never listened
+to the ECM records. After twenty minutes the first guy screams "Bass
+drum!" and "I want my money back!" because they think it's a Ricardo
+show and he'll play dance music. There's a rhythmic part, but only for
+five minutes, and everything is improvised.
+
+Live, Max and Ricardo split the roles. Ricardo takes care of the
+rhythmic sound structure and Max takes the melody and the harmonic
+part. But it can go wrong. If there isn't enough light or you're
+nervous, you might not find the right hole for the cable. It's
+completely improvised and you can't stop the concert, so you have to
+deal with whatever happens.
+
+Asked if he's getting better, he says you get less nervous. "Pressure
+always causes unskilled actions. Innocence is free of pressure."
+Watching his kids he sees what it means to be innocent, free of
+responsibility and competition. "To stay out of competition is the
+most important sentence in my life." To say "Sorry, I'm not competing
+with you. I don't want to be the best or richest." Just let us do
+things.
+
+So many electronic musicians play with modular now, and Ricardo calls
+it an emancipation. It's more fun to find the cable and connect this
+hole with that hole. You can have the same modules digitally in
+Reaktor or Kyma or Max MSP, but with modular you feel you can find a
+more personal sound. On a computer a preset often pushes you
+somewhere, with modular you always start from zero, and it's not
+elite, because you can buy one module per month.
+
+He uses it in his dance music too, because it's less boring for him.
+"It's like playing with Lego or Fischertechnik as a child. It's like a
+game."
+
+Todd says keeping things like a child seems very important to him.
+Ricardo says not losing the relationship to innocence is very
+important. When we go to a party everyone suddenly becomes a child,
+smiling and hugging with no competition. "Going to a party is like
+going to kindergarten." His children are his biggest idols now, how
+they stay innocent, how they don't use their intellect and just decide
+based on subconscious information. Consciousness is sometimes his
+biggest enemy, thinking about the future and the past, and his
+children just decide.
+
+So how does he handle responsibility? He gives all responsibility to
+his wife, he laughs. She takes a lot of responsibility, and he's glad
+he found someone different from him who organizes and plans. She gives
+him a shelter where he can be free and out of competition. It's
+important to find someone who protects you and says "Okay, let me do
+the organizing, you go to the studio for eight hours and be a child."
+
+Last time they talked, Ricardo said he wanted to do soundtrack work
+and more jazz things, and he's been doing that. So what's next? He
+doesn't know, and defining the future is complicated. The ECM thing is
+nearly the same as what he does otherwise, recording whatever comes
+out of the studio without a specific purpose.
+
+For him the most important thing is to just go on doing what he does
+and not try to reinvent himself. He loves the party, he loves
+producing dance tracks and he'll keep doing that, and if something
+jazzy comes out, okay. "But it is the worst to define the future."
+Being a DJ and producing is what he'll do for the next 10, 15, 20
+years, "if my health admits it."
+
+## Links
+
+The original interview is on [Resident Advisor
+Exchange](https://ra.co/exchange), and there's [Ricardo Villalobos on
+Resident Advisor](https://ra.co/dj/ricardovillalobos). His label is
+[Perlon Records](https://www.discogs.com/label/396-Perlon), the
+collaboration is [Ricardo Villalobos and Max Loderbauer, Re:
+ECM](https://www.ecmrecords.com/), and the key venues are [Robert
+Johnson in Frankfurt](https://www.robert-johnson.de/) and [Fabric in
+London](https://www.fabriclondon.com/).

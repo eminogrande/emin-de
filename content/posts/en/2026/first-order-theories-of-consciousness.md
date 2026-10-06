@@ -1,6 +1,6 @@
 ---
 title: "First-Order Theories of Consciousness"
-description: "This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly..."
+description: "One column from my map of consciousness theories, the first-order lens, with the names on it and how to read them."
 date: "2026-02-20T22:03:00Z"
 updated: "2026-02-20T22:03:00Z"
 lang: "en"
@@ -14,53 +14,21 @@ source: "emino.app"
 third_party_summary: false
 cover: "../../../media/first-order-theories-of-consciousness/cover.webp"
 voice_check:
-  em_dash: 2
+  em_dash: 0
   unobserved: 20
-emin_check_pct: null
+emin_check_pct: 60
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100007-first-order-theories-of-consciousness/"
 ---
-This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly and fairly.
+This is a longer guide in simple words, so people who are new to the topic can still follow it. The idea is to go through each point on my map and explain it in a clear and fair way.
 
-## Overview
+The column tries to answer one big question, how consciousness works, and it uses one specific lens for that. It doesn't say it's the only truth, but it gives you good tools to think with.
 
-In plain words: this column tries to answer one big question—how consciousness works—using one specific lens. It does not claim to be the only truth, but it gives useful tools for thinking.
+The names and ideas in this column are Dretske, Lamme, Carruthers, Tye, Transparency and Direct Realism. Each one is on the map because it's an important reference point.
 
-## Dretske
+And for each one I ask the same simple questions. What does this idea explain well, what does it miss, and how can we test it better? So Dretske gets those questions, and Lamme, and Carruthers and Tye, and also the ideas of Transparency and Direct Realism.
 
-Dretske is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
+If you're not an expert, you don't have to agree with every claim. The best way to read all of this is to put the models next to each other and ask which one explains experience, brain data and everyday life with the least confusion.
 
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Lamme
-
-Lamme is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Carruthers
-
-Carruthers is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Tye
-
-Tye is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Transparency
-
-Transparency is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Direct Realism
-
-Direct Realism is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Closing
-
-If you’re new to philosophy of mind, the practical takeaway is this: no single model explains everything yet. But each model contributes a piece. Reading across them gives a stronger, less dogmatic understanding.
+And if you're new to philosophy of mind, the practical thing to take away is that no single model explains everything yet. But every model adds a piece, and if you read across all of them you get a stronger and less dogmatic understanding.

@@ -17,6 +17,8 @@ voice_check:
   em_dash: 0
   unobserved: 3
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/passing-facebooks-technical-interview-2017/"
 ---
 ![IMG 4464.PNG](../../../media/passing-facebooks-technical-interview-2017/IMG_4464.PNG)

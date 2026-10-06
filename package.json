@@ -24,6 +24,7 @@
     "migrate:canonical": "node scripts/migrate-canonical.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
     "@fontsource-variable/newsreader": "^5.3.0",
     "astro": "^6.1.8",
     "rehype-sanitize": "^6.0.0"

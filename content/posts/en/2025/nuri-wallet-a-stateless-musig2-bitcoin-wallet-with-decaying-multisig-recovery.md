@@ -1,6 +1,6 @@
 ---
 title: "Nuri Wallet: A Stateless MuSig2 Bitcoin Wallet with Decaying Multisig Recovery"
-description: "Work in Progress. Document written by Opus 4.5"
+description: "How we designed Nuri Wallet. Passkey keys that are never stored, MuSig2, an NFC card, a 2FA server and a multisig that decays so you can always recover."
 date: "2025-12-08T21:00:01Z"
 updated: "2025-12-08T21:00:01Z"
 lang: "en"
@@ -17,69 +17,21 @@ voice_check:
   em_dash: 0
   unobserved: 287
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/nuri-wallet-a-stateless-musig2-bitcoin-wallet-with-decaying-/"
 ---
 ![](../../../media/nuri-wallet-a-stateless-musig2-bitcoin-wallet-with-decaying-multisig-recovery/cover.jpg)
 
-Work in Progress. Document written by Opus 4.5
+This is work in progress. The document was written by Opus 4.5 and it's the design of Nuri Wallet as we think about it right now.
 
-## Technical Design Document
+Nuri Wallet is a Bitcoin wallet that puts four things together into one security setup. MuSig2 Schnorr signatures, keys that are derived on the fly with the WebAuthn PRF extension and never stored, an NFC hardware wallet, and a server that co-signs behind two-factor authentication. We care about security and about getting your money back, both. That's why there is a decaying multisig, so you can always recover your funds, even when one or more of the signing parts are gone.
 
----
+The document has ten parts. Part one is why we built it this way, two is how it fits together, three is the three keys, four is MuSig2, five is the 2-of-2 and 2-of-3 setups, six is the decaying multisig, seven is security, eight is recovery, nine is how it compares to other wallets and ten is some notes on how to build it.
 
-## Executive Summary
+Bitcoin wallets always had this fight between security and being easy to use. A single-signature wallet is easy, but if someone steals the key the money is gone. A multisig wallet is safer, but if you lose keys you can lock yourself out of your own funds. We try to get out of that fight with a mix of things. Keys are derived and not stored, so there is nothing sitting on a disk that someone can steal. Several parties sign together with MuSig2, and the result is one Schnorr signature, which is better for privacy and also makes the transaction cheaper. Timelocks decay step by step, so you get more recovery options over time and you are never locked out forever. And there is an optional hardware wallet for cold storage when you want the most security.
 
-Nuri Wallet is a next-generation Bitcoin wallet that combines **MuSig2
-Schnorr signatures**, **stateless key derivation via WebAuthn PRF**,
-**NFC hardware wallet integration**, and **server-assisted two-factor
-authentication** into a unified security architecture. The design
-prioritizes both security and recoverability through a **decaying
-multisig** mechanism that ensures users can always recover their
-funds, even if one or more signing components become unavailable.
-
----
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Architecture Overview](#architecture-overview)
-3. [Key Components](#key-components)
-   - [Stateless Passkey Wallet](#stateless-passkey-wallet)
-   - [Hardware Wallet (NFC SatochipSigning
-Device)](#hardware-wallet-nfc-satscard-signing-device)
-   - [Stateless Server](#stateless-server)
-4. [MuSig2 Protocol Integration](#musig2-protocol-integration)
-5. [Wallet Configurations](#wallet-configurations)
-   - [2-of-2 Configuration](#2-of-2-configuration)
-   - [2-of-3 Configuration](#2-of-3-configuration)
-6. [Decaying Multisig with CSV Timelocks](#decaying-multisig-with-csv-timelocks)
-7. [Security Analysis](#security-analysis)
-8. [Recovery Scenarios](#recovery-scenarios)
-9. [Comparison with Existing Solutions](#comparison-with-existing-solutions)
-10. [Implementation Considerations](#implementation-considerations)
-
----
-
-## Introduction
-
-Traditional Bitcoin wallets face a fundamental tension between
-**security** and **usability**. Single-signature wallets are
-vulnerable to key theft, while multisig wallets can lock users out of
-their funds if keys are lost. Nuri Wallet resolves this tension
-through an innovative combination of:
-
-- **Stateless key derivation**: No persistent key storage means no
-keys to steal from rest
-- **MuSig2 aggregated signatures**: Multiple parties contribute to a
-single Schnorr signature, maintaining privacy and reducing transaction
-fees
-- **Decaying timelocks**: Graduated recovery options that balance
-security against lockout risk
-- **Hardware wallet integration**: Optional cold storage for maximum security
-
----
-
-## Architecture Overview
+There are three keys. The passkey key, the hardware key on an NFC Satochip card, and the server key. Each one gives a MuSig2 partial signature, and the partial signatures get aggregated into one. Underneath it all is the decaying timelock.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -127,17 +79,9 @@ security against lockout risk
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## The three keys
 
-## Key Components
-
-### Stateless Passkey Wallet
-
-The passkey-based key is the cornerstone of Nuri's user experience. It
-leverages the **WebAuthn PRF (Pseudo-Random Function) extension** to
-derive cryptographic keys without ever storing them.
-
-#### How It Works
+The passkey key is the heart of how Nuri feels to use. It uses the WebAuthn PRF (Pseudo-Random Function) extension to derive the keys, so we never have to store them anywhere.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -172,40 +116,18 @@ derive cryptographic keys without ever storing them.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-#### Security Properties
+What you get from this is four things. It's stateless, no private keys are stored on the device and they get derived when you need them. It's phishing resistant, because WebAuthn binds the credential to the origin, so a fake site just doesn't get the same key. It's backed by hardware, the PRF secret lives in the secure element of the device. And it's protected by biometrics, the device checks that you are there with your fingerprint or your face.
 
-| Property | Description |
-|----------|-------------|
-| **Stateless** | No private keys stored on device; derived on-demand |
-| **Phishing Resistant** | WebAuthn binds credentials to origin |
-| **Hardware-Backed** | PRF secret stored in device secure element |
-| **Biometric Protected** | User presence verified via fingerprint/face |
-
-#### Key Derivation Formula
-
-Given:
-- $s$ = device master secret (in secure element)
-- $\text{salt}$ = application-specific salt
-- $\text{rpId}$ = relying party identifier
-
-The PRF output is:
+The math is short. You have $s$, the device master secret that sits in the secure element, then $\text{salt}$, a salt just for the app, and $\text{rpId}$, the relying party identifier. The PRF output is
 
 $$\text{prf\_output} = \text{HMAC-SHA256}(s, \text{salt} \| \text{rpId})$$
 
-The Bitcoin private key is then derived as:
+and from that we derive the Bitcoin private key like this.
 
 $$k_{\text{passkey}} = \text{HKDF-SHA256}(\text{prf\_output},
 \text{"nuri-btc-v1"}, \text{path})$$
 
----
-
-### Hardware Wallet (NFC Satochip Signing Device)
-
-The hardware wallet component uses an **NFC-based secure element
-card** (similar to Satochip or SatSigner) that performs **MuSig2
-partial signing** without ever exposing its private key.
-
-#### Capabilities
+The hardware part is a card with a secure element that you talk to over NFC, similar to Satochip or SatSigner. It does MuSig2 partial signing and the private key never leaves the card.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -235,25 +157,9 @@ partial signing** without ever exposing its private key.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-#### MuSig2 Signing Flow
+Signing with the card goes in four rounds. First the card makes a random nonce $R_{\text{hw}}$ and gives a commitment for it. Then all parties exchange their nonce commitments and after that reveal the nonces. Then the card computes its partial signature without ever showing the private key. And at the end the partial signatures get combined into the final Schnorr signature.
 
-1. **Nonce Commitment Round**: Card generates random nonce
-$R_{\text{hw}}$ and provides commitment
-2. **Nonce Exchange**: All parties exchange nonce commitments, then
-reveal nonces
-3. **Partial Signing**: Card computes partial signature without
-revealing private key
-4. **Aggregation**: Partial signatures combined into final Schnorr signature
-
----
-
-### Stateless Server
-
-The server acts as a **2FA-protected co-signer** that adds entropy and
-provides an additional security layer without introducing custody
-risk.
-
-#### Design Principles
+The third key is on the server. The server is a co-signer that only signs after 2FA. It adds entropy and one more layer of security, but it never has custody of your money.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -289,25 +195,16 @@ risk.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-#### Server Key Derivation
-
-The server derives user-specific keys deterministically:
+The server derives a key for each user, always the same way, so it doesn't need to store it.
 
 $$k_{\text{server}} = \text{HKDF}(k_{\text{master}}, \text{user\_id}
 \| \text{wallet\_id} \| \text{index})$$
 
-Where $k_{\text{master}}$ is stored in the HSM and never exported.
+Here $k_{\text{master}}$ lives in the HSM and is never exported.
 
----
+## MuSig2 and the two setups
 
-## MuSig2 Protocol Integration
-
-MuSig2 is a **multi-signature scheme** that produces a single
-aggregated Schnorr signature indistinguishable from a regular
-signature. This provides both **privacy** (observers can't tell it's
-multisig) and **efficiency** (smaller transactions, lower fees).
-
-### MuSig2 Overview
+MuSig2 is a multi-signature scheme. Several people sign, but what comes out is one aggregated Schnorr signature that looks exactly like a normal one. So you get privacy, because nobody watching the chain can tell it's a multisig, and you get efficiency, because the transaction is smaller and the fees are lower.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -354,23 +251,9 @@ multisig) and **efficiency** (smaller transactions, lower fees).
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Why MuSig2 for Nuri?
+Why we picked it for Nuri is basically four reasons. Privacy, the aggregated signature looks like single-sig on-chain. Efficiency, it's one signature no matter how many people sign. It's Taproot native, it was made for the Schnorr and Taproot upgrade of Bitcoin. And it only needs 2 rounds of communication, which the original design calls non-interactive.
 
-| Benefit | Description |
-|---------|-------------|
-| **Privacy** | Aggregated signature looks like single-sig on-chain |
-| **Efficiency** | One signature regardless of number of signers |
-| **Taproot Native** | Designed for Bitcoin's Schnorr/Taproot upgrade |
-| **Non-Interactive** | Only 2 rounds of communication needed |
-
----
-
-## Wallet Configurations
-
-### 2-of-2 Configuration
-
-The basic configuration requires both the **passkey** and **server**
-to sign transactions.
+The basic setup needs both the passkey and the server to sign a transaction.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -406,7 +289,7 @@ to sign transactions.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-#### Transaction Structure (Taproot)
+On chain this is a Taproot output.
 
 ```
 Output Script (P2TR):
@@ -433,12 +316,7 @@ Taproot Tree:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-### 2-of-3 Configuration
-
-The enhanced configuration adds a **hardware wallet** for additional
-security and recovery options.
+The bigger setup adds a hardware wallet, for more security and more ways to recover.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -486,7 +364,7 @@ security and recovery options.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-#### Taproot Structure for 2-of-3
+And this is how the Taproot tree looks for 2-of-3.
 
 ```
 Taproot Tree (2-of-3):
@@ -510,27 +388,15 @@ Taproot Tree (2-of-3):
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+## Decaying multisig with CSV timelocks
 
-## Decaying Multisig with CSV Timelocks
+The idea of a decaying multisig is that you can always get your funds back, and the security goes down slowly and on purpose over time, not all at once.
 
-The **decaying multisig** pattern ensures that users can always
-recover their funds, with security guarantees that gracefully degrade
-over time.
-
-### How CSV (CheckSequenceVerify) Works
-
-CSV enforces a **relative timelock** measured in blocks since the UTXO
-was created:
+CSV (CheckSequenceVerify) is a relative timelock. It counts blocks since the UTXO was created.
 
 $$\text{spendable\_height} = \text{confirmation\_height} + \text{csv\_blocks}$$
 
-For Nuri Wallet:
-- **Normal operation**: 2-of-2 or 2-of-3 MuSig2 required
-- **After ~70 days** (10,000 blocks): Alternative recovery paths activate
-- **After ~1 year** (52,560 blocks): Single-key emergency exit available
-
-### Timelock Visualization
+In Nuri Wallet, normal spending needs the 2-of-2 or 2-of-3 MuSig2 signature. After ~70 days, that is 10,000 blocks, the other recovery paths open up. And after ~1 year, 52,560 blocks, there is a single-key emergency exit.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -564,9 +430,7 @@ For Nuri Wallet:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Script Structure
-
-**CSV Exit Script (simplified):**
+The CSV exit script, in a simplified version, looks like this.
 
 ```
 OP_IF
@@ -583,9 +447,7 @@ OP_ELSE
 OP_ENDIF
 ```
 
-### Re-locking Mechanism
-
-To maintain maximum security, users should periodically "refresh" their UTXOs:
+To keep security at the maximum, you should refresh your UTXOs every now and then. You just send the coins to yourself and the clock starts again.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -608,25 +470,9 @@ To maintain maximum security, users should periodically "refresh" their UTXOs:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+## Security and recovery
 
-## Security Analysis
-
-### Threat Model
-
-| Threat | Mitigation |
-|--------|------------|
-| **Device theft** | Passkey protected by biometrics; key derived on-demand |
-| **Server compromise** | Server keys in HSM; stateless derivation;
-server alone cannot spend |
-| **Phishing** | WebAuthn origin binding prevents credential theft |
-| **Man-in-the-middle** | MuSig2 nonce protocol prevents signature forgery |
-| **Server disappearance** | CSV timelock enables recovery; HW wallet
-provides immediate alternative |
-| **Hardware wallet loss** | 2-of-3 allows recovery with passkey + server |
-| **Passkey loss** | 2-of-3 allows recovery with HW + server |
-
-### Security Levels by Configuration
+The threats we looked at are seven. If someone steals your device, the passkey is protected by biometrics and the key is only derived when you sign. If the server gets compromised, the server keys are in the HSM, derivation is stateless, and the server alone can't spend anything. Phishing doesn't work because WebAuthn binds the credential to the origin. A man in the middle can't forge a signature because of the MuSig2 nonce protocol. If the server disappears, the CSV timelock lets you recover, and with a hardware wallet you have a way out right away. If you lose the hardware wallet, 2-of-3 lets you recover with passkey and server. And if you lose the passkey, 2-of-3 lets you recover with the hardware wallet and the server.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -655,9 +501,7 @@ provides immediate alternative |
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Attack Scenarios
-
-#### Scenario 1: Attacker Compromises Server
+Three attack cases make it more concrete. First, an attacker takes over the server.
 
 ```
 Attacker obtains: Server signing capability
@@ -668,7 +512,7 @@ Result: ❌ Cannot steal funds (missing second key)
         ✅ User recovers via CSV exit or HW wallet
 ```
 
-#### Scenario 2: Attacker Steals Phone
+Second, someone steals your phone.
 
 ```
 Attacker obtains: Physical device
@@ -679,7 +523,7 @@ Result: ❌ Cannot steal funds (passkey protected by biometrics)
         ✅ Keys never stored on device (stateless)
 ```
 
-#### Scenario 3: Attacker Compromises Both Passkey AND Server
+Third, someone gets both the passkey and the server.
 
 ```
 Attacker obtains: Passkey credential + Server access
@@ -687,24 +531,9 @@ Result: ⚠️  Can steal funds in 2-of-2 config
         ✅ 2-of-3 config: HW wallet still required
 ```
 
----
+Here is what happens in each case, in 2-of-2 and in 2-of-3. If you lose your phone and with it the passkey, in 2-of-2 you wait for the CSV, ~1 year, and then you still can't spend, because the exit path needs the passkey. In 2-of-3 you just use server and hardware wallet. If the server goes offline, in 2-of-2 you wait for the CSV, ~1 year, and then it works. In 2-of-3 you use passkey and hardware wallet right away. If you lose the hardware wallet, that doesn't matter in 2-of-2 because there is none, and in 2-of-3 you use passkey and server. If you lose your phone and the server is down at the same time, in 2-of-2 the funds are lost. In 2-of-3 the hardware wallet could maybe spend after the CSV, but that is still a design decision we have to make. And if you lose the hardware wallet and the server is down, you wait for the CSV in both setups and then you are fine.
 
-## Recovery Scenarios
-
-### Complete Recovery Matrix
-
-| Scenario | 2-of-2 Config | 2-of-3 Config |
-|----------|---------------|---------------|
-| **Lost phone (passkey)** | Wait for CSV (~1 year), then... ❌ still
-can't spend! | Server + HW ✅ |
-| **Server goes offline** | Wait for CSV (~1 year) ✅ | Passkey + HW ✅
-(immediate) |
-| **Lost hardware wallet** | N/A (not in config) | Passkey + Server ✅ |
-| **Lost phone + server down** | ❌ Funds lost | HW can spend after
-CSV? (design decision) |
-| **Lost HW + server down** | Wait for CSV ✅ | Wait for CSV ✅ |
-
-### Recovery Flow: Server Unavailable (2-of-3)
+This is the flow when the server is not there and you have 2-of-3.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -748,7 +577,7 @@ CSV? (design decision) |
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Recovery Flow: CSV Emergency Exit (2-of-2)
+And this is the CSV emergency exit in 2-of-2.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -792,47 +621,15 @@ CSV? (design decision) |
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+Of the wallets that exist, Blockstream Green is the closest one. Green uses ECDSA multisig, we use MuSig2 Schnorr. On chain Green is a visible multisig, Nuri looks like single-sig. Green keeps the client key encrypted on the device, ours is stateless and comes from the PRF. Green stores the server key in a traditional HSM, our server derives it stateless inside the HSM. Recovery in 2-of-2 is the same in both, a CSV timelock. Recovery in 2-of-3 is a backup key phrase in Green and a hardware wallet with us. And Taproot support is limited in Green, in Nuri it's native.
 
-## Comparison with Existing Solutions
+Then the traditional hardware wallets like Ledger and Trezor. They are a dedicated device, Nuri is a passkey plus an NFC card. For daily transactions you need the device with them, with us you need only the passkey and the server does the 2FA. High value transactions are the same as daily ones on a Ledger or Trezor, with Nuri you can require the hardware card for those. If you lose a Ledger or Trezor you recover with the seed phrase, with Nuri there are several paths, CSV and 2-of-3. And the theft risk there is that the seed phrase gets exposed, with Nuri you don't need a seed phrase at all.
 
-### Nuri vs. Blockstream Green
+And custodial exchanges. There the exchange holds the keys, with Nuri the user holds all the keys. Counterparty risk is high there and none with us. On an exchange your money can be seized, Nuri is self-sovereign. Recovery on an exchange is account recovery, with us it's CSV and multisig. And an exchange needs KYC, while self-custody in Nuri needs no KYC.
 
-| Feature | Blockstream Green | Nuri Wallet |
-|---------|-------------------|-------------|
-| **Signature Scheme** | ECDSA multisig | MuSig2 Schnorr |
-| **On-chain Footprint** | Visible multisig | Single-sig appearance |
-| **Client Key Storage** | Encrypted on device | Stateless (PRF-derived) |
-| **Server Key Storage** | Traditional HSM | Stateless HSM derivation |
-| **Recovery (2-of-2)** | CSV timelock | CSV timelock |
-| **Recovery (2-of-3)** | Backup key phrase | Hardware wallet |
-| **Taproot Support** | Limited | Native |
+## How to build it
 
-### Nuri vs. Traditional Hardware Wallets
-
-| Feature | Ledger/Trezor | Nuri Wallet |
-|---------|---------------|-------------|
-| **Form Factor** | Dedicated device | Passkey + NFC card |
-| **Daily Transactions** | Device required | Passkey only (server 2FA) |
-| **High-Value Transactions** | Same as daily | Can require HW card |
-| **Loss Recovery** | Seed phrase | Multiple paths (CSV, 2-of-3) |
-| **Theft Risk** | Seed phrase exposure | No seed phrase needed |
-
-### Nuri vs. Custodial Solutions
-
-| Feature | Custodial Exchange | Nuri Wallet |
-|---------|-------------------|-------------|
-| **Key Control** | Exchange holds keys | User holds all keys |
-| **Counterparty Risk** | High | None |
-| **Regulatory Risk** | Subject to seizure | Self-sovereign |
-| **Recovery** | Account recovery | CSV + multisig |
-| **Privacy** | KYC required | No KYC for self-custody |
-
----
-
-## Implementation Considerations
-
-### WebAuthn PRF Browser Support
+Not every browser supports WebAuthn PRF yet, so we need a fallback.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -856,9 +653,7 @@ CSV? (design decision) |
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### MuSig2 Implementation Notes
-
-**Key Aggregation:**
+For MuSig2, this is a simplified version of the key aggregation.
 
 ```typescript
 // Simplified MuSig2 key aggregation
@@ -881,7 +676,7 @@ function aggregateKeys(pubkeys: Uint8Array[]): Uint8Array {
 }
 ```
 
-**Nonce Generation (Critical for Security):**
+Nonce generation is the critical part for security. A nonce must never be reused or predictable.
 
 ```typescript
 // MuSig2 requires fresh, unpredictable nonces
@@ -907,7 +702,7 @@ function generateNonce(
 }
 ```
 
-### NFC Hardware Wallet Protocol
+And this is the protocol the app speaks with the NFC hardware wallet, as APDU commands.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -950,45 +745,8 @@ function generateNonce(
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+So all together, we think this moves Bitcoin self-custody forward. There is no persistent key storage, so there is less to attack. MuSig2 gives us multi-party signing with privacy and efficiency. The decaying timelocks mean recovery is always possible and security goes down slowly instead of breaking. And with 2-of-2 and 2-of-3 you can pick the setup that fits what you need. In the end the user keeps full control over their Bitcoin and still gets the protection of a multisig and the comfort of a passkey.
 
-## Conclusion
+A few words, so we are on the same page. CSV is CheckSequenceVerify, the Bitcoin opcode for relative timelocks. HSM is a Hardware Security Module, key storage that is hard to tamper with. MuSig2 is the multi-signature scheme for Schnorr signatures. PRF is the Pseudo-Random Function, the WebAuthn extension we use to derive keys. Taproot is the Bitcoin upgrade that brought Schnorr signatures and MAST. A UTXO is an Unspent Transaction Output, the way Bitcoin keeps its accounts. And WebAuthn is the Web Authentication standard for logging in without a password.
 
-Nuri Wallet represents a significant advancement in Bitcoin
-self-custody, combining:
-
-1. **Stateless Security**: No persistent key storage reduces attack surface
-2. **Multi-Party Signing**: MuSig2 provides privacy and efficiency
-3. **Graceful Degradation**: Decaying timelocks ensure recovery is
-always possible
-4. **Flexible Security**: 2-of-2 and 2-of-3 configurations for different needs
-
-The architecture ensures that users maintain full sovereignty over
-their Bitcoin while benefiting from the security of multi-signature
-protection and the convenience of modern authentication methods.
-
----
-
-## Appendix A: Glossary
-
-| Term | Definition |
-|------|------------|
-| **CSV** | CheckSequenceVerify; Bitcoin opcode for relative timelocks |
-| **HSM** | Hardware Security Module; tamper-resistant key storage |
-| **MuSig2** | Multi-signature scheme for Schnorr signatures |
-| **PRF** | Pseudo-Random Function; WebAuthn extension for key derivation |
-| **Taproot** | Bitcoin upgrade enabling Schnorr signatures and MAST |
-| **UTXO** | Unspent Transaction Output; Bitcoin's accounting model |
-| **WebAuthn** | Web Authentication standard for passwordless auth |
-
----
-
-## Appendix B: References
-
-1. [BIP-340: Schnorr Signatures for
-secp256k1](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)
-2. [BIP-341: Taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)
-3. [BIP-327: MuSig2](https://github.com/bitcoin/bips/blob/master/bip-0327.mediawiki)
-4. [WebAuthn PRF Extension](https://w3c.github.io/webauthn/#prf-extension)
-5. [Blockstream Green Security
-Model](https://help.blockstream.com/hc/en-us/articles/900001391763)
+If you want to read more, the sources are [BIP-340: Schnorr Signatures for secp256k1](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki), [BIP-341: Taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), [BIP-327: MuSig2](https://github.com/bitcoin/bips/blob/master/bip-0327.mediawiki), the [WebAuthn PRF Extension](https://w3c.github.io/webauthn/#prf-extension) and the [Blockstream Green Security Model](https://help.blockstream.com/hc/en-us/articles/900001391763).

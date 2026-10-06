@@ -1,8 +1,8 @@
 ---
-title: "The Song That Burned Down a Republic: The Story of Fela Kuti's Zombie"
-description: "In 1976, Fela Kuti released \"Zombie,\" a scathing musical attack on the Nigerian military. The retaliation was swift and brutal. Below is the full story as..."
+title: "The song that burned down a republic, the story of Fela Kuti's Zombie"
+description: "In 1976 Fela Kuti released Zombie and laughed at the Nigerian army. The army answered with 1,000 soldiers. The story, the lyrics and the facts."
 date: "2026-01-08T00:35:01Z"
-updated: "2026-01-08T00:35:01Z"
+updated: "2026-10-06T00:00:00Z"
 lang: "en"
 category: "culture"
 format: "summary"
@@ -13,6 +13,8 @@ reviewed_by_human: false
 source: "emino.app"
 third_party_summary: true
 cover: "../../../media/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-s-zombie/cover.jpg"
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 voice_check:
   em_dash: 0
   unobserved: 207
@@ -21,15 +23,15 @@ original_url: "https://emino.app/posts/the-song-that-burned-down-a-republic-the-
 ---
 ![](../../../media/the-song-that-burned-down-a-republic-the-story-of-fela-kuti-s-zombie/cover.jpg)
 
-In 1976, Fela Kuti released "Zombie," a scathing musical attack on the Nigerian military. The retaliation was swift and brutal. Below is the full story as presented in the documentary video, followed by the complete lyrics and verified historical context.
+This is a summary of a documentary video about Fela Kuti and his song Zombie. The quotes are the text the video shows on screen. The facts at the end come from extra research.
 
-### **TL;DR**
-Fela Kuti's "Zombie" mocked soldiers as mindless robots. In retaliation, 1,000 soldiers stormed his Kalakuta Republic commune, burning it to the ground and throwing his mother from a window. This post contains the full explanatory text from the video, the complete song lyrics, and confirmed historical facts.
+In 1976 Fela Kuti released "Zombie". The song laughs at the Nigerian military. It calls soldiers robots that only move when someone tells them to. The army did not laugh. It came back with 1,000 soldiers, burned his Kalakuta Republic commune to the ground and threw his mother out of a window.
 
----
+TL;DR. One song made an army so angry that it destroyed a whole compound. Below is the full story from the video, the complete lyrics and the history around it.
 
-### **1. The Full Story (As Written in the Video)**
-*The following text appears as on-screen overlays in the video documentation of the event:*
+## The story as the video tells it
+
+The video shows these lines one after the other.
 
 > "The fury stirred up among the Nigerian police and military by Fela's furiously confrontational albums Alagbon Close in 1974 and Kalakuta Show in 1976, and the beatings and harassments Fela and Africa 70 suffered as a consequence, were as nothing compared to the reprisals following a later 1976 album, Zombie..."
 
@@ -51,21 +53,24 @@ Fela Kuti's "Zombie" mocked soldiers as mindless robots. In retaliation, 1,000 s
 
 > "But Fela's political stance didn't endear itself to the Ghanaian authorities either - particularly when protesting Ghanaian students starting shouting "Zombie!" at police and soldiers in the streets. After a few turbulent months, Fela was sent back to Nigeria."
 
----
+## The lyrics
 
-### **2. The Song Text (Full Lyrics)**
+It works as call and response. Fela sings a line and the women answer "Zombie".
 
-**Chorus (Call & Response)**
+Chorus
+
 > Zombie o, zombie *(Zombie o, zombie)*
 > Zombie o, zombie *(Zombie o, zombie)*
 
-**Verse 1**
+Verse 1
+
 > Zombie no go go, unless you tell am to go *(Zombie)*
 > Zombie no go stop, unless you tell am to stop *(Zombie)*
 > Zombie no go turn, unless you tell am to turn *(Zombie)*
 > Zombie no go think, unless you tell am to think *(Zombie)*
 
-**Verse 2**
+Verse 2
+
 > Tell am to go straight
 > *A joro, jara, joro*
 > No brake, no job, no sense
@@ -79,13 +84,15 @@ Fela Kuti's "Zombie" mocked soldiers as mindless robots. In retaliation, 1,000 s
 > No brake, no job, no sense
 > *A joro, jara, joro*
 
-**Bridge**
+Bridge
+
 > Go and kill! *(Joro, jara, joro)*
 > Go and die! *(Joro, jara, joro)*
 > Go and quench! *(Joro, jara, joro)*
 > Put am for reverse! *(Joro, jara, joro)*
 
-**Outro (Military Commands)**
+Outro, the military commands
+
 > Attention! *(Zombie)*
 > Quick march! *(Zombie)*
 > Slow march! *(Zombie)*
@@ -102,14 +109,16 @@ Fela Kuti's "Zombie" mocked soldiers as mindless robots. In retaliation, 1,000 s
 > Get ready! *(Zombie)*
 > Halt! Order!
 
----
+## What the history says
 
-### **3. Historical Facts & Verification**
-*Additional research confirms and expands on the events described in the video:*
+The attack happened on February 18, 1977. The records say around 1,000 soldiers took part.
 
-* **The Date:** The attack definitively occurred on **February 18, 1977**.
-* **The Scale:** Historical records confirm approximately **1,000 soldiers** were involved in the raid.
-* **The Mother:** Fela's mother, **Funmilayo Ransome-Kuti**, was a famous suffragist and political activist. She died in 1978 from complications related to the injuries sustained when she was thrown from the window during this raid.
-* **The "Unknown Soldier":** Following the destruction, an official inquiry claimed the compound was burned by "an unknown soldier," absolving the military hierarchy of direct responsibility. This verdict led Fela to record the song "Unknown Soldier" in response.
-* **The Ghana Incident:** The video mentions Fela being sent back from Ghana. This happened in 1978; he was banned from the country after riots broke out during a performance of "Zombie" in Accra.
-* **The Coffin:** In a final act of defiance, Fela and his movement carried a symbolic coffin to the Dodan Barracks in Lagos to protest his mother's death.
+His mother was Funmilayo Ransome-Kuti, a famous suffragist and political activist. She died in 1978 from complications of the injuries she got when they threw her from the window.
+
+After the destruction an official inquiry said the compound was burned by "an unknown soldier". So nobody in the army was responsible. Fela answered with a new song, "Unknown Soldier".
+
+The video says Fela was sent back from Ghana. That was in 1978. He was banned from the country after riots broke out during a performance of "Zombie" in Accra.
+
+And then the last act. Fela and his movement carried a symbolic coffin to the Dodan Barracks in Lagos to protest the death of his mother.
+
+Basically, a song was strong enough that an army tried to burn it down, and the song is still here.

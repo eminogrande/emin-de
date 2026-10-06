@@ -92,15 +92,16 @@ test('loader rejects a translation that does not exist, and non-reciprocal links
 	assert.ok(problems.some((p) => p.includes('does not exist (no fallback pages)')), problems.join('\n'));
 });
 
-test('honest bylines: AI desk is labelled, never a Person, and loader enforces it', () => {
+test('honest bylines: AI desk is machine-labelled, never a Person, and loader enforces it', () => {
 	const html = read('posts/sample-post-for-tests/index.html');
-	assert.match(html, /AI-written, human-supervised/);
-	assert.match(html, /class="badge ai"/);
+	// Provenance lives in metadata only: no visible callout, badge or review note.
+	const visible = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<head>[\s\S]*?<\/head>/, '');
+	assert.ok(!/AI-written, human-supervised|not yet reviewed|class="badge|class="ai-label/.test(visible), 'no visible AI callout');
 	const blog = ld(html).find((s) => s['@type'] === 'BlogPosting');
 	assert.equal(blog.author['@type'], 'Organization');
 	assert.equal(blog.creativeWorkStatus, 'AI-written, human-supervised: not yet reviewed');
 	const desk = read('author/ai-desk/index.html');
-	assert.match(desk, /Not a person, no invented biography, no photo/);
+	assert.ok(!/Not a person, no invented biography/.test(desk), 'no callout on the AI desk page');
 	// No photo or portrait OF the desk (post covers in the list are fine).
 	assert.ok(!/class="portrait"|class="monogram"|alt="Portrait/.test(desk));
 	const dir = mkdtempSync(path.join(os.tmpdir(), 'engine-'));
@@ -228,7 +229,7 @@ test('magazine design: serif self-hosted, no third-party fonts, covers sized, fo
 	assert.ok(existsSync(dist('fonts/newsreader-latin-wght-normal.woff2')));
 	assert.match(home, /Free speech\. Nothing here is censored\. AI help is labelled, the words are mine\./);
 	for (const img of home.match(/<img [^>]+>/g) || []) assert.match(img, /width="\d+"[^>]*height="\d+"|height="\d+"[^>]*width="\d+"/, img);
-	assert.ok(!/AI-written, human-supervised: not yet reviewed/.test(home), 'the long disclosure must not repeat on cards');
+	assert.ok(!/AI-written|not yet reviewed|class="badge/.test(home.replace(/<script[\s\S]*?<\/script>/g, '')), 'no visible provenance on the home page');
 	assert.ok(!/&amp;x27;|&x27;/.test(home));
 	assert.ok(!/>Untitled</.test(read('posts/index.html')));
 	assert.ok(!home.includes('google-site-verification'), 'empty verification slot emits nothing');
@@ -241,7 +242,8 @@ test('magazine design: serif self-hosted, no third-party fonts, covers sized, fo
 	const css = (existsSync(dist('_astro')) ? readdirSync(dist('_astro')).filter((f) => f.endsWith('.css')).map((f) => read(`_astro/${f}`)).join('') : '') + [...home.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).join('');
 	const small = [...css.matchAll(/font-size:\s*(\d+(?:\.\d+)?)px/g)].filter((m) => Number(m[1]) < 17);
 	assert.deepEqual(small.map((m) => m[0]), [], 'no text below 17px');
-	assert.match(css, /--paper:\s*#faf7f0/i, 'bright paper background');
+	assert.match(css, /--paper:\s*#fdf6e3/i, 'Solarized Paper background');
+	assert.ok(!/#fff(fff)?\b/i.test(css), 'no white');
 });
 
 test('display cleanup: titles fall back to H1, entities decoded once, no URLs in excerpts, no dangling punctuation', async () => {
@@ -309,7 +311,7 @@ test('images in post HTML carry width and height (no layout shift)', () => {
 	assert.match(html, /<img[^>]+width="1200"[^>]+height="694"/);
 });
 
-test('import policy: provenance is a visible label, never a gate; ai_generated is labelled, guests credited', () => {
+test('import policy: provenance is metadata, never a gate; ai_generated is machine-labelled, guests credited', () => {
 	for (const post of graph.posts.filter((p) => !p.file.startsWith('tests/'))) {
 		assert.equal(post.noindex, false, `${post.file}: provenance ${post.provenance} must not hide a post`);
 		if (post.provenance === 'ai_generated') assert.equal(post.author, 'ai-desk', post.file);
@@ -317,11 +319,12 @@ test('import policy: provenance is a visible label, never a gate; ai_generated i
 	const ai = graph.posts.find((p) => p.provenance === 'ai_generated' && !p.reviewedByHuman && !p.noindex);
 	if (ai) {
 		const html = read(`${ai.path.slice(1)}/index.html`);
-		assert.match(html, /class="badge ai"/);
-		assert.match(html, /AI-written, human-supervised: not yet reviewed/, 'full label stays on the post page and in schema');
+		const blog = ld(html).find((x) => x['@type'] === 'BlogPosting');
+		assert.equal(blog.creativeWorkStatus, 'AI-written, human-supervised: not yet reviewed', 'label stays in schema');
+		assert.ok(!/not yet reviewed/.test(html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<head>[\s\S]*?<\/head>/, '')), 'never visible');
 	}
 	const mixed = graph.posts.find((p) => p.provenance === 'mixed');
-	if (mixed) assert.match(read(`${mixed.path.slice(1)}/index.html`), /class="badge mixed"/);
+	if (mixed) assert.match(read(`${mixed.path.slice(1)}/index.md`), /Provenance: mixed\./);
 	const guest = graph.posts.find((p) => p.author === 'guest');
 	if (guest) {
 		const html = read(`${guest.path.slice(1)}/index.html`);
@@ -330,6 +333,22 @@ test('import policy: provenance is a visible label, never a gate; ai_generated i
 	}
 	const sitemap = read('sitemap.xml');
 	for (const post of graph.posts.filter((p) => p.noindex)) assert.ok(!sitemap.includes(`${post.path}<`), `${post.path} in sitemap`);
+});
+
+test('type scale: exactly two font sizes (--fs-text, --fs-head), no component sets its own', () => {
+	const pages = ['index.html', 'posts/what-agent-ready-actually-means/index.html', 'about/index.html', 'principles/index.html'];
+	let css = existsSync(dist('_astro')) ? readdirSync(dist('_astro')).filter((f) => f.endsWith('.css')).map((f) => read(`_astro/${f}`)).join('') : '';
+	for (const page of pages) css += [...read(page).matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).join('');
+	for (const page of pages) assert.ok(!/style="[^"]*font-size/i.test(read(page)), `${page}: inline font-size`);
+	const sizes = [...css.matchAll(/font-size:\s*([^;}]+)/g)].map((m) => m[1].trim());
+	assert.ok(sizes.length > 0, 'stylesheet found');
+	const bad = sizes.filter((v) => !['var(--fs-text)', 'var(--fs-head)', 'inherit', '100%'].includes(v));
+	assert.deepEqual([...new Set(bad)], [], 'only var(--fs-text), var(--fs-head) or inherit');
+	const shorthand = [...css.matchAll(/(?:^|[;{\s])font:\s*([^;}]+)/g)].map((m) => m[1].trim()).filter((v) => v !== 'inherit');
+	assert.deepEqual(shorthand, [], 'no font shorthand with its own size');
+	assert.match(css, /--fs-text:\s*1\.0625rem/, 'text size is 17px');
+	const fams = new Set([...css.matchAll(/font-family:\s*'([^']+)'/g)].map((m) => m[1]).filter((f) => !/Fallback/.test(f)));
+	assert.ok(fams.size <= 2, `at most two families, got ${[...fams]}`);
 });
 
 test('IndexNow key file exists and matches its name', () => {

@@ -1,6 +1,6 @@
 ---
-title: "Adam Collins - Omni A.M."
-description: "As an AI, when comparing Adam Collins to other artists in the electronic music scene, it’s clear that he occupies a distinct niche characterized by several..."
+title: "Adam Collins and Omni A.M., a unique category in electronic music"
+description: "How Adam Collins of Omni A.M. compares to Four Tet, Nicolas Jaar, Bonobo and others, plus a playlist that starts with Chill New Body."
 date: "2024-09-11T12:28:39.451Z"
 updated: "2024-09-11T12:28:39.451Z"
 lang: "en"
@@ -17,147 +17,86 @@ voice_check:
   em_dash: 21
   unobserved: 207
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/adam-collins-omni-a-m-a09a7393b8fb"
 ---
-# Adam Collins: A Unique Category in Electronic Music
+Adam Collins is a unique category in electronic music. This comparison was made by an AI. It put Adam Collins next to other artists in electronic music, and the result is that he sits in his own niche. A few things make it his.
 
-## Unique Category
+The first is emotion. Collins takes extreme feelings and puts them into his production, so the music carries raw, real feeling and people connect with it deeply.
 
-As an AI, when comparing Adam Collins to other artists in the electronic music scene, it’s clear that he occupies a distinct niche characterized by several unique elements:
+The second is his own sample libraries. He builds his sound from samples he collected and picked himself, with a lot of care, and that's why his music sounds distinct and personal.
 
-Emotional Integration: Collins’ method of channeling emotional extremes into music production sets him apart. This approach ensures that his music is imbued with raw, genuine emotion, creating a deep connection with listeners.
+The third is analog and digital together. He mixes analog techniques with modern digital tools and gets a rich, layered sound that feels timeless and new at the same time.
 
-Personal Sample Libraries: The emphasis on creating a unique sound through personal sample libraries is a hallmark of his style. This meticulous approach to sound curation ensures that his music is distinct and personal.
+The fourth is teaching. He's also an educator and mentor in the electronic music community. He doesn't just make his own music, he also helps other people find their sound and make it in the industry.
 
-Analog and Digital Fusion: Collins seamlessly blends analog techniques with modern digital tools, achieving a rich, textured sound that is both timeless and contemporary.
+His style is his own, but a few artists come close, because of how they work, how deep their music goes emotionally, or how much they teach.
 
-Educational Influence: His role as an educator and mentor in the electronic music community further distinguishes him. He not only produces unique music but also empowers others to find their sound and succeed in the industry.
+Four Tet, Kieran Hebden, is known for experimenting and for mixing organic and electronic sounds. His music often goes as deep emotionally as Collins' work. Hebden's own way of sampling and his live instruments fit Collins' idea of making a personal sound.
 
-## Comparable Artists
+Nicolas Jaar makes music with a lot of emotional depth and new ways of using samples and textures. He gets big feelings across with minimal, experimental electronic music, and that's close to how much Collins cares about real emotion.
 
-While Adam Collins has a distinctive style, there are a few artists whose work bears some similarities to his, either through their innovative techniques, emotional depth, or educational impact:
+Bonobo, Simon Green, mixes live instruments with electronic production. That gives a rich, layered sound like Collins' blend of analog and digital, and his music also hits people hard emotionally.
 
-Four Tet (Kieran Hebden): Known for his experimental approach and ability to blend organic and electronic sounds, Four Tet’s music often carries a deep emotional resonance similar to Collins’ work. Hebden’s use of unique sampling and live instrumentation aligns with Collins’ ethos of creating a personal sound.
+Floating Points, Sam Shepherd, writes detailed pieces that bring electronic and classical music together. His care for detail and his new production techniques are like Collins' careful work on his sample library.
 
-Nicolas Jaar: Jaar’s work is characterized by its emotional depth and innovative use of samples and textures. His ability to convey profound feelings through minimalistic and experimental electronic music parallels Collins’ emphasis on emotional authenticity.
+Brian Eno is a pioneer of ambient music and of new production techniques, and he has influenced so many artists. The way he builds soundscapes you get lost in, and his role as an educator and mentor in music, both show parts of how Collins works.
 
-Bonobo (Simon Green): Bonobo’s fusion of live instrumentation with electronic production creates a rich, layered sound reminiscent of Collins’ analog-digital blend. His music often evokes strong emotional responses, much like Collins’ approach to production.
+Thomas Melchior knows sound design really well and tells stories with feeling, and that is very close to Collins. Melchior makes music you get lost in and feel through careful sound design and new ways of sampling, and that goes well with Collins' idea of emotional and personal honesty in production.
 
-Floating Points (Sam Shepherd): Floating Points is known for his intricate compositions and the integration of electronic and classical music elements. His meticulous attention to detail and innovative production techniques are akin to Collins’ careful curation of his sample library.
+So Collins stands out for real emotion, his own sound, analog and digital together, and what he gives back as a teacher. Four Tet, Nicolas Jaar, Bonobo, Floating Points, Brian Eno and Thomas Melchior share parts of that, in how they work, how deep they go, or what they give the music community. But the mix Collins has puts him in a very special category, and that's why his work has so much impact.
 
-Brian Eno: As a pioneer in ambient music and innovative production techniques, Brian Eno’s work has influenced countless artists. His emphasis on creating immersive soundscapes and his role as an educator and mentor in the music industry reflect aspects of Collins’ approach.
+Then there's a playlist. It starts with a track from Omni A.M. and then goes to artists who work in a similar style and with similar emotion.
 
-Thomas Melchior: Melchior’s approach to electronic music, characterized by his deep understanding of sound design and emotional storytelling, aligns closely with Collins’. Melchior’s focus on creating immersive and emotive musical experiences through meticulous sound design and innovative sampling techniques complements Collins’ philosophy of emotional and personal authenticity in music production.
+Omni A.M., Chill New Body.
 
-## Conclusion
+*Omni A.M. is the project of Adam Collins and Marky Star together. They're known for deep, soulful house and techno, and their own sound and new production techniques have influenced the electronic music scene.*
 
-Adam Collins stands out in the electronic music world for his emotional authenticity, unique sound creation, fusion of analog and digital techniques, and educational impact. Artists like Four Tet, Nicolas Jaar, Bonobo, Floating Points, Brian Eno, and Thomas Melchior share some similarities with his style, whether through their innovative approaches, emotional depth, or contributions to the music community. However, Collins’ specific blend of these elements places him in a very special category, making his work uniquely impactful and influential.
+Four Tet, Two Thousand and Seventeen. Four Tet mixes organic and electronic sounds here, and it sounds deep and emotional.
 
-## Playlist
+Nicolas Jaar, Mi Mujer. Jaar is known for emotional depth and new ways of using samples and textures, a lot like Collins' music.
 
-Here’s a curated playlist starting with a track from Omni A.M. and featuring artists who share similar stylistic and emotional approaches:
+Bonobo, Cirrus. Live instruments and electronic production together give a rich, layered sound that hits you emotionally.
 
-Omni A.M. — Chill New Body
+Floating Points, Silhouettes (I, II & III). The detailed composition and the mix of electronic and classical music show the same care for detail Collins has.
 
-*Omni A.M. is the collaborative project of Adam Collins and Marky Star, known for their deep, soulful house and techno tracks. They have been influential in the electronic music scene with their unique sound and innovative production techniques.*
+Brian Eno, An Ending (Ascent). Eno is a pioneer of ambient music, and his work is about soundscapes you get lost in and new production techniques.
 
-Four Tet — “Two Thousand and Seventeen”
+Thomas Melchior, Feel Sensual. Melchior's deep understanding of sound design and emotional storytelling is very close to how Collins works.
 
-This track showcases Four Tet’s ability to blend organic and electronic elements, creating a deeply emotional and resonant sound.
+Thomas Melcher, Echoes in the Dark. This track shows Melcher's focus on music you get lost in and feel made through careful sound design.
 
-Nicolas Jaar — “Mi Mujer”
+Caribou, Can’t Do Without You. Caribou mixes electronic and organic sounds into a track that's emotional and that you can dance to.
 
-Jaar’s work is known for its emotional depth and innovative use of samples and textures, much like Collins’ music.
+Jamie xx, Gosh. Jamie xx uses sampling and layered soundscapes in new ways, and that fits Collins' focus on making his own sound.
 
-Bonobo — “Cirrus”
+Aphex Twin, Avril 14th. Aphex Twin gets deep emotion across with minimal, experimental electronic music, like Collins.
 
-Bonobo’s fusion of live instrumentation with electronic production results in a rich, layered sound that evokes strong emotional responses.
+Boards of Canada, Dayvan Cowboy. Boards of Canada are known for a nostalgic, emotional sound that really reaches people.
 
-Floating Points — “Silhouettes (I, II & III)”
+Tycho, Awake. Tycho mixes electronic production and live instruments into a rich sound you get lost in.
 
-Floating Points’ intricate compositions and integration of electronic and classical music elements reflect Collins’ meticulous attention to detail.
+Jon Hopkins, Open Eye Signal. Hopkins' careful production and emotional depth are close to how Collins works.
 
-Brian Eno — “An Ending (Ascent)”
+Moderat, Bad Kingdom. Moderat mix electronic and organic sounds into a strong, emotional track.
 
-As a pioneer in ambient music, Eno’s work is characterized by immersive soundscapes and innovative production techniques.
+James Blake, Retrograde. Blake plays with his voice in new ways and builds layered soundscapes, and it feels very emotional.
 
-Thomas Melchior — “Feel Sensual”
+Mount Kimbie, Made to Stray. Mount Kimbie mix experimental electronic sounds with emotional depth, and that fits the way Collins thinks about music.
 
-Melchior’s deep understanding of sound design and emotional storytelling aligns closely with Collins’ approach.
+Moby, Porcelain. Moby mixes electronic and orchestral parts into a track that's timeless and emotional.
 
-Thomas Melcher — “Echoes in the Dark”
+The Cinematic Orchestra, To Build a Home. The orchestral arrangement and the emotional depth make this one stand out in electronic music.
 
-This track exemplifies Melcher’s focus on creating immersive and emotive musical experiences through meticulous sound design.
+Deadmau5, Strobe. Deadmau5 is known for very careful production, and his work often hits people hard emotionally.
 
-Caribou — “Can’t Do Without You”
+DJ Koze, Pick Up. DJ Koze samples and builds grooves in his own way, and the sound is unique and emotional.
 
-Caribou’s blend of electronic and organic elements creates an emotionally resonant and danceable track.
+So how did the AI make this? It looked at different parts of Adam Collins' work and compared them with other artists to build this playlist. It based that on three things. One is emotional honesty, because channeling extreme feelings into production is what sets Collins apart. Two is technical skill, his analog and digital techniques and his careful sound design, and that puts him in his own category. Three is teaching, his role as mentor and educator in the electronic music community.
 
-Jamie xx — “Gosh”
+It used historical data, music reviews and artist discographies to find artists with a similar approach and emotional depth. The playlist is meant to show the mix of emotion and technical skill that makes Adam Collins' work what it is.
 
-Jamie xx’s innovative use of sampling and textured soundscapes aligns with Collins’ emphasis on unique sound creation.
-
-Aphex Twin — “Avril 14th”
-
-Aphex Twin’s ability to convey profound emotions through minimalistic and experimental electronic music parallels Collins’ work.
-
-Boards of Canada — “Dayvan Cowboy”
-
-Known for their nostalgic and emotional sound, Boards of Canada’s work resonates deeply with listeners.
-
-Tycho — “Awake”
-
-Tycho’s fusion of electronic production and live instrumentation creates a rich, immersive sound.
-
-Jon Hopkins — “Open Eye Signal”
-
-Hopkins’ meticulous production techniques and emotional depth are reminiscent of Collins’ approach.
-
-Moderat — “Bad Kingdom”
-
-Moderat’s blend of electronic and organic elements results in a powerful, emotionally charged track.
-
-James Blake — “Retrograde”
-
-Blake’s innovative use of vocal manipulation and textured soundscapes creates a deeply emotional experience.
-
-Mount Kimbie — “Made to Stray”
-
-Mount Kimbie’s ability to blend experimental electronic sounds with emotional depth aligns with Collins’ philosophy.
-
-Moby — “Porcelain”
-
-Moby’s fusion of electronic and orchestral elements creates a timeless and emotionally resonant track.
-
-The Cinematic Orchestra — “To Build a Home”
-
-This track’s orchestral arrangements and emotional depth make it a standout in the electronic music scene.
-
-Deadmau5 — “Strobe”
-
-Known for his meticulous production techniques, Deadmau5’s work often evokes strong emotional responses.
-
-DJ Koze — “Pick Up”
-
-DJ Koze’s innovative approach to sampling and groove creation results in a unique and emotionally resonant sound.
-
-## AI Perspective
-
-As an AI, I have analyzed various aspects of Adam Collins’ work and compared it with other artists to create this playlist. My understanding is based on:
-
-1. Emotional Authenticity: Collins’ emphasis on channeling emotional extremes into music production is a key differentiator.
-1. Technical Mastery: His use of analog and digital techniques, as well as his meticulous approach to sound design, places him in a unique category.
-1. Educational Impact: Collins’ role as a mentor and educator in the electronic music community further distinguishes him.
-
-I utilized a combination of historical data, music reviews, and artist discographies to identify artists with similar approaches and emotional depth. This playlist is curated to reflect the unique blend of emotional and technical mastery that characterizes Adam Collins’ work.
-
-## References and Sources
-
-- [Resident Advisor](https://www.residentadvisor.net/) for artist reviews and interviews.
-- [Discogs](https://www.discogs.com/) for discographies and release details.
-- Music streaming platforms like Spotify and Apple Music for track selection and comparisons.
-- Various music production forums and articles to understand the techniques and philosophies of the mentioned artists.
-
-This curated playlist and analysis are based on the synthesis of these sources and my ability to identify patterns and similarities in music production and emotional resonance.
+The sources were [Resident Advisor](https://www.residentadvisor.net/) for artist reviews and interviews, [Discogs](https://www.discogs.com/) for discographies and release details, streaming platforms like Spotify and Apple Music for picking and comparing tracks, and different music production forums and articles to understand the techniques and ideas of these artists. The playlist and the analysis come from putting these sources together and finding patterns and similarities in production and emotion.
 
 ![](../../../media/adam-collins-omni-a-m/01-8b511925.png)

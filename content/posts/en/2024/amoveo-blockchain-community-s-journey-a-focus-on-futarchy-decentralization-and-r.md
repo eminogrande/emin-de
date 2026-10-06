@@ -1,6 +1,6 @@
 ---
-title: "Amoveo Blockchain Community’s Journey: A Focus on Futarchy, Decentralization, and Real-World…"
-description: "The Amoveo community is a hub of innovation and technical exploration in the blockchain space. Led by a brilliant lead developer, the community is actively..."
+title: "The Amoveo Community on Futarchy, Decentralization and Real-World Use"
+description: "A summary of what the Amoveo community and its lead developer worked on, from futarchy and Verkle trees to a land registry and the DEX."
 date: "2024-09-10T09:32:41.581Z"
 updated: "2024-09-10T09:32:41.581Z"
 lang: "en"
@@ -17,100 +17,48 @@ voice_check:
   em_dash: 1
   unobserved: 232
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/amoveo-blockchain-communitys-journey-a-focus-on-futarchy-decentralization-and-real-world-1568a94d310b"
 ---
-# **Amoveo Blockchain Community’s Journey: A Focus on Futarchy, Decentralization, and Real-World Applications**
+# The Amoveo Community on Futarchy, Decentralization and Real-World Use
+
+This is a summary of discussions in the Amoveo community and of the work of its lead developer, so the ideas here are theirs and not mine.
 
 ![](../../../media/amoveo-blockchain-community-s-journey-a-focus-on-futarchy-decentralization-and-r/01-42f4f069.png)
 
-The Amoveo community is a hub of innovation and technical exploration in the blockchain space. Led by a brilliant lead developer, the community is actively engaged in discussions and developments aimed at enhancing the accessibility and real-world applicability of blockchain technology.
+The Amoveo community is a small group of people who go deep into the technical side of blockchains. The lead developer drives most of it, and the talks are about how to make blockchains easier to use and useful for real things in the real world.
 
-### **Futarchy and Decision-Making:**
+## What Amoveo is
 
-A key area of focus has been futarchy, a governance system where decisions are made based on prediction market outcomes. While initially promising, the community has been grappling with the limitations and potential failures of futarchy. Through rigorous analysis and mathematical modeling, the community has identified scenarios where futarchy may be vulnerable to manipulation or prove ineffective. This has led to a shift in focus towards refining the existing oracle system and exploring alternative governance mechanisms.
+Amoveo is a blockchain made for financial derivatives. It puts scalability, security and decentralization first. The oracle system is built into the consensus mechanism, and that makes it cheaper and more secure. The Amoveo DEX lets you swap across chains, also privacy coins, and it costs less than the normal bridges.
 
-### **Decentralization and Scalability:**
+The smart contract system is built to scale and to stay cheap, so there is no shared mutable state. Amoveo is the only stateless blockchain, and that means blocks can be verified fast, the network can be more decentralized and blocks can even be verified in reverse. That is also why Verkle trees fit it so well. The transaction types are not Turing complete, but they can be combined, and they give you infinite flash loans in all currencies, so you can do a complex thing inside one single transaction. And unlike on Ethereum, a failed transaction of this kind in Amoveo doesn't cost any gas.
 
-The Amoveo community is deeply committed to decentralization and scalability. The development of a Verkle tree-based database is a significant step towards achieving these goals. Verkle trees offer improved efficiency in proof verification and storage, crucial for a stateless blockchain like Amoveo. Additionally, the community is exploring ways to optimize the system further, including the use of different elliptic curves and compression techniques.
-
-### **Real-World Applications:**
-
-Amoveo’s focus extends beyond theoretical concepts. The community is actively working on real-world applications, such as a decentralized land registry and an employment contract system. The land registry aims to provide secure and transparent land ownership records, particularly in regions with inefficient or inaccessible traditional systems. The employment contract system, built on Amoveo’s smart contract capabilities, offers a trustless and decentralized platform for managing employment agreements.
-
-### **Challenges and the Road Ahead:**
-
-While the Amoveo community has made significant strides, challenges remain. Adoption and user experience are key areas that need to be addressed. The community is exploring ways to make the decentralized exchange (DEX) more user-friendly and attract liquidity providers. Additionally, finding sustainable funding mechanisms for development remains an ongoing challenge.
-
-Despite these challenges, the Amoveo community continues to push the boundaries of blockchain technology. Their dedication to innovation, decentralization, and real-world impact positions Amoveo as a project to watch in the evolving blockchain landscape.
-
-### Amoveo
-
-Amoveo is a blockchain designed for financial derivatives, prioritizing scalability, security, and decentralization. Its unique oracle system, intertwined with the consensus mechanism, offers cost-effectiveness and enhanced security. The Amoveo DEX enables cross-chain swaps for various cryptocurrencies, including privacy coins, at a lower cost than traditional bridges.
-
-Amoveo’s smart contract system focuses on scalability and affordability, eliminating shared mutable state. As the sole stateless blockchain, it allows for efficient block verification, increased decentralization, and reverse block verification, making it well-suited for Verkle tree technology.
-
-The platform’s non-Turing-complete transaction types are composable and provide infinite flash loans across all currencies, enabling complex transactions within a single transaction. Unlike Ethereum, failed non-Turing-complete transactions in Amoveo do not incur gas fees.
-
-### **Key Focus Areas:**
-
-- **Verkle Tree**: The Amoveo team is actively working on integrating the Verkle tree for improved scalability and reduced transaction sizes.
-- **Decentralized Exchange (DEX)**: Efforts are focused on enhancing the DEX’s user interface and attracting liquidity providers.
-- **Futarchy**: The community has moved away from futarchy as the primary governance mechanism due to its limitations.
-- **Land Registry**: Amoveo is exploring the implementation of a decentralized land registry using Harberger taxes.
-- **Community Engagement**: The Amoveo community remains active, discussing technical aspects, use cases, and growth strategies.
-
-### **Challenges and Future Outlook:**
-
-While significant progress has been made, challenges such as user adoption and experience, as well as sustainable funding, persist. The community is actively addressing these challenges through UI/UX improvements and exploring alternative funding mechanisms.
+The team works on a few things at the same time. They want to bring in the Verkle tree for better scaling and smaller transactions. They want a DEX with a better interface and more liquidity providers. They moved away from futarchy as the main way to govern because of its limits. They look at a decentralized land registry with Harberger taxes, and the community keeps talking about the technical side, use cases and how to grow.
 
 ## Futarchy
 
-Futarchy, a governance system where decisions are made based on prediction market outcomes, has been a central theme in Amoveo discussions. It was initially intended for various purposes, including determining block rewards and protocol upgrades. However, recent analysis has revealed its limitations, particularly its vulnerability to manipulation and ineffectiveness in certain scenarios. This has led to a shift away from futarchy as the primary governance mechanism, with a focus on refining the oracle system and exploring alternatives.
+Futarchy is a way to govern where decisions follow the results of prediction markets. It was a big topic in Amoveo for a long time. At first the idea was to use it for a lot of things, like the block reward and protocol upgrades. But the community did the math and modeled it, and they found cases where futarchy can be manipulated or just doesn't work. So they moved away from it as the main way to decide things, and the focus went to making the oracle system better and looking at other ways to govern.
 
-While futarchy may not be directly applicable to the Harberger tax implementation (as an example), it could indirectly influence decisions related to the tax rate or parameters within the land registry system. For instance, futarchy markets could be used to gauge community sentiment on proposed changes to the tax rate or to evaluate the impact of different tax structures on land utilization and economic activity.
+Futarchy may not fit the Harberger tax directly, but it could still help around it. Markets could show what the community thinks of a new tax rate, or what different tax models would do to how land gets used and to the economy around it. The community also sees other places where it could work in Amoveo. People could use markets to show which features and improvements they want most, so the development priorities follow that. Markets could predict which marketing campaign brings more users and growth. And before a big protocol change, markets could estimate what it does to network security, to fees and to how it feels for users. But all of this only makes sense where futarchy is cryptoeconomically secure and hard to manipulate.
 
-Other potential use cases for futarchy within the Amoveo ecosystem include:
+The discussion over the past twelve months went like this. On the 5th of November 2023 the lead developer came back to futarchy, because people noticed that Amoveo had moved away from Robin Hanson's original proposal, and he wanted to look at it again for Amoveo's governance. On the 6th of November 2023 he said his earlier analysis may have had a mistake and that he was hopeful again. On the 7th of November 2023 he announced a write-up about a new type of futarchy that seemed to work. On the 18th of November 2023 he shared a blog post about why this new form works and started to build it for the next hard update. On the 20th of November 2023 the community talked about how to do it on chain, with order books and LMSR markets. On the 1st of December 2023 Jehan Tremback asked why nobody runs futarchy experiments on Ethereum, and the answer was that Amoveo is the better platform for these experiments.
 
-- **Deciding on development priorities:** Futarchy markets could help prioritize development efforts by allowing the community to signal which features or improvements they value most.
-- **Evaluating marketing strategies:** Different marketing campaigns could be proposed, and futarchy markets could be used to predict their effectiveness in terms of user acquisition and growth.
-- **Assessing the impact of protocol changes:** Before implementing significant protocol changes, futarchy markets could be used to estimate their potential impact on network security, transaction fees, and overall user experience.
+On the 25th of February 2024 there was a long debate about Harberger taxes for land ownership and what they mean economically, and the lead developer said he might use futarchy to set the Harberger tax rate. On the 1st of March 2024 the community talked about the limits of the MetaDAO futarchy and how it could be manipulated, and he said he wanted to look at the MetaDAO design more closely. On the 5th of July 2024 the community came back to futarchy again, accepted its limits but was still hopeful to make it work in some specific cases. And on the 15th of July 2024 Eric Arsenault asked how futarchy was going and if it could work for governance, and he pointed to the problems Ethereum had with its own governance model.
 
-However, it’s crucial to recognize the limitations of futarchy and ensure that it’s applied only in situations where it can be cryptoeconomically secure and resistant to manipulation.
+So the community is still working out what futarchy can do for decentralized governance. It may end with better versions of what they have or with new mechanisms, but the goal stays the same, to find a way to make decisions and to share resources inside Amoveo.
 
-**Key Dates and Discussions on Futarchy in the Past 12 Months:**
+## Verkle trees
 
-- **July 5th, 2024**: The community revisits the concept of futarchy, with acknowledging its limitations but expressing optimism about finding ways to make it work in specific situations.
-- **July 15th, 2024**: Eric Arsenault inquires about the progress of futarchy and its potential for governance, highlighting the challenges Ethereum has faced due to its governance model.
-- **November 5th, 2023**: revisits the concept of futarchy, prompted by observations about Amoveo’s deviation from Robin Hanson’s original proposal. He expresses a renewed interest in exploring its potential for Amoveo’s governance.
-- **November 6th, 2023**: The discussion continues, with acknowledging a potential mistake in his previous analysis of futarchy and expressing optimism about its viability.
-- **November 7th, 2023**: announces a write-up on a new type of futarchy that appears to be functional.
-- **November 18th, 2023**: shares a blog post explaining why this new form of futarchy works and begins implementing it for the next hard update.
-- **November 20th, 2023**: The community discusses the specifics of implementing futarchy on-chain, including the use of order books and LMSR markets.
-- **December 1st, 2023**: Jehan Tremback questions why futarchy experiments aren’t conducted on Ethereum, to which responds, highlighting the advantages of Amoveo’s platform for such experiments.
-- **February 25th, 2024**: A lively debate ensues around the potential of Harberger taxes for land ownership, with community members exploring the economic implications of this model.Expresses interest in potentially using futarchy to determine the Harberger tax rate.
-- **March 1st, 2024**: The community discusses the limitations of the MetaDAO futarchy implementation and its potential vulnerabilities to manipulation. Expresses his intention to analyze the MetaDAO design further.
+A Verkle tree is a data structure to store a lot of information and to verify it fast. It's an improvement over the classic Merkle tree, because proofs are faster to make and to check, and that matters more the bigger the data gets.
 
-These discussions and developments illustrate the Amoveo community’s ongoing exploration of futarchy and its potential role in decentralized governance. While the path forward may involve refining existing mechanisms or adopting new ones, the community remains committed to finding effective solutions for decision-making and resource allocation within the Amoveo ecosystem.
+Amoveo uses Verkle trees to store its consensus state, so the record of all accounts, balances and smart contracts on the chain. This fits how Amoveo is designed, scalability and efficiency first. With Verkle trees Amoveo can run stateless full nodes. A node can verify blocks without storing the whole history of the chain, so it needs a lot less storage and syncs faster. The proofs are also smaller than with Merkle trees, so checking them is faster and uses less bandwidth. That makes Verkle trees good for a chain with a lot of transactions, and the cryptography behind them keeps the data of the chain safe so nobody can change it. The community also looks at other ways to make it even better, like different elliptic curves and compression.
 
-## Verkle Trees
+## Real-world use and what is still hard
 
-**What are Verkle Trees?**
+Amoveo is not only about theory. The community works on real things like a decentralized land registry and a system for employment contracts. The land registry should give safe and open records of who owns which land, mostly in places where the normal system is slow or people can't get to it. The employment contract system uses Amoveo's smart contracts so people can manage work agreements without having to trust anyone in between.
 
-Verkle trees are a type of data structure used to efficiently store and verify large amounts of information. They are an improvement over traditional Merkle trees, offering faster proof generation and verification times, especially for large datasets.
+A lot is still hard. Adoption and user experience are the big ones. The community wants to make the DEX easier to use and to bring in liquidity providers, so they work on the UI and the UX. And they still need a way to pay for development over the long run, so they look at other ways to fund it.
 
-**How are Verkle Trees Used in Amoveo?**
-
-Amoveo utilizes Verkle trees to store its consensus state — the record of all accounts, balances, and smart contracts on the blockchain. This choice aligns with Amoveo’s design philosophy of prioritizing scalability and efficiency.
-
-- **Stateless Full Nodes:** Verkle trees enable Amoveo to implement a stateless full node model, where nodes can verify blocks without storing the entire blockchain’s history. This significantly reduces storage requirements and allows for faster synchronization.
-- **Compact Proofs:** Verkle trees generate smaller proofs compared to Merkle trees, resulting in faster proof verification and lower bandwidth usage.
-
-**Advantages of Verkle Trees**
-
-- **Improved Scalability:** Verkle trees’ efficient proof generation and verification make them well-suited for blockchains handling a large number of transactions.
-- **Reduced Storage Requirements:** The stateless full node model enabled by Verkle trees significantly reduces the storage overhead for nodes participating in the network.
-- **Enhanced Security:** Verkle trees offer strong cryptographic guarantees, ensuring the integrity and immutability of the blockchain’s data.
-
-**Conclusion**
-
-Futarchy and Verkle trees represent Amoveo’s commitment to exploring innovative solutions in the blockchain space. While futarchy faces challenges that need to be addressed, Verkle trees offer tangible benefits in terms of scalability and efficiency. As Amoveo continues to evolve, these technologies will play a crucial role in shaping its future and realizing its vision of a decentralized and secure financial platform.
+Futarchy still has open problems, but Verkle trees already bring real gains in scaling and efficiency. Both are part of how Amoveo wants to become a decentralized and secure platform for finance.

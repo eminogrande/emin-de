@@ -1,6 +1,6 @@
 ---
 title: "Dar es Salaam Needs a World‑Class Safe Dance Space"
-description: "Dar es Salaam is not “the next big city.” It’s the city that is already arriving—fast. The question is whether the cultural infrastructure will arrive with it."
+description: "Dar es Salaam is already arriving, and fast. The question is if the cultural infrastructure will arrive with it. An open call to build a safe dance space."
 date: "2026-01-09T20:50:01Z"
 updated: "2026-01-09T20:50:01Z"
 lang: "en"
@@ -15,298 +15,215 @@ third_party_summary: false
 original_title: "Untitled Post"
 cover: "../../../media/dar-es-salaam-needs-a-world-class-safe-dance-space/cover.webp"
 voice_check:
-  em_dash: 14
+  em_dash: 0
   unobserved: 303
-emin_check_pct: null
+emin_check_pct: 43
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/untitled-post/"
 ---
 ![](../../../media/dar-es-salaam-needs-a-world-class-safe-dance-space/cover.jpg)
 
-# Dar es Salaam Needs a World‑Class Safe Dance Space
-### An open call to artists, DJs, producers, architects, sound
-engineers, and cultural organisers
+This is an open call to artists, DJs, producers, architects, sound
+engineers and cultural organisers.
 
-Dar es Salaam is not “the next big city.” It’s **the city that is
-already arriving**—fast.
-The question is whether the cultural infrastructure will arrive with it.
+Dar es Salaam is not the next big city. It's the city that is already
+arriving, and it's arriving fast. The question is if the cultural
+infrastructure will arrive with it.
 
-Today, Dar es Salaam Region has **5,383,728 people (2022 census)**—up
-from **4,364,541 in 2012**. Youth dominate the population: **37.1% are
-below 18**, and **21.9% are 15–24**. The median age is **23.1**.
-That means: millions of teenagers and young adults are coming of age
-*right now*—and the city urgently needs safe, well‑run spaces where
-they can gather, dance, learn, create, and belong.
+Today Dar es Salaam Region has 5,383,728 people according to the 2022
+census, up from 4,364,541 in 2012. And it's young people who make up
+most of it. 37.1% are below 18 and 21.9% are between 15 and 24. The
+median age is 23.1.
 
-This is a call to build a venue in Dar es Salaam that feels, in
-spirit, like what **Berghain** or **Club der Visionäre** represent in
-Berlin:
-not a copy of Berlin—**a Dar es Salaam original**—but a space with the
-same seriousness about sound, community, and freedom.
+That means millions of teenagers and young adults are growing up right
+now, and the city really needs safe, well run places where they can
+meet, dance, learn, make things and belong.
 
----
+So this is a call to build a place in Dar es Salaam that feels, in
+spirit, like what Berghain or Club der Visionäre stand for in Berlin.
+Not a copy of Berlin but a Dar es Salaam original, a place that takes
+sound, community and freedom just as seriously.
 
-## 1) Why Dar es Salaam, why now
+Different data sets use different borders, the city, the region, the
+metro or the urban agglomeration. But they all point the same way. Dar
+is growing incredibly fast.
 
-Different datasets use different boundaries (city, region, metro,
-“urban agglomeration”). But they all point in one direction: **Dar is
-growing at extraordinary speed**.
+One big set of projections has Dar es Salaam going from roughly 6
+million to about 13.4 million by 2035, and crossing 10 million before
+2030.
 
-- One major projection set has Dar es Salaam growing from roughly **~6
-million to ~13.4 million by 2035**, crossing **10 million before
-2030**.
-- The World Economic Forum has also listed Dar among the world’s
-fastest‑growing cities, projecting **~100% growth between 2020 and
-2035**.
+The World Economic Forum also listed Dar as one of the fastest growing
+cities in the world, with about 100% growth between 2020 and 2035. This
+is the city story of our time, a coastal city that expands, gets denser,
+takes in people and mixes itself again and again.
 
-This is the urban story of our era: a coastal metropolis expanding,
-densifying, migrating, remixing itself. And in fast‑growing cities,
-cultural spaces are not “nice to have”—they are **pressure valves,
-community anchors, and engines of identity**.
+And in cities that grow this fast, cultural places are not a nice extra.
+They are pressure valves, they hold communities together and they shape
+who a city is.
 
----
+The 2022 census profile for Dar es Salaam Region shows a very young
+city. The median age is 23.1 (2022), 31.5% are below 15, 37.1% are below
+18 and 21.9% are between 15 and 24.
 
-## 2) A city of youth (and youth migration)
+The population pyramid also has a bulge between 20 and 29, which shows
+that young people move to Dar from other parts of Tanzania.
 
-The 2022 census profile for Dar es Salaam Region shows a profoundly young city:
+This matters for nightlife and for third places, the places that are not
+home, school or work. Dar doesn't just have young people, it has a
+steady wave of young people arriving and looking for community, chances
+and meaning. If we don't make safe cultural places for this generation,
+the city will still party.
 
-- **Median age: 23.1 (2022)**
-- **31.5% are below 15**
-- **37.1% are below 18**
-- **21.9% are 15–24**
-- The population pyramid shows a **bulge at ages 20–29**, indicating
-youth in‑migration from other parts of Tanzania.
+But it will do it in broken up, fragile and sometimes unsafe ways, and
+we can do better than that.
 
-This matters for nightlife and “third places” (spaces beyond
-home/school/work):
-Dar doesn’t just have young people—it has **a continuous wave of young
-people arriving**, looking for community, opportunity, and meaning.
+And the sound of the future is already here. Dar es Salaam already made
+one of the most radical dance styles on the planet, Singeli, very fast,
+driven by MCs, born on the street and wildly new.
 
-If we don’t create safe cultural spaces for this generation, the city
-will still “party”—but it will do so in fragmented, precarious,
-sometimes unsafe ways. We can do better.
+UNESCO held a national capacity building workshop in Dar es Salaam in
+March 2025, linked to the work of Tanzania on the intangible cultural
+heritage nomination for Singeli.
 
----
+Music journalists and regional platforms have written about how Singeli
+came out of working class districts in the late 2000s and became a sound
+that now travels the whole world.
 
-## 3) The future sound is already here: Singeli and Dar’s underground
+So this is not about importing culture. It's about building
+infrastructure that matches the culture people in Dar already make, and
+giving young artists real stages, real sound, real respect and real pay.
 
-Dar es Salaam has already produced one of the most radical dance forms
-on the planet: **Singeli**—ultra‑fast, MC‑driven, street‑born, wildly
-innovative.
+When we say a place on the level of Berghain or Visionäre, we don't mean
+the door policy, the hype or the myth. We mean the basics. World class
+sound, so a serious system, a serious room treatment and serious
+engineers.
 
-- UNESCO hosted a national capacity‑building workshop in **Dar es
-Salaam (March 2025)** connected to Tanzania’s **intangible cultural
-heritage nomination** work for Singeli.
-- Music journalism and regional platforms have documented Singeli’s
-rise from **late‑2000s working‑class districts** into a sound that now
-travels globally.
+Long musical journeys, where DJs and live acts have room to tell a story
+and not just play hits. Design that puts the community first, a
+dancefloor plus chill spaces plus water, fresh air and toilets that
+work. A culture of care, against harassment, with de-escalation,
+consent, first aid and safe rides home.
 
-So this isn’t about importing culture.
-It’s about building infrastructure that matches the culture already
-being created in Dar—**and giving young artists real stages, real
-sound, real respect, and real pay**.
+And local roots with global exchange, so Dar artists in the center and
+international guests invited to learn, work together and share. It
+should be a place where a young person can walk in and feel this.
 
----
-
-## 4) What we mean by “a Berghain / Visionäre‑level space”
-
-Not the door policy. Not the hype. Not the myth.
-
-We mean the fundamentals:
-
-- **World‑class sound** (serious system, serious room treatment,
-serious engineers)
-- **Long-form musical journeys** (space for DJs and live acts to
-develop narratives, not just “hits”)
-- **Community-first design** (dancefloor + chill spaces + water +
-ventilation + toilets that work)
-- **Care culture** (anti-harassment, de-escalation, consent, first
-aid, safe rides home)
-- **Local roots + global exchange** (Dar artists centered;
-international guests invited to learn, collaborate, and share)
-
-A place where a young person can walk in and feel:
 > “I am safe here. I can be myself here. I can dance here. I can grow here.”
 
----
+The working title for the project is DAR LISTENING ROOM, a club and
+community place built around safety, sound and youth culture. The core
+idea is a hybrid space that can hold club nights, live showcases,
+workshops, open decks, producer labs and community gatherings, with a
+strong focus on 18+ youth and the artists who will shape the next ten
+years.
 
-## 5) The project (working title): **DAR LISTENING ROOM**
-### A club + community venue designed around safety, sound, and youth culture
+For the program that means 18+ nights, with clear age checks and a
+culture that protects younger adults from being exploited. Lineups that
+put local artists first, Singeli, Bongo Flava, experimental, techno,
+house, amapiano, live percussion and spoken word. Learning skills, so DJ
+classes, MC workshops, mentoring in sound engineering and training in
+lighting design.
 
-**Core idea:**
-A hybrid space that can hold **club nights**, **live showcases**,
-**workshops**, **open decks**, **producer labs**, and **community
-gatherings**—with a strong focus on **18+ youth** and the artists
-shaping the next decade.
+Residencies for new DJs, MCs and producers, monthly residents who get
+paid and mentored. And sober friendly events, because the dancefloor
+should not need you to be drunk or high.
 
-### Programming pillars
-- **18+ nights** (clear age checks; a culture that protects younger
-adults from exploitation)
-- **Local-first lineups** (Singeli, Bongo Flava, experimental, techno,
-house, amapiano, live percussion, spoken word)
-- **Skill-building**: DJ classes, MC workshops, sound engineering
-mentorship, lighting design training
-- **Residencies** for emerging DJs/MCs/producers (monthly residents,
-paid, mentored)
-- **Sober-friendly events** (the dancefloor should not require intoxication)
+Safety is not up for debate. There should be a public Code of Care, no
+harassment, no violence and no coercion. Staff trained in de-escalation
+and clear ways to report things.
 
-### Safety pillars (non-negotiable)
-- A published **Code of Care**: no harassment, no violence, no coercion
-- Trained staff for **de-escalation** + clear reporting channels
-- Free water, clear exits, ventilation, and medical/first-aid readiness
-- Partnerships for **safe transport** home after events
+Free water, clear exits, fresh air and first aid ready to go. And
+partners for safe transport home after events.
 
-### Economic pillars
-- Transparent artist pay standards
-- Fair local employment (security, bar, cleaning, technicians)
-- Ticket models that keep entry affordable (community tickets /
-student nights / early-bird tiers)
-- A plan to reinvest a portion of profits into **youth training +
-local cultural grants**
+The money side needs open pay standards for artists, fair local jobs in
+security, bar, cleaning and tech, and tickets that keep entry cheap,
+like community tickets, student nights and early bird prices. And a plan
+to put part of the profit back into youth training and local cultural
+grants.
 
----
+A club is not just vibes, it's also governance, so doing it legally and
+with respect in Dar means a reality check. Anyone building this in Dar
+should plan for a business license in Tanzania, where different classes
+and different authorities exist.
 
-## 6) Doing it legally and respectfully in Dar (a reality check)
+For public performance and music licensing, because Tanzania has a
+collecting society system and clubs usually have to pay music royalties.
+For event permits, since new rules for arts and event permits were
+reported, with fees tied to ticket price ranges.
 
-A club is not just vibes; it’s governance.
+And for alcohol licensing and age rules. The Intoxicating Liquors Act of
+Tanzania has offences for giving alcohol to people under 16, but no
+matter what the law says we can choose an 18+ house policy for entry and
+for alcohol, because it's safer and clearer.
 
-Anyone building this in Dar should plan for:
-- **Business licensing** in Tanzania (different classes and issuing
-authorities exist).
-- **Public performance / music licensing** (Tanzania has a collecting
-society framework; clubs typically need to pay music royalties).
-- **Event permits**: new regulations have been reported for arts/event
-permits with fees linked to ticket price bands.
-- **Alcohol licensing & age rules**: Tanzania’s *Intoxicating Liquors
-Act* includes offences related to supplying alcohol to people under
-**16**; regardless, we can choose an **18+ house policy** for entry
-and alcohol service for safety and clarity.
+This post is not legal advice. The point is simple, we build together
+with local experts and we build within the law, because safety depends
+on it.
 
-**Important:** This post is not legal advice. The point is simple:
-**we build in partnership with local expertise, and we build in
-compliance**—because safety depends on it.
+If you are one of these people, we want you in this. Artists and music
+people, so DJs from Dar and from abroad, MCs, live acts, producers who
+want to teach or mentor, and label heads and radio people who can make
+Dar artists heard around the world.
 
----
+Event producers and operators, so night managers, stage managers,
+production leads, door teams trained in care and not in scaring people,
+and community organisers who understand what young people need.
 
-## 7) What we’re asking for (this is the call)
+Space makers, so architects who know heat, airflow and how crowds move,
+acoustic engineers and system techs, lighting designers, builders and
+fabricators.
 
-If you are any of the following—**we want you in this**:
+And partners and supporters, local cultural institutions, community
+groups, youth organisations, ethical investors and patrons with patient
+money and open terms, and brands that can support the culture without
+controlling it.
 
-### Artists & music people
-- DJs (local + international), MCs, live acts
-- Producers willing to teach / mentor
-- Label heads and radio people who can amplify Dar artists globally
+The rule is that local leadership is not optional. This has to be built
+with Dar and not for Dar.
 
-### Event producers & operators
-- Night managers, stage managers, production leads
-- Door teams trained in care, not intimidation
-- Community organisers who understand youth needs
+The first steps should be realistic. Phase 0 is listening, in the first
+0 to 2 months. Build a local steering circle of artists, producers and
+community voices, hold listening sessions in Dar about what a safe club
+would look like here, and map the legal rules and find a local legal and
+operations advisor.
 
-### Space makers
-- Architects who know heat, airflow, crowd movement
-- Acoustic engineers and system techs
-- Lighting designers, builders, fabricators
+Phase 1 is pop-ups, from month 2 to 6. Run small, legal pilot events
+with workshops and nights, test sound, staff and safety rules, and build
+trust with the audience, neighbours, authorities and partners. Phase 2
+is a permanent home, from month 6 to 18.
 
-### Partners & supporters
-- Local cultural institutions, community groups, youth organisations
-- Ethical investors / patrons (patient capital, transparent terms)
-- Brands that can support **without controlling** the culture
+Find a place with good access and a plan for noise, install the sound
+properly and don't improvise that part, and open with a resident program
+and a monthly calendar.
 
-**The rule:** local leadership isn’t optional.
-This must be **built with Dar**, not *for* Dar.
+A club can be shallow. But a well run cultural place can be a civic
+project. It gives young people a safe place to meet, it makes jobs and
+creative careers, it builds pride and belonging, it turns tension into
+expression and it turns being alone into community.
 
----
-
-## 8) First steps (a realistic roadmap)
-
-### Phase 0: Listening (0–2 months)
-- Build a local steering circle (artists + producers + community voices)
-- Host listening sessions in Dar: “What would a safe club look like here?”
-- Map legal requirements and identify a local legal/operations advisor
-
-### Phase 1: Pop‑ups (2–6 months)
-- Run small, legal pilot events (workshops + nights)
-- Test sound + staffing + safety protocols
-- Build trust with audiences, neighbors, authorities, and partners
-
-### Phase 2: Permanent home (6–18 months)
-- Secure a venue location with good access + noise strategy
-- Install sound properly (don’t improvise this)
-- Launch with a resident program and a monthly calendar
-
----
-
-## 9) The peaceful revolution (what this is really about)
-
-A “club” can be shallow.
-But a well‑run cultural space can be **a civic project**:
-
-- It gives youth a safe place to gather
-- It creates jobs and creative careers
-- It builds pride and belonging
-- It turns tension into expression
-- It turns isolation into community
-
-Music won’t fix everything.
-But it can change how a city feels at night—
+Music won't fix everything. But it can change how a city feels at night,
 and that changes what a city becomes.
 
----
+If you want to help build this in Dar es Salaam, write to [YOUR EMAIL],
+find us on Instagram at [YOUR IG] or fill out the interest form at [YOUR
+FORM LINK]. And if you are in Dar, send a message and we meet in person.
 
-## Join the build
+Bring your craft, bring your care and bring your best ideas. Let's build
+a place where the 18 year olds of today can dance into a better future.
 
-If you want to help build this in Dar es Salaam:
+These are the references and further reading, and you can copy the links
+into your own citation style.
 
-- **Email:** [YOUR EMAIL]
-- **Instagram:** [YOUR IG]
-- **Interest form:** [YOUR FORM LINK]
-- **If you’re in Dar:** drop a message to meet in person.
-
-**Bring your craft. Bring your care. Bring your best ideas.**
-Let’s build a space where the 18‑year‑olds of today can dance into a
-better future.
-
----
-
-## References / further reading
-*(Copy these links into your own citation style as needed.)*
-
-1. Tanzania National Bureau of Statistics (NBS), 2022 PHC Initial
-Results (English PDF):
-   https://www.nbs.go.tz/uploads/statistics/documents/sw-1720088450-2022%20PHC%20Initial%20Results%20-%20English.pdf
-
-2. NBS, “2022 PHC: Dar es Salaam Region Basic Demographic and
-Socio‑Economic Profile Report” (PDF):
-   https://sensa.nbs.go.tz/publication/Dar.pdf
-
-3. National Geographic (2019) on Dar es Salaam growth projections:
-   https://www.nationalgeographic.com/environment/article/tanzanian-city-may-soon-be-one-of-the-worlds-most-populous
-
-4. UN‑Habitat case study (Dar es Salaam projections referenced):
-   https://unhabitat.org/sites/default/files/2021/12/blue_economy_case_study_dar_es_salaamfinal-oct21.pdf
-
-5. World Economic Forum (2020) “15 fastest‑growing cities in the
-world” (includes Dar):
-   https://www.weforum.org/stories/2020/02/15-fastest-growing-cities-world-africa-populations-shift/
-
-6. “Better Urban Growth in Tanzania” (NCE Working Paper, 2017)
-(includes Dar projections):
-   https://www.africancentreforcities.net/wp-content/uploads/2018/02/NCE2017-Better-Urban-Growth-Tanzania_final.pdf
-
-7. UNESCO (2025) article referencing Singeli national workshop in Dar
-es Salaam:
-   https://www.unesco.org/en/articles/singeli-world-tanzanias-sonic-beat-turns-volume-intangible-cultural-heritage-national-nomination
-
-8. Music In Africa (2023) on Singeli:
-   https://www.musicinafrica.net/magazine/acces-2023-cast-light-tanzanian-genre-singeli
-
-9. The Citizen (Tanzania) (2024) on reported BASATA permit regulation changes:
-   https://www.thecitizen.co.tz/tanzania/news/entertainment/basata-s-new-regulations-to-revitalise-tanzania-s-arts-scene-4833694
-
-10. Tanzania business licensing overview (official):
-   https://business.go.tz/index.php/business_license
-
-11. COSOTA license fees schedule (PDF):
-   https://cosota.go.tz/storage/app/uploads/public/5ea/94a/4e1/5ea94a4e15bc8180052164.pdf
-
-12. Intoxicating Liquors Act (CAP. 77) (R.E. 2023) (PDF):
-   https://www.nps.go.tz/uploads/documents/sw-1751353196-THE%20INTOXICATING%20LIQUORS%20ACT.pdf
+1. Tanzania National Bureau of Statistics (NBS), 2022 PHC Initial Results (English PDF), https://www.nbs.go.tz/uploads/statistics/documents/sw-1720088450-2022%20PHC%20Initial%20Results%20-%20English.pdf
+2. NBS, “2022 PHC Dar es Salaam Region Basic Demographic and Socio‑Economic Profile Report” (PDF), https://sensa.nbs.go.tz/publication/Dar.pdf
+3. National Geographic (2019) on Dar es Salaam growth projections, https://www.nationalgeographic.com/environment/article/tanzanian-city-may-soon-be-one-of-the-worlds-most-populous
+4. UN‑Habitat case study (Dar es Salaam projections referenced), https://unhabitat.org/sites/default/files/2021/12/blue_economy_case_study_dar_es_salaamfinal-oct21.pdf
+5. World Economic Forum (2020) “15 fastest‑growing cities in the world” (includes Dar), https://www.weforum.org/stories/2020/02/15-fastest-growing-cities-world-africa-populations-shift/
+6. “Better Urban Growth in Tanzania” (NCE Working Paper, 2017) (includes Dar projections), https://www.africancentreforcities.net/wp-content/uploads/2018/02/NCE2017-Better-Urban-Growth-Tanzania_final.pdf
+7. UNESCO (2025) article referencing Singeli national workshop in Dar es Salaam, https://www.unesco.org/en/articles/singeli-world-tanzanias-sonic-beat-turns-volume-intangible-cultural-heritage-national-nomination
+8. Music In Africa (2023) on Singeli, https://www.musicinafrica.net/magazine/acces-2023-cast-light-tanzanian-genre-singeli
+9. The Citizen (Tanzania) (2024) on reported BASATA permit regulation changes, https://www.thecitizen.co.tz/tanzania/news/entertainment/basata-s-new-regulations-to-revitalise-tanzania-s-arts-scene-4833694
+10. Tanzania business licensing overview (official), https://business.go.tz/index.php/business_license
+11. COSOTA license fees schedule (PDF), https://cosota.go.tz/storage/app/uploads/public/5ea/94a/4e1/5ea94a4e15bc8180052164.pdf
+12. Intoxicating Liquors Act (CAP. 77) (R.E. 2023) (PDF), https://www.nps.go.tz/uploads/documents/sw-1751353196-THE%20INTOXICATING%20LIQUORS%20ACT.pdf

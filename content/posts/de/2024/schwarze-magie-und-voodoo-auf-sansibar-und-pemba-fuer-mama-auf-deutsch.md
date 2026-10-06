@@ -1,6 +1,6 @@
 ---
 title: "Schwarze Magie und Voodoo auf Sansibar und Pemba (für Mama, auf Deutsch)"
-description: "Sansibar und Pemba haben reiche Geschichten, die mit schwarzer Magie und traditionellen spirituellen Praktiken verflochten sind. Diese Inseln sind bekannt..."
+description: "Shetani, Popobawa, Dschinn und die Waganga. Was die Leute auf Sansibar und Pemba über Geister und schwarze Magie glauben, für Mama auf Deutsch."
 date: "2024-05-17T22:00:49.465Z"
 updated: "2024-05-17T22:00:49.465Z"
 lang: "de"
@@ -10,6 +10,8 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-fuer-mama-auf-deutsch/01-812b10b4.webp"
@@ -21,26 +23,22 @@ original_url: "https://medium.com/@em/schwarze-magie-und-voodoo-auf-sansibar-und
 ---
 ![](../../../media/schwarze-magie-und-voodoo-auf-sansibar-und-pemba-fuer-mama-auf-deutsch/01-812b10b4.webp)
 
-Sansibar und Pemba haben reiche Geschichten, die mit schwarzer Magie und traditionellen spirituellen Praktiken verflochten sind. Diese Inseln sind bekannt für ihr kulturelles Erbe, das Glauben an übernatürliche Wesen und die Verwendung von traditioneller Medizin umfasst.
+Auf Sansibar und Pemba gibt es viele Geschichten über schwarze Magie und alte spirituelle Bräuche. Die Inseln sind bekannt für ihr kulturelles Erbe, und dazu gehört der Glaube an übernatürliche Wesen und die traditionelle Medizin.
 
-## Shetani und Popobawa
 
-Shetani: Auf Sansibar und Pemba sind Shetani Geister oder Dämonen, von denen angenommen wird, dass sie menschliche Angelegenheiten beeinflussen. Der Mwinyi Mkuu, oder Großherr, hatte historisch gesehen Macht durch die Kontrolle dieser Geister und das Vorhersehen der Zukunft. Die Ruinen des Palastes des Mwinyi Mkuu in Dunga sollen nachts von diesen Geistern heimgesucht werden​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​.
+Shetani sind auf Sansibar und Pemba Geister oder Dämonen, und die Leute glauben, dass sie sich in das Leben der Menschen einmischen. Der Mwinyi Mkuu, der Großherr, hatte früher seine Macht dadurch, dass er diese Geister kontrolliert und die Zukunft vorhergesehen hat. In den Ruinen seines Palastes in Dunga sollen die Geister nachts umgehen ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html)).
 
-Popobawa: Dieser berüchtigte Geist terrorisierte die Menschen auf Pemba und später auf Sansibar. Es wird gesagt, dass Popobawa seine Opfer lähmt und missbraucht, was jedes Mal, wenn er angeblich erscheint, zu Massenhysterie führt​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​.
+Und dann gibt es Popobawa, ein Geist, der berüchtigt ist. Er hat erst die Menschen auf Pemba terrorisiert und dann auch auf Sansibar. Man sagt, dass er seine Opfer lähmt und missbraucht, und jedes Mal, wenn er angeblich wieder auftaucht, gibt es eine Massenhysterie ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html)).
 
-## Traditionelle Heiler (Waganga)
 
-Waganga, oder traditionelle Heiler, spielen eine entscheidende Rolle bei der Bewältigung des Einflusses von Shetani und anderen Geistern. Diese Heiler verwenden eine Kombination aus Kräuterheilmitteln und spirituellen Ritualen, um Krankheiten zu behandeln und böswillige Geister zu vertreiben. Ihre Praktiken sind tief in der lokalen Kultur verwurzelt und werden oft über Generationen weitergegeben​ ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html))​​ ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/))​.
+Gegen Shetani und andere Geister helfen die Waganga, die traditionellen Heiler. Das sind die, zu denen man geht, wenn Geister Probleme machen. Sie arbeiten mit Kräutern und mit spirituellen Ritualen, um Krankheiten zu behandeln und böse Geister zu vertreiben. Das ist tief in der Kultur vor Ort verwurzelt und wird oft über Generationen weitergegeben ([Siyabona](https://www.siyabona.com/shetani-zanzibar.html)) ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/)).
 
-## Dschinn (Genies)
 
-Beeinflusst durch islamische Traditionen ist auch der Glaube an Dschinn (Genies) weit verbreitet. Es wird angenommen, dass diese Wesen Wünsche erfüllen und Einzelpersonen schützen können, wenn sie richtig beschworen und kontrolliert werden. Diese Art von Magie beinhaltet Rituale, die oft islamische Gebete mit traditionellen Praktiken verbinden. Es ist üblich, dass Menschen die Dienste eines Mganga in Anspruch nehmen, um mit Dschinn und anderen übernatürlichen Wesen umzugehen​ ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/))​.
+Durch den Islam ist auch der Glaube an Dschinn, also Genies, weit verbreitet. Die Leute glauben, dass diese Wesen Wünsche erfüllen und Menschen beschützen können, wenn man sie richtig ruft und unter Kontrolle hat. Bei dieser Magie werden oft islamische Gebete mit den alten Bräuchen verbunden. Viele gehen dafür zu einem Mganga, damit er sich um die Dschinn und die anderen übernatürlichen Wesen kümmert ([Voices of Africa](https://voicesofafrica.co.za/believe-it-or-not-witchcraft-in-kenya/)).
 
-## Kulturelle Integration
 
-Das kulturelle Gefüge von Sansibar und Pemba ist eine Mischung aus afrikanischen, arabischen, persischen und indischen Einflüssen. Diese Mischung hat einzigartige spirituelle Praktiken geschaffen, bei denen schwarze Magie und traditionelle Heilung mit dem islamischen Glauben koexistieren. Der Gebrauch von Schutzzaubern, Ritualen und Geisterbeschwörungen ist weit verbreitet und spiegelt das synkretische spirituelle Umfeld der Inseln wider​ ([Indigo Safaris](https://www.indigosafaris.com/pemba_island_history_and_culture.html))​​ ([Tanzania Odyssey](https://www.tanzaniaodyssey.com/blog/cadogan-guide-to-tanzania-the-indian-ocean-islands-pemba/))​.
+Auf Sansibar und Pemba kommen afrikanische, arabische, persische und indische Einflüsse zusammen. Daraus sind ganz eigene spirituelle Bräuche entstanden, und schwarze Magie und traditionelle Heilung leben da neben dem islamischen Glauben. Schutzzauber, Rituale und das Rufen von Geistern sind überall verbreitet, und man sieht daran, wie sehr sich die verschiedenen Glauben auf den Inseln vermischt haben ([Indigo Safaris](https://www.indigosafaris.com/pemba_island_history_and_culture.html)) ([Tanzania Odyssey](https://www.tanzaniaodyssey.com/blog/cadogan-guide-to-tanzania-the-indian-ocean-islands-pemba/)).
 
-Diese Praktiken sind ein wesentlicher Teil der lokalen Kultur und ziehen sowohl Gläubige, die Hilfe suchen, als auch Forscher an, die sich für traditionelle afrikanische Spiritualität interessieren. Die abgelegene und weniger entwickelte Natur der Inseln hat es diesen Traditionen ermöglicht, relativ unverändert über Jahrhunderte hinweg zu bestehen.
+Diese Bräuche sind ein wichtiger Teil der Kultur dort. Es kommen Gläubige, die Hilfe suchen, und auch Forscher, die sich für traditionelle afrikanische Spiritualität interessieren. Weil die Inseln abgelegen und weniger entwickelt sind, konnten sich diese Traditionen über Jahrhunderte fast unverändert halten.
 
 *Dieser Artikel wurde gemeinsam von emino.ai, Bane und ChatGPT verfasst.*

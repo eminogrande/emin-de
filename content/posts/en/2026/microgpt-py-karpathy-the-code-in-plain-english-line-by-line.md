@@ -1,6 +1,6 @@
 ---
-title: "microgpt.py (Karpathy) — the code in plain English, line by line"
-description: "This post contains two things:"
+title: "microgpt.py by Karpathy, the code in plain English, line by line"
+description: "Andrej Karpathy's microgpt.py trains a tiny GPT in pure Python. Here is his code and what every part does, in plain English."
 date: "2026-02-15T21:45:00Z"
 updated: "2026-02-15T21:45:00Z"
 lang: "en"
@@ -9,6 +9,8 @@ format: "guide"
 author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 reviewed_by_human: false
 source: "emino.app"
 third_party_summary: true
@@ -21,14 +23,11 @@ original_url: "https://emino.app/posts/microgpt-karpathy-line-by-line/"
 ---
 ![](../../../media/microgpt-py-karpathy-the-code-in-plain-english-line-by-line/cover.jpg)
 
-This post contains **two things**:
+Andrej Karpathy wrote `microgpt.py`. This post walks through it.
 
-1) The original `microgpt.py` code (as-is)
-2) A **plain-English explanation for every line**, in the same order, so a non-programmer can still follow the story.
+There are two things here. First his original `microgpt.py` code, as is. And second a plain English explanation of how it works, in the same order as the code, so you can follow the story even if you're not a programmer.
 
----
-
-## 1) The original code (verbatim)
+## The original code
 
 ```python
 """
@@ -233,253 +232,66 @@ for sample_idx in range(20):
     print(f"sample {sample_idx+1:2d}: {''.join(sample)}")
 ```
 
----
+## A walkthrough, so you can build it again
 
-## 2) A story-driven walkthrough (so you can reimplement it)
+This part explains the script like a build you watch step by step. If you can read Python and a bit of basic algebra, you should be able to write the program again from scratch after this. It explains what each part does and why it's there, and it connects the parts so you see the whole flow, from data to tokens to the model to the loss to the gradients to the optimizer and in the end to sampling.
 
-This section explains the script like a narrated build. If you can read Python and basic algebra, you should be able to **re-create the program from scratch** after going through this.
+Step 0 is the goal. The model reads a sequence of tokens, which here are just characters, and predicts the next token. Training teaches it to give a high probability to the right next character. After training you can sample characters one by one and get new strings that look like names.
 
-I’ll keep two promises:
+Step 1 is a tiny dataset. The script wants a text file `input.txt` with one training example per line. If the file isn't there, it downloads a classic dataset, a list of names. Then it shuffles them, so the training doesn't get biased by the order of the file.
 
-- I’ll explain *what each part is doing* and *why it exists*.
-- I’ll connect the pieces so you can see the full flow: **data → tokens → model → loss → gradients → optimizer → sampling**.
+Step 2 is a character tokenizer. The tokenizer is kept as small as possible on purpose. It collects every unique character in the dataset, gives each one an integer id, and adds one special token called BOS, for "beginning of sequence". So the ids `0..len(uchars)-1` are the real characters and `BOS = len(uchars)` is the special marker.
 
----
+BOS is there because it gives generation one known token to start from, and it also marks the end of a generated name. The script uses BOS for both start and stop.
 
-### Step 0: The goal (in one sentence)
+Step 3 is a tiny autograd engine. Everything in the model is built from small number nodes, the `Value` class. A `Value` holds `data`, which is the number from the forward pass, and `grad`, which is d(loss)/d(this) from the backward pass. It also keeps links to its children and the local derivatives you need for the chain rule.
 
-We want a model that reads a sequence of tokens (characters) and predicts the **next token**. Training teaches it to assign high probability to the correct next character. After training, we can sample characters one by one to generate new “name-like” strings.
+So when you write math like `a*b + c`, the code builds the computation graph by itself.
 
----
+Backprop then works like this. First it builds a topological order of the nodes, children before parents. Then it sets `loss.grad = 1`. And then it walks the nodes in reverse order and passes the gradients down to the children. It's the same idea as micrograd, just written right into this file.
 
-### Step 1: Get a tiny dataset
+Step 4 sets up the starting weights. The script defines a tiny GPT with a few hyperparameters. `n_embd` is the embedding size, so the length of the vector per token. `n_head` is the number of attention heads, `n_layer` the number of transformer layers and `block_size` the longest context.
 
-The script expects a text file `input.txt` with one training example per line. If it’s missing, it downloads a classic dataset: a list of names.
-
-**Why shuffle?**
-
-Shuffling makes training less biased by file ordering.
-
----
-
-### Step 2: Build a character tokenizer
-
-The tokenizer here is intentionally minimal:
-
-- Collect every unique character that appears in the dataset.
-- Assign each character an integer id.
-- Add one special token called **BOS** (“beginning of sequence”).
-
-So the vocabulary is:
-
-- `0..len(uchars)-1` → actual characters
-- `BOS = len(uchars)` → special marker
-
-**Why BOS?**
-
-It lets us:
-
-- start generation from a single known token
-- also mark the end of a generated name (the script uses BOS as both “start” and “stop”)
-
----
-
-### Step 3: A tiny autograd engine (the `Value` class)
-
-Everything in the model is built out of scalar nodes called `Value`.
-
-A `Value` stores:
-
-- `data`: the number (forward pass)
-- `grad`: d(loss)/d(this) (backward pass)
-- references to its children + the local derivatives needed for chain rule
-
-When you do math like `a*b + c`, the code builds a computation graph automatically.
-
-#### Backprop, conceptually
-
-1) build a topological ordering of nodes (children before parents)
-2) set `loss.grad = 1`
-3) walk the nodes in reverse topo order and propagate gradients to children
-
-This is the same idea as micrograd, but implemented directly here.
-
----
-
-### Step 4: Initialize model parameters (“weights”)
-
-The script defines a **tiny GPT** with a few hyperparameters:
-
-- `n_embd`: embedding size (vector length per token)
-- `n_head`: attention heads
-- `n_layer`: transformer layers
-- `block_size`: maximum context length
-
-Then it creates a `state_dict` with matrices (lists of lists of `Value`) for:
-
-1) **Token embeddings** `wte[vocab_size][n_embd]`
-2) **Position embeddings** `wpe[block_size][n_embd]`
-3) **Per-layer attention weights** (Wq, Wk, Wv, Wo)
-4) **Per-layer MLP weights** (fc1, fc2)
-5) **Language-model head** `lm_head[vocab_size][n_embd]` (projects hidden state → logits)
+Then it makes a `state_dict` full of matrices, which are lists of lists of `Value`. There are token embeddings `wte[vocab_size][n_embd]` and position embeddings `wpe[block_size][n_embd]`. Every layer gets attention weights (Wq, Wk, Wv, Wo) and MLP weights (fc1, fc2). And there's the language model head `lm_head[vocab_size][n_embd]`, which turns the hidden state into logits.
 
 All weights start as small random numbers.
 
-**Important:**
+The important thing is that all of this is done by hand, no NumPy. It's slow, but it's the algorithm in its simplest form.
 
-This implementation is fully “manual” (no NumPy). It’s slow, but it’s the *algorithm* in its simplest form.
+Step 5 is the basic math parts. `linear(x, w)` does a matrix multiply. The input `x` is a vector of length `nin`, the weights `w` are a matrix `[nout][nin]`, and what comes out is a vector of length `nout`.
 
----
+Softmax turns logits into probabilities. It subtracts max(logit) so the numbers stay stable, then takes the exponent, then divides by the sum. So the probabilities add up to 1.
 
-### Step 5: Define the core math building blocks
+RMSNorm scales a vector so its average squared size is about 1. It computes the mean square `ms = mean(x_i^2)`, then the scale `scale = 1/sqrt(ms + eps)`, and gives back `x * scale`. This keeps training stable.
 
-#### 5.1 Linear layer
+Step 6 is the GPT forward pass, one position at a time. The function `gpt(token_id, pos_id, keys, values)` gives you logits for the next token.
 
-`linear(x, w)` computes a matrix multiply:
+It starts with the embeddings. It looks up the token embedding `tok_emb = wte[token_id]` and the position embedding `pos_emb = wpe[pos_id]`, adds them up as `x = tok_emb + pos_emb` and normalizes with `x = rmsnorm(x)`.
 
-- input `x` is a vector length `nin`
-- weights `w` is a matrix `[nout][nin]`
-- output is a vector length `nout`
+Then come the transformer blocks, once for each layer, and each layer has two parts.
 
-#### 5.2 Softmax
+The first part is multi-head self-attention. It makes `q, k, v` by running linear layers on `x`, and it appends `k, v` to the running cache `keys[layer]` and `values[layer]`. Then for each head it cuts out that head's dimensions, computes attention scores as dot(q, k_t) / sqrt(d), runs softmax on the scores to get weights, and takes a weighted sum of the v's as the head output. All head outputs get joined together, the output projection `Wo` goes on top, and a residual connection adds the input back.
 
-Softmax turns logits into probabilities:
+The second part is the MLP. That's just fc1, then ReLU, then fc2, and again a residual connection.
 
-- subtract max(logit) for numerical stability
-- exponentiate
-- divide by sum
+So the shape is always a vector of length `n_embd`.
 
-So probabilities sum to 1.
+At the end, `logits = lm_head * x` gives one logit per token in the vocab, and `softmax` turns those logits into probabilities.
 
-#### 5.3 RMSNorm
+Step 7 is the training loop, so how it learns. Every training step uses one document, so one name.
 
-RMSNorm rescales a vector so its average squared magnitude is ~1:
+First it tokenizes it. The code makes a token list like `[BOS] + [char ids for doc] + [BOS]` and takes up to `block_size` transitions from it. So if the tokens are `t0, t1, t2, ...`, it trains on pairs, input `t0` with target `t1`, input `t1` with target `t2`, and so on.
 
-- compute mean square: `ms = mean(x_i^2)`
-- compute scale: `scale = 1/sqrt(ms + eps)`
-- return `x * scale`
+Then the forward pass computes the loss. For each position it runs `gpt(token_id, pos_id, keys, values)`, runs softmax to get `probs`, takes the probability it gave to the right `target_id`, and the loss is the negative log likelihood `-log(probs[target_id])`. The average over all positions is the final `loss`.
 
-This stabilizes training.
+Then the backward pass. `loss.backward()` walks the graph and fills in the gradient for every parameter `Value`.
 
----
+And then the Adam update. Adam keeps two moving averages per parameter, `m`, the first moment or mean gradient, and `v`, the second moment or mean squared gradient. It corrects the bias with `m_hat` and `v_hat` and then updates with `p.data -= lr * m_hat / (sqrt(v_hat) + eps)`. It also uses a learning rate that goes down in a straight line over the steps.
 
-### Step 6: The GPT forward pass (one position at a time)
+Step 8 is inference, so how it makes names. After training the script samples names like this. It starts with `token_id = BOS`. Then for each position up to `block_size` it runs the GPT forward, divides the logits by `temperature`, runs softmax to get probabilities and samples the next token id from them. If the token is BOS it stops, because that's the end of the name. If not, it appends the matching character.
 
-The `gpt(token_id, pos_id, keys, values)` function produces logits for the *next token*.
+That gives you 20 made up, hallucinated names.
 
-#### 6.1 Embeddings
+## If you want to build it again
 
-1) lookup token embedding: `tok_emb = wte[token_id]`
-2) lookup position embedding: `pos_emb = wpe[pos_id]`
-3) add them: `x = tok_emb + pos_emb`
-4) normalize: `x = rmsnorm(x)`
-
-#### 6.2 Transformer blocks (repeat for each layer)
-
-Each layer has two sub-blocks:
-
-**A) Multi-head self-attention**
-
-- create `q, k, v` by applying linear layers to `x`
-- append `k, v` into the running `keys[layer]` / `values[layer]` cache
-- for each head:
-  - slice out head dimensions
-  - compute attention scores: dot(q, k_t) / sqrt(d)
-  - softmax scores → weights
-  - weighted sum of v’s → head output
-- concatenate all head outputs
-- apply output projection `Wo`
-- add residual connection
-
-**B) MLP**
-
-- fc1 → ReLU → fc2
-- add residual connection
-
-So the shape is always: vector length `n_embd`.
-
-#### 6.3 Final projection to vocab
-
-`logits = lm_head * x` gives one logit per vocab token.
-
-Those logits are turned into probabilities by `softmax`.
-
----
-
-### Step 7: Training loop (how it learns)
-
-Each training step uses one document (name).
-
-#### 7.1 Tokenize one document
-
-The code creates a token list like:
-
-`[BOS] + [char ids for doc] + [BOS]`
-
-Then it takes up to `block_size` transitions.
-
-So if tokens are `t0, t1, t2, ...`, we train on pairs:
-
-- input `t0` → target `t1`
-- input `t1` → target `t2`
-- ...
-
-#### 7.2 Forward pass to compute loss
-
-For each position:
-
-1) run `gpt(token_id, pos_id, keys, values)`
-2) softmax → `probs`
-3) take the probability assigned to the correct `target_id`
-4) negative log-likelihood loss: `-log(probs[target_id])`
-
-Average across positions → final `loss`.
-
-#### 7.3 Backward pass
-
-`loss.backward()` walks the graph and fills gradients for every parameter `Value`.
-
-#### 7.4 Adam update
-
-Adam keeps two moving averages per parameter:
-
-- `m`: first moment (mean gradient)
-- `v`: second moment (mean squared gradient)
-
-Then it applies bias correction (`m_hat`, `v_hat`) and updates:
-
-`p.data -= lr * m_hat / (sqrt(v_hat) + eps)`
-
-It also uses a **linearly decaying learning rate**.
-
----
-
-### Step 8: Inference (how it generates names)
-
-After training, we sample names like this:
-
-1) start with `token_id = BOS`
-2) for each position up to `block_size`:
-   - run GPT forward
-   - divide logits by `temperature`
-   - softmax → probabilities
-   - sample next token id using those probabilities
-   - if token == BOS: stop (end-of-name)
-   - else append the corresponding character
-
-This produces 20 hallucinated names.
-
----
-
-## If you want to reimplement it (minimal pseudocode)
-
-Here’s the skeleton you could rewrite from scratch:
-
-1) load dataset lines
-2) build vocab + BOS
-3) implement `Value` + `backward()`
-4) init weights in `state_dict`
-5) implement `linear`, `softmax`, `rmsnorm`
-6) implement `gpt()` (embeddings → blocks → logits)
-7) training loop: tokenize → compute NLL loss → backprop → Adam update
-8) sampling loop: autoregressive generation
+Here's the skeleton you could write from scratch. 1) load the dataset lines, 2) build the vocab plus BOS, 3) write `Value` and `backward()`, 4) set up the weights in `state_dict`, 5) write `linear`, `softmax` and `rmsnorm`, 6) write `gpt()`, so embeddings, then blocks, then logits, 7) the training loop, tokenize, compute the NLL loss, backprop and do the Adam update, and 8) the sampling loop, which generates one token after the other.

@@ -1,6 +1,6 @@
 ---
 title: "Homeostatic and Affective Consciousness"
-description: "This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly..."
+description: "One column from my map of consciousness theories, the body and feelings lens, with the names on it and how to read them."
 date: "2026-02-20T22:00:00Z"
 updated: "2026-02-20T22:00:00Z"
 lang: "en"
@@ -14,107 +14,21 @@ source: "emino.app"
 third_party_summary: false
 cover: "../../../media/homeostatic-and-affective-consciousness/cover.webp"
 voice_check:
-  em_dash: 2
+  em_dash: 0
   unobserved: 30
-emin_check_pct: null
+emin_check_pct: 58
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100004-homeostatic-and-affective-consciousness/"
 ---
-This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly and fairly.
+This is a longer guide in simple words, so people who are new to the topic can still follow it. The idea is to go through each point on my map and explain it in a clear and fair way.
 
-## Overview
+The column tries to answer one big question, how consciousness works, and it uses one specific lens for that. It doesn't say it's the only truth, but it gives you good tools to think with.
 
-In plain words: this column tries to answer one big question—how consciousness works—using one specific lens. It does not claim to be the only truth, but it gives useful tools for thinking.
+The names and ideas in this column are Predictive Processing, Seth, Damasio, Winkielman, Solms, Carhart, Anagnostopoulos, the Entropic Brain, Budson, Panksepp, Debiasi, Marchetti, Mansell, Projective Models and Pepperell. Each one is on the map because it's an important reference point.
 
-## Predictive Processing
+And for each one I ask the same simple questions. What does this idea explain well, what does it miss, and how can we test it better? So Predictive Processing gets those questions, and Seth, and Damasio, and Winkielman and Solms. Same for Carhart and Anagnostopoulos and the Entropic Brain, and also for Budson, Panksepp, Debiasi, Marchetti and Mansell, and in the end for Projective Models and Pepperell.
 
-Predictive Processing is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
+If you're not an expert, you don't have to agree with every claim. The best way to read all of this is to put the models next to each other and ask which one explains experience, brain data and everyday life with the least confusion.
 
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Seth
-
-Seth is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Damasio
-
-Damasio is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Winkielman
-
-Winkielman is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Solms
-
-Solms is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Carhart
-
-Carhart is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Anagnostopoulos
-
-Anagnostopoulos is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Entropic Brain
-
-Entropic Brain is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Budson
-
-Budson is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Panksepp
-
-Panksepp is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Debiasi
-
-Debiasi is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Marchetti
-
-Marchetti is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Mansell
-
-Mansell is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Projective Models
-
-Projective Models is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Pepperell
-
-Pepperell is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Closing
-
-If you’re new to philosophy of mind, the practical takeaway is this: no single model explains everything yet. But each model contributes a piece. Reading across them gives a stronger, less dogmatic understanding.
+And if you're new to philosophy of mind, the practical thing to take away is that no single model explains everything yet. But every model adds a piece, and if you read across all of them you get a stronger and less dogmatic understanding.

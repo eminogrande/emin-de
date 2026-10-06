@@ -1,6 +1,6 @@
 ---
-title: "Spark Wallet UX + Lightning Flow — Chronological Build Log"
-description: "You asked for the Spark wallet to look exactly like the existing Bitcoin screen, keep code minimal, and avoid duplicate/legacy code. You also set strict..."
+title: "Spark wallet UX and the Lightning flow, a build log"
+description: "I wanted the Spark wallet to look exactly like the existing Bitcoin screen, with minimal code and no duplicate or legacy code. I also set strict..."
 date: "2026-01-09T14:25:01Z"
 updated: "2026-01-09T14:25:01Z"
 lang: "en"
@@ -17,131 +17,55 @@ voice_check:
   em_dash: 8
   unobserved: 69
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/spark-wallet-ux-lightning-flow-chronological-build-log/"
 ---
 ![](../../../media/spark-wallet-ux-lightning-flow-chronological-build-log/cover.jpg)
 
-# Spark Wallet UX + Lightning Flow — Chronological Build Log
+# Spark wallet UX and the Lightning flow, a build log
 
-  ## Briefing and Constraints
+I wanted the Spark wallet to look exactly like the existing Bitcoin screen. Keep the code minimal. No duplicate code and no legacy code. I also set strict process rules for the agent. No git commands. No tests. Approval from me before anything gets implemented. Short and precise answers. The receive and send flow should mirror the Bitcoin UI and support Lightning invoices and LNURL. Later it should also support onchain withdrawals from Spark.
 
-  You asked for the Spark wallet to look exactly like the existing
-Bitcoin screen, keep code minimal, and avoid duplicate/legacy code.
-You also set strict process rules: no git commands, no tests,
-approvals before implementation, and short, precise responses. You
-wanted the receive/send flow to mirror Bitcoin UI and to support
-Lightning invoices, LNURL, and
-  later onchain withdrawals from Spark.
+Here is how it went, in order.
 
-  ## Phase 1 — UI Parity and Automatic Claiming
 
-  1. Goal: Make screens/SparkBitcoinWalletScreen.tsx visually match
-screens/BitcoinScreen.tsx.
-  2. Key changes: Spark screen styling, spacing, typography, and
-button layout aligned to the Bitcoin screen; receive and send buttons
-matched exactly.
-  3. Behavior change: Spark screen now auto-checks for pending
-transfers and auto-claims them into the Spark wallet.
-  4. Apple Pay: The Apple Pay header button stayed, with a placeholder
-for passing the Spark deposit address later.
+The first goal was simple. screens/SparkBitcoinWalletScreen.tsx should look like screens/BitcoinScreen.tsx. So we aligned the Spark screen styling, spacing, typography and button layout to the Bitcoin screen. The receive and send buttons now match exactly.
 
-  ## Phase 2 — Receive Modal Redesign (Spark)
+We also changed one behavior. The Spark screen now checks for pending transfers by itself and claims them into the Spark wallet automatically.
 
-  1. Goal: Make Spark receive screen match Bitcoin receive screen layout.
-  2. Key changes in screens/SparkBitcoinReceiveModal.tsx:
-      1. Address at the top.
-      2. QR code positioned in the same layout as Bitcoin receive.
-      3. Share / tap-to-copy interactions aligned with Bitcoin UI.
-  3. Invoice creation UX:
-      1. A sats input field styled like the Bitcoin send amount input.
-      2. Euro line under it for parity.
-      3. The button changed to “Create Invoice”.
-  4. Behavior:
-      1. Before invoice creation: show deposit address; hide invoice QR.
-      2. After invoice creation: show only invoice + invoice QR in the
-same style.
+The Apple Pay button in the header stayed. It has a placeholder so we can pass the Spark deposit address to it later.
 
-  ## Phase 3 — Caching and Responsiveness
 
-  1. Goal: Remove long loading delays.
-  2. Changes:
-      1. Cached Spark deposit address and balance.
-      2. Spark screen loads from cache first and refreshes in background.
+Next I wanted the Spark receive screen to match the Bitcoin receive screen layout. We changed screens/SparkBitcoinReceiveModal.tsx. The address is now at the top. The QR code sits in the same place as on Bitcoin receive. Share and tap to copy work like in the Bitcoin UI.
 
-  ## Phase 4 — Spark Send Flow and Confirmation
+For creating an invoice there is now a sats input field. It is styled like the amount input on Bitcoin send. Under it there is a euro line, also for parity. The button now says “Create Invoice”.
 
-  1. Goal: Mirror Bitcoin send flow with a final confirmation step.
-  2. Changes:
-      1. Scan or paste moves into screens/SparkLightningSendModal.tsx.
-      2. Sender sees a confirm screen before any payment is sent.
-      3. Zero-amount invoices prompt for amount entry instead of sending.
+Before you create an invoice you see the deposit address and no invoice QR. After you create one you only see the invoice and the invoice QR, in the same style.
 
-  ## Phase 5 — LNURL and Lightning Address Support
 
-  1. Goal: Support LNURL pay and Lightning address inputs.
-  2. New service: services/SparkLnurlService.ts added:
-      1. Normalize inputs (strip lightning: prefix).
-      2. Resolve LNURL pay request (resolveLnurlPayRequest).
-      3. Request invoice from LNURL callback (requestLnurlInvoice).
-  3. Send modal changes in screens/SparkLightningSendModal.tsx:
-      1. Accept LNURL bech32, LNURL URL, and Lightning address.
-      2. Clamp amount to LNURL min; auto-fill minimum.
-      3. Hide network errors from user UI; keep them for logs.
-      4. If invalid input, clear prefill and highlight request input
-instead of showing invalid data.
+The screen had long loading delays. I wanted them gone. We now cache the Spark deposit address and the balance. The Spark screen loads from the cache first and refreshes in the background.
 
-  ## Phase 6 — Onchain Withdrawals from Spark
 
-  1. Goal: Allow “normal Bitcoin address” sends (Spark → L1).
-  2. Service update in services/SparkBitcoinWalletService.ts:
-      1. withdrawToBitcoinAddress uses Spark getWithdrawalFeeQuote + withdraw.
-      2. Default exit speed: ExitSpeed.MEDIUM.
-      3. Logs truncate address for safety.
-  3. Screen logic update in screens/SparkBitcoinWalletScreen.tsx:
-      1. Detect onchain address in handleConfirmSend.
-      2. Route to withdrawToBitcoinAddress instead of payLightningInvoice.
-      3. Refresh Spark balance and pending deposits after withdraw.
+The send flow should mirror the Bitcoin send flow, with a final confirmation step. Scan or paste now moves into screens/SparkLightningSendModal.tsx. The sender always sees a confirm screen before any payment goes out. If an invoice has zero amount, we ask for the amount instead of sending.
 
-  ## Phase 7 — UX Refinements You Requested
 
-  1. Invalid prefill behavior:
-      1. If paste/scan is not valid invoice/address/LNURL, the input
-is cleared and highlighted.
-  2. Input focus and keypad:
-      1. After valid prefill, amount input auto-focuses.
-      2. Cursor stays at the end of the amount.
-      3. Number pad opens immediately.
-  3. Centering:
-      1. Amount block is vertically centered between header and CTA.
-  4. Title logic:
-      1. Header shows memo if present.
-      2. Otherwise “Send Lightning” or “Send Bitcoin” (onchain).
+Then we added support for LNURL pay and Lightning address inputs. There is a new service, services/SparkLnurlService.ts. It normalizes inputs and strips the lightning: prefix. It resolves the LNURL pay request with resolveLnurlPayRequest. And it requests the invoice from the LNURL callback with requestLnurlInvoice.
 
-  ## How You Guided the Build
+In screens/SparkLightningSendModal.tsx the send modal now accepts LNURL bech32, LNURL URLs and Lightning addresses. The amount is clamped to the LNURL minimum, and the minimum is filled in automatically. Network errors are hidden from the user UI. We keep them for the logs. If the input is invalid we clear the prefill and highlight the request input. We do not show invalid data.
 
-  1. You gave clear visual comparisons (Bitcoin screen as the exact target).
-  2. You caught UI mismatches quickly (icon, padding, layout) and
-asked for 1:1 copy.
-  3. You prioritized minimal code and “no fallback” logic.
-  4. You approved changes step-by-step and clarified edge cases:
-      1. Zero-amount invoices should prompt.
-      2. LNURL should be pay-only for now.
-      3. Network errors should not be user-facing.
-  5. You pushed for exact UX flow consistency, especially around
-confirmation, validation, and amount entry.
 
-  ## What We Did Not Do
+I also wanted sends to a “normal Bitcoin address”, so Spark → L1. We updated services/SparkBitcoinWalletService.ts. withdrawToBitcoinAddress uses Spark getWithdrawalFeeQuote + withdraw. The default exit speed is ExitSpeed.MEDIUM. The logs truncate the address for safety.
 
-  1. No git commands.
-  2. No tests (explicitly requested).
-  3. No changes to the original Bitcoin screen.
+The screen logic in screens/SparkBitcoinWalletScreen.tsx changed too. handleConfirmSend detects an onchain address. Then it routes to withdrawToBitcoinAddress instead of payLightningInvoice. After the withdraw it refreshes the Spark balance and the pending deposits.
 
-  ## Current State Summary
 
-  1. Spark wallet UI matches Bitcoin screen layout.
-  2. Receive modal matches Bitcoin receive flow, with Spark deposit
-address and invoice creation.
-  3. Send modal supports Lightning invoices, LNURL, Lightning
-addresses, and onchain BTC addresses.
-  4. Invalid input never pre-fills; amount flow is focused and centered.
-  5. Spark balance and deposit address are cached for faster UI.
+After that I asked for a few refinements. If paste or scan is not a valid invoice, address or LNURL, the input is cleared and highlighted. After a valid prefill the amount input gets focus automatically. The cursor stays at the end of the amount and the number pad opens right away. The amount block is vertically centered between the header and the CTA. The header shows the memo if there is one. Otherwise it says “Send Lightning”, or “Send Bitcoin” for onchain.
+
+
+I gave clear visual comparisons. The Bitcoin screen was the exact target. When the UI did not match, with the icon or the padding or the layout, I caught it fast and asked for a 1:1 copy. I put minimal code first, and “no fallback” logic. I approved every change step by step and cleared up the edge cases. Zero-amount invoices should prompt. LNURL is pay only for now. Network errors should not reach the user. And I kept pushing for the same UX flow everywhere, especially around confirmation, validation and amount entry.
+
+There are things we did not do. No git commands. No tests, I asked for that explicitly. No changes to the original Bitcoin screen.
+
+
+The Spark wallet UI now matches the Bitcoin screen layout. The receive modal matches the Bitcoin receive flow, with the Spark deposit address and invoice creation. The send modal supports Lightning invoices, LNURL, Lightning addresses and onchain BTC addresses. Invalid input never pre-fills, and the amount flow is focused and centered. The Spark balance and deposit address are cached, so the UI is faster.

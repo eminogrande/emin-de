@@ -1,6 +1,6 @@
 ---
 title: "The Complete Guide: Building a Full-Stack Blog Infrastructure with Lightning, Nostr, and Email Publishing"
-description: "This comprehensive guide documents the creation of a fully-featured, decentralized blog platform with cutting-edge features including Bitcoin Lightning..."
+description: "This is how we built a full blog platform that does not depend on anyone. It takes Bitcoin Lightning payments, it talks to Nostr, you can publish by email..."
 date: "2024-08-26T15:45:00Z"
 updated: "2024-08-26T15:45:00Z"
 lang: "en"
@@ -17,59 +17,27 @@ voice_check:
   em_dash: 0
   unobserved: 151
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/complete-blog-infrastructure-guide/"
 ---
 ![](../../../media/the-complete-guide-building-a-full-stack-blog-infrastructure-with-lightning-nost/cover.jpg)
 
-## What We Built: A Complete Modern Blog Infrastructure
+This is how we built a full blog platform that does not depend on anyone. It takes Bitcoin Lightning payments, it talks to Nostr, you can publish by email, and GitHub deploys it on its own.
 
-This comprehensive guide documents the creation of a fully-featured, decentralized blog platform with cutting-edge features including Bitcoin Lightning payments, Nostr integration, email-to-blog publishing, and automated GitHub deployments.
+## What runs underneath
 
-## Infrastructure Overview
+The server is a Hetzner Ubuntu VPS (188.34.194.25). Hugo with the PaperMod theme builds the site. Nginx serves it with SSL from Let's Encrypt. The domain is emino.app, with DNS at Porkbun. The code lives on GitHub and deploys automatically. Postfix and Dovecot handle the mail for email-to-blog. Docker runs the services, Alby Hub and the Nostr relay.
 
-### Core Components
-- **Server**: Hetzner Ubuntu VPS (188.34.194.25)
-- **Static Site Generator**: Hugo with PaperMod theme
-- **Web Server**: Nginx with SSL (Let's Encrypt)
-- **Domain**: emino.app (via Porkbun DNS)
-- **Version Control**: GitHub with automated deployments
-- **Email Server**: Postfix + Dovecot for email-to-blog
-- **Containers**: Docker for services (Alby Hub, Nostr relay)
+## What it can do
 
-## Features Implemented
+Lightning Bitcoin tips go to emin@nuri.com. The design is minimal and all about typography, in Bitcoin orange (#f7931a), black and white only. WebLN works fully with the Alby browser extension. Alby users pay with one click. Mobile wallets get Lightning URI deep links. And there is a fallback modal for paying by hand.
 
-### 1. Lightning Bitcoin Tips ⚡
-- **Address**: emin@nuri.com
-- **Design**: Minimalist typography-focused interface
-- **Colors**: Bitcoin orange (#f7931a), black, and white only
-- **WebLN Support**: Full integration with Alby browser extension
-- **Payment Options**:
-  - One-click WebLN payments for Alby users
-  - Lightning URI deep links for mobile wallets
-  - Fallback modal for manual payments
+For Nostr there is my own relay at `wss://relay.emino.app`. Posts go out as long-form NIP-23 events. A publishing script cross-posts to Nostr on its own. Images and videos get compressed. The relay runs as nostr-rs-relay in a Docker container, so it stays up.
 
-### 2. Nostr Integration 📡
-- **Personal Relay**: Running at `wss://relay.emino.app`
-- **Long-form Content**: Posts published as NIP-23 events
-- **Publishing Script**: Automatic cross-posting to Nostr
-- **Media Handling**: Compressed images and videos
-- **Docker Container**: nostr-rs-relay for reliability
+For email-to-blog the address is post@emino.app. Only three senders are allowed, emin@nuri.com, emin@emin.de and eminhenri@gmail.com. You can attach Markdown files. Images get compressed automatically to max 1920x1080. Videos get compressed with FFmpeg (H.264). Every email post syncs to GitHub. A cron job checks every 15 minutes.
 
-### 3. Email-to-Blog Publishing 📧
-- **Email Address**: post@emino.app
-- **Authorized Senders**:
-  - emin@nuri.com
-  - emin@emin.de
-  - eminhenri@gmail.com
-- **Features**:
-  - Markdown file attachments supported
-  - Automatic image compression (max 1920x1080)
-  - Video compression with FFmpeg (H.264)
-  - GitHub sync for every email post
-  - Cron job checks every 15 minutes
-
-### 4. DNS Configuration 🌐
-The following DNS records were configured at Porkbun:
+These are the DNS records I set at Porkbun.
 
 ```
 A Record:
@@ -99,32 +67,16 @@ TXT Record (DMARC):
   TTL: 600
 ```
 
-### 5. GitHub Actions Auto-Deployment 🚀
-- **Trigger**: Any push to main branch
-- **Actions**:
-  - Pull latest changes
-  - Clean build directory (removes deleted posts)
-  - Rebuild with Hugo
-  - Deploy with rsync (--delete flag)
-- **Workflow File**: `.github/workflows/deploy.yml`
+GitHub Actions deploys on any push to the main branch. It pulls the latest changes, cleans the build directory so deleted posts are gone, rebuilds with Hugo and deploys with rsync (--delete flag). The workflow file is `.github/workflows/deploy.yml`.
 
-### 6. Security & Authentication 🔒
-- **SSH Keys**: Ed25519 for secure server access
-- **Email Authentication**: Whitelist of authorized senders
-- **SSL/TLS**: Let's Encrypt certificates
-- **Firewall**: UFW configured for web and email
-- **Nostr**: Optional NSEC environment variable
+For security, server access goes over Ed25519 SSH keys. Email has a whitelist of allowed senders. SSL/TLS comes from Let's Encrypt. UFW is the firewall, set up for web and email. For Nostr there is an optional NSEC environment variable.
 
-### 7. Media & Asset Handling 🖼️
-- **Favicon**: Bitcoin-themed with multiple sizes
-- **Image Compression**: Pillow (Python) for optimization
-- **Video Compression**: FFmpeg with H.264 codec
-- **Static Assets**: Served from `/static/media/`
-- **PWA Support**: Site manifest with theme colors
+For media, the favicon is Bitcoin-themed in several sizes. Pillow (Python) optimizes images. FFmpeg compresses videos with the H.264 codec. Static files are served from `/static/media/`. And there is PWA support through a site manifest with theme colors.
 
-## Technical Implementation Details
+## How it is built
 
-### Hugo Configuration (config.toml)
+The Hugo configuration (config.toml).
+
 ```toml
 baseURL = "https://emino.app/"
 languageCode = "en-us"
@@ -142,7 +94,8 @@ ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 ```
 
-### Build Script (build.sh)
+The build script (build.sh).
+
 ```bash
 #!/bin/bash
 echo "Cleaning old build..."
@@ -154,30 +107,14 @@ rsync -av --delete public/ /var/www/apps/main/
 echo "Build complete!"
 ```
 
-### Email Processing Flow
-1. Email sent to post@emino.app with subject "BLOG: Title"
-2. Cron job runs email_to_blog.py every 15 minutes
-3. Script checks sender authorization
-4. Processes markdown or plain text content
-5. Compresses and embeds media files
-6. Creates Hugo-formatted markdown post
-7. Rebuilds site and syncs to GitHub
-8. Optionally publishes to Nostr
+This is what happens with an email. You send it to post@emino.app with the subject "BLOG: Title". Every 15 minutes a cron job runs email_to_blog.py. The script checks if the sender is allowed. It takes the Markdown or plain text. It compresses the media and puts it into the post. It writes a Hugo Markdown post. It rebuilds the site and syncs to GitHub. And if you want, it publishes to Nostr too.
 
-### Nostr Publishing Flow
-1. Parse Hugo markdown post
-2. Create NIP-23 long-form content event
-3. Add tags (title, published_at, d-tag for replaceability)
-4. Sign with private key (NSEC)
-5. Publish to multiple relays:
-   - wss://relay.emino.app (own relay)
-   - wss://relay.damus.io
-   - wss://nos.lol
-   - wss://relay.nostr.band
+This is what happens on Nostr. The script reads the Hugo Markdown post. It makes a NIP-23 long-form event. It adds tags (title, published_at, d-tag so the post can be replaced). It signs with the private key (NSEC). Then it publishes to several relays, wss://relay.emino.app (my own), wss://relay.damus.io, wss://nos.lol and wss://relay.nostr.band.
 
-## Services Running
+## What is running
 
-### Docker Containers
+The Docker containers.
+
 ```bash
 # Alby Hub (Lightning)
 docker run -d --name alby-hub \
@@ -190,12 +127,10 @@ docker run -d --name nostr-relay \
   scsibug/nostr-rs-relay:latest
 ```
 
-### Nginx Virtual Hosts
-- **emino.app**: Main blog (port 443/80)
-- **hub.emino.app**: Alby Hub interface (proxy to 8080)
-- **relay.emino.app**: Nostr relay WebSocket (proxy to 8081)
+Nginx has three virtual hosts. emino.app is the main blog (port 443/80). hub.emino.app is the Alby Hub interface (proxy to 8080). relay.emino.app is the Nostr relay WebSocket (proxy to 8081).
 
-### Cron Jobs
+The cron job.
+
 ```bash
 # Email checking every 15 minutes
 */15 * * * * cd /var/www/emino-blog && \
@@ -203,7 +138,8 @@ docker run -d --name nostr-relay \
   >> /var/log/email-to-blog.log 2>&1
 ```
 
-## File Structure
+The file structure.
+
 ```
 /var/www/emino-blog/
 ├── config.toml
@@ -226,25 +162,23 @@ docker run -d --name nostr-relay \
 /var/www/alby-hub/ (Lightning hub)
 ```
 
-## Environment Variables Required
+The environment variables you need.
+
 ```bash
 # For email-to-blog
 BLOG_EMAIL="post@emino.app"
-BLOG_EMAIL_PASSWORD="Kilimanjaro##8"
+BLOG_EMAIL_PASSWORD="your-email-password"
 
 # For Nostr publishing (optional)
 NOSTR_NSEC="your-nostr-private-key"
 ```
 
-## Monitoring & Maintenance
+## Keeping it alive
 
-### Health Checks
-- Blog availability: `curl -I https://emino.app`
-- Lightning tips: Check address at hub.emino.app
-- Nostr relay: `wss://relay.emino.app` connection test
-- Email: Check `/var/log/email-to-blog.log`
+To check that everything works, run `curl -I https://emino.app` for the blog. Look at the Lightning address at hub.emino.app. Test a connection to `wss://relay.emino.app` for the relay. And read `/var/log/email-to-blog.log` for email.
 
-### Common Tasks
+The things I do most often.
+
 ```bash
 # Manual rebuild
 cd /var/www/emino-blog && ./build.sh
@@ -259,49 +193,18 @@ docker ps
 systemctl status nginx
 ```
 
-## Security Considerations
+On security. Only allowed senders can post. The server is no public mail relay, it only takes mail for its own domains. Everything runs over HTTPS/WSS. The NSEC keys sit in environment variables. And security updates run automatically.
 
-1. **Email Whitelist**: Only authorized senders can post
-2. **No Public Email Relay**: Server only accepts mail for configured domains
-3. **SSL Everything**: All services use HTTPS/WSS
-4. **Key Management**: NSEC keys stored as environment variables
-5. **Regular Updates**: Automated security updates enabled
+On speed. It is a static site with no database, so it loads instantly. All images are optimized before they go out. Videos use H.264 with web settings. The static files can easily go behind a CDN. And Hugo minifies the output.
 
-## Performance Optimizations
+What could come next. AI image generation, Nostr comments, a Lightning paywall for premium content, IPFS backup and distribution, analytics without tracking, and automatic cross-posting to social media.
 
-1. **Static Site**: No database, instant loading
-2. **Image Compression**: All images optimized before serving
-3. **Video Compression**: H.264 with web-optimized settings
-4. **CDN Ready**: Static files can be easily CDN-cached
-5. **Minified Output**: Hugo minification enabled
+## So
 
-## Future Enhancements Possible
+This blog mixes the normal web (a Hugo static site), Web3 payments (Lightning Bitcoin), decentralized social (the Nostr protocol), posting by email, and a developer workflow (GitHub CI/CD).
 
-- [ ] Automated image generation with AI
-- [ ] Nostr comments system
-- [ ] Lightning paywall for premium content
-- [ ] IPFS backup and distribution
-- [ ] Analytics without tracking
-- [ ] Automated social media cross-posting
+All of it is self-hosted, respects privacy and is built with open source. It shows that one person can own the whole publishing setup and still have the comfort and the connections of a modern platform.
 
-## Conclusion
+The live site is [emino.app](https://emino.app). The Lightning address is emin@nuri.com. The Nostr relay is wss://relay.emino.app. The code is on GitHub at [github.com/eminogrande/emino-blog](https://github.com/eminogrande/emino-blog).
 
-This infrastructure represents a modern, decentralized approach to blogging that combines:
-- **Traditional web** (Hugo static site)
-- **Web3 payments** (Lightning Bitcoin)
-- **Decentralized social** (Nostr protocol)
-- **Email convenience** (post-by-email)
-- **Developer workflow** (GitHub CI/CD)
-
-The entire stack is self-hosted, privacy-respecting, and built with open-source technologies. It demonstrates how individual creators can own their complete publishing infrastructure while maintaining modern conveniences and integrations.
-
-## Resources & Links
-
-- **Live Site**: [emino.app](https://emino.app)
-- **Lightning Address**: emin@nuri.com
-- **Nostr Relay**: wss://relay.emino.app
-- **GitHub**: [github.com/eminogrande/emino-blog](https://github.com/eminogrande/emino-blog)
-
----
-
-*This post was created to document the complete infrastructure build process. If you can read this, all systems are working correctly!* ⚡🚀
+I wrote this post to document how the whole thing was built. If you can read this, all systems are working!

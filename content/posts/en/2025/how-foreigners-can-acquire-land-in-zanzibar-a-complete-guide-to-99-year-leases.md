@@ -1,6 +1,6 @@
 ---
-title: "How Foreigners Can Acquire Land in Zanzibar: A Complete Guide to 99-Year Leases"
-description: "TL;DR: Foreigners cannot own land outright in Zanzibar but can secure 99-year leases (or 33+33+33-year renewable leases) through several methods:"
+title: "How Foreigners Can Acquire Land in Zanzibar, a Complete Guide to 99-Year Leases"
+description: "Foreigners can't own land in Zanzibar, but they can get a 99-year lease. Five ways to do it and the papers you need for each."
 date: "2025-01-03T11:17:07.703Z"
 updated: "2025-01-03T11:17:07.703Z"
 lang: "en"
@@ -17,108 +17,53 @@ voice_check:
   em_dash: 0
   unobserved: 98
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases-074d0bbe6ce5"
 ---
 ![](../../../media/how-foreigners-can-acquire-land-in-zanzibar-a-complete-guide-to-99-year-leases/01-be4832e4.jpeg)
 *Paje Beach, Zanzibar*
 
-**TL;DR:**
-Foreigners cannot own land outright in Zanzibar but can secure 99-year leases (or 33+33+33-year renewable leases) through several methods:
+The short version.
 
-(1) setting up a 100% foreign-owned company via ZIPA,
+As a foreigner you can't own land outright in Zanzibar. But you can get a 99-year lease, or a lease of 33+33+33 years that gets renewed. There are five ways to do it. (1) You set up a 100% foreign-owned company through ZIPA. (2) You lease land directly from a local. (3) You buy an existing leasehold interest. (4) You go into a joint venture with a local. (5) You inherit land.
 
-(2) leasing land directly from locals,
+Every way needs certain documents, like a purchase contract, the seller's ID, proof that the seller owns the land and a letter from the Sheha. Always talk to a local [lawyer](mailto:emin@emin.de) so you stay inside Zanzibar's land laws.
 
-(3) purchasing existing leasehold interests,
+Zanzibar has amazing nature and a growing economy, so a lot of foreign investors want to come here. But the land laws in Zanzibar don't let foreigners own land outright. What you can get instead is a long lease, usually for 99 years or for 33-year terms that get renewed. Here are the legal ways to get land, the papers you need and the things to think about as a foreign investor.
 
-(4) entering joint ventures with locals, or
+The first way is a 100% foreign-owned company through ZIPA. You register a company with the Zanzibar Investment Promotion Authority (ZIPA) and the company takes the land lease. The good part is that you have full control over the company and the lease. The downside is that you have to follow the ZIPA rules and meet their investment thresholds.
 
-(5) inheriting land.
+The second way is to lease land directly from a local. You lease the land from a local who holds a Right of Occupancy. You don't need a company and you talk directly to the landowner. But you don't own the land, so you depend on what the lease says.
 
-Each method requires specific documents, such as a purchase contract, seller’s ID, land ownership proof, and a letter from the Sheha. Always consult a local [lawyer](mailto:emin@emin.de) to ensure compliance with Zanzibar’s land laws.
+The third way is to buy an existing leasehold interest. You buy the rest of a lease from a local who already holds one. You get the land right away and don't wait for a new lease to be approved. But the term can be shorter, depending on how much time is left on the lease.
 
-**How Foreigners Can Acquire Land in Zanzibar: A Complete Guide to 99-Year Leases**
+The fourth way is a joint venture with a local. You partner with a local who holds the Right of Occupancy, and you bring the investment. This fits the local ownership rules and you share the investment and the risk. But you need a local partner you can trust, and there can be fights over who owns what.
 
-Zanzibar’s breathtaking landscapes and growing economy make it a prime destination for foreign investors. However, Zanzibar’s land laws restrict outright land ownership by foreigners. Instead, foreigners can secure long-term leases, typically for 99 years or renewable 33-year terms. Below, we explore the legal pathways to acquire land, the required documents, and key considerations for foreign investors.
+The fifth way is to inherit land. You inherit land through a will or through the laws on intestate succession. You skip the normal process of getting land. But this only works when you are legally entitled to inherit.
 
-## Ways to Acquire Land in Zanzibar as a Foreigner
+Now the documents you need. A letter from the Sheha, the local village leader. It confirms that the sale is legit and that the seller owns the land.
 
-### 1. Setting Up a 100% Foreign-Owned Company via ZIPA
+The names and IDs of the neighbours. They help to check the borders of the land and avoid disputes.
 
-- **How It Works:** Register a company with the Zanzibar Investment Promotion Authority (ZIPA) and acquire a land lease through the company.
-- **Pros:** Full control over the company and land lease.
-- **Cons:** Requires compliance with ZIPA regulations and investment thresholds.
+A purchase contract. That's the legally binding agreement with the terms of the sale.
 
-### 2. Leasing Land Directly from a Local
+The seller's passport and ID. They confirm who the seller is and that they have the legal capacity to sell the land.
 
-- **How It Works:** Lease land from a local who holds a Right of Occupancy.
-- **Pros:** No need to set up a company; direct negotiation with the landowner.
-- **Cons:** The foreigner does not own the land and must rely on lease terms.
+The land ownership documents. They prove the seller's legal right to the land, for example a Right of Occupancy.
 
-### 3. Purchasing an Existing Leasehold Interest
+A site plan and beacons. They mark the borders of the land and prevent disputes.
 
-- **How It Works:** Buy the remaining leasehold interest from a local who already holds a lease.
-- **Pros:** Immediate access to the land without waiting for new lease approvals.
-- **Cons:** The lease term may be shorter, depending on the remaining time.
+A family consent agreement, if it applies. It confirms that every family member agrees to the sale.
 
-### 4. Joint Ventures with Locals
+Stamp duty and tax receipts. They prove you paid the stamp duty (1% of the property value) and the land transfer tax (1-5%).
 
-- **How It Works:** Partner with a local who holds the Right of Occupancy, with the foreigner providing investment.
-- **Pros:** Complies with local ownership requirements; shared investment and risk.
-- **Cons:** Requires a trustworthy local partner; potential disputes over ownership.
+An application for land transfer approval. That's the formal request to the Zanzibar Land Commission to approve the transfer.
 
-### 5. Inheriting Land
+Building permits, if they apply. You need them for any construction on the land.
 
-- **How It Works:** Inherit land through a will or intestate succession laws.
-- **Pros:** No need to go through the standard land acquisition process.
-- **Cons:** Limited to cases where the foreigner is legally entitled to inherit.
+So as a foreigner you can get land in Zanzibar through different lease setups. You set up a company, lease from locals, buy an existing leasehold interest, go into a joint venture or inherit land. Every way needs its own documents and you have to follow the local laws. Always talk to a qualified lawyer so your investment is safe and legally sound.
 
-## Key Documents Required for Land Acquisition
+Zanzibar has a special charm and real potential for investors, but you need to plan carefully and do your legal due diligence to get through the land ownership rules.
 
-**Letter from the Sheha (Local Village Leader)**
-
-- Confirms the legitimacy of the sale and the seller’s ownership.
-
-**Names and Identification of Neighbours**
-
-- Helps verify land boundaries and prevent disputes.
-
-**Purchase Contract**
-
-- A legally binding agreement outlining the terms of the sale.
-
-**Seller’s Passport and Identification**
-
-Confirms the seller’s identity and legal capacity to sell the land.
-
-**Land Ownership Documents**
-
-Proof of the seller’s legal right to the land (e.g., Right of Occupancy).
-
-**Site Plan and Beacons**
-
-Defines the boundaries of the land and prevents disputes.
-
-**Family Consent Agreement**
-
-Confirms that all family members agree to the sale (if applicable).
-
-**Stamp Duty and Tax Receipts**
-
-Proof of payment for stamp duty (1% of property value) and land transfer tax (1–5%).
-
-**Application for Land Transfer Approval**
-
-A formal request to the Zanzibar Land Commission for land transfer approval.
-
-**Building Permits (if applicable)**
-
-Required for any construction on the land.
-
-## Conclusion
-
-Foreigners can acquire land in Zanzibar through various leasehold arrangements, including setting up a company, leasing from locals, purchasing existing leasehold interests, entering joint ventures, or inheriting land. Each method requires specific documents and compliance with local laws. Always consult a qualified lawyer to ensure your investment is secure and legally sound.
-
-Zanzibar’s unique charm and investment potential make it a compelling choice for foreign investors, but careful planning and legal due diligence are essential to navigate its land ownership regulations successfully.
-
-For more, feel free to contact me via [emin@emin.de](mailto:emin@emin.de)
+For more, just contact me at [emin@emin.de](mailto:emin@emin.de)

@@ -1,6 +1,6 @@
 ---
-title: "Bonding Curves: A New Paradigm for Token Launches and Project Funding in 2024"
-description: "Based on a call from 2019, recording https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt"
+title: "Bonding curves, a new way to launch tokens and fund projects"
+description: "Notes from a call in 2019. A bonding curve sets the token price by supply, rewards early buyers and keeps funding a project for as long as it runs."
 date: "2024-09-11T12:14:51.065Z"
 updated: "2024-09-11T12:14:51.065Z"
 lang: "en"
@@ -16,51 +16,59 @@ cover: "../../../media/bonding-curves-a-new-paradigm-for-token-launches-and-proj
 voice_check:
   em_dash: 0
   unobserved: 81
-emin_check_pct: null
+emin_check_pct: 63
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/bonding-curves-a-new-paradigm-for-token-launches-and-project-funding-in-2024-6ed2e62a9acc"
 ---
-Based on a call from 2019, recording [https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt](https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt)
+This is based on a call from 2019, here is the recording
+[https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt](https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt)
 
 ![](../../../media/bonding-curves-a-new-paradigm-for-token-launches-and-project-funding-in-2024/01-7dfb4ca4.png)
 
-In the evolving world of cryptocurrency and decentralized projects, traditional methods of token launches can often lead to unpredictable pricing patterns and volatile market behavior. Bonding curves present an innovative alternative, offering a more structured approach that has the potential to benefit both creators and early investors.
+In crypto the usual ways to launch a token often end with
+prices you can't predict and a very wild market. Bonding
+curves are a different way to do it.
 
-### The Mechanics of Bonding Curves
+They give the whole thing more structure, and that can be good
+for the people who build the project and also for the people
+who buy in early.
 
-Imagine a bonding curve as a smart contract acting as a continuous, automated market maker for your project's token. Here's the breakdown:
+You can think of a bonding curve as a smart contract that is a
+market maker for the token of your project, always on and
+fully automatic. The price of the token is not fixed.
 
-Price Tied to Supply: The price of the token isn't fixed. It follows a predetermined formula that increases as more tokens are purchased. If someone sells tokens back, the price goes down.
+It follows a formula that is set up front, and the price goes
+up the more tokens people buy. If someone sells tokens back,
+the price goes down again. And there is no time limit.
 
-No Time Limits: You're not tied to a single sale event. The smart contract is always there, ready to buy or sell tokens based on the current price.
+You're not stuck with one big sale event, the smart contract
+is always there and buys or sells tokens at the current price.
 
-### Why Bonding Curves Are Worth Considering
+So why look at bonding curves at all. Early birds get the
+worm, people who buy early get a better price, and that gives
+them a reason to back the project while it grows.
 
-"Early Birds Get the Worm": Investors who buy during the early stages are rewarded with a better price, incentivizing them to support the project's growth.
+The slow price changes can also bring some stability and help
+avoid the sudden "pump and dumps" you sometimes see in crypto.
+And you get funding all the time, not just in one sale, so it
+fits projects that need support for a long time.
 
-A Measure of Stability: The gradual price adjustments can help avoid the sudden "pump and dumps" sometimes seen in crypto markets.
+Bonding curves aren't just a clever technical trick. They
+solve a real economic problem, how you line up the interests
+of the people who build a project with the people who support
+it first.
 
-Continuous Fundraising: Instead of a one-off sales event, bonding curves can provide an ongoing source of funding, ideal for projects needing long-term support.
+If you compare it to ICOs, those often use auctions where the
+price is hard to predict, and a bonding curve gives you a
+price from a formula. Normal fixed-price tokens don't have
+this price adjustment built in, and with a bonding curve the
+whole system reacts to demand.
 
-As Emin Mahrt might say: “Bonding curves aren't just a clever technical trick; they address a real economic problem – how to align the incentives of a project's creators with its earliest supporters."
-
-### Bonding Curves Compared
-
-ICOs: While ICOs often rely on auctions with less predictable pricing, bonding curves offer a formula-based model.
-
-Fixed-Price Tokens: Traditional tokens don't have this built-in price adjustment; bonding curves make the whole system respond to demand.
-
-When Bonding Curves Make Sense
-
-Consider bonding curves if you're focused on:
-
-Establishing a sustainable, long-term funding model.
-
-Rewarding early believers in your project by offering better prices.
-
-Prioritizing some level of price stability over potentially explosive (but riskier) gains.
-
-### Want to Dive Deeper?
-
-Let me know if you'd like me to add more technical details or focus on a specific aspect of bonding curves!
+So a bonding curve makes sense if you want a funding model
+that lasts a long time, if you want to reward the people who
+believed in your project early with better prices, and if you
+care more about some price stability than about gains that
+could explode but are also riskier.
 
 [https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt](https://youtu.be/Y-QazkphlNA?si=NAQaHONIrTDgfNKt)

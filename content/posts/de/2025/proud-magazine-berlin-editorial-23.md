@@ -1,5 +1,5 @@
 ---
-title: "proud magazine Berlin — Editorial #23"
+title: "proud magazine Berlin, Editorial #23"
 description: "Und schon wieder blicke ich aus dem Fenster in unbekannte Horizonte, meine Gedanken tun sich auf und nehmen mich mit in eine Traumwelt — meine Wunschwelt...."
 date: "2025-06-26T16:43:10.237Z"
 updated: "2025-06-26T16:43:10.237Z"
@@ -18,9 +18,15 @@ voice_check:
   em_dash: 4
   unobserved: 51
 emin_check_pct: null
+voice_rewrite: "framing-only"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-editorial-23-0e197b2c23b6"
 ---
-# proud magazine Berlin — Editorial #23
+# proud magazine Berlin, Editorial #23
+
+Text von Yara Dib, Editorial #23 im proud magazine Berlin.
+
+Ein Editorial aus dem proud magazine. Ich teile es hier nochmal, weil es um Jugend geht und um Träume, und das passt immer noch.
 
 ![](../../../media/proud-magazine-berlin-editorial-23/01-9a8c51e6.png)
 

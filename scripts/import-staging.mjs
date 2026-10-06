@@ -17,7 +17,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync, copyFileSync } from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { applyOriginPolicy, applyNoGate } from './lib/front-matter-policy.mjs';
+import { applyOriginPolicy, applyNoGate, applyBylinePolicy } from './lib/front-matter-policy.mjs';
 
 const args = process.argv.slice(2);
 const dry = args.includes('--dry-run');
@@ -46,7 +46,7 @@ let unchanged = 0;
 let wordsIn = 0;
 for (const { file, rel } of postFiles) {
 	const raw = readFileSync(file, 'utf-8');
-	const text = applyNoGate(applyOriginPolicy(raw).text);
+	const text = applyBylinePolicy(applyNoGate(applyOriginPolicy(raw).text));
 	if (body(text) !== body(raw)) throw new Error(`${file}: body changed during import`);
 	wordsIn += words(body(raw));
 	const out = path.join('content/posts', rel);
@@ -69,7 +69,9 @@ for (const root of mediaRoots) {
 		const rel = path.relative(root, file);
 		if (!slugs.has(rel.split(path.sep)[0])) continue;
 		const out = path.join('content/media', rel);
-		if (existsSync(out) && statSync(out).size === statSync(file).size) continue;
+		// Existing media is never overwritten: committed files may be re-encoded to fit
+		// the 25 MB Workers asset limit.
+		if (existsSync(out)) continue;
 		if (!dry) {
 			mkdirSync(path.dirname(out), { recursive: true });
 			copyFileSync(file, out);

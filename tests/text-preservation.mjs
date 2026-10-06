@@ -17,7 +17,7 @@ const strip = (md) => md
 let bad = 0;
 for (const post of graph.posts) {
 	const src = post.sections.map((s) => `${s.heading || ''}\n${strip(s.body)}`).join('\n');
-	const html = post.html.map((s) => `${s.heading || ''}\n${s.html}`).join('\n');
+	const html = [post.heroHtml || '', post.tldrHtml || '', ...post.html.map((s) => `${s.heading || ''}\n${s.html}`), ...Object.values(post.basically || {})].join('\n');
 	const out = new Map();
 	for (const w of words(toText(fromHtml(html, { fragment: true })) + ' ' + html.replace(/<[^>]+>/g, ' ') + ' ' + [...html.matchAll(/\b(?:alt|src|href)="([^"]*)"/g)].map((m) => m[1]).join(' '))) out.set(w, true);
 	const missing = [...new Set(words(src))].filter((w) => !out.has(w));

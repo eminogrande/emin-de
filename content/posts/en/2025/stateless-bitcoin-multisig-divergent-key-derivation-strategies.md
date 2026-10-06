@@ -1,6 +1,6 @@
 ---
-title: "Stateless Bitcoin Multisig: Divergent Key Derivation Strategies"
-description: "In the implementation of non-custodial Bitcoin wallets utilizing MuSig2 and WebAuthn (Passkeys), \"statelessness\" defines the architectural constraint. The..."
+title: "Stateless Bitcoin Multisig and Divergent Key Derivation Strategies"
+description: "Two ways to derive the server co-signer key in a passkey MuSig2 Bitcoin wallet, why they give different addresses and how you can migrate."
 date: "2025-12-09T15:15:01Z"
 updated: "2025-12-09T15:15:01Z"
 lang: "en"
@@ -17,119 +17,40 @@ voice_check:
   em_dash: 0
   unobserved: 128
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/stateless-bitcoin-multisig-divergent-key-derivation-strategi/"
 ---
 ![](../../../media/stateless-bitcoin-multisig-divergent-key-derivation-strategies/cover.jpg)
 
-In the implementation of non-custodial Bitcoin wallets utilizing
-MuSig2 and WebAuthn (Passkeys), "statelessness" defines the
-architectural constraint. The system must reconstruct key material
-deterministically without relying on ephemeral state. However, the
-cryptographic source of truth for the server-side co-signer presents
-two distinct architectural paradigms.
+This is about non-custodial Bitcoin wallets that use MuSig2 and WebAuthn passkeys. In these wallets "stateless" is the main rule of the architecture. The system has to rebuild the key material deterministically every time and it can't rely on any temporary state. But for the server co-signer there are two different answers to the question where the key really comes from, two different sources of truth.
 
-This post analyzes the transition from a Client-Entropy Model to a
-Hybrid-Entropy Model and the resulting determinism challenges.
+This post looks at the move from a client entropy model to a hybrid entropy model and at the determinism problem that comes with it. It has four parts, the two architectures, the problem between them and the ways to migrate.
 
-## 1. Architecture A: The Client-Entropy Model (Pure PRF)
+The older architecture is pure PRF. It puts portability first, and the server side has zero-knowledge properties. The only entropy source is a deterministic pseudo-random function output, the PRF, from the WebAuthn authenticator. The client first does an assertion on a separate "co-signer passkey" that is domain separated from the user key. Then the raw PRF bytes go to the server over a secure channel. And the server works as a pure function and maps the PRF input directly to a private scalar, `k_server = Reduce(PRF_bytes)`.
 
-The legacy architecture prioritizes portability and zero-knowledge
-properties on the server side.
+So the input comes only from the client and the server keeps no state at all. That `k_user` and `k_server` are mathematically different depends completely on RPID separation, the Relying Party ID. And it also means that whoever has the specific hardware authenticator can rebuild the full key set without any help from the server.
 
-**The Derivation Flow**
-This model utilizes a deterministic Pseudo-Random Function (PRF)
-output from the WebAuthn authenticator as the sole entropy source.
-1.  **Entropy Generation:** The client performs an assertion on a
-distinct "Co-signer Passkey" (domain-separated from the User Key).
-2.  **Transmission:** The raw PRF bytes are transmitted to the server
-over a secure channel.
-3.  **Derivation:** The server acts as a pure function, mapping the
-input PRF directly to a private scalar: `k_server =
-Reduce(PRF_bytes)`.
+The newer architecture is anchored in a secret. It moves the root of trust to a composite derivation and adds a static secret on the server, so nobody can rebuild the key alone. Here the co-signer key is a function of a secure server master seed and of client identity metadata that never changes. The client first proves that it has the credential. Then the server derives the private scalar with a key derivation function, a KDF, that mixes a high entropy server master secret `S_master` with a set of client specific context parameters `C_client` and protocol specific constants `P_context`.
 
-**Security Properties**
-* **Input Space:** Strictly client-side.
-* **Server State:** None.
-* **Key Independence:** Relies entirely on RPID (Relying Party ID)
-separation to ensure `k_user` and `k_server` are mathematically
-distinct.
-* **Vector:** Use of this model implies that possession of the
-specific hardware authenticator allows for the reconstruction of the
-full key set without server cooperation.
+`k_server = HKDF(Salt=S_master, IKM=C_client || P_context)`
 
-## 2. Architecture B: The Hybrid-Entropy Model (Secret-Anchored)
+The context parameters in `C_client` are kept general and include properties of the credential that never change, for example the public key hash, the credential identifier or attestation data. That binds the derived key strictly to one specific hardware instance.
 
-The modern architecture shifts the root of trust to a composite
-derivation scheme, introducing a server-side static secret to prevent
-unilateral key reconstruction.
+So the input is hybrid, a server secret plus the client identity, and the server has to keep the static `S_master`. This gives defense in depth. An attacker who has the client's authenticator can't derive `k_server` without also getting `S_master` out of the server. And the other way around, if the server is compromised, the attacker gets no usable keys without the client's interactive signature.
 
-**The Derivation Flow**
-This model treats the co-signer key as a function of both a secure
-server master seed and immutable client identity metadata.
-1.  **Authentication:** The client proves possession of the credential.
-2.  **Composite KDF:** The server derives the private scalar using a
-Key Derivation Function (KDF) that mixes a high-entropy Server Master
-Secret (`S_master`) with a set of client-specific context parameters
-(`C_client`) and protocol-specific constants (`P_context`).
-    `k_server = HKDF(Salt=S_master, IKM=C_client || P_context)`
-3.  **Context Parameters (`C_client`):** This input vector is
-generalized to include immutable properties of the credential (e.g.,
-public key hash, credential identifier, or attestation data), binding
-the derived key strictly to a specific hardware instance.
+## The problem, deterministic divergence
 
-**Security Properties**
-* **Input Space:** Hybrid (Server Secret + Client Identity).
-* **Server State:** Static `S_master` required.
-* **Defense in Depth:** An attacker possessing the client's
-authenticator cannot derive `k_server` without exfiltrating
-`S_master`. Conversely, a server compromise yields no usable keys
-without the client's interactive signature.
+Moving between these architectures has one blocking issue, the derivation mismatch. `Function_A(PRF)` and `Function_B(S_master, C_client)` use input spaces that have nothing in common, so for the same user identity they produce completely different private scalars. That changes the aggregated MuSig2 public key `P_agg = P_user + P_server`. For the blockchain it looks like the identity of the user, the address, has rotated. The wallet you get with Architecture B is mathematically unrelated to the wallet you get with Architecture A.
 
-## 3. The Compatibility Challenge: Deterministic Divergence
+## Three ways to migrate
 
-Migrating between these architectures presents a blocking issue:
-**Derivation Mismatch.**
+To fix the mismatch you have to pick a canonical source of truth for existing users and for new ones, and there are three ways to do it.
 
-Because `Function_A(PRF)` and `Function_B(S_master, C_client)` utilize
-fundamentally disjoint input spaces, they produce orthogonal private
-scalars for the same user identity.
-* **Result:** The aggregated MuSig2 public key `P_agg = P_user +
-P_server` changes.
-* **Impact:** From the blockchain's perspective, the user's identity
-(address) has rotated. The wallet derived via Architecture B is
-mathematically unrelated to the wallet derived via Architecture A.
+The first one is a protocol adapter for legacy support. The new server gets a conditional branch. If the request payload matches the legacy schema and brings raw PRF bytes, the server skips the `S_master` KDF and runs the old reduction function. Existing users keep their addresses, but these users also keep the security model of Architecture A.
 
-## 4. Remediation and Migration Pathways
+The second one is a client bridge that injects the parameters. The client logic gets updated so it extracts the `C_client` parameters that Architecture B needs, also during the legacy flows. Then the server can compute the new derivation path in the background or migrate the state of the user, and the user doesn't notice any change. That closes the entropy gap.
 
-Resolving the derivation mismatch requires selecting a canonical
-"Source of Truth" for existing versus new entities.
+The third one is a hard fork with address rotation. The system makes Architecture B the only standard and users on Architecture A are treated as deprecated. A migration flow asks them to sign a sweep transaction that moves the UTXOs from the `P_agg(Legacy)` address to the `P_agg(Modern)` address.
 
-**Strategy 1: The Protocol Adapter (Legacy Support)**
-The modern server implements a conditional branch. If the request
-payload matches the Legacy schema (providing raw PRF bytes), the
-server bypasses the `S_master` KDF and executes the legacy reduction
-function. This preserves the address space for existing users but
-maintains the Architecture A security model for those specific
-cohorts.
-
-**Strategy 2: The Client Bridge (Parameter Injection)**
-The client-side instantiation logic is updated to extract the
-`C_client` parameters required by Architecture B even during legacy
-flows. This allows the server to compute the new derivation path in
-the background or migrate the user's state without changing the user
-experience, effectively bridging the entropy gap.
-
-**Strategy 3: The Hard Fork (Address Rotation)**
-The system enforces Architecture B as the singular standard. Users on
-Architecture A are treated as deprecated entities. A migration UX is
-introduced to sign a sweeping transaction, moving UTXOs from the
-`P_agg(Legacy)` address to the `P_agg(Modern)` address.
-
-## Summary
-
-The shift from Client-Entropy to Hybrid-Entropy represents a trade-off
-between recoverability and resistance to client-side coercion. While
-Architecture A offers theoretical self-sovereign recovery,
-Architecture B enforces a stronger 2-of-2 security model where neither
-party holds sufficient entropy to reconstruct the full keyset in
-isolation.
+Going from client entropy to hybrid entropy is a trade-off between recoverability and resistance against coercion on the client side. Architecture A gives you self-sovereign recovery, at least in theory. Architecture B enforces a stronger 2-of-2 security model, where neither side has enough entropy to rebuild the full key set alone.

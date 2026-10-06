@@ -1,6 +1,6 @@
 ---
-title: "proud magazine Berlin Issue #1 summarized and interpreted by Claude Sonnet and Written into a Blog…"
-description: "I’m experimenting with AI flows, and one of my newest findings is gumloop.com making it exceptional easy to define a flow from a file, through multiple..."
+title: "proud magazine Berlin Issue #1 summarized and interpreted by Claude Sonnet and written into a blog post by Claude Haiku"
+description: "I fed the first issue of proud magazine Berlin through a gumloop.com flow. Claude Sonnet summarized it, Claude Haiku wrote the blog post."
 date: "2024-08-02T16:03:49.007Z"
 updated: "2024-08-02T16:03:49.007Z"
 lang: "en"
@@ -14,18 +14,18 @@ source: "medium"
 third_party_summary: false
 cover: "../../../media/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-wr/01-89b5e8de.png"
 voice_check:
-  em_dash: 1
+  em_dash: 0
   unobserved: 162
-emin_check_pct: null
+emin_check_pct: 22
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-written-into-a-blog-f27d955cbe3a"
 ---
-# proud magazine Berlin Issue #1 summarized and interpreted by Claude Sonnet and Written into a Blog Post by Claude Haiku.
-
-I’m experimenting with AI flows, and one of my newest findings is [gumloop.com](http://gumloop.com) making it exceptional easy to define a flow from a file, through multiple steps of data processing with AI. The following example took the first issue of proud magazine Berlin, interpreted and summarized it in bullet points, passed that summary to Claude Haiku, which wrote a “minimum 444 words blog post for medium.com”.
+I’m experimenting with AI flows, and one of my newest findings is [gumloop.com](http://gumloop.com) making it exceptional easy to define a flow from a file, through multiple steps of data processing with AI. The following example took the first issue of proud magazine Berlin (Issue #1), interpreted and summarized it in bullet points, passed that summary to Claude Haiku, which wrote a “minimum 444 words blog post for medium.com”.
 
 ![](../../../media/proud-magazine-berlin-issue-1-summarized-and-interpreted-by-claude-sonnet-and-wr/01-89b5e8de.png)
 
-Here is the result:
+Here is the result, written by Claude Haiku and not by me.
 
 ## Proud Magazine: Unveiling Berlin’s Hidden Gems and Shaping Urban Culture
 
@@ -43,8 +43,8 @@ The inclusion of sexuality as a key theme is a bold move that aligns with Berlin
 
 Wellness is another crucial component of Proud’s editorial mix. In a fast-paced urban environment, maintaining physical and mental well-being can be challenging. The magazine offers insights, tips, and stories related to health and wellness, tailored specifically for city dwellers. This focus on well-being demonstrates Proud’s commitment to nurturing not just the cultural landscape of Berlin, but also the individuals who call the city home.
 
-Perhaps most importantly, Proud Magazine positions itself as more than just an observer of Berlin’s culture — it aspires to be an active participant in shaping the city’s future. By providing a platform for diverse voices and highlighting emerging trends, Proud aims to influence the direction of Berlin’s cultural evolution. The magazine invites its readers to join this journey, fostering a sense of community and shared purpose among its audience.
+Perhaps most importantly, Proud Magazine positions itself as more than just an observer of Berlin’s culture, it aspires to be an active participant in shaping the city’s future. By providing a platform for diverse voices and highlighting emerging trends, Proud aims to influence the direction of Berlin’s cultural evolution. The magazine invites its readers to join this journey, fostering a sense of community and shared purpose among its audience.
 
 As Proud Magazine embarks on this ambitious mission, it extends an open invitation to Berliners and urban enthusiasts worldwide. The publication encourages its readers to embrace the spirit of discovery, to look beyond the surface, and to engage with the city in new and meaningful ways. With its fresh perspective and diverse content, Proud is poised to become an essential guide for anyone looking to explore the depths of Berlin’s cultural richness.
 
-In conclusion, Proud Magazine’s debut marks the arrival of a compelling new voice in Berlin’s media landscape. By combining glamour, style, sexuality, and wellness with a commitment to uncovering hidden cultural gems, Proud offers a unique and comprehensive view of urban life. As the magazine continues to grow and evolve, it has the potential to not only document Berlin’s cultural journey but also to play a significant role in shaping its future. For those seeking to truly understand and experience the heart and soul of Berlin, Proud Magazine promises to be an indispensable companion.
+Proud Magazine’s debut marks the arrival of a compelling new voice in Berlin’s media landscape. By combining glamour, style, sexuality, and wellness with a commitment to uncovering hidden cultural gems, Proud offers a unique and comprehensive view of urban life. As the magazine continues to grow and evolve, it has the potential to not only document Berlin’s cultural journey but also to play a significant role in shaping its future. For those seeking to truly understand and experience the heart and soul of Berlin, Proud Magazine promises to be an indispensable companion.

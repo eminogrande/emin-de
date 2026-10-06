@@ -1,6 +1,6 @@
 ---
-title: "Agentic Wallets & Passkey PRF: The Nuri.com Security Architecture"
-description: "Deterministic Output: Every time the user authenticates, the PRF extension produces the exact same output for a given input/salt. The \"Zero-Storage\" Model:..."
+title: "Agentic wallets and passkey PRF, the security setup behind nuri.com"
+description: "How we use the passkey PRF extension at nuri.com to derive keys from the device, add a decaying multisig, and let agents prepare but never spend."
 date: "2026-02-10T08:00:01Z"
 updated: "2026-02-10T08:00:01Z"
 lang: "en"
@@ -17,76 +17,37 @@ voice_check:
   em_dash: 0
   unobserved: 75
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/agentic-wallets-passkey-prf-the-nuri-com-security-architectu/"
 ---
-# Agentic Wallets & Passkey PRF: The Nuri.com Security Architecture
+# Agentic wallets and passkey PRF, the security setup behind nuri.com
 
-## Executive Summary
-Traditional wallet security usually forces a trade-off between
-self-custody (seed phrases) and convenience (custodial). By leveraging
-the **WebAuthn PRF (Pseudo-Random Function) extension**, we have
-implemented a third way at **nuri.com**: A hardware-backed,
-deterministic, multi-sig wallet architecture designed specifically for
-the era of AI Agents.
+Wallet security usually makes you pick one of two things. Self-custody with a seed phrase, or convenience with someone holding your money for you. At nuri.com we built a third way with the WebAuthn PRF (Pseudo-Random Function) extension. It's a wallet that is backed by hardware, deterministic and multisig, and we made it for a time when AI agents do a lot of the work.
 
----
+## The hardware is the seed
 
-## 1. The PRF Revolution: Hardware as the Seed
-The core innovation lies in moving away from stored secrets. Instead
-of a master password or a stored JSON file, we use the Passkey PRF
-extension to derive entropy directly from the authenticator (e.g.,
-TouchID, FaceID, or YubiKey).
+The main idea is that we don't store a secret anymore. No master password and no stored JSON file. We use the passkey PRF extension to get the entropy straight from the authenticator, like TouchID, FaceID or a YubiKey.
 
-* **Deterministic Output:** Every time the user authenticates, the PRF
-extension produces the exact same output for a given input/salt.
-* **The "Zero-Storage" Model:** $Seed =
-\text{HMAC-SHA256}(\text{AuthenticatorSecret}, \text{Salt})$
-    Because we can re-derive this $Seed$ at any time, the private keys
-are generated on-the-fly and **zeroized (wiped)** immediately after
-the signature is produced.
+Every time the user authenticates, the PRF extension gives back exactly the same output for the same input and salt. So nothing has to be stored, $Seed =
+\text{HMAC-SHA256}(\text{AuthenticatorSecret}, \text{Salt})$. Because we can derive this $Seed$ again at any time, the private keys are made on the fly and wiped (zeroized) right after the signature is done.
 
-## 2. Decaying Multi-Sig: The Ultimate Fail-Safe
-To balance security with availability, we utilize a **Decaying
-Multi-Signature** script.
-* **Active State:** Requires 2-of-2 signatures (The PRF-derived key +
-a Service-backed key).
-* **Decay Mechanism:** If the service (Relying Party) becomes
-unavailable or the domain is lost, a time-lock (CheckSequenceVerify)
-allows the wallet to transition into a 1-of-1 state.
-* **Outcome:** The user is never locked out of their funds by a
-service provider, yet enjoys the security of co-signing during normal
-operations.
+## A multisig that decays
 
-## 3. The "Agentic Wallet" Paradigm
-As AI agents begin to handle on-chain logic, the bottleneck becomes
-**Authorization vs. Execution**.
+To have security and still always get to your money, we use a decaying multisig script. In normal use it needs 2-of-2 signatures, the key from the PRF and a key held by the service. If the service (the Relying Party) goes away or the domain is lost, a time-lock (CheckSequenceVerify) lets the wallet move to a 1-of-1 state. So a service provider can never lock you out of your money, and in normal times you still get the security of a co-signer.
 
-### How it works with Agents:
-1.  **Preparation:** An AI Agent monitors the chain and prepares a
-complex transaction (e.g., "Rebalance my DeFi positions if gas is
-low").
-2.  **Orchestration:** The Agent handles all the "legwork" and
-presents a ready-to-sign payload to the user.
-3.  **Biometric Co-signing:** Because the private key requires a
-biometric trigger via the Passkey PRF, the Agent **cannot** spend
-funds autonomously.
-4.  **Security:** This creates a hardware-bound guardrail. The Agent
-is the "pilot," but the User’s thumbprint is the "ignition key."
+## Agents prepare, you sign
 
-## 4. Cross-Chain Versatility
-While many Passkey implementations focus solely on EVM (via ERC-4337),
-our setup at **nuri.com** is chain-agnostic. By deriving a master
-seed, we support:
-* **Bitcoin:** Native SegWit/Taproot transactions via deterministic
-BIP32 derivation.
-* **EVM:** Full compatibility with Ethereum-based chains and Account
-Abstraction.
+When AI agents start to handle things on-chain, the hard part is the line between who is allowed to do something and who actually does it.
 
-## 5. Conclusion: Why this matters
-This setup moves us toward a "Secretless" future. There is no seed
-phrase to lose, no master password to phish, and no service provider
-that can freeze your funds indefinitely. By open-sourcing this
-orchestration logic, we aim to provide the foundational layer for
-secure, human-in-the-loop Agentic Wallets.
+It works like this. An agent watches the chain and prepares a complex transaction, for example "Rebalance my DeFi positions if gas is low". The agent does all the legwork and hands the user a payload that is ready to sign. But the private key needs a biometric trigger through the passkey PRF, so the agent can't spend money on its own. That gives you a guardrail that is bound to hardware. The agent is the pilot, but the thumbprint of the user is the ignition key.
+
+## Not only EVM
+
+A lot of passkey wallets only care about EVM (via ERC-4337). Our setup at nuri.com works on any chain, because we derive a master seed. On Bitcoin that means native SegWit and Taproot transactions through deterministic BIP32 derivation. On EVM it means full support for Ethereum-based chains and Account Abstraction.
+
+## Why it matters
+
+This moves us toward a future without secrets. There is no seed phrase to lose, no master password someone can phish, and no service provider that can freeze your money forever. We want to open source this orchestration logic, so it can be the base layer for agentic wallets that are secure and keep a human in the loop.
 
 ![image](../../../media/agentic-wallets-passkey-prf-the-nuri-com-security-architecture/image.png)

@@ -9,7 +9,6 @@ import { SITE_NAME, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchem
 import { hreflangLinks } from '../lib/routes.mjs';
 import { DEFAULT_LANG, t, homePath, postsIndexPath, feedPath, join } from '../lib/paths.mjs';
 import { activeLangs } from '../lib/corpus.mjs';
-import { DISCLOSURE } from '../lib/magazine.mjs';
 
 const {
 	title,
@@ -57,7 +56,8 @@ const navItems = [
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 		<link rel="preload" href="/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-		<meta name="theme-color" content="#faf7f0" />
+		<link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+		<meta name="theme-color" content="#fdf6e3" />
 		<meta name="color-scheme" content="light" />
 		{verify.google && <meta name="google-site-verification" content={verify.google} />}
 		{verify.bing && <meta name="msvalidate.01" content={verify.bing} />}
@@ -137,7 +137,6 @@ const navItems = [
 			<div class="wrap">
 				<div>
 					<p class="principle"><a href={de ? '/de/principles' : '/principles'}>{principleLine}</a></p>
-					<p>{DISCLOSURE[de ? 'de' : 'en']}</p>
 					<p>{de ? 'Geschrieben von' : 'Written by'} {AUTHOR_NAME}, {de ? 'Herausgeber von' : 'publisher of'} <a href={config.publisher.publication.url}>{config.publisher.publication.name}</a>. {de ? 'Jeder Beitrag ist eine Markdown-Datei auf' : 'Every post is a Markdown file on'} <a href={config.repo}>GitHub</a>.</p>
 				</div>
 				<div>

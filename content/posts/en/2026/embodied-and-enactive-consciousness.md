@@ -1,6 +1,6 @@
 ---
 title: "Embodied and Enactive Consciousness"
-description: "This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly..."
+description: "A simple guide to the embodied and enactive column of my consciousness map, from Husserl and Varela to Noë and Gibson, and how to read these ideas side by side."
 date: "2026-02-20T22:01:00Z"
 updated: "2026-02-20T22:01:00Z"
 lang: "en"
@@ -17,92 +17,18 @@ voice_check:
   em_dash: 2
   unobserved: 27
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/2026-02-21-100005-embodied-and-enactive-consciousness/"
 ---
-This is a long-form guide written in simpler language, so people new to the topic can still follow. The goal is to explain each point from your map clearly and fairly.
+This is a long guide in simple language, so people who are new to the topic can still follow it. I want to explain each point from my map in a clear and fair way, and I want it to be easy to read even if you never read any philosophy of mind before.
 
-## Overview
+This column of the map tries to answer one big question, and that question is how consciousness works. It looks at it through one specific lens, the body and what the body does. It doesn't claim to be the only truth, but it gives you good tools to think with, and that is the reason it's on the map at all.
 
-In plain words: this column tries to answer one big question—how consciousness works—using one specific lens. It does not claim to be the only truth, but it gives useful tools for thinking.
+The column starts with two big ideas, embodied cognition and enactivism. Then come the names. First Husserl, then Varela and Thompson. After them there is blind spot research, and then Bitbol and Gefter. Then come Shanahan, Noë and Hurley, then Gibson, and the last name in the column is Peter-Wilson. Each of these is on the map as a reference point, and each one is a line of thought you can look at on its own.
 
-## Embodied Cognition
+For every one of them I think the same simple questions help a lot. What does this idea explain well, what does it miss, and how can we test it better? You can ask this about embodied cognition or enactivism, and you can ask it about Husserl or Varela or Gibson, and it works the same way every time.
 
-Embodied Cognition is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
+You don't need to agree with every claim. I think the best way to read this column is to put the models next to each other and compare them. And then you ask which one explains experience, brain data and everyday life with the least confusion. Some ideas will do better on one of these things and some on another, and that is fine, because the point is to see where each idea is strong and where it gets weak.
 
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Enactivism
-
-Enactivism is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Husserl
-
-Husserl is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Varela
-
-Varela is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Thompson
-
-Thompson is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Blind Spot Research
-
-Blind Spot Research is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Bitbol
-
-Bitbol is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Gefter
-
-Gefter is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Shanahan
-
-Shanahan is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Noë
-
-Noë is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Hurley
-
-Hurley is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Gibson
-
-Gibson is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Peter-Wilson
-
-Peter-Wilson is included in your map as an important reference point. In simple terms, this line of thought helps us ask: what does this idea explain well, what does it miss, and how can we test it better?
-
-For non-experts: you do not need to agree with every claim. The best way to read this is to compare models and ask which one explains experience, brain data, and everyday life with the least confusion.
-
-## Closing
-
-If you’re new to philosophy of mind, the practical takeaway is this: no single model explains everything yet. But each model contributes a piece. Reading across them gives a stronger, less dogmatic understanding.
+If you are new to philosophy of mind, the practical thing to take away is that no single model explains everything yet. But each model gives you a piece. And when you read across all of them, you get a stronger and less dogmatic understanding than you would get from any one of them alone.

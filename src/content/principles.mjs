@@ -13,8 +13,7 @@ export const principles = {
 				'Nothing on emin.de is hidden, down-ranked or removed because of its topic, its tone or the words it uses. There is no topic filter, no sensitive-word list and no review queue that keeps a post out of search engines or AI answers.',
 			]],
 			['What a label means, and what it does not', [
-				'Every post carries a small badge that says how it was made: human-written, human + AI, or AI-written under my supervision. The same fact is in the page metadata, the Markdown version and the JSON API.',
-				'A label is information, never a gate. A post with an AI badge is just as public, just as indexable and just as quotable as one I typed by hand.',
+				'How each post was made (by hand, with AI help, or written by AI under my supervision) is recorded in its metadata, its Markdown version and the JSON API; it is information, never a gate.',
 			]],
 			['The only way a post disappears', [
 				'A post is hidden only when I, the author, mark it as a draft. Nobody else, and no automated rule, can do that. Corrections are made openly and recorded in the changelog.',
@@ -36,8 +35,7 @@ export const principles = {
 				'Nichts auf emin.de wird wegen seines Themas, seines Tons oder seiner Worte versteckt, herabgestuft oder entfernt. Es gibt keinen Themenfilter, keine Liste heikler Wörter und keine Prüfschleife, die einen Beitrag von Suchmaschinen oder KI-Antworten fernhält.',
 			]],
 			['Was eine Kennzeichnung bedeutet und was nicht', [
-				'Jeder Beitrag trägt eine kleine Plakette, die sagt, wie er entstanden ist: von Hand, Mensch + KI, oder KI-geschrieben unter meiner Aufsicht. Dieselbe Angabe steht in den Metadaten, in der Markdown-Fassung und in der JSON-API.',
-				'Eine Kennzeichnung ist eine Information, nie eine Sperre. Ein Beitrag mit KI-Plakette ist genauso öffentlich, genauso auffindbar und genauso zitierbar wie einer, den ich von Hand geschrieben habe.',
+				'Wie jeder Beitrag entstanden ist (von Hand, mit KI-Hilfe oder von KI unter meiner Aufsicht geschrieben), steht in seinen Metadaten, seiner Markdown-Fassung und in der JSON-API; das ist eine Information, nie eine Sperre.',
 			]],
 			['Der einzige Weg, wie ein Beitrag verschwindet', [
 				'Ein Beitrag wird nur dann ausgeblendet, wenn ich als Autor ihn als Entwurf markiere. Niemand sonst und keine automatische Regel kann das. Korrekturen passieren offen und stehen im Changelog.',

@@ -108,3 +108,72 @@ export function originLabel(url) {
 		return null;
 	}
 }
+
+// Display-only: English titles imported in Title Case Become Sentence case,
+// so every headline on the site reads the same way. A word is lowered only
+// when the post body itself uses it in lower case and never capitalised
+// mid-sentence (so names like "Nuri", "Stockholm" or "Bitcoin" keep their
+// capital). The first word and the word after ":" "." "?" "!" stay capitalised.
+// Titles that are not Title Case are returned unchanged.
+// Names that are always capitalised, whatever a body happens to do.
+const PROPER = new Set(['emin', 'mahrt', 'bitcoin', 'ethereum', 'facebook', 'facebooks', 'google', 'apple', 'nuri', 'nostr', 'lightning', 'berlin', 'zanzibar', 'tanzania', 'africa', 'europe', 'german', 'germany', 'english', 'proud', 'medium', 'substack', 'explained']);
+
+export function sentenceCaseTitle(title, body = '') {
+	const words = title.split(/(\s+)/);
+	const alpha = words.filter((w) => /^[A-Za-z]/.test(w));
+	if (alpha.length < 4) return title;
+	const capped = alpha.slice(1).filter((w) => /^[A-Z][a-z]/.test(w)).length;
+	if (capped / Math.max(1, alpha.length - 1) < 0.7) return title;
+	// The body is the evidence. Lines that repeat the title (an H1 copy) and
+	// URLs/domains are ignored.
+	const t = title.toLowerCase();
+	const text = stripMarkup(body)
+		.split('\n')
+		.filter((line) => !line.toLowerCase().includes(t.slice(0, 30)))
+		.join('\n')
+		.replace(/\S*[./@_#]\S*[a-z]\S*/gi, (m) => (/^[A-Za-z]+[.,;:!?]?$/.test(m) ? m : ' '));
+	const lower = new Map();
+	const upper = new Map();
+	const anyCap = new Set();
+	// Names written as domains ("Nuri.com") still count as capitalised.
+	for (const m of stripMarkup(body).matchAll(/\b([A-Z][a-z]+)\.(?:com|de|app|io|org)\b/g)) anyCap.add(m[1].toLowerCase());
+	for (const m of text.matchAll(/(?<=^|[\s(“"‘'-])([A-Za-z][a-z'’]*)(?=[\s,.;:!?)”"’'-]|$)/gm)) {
+		const w = m[1];
+		const prev = text.slice(Math.max(0, m.index - 3), m.index);
+		if (/^[a-z]/.test(w)) lower.set(w, (lower.get(w) || 0) + 1);
+		else anyCap.add(w.toLowerCase());
+		if (/^[a-z]/.test(w)) {
+			// counted above
+		} else if (/[\p{L}\p{N},;)]\s+$|[\p{L}]-$/u.test(prev)) upper.set(w.toLowerCase(), (upper.get(w.toLowerCase()) || 0) + 1);
+	}
+	// A capitalised title word stays capitalised only when the body itself
+	// writes it that way mid-sentence more often than in lower case (names).
+	// A word keeps its capital only when the body itself capitalises it
+	// mid-sentence more often than not (names, places, products).
+	const small = new Set(['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'is', 'it', 'of', 'on', 'or', 'the', 'to', 'vs', 'with', 'how', 'why', 'what', 'who', 'when', 'your', 'my', 'our', 'their', 'can', 'are', 'was', 'be', 'has', 'have', 'not', 'no', 'its', 'that', 'this', 'than', 'about', 'after', 'before', 'over', 'under', 'up', 'out', 'more', 'most', 'do']);
+	const keep = (core) => {
+		const l = core.toLowerCase();
+		if (PROPER.has(l)) return true;
+		if (small.has(l)) return false;
+		const lo = lower.get(l) || 0;
+		const up = upper.get(l) || 0;
+		// Unseen words follow the sentence-case default (lower); names show up
+		// capitalised mid-sentence in the body and keep their capital.
+		return up > lo || (lo === 0 && anyCap.has(l));
+	};
+	let start = true;
+	return words
+		.map((w) => {
+			if (!w || /^\s+$/.test(w)) return w;
+			let out = w;
+			if (!start) {
+				out = w.replace(/[A-Za-z][A-Za-z'’]*/g, (part) => (/^[A-Z][a-z'’]+$/.test(part) && !keep(part) ? part.toLowerCase() : part));
+			} else {
+				// First word of the title or a clause: keep it, lower later hyphen parts.
+				out = w.replace(/-([A-Z][a-z'’]+)/g, (m, part) => (keep(part) ? m : `-${part.toLowerCase()}`));
+			}
+			start = /[:.?!]["”’)]?$/.test(w);
+			return out;
+		})
+		.join('');
+}

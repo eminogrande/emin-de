@@ -1,6 +1,6 @@
 ---
 title: "Radical Georgism"
-description: "This conversation, primarily led by a member of the Amoveo project in early 2026, explores the intersection of Georgism (Land Value Tax) and blockchain..."
+description: "A talk led by a member of the Amoveo project about land value tax on a blockchain and why crypto might finally make Georgism work"
 date: "2026-01-20T09:50:01Z"
 updated: "2026-01-20T09:50:01Z"
 lang: "en"
@@ -17,308 +17,88 @@ voice_check:
   em_dash: 4
   unobserved: 316
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/radical-georgism/"
 ---
 ![](../../../media/radical-georgism/cover.jpg)
 
-This conversation, primarily led by a member of the Amoveo project in
-early 2026, explores the intersection of Georgism (Land Value Tax) and
-blockchain technology. It posits that cryptocurrency might be the only
-tool capable of finally making a functional Land Value Tax (LVT)
-possible.
+This is a summary of a conversation from early 2026, led mostly by a member of the Amoveo project.
 
-Summary of Insights and Facts
+The conversation is about Georgism, so Land Value Tax (LVT), and blockchain. The idea is that crypto might be the only tool that can finally make a working Land Value Tax possible.
 
-The Great Political Irony: The member observes a fascinating paradox:
-Anarchists/Libertarians and "LVT guys" (Georgists) are often
-philosophically opposed, yet they hold the keys to each other's goals.
-Anarchists have the decentralized tools to dismantle traditional
-government, while Georgists have the tax model (LVT) that could
-actually make a stateless society economically viable.
+The member sees a big political irony in it, a real paradox. Anarchists and libertarians on one side and the "LVT guys", the Georgists, on the other side are often against each other, but they hold the keys to each other's goals.
 
-Location vs. Improvement: A core tenant of the discussion is that land
-value has two parts: improvements (what the owner builds) and location
-value (created by the surrounding community). For example, your land
-becomes more valuable if a neighbor builds a great restaurant, even if
-you do nothing.
+The anarchists have the decentralized tools to take traditional government apart, and the Georgists have the tax model that could make a stateless society actually work economically. So Radical Georgism is a missing link between two ideologies that often clash, anarcho-capitalism, which hates government intervention, and socialism, which focuses on resources the community owns.
 
-The "Incorruptible Assessor": Historically, LVT has failed because
-humans are in charge of calculating land value, leading to systemic
-corruption. The member argues that blockchain can automate these
-calculations in a transparent, mathematical, and incorruptible way,
-removing the need for a fallible central tax authority.
+A core tenet of the discussion is that land value has two parts. There are improvements, so what the owner builds, and there's location value, which the community around it creates. Your land gets more valuable when a neighbor builds a great restaurant, even if you do nothing.
 
-Verkle Trees as a Global Map: The technical insight involves using
-Verkle trees (a type of data structure) to represent a global land
-registry. By embedding a binary tree within a base-256 Verkle tree,
-the system can define land plots through a series of "lines" drawn on
-the globe.
+And unlike a computer or a car, nobody created land. Its value comes from where it is. If you own a plot in a desert and someone builds a city around it, your land value spikes and you did zero work.
 
-Exponential Weighting for Valuation: To calculate the value of a plot
-without "zooming out" too far (which would include low-value areas
-like the ocean), The member proposes an exponential weighting
-algorithm. This algorithm prioritizes the price of land immediately
-adjacent to the plot, providing a "good enough" estimate of raw land
-value.
+The Georgist answer is to tax this location value, the unearned wealth, at 100% and to tax improvements like buildings, farms and factories at 0%. That way people build productive things and don't just sit on land and wait for the price to go up.
 
-The "Beachfront" Problem: A challenge raised in the chat is that land
-values aren't always "smooth." A beachfront property might have a
-massive price spike compared to land just a few meters inland. The
-group concludes that while the model might undertax outliers like
-this, it would still be vastly more efficient than any existing tax
-system.
+Historically LVT failed because humans calculate the land value, and that leads to corruption in the whole system. Whoever decides the value can be bribed to lower the tax for friends or raise it for enemies. The member argues that a blockchain can do these calculations automatically, in a way that's transparent, mathematical and can't be corrupted, so you don't need a central tax authority that makes mistakes.
 
-Tax Redistribution Dilemma: In a perfect Georgist system, taxes should
-return to the local community that created the value. However, on a
-pseudonymous blockchain, it's hard to prove which wallet belongs to
-which neighborhood. The member suggests that even if the value is just
-redistributed to all currency holders (VEO holders), the economic
-efficiency gain would still cause the system to "win" over traditional
-alternatives.
+The blockchain becomes a mathematical judge, the incorruptible assessor, and without human assessors the system turns into a trustless economic engine.
 
-Interesting Fact: The discussion mentions that in some Nordic
-countries, "ownership" is already limited by "freedom to roam"
-(Allemannsretten), where the public is allowed to cross or camp on
-private land—highlighting that land rights are a social construct that
-blockchain can redefine.
+The technical idea is to use Verkle trees, a data structure that's very efficient for proofs, as a global land registry. A binary tree sits inside a base-256 Verkle tree, and land plots are defined by a series of lines drawn on the globe.
 
-This analysis explores the visionary framework proposed by a primary
-System Architect within the decentralized ecosystem. The core of the
-discussion focuses on a radical fusion of Georgist economics and
-cryptographic data structures, aiming to solve one of the oldest
-problems in human civilization: the fair distribution and taxation of
-land.
+You draw a line across the globe and cut it in half. Then you cut those halves in half. If you do this about 23 times, you're left with one small plot of land. So every piece of land on Earth has its own path of 23 binary decisions, left or right, north or south.
 
-________________________________
+A big technical problem in 2026 is state bloat, which means the blockchain gets too heavy to run on a normal computer. With Verkle proofs a user can prove they own a piece of land and calculate its tax bill without downloading the whole global registry. They only need the lines, so the proofs, that lead to their own plot.
 
-1. The Philosophical Foundation: Radical Georgism
+The valuation is the brain of the system. There's no human appraiser, so the code has to guess the value of the land. The member proposes an algorithm that looks at the average land price in the branches of the tree around the plot.
 
-The System Architect identifies a "missing link" between two
-often-clashing ideologies: Anarcho-Capitalism (which hates government
-intervention) and Socialism (which focuses on community-owned
-resources).
+If you zoom out too far, you include low-value areas like the ocean, and outliers like a random mansion in a forest can skew the data. So they use exponential weighting. It puts the most weight on the price of the land right next to the plot and gives a good enough estimate of raw land value.
 
-The Problem of Land: Unlike a computer or a car, land was not
-"created" by anyone. Its value comes from its location. If you own a
-plot in a desert and someone builds a city around it, your land value
-spikes despite you doing zero work.
+You look at the branches of the tree at different levels of zoom, and the further the tree zooms out, the less the system cares about that data.
 
-The Georgist Solution: This "Location Value" (unearned wealth) should
-be taxed at 100%, while "Improvements" (buildings, farms, factories)
-should be taxed at 0%. This encourages people to build productive
-things rather than just sitting on land to wait for the price to rise.
-
-The Fatal Flaw: Historically, this failed because humans are
-corruptible. Whoever decides the "value" of the land can be bribed to
-lower the tax for friends or raise it for enemies.
-
-________________________________
-
-2. The Technical Solution: The Incorruptible Land Registry
-
-The System Architect proposes using the blockchain as a mathematical
-judge. By removing human assessors, the system becomes a "trustless"
-economic engine.
-
-Binary Spherical Partitioning
-
-To manage the entire planet on a blockchain, the designer uses a
-binary tree logic embedded inside a Verkle Tree (a highly efficient
-data structure used for proofs).
-
-How it works: Imagine drawing a line across the globe, cutting it in
-half. Then cut those halves in half. If you do this approximately 23
-times, you are left with a single, small plot of land.
-
-The Result: Every piece of land on Earth can be identified by a unique
-"path" of 23 binary decisions (Left or Right, North or South).
-
-Verkle Proofs and Light Verification
-
-A major technical challenge in 2026 is "state bloat"—the blockchain
-getting too heavy to run on a normal computer.
-
-Efficiency: By using Verkle Proofs, a user can prove they own a piece
-of land and calculate its tax bill without needing to download the
-entire global registry. They only need the "lines" (proofs) that lead
-to their specific plot.
-
-________________________________
-
-3. The "Exponential Weighting" Valuation Algorithm
-
-This is the "brain" of the system. Since we can't have a human
-appraiser, the code must "guess" the value of the land.
-
-The System Architect suggests an algorithm that looks at the average
-price of land in the surrounding branches of the tree. To prevent
-outliers (like a random mansion in a forest) from skewing the data,
-they use Exponential Weighting.
-
-The Mathematical Model
-
-The value of a plot is estimated by looking at the branches of the
-tree at different levels of "zoom." As the tree zooms out, the system
-cares less about that data.
-
-The formula used to weight the influence of surrounding land values is:
+The formula that weights the land values around the plot is
 
 $$V_{estimate} = \sum_{n=1}^{D} \left( \frac{1}{2} \right)^n \times A_n$$
 
-Where:
+Here $n$ is the level of the tree, so how far you've zoomed out, $A_n$ is the average price per square meter in that branch and $D$ is the total depth, usually around 23.
 
-$n$ is the level of the tree (how far you've zoomed out).
-
-$A_n$ is the average price per square meter in that specific branch.
-
-$D$ is the total depth (usually around 23).
-
-Why this works for "Normal People": If your neighbor's land is worth a
-lot, the algorithm assumes your land (the "location") is also worth a
-lot. By using the
+For normal people this means that if your neighbor's land is worth a lot, the algorithm assumes your land, the location, is also worth a lot. And because of the
 
 $$(1/2)^n$$
 
-multiplier, the code ensures that a price spike in a city 100 miles
-away doesn't accidentally raise your taxes in the countryside.
+multiplier, a price spike in a city 100 miles away doesn't accidentally raise your taxes in the countryside.
 
-________________________________
+Someone in the chat raised the beachfront problem. Land values aren't always smooth, and a beachfront property can have a massive price spike compared to land just a few meters inland. The group's conclusion was that the model might undertax outliers like this, but it would still be a lot more efficient than any tax system that exists today.
 
-4. Insights into the Architect's Logic
+To stop users from gaming the system with lopsided data trees that lower their taxes, the member suggests a Reorganization Incentive. If users can reorganize the tree to make their own bills as small as possible, they'll naturally build a perfectly balanced binary tree, and that's exactly what the blockchain needs to stay fast.
 
-Political Toxicity as a Signal: The Architect notes that if an idea is
-"politically toxic" to both the left and the right, it probably
-contains a profound truth. By stripping away all taxes except land
-tax, they create an environment that is "hyper-capitalist" for
-creators but "communal" for the Earth's surface.
+In a perfect Georgist system the taxes go back to the local community that created the value. But on a pseudonymous blockchain it's hard to prove which wallet belongs to which neighborhood, and on a global chain nobody knows who lives where.
 
-Fungibility vs. Locality: A deep insight shared is the difficulty of
-returning tax money to the specific neighborhood that created the
-value. On a global blockchain, we don't know who lives where. The
-Architect suggests a trade-off: distribute the land tax to all holders
-of the currency. While not perfectly local, it is economically
-efficient enough to out-compete traditional banks and governments.
+The member suggests a trade-off. Even if the land tax just goes to everyone who holds the currency, the VEO holders, the gain in economic efficiency would still let the system win over traditional alternatives like banks and governments. It's not perfectly local, but it's efficient enough to out-compete them.
 
-The Self-Correcting Tree: To prevent users from "gaming" the system by
-creating lopsided data trees to lower their taxes, the Architect
-suggests a "Reorganization Incentive." If users are allowed to
-reorganize the tree to minimize their own bills, they will naturally
-create a perfectly balanced binary tree, which is exactly what the
-blockchain needs to stay fast.
+The member also says that when an idea is politically toxic to both the left and the right, it probably contains a deep truth. If you remove every tax except the land tax, you get something that's hyper-capitalist for creators but communal for the surface of the Earth.
 
-________________________________
+The discussion also mentions that in some Nordic countries ownership is already limited by the freedom to roam (Allemannsretten), so the public is allowed to cross or camp on private land. Land rights are a social construct, and a blockchain can define them in a new way.
 
-5. Summary of the Vision
+In this view geography is data and the world is a set of mathematical proofs. If land titles become Verkle tree paths and land valuation becomes a weighted average of the data points next to it, you get a society where monopolies on land are impossible, because the tax makes it too expensive to hold unused land, where productivity is never punished, because your buildings and work are taxed at 0%, and where government is code, because the tax collector is an open-source algorithm.
 
-The Architect's "brain" views the world as a set of mathematical
-proofs. In this vision, Geography is Data. By turning land titles into
-Verkle tree paths and land valuation into a weighted average of
-neighboring data points, we can create a society where:
+A later part of the conversation turns into a debate about what money really is, and whether Bitcoin (BTC) can survive against an asset that earns a yield through land. The member argues from Monetary Realism, and the other side, distbit, defends the Lindy Effect and network moats.
 
-Monopolies on land are impossible (because the tax makes it too
-expensive to hold unused land).
+The member's view is stark. "You can't eat money." Money has no value in itself, it's only a claim on the time and energy of other people. For a currency to stay valuable for a long time there has to be a sink, a reason people are forced to sell their labor to get it.
 
-Productivity is never punished (because your buildings and work are
-taxed at 0%).
+Modern fiat like the USD is backed by the obligation to pay taxes. The member's system is backed by the obligation to pay for land use. Bitcoin instead relies on a voluntary expectation of future value, and the member warns it could behave like a pyramid scheme if growth stalls.
 
-Government is a Code (because the "tax collector" is an open-source algorithm).
+So the proposed land registry doesn't just manage land, it also eats the currency it's denominated in. In a Harberger tax model you keep paying a percentage of the value you put on your own property to keep your title.
 
-This new segment of the conversation reveals a high-stakes
-intellectual debate regarding the fundamental nature of money and
-whether Bitcoin (BTC) can survive against an asset that generates
-inherent yield through land.
+If you pay that in the system's native token, the token becomes yield-bearing. As global real estate, worth hundreds of trillions, moves into the registry, demand for the token grows with it. The currency doesn't just sit there, it captures the economic energy of the land it stands for.
 
-The System Architect argues from a perspective of "Monetary Realism,"
-while the interlocutor, distbit, defends the "Lindy Effect" and
-network moats. Here is a technical and insightful breakdown of this
-exchange:
+distbit's technical critique is that complexity means risk. Bitcoin is simple and that's why it's secure. A land registry, automated taxes and yield on top give hackers and system failures a much bigger attack surface. The member answers that yield isn't a feature but a need for survival, like in biology.
 
-________________________________
+An asset that loses 5% of its relative value against a more efficient competitor with yield will lose its Schelling point, the place where everyone agrees to meet, very quickly.
 
-1. The "Obligation" Theory of Value
+The member also says real estate is already a kind of money. People use property to store wealth and to hedge against inflation. So instead of building Bitcoin up into a competitor to real estate, they think it's easier to upgrade real estate with crypto features like tokenization and permissionless registries. Why fight a real estate market of $300+ trillion when you can just absorb it into a blockchain?
 
-The Architect posits a stark view: "You can't eat money." In this
-framework, money has no intrinsic value; it is merely a claim on the
-time and energy of other humans.
+The member doesn't believe in brand loyalty in finance either. distbit argues Bitcoin has a moat with security, liquidity and history, but the member thinks open-source software isn't economically sticky. In a digital world it gets easier and easier to move your wealth from an asset without yield, like BTC, to one with yield.
 
-The Insight: For a currency to remain valuable long-term, there must
-be a "sink"—a reason people are forced to sell their labor to acquire
-it.
+If a better money shows up, the member thinks people will move faster than the incumbents expect.
 
-The Comparison: Modern fiat (like the USD) is backed by the obligation
-to pay taxes. The Architect’s system is backed by the obligation to
-pay for land use. Bitcoin, by contrast, relies on a voluntary
-"expectation" of future value, which the Architect warns could behave
-like a pyramid scheme if growth stalls.
+The member thinks from first principles, like in physics, and doesn't care about market sentiment or crypto culture. The questions are where the pressure comes from that forces people to use the token, so the energy sink, then the total addressable market (TAM), so why aim for the gold market ($14T) when the land market is 20x larger, and then game theory.
 
-2. Harberger Registries as "Currency Sinks"
-
-The Architect explains that their proposed land registry doesn't just
-manage land; it consumes the currency it is denominated in.
-
-Technical Deep-Dive: In a Harberger tax model, you must constantly pay
-a percentage of your self-assessed property value to keep your title.
-If you pay this in the system's native token, the token becomes
-"yield-bearing."
-
-The Result: As global real estate (worth hundreds of trillions) enters
-this registry, the demand for the token scales proportionally. The
-currency doesn't just "sit there"—it captures the economic energy of
-the land it represents.
-
-3. The "Attack Surface" vs. "Yield" Trade-off
-
-A significant technical critique from distbit is that complexity equals risk.
-
-The Argument: Bitcoin is "simple" and therefore secure. Adding a land
-registry, automated taxes, and yield-generation mechanisms creates a
-much larger "attack surface" for hackers or systemic failures.
-
-The Architect's Rebuttal: The Architect views yield not as a feature,
-but as a biological necessity for survival. They argue that an asset
-losing 5% of its relative value compared to a more efficient, yielding
-competitor will lose its "Schelling point" (the place where everyone
-agrees to meet) very quickly.
-
-4. Real Estate as the "Original" Money
-
-A profound insight from the Architect is that real estate is already a
-form of money. People use property as a store of wealth and a hedge
-against inflation.
-
-The Strategy: Rather than trying to build Bitcoin up to be a
-competitor to real estate, the Architect believes it is easier to
-"upgrade" real estate with cryptographic features (tokenization and
-permissionless registries).
-
-The Logic: Why fight the $300+ trillion real estate market when you
-can simply absorb it into a blockchain?
-
-5. The "Economic Stickiness" Fallacy
-
-The Architect challenges the idea of "brand loyalty" in finance.
-
-The Insight: While distbit argues that Bitcoin has a "moat" (security,
-liquidity, history), the Architect believes open-source software is
-not economically sticky.
-
-The Logic: In a digital world, the friction to move your wealth from a
-non-yielding asset (BTC) to a yielding one is decreasing. If a
-"better" money appears, the Architect believes the mass migration will
-be faster than incumbents expect.
-
-________________________________
-
-Insights into the Architect’s "Mental Engine"
-
-The Architect operates on First Principles Physics. They don't care
-about "market sentiment" or "crypto culture." Instead, they analyze:
-
-Energy Sinks: Where is the pressure that forces people to use this token?
-
-Total Addressable Market (TAM): Why aim for the gold market ($14T)
-when the land market is 20x larger?
-
-Game Theory: If Asset A yields 5% and Asset B yields 0%, under what
-conditions does a rational actor keep Asset B? (The Architect's
-answer: Almost never, long-term).
+If asset A yields 5% and asset B yields 0%, when does a rational actor keep asset B? The member's answer is almost never, long term.

@@ -1,6 +1,6 @@
 ---
 title: "Sometimes the more things you add the smaller it gets."
-description: "Watch it here: https://www.youtube.com/watch?v=wYi4emYR89I"
+description: "Twenty-one quotes from a talk about making things, and what each one means when you build a product"
 date: "2026-06-30T11:15:02.394Z"
 updated: "2026-06-30T11:15:02.394Z"
 lang: "en"
@@ -16,90 +16,50 @@ voice_check:
   em_dash: 0
   unobserved: 90
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/https-www-youtube-com-watch-v-wyi4emyr89i-60bc743fc883"
 ---
-Watch it here: [https://www.youtube.com/watch?v=wYi4emYR89I](https://www.youtube.com/watch?v=wYi4emYR89I)
+This is a summary of the talk in this video, as quotes from the speaker and what each one means when you build a product. Watch it here [https://www.youtube.com/watch?v=wYi4emYR89I](https://www.youtube.com/watch?v=wYi4emYR89I)
 
-“Sometimes the more things you add the smaller it gets.”
+1. “Sometimes the more things you add the smaller it gets.” Be the editor of your own product and hide the complexity, so using it is as simple as it can be.
 
-***1.**** Act as the ultimate editor of your product, abstracting away complexity to create the most seamless user experience possible.*
+2. “Make the thing for you, the audience.” Build the exact thing you really want to use yourself, and don't guess what some imagined market wants.
 
-“Make the thing for you, the audience.”
+3. “Action produces information.” Don't overthink the first plan, because the real work shows you what to do next.
 
-***2.**** Build the exact solution you desperately want to use yourself rather than trying to guess what a hypothetical market wants.*
+4. “Let’s try every idea and see where it takes us.” Build a culture of trying things and not of debating them, so prototypes get built and tested before anyone judges them.
 
-“Action produces information.”
+5. “It’s better to follow the universe than those around you.” Trust your gut when people who mean well give you normal, sensible advice that goes against your vision.
 
-***3.**** Do not overthink your initial strategy, because the actual work will reveal what you need to do next.*
+6. “Rules direct us to average behaviors.” Ignore the standard playbooks of your industry, because an exceptional company needs to break the norms.
 
-“Let’s try every idea and see where it takes us.”
+7. “While at the same time we work quickly and without delay.” Be very patient and very fast at once. Don't rush the creative process, but do the daily work without stopping.
 
-***4.**** Foster a culture of experimentation over debate by demanding that prototypes are built and tested rather than prematurely judged.*
+8. “Keep voices away from the artist.” Keep business people and marketing away from the core vision early on, so the fragile work is protected before it has its full shape.
 
-“It’s better to follow the universe than those around you.”
+9. “[Add only what] makes it better and not worse.” Do a ruthless edit of your features and keep only what you can't live without.
 
-***5.**** Trust your instincts when well-meaning advisors offer conventional, sensible advice that fundamentally contradicts your vision.*
+10. “[Create] a vacuum drawing down the ideas that the universe is making available.” Give your mind times of full rest away from the daily grind, so there's open space to solve the hardest problems.
 
-“Rules direct us to average behaviors.”
+11. “Calibrate our internal meter for greatness.” Keep studying the timeless masterpieces of other industries and don't just copy your direct competitors.
 
-***6.**** Ignore standard industry playbooks entirely, because building an exceptional company requires breaking established norms.*
+12. “If you don’t do it, someone else is gonna do it.” Move fast on your best insights, because if you have an idea, its time in the market has probably come.
 
-“While at the same time we work quickly and without delay.”
+13. “The newest sounds have a tendency to sound old when the next new sound comes along.” Build a sound and timeless business and don't chase the fads of the moment.
 
-***7.**** Balance extreme patience with high velocity by avoiding rushing the creative process while executing your daily tasks relentlessly.*
+14. “Make [them] have faith in themselves again.” Give your own strong belief in yourself to your team when the hard times come, and in a startup they always come.
 
-“Keep voices away from the artist.”
+15. “[Treat the work as a] reflection in a moment in time.” Launch each version without a regret that freezes you, so you learn from it and go on to the next challenge.
 
-***8.**** Shield your core product vision from business executives and marketing teams early on to protect the fragile work before it is fully formed.*
+16. “[I just care] that the whole thing is as good as it can be.” Keep the whole startup in view and be the one person who isn't tied to the agenda of one department.
 
-“[Add only what] makes it better and not worse.”
+17. “Just get out of the way and let the people I’m working with be the best versions of themselves.” Help your first employees by taking away roadblocks and giving them the freedom to do their best work.
 
-***9.**** Apply the “ruthless edit” to your feature set by keeping only what you cannot live without.*
+18. “Look for what you notice but no one else sees.” Find gaps in the market by training yourself to watch closely where everyday life has friction.
 
-“[Create] a vacuum drawing down the ideas that the universe is making available.”
+19. “It’s only done when it can’t be any better.” Don't settle for anything mediocre, and let the team iterate again and again before a big launch is final.
 
-***10.**** Give your mind periods of complete rest away from the daily grind so you have the open space to solve your hardest problems.*
+20. “Moments and opportunities are lost [when hanging onto your work].” Ship your product and don't keep tweaking it in secret, because holding your work back takes away your next big breakthrough.
 
-“Calibrate our internal meter for greatness.”
-
-***11.**** Constantly study the timeless masterpieces of other industries rather than just copying your direct competitors.*
-
-“If you don’t do it, someone else is gonna do it.”
-
-***12.**** Execute swiftly on your best insights, knowing that if you have an idea, its time has likely arrived in the market.*
-
-“The newest sounds have a tendency to sound old when the next new sound comes along.”
-
-***13.**** Focus on building a fundamentally sound, timeless business rather than chasing temporary industry fads.*
-
-“Make [them] have faith in themselves again.”
-
-***14.**** Transfer your own intense self-belief to your team during the inevitable difficult periods of your startup journey.*
-
-“[Treat the work as a] reflection in a moment in time.”
-
-***15.**** Launch your product iterations without paralyzing regret so you can learn from them and move forward to the next challenge.*
-
-“[I just care] that the whole thing is as good as it can be.”
-
-***16.**** Maintain a holistic view of your startup, remaining the only person detached from individual departmental agendas.*
-
-“Just get out of the way and let the people I’m working with be the best versions of themselves.”
-
-***17.**** Empower your early employees by removing roadblocks and giving them the autonomy to do their greatest work.*
-
-“Look for what you notice but no one else sees.”
-
-***18.**** Discover unique market gaps by training yourself to deeply observe the friction points in everyday life.*
-
-“It’s only done when it can’t be any better.”
-
-***19.**** Refuse to settle for anything mediocre, demanding that your team iterates relentlessly before considering a major launch final.*
-
-“Moments and opportunities are lost [when hanging onto your work].”
-
-***20.**** Ship your product instead of endlessly tweaking it in secret, because withholding your work robs you of your next great breakthrough.*
-
-“If we embrace that not knowing, we’ll have a healthier experience going through life.”
-
-***21.**** Approach complex challenges with profound humility, recognizing that letting go of the need to have all the answers opens you up to better solutions.*
+21. “If we embrace that not knowing, we’ll have a healthier experience going through life.” Meet hard problems with real humility, because when you let go of needing all the answers you open up to better solutions.

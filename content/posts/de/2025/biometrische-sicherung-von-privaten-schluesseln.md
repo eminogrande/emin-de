@@ -17,6 +17,8 @@ voice_check:
   em_dash: 3
   unobserved: 181
 emin_check_pct: null
+voice_rewrite: "none"
+review_status: "draft-emin-voice"
 original_url: "https://medium.com/@em/biometrische-sicherung-von-privaten-schl%C3%BCsseln-d30c08abd2db"
 ---
 ![](../../../media/biometrische-sicherung-von-privaten-schluesseln/01-3b37bf06.png)
@@ -32,7 +34,7 @@ Hier diverse Schritte und Möglichkeiten:
 6. Der Private Schlüssel wird auf einem externen Hardware Wallet generiert
 7. Der Private Schlüssel wird auf einem externen Wallet gespeichert und mit einem Pin Code, Passwort oder Biometrie verschlüsselt
 
-Die Liste kann endlos weitergeführt werden, an kreativen Ansätzen fehlt es nicht. Die Schlussfolgerung ist jedoch — das sichere erstellen und aufbewahren des privaten Schlüssel ist der erste, und mitunter wichtigste Schritt. Wird der Schlüssel nicht sicher erstellt, so kann er theoretisch im Prozess von einem Dritten gesehen oder abgegriffen werden. Der Gefahrfaktor Nummer eins ist hierbei fast immer der Mensch.
+Die Liste kann endlos weitergeführt werden, an kreativen Ansätzen fehlt es nicht. Die Schlussfolgerung ist jedoch, das sichere erstellen und aufbewahren des privaten Schlüssel ist der erste, und mitunter wichtigste Schritt. Wird der Schlüssel nicht sicher erstellt, so kann er theoretisch im Prozess von einem Dritten gesehen oder abgegriffen werden. Der Gefahrfaktor Nummer eins ist hierbei fast immer der Mensch.
 
 Insbesondere bei Nutzern, die das erste Mal mit dem Sichern eines privaten Schlüssel konfrontiert werden, und ungeübt sind digitale Geheimnisse sicher aufzubewaren und aufzuschreiben, kann es dazu führen das der private Schlüssel abfotografiert wird, oder in die persönliche Notes app kopiert oder vielleicht sogar per Email oder Whatsapp irgendwo hingeschickt wird.
 
@@ -119,8 +121,8 @@ Hardware-Abhängigkeit
 Schlüsselgenerierung und Verschlüsselung
 - Seed (12 Wörter) auf Hardware Wallet generiert.
 - Seed verschlüsselt durch Kombination:
- — Fingerabdruck als biometrischer Faktor (“13. Wort”).
- — Optionaler PIN oder Passwort (“14. Wort”).
+  - Fingerabdruck als biometrischer Faktor (“13. Wort”).
+  - Optionaler PIN oder Passwort (“14. Wort”).
 - Nutzung einer robusten Key Derivation Function (Argon2, PBKDF2).
 - Verschlüsselte Speicherung des Backups extern.
 

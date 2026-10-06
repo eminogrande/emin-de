@@ -1,6 +1,6 @@
 ---
 title: "Dar es Salaam, Tanzania"
-description: "Population Growth: Dar es Salaam’s population is about 8 million (2024), a nearly 100× increase from ~84,000 in 1950 . It’s one of the fastest-growing..."
+description: "Dar es Salaam in numbers. About 8 million people, the port that moves most of Tanzania's trade, traffic, floods, waste, crime and the cost of living."
 date: "2025-02-28T12:15:35.215Z"
 updated: "2025-02-28T12:15:35.215Z"
 lang: "en"
@@ -10,6 +10,8 @@ author: "ai-desk"
 provenance: "ai_generated"
 ai_assisted: true
 reviewed_by_human: false
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 source: "medium"
 third_party_summary: false
 cover: "../../../media/dar-es-salaam-tanzania/01-221ca737.jpeg"
@@ -21,16 +23,16 @@ original_url: "https://medium.com/@em/dar-es-salaam-tanzania-59d7f1fe5d6b"
 ---
 ![](../../../media/dar-es-salaam-tanzania/01-221ca737.jpeg)
 
-**Population Growth**: Dar es Salaam’s population is about **8 million** (2024), a nearly **100× increase** from ~84,000 in 1950 . It’s one of the fastest-growing cities (3rd in Africa, 9th globally) , expanding ~5% yearly. Projections show **~13.4 million by 2035** , and an astounding **76 million by 2100** — potentially the world’s **2nd largest city** by then .
+Dar es Salaam has about 8 million people (2024). In 1950 it was about 84,000, so that is nearly a 100× increase. It is one of the fastest growing cities, 3rd in Africa and 9th in the world, and it grows about 5% every year. The projections say about 13.4 million by 2035 and 76 million by 2100. That would make it maybe the 2nd largest city in the world by then.
 
-**Economic Strength**: As Tanzania’s commercial hub, Dar es Salaam generates the highest regional GDP (≈**TZS 25.3 trillion** in 2020, ~$11 billion) . The country’s GDP is about **$78 billion** , so Dar alone contributes a significant share. Key industries include port logistics, manufacturing, and services — the Port of Dar es Salaam handles **~90% of Tanzania’s international trade** (serving 6 landlocked nations), underscoring the city’s outsized economic role in East Africa.
+It is the commercial hub of Tanzania and has the highest regional GDP in the country, about TZS 25.3 trillion in 2020, so around $11 billion. The whole country's GDP is about $78 billion, so Dar alone is a big part of it. The main things here are port logistics, manufacturing and services. The Port of Dar es Salaam handles about 90% of Tanzania's international trade and also serves 6 landlocked countries, and that is why the city matters so much for East Africa.
 
-**Infrastructure Challenges**: **Traffic congestion** is severe — commuters lose ~**2.5 hours** in traffic jams each day . Only about **30%** of households have direct piped water access , and while **~85%** of Dar residents can access electricity (far above the national average) , power outages remain frequent. The city inaugurated East Africa’s first **BRT** system in 2016; it now carries ~**200,000 passengers daily** , cutting round-trip commute times by ~**90 minutes** on its main corridor . Still, public transport coverage and utility services lag behind those of similar mega-cities, straining under Dar’s rapid growth.
+The infrastructure has a hard time keeping up. Traffic is really bad and people lose about 2.5 hours in jams every day. Only about 30% of households have piped water directly, and about 85% of people in Dar can get electricity, which is far above the national average, but the power still goes out a lot. In 2016 the city opened the first BRT system in East Africa. It now carries about 200,000 passengers a day and cuts a round trip on the main corridor by about 90 minutes. Still, public transport and utilities are behind other big cities of this size, and the fast growth puts a lot of pressure on them.
 
-**Environmental Issues**: Dar es Salaam faces frequent **flooding** — for example, **April 2018 floods** affected an estimated **0.9–1.7 million people** and caused economic losses worth **2–4% of the city’s GDP** (~$100–230 million) . **Solid waste** is another major challenge: the city produces ~**5,600 tons** of waste per day, but only ~**20%** is collected for disposal — the rest often ends up in streets, informal dumps, or is openly burned. **Air pollution** has been rising; Dar’s fine particulate levels average around **15–16 µg/m³** (PM₂.₅) , **3×+** higher than WHO’s safety guideline (5 µg/m³), contributing to health and environmental concerns.
+Then there is the environment. Dar floods often. The floods in April 2018 hit an estimated 0.9 to 1.7 million people and cost 2–4% of the city's GDP, so about $100 to 230 million. Waste is another big problem. The city makes about 5,600 tons of waste a day and only about 20% gets collected. The rest often ends up in the streets, in informal dumps, or it just gets burned. Air pollution is going up too. Fine particles (PM₂.₅) are around 15–16 µg/m³ on average, which is more than 3×+ the WHO guideline of 5 µg/m³, and that is bad for health and for the environment.
 
-**Crime and Safety**: Dar es Salaam accounts for roughly **1/4 of all reported crimes** in Tanzania and street crimes like muggings, bag snatching, car break-ins, and burglaries are common . Nevertheless, violent crime rates are relatively moderate — Tanzania’s homicide rate is about **4.7 per 100,000** people , much lower than in many large African cities. Overall, Dar’s crime index (~**58/100**, moderate) is comparable to Nairobi’s and significantly safer than high-crime cities like Johannesburg (which scores ~80–90/100) .
+About 1/4 of all reported crimes in Tanzania happen in Dar es Salaam. Street crime like muggings, bag snatching, car break-ins and burglaries is common. But violent crime is moderate. Tanzania's homicide rate is about 4.7 per 100,000 people, much lower than in many big African cities. Dar's crime index is about 58/100, which counts as moderate, about the same as Nairobi and a lot safer than Johannesburg, which scores around 80–90/100.
 
-**Cost of Living**: The **cost of living** in Dar es Salaam is high relative to local incomes. On average, a single person needs about **$720** per month to cover expenses (incl. rent), yet the **median monthly salary** is only ~**$274** . This means living costs are ~**2.6×** higher than what the average resident earns , making affordability a serious issue (many residents resort to informal housing or multiple income sources). Regionally, Dar’s cost of living is slightly **lower than Nairobi’s** (~15–18% cheaper) , but it remains one of the **most expensive cities in East Africa relative to wages**.
+Living here is expensive compared to what people earn. One person needs about $720 a month including rent, but the median monthly salary is only about $274. So living costs are about 2.6× what the average person earns, and that is why a lot of people live in informal housing or have more than one income. Compared to Nairobi, Dar is a bit cheaper, about 15–18%, but relative to wages it is still one of the most expensive cities in East Africa.
 
-**Unique Facts**: Dar es Salaam has undergone explosive growth — from a small port of **~84,000** people in 1950 to the **largest city in East Africa** today . It is **not the capital** (Dodoma is), yet Dar dominates Tanzania’s urban landscape and is projected to become the world’s second most populous city by 2100 . The city’s port is a critical **global gateway**, handling **90% of the country’s trade** . These factors combined make Dar es Salaam stand out as a city of superlatives — one of the **fastest-growing urban centers on the planet** with outsized regional economic influence.
+And some facts that make Dar special. It grew from a small port of about 84,000 people in 1950 to the largest city in East Africa today. It is not the capital, that is Dodoma, but Dar is still by far the biggest city in Tanzania, and it is projected to be the second most populous city in the world by 2100. The port is a real gateway to the world and handles 90% of the country's trade. So it is one of the fastest growing cities on the planet, with a lot of economic weight in the region.

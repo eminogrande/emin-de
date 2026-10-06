@@ -83,6 +83,8 @@ for (const style of ['normal', 'italic']) {
 	const from = `node_modules/@fontsource-variable/newsreader/files/newsreader-latin-wght-${style}.woff2`;
 	if (existsSync(from)) copyFileSync(from, `public/fonts/newsreader-latin-wght-${style}.woff2`);
 }
+// Text face (Inter, OFL), same rule: self-hosted.
+if (existsSync('node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')) copyFileSync('node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2', 'public/fonts/inter-latin-wght-normal.woff2');
 // The site changelog stream also includes the repo CHANGELOG.md, verbatim.
 const changelog = existsSync('CHANGELOG.md') ? readFileSync('CHANGELOG.md', 'utf-8') : '';
 mkdirSync('src/generated', { recursive: true });

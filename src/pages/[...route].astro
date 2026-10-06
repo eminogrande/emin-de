@@ -54,9 +54,6 @@ const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG 
 	>
 		{route.kind === 'home' ? <Home lang={route.lang} /> : <>
 		<h1>{route.title}</h1>
-		{route.kind === 'author' && SITE.authors[route.id].type === 'ai_editorial' && (
-			<p class="ai-label" role="note"><strong>{SITE.authors[route.id].label[route.lang] || SITE.authors[route.id].label.en}.</strong> {route.lang === 'de' ? 'Kein Mensch, keine erfundene Biografie, kein Foto. Beaufsichtigt von' : 'Not a person, no invented biography, no photo. Supervised by'} <a href={SITE.authors[SITE.authors[route.id].supervisor].url}>{SITE.authors[SITE.authors[route.id].supervisor].name}</a>.</p>
-		)}
 		<p class="lede">{route.description}</p>
 		{changelogHtml && <div class="changelog" set:html={changelogHtml} />}
 		{route.posts.length > 0 ? <PostList posts={route.posts} lang={route.lang} /> : route.kind !== 'changelog' && <p>{route.lang === 'de' ? 'Hier ist noch nichts erschienen.' : 'Nothing published here yet.'}</p>}

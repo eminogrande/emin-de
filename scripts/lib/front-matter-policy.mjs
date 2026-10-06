@@ -36,4 +36,14 @@ export function applyNoGate(raw) {
 	return `---\n${fm}\n---${m[2]}`;
 }
 
+// Honest bylines: AI-generated text is published under the AI desk, never under
+// a human byline (the voice rewrites set author: emin on ai_generated posts).
+export function applyBylinePolicy(raw) {
+	const m = raw.match(/^---\n([\s\S]*?)\n---(\n?[\s\S]*)$/);
+	if (!m) return raw;
+	let fm = m[1];
+	if (getKey(fm, 'provenance') === 'ai_generated' && getKey(fm, 'author') === 'emin') fm = setKey(fm, 'author', '"ai-desk"');
+	return `---\n${fm}\n---${m[2]}`;
+}
+
 export { getKey };

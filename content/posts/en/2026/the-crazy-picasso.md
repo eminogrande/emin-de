@@ -1,6 +1,6 @@
 ---
 title: "The Crazy Picasso"
-description: "The life of Pablo Picasso presents a jarring paradox: a man of unprecedented creative output and financial success who was, by many accounts, a \"monster of..."
+description: "A summary of a video on Paul Johnson's essay about Picasso, his cruelty to women and his family, and his huge output and wealth."
 date: "2026-02-15T14:00:01Z"
 updated: "2026-02-15T14:00:01Z"
 lang: "en"
@@ -17,40 +17,28 @@ voice_check:
   em_dash: 2
   unobserved: 150
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-crazy-picasso/"
 ---
-The life of Pablo Picasso presents a jarring paradox: a man of unprecedented creative output and financial success who was, by many accounts, a "monster of assured egoism."
+This is a summary of a video that goes through Paul Johnson's essay on Pablo Picasso, and the video is linked at the bottom. Picasso's life is a hard paradox. He was a man with a creative output and a financial success like nobody before him, and by many accounts he was also a "monster of assured egoism". Based on the video's analysis of the essay, here is a ranking of the "bad and crazy" facts about him, going from his most disturbing behavior to his most impressive achievements.
 
-Based on the video's analysis of Paul Johnson’s essay, here is a ranking of the "bad and crazy" facts about Pablo Picasso, ordered from his most disturbing/negative behaviors to his most impressive/positive achievements.
+## The most negative and disturbing behavior
 
-## The Most Negative & Disturbing Behaviors
+Picasso reportedly beat his most gifted mistress and left her unconscious on the floor. He took pleasure in hurting women and made situations on purpose where his mistresses would confront each other, and once he watched two of them fight physically on the floor while he calmly kept painting. He said openly that for him women were either "goddesses or doormats", and his own goal was to turn a "goddess" into a "doormat", step by step. He stole the wives of his friends and then told the husband he was "honoring" him by choosing to sleep with her. Johnson describes him as missing the basic human ability to tell right from wrong or truth from lies, and as seeing kindness and generosity as weaknesses to exploit. And his cruelty left a dark mark on his family. After his death his widow killed herself by shooting herself, and his eldest son died of alcoholism.
 
-- **Physical Violence:** Picasso’s most gifted mistress was reportedly beaten by him and left unconscious on the floor.
-- **Psychological Sadism:** He took pleasure in hurting women and would intentionally create situations where his mistresses would confront each other. He once watched two of them fight physically on the floor while he calmly continued to paint.
-- **The "Goddess to Doormat" Philosophy:** He explicitly stated that for him, women were either "goddesses or doormats," and his personal goal was to systematically transform a "goddess" into a "doormat".
-- **Sociopathic Betrayal:** He would steal his friends' wives and then tell the husband that he was "honoring" him by choosing to sleep with her.
-- **Lack of Moral Compass:** The author describes Picasso as lacking the basic human ability to distinguish between right and wrong or truth and falsehood, viewing kindness and generosity as mere weaknesses to be exploited.
-- **A Tragic Family Legacy:** His personal cruelty left a dark mark on his family; after his death, his widow committed suicide by shooting herself, and his eldest son died of alcoholism.
+## The crazy and arrogant side
 
-## The "Crazy" & Arrogant Traits
+People often heard him repeat "I am God, I am God" to himself. And even with all his fame he would admit now and then, "I am nothing but a clown", which suggests he sometimes felt his huge success was a "con".
 
-- **God Complex:** He was frequently overheard repeating the phrase "I am God, I am God" to himself.
-- **Imposter Syndrome or Self-Awareness:** Despite his fame, he would periodically admit, "I am nothing but a clown," suggesting he occasionally felt his massive success was a "con".
+## The impressive side, genius and wealth
 
-## The "Impressive" (Positive) Feats of Genius & Wealth
+Between the ages of 20 and 91 Picasso made on average one new piece of art every single day, and over 71 years that adds up to 26,075 published works. He was a master of marketing who "always knew what would sell". He was a millionaire by 1914 and died as the richest artist in history. His enormous selfishness destroyed his personal life, but it also gave him a level of focus that helped him change the visual experience of the 20th century.
 
-- **Superhuman Productivity:** Between the ages of 20 and 91, Picasso averaged one new piece of artwork every single day. Over 71 years, he produced a staggering **26,075** published works.
-- **Unparalleled Financial Success:** He was a master of marketing who "always knew what would sell." He became a millionaire by **1914** and died as the wealthiest artist in history.
-- **Pure Focus:** While his monumental selfishness destroyed his personal life, it provided him with an all-inspiring level of focus that helped him revolutionize the visual experience of the 20th century.
+## A few more things worth knowing
 
-## A few more facts (worth knowing)
+Picasso changed his style again and again and broke his own rules, and that's part of why he stayed on top of culture for decades. He treated making work like a compulsion, and for him creating was closer to breathing than to "inspiration". He built his persona as carefully as he made his paintings, because he understood fame as a medium. He also kept everything, a huge amount of work and material, and that made his place in history stronger and later fed a huge estate. And the same traits that made him unstoppable in art made him brutal in relationships.
 
-- **Constant reinvention:** Picasso repeatedly changed styles and broke his own rules—part of why he stayed culturally dominant for decades.
-- **Work ethic as a weapon:** He treated output like a compulsion; for him, creating was closer to breathing than to "inspiration."
-- **Relentless self-mythmaking:** He cultivated a persona as carefully as he made paintings—he understood fame as a medium.
-- **He kept everything:** Picasso saved vast amounts of work and material, which helped cement his historical footprint (and later fueled a huge estate).
-- **Public genius, private wreckage:** The same traits that made him unstoppable in art made him brutal in relationships.
-
-> **Source:** https://www.youtube.com/watch?v=9_QO_zYjvro
+The source video is https://www.youtube.com/watch?v=9_QO_zYjvro
 
 ![IMG_8872](../../../media/the-crazy-picasso/IMG_8872.jpeg)

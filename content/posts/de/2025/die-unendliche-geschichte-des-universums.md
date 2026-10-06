@@ -1,6 +1,6 @@
 ---
 title: "Die unendliche Geschichte des Universums"
-description: "Ein philosophisch-mathematisches Gedankenexperiment"
+description: "Ein Gedankenexperiment darüber, dass der Anfang des Universums wie Pi eine Asymptote ist und Schwarze Löcher die Materie in einem ewigen Kreislauf recyceln."
 date: "2025-12-08T20:15:01Z"
 updated: "2025-12-08T20:15:01Z"
 lang: "de"
@@ -14,140 +14,103 @@ source: "emino.app"
 third_party_summary: false
 cover: "../../../media/die-unendliche-geschichte-des-universums/cover.webp"
 voice_check:
-  em_dash: 5
+  em_dash: 0
   unobserved: 287
-emin_check_pct: null
+emin_check_pct: 51
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/die-unendliche-geschichte-des-universums/"
 ---
 ![](../../../media/die-unendliche-geschichte-des-universums/cover.jpg)
 
-<p>Die unendliche Geschichte des Universums</p>
+Das hier ist ein Gedankenexperiment zwischen Philosophie und Mathematik und ich stelle darin den Urknall als festen Startpunkt in Frage.
 
-<p>Ein philosophisch-mathematisches Gedankenexperiment</p>
+Ich glaube dass der Anfang des Universums mathematisch so etwas wie eine Asymptote ist, so ähnlich wie die Zahl Pi, und dass wir ihn auch nie erreichen können.
 
-<p>
-</p>
+Das Universum wäre dann ein ewiger Kreislauf in dem die Schwarzen Löcher die Materie recyceln und als Strahlung wieder ausstoßen. Und das ist auch sehr nah an dem was wir in modernen Theorien wie dem Big Bounce oder der Konformen Zyklischen Kosmologie haben.
 
-<p>TL;DR (Zusammenfassung)</p>
+Ich will mir mit diesem Gedankenexperiment den Ursprung und den Lebenskreislauf des Universums mal mit einem neuen Blick anschauen und die Dogmen weglassen die wir alle so akzeptiert haben.
 
-<p>Dieses Gedankenexperiment hinterfragt den Urknall als festen Startpunkt. Stattdessen wird vorgeschlagen, dass der "Anfang" des Universums mathematisch einer Asymptote gleicht (ähnlich der Zahl Pi), die man nie erreichen kann. Das Universum basiert demnach auf einem ewigen Kreislauf, in dem Schwarze Löcher Materie recyceln und als Strahlung wieder emittieren – ein Prozess, der Parallelen zu modernen Theorien wie dem "Big Bounce" oder der "Konformen Zyklischen Kosmologie" aufweist.</p>
+Ich suche also Thesen die auf mathematischer Logik aufbauen und auf Problemen die wir auch wirklich beobachten können.
 
-<p>1. Prämisse: Die Suche nach dem Nullpunkt</p>
+Wenn wir uns den Urknall anschauen dann haben wir ein großes Problem. Wie kann aus dem Nichts oder aus einem einzigen Punkt alles entstehen?
 
-<p>Dieses Gedankenexperiment ist der Versuch, den Ursprung und den Lebenskreislauf des Universums nicht durch akzeptierte Dogmen, sondern durch eine neue Linse zu betrachten. Es ist eine Suche nach Thesen, die auf mathematischer Logik und beobachtbaren Problemen basieren.</p>
+Ich will das nicht einfach so hinnehmen und ich habe die These dass unsere Vorstellung von einem absoluten Anfang geometrisch und mathematisch falsch ist.
 
-<p>Wenn wir den Urknall betrachten, stoßen wir auf ein fundamentales Problem: Wie kann aus dem "Nichts" oder einem einzigen Punkt "Alles" entstehen? Anstatt dies als gegeben hinzunehmen, stelle ich die These auf, dass unsere Vorstellung eines absoluten Anfangs geometrisch und mathematisch fehlerhaft ist.</p>
+Ich habe dazu 3 Thesen und die erste ist das Pi Prinzip und die Asymptote der Zeit.
 
-<p>2. Die Thesen</p>
+Wir sehen den Ursprung oft als einen Punkt und wir nennen das dann Singularität. Ich würde vorschlagen dass wir ihn uns eher als eine komplexe geometrische Unmöglichkeit vorstellen, so wie die Kreiszahl Pi.
 
-<p>These I: Das Pi-Prinzip und die Asymptote der Zeit</p>
+Pi ist eine irrationale und unendliche Zahl. Wir können ihren Wert immer genauer berechnen und wir kommen trotzdem nie an ein Ende.
 
-<p>Wir betrachten den Ursprung oft als einen Punkt (Singularität). Ich schlage vor, ihn stattdessen als eine komplexe geometrische Unmöglichkeit zu sehen, analog zur Kreiszahl Pi (\pi).</p>
+Wenn wir die Geschichte des Universums zurückverfolgen dann bewegen wir uns auf einer Zeitachse die so ist wie die Berechnung von Pi.
 
-<p>• Das mathematische Problem: Pi ist eine irrationale, unendliche Zahl. Wir können ihren Wert immer präziser berechnen, aber wir erreichen niemals ein Ende.</p>
+Wir können unendlich lange in die Vergangenheit reisen und wir kommen dem Urknall immer näher und immer näher, und den exakten Zeitpunkt t=0 erreichen wir trotzdem nie.
 
-<p>• Die Anwendung auf die Zeit: Wenn wir die Geschichte des Universums zurückverfolgen, bewegen wir uns auf einer Zeitachse, die sich verhält wie die Berechnung von Pi. Wir können unendlich lange in die Vergangenheit reisen und dem Urknall immer näher kommen ("closer and closer"), aber wir erreichen niemals den exakten Zeitstempel t=0.</p>
+Der Anfang ist also eher eine Asymptote und nicht ein Ort an dem wir ankommen können. Wir können die Zeitachse so unendlich teilen wie die Nachkommastellen von Pi und deshalb gab es auch keinen festen Startmoment.
 
-<p>• Schlussfolgerung: Der Anfang ist kein erreichbarer Ort, sondern eine Asymptote. Da die Zeitachse unendlich teilbar ist (wie die Nachkommastellen von Pi), gab es keinen statischen Startmoment. Der "Anfang" entzieht sich uns mathematisch, je näher wir ihm kommen.</p>
+Und je näher wir dem Anfang kommen desto mehr entzieht er sich uns mathematisch.
 
-<p>These II: Die Kompression und der Strahlungsmotor</p>
+Die zweite These ist die Kompression und der Strahlungsmotor. Wenn wir in der Zeit zurückgehen dann sehen wir dass die Materie immer dichter wird, und in der klassischen Physik haben wir dann eine Singularität.
 
-<p>Wenn wir in der Zeit zurückgehen, beobachten wir eine zunehmende Dichte der Materie. In der klassischen Physik führt dies zu einer Singularität. In diesem Gedankenexperiment betrachten wir diesen Zustand jedoch funktional:</p>
+In meinem Gedankenexperiment schauen wir uns das aber mal funktional an. Der Kern des frühen Universums ist so wie ein Schwarzes Loch und das ist ein Ort mit unendlicher Dichte.
 
-<p>• Der Kern des frühen Universums verhält sich wie ein Schwarzes Loch – ein Ort unendlicher Dichte.</p>
+Das steht aber auch nie still, weil der Prozess so unendlich ist wie in der ersten These, und so ist das Zentrum wie ein Emitter der die ganze Zeit strahlt.
 
-<p>• Doch dieses Objekt ist nicht statisch. Aufgrund der Unendlichkeit des Prozesses (siehe These I) wirkt dieses Zentrum als permanenter Emitter.</p>
+Das was wir als Expansion des Universums sehen ist die Strahlung die die ganze Zeit aus diesem Zentrum entweicht, das so stark komprimiert ist. Wir leben also sozusagen im Auswurf von diesem Ereignis.
 
-<p>• Das, was wir als Expansion des Universums wahrnehmen, ist die kontinuierliche Strahlung, die aus diesem zentralen, hochkomprimierten Zustand entweicht. Wir leben quasi im "Auswurf" dieses Ereignisses.</p>
+Die dritte These ist der kosmische Kreislauf. Die Schwarzen Löcher die wir heute auch wirklich beobachten saugen Materie und Licht in ihren Ereignishorizont, und die Frage ist dann wo diese Information hin verschwindet.
 
-<p>These III: Der kosmische Kreislauf</p>
+Meine These ist dass das Universum ein geschlossener Kreislauf ist.
 
-<p>Betrachten wir die Schwarzen Löcher, die wir heute real beobachten. Sie saugen Materie und Licht in ihren Ereignishorizont. Wohin verschwindet diese Information?</p>
+Die Schwarzen Löcher sind so etwas wie Recyclingstationen. Sie komprimieren die Materie des alten Universums und dann stoßen sie das wieder als neue Raumzeit oder als Strahlung aus, vielleicht auch in einer anderen Form oder in einer anderen Dimension.
 
-<p>• Meine These ist, dass das Universum ein geschlossener Kreislauf ist.</p>
+Das Universum wäre dann eher eine ewige Transformation und kein linearer Prozess vom Start bis zum Ende.
 
-<p>• Schwarze Löcher fungieren als Recycling-Stationen: Sie komprimieren die Materie des alten Universums und emittieren sie – möglicherweise in einer anderen Form oder Dimension – wieder als neue Raumzeit oder Strahlung.</p>
+So abstrakt das auch klingt, das Gedankenexperiment passt erstaunlich genau zu den echten Problemen in der Physik und zu den modernen Lösungen die es dafür gibt, und ich sehe da 4 Punkte.
 
-<p>• Das Universum ist somit kein linearer Prozess (Start \rightarrow Ende), sondern ein ewiger Transformationsprozess.</p>
+Das erste ist das Singularitätsproblem. Wenn wir einen Punkt mit unendlicher Dichte haben wie beim klassischen Urknall dann brechen die physikalischen Gleichungen zusammen, und meine Pi These zeigt eben diese mathematische Unmöglichkeit.
 
-<p>3. Validierung: Abgleich mit Fakten und Theorien</p>
+Das zweite ist der Big Bounce, also der Große Rückprall. Theorien wie die Schleifenquantengravitation sagen dass das Universum gar nicht bei Null angefangen hat und dass es aus einem Kollaps davor abgeprallt ist.
 
-<p>Dieses Gedankenexperiment, so abstrakt es klingen mag, korreliert erstaunlich präzise mit realen Problemen der Physik und modernen Lösungsansätzen.</p>
+Und das passt auch zu der Idee dass es keinen absoluten Startpunkt gab.
 
-<p>1. Das Singularitäts-Problem: Ein Punkt mit unendlicher Dichte (klassischer Urknall) lässt physikalische Gleichungen zusammenbrechen. Meine "Pi-These" spiegelt genau diese mathematische Unmöglichkeit wider.</p>
+Das dritte sind die Weißen Löcher, die White Holes. Das ist ein theoretisches Gegenstück zum Schwarzen Loch das die Materie ausstößt.
 
-<p>2. Big Bounce (Großer Rückprall): Theorien wie die Schleifenquantengravitation legen nahe, dass das Universum nicht bei Null begann, sondern aus einem vorherigen Kollaps "abprallte". Dies stützt die Idee, dass es keinen absoluten Startpunkt gab.</p>
+Einige Physiker vermuten dass der Urknall selbst ein Weißes Loch war, und das ist so ziemlich meine These vom Strahlungsmotor.
 
-<p>3. Weiße Löcher (White Holes): Ein theoretisches Gegenstück zum Schwarzen Loch, das Materie ausstößt. Einige Physiker vermuten, der Urknall selbst sei ein Weißes Loch gewesen – exakt wie meine These des "Strahlungsmotors".</p>
+Das vierte ist die Konforme Zyklische Kosmologie, kurz CCC. Sir Roger Penrose geht von unendlich vielen kosmischen Zyklen aus und er nennt die Äonen.
 
-<p>4. Konforme Zyklische Kosmologie (CCC): Sir Roger Penrose postuliert unendliche kosmische Zyklen ("Äonen"). Das Ende des einen Universums wird zum Urknall des nächsten, was meiner Idee des "kosmischen Kreislaufs" entspricht.</p>
+Das Ende von einem Universum wird da zum Urknall vom nächsten, und das passt sehr gut zu meiner Idee vom kosmischen Kreislauf.
 
-<p>4. Fazit</p>
+Ich glaube also dass die Intuition stimmt dass ein Start aus einem Punkt unlogisch ist, und wenn wir das prüfen dann hält das auch.
 
-<p>Zusammenfassend lässt sich sagen: Die Intuition, dass ein "Punkt-Start" unlogisch ist, hält der Überprüfung stand. Wenn wir das Universum durch die Mathematik der Unendlichkeit (Pi) und die Mechanik der Schwarzen Löcher betrachten, ergibt sich das Bild eines ewigen, atmenden Systems. Wir sind nicht das Ergebnis eines einmaligen Wunders, sondern Teil einer unendlichen Geschichte der Transformation.</p>
+Wenn wir uns das Universum mit der Mathematik der Unendlichkeit anschauen, also mit Pi, und mit der Mechanik der Schwarzen Löcher, dann sehen wir ein ewiges System das atmet.
 
-<p>The Infinite Story of the Universe</p>
+Wir sind dann auch eher ein Teil von einer unendlichen Geschichte der Transformation und weniger das Ergebnis von einem einmaligen Wunder.
 
-<p>A Philosophical-Mathematical Thought Experiment</p>
+The Infinite Story of the Universe, a philosophical and mathematical thought experiment by Emin Henri Mahrt, December 8, 2025.
 
-<p>Author: Emin Henri Mahrt</p>
+This thought experiment questions the Big Bang as a fixed starting point. I think the beginning of the universe is mathematically like an asymptote, a bit like the number Pi, and you can never reach it. So the universe is an eternal cycle where black holes recycle matter and send it out again as radiation, and that is very close to modern theories like the Big Bounce or Conformal Cyclic Cosmology.
 
-<p>Date: December 8, 2025</p>
+I want to look at the origin and the lifecycle of the universe with a new lens and not just take the dogmas everybody already accepted. I'm looking for theses that build on mathematical logic and on problems we can actually observe.
 
-<p>TL;DR (Summary)</p>
+When we look at the Big Bang we run into a big problem. How can everything come out of nothing or out of a single point? I don't just accept that, and I think our idea of an absolute beginning is geometrically and mathematically flawed.
 
-<p>This thought experiment questions the Big Bang as a fixed starting point. Instead, it proposes that the "beginning" of the universe is mathematically akin to an asymptote (similar to the number Pi) that can never be reached. The universe is thus based on an eternal cycle where black holes recycle matter and re-emit it as radiation—a process that parallels modern theories such as the "Big Bounce" or "Conformal Cyclic Cosmology."</p>
+I have 3 theses and the first one is the Pi principle and the asymptote of time. We often see the origin as a point and call it a singularity. I propose we see it as a complex geometric impossibility, like the number Pi. Pi is an irrational and infinite number and we can calculate it more and more precisely, but we never get to an end. If we trace the history of the universe back, we move along a timeline that behaves just like the calculation of Pi. We can travel infinitely far into the past and get closer and closer to the Big Bang, but we never reach the exact timestamp t=0. So the beginning is not a place you can get to, it's an asymptote. The timeline is infinitely divisible like the digits of Pi, so there was no static starting moment, and the closer we get to the beginning the more it slips away from us.
 
-<p>1. Premise: The Search for Zero Point</p>
+Thesis 2 is compression and the radiation engine. When we go back in time we see matter getting denser and denser, and in classical physics that leads to a singularity. In this thought experiment we look at that state in a functional way. The core of the early universe behaves like a black hole, a place of infinite density. But this object is not static, because the process is infinite like in Thesis 1, and so the center acts as a permanent emitter. What we see as the expansion of the universe is the radiation that keeps escaping from this central and highly compressed state, and we live, kind of, in the emission of this event.
 
-<p>This thought experiment attempts to view the origin and lifecycle of the universe not through accepted dogmas, but through a new lens. It is a search for theses based on mathematical logic and observable problems.</p>
+Thesis 3 is the cosmic cycle. The black holes we observe today suck matter and light into their event horizon, and the question is where this information goes. My thesis is that the universe is a closed loop. Black holes are like recycling stations, they compress the matter of the old universe and send it out again as new spacetime or radiation, maybe in another form or another dimension. So the universe is not a linear process from start to end, it's an eternal process of transformation.
 
-<p>When we look at the Big Bang, we encounter a fundamental problem: How can "Everything" arise from "Nothing" or a single point? Instead of accepting this as a given, I posit that our conception of an absolute beginning is geometrically and mathematically flawed.</p>
+As abstract as it sounds, this thought experiment fits surprisingly well with real problems in physics and with modern answers to them, and I see 4 points.
 
-<p>2. The Theses</p>
+The first is the singularity problem. A point of infinite density like in the classical Big Bang makes the physical equations break down, and my Pi thesis shows exactly this mathematical impossibility.
 
-<p>Thesis I: The Pi Principle and the Asymptote of Time</p>
+The second is the Big Bounce. Theories like Loop Quantum Gravity say the universe did not start at zero but bounced out of a collapse before it, and that supports the idea that there was no absolute starting point.
 
-<p>We often view the origin as a point (singularity). I propose seeing it instead as a complex geometric impossibility, analogous to the number Pi (\pi).</p>
+The third is white holes. A white hole is a theoretical counterpart to the black hole that pushes matter out, and some physicists think the Big Bang itself was a white hole, and that is exactly my radiation engine thesis.
 
-<p>• The Mathematical Problem: Pi is an irrational, infinite number. We can calculate its value with increasing precision, but we never reach an end.</p>
+The fourth is Conformal Cyclic Cosmology, CCC. Sir Roger Penrose says there are infinite cosmic cycles he calls aeons, and the end of one universe becomes the Big Bang of the next, and that matches my idea of the cosmic cycle.
 
-<p>• Application to Time: If we trace the history of the universe backward, we move along a timeline that behaves like the calculation of Pi. We can travel infinitely far into the past, getting "closer and closer" to the Big Bang, but we never reach the exact timestamp t=0.</p>
-
-<p>• Conclusion: The beginning is not a reachable location, but an asymptote. Since the timeline is infinitely divisible (like the digits of Pi), there was no static starting moment. The "beginning" mathematically eludes us the closer we get to it.</p>
-
-<p>Thesis II: Compression and the Radiation Engine</p>
-
-<p>As we go back in time, we observe an increasing density of matter. In classical physics, this leads to a singularity. In this thought experiment, however, we view this state functionally:</p>
-
-<p>• The core of the early universe behaves like a Black Hole—a place of infinite density.</p>
-
-<p>• But this object is not static. Due to the infinity of the process (see Thesis I), this center acts as a permanent emitter.</p>
-
-<p>• What we perceive as the expansion of the universe is the continuous radiation escaping from this central, highly compressed state. We live, in essence, in the "emission" of this event.</p>
-
-<p>Thesis III: The Cosmic Cycle</p>
-
-<p>Consider the black holes we observe today. They suck matter and light into their event horizon. Where does this information go?</p>
-
-<p>• My thesis is that the universe is a closed loop (a cycle).</p>
-
-<p>• Black holes function as recycling stations: They compress the matter of the old universe and re-emit it—possibly in another form or dimension—as new spacetime or radiation.</p>
-
-<p>• The universe is thus not a linear process (Start \rightarrow End), but an eternal process of transformation.</p>
-
-<p>3. Validation: Alignment with Facts and Theories</p>
-
-<p>This thought experiment, abstract as it may sound, correlates surprisingly precisely with real problems in physics and modern solutions.</p>
-
-<p>1. The Singularity Problem: A point of infinite density (classical Big Bang) causes physical equations to break down. My "Pi Thesis" reflects exactly this mathematical impossibility.</p>
-
-<p>2. Big Bounce: Theories like Loop Quantum Gravity suggest that the universe did not start at zero, but "bounced" from a previous collapse. This supports the idea that there was no absolute starting point.</p>
-
-<p>3. White Holes: A theoretical counterpart to the black hole that ejects matter. Some physicists suspect the Big Bang itself was a White Hole—exactly like my "Radiation Engine" thesis.</p>
-
-<p>4. Conformal Cyclic Cosmology (CCC): Sir Roger Penrose postulates infinite cosmic cycles ("Aeons"). The end of one universe becomes the Big Bang of the next, which corresponds to my idea of the "cosmic cycle."</p>
-
-<p>4. Conclusion</p>
-
-<p>In summary: The intuition that a "point-start" is illogical withstands scrutiny. When we view the universe through the mathematics of infinity (Pi) and the mechanics of black holes, a picture emerges of an eternal, breathing system. We are not the result of a one-time miracle, but part of an infinite story of transformation.</p>
+So I think the intuition that a start from one point is illogical holds up. When we look at the universe through the mathematics of infinity, so Pi, and through the mechanics of black holes, we get the picture of an eternal system that breathes. We are not the result of a one-time miracle, we are part of an infinite story of transformation.

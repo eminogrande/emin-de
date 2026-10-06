@@ -1,6 +1,6 @@
 ---
-title: "If I Had to Pick One Age When Kids Become Liars: Four"
-description: "https://youtu.be/bcu9MpjV3yE"
+title: "If I had to pick one age when kids become liars, it's four"
+description: "Kids lie before 4, and they get better at it after. But around 4 lying turns into a real, deliberate tool. Here is the research behind that."
 date: "2026-01-12T11:05:01Z"
 updated: "2026-01-12T11:05:01Z"
 lang: "en"
@@ -17,337 +17,135 @@ voice_check:
   em_dash: 30
   unobserved: 323
 emin_check_pct: null
-original_url: "https://emino.app/posts/if-i-had-to-pick-one-age-when-kids-become-liars-four/"
----
----
-title: "If I Had to Pick One Age When Kids Become Liars: Four"
-date: 2026-01-12
-description: "A numbers-first argument that the biggest developmental
-switch into deliberate deception happens around age 4."
 tags: ["psychology", "child-development", "lying", "theory-of-mind"]
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
+original_url: "https://emino.app/posts/if-i-had-to-pick-one-age-when-kids-become-liars-four/"
 ---
 
 https://youtu.be/bcu9MpjV3yE
 
-> **Thesis:** If you force me to pick a single “switch” age when *lying becomes a stable, intentional tool* (not just noise, mistakes, or wishful answering), I pick **4 years old**.
+If you force me to pick one single age where lying becomes a stable, deliberate tool, and not just noise, mistakes or wishful answers, I pick 4 years old.
 
-That sentence sounds like a moral diagnosis. It isn’t.
+That sounds like a moral judgement about kids. It isn't.
 
-This post is about a cognitive milestone: the moment children start
-treating *your mind* as something separate from *their mind*—a private
-“universe” with its own contents that can be **influenced**,
-**misled**, and sometimes **exploited**.
+This is about a step in how kids think. It's the moment a child starts to treat your mind as something separate from their own mind. A private universe with its own contents, and those contents can be changed, misled and sometimes used.
 
-A child who can lie is not automatically “bad.” A child who *cannot*
-lie is not automatically “good.” Lying is better understood as a
-**social-technology** that becomes possible once two pieces of
-machinery start working together:
+A child who can lie is not automatically bad. And a child who can't lie is not automatically good. It makes more sense to see lying as a social tool that becomes possible once two things in the head start to work together. The first is theory of mind (ToM), so knowing what someone else believes, even when it's wrong. The second is executive function (EF), so holding back the truth, keeping the story in working memory and not letting it slip out.
 
-1. **Theory of mind** (ToM): tracking what someone else believes (even
-when it’s wrong).
-2. **Executive function** (EF): inhibiting the truth, holding the
-story in working memory, and controlling “leakage.”
+The hard part is that neither of these grows overnight. So why pick four?
 
-The hard part is that neither of these develops overnight. So why pick *four*?
+Because around 4 a lot of different research comes to the same practical point. Kids start to understand false beliefs in a reliable way, self-protective lies become common in the classic lab tests, and the ability to tell a lie and then keep it straight starts to show up as a difference between kids, and that difference is tied to ToM and EF.
 
-Because **around 4**, multiple research lines converge on the same
-practical claim:
+Below is the evidence that makes four the best answer if you have to give one number, even though in reality it's a slow, continuous change.
 
-- children’s **explicit false-belief understanding** becomes reliable,
-- **self-protective lies** in classic lab paradigms become common, and
-- the ability to tell a lie *and then keep it coherent* begins to show
-up as an individual difference tied to ToM and EF.
+A lot of confusion comes from calling everything that isn't true a lie.
 
-Below is the evidence that makes “four” the best single-number
-answer—even though reality is continuous.
+In developmental psychology lying usually means intentional verbal deception. Not mistakes, not misunderstandings, not fantasy play and not a random yes. One definition that gets cited a lot puts it very plainly. "Lying involves a speaker making a false statement with the intention to deceive the recepient." That's from Talwar and Lee, and the full text is open on PMC.
 
----
+So "I didn't break it" while the kid is holding the broken thing is a lie. "I have a dragon in my bedroom" while playing is not necessarily a lie. And saying no to every question isn't lying either. Very often that's just response bias, fear or confusion.
 
-## What counts as “lying” here (and what doesn’t)
+The key idea behind all this is that at some point a child gets that the other person has their own inner world.
 
-A big chunk of confusion comes from calling everything untrue a “lie.”
+To lie well the child has to keep three things in mind. What really happened, what you believe right now, and what you will believe after you hear their story.
 
-In developmental psychology, *lying* is usually defined as
-**intentional verbal deception**—not mistakes, misunderstandings,
-fantasy play, or random “yes” answers.
+That's why the false-belief test has been the main tool for measuring ToM. And when researchers argue about when ToM starts, they mostly argue about when kids pass false-belief tasks in a reliable way.
 
-One widely cited definition puts it bluntly:
+A classic meta-analysis by Wellman, Cross and Watson (2001) pulled the messy research together. In their words, "A meta-analysis was conducted (N = 178 separate studies) to address the empirical inconsistencies and theoretical controversies." And they found that performance follows a clear developmental pattern. Their model "yielded a multiple R of .74 and an R2 of .55; thus, the model accounts for 55% of the variance".
 
-> “Lying involves a speaker making a false statement with the intention to deceive the recepient.”
-> — Talwar & Lee (open-access full text on PMC)
+You don't have to think false-belief tasks are perfect to get the big message. Preschoolers go from failing these tasks again and again to passing them reliably. That shift is exactly the kind of other-universe upgrade that makes strategic lying possible.
 
-So, “I didn’t break it” while holding the broken thing is a lie.
-“I have a dragon in my bedroom” (while playing) is not necessarily a lie.
-And “No” to every question isn’t lying; it’s often just **response
-bias**, **fear**, or **confusion**.
+## The lab's lying trap
 
----
+Most of the cleanest data on kids and lying comes from a very simple setup. You tell the child not to peek at a toy while you leave the room. You leave them alone, and a lot of them peek. Then you come back and ask if they peeked. And you can ask some follow-up questions to test if they can keep the lie going without giving themselves away, which researchers call semantic leakage.
 
-## Why *minds* matter: the “other universe” problem
+It's called the temptation resistance paradigm (TRP).
 
-Your question gestures at the key idea: *at some point, a child
-realizes the other person has their own inner world.*
+In one open-access study of 150 children aged 3 to 8, Talwar and Lee report that "Overall, 82% of the children (123) peeked at the toy in the experimenter's absence". And of those who peeked, "Of the 123 children who peeked, 79 (64%) children lied about their transgression."
 
-To lie successfully, the child has to model:
+That is already a big point. Lying is common once the situation pushes a kid to protect themselves.
 
-- what *really* happened, **and**
-- what *you* currently believe, **and**
-- what *you will believe* after hearing their statement.
+But it still doesn't tell us the switch age. For that we look at the developmental model in the same paper.
 
-That’s why false-belief understanding has been the workhorse test for
-ToM. And when researchers argue about “when ToM emerges,” they often
-argue about when children reliably pass false-belief tasks.
+## Why I pick four
 
-A classic meta-analysis pulled together the messy literature:
+Talwar and Lee describe how lying develops in levels. What matters here is what they say happens between 3 and 4. "The second level, 'secondary lies', reflects a significant shift that takes place between 3 and 4 years of age."
 
-> “A meta-analysis was conducted (N = 178 separate studies) to address the empirical inconsistencies and theoretical controversies.”
-> — Wellman, Cross, & Watson (2001)
+And then they say the practical thing this whole question is about. "At and after 4 years of age, the majority of children will readily tell a lie to conceal their own transgression."
 
-and found that performance shows a consistent developmental pattern:
+That sentence is why four is the best single number.
 
-> “yielded a multiple R of .74 and an R2 of .55; thus, the model accounts for 55% of the variance”
-> — Wellman, Cross, & Watson (2001)
+Not because every 4-year-old lies all the time. But because before 4 lying exists, it's just less reliable, less strategic and the truth slips out more easily. After 4, lying to hide something you did wrong becomes the most common answer in these tests.
 
-You don’t have to treat false-belief tasks as perfect to accept the
-big message: preschoolers move from systematically failing these tasks
-to reliably passing them. That shift is exactly the kind of “other
-universe” upgrade that makes strategic lying possible.
+## Why not 2.5
 
----
+Parents often talk about first lies when kids are toddlers. Experiments see something like that too, but the pattern says it's not yet full deception where the kid really plays with what you believe.
 
-## The temptation-resistance paradigm: the lab’s “lying trap”
+A big longitudinal study by Białecka-Pikul et al. (2022) with N=252 tested 2.5-year-olds in a modified TRP. "Results showed that 35% of 2.5-year-olds peeked, 27% of peekers lied and 40% of non-peekers falsely confessed they had peeked."
 
-Most of the cleanest child-lying data comes from a deceptively simple setup:
+Look at how strange that is. 40% false confessions among the kids who didn't peek. That's not what grown-up deception looks like. It looks more like a mix of just going along, confusion and weak self-control.
 
-1. Tell the child **don’t peek** at a toy while you leave.
-2. Leave them alone (many peek).
-3. Ask: **“Did you peek?”**
-4. Optionally ask follow-ups that test whether they can maintain the
-lie (avoid “semantic leakage”).
+And the authors say it directly. "These results suggested that the first, or so-called primary, lies of 2.5-year-olds are probably spontaneous, rather than deliberate."
 
-It’s called the **temptation resistance paradigm (TRP)**.
+So if you pick 2.5, you risk calling noise a switch.
 
-In one open-access study of 150 children aged 3–8:
+There is a different step that comes later, and that's being able to keep a lie consistent when someone asks follow-up questions.
 
-> “Overall, 82% of the children (123) peeked at the toy in the experimenter’s absence”
-> — Talwar & Lee
+Talwar and Lee note that keeping a lie going is linked to higher-order belief understanding, so thinking about what someone thinks about someone else's beliefs. In other words, how good kids get at it keeps developing for years.
 
-and among the peekers:
+But if what you want is the first age where lying becomes a common, deliberate way to hide things, you don't need to wait for 7-8. Four is earlier and it catches the start of secondary lies.
 
-> “Of the 123 children who peeked, 79 (64%) children lied about their transgression.”
-> — Talwar & Lee
+If lying was only about theory of mind, we'd expect huge correlations. We don't see that.
 
-That’s already a key point: **lying is common once the situation
-pressures self-protection**.
+What we see are small but consistent links across thousands of kids. That's exactly what you'd expect if ToM is needed but not enough on its own.
 
-But it still doesn’t tell us *the switch age*. For that we look at the
-developmental model inside the same paper.
+A meta-analysis on lying and ToM by Lee and Imuta (2021) covers "81 studies involving 7,826 children between 2 and 14 years of age". They found "there was a small, significant positive association (r = .23)." And the link is strongest where you'd expect ToM to matter most. "ToM was positively related to all facets of lying, but most strongly linked to lie maintenance".
 
----
+A second meta-analysis by Sai et al. (2021) also looks at executive function. "In total, 47 papers consisting of 5099 participants between 2 and 19 years of age were included". And they found "Statistically significant but relatively small effects were found between children's lying and ToM (r = .17) and between lying and EF (r = .13)."
 
-## The reason I pick **four**: “secondary lies” start winning
+They also found something that fits the difference between being able to start lying and being good at it. "EF's correlation with children's initial lies was significantly smaller than its correlation with children's ability to maintain lies."
 
-Talwar & Lee summarize a developmental progression often described in levels.
+So around 4 the machinery comes online. After that kids differ in how good they are at it, and most of all at keeping a lie going.
 
-What matters here is their claim about an inflection between 3 and 4:
+## Does it stay?
 
-> “The second level, ‘secondary lies’, reflects a significant shift that takes place between 3 and 4 years of age.”
-> — Talwar & Lee
+Even if lying starts around preschool, there is a deeper question. When does it become stable behavior and not just a one-off?
 
-And they make the practical statement you were asking for:
+A short-term longitudinal paper by Wang, Gao and Shao (2024), open access, tested 104 preschoolers three times, 4 months apart. "we tested 104 normally developing children's (64 boys, M = 54.0 months) false belief understanding and lie-telling behaviors three times at 4-month intervals."
 
-> “At and after 4 years of age, the majority of children will readily tell a lie to conceal their own transgression.”
-> — Talwar & Lee
+They report that "Lie-telling behaviors exhibited moderate stability across the three time points".
 
-That sentence is why “four” is the best single-number answer.
+And this is important for the other-universe idea, because the prediction goes from ToM to lying and not the other way around. "Earlier false belief understanding significantly predicted children's later lie-telling behavior", but "earlier lie-telling did not predict later false beliefs understanding."
 
-Not because every 4-year-old lies all the time.
-But because *before* 4, lying exists—yet it’s less reliable, less
-strategic, and more vulnerable to “leakage.”
-After 4, *lying to conceal a misdeed becomes the modal response* in
-these paradigms.
+If you want to know when it stays, that kind of stability is the closest thing we have to a number. Once the behavior is common, so after 4, you can already measure that it's stable over months.
 
----
+If you follow lying into adult life, the story becomes less that everyone lies all the time and more that most people lie rarely and a few people lie a lot.
 
-## Why not pick 2.5? Because early “lies” look different
+A classic diary study by DePaulo et al. (1996) found that "77 college students reported telling 2 lies a day, and 70 community members told 1."
 
-Parents often report “first lies” around toddlerhood. Experiments see
-something related—but the pattern suggests it’s not yet full-strength,
-belief-manipulating deception.
+And a big UK survey by Serota and Levine (2014) sums up the newer long-tail view. "most people are honest most of the time and the majority of lies are told by a few prolific liars." They also state the sample clearly. "Participants (N = 2,980) were surveyed in the United Kingdom".
 
-A large longitudinal study (N=252) tested 2.5-year-olds in a modified
-TRP and found:
+So yes, lying stays as a human behavior. But it doesn't stay at the same rate for everyone.
 
-> “Results showed that 35% of 2.5-year-olds peeked, 27% of peekers lied and 40% of non-peekers falsely confessed they had peeked.”
-> — Białecka-Pikul et al. (2022)
+## So it's four
 
-Notice how weird that is: **40% false confessions** among non-peekers.
-That’s not a mature deception profile. It looks like a mix of
-compliance, confusion, or poor inhibitory control.
+If I have to choose one age, I choose 4 years old, and here is the argument in five steps.
 
-The authors’ interpretation is directly relevant:
+First, before 4 deception exists but it often looks like primary behavior. Toddlers deny things, go along with the question and falsely confess in ways that show they're not really playing with what you believe yet. With 2.5-year-olds, 27% of peekers lied and 40% of non-peekers falsely confessed.
 
-> “These results suggested that the first, or so-called primary, lies of 2.5-year-olds are probably spontaneous, rather than deliberate.”
-> — Białecka-Pikul et al. (2022)
+Second, around 4 deliberate lies to hide something become the main answer in the classic tests. Talwar and Lee describe a shift between 3 and 4 and say that at and after 4 the majority readily lie to hide a transgression.
 
-So if you pick 2.5, you risk calling “noise” a “switch.”
+Third, around 4 other minds become something a kid can actually work with. False-belief performance shows a real change in preschool in a big meta-analysis, and the meta-analyses show ToM is reliably linked to lying, even if the link is modest, and most of all to keeping a lie going.
 
----
+Fourth, after 4 context and incentives can swing honesty a lot. In 4-8-year-olds, changing the appeals and what kids expect as punishment moves lying rates from ~46% to ~87% in one dataset. So the behavior is now a strategic answer and not just developmental noise.
 
-## Why not pick 7–8? Because that’s about *skill*, not *onset*
+And fifth, after 4 you can already see stability over time. Short-term longitudinal evidence finds moderate stability in lie-telling across several time points and shows that ToM predicts later lying.
 
-There’s a different milestone later: the ability to keep the lie
-consistent under follow-up questioning.
+If you want one age that best captures the switch from truth by default to truth as a strategy, it's four.
 
-Talwar & Lee note that lie maintenance relates to higher-order belief
-understanding (thinking about what someone thinks about someone else’s
-beliefs). In other words: **sophistication** keeps developing.
+## The key studies as CSV
 
-But if your goal is the first age where lying becomes a common,
-deliberate concealment strategy, you don’t need to wait for 7–8. Four
-is earlier and captures the onset of *secondary lies*.
-
----
-
-## The “software update” view: ToM + EF predicts lying, but not strongly
-
-If lying were *only* theory-of-mind, we’d expect huge correlations. We
-don’t see that.
-
-What we see are small-but-consistent associations across thousands of
-children—exactly what you’d expect if ToM is necessary but not
-sufficient.
-
-A meta-analysis of lying and ToM (81 studies; 7,826 children) reports:
-
-> “81 studies involving 7,826 children between 2 and 14 years of age”
-> — Lee & Imuta (2021)
-
-and:
-
-> “there was a small, significant positive association (r = .23).”
-> — Lee & Imuta (2021)
-
-and importantly, the link is strongest where you’d expect ToM to matter most:
-
-> “ToM was positively related to all facets of lying, but most strongly linked to lie maintenance”
-> — Lee & Imuta (2021)
-
-A second meta-analysis that also includes executive function (47
-papers; 5,099 participants) finds:
-
-> “In total, 47 papers consisting of 5099 participants between 2 and 19 years of age were included”
-> — Sai et al. (2021)
-
-and:
-
-> “Statistically significant but relatively small effects were found between children’s lying and ToM (r = .17) and between lying and EF (r = .13).”
-> — Sai et al. (2021)
-
-Plus a nuance that supports the “skill vs onset” distinction:
-
-> “EF’s correlation with children’s initial lies was significantly smaller than its correlation with children’s ability to maintain lies.”
-> — Sai et al. (2021)
-
-So: around 4, the machinery is coming online. After that, children
-differ in *how good* they are—especially at maintaining a lie.
-
----
-
-## “Does it stay?” Short-term stability shows up fast
-
-Even if lying “begins” around preschool, you asked something deeper:
-when does it become a stable behavior rather than a one-off?
-
-A short-term longitudinal paper (open access) tested 104 preschoolers
-three times across 4-month intervals:
-
-> “we tested 104 normally developing children’s (64 boys, M = 54.0 months) false belief understanding and lie-telling behaviors three times at 4-month intervals.”
-> — Wang, Gao, & Shao (2024)
-
-They report:
-
-> “Lie-telling behaviors exhibited moderate stability across the three time points”
-> — Wang, Gao, & Shao (2024)
-
-And critically for the “other universe” theory, the direction of
-prediction runs from ToM to lying, not the other way:
-
-> “Earlier false belief understanding significantly predicted children’s later lie-telling behavior”
-> “earlier lie-telling did not predict later false beliefs understanding.”
-> — Wang, Gao, & Shao (2024)
-
-If you want “when it stays,” that kind of stability is the closest
-thing we have to a quantitative answer: once the behavior is common
-(post-4), it can already show measurable stability over months.
-
----
-
-## Lying doesn’t disappear in adulthood—but it becomes *unevenly distributed*
-
-If you follow lying into adult life, the story becomes less “everyone
-lies constantly” and more “most people lie rarely; a few people lie a
-lot.”
-
-A classic diary-study report:
-
-> “77 college students reported telling 2 lies a day, and 70 community members told 1.”
-> — DePaulo et al. (1996)
-
-And a large UK survey paper (N=2,980) summarizes the modern “long tail” view:
-
-> “most people are honest most of the time and the majority of lies are told by a few prolific liars.”
-> — Serota & Levine (2014)
-
-They also state the sample clearly:
-
-> “Participants (N = 2,980) were surveyed in the United Kingdom”
-> — Serota & Levine (2014)
-
-So yes: lying “stays” as a human behavior. But it doesn’t stay as a
-constant rate for everyone.
-
----
-
-## So: if I must choose one age, I choose **4 years old**
-
-Here’s the clean argument.
-
-### 1) Before 4, deception exists but often looks like “primary” behavior
-Toddlers show denial, compliance errors, and false confessions in ways
-that suggest limited deliberate belief-manipulation (e.g.,
-2.5-year-olds: 27% of peekers lied; 40% of non-peekers falsely
-confessed).
-
-### 2) Around 4, deliberate concealment lies become the dominant
-response in classic paradigms
-Talwar & Lee explicitly describe a shift between 3 and 4 and state
-that **at and after 4, the majority readily lie to conceal a
-transgression**.
-
-### 3) Around 4, “other minds” become tractable objects
-False-belief performance shows a preschool conceptual change in a
-large meta-analysis; meta-analyses show ToM is reliably (if modestly)
-associated with lying, especially lie maintenance.
-
-### 4) After 4, context and incentives can swing honesty dramatically
-In 4–8-year-olds, changing appeals and punishment expectations moves
-lying rates from ~46% to ~87% in one dataset—meaning the behavior is
-now a strategic response, not just developmental noise.
-
-### 5) After 4, you can already detect *stability* over time
-Short-term longitudinal evidence finds moderate stability in
-lie-telling across multiple time points and shows ToM predicts later
-lying.
-
-If you want a single age that best captures **“the switch from
-truth-by-default to truth-as-a-strategy”**, it’s **four**.
-
----
-
-## CSV: key studies behind the “age 4” claim
-
-Copy/paste this as a `.csv` file.
+You can copy this and save it as a `.csv` file.
 
 ```csv
 Study,Year,Design,N,Age range,Paradigm / Measures,Key quantitative
@@ -388,5 +186,6 @@ Serota Levine,"2014",Survey,"2,980",Adults,Self-reported daily lying
 prevalence,"Most people honest most of the time; majority of lies from
 a few 'prolific
 liars'",https://www.oakland.edu/Assets/upload/docs/News/2014/Serota-Levine-Prolific-Liars-2014.pdf
+```
 
 ![image](../../../media/if-i-had-to-pick-one-age-when-kids-become-liars-four/image.png)

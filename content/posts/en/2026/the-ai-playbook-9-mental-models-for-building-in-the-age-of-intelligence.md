@@ -1,6 +1,6 @@
 ---
 title: "The AI Playbook: 9 Mental Models for Building in the Age of Intelligence"
-description: "The AI Playbook: 9 Mental Models for Building in the Age of Intelligence https://www.youtube.com/watch?v=7xTGNNLPyMI"
+description: "A summary of Andrej Karpathy's 3.5 hour talk on large language models, and 9 things founders can take from it."
 date: "2026-01-02T11:50:01Z"
 updated: "2026-01-02T11:50:01Z"
 lang: "en"
@@ -17,147 +17,76 @@ voice_check:
   em_dash: 2
   unobserved: 120
 emin_check_pct: null
+voice_rewrite: "v1"
+review_status: "draft-emin-voice"
 original_url: "https://emino.app/posts/the-ai-playbook-9-mental-models-for-building-in-the-age-of-i/"
 ---
+A summary of Andrej Karpathy's talk on large language models, https://www.youtube.com/watch?v=7xTGNNLPyMI
+
 ![](../../../media/the-ai-playbook-9-mental-models-for-building-in-the-age-of-intelligence/cover.jpg)
 
-The AI Playbook: 9 Mental Models for Building in the Age of Intelligence
-https://www.youtube.com/watch?v=7xTGNNLPyMI
+Andrej Karpathy was a founding member of OpenAI and Director of AI at Tesla, and people call him the "Teacher of the AI Revolution". He put out a 3.5 hour "State of the Union" on large language models. If you build a startup today, he says you can't ignore this, it's the new electricity.
 
-This is not your typical founder story. This is a masterclass from the
-"Teacher of the AI Revolution."
+Most people treat AI like magic. Karpathy treats it like a machine that tumbles out tokens by chance. And that changes a lot about how you build.
 
-Andrej Karpathy (founding member of OpenAI, former Director of AI at
-Tesla) just dropped a 3.5-hour "State of the Union" on Large Language
-Models. If you are building a startup today, you cannot afford to
-ignore this. This is the new electricity.
+These are the 9 things founders can take from it, for building on top of something that is still moving.
 
-Most people treat AI like magic. Karpathy treats it like a stochastic
-token tumbling machine. And that distinction changes everything about
-how you build.
+Number one is that the base model simulates the internet and doesn't know the truth. Founders often think the AI knows everything. It doesn't. It is the internet, compressed.
 
-Here are the 9 key takeaways for founders building on top of this
-shifting tectonic plate.
+Karpathy explains that the base model, the raw neural net, just tries to guess the next word of some random internet document. It isn't trying to help you. It tries to simulate a Reddit thread or a Wikipedia article [43:35].
 
-1. The "Base Model" is an Internet Simulator, Not a Truth Machine
+What it means for founders is that the raw model is not your product. The product is what you build on top of the simulator so that it becomes useful.
 
-Founders often mistake the AI for a "know-it-all." It’s not. It is a
-compression of the internet.
+Number two is that fine-tuning is just roleplay. How do you turn a wild internet simulator into ChatGPT? With supervised fine-tuning (SFT). You pay people to write questions and answers, and the AI learns to copy them [01:03:00].
 
-Karpathy explains that the "Base Model" (the raw neural net) is just
-trying to predict the next word of a random internet document. It
-isn't trying to be helpful; it's trying to simulate a Reddit thread or
-a Wikipedia article [43:35].
+So when you talk to ChatGPT, you don't talk to a brain made of silicon. You talk to a statistical simulation of a human data labeler [01:17:49].
 
-Takeaway: Don't trust the raw model to be your product. The "product"
-is what you build on top of the simulator to constrain it into being
-useful.
+What it means for founders is that fine-tuning alone gives your startup a ceiling, and that ceiling is human level. You never get better than your labelers.
 
-2. Fine-Tuning is Just "Roleplay"
+Number three is reinforcement learning, the AlphaGo moment. This is where the frontier is. To get beyond what humans can do, like DeepSeek R1 or OpenAI o1, you need reinforcement learning (RL).
 
-How do you turn a wild internet simulator into ChatGPT? You use
-Supervised Fine-Tuning (SFT). You hire humans to write questions and
-answers, and the AI learns to imitate them [01:03:00].
+Karpathy compares it to AlphaGo [02:42:20]. If you only train on games humans played, you stop at human skill. But if you let the AI play against itself and reward the wins, it finds "Move 37", moves no human would ever think of [02:45:32].
 
-When you talk to ChatGPT, you aren't talking to a silicon brain; you
-are talking to a statistical simulation of a human data labeler
-[01:17:49].
+What it means for founders is that the startups worth the most won't just copy humans. They build gyms, environments where the AI can practice and get smarter than us.
 
-Takeaway: If you rely solely on fine-tuning, your startup hits a
-ceiling: human performance. You can never exceed the quality of your
-labelers.
+Number four is the Swiss cheese problem. For founders this is the sharpest edge. LLMs have "Jagged Frontiers".
 
-3. Reinforcement Learning (RL) is the "AlphaGo" Moment
+They solve physics problems on PhD level, and then tell you with full confidence that 9.11 is bigger than 9.9 [02:05:40]. Why? Because to the token predictor 9.11 looks like a Bible verse or a date.
 
-This is the frontier. To go beyond human capability (like DeepSeek R1
-or OpenAI o1), you need Reinforcement Learning.
+What it means for founders is that you shouldn't build products that rely on trust. Build products that verify. You need a human or code in the loop that checks the cheese for holes.
 
-Karpathy compares this to AlphaGo [02:42:20]. If you only train on
-human games, you top out at human skill. But if you let the AI play
-against itself and reward the wins, it discovers "Move 37"—strategies
-no human would ever think of [02:45:32].
+Number five is to give the model time on a scratchpad. Karpathy says models need "tokens to think" [01:58:00].
 
-Takeaway: The most valuable startups won't just imitate humans; they
-will build "gyms" (simulation environments) where the AI can practice
-and get smarter than us.
+If you ask a model to solve a hard math problem in one word, it fails. If you let it write out the steps ("Let's think step by step..."), it gets it right.
 
-4. The "Swiss Cheese" Problem
+What it means for founders is to design the UX for patience. Don't hide the waiting, use it. Let the model write a chain of thought before it gives the final answer.
 
-This is the sharpest edge for founders. LLMs have "Jagged Frontiers."
+Number six is that tools beat brains. The model is bad at spelling "Strawberry" and counting the Rs, because it sees tokens and not letters [02:03:44].
 
-They can solve PhD-level physics problems but will confidently tell
-you that 9.11 is larger than 9.9 [02:05:40]. Why? because 9.11 looks
-like a Bible verse or a date to the token predictor.
+Karpathy's answer is to not make the LLM do it in its head. Tell it to write a Python script that counts the letters.
 
-Takeaway: Do not build "trust-based" products. Build
-"verification-based" products. You must have a human (or code) in the
-loop to check the cheese for holes.
+What it means for founders is to stop forcing the AI to be a computer. We have computers already. Build systems where the AI is the one in the middle that calls tools like search, a calculator or code to do the exact work.
 
-5. Give the Model "Scratchpad" Time
+Number seven is that hallucination is a feature, not a bug. Hallucination is just the model dreaming from what it was trained on. It happens because the model works with probabilities and flips a coin for every word [26:45].
 
-Karpathy emphasizes that models need "tokens to think" [01:58:00].
+You can make it better if you let the model say "I don't know", or if you use search (RAG) to put the answer into its working memory [01:35:00].
 
-If you ask a model to solve a hard math problem in one word, it fails.
-If you let it write out the steps ("Let's think step by step..."), it
-succeeds.
+What it means for founders is that you can't fix hallucination only in the model weights. You fix it when you put the right answer into the prompt, the context window.
 
-Takeaway: Design your UX for patience. Don't hide the latency; use it.
-Allow the model to generate "chain of thought" before giving the final
-answer.
+Number eight is that the future is agents. We go from chatbots that talk to agents that do things.
 
-6. Tools > Brains (The Hybrid Approach)
+Karpathy expects that we hand control to models that use a keyboard and a mouse and work on long tasks [03:12:00].
 
-The model is bad at spelling "Strawberry" (counting Rs) because it
-sees tokens, not letters [02:03:44].
+What it means for founders is that the next trillion dollar chance isn't chat with PDF. It's do my taxes or book my travel, the whole job done from start to end.
 
-Karpathy’s solution? Don't force the LLM to do it mentally. Tell the
-LLM to write a Python script to count the letters.
+Number nine is that open weights are catching up. Karpathy points to DeepSeek and Llama [03:16:00]. The gap between closed models from OpenAI and Google and open models from DeepSeek and Meta gets smaller fast.
 
-Takeaway: Don't force the AI to be a computer. We already have
-computers. Build systems where the AI acts as the orchestrator that
-calls tools (Search, Calculator, Code) to do the precise work.
-
-7. Hallucination is a Feature, Not a Bug
-
-Hallucination is just the model "dreaming" based on its training data.
-It happens because the model is probabilistic, flipping a coin for
-every word [26:45].
-
-You can mitigate this by allowing the model to say "I don't know" or
-by using Search (RAG) to put the answer into its working memory
-[01:35:00].
-
-Takeaway: You cannot "fix" hallucination in the model weights alone.
-You fix it by stuffing the correct answer into the prompt (Context
-Window).
-
-8. The Future is "Agents"
-
-We are moving from chatbots (talk) to Agents (do).
-
-Karpathy predicts a shift where we hand off control to models that can
-use keyboards and mice to perform long-horizon tasks [03:12:00].
-
-Takeaway: The next trillion-dollar opportunity is not "Chat with PDF."
-It is "Do my taxes" or "Book my travel"—end-to-end execution.
-
-9. Open Weights are Catching Up
-
-Karpathy highlights DeepSeek and Llama [03:16:00]. The gap between
-closed models (OpenAI/Google) and open models (DeepSeek/Meta) is
-closing fast.
-
-Takeaway: The model itself is becoming a commodity. Your moat is not
-the LLM; your moat is your proprietary data, your distribution, and
-the unique "gym" you build to train your specific agent.
+What it means for founders is that the model itself turns into a commodity. Your moat isn't the LLM. Your moat is your own data, your distribution and the gym you build to train your agent.
 
 ________________________________
 
-Final Thought
+At the end Karpathy leaves us with this.
 
-Karpathy leaves us with a humbling reminder:
+"You are not talking to a magical AI. You are talking to a statistical simulation of an average human labeler."
 
-"You are not talking to a magical AI. You are talking to a statistical
-simulation of an average human labeler."
-
-Build accordingly. Don't worship the tool; wield it.
+So build with that in mind. Don't worship the tool, use it.
