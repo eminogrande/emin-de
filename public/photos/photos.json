@@ -1,4 +1,61 @@
 {
   "$schema": "./photos.schema.json",
-  "photos": {}
+  "photos": {
+    "emino-b11618b3.jpg": {
+      "alt": {
+        "en": "Red ship spraying water beyond small moored fishing boats on a hazy sea",
+        "de": "Rotes Schiff spritzt Wasser hinter kleinen Fischerbooten auf diesigem Meer"
+      }
+    },
+    "emino-2ddf1195.jpg": {
+      "alt": {
+        "en": "Wood pigeon flying beside a narrow window on a weathered, paint-splattered wall",
+        "de": "Ringeltaube fliegt an einem schmalen Fenster an einer verwitterten, bunt bespritzten Wand"
+      }
+    },
+    "emino-c0c5745f.jpg": {
+      "alt": {
+        "en": "Black-and-white mirror selfie with a camera in a clothing boutique",
+        "de": "Schwarzweißes Spiegel-Selfie mit Kamera in einer Boutique"
+      }
+    },
+    "emino-1d9deaae.jpg": {
+      "alt": {
+        "en": "Black-and-white street scene, boys at a simit cart, a bench and a white van",
+        "de": "Schwarzweiße Straßenszene, Jungs an einem Simit-Wagen, eine Bank und ein weißer Van"
+      }
+    },
+    "emino-aec8ef20.jpg": {
+      "alt": {
+        "en": "Black-and-white portrait of a woman lit by a narrow beam of light",
+        "de": "Schwarzweißes Porträt einer Frau im schmalen Lichtstreifen"
+      }
+    },
+    "emino-7c8e65d5.jpg": {
+      "alt": {
+        "en": "Black-and-white photo of young men on a seawall as an Istanbul ferry passes",
+        "de": "Schwarzweißfoto, junge Männer auf einer Kaimauer, eine Istanbuler Fähre fährt vorbei"
+      },
+      "place": "Istanbul"
+    },
+    "emino-d6c078b0.jpg": {
+      "alt": {
+        "en": "Vintage purple sedan outside currency exchange shops on a sunny street",
+        "de": "Lila Oldtimer vor Wechselstuben auf einer sonnigen Straße"
+      },
+      "place": "Georgia"
+    },
+    "emino-2c21b294.jpg": {
+      "alt": {
+        "en": "Black-and-white photo of men watching a game at an outdoor table",
+        "de": "Schwarzweißfoto, Männer schauen einem Spiel an einem Tisch im Freien zu"
+      }
+    },
+    "emino-20caa84d.jpg": {
+      "alt": {
+        "en": "Black-and-white photo of a waiter taking an order by a large window",
+        "de": "Schwarzweißfoto, ein Kellner nimmt am großen Fenster eine Bestellung auf"
+      }
+    }
+  }
 }

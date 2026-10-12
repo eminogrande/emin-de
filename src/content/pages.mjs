@@ -68,11 +68,25 @@ Source code: [github.com/eminogrande/emin-de](https://github.com/eminogrande/emi
 
 > ${AUTHOR_NAME} is a journalist and publisher (${SITE.publisher.publication.name}, Berlin) and builds Bitcoin self-custody and agent-payment infrastructure. This site is where it gets written down properly.
 
+## Since 1999
+
+German-Turkish IT guy since 1999, Berlin. I'm a product engineer and founder, shipping software since 1999. My work spans consumer apps, ad-tech, blockchain infrastructure and fintech.
+
+In Berlin, I founded [${SITE.publisher.publication.name}](${SITE.publisher.publication.url}), an independent socio-political publication recognized by the [DFJV](https://www.dfjv.de) and archived in the [German National Library](https://d-nb.info/992028108). I co-founded [abend.net](https://abend.net), an ML-driven ad optimization platform, and [abend.com](https://www.youtube.com/watch?v=NwmK8omRuok), a Facebook Events discovery app, together serving thousands of paying clients monthly.
+
+After passing the technical engineering interview from Facebook I decided to pass on that and became COO and CPO of the newly founded [æternity Blockchain](https://aeternity.com) in 2017. I led product and operations, scaled the team to over 100 people, and contributed to Liechtenstein's Blockchain Act. In 2022 I served as Chief Product Officer at [Börse Stuttgart Digital Exchange](https://www.bsdex.com), leading product for one of Europe's first regulated crypto trading platforms.
+
+I've been in Bitcoin since 2012: early mining, visiting [Room 77](https://www.coindesk.com/tech/2020/10/19/closing-time-for-bitcoins-iconic-room-77-and-thats-ok-says-owner), and contributing to different open source projects.
+
+Now I'm building [nuri.com](https://nuri.com). We acquired the Nuri brand after its insolvency, rebuilt the product from scratch, and launched the first and only passkey-derived and owned self-custodial Bitcoin wallet with non-custodial Visa card and integrated banking, live on iOS and Android across Europe, expanding to 100+ countries with a stablecoin Visa/Mastercard, onchain Euro IBAN and USD ACH account.
+
 ## Journalist and publisher
 
-I published [${SITE.publisher.publication.name}](${SITE.publisher.publication.url}), a Berlin print magazine archived in the German National Library ([archive](${SITE.publisher.publication.archive})). The core rule of this site follows from that: free speech. Nothing here is censored. AI help is labelled, the words are mine. Details: [Principles](${SITE_ORIGIN}/principles).
+The core rule of this site comes from ${SITE.publisher.publication.name}: free speech. Nothing here is censored. AI help is labelled, the words are mine. Details: [Principles](${SITE_ORIGIN}/principles).
 
-${DISCLOSURE.en}
+## Contact
+
+emin@emin.de · [X](https://x.com/em) · [LinkedIn](https://www.linkedin.com/in/bitcoinlightning/) · [Signal](https://signal.me/#eu/_JNAHwkQcIQ4HU8MVuWrO_WTnBcEzq8OND-0DT5VF6Xr_Lq6jmVF4rH0sM4Oq671)
 
 ## What I work on
 
@@ -96,7 +110,7 @@ ${AUTHOR_SAME_AS.map((url) => `- ${url}`).join('\n')}
 
 Some posts may come from the [AI desk](${SITE_ORIGIN}/author/ai-desk): an openly named AI writing desk, not a person, labelled "AI-written, human-supervised" on every post and in the metadata.
 
-Contact: hello@emin.de
+Contact: emin@emin.de
 `,
 
 	'/contact': () => `# Contact
@@ -105,7 +119,7 @@ Contact: hello@emin.de
 
 ## Email
 
-hello@emin.de
+emin@emin.de
 
 Read: corrections to an article, a technical question about something published here, or work on self-custody, agent payments and agent-readiness engineering.
 
@@ -115,7 +129,7 @@ Read: corrections to an article, a technical question about something published 
 
 ## Short replies
 
-[x.com/eminogrande](https://x.com/eminogrande)
+[x.com/em](https://x.com/em)
 
 ## What does not get a reply
 

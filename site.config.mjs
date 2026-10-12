@@ -9,7 +9,7 @@ export default {
 	origin: 'https://emin.de',
 	name: 'emin.de',
 	repo: 'https://github.com/eminogrande/emin-de',
-	email: 'hello@emin.de',
+	email: 'emin@emin.de',
 	license: { text: 'CC BY 4.0', code: 'MIT' },
 
 	// What this site IS, in one sentence. Used verbatim as the llms.txt opener and
@@ -90,7 +90,7 @@ export default {
 			name: 'Emin Mahrt',
 			url: '/about',
 			jobTitle: 'Journalist, publisher',
-			sameAs: ['https://github.com/eminogrande', 'https://www.linkedin.com/in/eminmahrt', 'https://x.com/eminogrande', 'https://medium.com/@em', 'https://emin.substack.com', 'https://proud.de'],
+			sameAs: ['https://github.com/eminogrande', 'https://www.linkedin.com/in/bitcoinlightning/', 'https://x.com/em', 'https://twitter.com/em', 'https://medium.com/@em', 'https://emin.substack.com', 'https://proud.de'],
 		},
 		'ai-desk': {
 			type: 'ai_editorial',
@@ -149,7 +149,7 @@ export default {
 
 	social: {
 		github: 'eminogrande',
-		x: 'eminogrande',
+		x: 'em',
 		substack: 'https://emin.substack.com',
 	},
 

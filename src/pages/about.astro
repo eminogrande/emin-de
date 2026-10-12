@@ -16,19 +16,55 @@ const pub = SITE.publisher;
 			<p class="kicker">{pub.role.en}</p>
 			<h1>About</h1>
 			<p class="lede">
-				I'm {AUTHOR_NAME}. I am a journalist, the publisher of {pub.publication.name}, and I build Bitcoin self-custody and
-				agent-payment infrastructure. This site is where all of it gets written down properly, at a length that fits the subject.
+				I'm {AUTHOR_NAME}, a product engineer and founder from Berlin, the publisher of {pub.publication.name}, and I'm building
+				nuri.com. This site is where all of it gets written down properly, at a length that fits the subject.
 			</p>
 		</div>
 		<Portrait name={AUTHOR_NAME} eager />
 	</div>
 
+	<h2>Since 1999</h2>
+	<p>
+		German-Turkish IT guy since 1999, Berlin. I'm a product engineer and founder, shipping software since 1999. My work spans
+		consumer apps, ad-tech, blockchain infrastructure and fintech.
+	</p>
+	<p>
+		In Berlin, I founded <a href={pub.publication.url}>{pub.publication.name}</a>, an independent socio-political publication
+		recognized by the <a href="https://www.dfjv.de">DFJV</a> and archived in the
+		<a href="https://d-nb.info/992028108">German National Library</a>. I co-founded <a href="https://abend.net">abend.net</a>,
+		an ML-driven ad optimization platform, and <a href="https://www.youtube.com/watch?v=NwmK8omRuok">abend.com</a>, a Facebook
+		Events discovery app, together serving thousands of paying clients monthly.
+	</p>
+	<p>
+		After passing the technical engineering interview from Facebook I decided to pass on that and became COO and CPO of the
+		newly founded <a href="https://aeternity.com">æternity Blockchain</a> in 2017. I led product and operations, scaled the
+		team to over 100 people, and contributed to Liechtenstein's Blockchain Act. In 2022 I served as Chief Product Officer at
+		<a href="https://www.bsdex.com">Börse Stuttgart Digital Exchange</a>, leading product for one of Europe's first regulated
+		crypto trading platforms.
+	</p>
+	<p>
+		I've been in Bitcoin since 2012: early mining, visiting
+		<a href="https://www.coindesk.com/tech/2020/10/19/closing-time-for-bitcoins-iconic-room-77-and-thats-ok-says-owner">Room 77</a>,
+		and contributing to different open source projects.
+	</p>
+	<p>
+		Now I'm building <a href="https://nuri.com">nuri.com</a>. We acquired the Nuri brand after its insolvency, rebuilt the product
+		from scratch, and launched the first and only passkey-derived and owned self-custodial Bitcoin wallet with non-custodial
+		Visa card and integrated banking, live on iOS and Android across Europe, expanding to 100+ countries with a stablecoin
+		Visa/Mastercard, onchain Euro IBAN and USD ACH account.
+	</p>
+
 	<h2>Journalist and publisher</h2>
 	<p>
-		I published <a href={pub.publication.url}>{pub.publication.name}</a>, a Berlin print magazine archived in the German National
-		Library (<a href={pub.publication.archive}>read the archive</a>). The core rule of this site comes from that work:
-		<strong>free speech. Nothing here is censored. AI help is labelled, the words are mine.</strong>
-		The details are on the <a href="/principles">principles page</a>.
+		The core rule of this site comes from {pub.publication.name}: <strong>free speech. Nothing here is censored. AI help is
+		labelled, the words are mine.</strong> The details are on the <a href="/principles">principles page</a>.
+	</p>
+
+	<h2>Contact</h2>
+	<p>
+		<a href="mailto:emin@emin.de">emin@emin.de</a> · <a href="https://x.com/em" rel="me noopener">X</a> ·
+		<a href="https://www.linkedin.com/in/bitcoinlightning/" rel="me noopener">LinkedIn</a> ·
+		<a href="https://signal.me/#eu/_JNAHwkQcIQ4HU8MVuWrO_WTnBcEzq8OND-0DT5VF6Xr_Lq6jmVF4rH0sM4Oq671" rel="noopener">Signal</a>
 	</p>
 
 	<h2>What I work on</h2>
