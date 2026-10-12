@@ -115,7 +115,7 @@ a.eyebrow:hover, a.kicker:hover { color: var(--heading); }
 /* --- masthead ------------------------------------------------------------------ */
 .masthead .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem 2rem; padding-block: 1.25rem; }
 .wordmark { color: var(--heading); font-weight: 700; text-decoration: none; }
-.wordmark span { color: var(--accent); }
+.wordmark__sep { color: var(--muted); font-weight: 400; }
 .masthead nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; row-gap: 0; }
 .masthead nav a { color: var(--ink); text-decoration: none; padding-block: 0.5rem; }
 .masthead nav a:hover, .masthead nav a[aria-current='page'] { color: var(--heading); text-decoration: underline; text-decoration-color: var(--accent); }

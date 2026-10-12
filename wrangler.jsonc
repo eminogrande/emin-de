@@ -4,7 +4,7 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "emin-de",
-	"account_id": "60aa4fd3b9c4c1c384a3234200f42672",
+	"account_id": "1bfa1536b09a4e808b2ceea8e44f1b6c",
 	"main": "worker/index.mjs",
 	"compatibility_date": "2026-09-26",
 	"compatibility_flags": ["nodejs_compat"],
@@ -26,6 +26,6 @@
 		{ "pattern": "emin.de", "custom_domain": true },
 		{ "pattern": "www.emin.de", "custom_domain": true }
 	],
-	"workers_dev": true,
+	"workers_dev": false,
 	"observability": { "enabled": true }
 }

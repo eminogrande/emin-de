@@ -165,5 +165,5 @@ export default {
 
 	// Hosting target (see docs/HOSTING.md). Not secret: account ids are visible
 	// in every dashboard URL. API tokens never go here.
-	cloudflare: { accountId: '60aa4fd3b9c4c1c384a3234200f42672', workerName: 'emin-de' },
+	cloudflare: { accountId: '1bfa1536b09a4e808b2ceea8e44f1b6c', workerName: 'emin-de' },
 };

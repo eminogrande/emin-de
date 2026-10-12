@@ -16,7 +16,7 @@ Local proof that A and B behave the same: `node scripts/verify-all.mjs` passes a
 
 ## What is prepared (not deployed)
 
-- `wrangler.jsonc`: Worker `emin-de`, account `60aa4fd3b9c4c1c384a3234200f42672` (Emin@nuri.com's Account), assets from `dist/`, `run_worker_first: true`, rate limiter `API_RATE_LIMITER` (120 req / 60 s), custom domains `emin.de` and `www.emin.de`.
+- `wrangler.jsonc`: Worker `emin-de`, account `1bfa1536b09a4e808b2ceea8e44f1b6c` (Emin@nuri.com's Account), assets from `dist/`, `run_worker_first: true`, rate limiter `API_RATE_LIMITER` (120 req / 60 s), custom domains `emin.de` and `www.emin.de`.
 - `worker/index.mjs`: headers, negotiation, 404 bodies, robots.txt, and the same JSON API / MCP / x402 handlers as `server.mjs`.
 - `.github/workflows/deploy.yml`: build + tests on every PR; deploy + smoke test + IndexNow ping on push to `main`.
 - `.github/workflows/traffic-report.yml`: daily/weekly/monthly PostHog numbers (no LLM).
@@ -26,7 +26,7 @@ Local proof that A and B behave the same: `node scripts/verify-all.mjs` passes a
 
 1. **GitHub secrets** (repo Settings, Secrets and variables, Actions):
    - `CLOUDFLARE_API_TOKEN`: custom token with *Account: Workers Scripts: Edit*, *Account: Account Settings: Read*, *Zone: Workers Routes: Edit* and *Zone: DNS: Edit* for `emin.de`.
-   - `CLOUDFLARE_ACCOUNT_ID` = `60aa4fd3b9c4c1c384a3234200f42672`.
+   - `CLOUDFLARE_ACCOUNT_ID` = `1bfa1536b09a4e808b2ceea8e44f1b6c`.
    - Optional for numbers: `POSTHOG_PROJECT_ID`, `POSTHOG_PERSONAL_API_KEY` (Query Read scope), `POSTHOG_HOST` (default `https://eu.posthog.com`), `TRAFFIC_WEBHOOK_URL`.
    - Create a GitHub environment named `production` (the deploy job uses it; add yourself as required reviewer if you want a manual gate).
 2. **Add `emin.de` as a zone** in the Cloudflare account above (Free plan is enough). Cloudflare scans existing records; check them against the list below before continuing.
