@@ -1,0 +1,16 @@
+---
+// Portrait slot: public/photos/portrait.(jpg|webp) when present, otherwise a
+// typographic monogram. Size is fixed by CSS aspect-ratio (no layout shift).
+import photos from '../generated/photos.json' with { type: 'json' };
+const { name = 'Emin Mahrt', caption, eager = false } = Astro.props;
+const p = photos.portrait;
+const initials = name.split(/\s+/).map((w) => w[0]).join('').slice(0, 2);
+---
+<figure class="portrait">
+	{p ? (
+		<img src={p.src} srcset={p.srcset} sizes="(max-width: 700px) 10rem, 14rem" width={p.width} height={p.height} alt={`Portrait of ${name}`} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+	) : (
+		<div class="monogram" role="img" aria-label={`${name}, monogram`}>{initials}</div>
+	)}
+	{caption && <figcaption>{caption}</figcaption>}
+</figure>

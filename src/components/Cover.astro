@@ -1,0 +1,20 @@
+---
+// A post cover: 3:2, responsive srcset, width/height set (no layout shift).
+// Generated typographic covers are decorative (alt="").
+const { post, sizes = '(max-width: 700px) 100vw, 33vw', eager = false, cls = 'cover' } = Astro.props;
+const c = post.cover;
+---
+{c && (
+	<img
+		class={cls}
+		src={c.src}
+		srcset={c.srcset || undefined}
+		sizes={c.srcset ? sizes : undefined}
+		width={c.width}
+		height={c.height}
+		alt=""
+		loading={eager ? 'eager' : 'lazy'}
+		fetchpriority={eager ? 'high' : undefined}
+		decoding={eager ? 'sync' : 'async'}
+	/>
+)}

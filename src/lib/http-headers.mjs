@@ -1,6 +1,5 @@
 // Content-type, cache and discovery-header helpers for the origin server.
 // Kept out of server.mjs so the routing logic stays readable.
-import path from 'node:path';
 import { linkHeaderValue } from './site.mjs';
 
 // Content Signals policy: this site is searchable and usable as AI input,
@@ -8,7 +7,10 @@ import { linkHeaderValue } from './site.mjs';
 export const CONTENT_SIGNAL = 'search=yes, ai-train=no, ai-input=yes';
 export const ROBOTS_TAG = 'index, follow, max-snippet:-1, max-image-preview:large';
 
-const LINK_HEADER = linkHeaderValue();
+// The RFC 8288 discovery Link header. Exported so server.mjs can set it as a
+// baseline header on responses written by sibling modules (which bypass
+// baseHeaders and call writeHead themselves).
+export const DISCOVERY_LINK_HEADER = linkHeaderValue();
 
 export const MIME_TYPES = {
 	'.html': 'text/html; charset=utf-8',
@@ -37,8 +39,16 @@ export const MIME_TYPES = {
 export const PATH_MIME_TYPES = {
 	'/auth.md': 'text/markdown; charset=utf-8',
 	'/.well-known/api-catalog': 'application/linkset+json; charset=utf-8',
-	'/.well-known/ucp': 'application/json; charset=utf-8',
+	'/rss.xml': 'application/rss+xml; charset=utf-8',
+	'/atom.xml': 'application/atom+xml; charset=utf-8',
+	'/feed.json': 'application/feed+json; charset=utf-8',
+	'/llms.txt': 'text/markdown; charset=utf-8',
 };
+
+// Per-language feeds (/de/rss.xml) get the same types.
+export function pathMimeType(pathname) {
+	return PATH_MIME_TYPES[pathname] || PATH_MIME_TYPES[pathname.replace(/^\/[a-z]{2}(?=\/)/, '')];
+}
 
 const IMMUTABLE_EXTENSIONS = /\.(css|js|mjs|woff2?|avif|webp|png|jpe?g|svg|mp4|ico)$/;
 
@@ -50,7 +60,7 @@ export function getOrigin(request, port) {
 }
 
 export function contentTypeFor(pathname, filePath) {
-	return PATH_MIME_TYPES[pathname] || MIME_TYPES[path.extname(filePath).toLowerCase()] || 'application/octet-stream';
+	return pathMimeType(pathname) || MIME_TYPES[(String(filePath).match(/\.[a-z0-9]+$/i)?.[0] || '').toLowerCase()] || 'application/octet-stream';
 }
 
 export function cacheControlFor(pathname, contentType) {
@@ -69,7 +79,7 @@ export function baseHeaders({ contentType, pathname, origin, extra = {} }) {
 	const headers = {
 		'content-type': contentType,
 		'content-signal': CONTENT_SIGNAL,
-		link: LINK_HEADER,
+		link: DISCOVERY_LINK_HEADER,
 		vary: 'Accept',
 		'cache-control': cacheControlFor(pathname, contentType),
 		'x-origin-host': origin,
@@ -93,6 +103,7 @@ export const AI_BOTS = [
 	'Googlebot',
 	'Bingbot',
 	'Applebot',
+	'Applebot-Extended',
 	'Amazonbot',
 	'meta-externalagent',
 	'CCBot',

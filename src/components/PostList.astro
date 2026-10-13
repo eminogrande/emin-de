@@ -1,0 +1,7 @@
+---
+// Listing pages (category, archive, author, ...): image rows, hairline rules.
+import Story from './Story.astro';
+const { posts, lang, heading = 'h2' } = Astro.props;
+const level = Number(String(heading).slice(1)) || 2;
+---
+<ul class="rows">{posts.map((post) => <Story post={post} variant="row" level={level} />)}</ul>

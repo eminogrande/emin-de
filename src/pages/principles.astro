@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { principles } from '../content/principles.mjs';
+const lang = 'en';
+const p = principles[lang];
+const alternates = [{ lang: 'en', path: '/principles' }, { lang: 'de', path: '/de/principles' }];
+---
+<Base title={`${p.title} | emin.de`} description={p.lede} path="/principles" lang={lang} markdownPath="/principles/index.md" alternates={alternates}>
+	<p class="kicker">emin.de</p>
+	<h1>{p.title}</h1>
+	<p class="lede">{p.lede}</p>
+	{p.sections.map(([heading, paras]) => (
+		<section>
+			<h2>{heading}</h2>
+			{paras.map((text) => <p>{text}</p>)}
+		</section>
+	))}
+</Base>

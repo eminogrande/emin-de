@@ -65,7 +65,7 @@ export async function buildCorpus() {
 			modifiedAt: article.modifiedAt,
 			topics: article.topics || [],
 			wordCount: article.wordCount,
-			url: absoluteUrl(`/posts/${article.slug}`),
+			url: absoluteUrl(article.path || `/posts/${article.slug}`),
 			markdown: articleMarkdown(article, mod),
 		})),
 	};

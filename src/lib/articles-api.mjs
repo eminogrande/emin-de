@@ -6,12 +6,10 @@
 // during early scaffolding, and it must fail with a readable error, not a
 // bare MODULE_NOT_FOUND.
 
-import { pathToFileURL } from 'node:url';
-import { resolve } from 'node:path';
 
 import { AUTHOR_NAME, SITE_DEFINITION, SITE_ORIGIN, SITE_NAME, SITE_TAGLINE, absoluteUrl } from './site.mjs';
+import { problemBody } from './problem-json.mjs';
 
-const DEFAULT_ARTICLES_MODULE = new URL('../content/articles.mjs', import.meta.url);
 
 // Matches server.mjs: 120 requests per minute on /api*. Never advertise a
 // different number here.
@@ -25,19 +23,23 @@ export async function loadArticles() {
 }
 
 async function loadArticlesModule() {
-	const spec = process.env.EMIN_ARTICLES_MODULE
-		? pathToFileURL(resolve(process.env.EMIN_ARTICLES_MODULE))
-		: DEFAULT_ARTICLES_MODULE;
-
+	// Default: static import, so bundlers (the Cloudflare Worker) include the
+	// content graph. EMIN_ARTICLES_MODULE swaps in a fixture for Node tests.
+	const override = globalThis.process?.env?.EMIN_ARTICLES_MODULE;
 	let mod;
-	try {
-		mod = await import(spec.href);
-	} catch (error) {
-		throw new Error(
-			`Article content module unavailable at ${spec.href}: ${error.message}. ` +
-				'Expected src/content/articles.mjs exporting `articles`; set EMIN_ARTICLES_MODULE to test another module.'
-		);
+	if (!override) {
+		mod = await import('../content/articles.mjs');
+	} else {
+		const { pathToFileURL } = await import('node:url');
+		const { resolve } = await import('node:path');
+		const spec = pathToFileURL(resolve(override));
+		try {
+			mod = await import(spec.href);
+		} catch (error) {
+			throw new Error(`Article content module unavailable at ${spec.href}: ${error.message}.`);
+		}
 	}
+	const spec = { href: override || 'src/content/articles.mjs' };
 
 	const articles = Array.isArray(mod.articles) ? mod.articles : [];
 	if (!articles.length) throw new Error(`Article content module ${spec.href} exports no articles.`);
@@ -46,14 +48,15 @@ async function loadArticlesModule() {
 	return { mod, articles, topics };
 }
 
-// Sections may be {heading, body}, {title, markdown} or plain strings.
+// Sections may be {heading, body}, {heading, paragraphs}, {title, markdown} or
+// plain strings — src/content/articles.mjs uses paragraphs.
 export function articleSections(article) {
 	const sections = Array.isArray(article.sections) ? article.sections : [];
-	return sections.map((section) =>
-		typeof section === 'string'
-			? { heading: null, body: section }
-			: { heading: section?.heading ?? section?.title ?? null, body: String(section?.body ?? section?.markdown ?? '') }
-	);
+	return sections.map((section) => {
+		if (typeof section === 'string') return { heading: null, body: section };
+		const raw = section?.body ?? section?.markdown ?? section?.paragraphs ?? '';
+		return { heading: section?.heading ?? section?.title ?? null, body: Array.isArray(raw) ? raw.join('\n\n') : String(raw) };
+	});
 }
 
 export function articleMarkdown(article, mod) {
@@ -84,8 +87,14 @@ export function articleSummary(article) {
 		modifiedAt: article.modifiedAt,
 		topics: article.topics || [],
 		wordCount: article.wordCount,
-		url: absoluteUrl(`/posts/${article.slug}`),
-		markdownUrl: absoluteUrl(`/posts/${article.slug}/index.md`),
+		url: absoluteUrl(article.path || `/posts/${article.slug}`),
+		markdownUrl: absoluteUrl(article.markdownPath || `/posts/${article.slug}/index.md`),
+		lang: article.lang,
+		category: article.category,
+		format: article.format,
+		author: article.author,
+		authorType: article.authorType,
+		provenance: article.provenance,
 	};
 }
 
@@ -182,16 +191,17 @@ export function requestUrl(req, ctx = {}) {
 }
 
 export function rateLimitHeaders(ctx = {}) {
-	// Limit/Policy always match server.mjs. Remaining and Reset are only sent
-	// when the caller actually knows them; guessing them would be a lie.
-	const headers = {
-		'RateLimit-Policy': `${RATE_LIMIT.limit};w=${RATE_LIMIT.windowSeconds}`,
-		'RateLimit-Limit': String(RATE_LIMIT.limit),
-	};
+	// Exactly the two fields server.mjs emits for the same 120 req/min bucket,
+	// so a client never sees two competing limits. remaining/reset are only
+	// reported when the caller supplies them.
 	const { remaining, reset } = ctx.rateLimit || {};
-	if (Number.isInteger(remaining)) headers['RateLimit-Remaining'] = String(Math.max(0, remaining));
-	if (Number.isInteger(reset)) headers['RateLimit-Reset'] = String(Math.max(0, reset));
-	return headers;
+	const state = [`limit=${RATE_LIMIT.limit}`];
+	if (Number.isInteger(remaining)) state.push(`remaining=${Math.max(0, remaining)}`);
+	if (Number.isInteger(reset)) state.push(`reset=${Math.max(0, reset)}`);
+	return {
+		'ratelimit-policy': `${RATE_LIMIT.limit};w=${RATE_LIMIT.windowSeconds}`,
+		ratelimit: state.join(', '),
+	};
 }
 
 export function sendJson(req, res, status, body, headers = {}) {
@@ -205,14 +215,15 @@ export function sendJson(req, res, status, body, headers = {}) {
 	return true;
 }
 
-// RFC 9457 problem details. `type` is a URN so no documentation URL has to exist.
-export function sendProblem(req, res, status, title, detail, extra = {}) {
+// RFC 9457 problem details, built with the site-wide problem shape so every
+// /api error body on emin.de looks the same.
+export function sendProblem(req, res, status, { origin, pathname, title, detail, type, extra = {}, headers = {} }) {
 	return sendJson(
 		req,
 		res,
 		status,
-		{ type: `urn:emin.de:problem:${title.toLowerCase().replaceAll(' ', '-')}`, title, status, detail, ...extra },
-		{ 'content-type': 'application/problem+json; charset=utf-8' }
+		{ ...problemBody({ origin: origin || SITE_ORIGIN, pathname, status, title, detail, type }), ...extra },
+		{ 'content-type': 'application/problem+json; charset=utf-8', ...headers }
 	);
 }
 
@@ -250,8 +261,13 @@ export async function handleArticlesApi(req, res, ctx = {}) {
 	const { pathname } = requestUrl(req, ctx);
 	if (pathname !== API_PREFIX && !pathname.startsWith(`${API_PREFIX}/`)) return false;
 	if (req.method !== 'GET' && req.method !== 'HEAD') {
-		return sendProblem(req, res, 405, 'Method Not Allowed', `${req.method} is not supported; use GET.`, {
-			allow: 'GET, HEAD',
+		return sendProblem(req, res, 405, {
+			origin: ctx.origin,
+			pathname,
+			title: 'Method Not Allowed',
+			detail: `${req.method} is not supported; use GET.`,
+			extra: { allow: 'GET, HEAD' },
+			headers: rateLimitHeaders(ctx),
 		});
 	}
 
@@ -271,10 +287,13 @@ export async function handleArticlesApi(req, res, ctx = {}) {
 	const slug = decodeURIComponent(pathname.slice(`${API_PREFIX}/`.length)).replace(/\/$/, '');
 	const article = articleBySlug(articles, slug);
 	if (!article) {
-		return sendProblem(req, res, 404, 'Article Not Found', `No article with slug "${slug}".`, {
-			...headers,
-			instance: `/api/articles/${slug}`,
-			availableSlugs: articles.map((entry) => entry.slug),
+		return sendProblem(req, res, 404, {
+			origin: ctx.origin,
+			pathname,
+			title: 'Article Not Found',
+			detail: `No article with slug "${slug}". Machine-readable index: ${absoluteUrl('/api/articles')}`,
+			extra: { instance: `/api/articles/${slug}`, availableSlugs: articles.map((entry) => entry.slug) },
+			headers,
 		});
 	}
 

@@ -1,0 +1,31 @@
+---
+// One story teaser. variant: lead | row. One link per card (the title); the
+// whole card is clickable through a stretched ::after.
+import Cover from './Cover.astro';
+import { longDate, readTime, categoryLabel } from '../lib/magazine.mjs';
+import { categoryPath } from '../lib/paths.mjs';
+const { post, variant = 'row', eager = false, level = 3 } = Astro.props;
+const H = `h${level}`;
+const sizes = variant === 'lead' ? '(max-width: 48rem) calc(100vw - 2.5rem), 44rem' : '(max-width: 48rem) 7rem, 14rem';
+---
+{variant === 'lead' ? (
+	<article class="story lead" lang={post.lang}>
+		<Cover post={post} sizes={sizes} eager={eager} />
+		<div>
+			<a class="eyebrow" href={categoryPath(post.lang, post.category)}>{categoryLabel(post)}</a>
+			<H class="display"><a class="title-link" href={post.path}>{post.title}</a></H>
+			<p class="dek">{post.description}</p>
+			<p class="meta"><time datetime={post.date}>{longDate(post.lang, post.date)}</time><span>{readTime(post)}</span></p>
+		</div>
+	</article>
+) : (
+	<li class="story" lang={post.lang}>
+		<div>
+			<a class="eyebrow" href={categoryPath(post.lang, post.category)}>{categoryLabel(post)}</a>
+			<H><a class="title-link" href={post.path}>{post.title}</a></H>
+			<p class="dek">{post.description}</p>
+			<p class="meta"><time datetime={post.date}>{longDate(post.lang, post.date)}</time><span>{readTime(post)}</span></p>
+		</div>
+		<Cover post={post} sizes={sizes} />
+	</li>
+)}

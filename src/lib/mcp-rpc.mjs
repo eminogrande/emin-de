@@ -211,7 +211,8 @@ export async function handleRpc(payload) {
 		return {
 			body: rpcResult(id, {
 				protocolVersion: typeof params.protocolVersion === 'string' ? params.protocolVersion : '2025-11-05',
-				capabilities: { tools: { listChanged: false }, resources: {}, prompts: {} },
+				// Only tools are implemented; claiming resources/prompts here would be a lie.
+				capabilities: { tools: { listChanged: false } },
 				serverInfo: SERVER_INFO,
 				instructions: SERVER_INSTRUCTIONS,
 			}),

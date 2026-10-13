@@ -1,0 +1,43 @@
+# Deterministic traffic numbers from PostHog HogQL. No LLM involved: fixed
+# queries, fixed table, written to the job summary (and optionally a webhook).
+# Daily 07:00 UTC (last 1 day), Mondays a 7-day report, the 1st a 30-day report.
+# Required secrets: POSTHOG_PROJECT_ID, POSTHOG_PERSONAL_API_KEY (Query Read).
+# Optional: POSTHOG_HOST (default https://eu.posthog.com), TRAFFIC_WEBHOOK_URL.
+name: traffic-report
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Days to cover
+        default: '7'
+permissions:
+  contents: read
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    env:
+      POSTHOG_HOST: ${{ secrets.POSTHOG_HOST || 'https://eu.posthog.com' }}
+      POSTHOG_PROJECT_ID: ${{ secrets.POSTHOG_PROJECT_ID }}
+      POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
+      TRAFFIC_WEBHOOK_URL: ${{ secrets.TRAFFIC_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pick periods
+        id: periods
+        run: |
+          if [ -n "${{ github.event.inputs.days }}" ]; then echo "list=${{ github.event.inputs.days }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          list="1"
+          [ "$(date -u +%u)" = "1" ] && list="$list 7"
+          [ "$(date -u +%d)" = "01" ] && list="$list 30"
+          echo "list=$list" >> "$GITHUB_OUTPUT"
+      - name: Report
+        run: |
+          if [ -z "$POSTHOG_PROJECT_ID" ]; then echo "PostHog secrets not set yet; skipping." >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          for d in ${{ steps.periods.outputs.list }}; do
+            node plugins/traffic-report.mjs --days "$d" ${TRAFFIC_WEBHOOK_URL:+--webhook "$TRAFFIC_WEBHOOK_URL"} | tee -a "$GITHUB_STEP_SUMMARY"
+          done
