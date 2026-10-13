@@ -1,6 +1,12 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "portrait-leather-20261013.jpg": {
+      "alt": {
+        "en": "Woman with short natural hair in a black leather jacket looking over her shoulder",
+        "de": "Frau mit kurzen Naturlocken in schwarzer Lederjacke blickt über die Schulter"
+      }
+    },
     "twin-domes-20261013.jpg": {
       "alt": {
         "en": "Looking up past railway wires at towers and a building with two green domes",
