@@ -1,6 +1,18 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "window-film-20261013.jpg": {
+      "alt": {
+        "en": "Woman holding a phone, seen through a green window frame in warm sunlight",
+        "de": "Frau mit Handy, durch ein grünes Fensterkreuz im warmen Sonnenlicht gesehen"
+      }
+    },
+    "stairwell-film-20261013.jpg": {
+      "alt": {
+        "en": "Woman in black on a stairwell with a painted flower border, looking up",
+        "de": "Frau in Schwarz im Treppenhaus mit gemalter Blumenbordüre, blickt nach oben"
+      }
+    },
     "portrait-leather-20261013.jpg": {
       "alt": {
         "en": "Woman with short natural hair in a black leather jacket looking over her shoulder",
