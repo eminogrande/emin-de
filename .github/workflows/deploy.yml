@@ -25,6 +25,18 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Voice gate (changed posts first published here)
+        run: |
+          # House style: no em dash, no AI filler words, TL;DR 2-4 items, one Basically line per section.
+          # Posts with original_url are imports and keep their text as is.
+          base="${{ github.event.before }}"
+          if [ -z "$base" ] || ! git cat-file -e "$base" 2>/dev/null; then base=HEAD~1; fi
+          fail=0
+          for f in $(git diff --name-only --diff-filter=AM "$base" HEAD -- 'content/posts/**/*.md'); do
+            grep -q '^original_url:' "$f" && continue
+            python3 plugins/check_draft.py "$f" || fail=1
+          done
+          exit $fail
       - name: Test build (with synthetic fixtures) and engine tests
         run: npm run build:test && npm test
       - name: Production build
