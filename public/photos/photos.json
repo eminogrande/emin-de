@@ -1,6 +1,12 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "mountain-field-20261013.jpg": {
+      "alt": {
+        "en": "Woman in a black cardigan on a grass field in front of a big mountain",
+        "de": "Frau in schwarzer Strickjacke auf einer Wiese vor einem großen Berg"
+      }
+    },
     "window-film-20261013.jpg": {
       "alt": {
         "en": "Woman holding a phone, seen through a green window frame in warm sunlight",
