@@ -1,6 +1,12 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "harbor-sunset-20261013.jpg": {
+      "alt": {
+        "en": "Low sun over a harbour with cranes, a truss bridge and a city skyline",
+        "de": "Tiefe Sonne über einem Hafen mit Kränen, einer Fachwerkbrücke und der Skyline einer Stadt"
+      }
+    },
     "emino-b11618b3.jpg": {
       "alt": {
         "en": "Red ship spraying water beyond small moored fishing boats on a hazy sea",
