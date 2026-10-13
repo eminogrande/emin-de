@@ -8,7 +8,7 @@ import sharp from 'sharp';
 
 const DIR = 'public/photos';
 const OUT = path.join(DIR, '_v');
-const WIDTHS = [640, 1280];
+const WIDTHS = [640, 1280, 1920];
 const RASTER = /\.(jpe?g|webp)$/i;
 
 export async function buildPhotos() {

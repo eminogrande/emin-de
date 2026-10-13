@@ -255,8 +255,8 @@ tbody tr:last-child > * { border-bottom: 0; }
 .portrait img, .portrait .monogram { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 0.5rem; }
 .portrait figcaption { color: var(--muted); margin-top: 0.5rem; }
 .monogram { display: grid; place-items: center; background: var(--paper-2); color: var(--accent); font-family: var(--head-face); font-size: var(--fs-head); }
-.gallery { list-style: none; margin: 2rem 0 0; padding: 0; columns: 3 20rem; column-gap: 1.5rem; }
-.gallery > li { break-inside: avoid; margin-bottom: 1.5rem; }
+.gallery { list-style: none; margin: 2rem 0 0; padding: 0; columns: 2 28rem; column-gap: 2rem; }
+.gallery > li { break-inside: avoid; margin-bottom: 2rem; }
 .gallery figure { margin: 0; }
 .gallery img { width: 100%; height: auto; border-radius: 0.5rem; }
 .gallery figcaption, .empty { margin-top: 0.5rem; color: var(--muted); }
