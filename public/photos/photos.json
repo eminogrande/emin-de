@@ -1,6 +1,12 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "twin-domes-20261013.jpg": {
+      "alt": {
+        "en": "Looking up past railway wires at towers and a building with two green domes",
+        "de": "Blick nach oben über Oberleitungen auf Hochhäuser und ein Gebäude mit zwei grünen Kuppeln"
+      }
+    },
     "harbor-sunset-20261013.jpg": {
       "alt": {
         "en": "Low sun over a harbour with cranes, a truss bridge and a city skyline",
