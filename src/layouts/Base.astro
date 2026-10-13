@@ -121,7 +121,7 @@ const navItems = [
 		<a class="skip" href="#main">{de ? 'Zum Inhalt springen' : 'Skip to content'}</a>
 		<header class="masthead">
 			<div class="wrap">
-				<a class="wordmark" href={homePath(lang)} aria-label="emin.de, also at 🤔.tk"><span class="wordmark__emoji" aria-hidden="true">🤔</span>.tk <span class="wordmark__sep" aria-hidden="true">/</span> emin.de</a>
+				<a class="wordmark" href={homePath(lang)} aria-label="emin.de, also at 🤔.tk"><span aria-hidden="true">🤔<span class="dot">.</span>tk <span class="wordmark__sep">/</span> emin<span class="dot">.</span>de</span></a>
 				<nav aria-label={de ? 'Hauptmenü' : 'Main'}>
 					{navItems.map((item) => <a class={item.cls} href={item.href} aria-current={here === item.href ? 'page' : undefined}>{item.text}</a>)}
 					{activeLangs.filter((l) => l !== lang).map((l) => <a href={homePath(l)} hreflang={l} lang={l} aria-label={l === 'de' ? 'Deutsch' : 'English'}>{l.toUpperCase()}</a>)}

@@ -6,7 +6,7 @@ const pub = config.publisher;
 export const principles = {
 	en: {
 		title: 'Principles',
-		lede: 'Free speech. Nothing here is censored. AI help is labelled, the words are mine.',
+		lede: 'Saying you do not care about privacy because you have "nothing to hide" is like saying you do not care about free speech because you have "nothing to say".',
 		sections: [
 			['Free speech comes first', [
 				`I am a journalist and the publisher of ${pub.publication.name}, a Berlin print magazine archived in the German National Library. I have published other people's opinions for years, including ones I disagree with. This site follows the same rule for my own writing.`,
@@ -28,7 +28,7 @@ export const principles = {
 	},
 	de: {
 		title: 'Grundsätze',
-		lede: 'Freie Rede. Hier wird nichts zensiert. KI-Hilfe ist gekennzeichnet, die Worte sind meine.',
+		lede: 'Zu sagen, dass dir Privatsphäre egal ist, weil du „nichts zu verbergen“ hast, ist wie zu sagen, dass dir freie Rede egal ist, weil du „nichts zu sagen“ hast.',
 		sections: [
 			['Freie Rede zuerst', [
 				`Ich bin Journalist und Herausgeber von ${pub.publication.name}, einem Berliner Printmagazin, archiviert in der Deutschen Nationalbibliothek. Ich habe jahrelang die Meinungen anderer veröffentlicht, auch solche, die ich nicht teile. Für meine eigenen Texte gilt hier dieselbe Regel.`,

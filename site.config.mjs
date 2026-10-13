@@ -142,8 +142,8 @@ export default {
 	principles: {
 		freeSpeech: true,
 		footer: {
-			en: 'Free speech. Nothing here is censored. AI help is labelled, the words are mine.',
-			de: 'Freie Rede. Hier wird nichts zensiert. KI-Hilfe ist gekennzeichnet, die Worte sind meine.',
+			en: 'Saying you do not care about privacy because you have "nothing to hide" is like saying you do not care about free speech because you have "nothing to say".',
+			de: 'Zu sagen, dass dir Privatsphäre egal ist, weil du „nichts zu verbergen“ hast, ist wie zu sagen, dass dir freie Rede egal ist, weil du „nichts zu sagen“ hast.',
 		},
 	},
 

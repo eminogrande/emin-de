@@ -82,7 +82,11 @@ Now I'm building [nuri.com](https://nuri.com). We acquired the Nuri brand after 
 
 ## Journalist and publisher
 
-The core rule of this site comes from ${SITE.publisher.publication.name}: free speech. Nothing here is censored. AI help is labelled, the words are mine. Details: [Principles](${SITE_ORIGIN}/principles).
+The core rule of this site comes from ${SITE.publisher.publication.name}: free speech. Nothing here is censored.
+
+> Saying you do not care about privacy because you have "nothing to hide" is like saying you do not care about free speech because you have "nothing to say".
+
+Details: [Principles](${SITE_ORIGIN}/principles).
 
 ## Contact
 

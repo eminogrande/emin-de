@@ -227,7 +227,7 @@ test('magazine design: serif self-hosted, no third-party fonts, covers sized, fo
 	assert.ok(!/fonts\.googleapis|fonts\.gstatic|use\.typekit/.test(home));
 	assert.match(home, /rel="preload" href="\/fonts\/newsreader-latin-wght-normal\.woff2"/);
 	assert.ok(existsSync(dist('fonts/newsreader-latin-wght-normal.woff2')));
-	assert.match(home, /Free speech\. Nothing here is censored\. AI help is labelled, the words are mine\./);
+	assert.match(home, /nothing to hide(&quot;|")? is like saying you do not care about free speech/, 'footer carries the free-speech motto');
 	for (const img of home.match(/<img [^>]+>/g) || []) assert.match(img, /width="\d+"[^>]*height="\d+"|height="\d+"[^>]*width="\d+"/, img);
 	assert.ok(!/AI-written|not yet reviewed|class="badge/.test(home.replace(/<script[\s\S]*?<\/script>/g, '')), 'no visible provenance on the home page');
 	assert.ok(!/&amp;x27;|&x27;/.test(home));
