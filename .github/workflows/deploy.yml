@@ -25,6 +25,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Install xmllint (feed test)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq libxml2-utils
       - name: Voice gate (changed posts first published here)
         run: |
           # House style: no em dash, no AI filler words, TL;DR 2-4 items, one Basically line per section.
