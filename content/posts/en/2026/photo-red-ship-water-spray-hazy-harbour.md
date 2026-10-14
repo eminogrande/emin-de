@@ -1,9 +1,9 @@
 ---
 title: "A red ship, a water arc and a harbour lost in haze"
 seo_title: "Red Ship and Water Spray in Haze | emin.de"
-description: "A close reading of a hazy harbour photo with a red ship spraying water. Composition, light, lens, exposure guesses and exercises you can try."
+description: "A close reading of a hazy harbour photo with a red ship throwing water. Colour, haze, light, lens, shutter and aperture estimates, one mistake and a 20 minute exercise."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -15,130 +15,173 @@ reviewed_by_human: false
 image: "/photos/emino-b11618b3.jpg"
 tags: [photography, "haze", "aerial perspective", "seascape", "colour photography", "exposure"]
 source_links:
-  - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why distant things turn pale and blue, the engine of this picture." }
-  - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "How aperture, distance and focal length decide what looks sharp." }
-  - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The old daylight exposure rule used for the estimates here." }
-  - { title: "Hiroshi Sugimoto, Wikipedia", url: "https://en.wikipedia.org/wiki/Hiroshi_Sugimoto", note: "His Seascapes split the frame exactly in half at the horizon." }
-  - { title: "Joel Meyerowitz, Wikipedia", url: "https://en.wikipedia.org/wiki/Joel_Meyerowitz", note: "Early champion of colour, author of Cape Light." }
-  - { title: "Fireboat, Wikipedia", url: "https://en.wikipedia.org/wiki/Fireboat", note: "What the red vessel most likely is, and why such boats throw water." }
+  - { title: "The Notebooks of Leonardo da Vinci, tr. Jean Paul Richter, Project Gutenberg", url: "https://www.gutenberg.org/cache/epub/5000/pg5000.txt", note: "Source of the five times bluer rule for distant things." }
+  - { title: "Saul Leiter, The Guardian, 2016", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Source of the Leiter quote on what is hidden." }
+  - { title: "Nothing Twice, Wislawa Szymborska, Poets.org", url: "https://poets.org/poem/nothing-twice", note: "Source of the first line of the poem." }
+  - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Source of the Szarkowski line on instantaneous photographs." }
+  - { title: "James McNeill Whistler, nature and industry, Art UK", url: "https://artuk.org/discover/stories/james-mcneill-whistler-nature-and-industry", note: "Quotes the evening mist passage from the Ten O'Clock lecture, 1885." }
+  - { title: "Mr. Whistler's Ten O'Clock, 1888 edition, Internet Archive", url: "https://archive.org/download/mrwhistlersteno00whis/mrwhistlersteno00whis.pdf", note: "Scan of the printed lecture with the same passage." }
+  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "Source of the Lange quote on seeing without a camera." }
+  - { title: "Intentions, Oscar Wilde, Project Gutenberg", url: "https://www.gutenberg.org/files/887/887-h/887-h.htm", note: "The Decay of Lying, source of the passage on London fogs." }
+  - { title: "Hiroshi Sugimoto, Wikipedia", url: "https://en.wikipedia.org/wiki/Hiroshi_Sugimoto", note: "His Seascapes are split exactly in half by the horizon." }
+  - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why distant things turn pale and blue." }
+  - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The daylight exposure rule used for the estimates." }
+  - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Hyperfocal distance and how aperture decides what looks sharp." }
+  - { title: "Fireboat, Wikipedia", url: "https://en.wikipedia.org/wiki/Fireboat", note: "What the vessel may be, and why such boats throw water." }
 tldr:
-  - "A red ship throws one pale arc of water across a harbour so hazy that the hills and sky almost merge."
-  - "The picture works through aerial perspective, a centred target composition and a single warm colour in a grey world."
-  - "It reads as digital, a normal to short tele lens from a raised seawall, about f/8 and 1/250 s or faster, with a sensor dust spot in the sky."
+  - "A ship with a hull that measures almost grey still reads as red, because the haze has made everything else in the harbour cooler."
+  - "Haze grades the frame by distance, from blacks of 34 on the near rock to 193 on the far ridge, and that does all the depth."
+  - "Small round glints, round buoys and a dust spot point to a digital camera, about 50 to 85mm, about f/8 and 1/250 s or faster."
 basically:
-  what-you-see-first: "The eye goes straight to the red ship and its thin arc of water, then drops back to the boats below."
-  a-frame-built-like-a-target: "Two slopes of hill and two clusters of boats point inward, so the ship sits in the bullseye."
-  haze-is-the-real-subject: "Haze grades everything by distance, from crisp boats to pale hills, and that layering makes the depth."
-  light-from-somewhere-ahead: "The sun sits ahead and to the right behind the haze, giving soft light and small glints on the water."
-  one-warm-note-in-a-grey-picture: "The frame is grey, teal and blue, so the muted red hull carries almost all of the colour weight."
-  the-moment-the-water-is-up: "The picture needs the spray, and the photographer pressed while the arc was fully out over the sea."
-  reading-the-lens-and-the-vantage: "Perspective suggests a normal to short tele lens, shot from a seawall a few metres above the water."
-  guessing-the-exposure: "Bright haze, frozen spray and point-like glints suggest about f/8, 1/250 s or faster, at a low ISO."
-  digital-and-the-dust-spot-that-gives-it-away: "A soft dark blob in the sky is sensor dust, which points to a digital camera with swappable lenses."
-  where-it-sits-in-the-tradition: "It echoes Sugimoto's halved seascapes, Le Gray's sea pictures, Whistler's mist and Meyerowitz's colour."
-  exercises-you-can-try: "Shoot haze in layers, find one colour accent, and test your aperture against a plain sky for dust."
-  making-it-today-on-a-phone-or-a-camera: "On a phone use the 2x lens and lock exposure on the sky, on a camera use 50 to 85mm and f/8."
-  what-could-be-better: "The dust spot, the cut edge boats and the empty sky cost the frame, and a tighter crop would help."
-  why-it-stays-with-you: "It stays because a loud event happens almost silently, held quiet by the weather around it."
+  the-red-that-is-almost-grey: 'The hull measures close to grey. It reads red only because everything around it is cooler.'
+  a-ship-standing-still: 'No bow wave and no wake. The ship stands still, so the only thing moving in the frame is the water it throws.'
+  haze-does-the-depth: '"if one is to be five times as distant, make it five times bluer." Leonardo, tr. Richter. The haze follows the rule.'
+  where-the-sun-hides: '"The real world has more to do with what is hidden." Saul Leiter. 61 of 68 glints point to a sun you never see.'
+  a-frame-built-like-a-target: 'Dead centre should be dull. Two hill slopes falling inward turn it into a bullseye.'
+  where-the-camera-stood: 'You see the rim of the dinghy and not its floor. That puts the camera a few metres up, looking down about 10 degrees.'
+  the-moment-the-water-is-up: '"Nothing can ever happen twice." Szymborska. A jet of water never takes the same shape again.'
+  reading-the-shutter-from-the-glints: '"There is in fact no such thing as an instantaneous photograph." Szarkowski. These glints say about 1/250 s.'
+  aperture-and-what-the-air-does: 'At 85mm and f/8, everything from 15 m to the hills is sharp. The softness up there comes from air, not glass.'
+  digital-and-how-you-can-tell: 'A flat patch of this sky varies by about one level out of 255. Scanned film grain is rarely that still.'
+  half-sea-and-half-sky: '"The evening mist clothes the riverside with poetry, as with a veil" Whistler, 1885. Daylight haze does the same.'
+  the-one-mistake: 'A dust spot 30 pixels wide costs this sky more than any lens upgrade would ever give back.'
+  try-this: '"The camera is an instrument that teaches people how to see without a camera." Dorothea Lange'
+  why-it-stays-with-you: '"Things are because we see them" Oscar Wilde. The haze was there for everyone. The photo makes you see it.'
 ---
 ![Red ship spraying water beyond small moored fishing boats on a hazy sea](/photos/emino-b11618b3.jpg)
 
-## What you see first
+## The red that is almost grey
 
-The red comes first. In a picture that is almost entirely grey, teal and pale blue, a red hull in the middle of the frame pulls the eye the way a struck match pulls it in a dark room. Then you notice what the ship is doing. From somewhere near its bow a thin white arc of water leaves the deck, climbs to the left and falls back into the sea well ahead of it. It is the only gesture in the picture.
+You see the red first. A ship sits in the middle of a pale harbour and its hull is the one warm thing between grey sky, grey green water and blue grey hills. Then you see what it is doing. A thin white arc of water leaves its roof, goes left and falls into the sea ahead of the bow. Below it, small fishing boats sit on their moorings and do not care.
 
-Then the eye drops to the foreground. Eight or so small working boats sit on swing moorings, some laden with nets and floats, a couple of them empty dinghies. A large rounded boulder breaks the water on the left. Behind everything, two hills dissolve into a sky that has no edge, no cloud and no sun.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/01-red.webp" width="1400" height="934" alt="Full photo with a box on the ship's hull and a circle on a red lifebuoy in the foreground" loading="lazy" decoding="async" /><figcaption>The boxed hull is the red you notice, and the small lifebuoy in the circle is the red that is really there.</figcaption></figure>
 
-The photo comes from Emin's old photo site, from a page simply called "taking pictures". It is older work and the date is unknown. The place is not named, and I will not guess it. It reads as a working harbour or sheltered bay on a coast with hills, used by small fishing boats, on a day of heavy haze.
+Now the strange part. If you measure the hull, it is barely red at all. Its pixels average around 115 red, 111 green and 119 blue, which is almost neutral grey with a faint pink and violet cast. The small lifebuoy on the blue boat in front is about four times more saturated. But you never look at the lifebuoy first. You look at the ship, because it is big, central and set against water that leans green and hills that lean blue. Colour in a picture is a number next to other numbers, and here the haze has pushed everything so far toward grey that a whisper of warmth reads as red.
+
+The photo comes from Emin's old photo site. Place and date are unknown. It reads as a sheltered bay on a hilly coast, on a day of heavy haze.
+
+## A ship standing still
+
+Closer up the ship has a red hull, a pale superstructure with a row of dark windows, a tall mast with antennas, and a second frame over the stern.
+
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/02-ship.webp" width="400" height="220" alt="Close crop of the red-hulled ship with white superstructure and calm water at its bow" loading="lazy" decoding="async" /><figcaption>A full size crop of the ship. The water at the bow is flat, so the ship is barely moving.</figcaption></figure>
+
+The water at the bow is the interesting part. There is no white bow wave, no V of wake and no wash behind the stern. So the ship stands still or creeps, and the only motion in the whole frame is the water it throws. Everything else is parked, the ship included.
+
+What kind of ship it is, the frame does not say. A red hull, a working mast and a nozzle on the roof look like a fireboat or a fire fighting tug, and those spray for tests, drills and salutes. That is a likely reading, not a fact, and the picture only needs the arc.
+
+## Haze does the depth
+
+Without the haze this is a postcard. With it, it is a lesson in what painters called aerial perspective. Air scatters light, and the more air between you and a thing, the paler, softer and bluer that thing gets.
+
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/03-haze.webp" width="1400" height="934" alt="Full photo with three brightness readings, on the near rock, the ship and the far ridge" loading="lazy" decoding="async" /><figcaption>The darkest value of each layer on a 0 to 255 scale. Distance lifts the black.</figcaption></figure>
+
+You can read it in numbers. The darkest one percent of the big boulder sits around 34 on a scale of 0 to 255. On the ship, the darkest one percent is already 103. On the far ridge at the right it is 193, and the sky above is only around 215. So the haze adds light to every shadow, more with every metre. The far hills have almost lost their black, which is why they look like paper cut outs with no texture.
+
+Leonardo wrote this down five hundred years ago as advice to painters. In Jean Paul Richter's translation he gives a rule, "if one is to be five times as distant, make it five times bluer." The haze in this photo does the same job without a brush. It grades the frame by distance, so you know what is near and what is far without any other help.
+
+## Where the sun hides
+
+There is no sun in the frame and no shadow you could point to. But the water knows where it is. Look at the small bright points on the ripples. These are glints, little mirrors of the sun on tilted bits of water.
+
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/04-light.webp" width="947" height="950" alt="Right half of the photo with an arrow from the band of sun glints on the water up to the hazy sky" loading="lazy" decoding="async" /><figcaption>The glints sit almost all on the right side of the water, so the sun stood ahead and to the right.</figcaption></figure>
+
+If you count every patch of water brighter than 235, you get 68 of them, and 61 sit in the right half of the frame. The densest band lies just below the horizon on the right. Glints only show where the sun is roughly in front of you, so the sun stood ahead of the camera and off to the right, somewhere behind that pale sky.
+
+The light itself is soft. The haze works like a huge sheet of tracing paper over the bay, so shadows under the gunwales are weak and cool and nothing has a hard shadow line. That light is kind to detail and bad at drama, and this photo does not want drama. The hour is harder. Glints far into the foreground hint at a sun that is not very low, but haze makes that a weak reading.
 
 ## A frame built like a target
 
-The composition is unfashionable in a way I like. The rule of thirds says to put the subject on a third. This photographer put the ship almost dead centre, roughly halfway across and halfway down. The visible waterline sits at about 53 percent from the top, so sky and sea split the frame nearly in half.
+The rule of thirds says to put the subject on a third. This photographer put the ship in the middle. The ship stands about half way across and half way down.
 
-Centring usually makes a picture static. Here the surroundings rescue it by pointing inward. The left hill slopes down toward the middle. The right hill mass also falls toward the middle. Together they make a shallow V with the ship at its point. In the foreground the boats fall into two loose clusters, left and right, and leave an open lane of water between them that runs up the frame to the ship. Even the spray has a job. It arcs back toward the boulder on the left, so the eye travels from the red hull along the water to the rock and down into the boats again. The picture is a target, and every ring of it leads to the bullseye.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/05-target.webp" width="1400" height="934" alt="Full photo with a thirds grid and two lines along the hill slopes meeting near the ship" loading="lazy" decoding="async" /><figcaption>The ship sits in the centre cell, and the two hill lines fall toward it from both sides.</figcaption></figure>
 
-The frame is 3:2, the classic 35mm proportion.
+A centred subject is often dull. Here the frame saves it by pointing inward. The left headland slopes down to the right, and the skyline of the big ridge on the right falls toward the ship from the other side. Together they make a wide V, and the ship sits near its point. In the bottom third the boats fall into a left and a right group, and between them there is a lane of open water that runs up toward the ship. Even the jet has a job. It goes left, toward the boulder, so your eye runs from the hull along the arc to the rock and back down into the boats.
 
-## Haze is the real subject
+It is a target, and every ring leads to the bullseye. The frame is 3 by 2, 1894 by 1263 pixels, the classic 35mm shape.
 
-Without the haze this is a postcard. With it, it is a lesson in aerial perspective. Air scatters light, so the more air between you and an object, the paler, lower in contrast and bluer that object becomes.
+## Where the camera stood
 
-You can watch it happen in four steps. The nearest boats have real shadows, readable letters and true blacks under their motors. The boulder, a little farther out, already looks lifted, its darks turned to grey. The ship is softer again, and its red has been thinned toward brick and coral. The hills are flat blue-grey cutouts with no texture at all, and the farthest ridge is barely a tone darker than the sky.
+You can see a little into the boats, but not much. On the small blue dinghy at the front right you see the inside of the far wall and a seat, and no floor.
 
-I measured the brightness across the frame row by row. The sky near the top averages around 218 on a 0 to 255 scale. The band around the waterline sits near 185. The foreground water near the bottom drops to around 110. The haze does the tonal work a darkroom printer would otherwise do by hand.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/06-vantage.webp" width="1400" height="259" alt="Bottom strip of the photo with the blue dinghy boxed and a dark round buoy circled" loading="lazy" decoding="async" /><figcaption>The dinghy shows its rim and seat but no floor, and the buoy stays round.</figcaption></figure>
 
-## Light from somewhere ahead
+That gives the angle. From water level you would see no inside at all, and from high up you would look onto the floor. This is in between, about 10 degrees down. With the nearest boats some 30 to 60 metres away, that puts the camera roughly five to ten metres above the water, on a seawall, a pier or a promenade.
 
-There is no visible sun, but the water tells you where it is. The specular glints, those tiny bright points on the ripples, cluster on the right half of the frame, close to the horizon and among the right-hand boats. That places the sun in front of the camera and off to the right, hidden behind the haze.
-
-The quality of the light is soft. Shadows under the gunwales are weak and cool, never deep. The haze acts as a giant diffuser stretched over the whole bay, which is why nothing in the frame has a hard edge of shadow. The glints reaching well into the foreground suggest a sun that is not very low, perhaps somewhere between mid morning and mid afternoon, but haze makes this a weak reading and I would not bet on it.
-
-## One warm note in a grey picture
-
-The palette is narrow. A grey-white sky. Water that leans slightly green and cyan, which shows in the numbers too, where the green channel runs a little above red in the lower half. Blue-grey hills. Blue boat hulls, one orange-brown wooden hull, a few pink and orange buoys.
-
-Against that, the ship's red is the single warm accent in the middle distance. It is not a loud red. The haze has milked it down. But red and green-teal sit opposite each other on the colour wheel, so even a muted red against teal water reads strongly. In flat light you do not need saturation everywhere, only one place where colour happens.
+The lens shows in the shapes. Round buoys stay round, even near the edges, so there is no wide angle stretch. The ship looks big for something so far away, but the layers are not squashed flat the way a long lens squashes them. That points to a normal or short tele lens, maybe 50 to 85mm in full frame terms. If the ship is about 30 metres long, a common size for a harbour tug, then at 50mm it stood about 350 metres out, and at 85mm about 600 metres. Both fit what you see.
 
 ## The moment the water is up
 
-A ship sitting on a hazy sea is not a picture. A ship throwing water is. The whole frame depends on the arc being out, and fully out, at the moment of exposure. Its shape is a single thin stream that thickens and frays as it travels, ending in a faint pale patch where it meets the sea. There is no visible rainbow, which fits the diffused light, since a spray rainbow needs direct sun behind the viewer.
+A ship on a hazy sea is not a picture. A ship throwing water is. Everything depends on the arc being out when the shutter opened.
 
-What the ship is doing, the frame does not say. Vessels like this, with a red hull, a tall mast and raised platforms, often turn out to be fireboats or fire-fighting tugs, and those throw water for drills, tests and ceremonial salutes. A small white line at the bow suggests it is moving slowly to the left. Whether the photographer waited for the arc or was simply there when it rose, the shutter went while it hung over open water.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/07-jet.webp" width="450" height="230" alt="Crop of the water jet leaving the ship's roof and falling into the sea ahead of the bow" loading="lazy" decoding="async" /><figcaption>The jet leaves the nozzle on the roof and lands in the sea about 170 pixels to the left.</figcaption></figure>
 
-## Reading the lens and the vantage
+Look at the shape. The jet leaves a nozzle on the roof, goes out flat and then falls. Its highest point is barely above the nozzle, and it lands as a pale patch on the water about 170 pixels to the left of where it started. It is faint, close in tone to the haze behind it, so it is more a line of light than a solid thing. There is no rainbow in it, which fits, because a rainbow in spray needs a sun behind you, and this sun stood in front.
 
-You can see into the boats. The floor of the blue dinghy, the inside of the wooden hull, the top of the tarpaulin load are all visible. So the camera was raised above the water, most likely on a seawall, pier or promenade, looking slightly down. A rough geometric estimate from how the boat rows stack up in the frame puts the camera somewhere around three to seven metres above the water.
+Wislawa Szymborska opens a poem, in the English of Stanisław Barańczak and Clare Cavanagh, with the line "Nothing can ever happen twice." A jet of water is the perfect proof. The ship can spray all afternoon, but the arc never takes this shape again. Waited for or lucky, the frame holds one shape out of thousands.
 
-The lens reads as normal to short telephoto, maybe 50 to 85mm in full frame terms. The reasoning goes like this. The foreground boats are not stretched or bulging, as they would be with a wide lens close up. The ship looks large for a vessel that is perhaps ten to twenty times farther away than the nearest boat. The layers of boats, rock, ship and hills feel gently stacked, but not crushed flat the way a 300mm lens would crush them. Lines stay straight, with no visible barrel distortion.
+## Reading the shutter from the glints
 
-Everything from the nearest boat to the hills looks equally in focus. The softness in the distance comes from air, not from a shallow depth of field.
+There is no EXIF, so every setting here is a reading, not a fact. The best clue for the shutter is not the jet. It is the glints.
 
-## Guessing the exposure
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/08-glints.webp" width="394" height="200" alt="Full-size crop of rippled water with tiny bright sun glints" loading="lazy" decoding="async" /><figcaption>A full size crop of the water. Each glint is a point of one to four pixels, not a streak.</figcaption></figure>
 
-There is no EXIF, so these are readings, not facts.
+Each glint is a tiny moving mirror. If the shutter stays open long, the moving water drags it into a short line. Here the biggest glint is 7 by 2 pixels and most are 1 to 3 pixels, round points. That points to about 1/250 s or faster. Now the side by side. At 1/30 s the same glints would turn into small dashes, the ripples would smooth into a soft sheen, and the jet would become a pale veil with no edge. It would be a calmer picture, maybe a prettier one, and the event would almost vanish.
 
-Start with the old Sunny 16 rule. In bright sun at ISO 100 you can expose at about f/16 and 1/100 s. Hazy sun loses roughly a stop, so f/11 at 1/100 s, or the same exposure at f/8 and 1/200 s.
+Start from the old Sunny 16 rule. In bright sun at ISO 100 you can expose at f/16 and 1/100 s. Hazy sun loses about a stop, so f/11 at 1/100 s, or f/8 at 1/200 s. Put the clues together and the best guess is f/8, between 1/250 s and 1/500 s, at ISO 100 to 200. The sky tops out at 234 and nothing outside the glints hits 255, so the highlights were held.
 
-Now look for clues. The spray shows no streaking and the glints are small points rather than short lines. On moving water those glints are a sensitive test, and they suggest a shutter around 1/250 s or faster. Depth of field runs from the near boats to the hills, which at these distances and a normal lens needs only a moderate aperture. The visible dust spot points the same way, since sensor dust shows up more as you stop down, and becomes a soft, faint blob at middling apertures.
+## Aperture and what the air does
 
-Put together, my best guess is about f/8, somewhere between 1/250 s and 1/500 s, at ISO 100 to 200. The sky shows no clipping. Its brightest values stop at around 235 out of 255, so the highlights were held, perhaps with a slight bias toward underexposure that kept the haze grey instead of white.
+Everything from the nearest boat to the hills looks equally in focus. The painted number on the wooden boat is crisp, and the far ridge is soft. That softness is not the lens.
 
-## Digital and the dust spot that gives it away
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/09-depth.webp" width="1400" height="934" alt="Full photo with boxes on the sharp painted boat number and the soft far ridge" loading="lazy" decoding="async" /><figcaption>The near number is sharp, the far ridge is soft, and the haze makes the difference, not the focus.</figcaption></figure>
 
-At about 56 percent across and 22 percent down, there is a soft, dark, round blob in the sky. It is roughly 13 percent darker than the sky around it, with no edges and no shape. This is sensor dust, a speck sitting on the glass in front of a digital sensor, cast as a blurred shadow onto the image.
+You can check it with simple maths. At 85mm and f/8 the hyperfocal distance is about 30 metres. Focus there and everything from about 15 metres to the horizon is sharp, which covers every boat in this frame. Now the side by side. At f/2.8 the hyperfocal distance jumps to about 86 metres. Focus on the ship and the near boats go soft, and the picture turns into a ship with a blurred front. That is a different picture, one about the ship alone.
 
-Dust on a scanned negative usually turns up as sharp white specks or hairs in the final picture, because it blocks light on the negative. Dust on a sensor shows up as a soft dark disc. This spot is the second kind. Add the absence of any grain structure, a clean and smooth sky with only faint noise, and a 3:2 frame, and the picture reads as digital, most likely from a camera with interchangeable lenses, since phones with sealed lenses rarely collect dust on the sensor. The file is a small web export, 1894 by 1263 pixels, so finer clues are hard to judge.
+So the ridge is soft because of air. The haze lowers its contrast until the edges go, and your eye reads low contrast as blur. No lens caused it and no lens could fix it.
 
-## Where it sits in the tradition
+## Digital and how you can tell
 
-The half-and-half horizon brings Hiroshi Sugimoto's Seascapes to mind, black and white pictures of the sea, each split exactly in half by the horizon. This frame keeps boats and a ship, but shares his interest in how little a sea picture needs.
+Film or digital is a fair question for an older photo, and here the file answers it.
 
-Further back, Gustave Le Gray's sea pictures of the 1850s made the sky and water themselves the event. The tonal quiet, with forms dissolving into mist, is close to what James McNeill Whistler did in his river nocturnes, where colour is reduced to a few related tones and the scene is half hidden. And the use of soft, hazy light with a single colour accent belongs to the colour work that Joel Meyerowitz argued for when colour was not yet taken seriously as art, with Cape Light as the classic example of patient looking at sea, air and light.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/10-grain.webp" width="350" height="90" alt="Full-size crop of the wooden boat's painted name and number, smooth with no film grain" loading="lazy" decoding="async" /><figcaption>A full size crop of the painted name and number. Smooth paint and a little compression, no grain.</figcaption></figure>
 
-## Exercises you can try
+Measure a flat patch of sky, 60 by 60 pixels. The brightness varies by about one level out of 255. Film grain, even fine grain scanned well, makes a sky crawl a lot more than that. Up close the painted letters on the wooden boat show soft edges and small compression blocks, the marks of a JPEG, and no grain at all. Add the 3 by 2 frame and the dust spot you will meet in a moment, which is the soft dark kind a digital sensor makes, and this reads as a digital camera, most likely one with interchangeable lenses. The file is a small web export, so finer clues are lost.
 
-First, shoot haze in layers. On a hazy day, find a view with at least three distances, something near, something middle, something far. Use a normal lens, f/8, and expose for the sky. Then look at the files and see how the haze grades the layers for you.
+## Half sea and half sky
 
-Second, find your single accent. Walk a harbour, a car park or a street in flat light and photograph only frames where one object carries all the colour. Keep everything else grey or muted. You learn fast how much weight one colour can carry.
+The waterline sits at about 53 percent from the top. Sky and sea split the frame almost in half, with the ship standing on the seam.
 
-Third, test for dust. Set your camera to f/16, point it at a plain bright sky or a white wall, defocus the lens and take a picture. Any soft dark spots you see are on the sensor, and you now know where to look before an important shoot.
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/11-half.webp" width="1400" height="934" alt="Full photo with a line along the waterline, a little below the middle of the frame" loading="lazy" decoding="async" /><figcaption>The line marks the waterline, a little below the middle of the frame.</figcaption></figure>
 
-Fourth, practise waiting for the gesture. Pick a repeated event, a fountain cycling, a crane swinging, a wave hitting a wall. Set 1/500 s and shoot only at the peak.
+That half and half split has a famous home. Hiroshi Sugimoto has photographed the sea since 1980 for his series Seascapes, and every picture is split exactly in half by the horizon. Sea, air and nothing else. This frame keeps boats and a ship, but it shares his idea that a sea picture needs very little.
 
-## Making it today on a phone or a camera
+The haze has an older home. James McNeill Whistler painted the Thames at dusk as nocturnes, a few close tones and forms half gone. In his Ten O'Clock lecture of 1885 he said "the evening mist clothes the riverside with poetry, as with a veil, and the poor buildings lose themselves in the dim sky." That is what happens to the hills here. The haze takes away their detail and leaves only their shape, and plain hills become something you want to look at.
 
-On a phone, use the 2x or 3x lens rather than the main wide lens, so the ship stays large and the hills stay close behind it. Tap on the sky and drag the exposure slider down until the sky holds grey. Lock exposure and focus. Turn off scene enhancement if you can, since phones like to clear haze. Shoot a burst when the spray rises, then pick the frame with the fullest arc.
+## The one mistake
 
-On a camera, put on something between 50 and 85mm full frame equivalent. Aperture priority at f/8, ISO 100 or 200, and check that the shutter speed stays at 1/250 s or faster. Use minus a third of a stop of exposure compensation to protect the sky. Shoot raw, so the grey gradients keep their smoothness when you edit.
+The mistake is small and it sits in the worst place. At about 56 percent across and 22 percent down, there is a soft dark blob in the sky, about 30 pixels wide.
 
-## What could be better
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/12-dust.webp" width="420" height="280" alt="Crop of empty grey sky with a faint dark dust spot circled in red" loading="lazy" decoding="async" /><figcaption>Sensor dust, a soft dark disc about 11 percent darker than the sky around it.</figcaption></figure>
 
-The dust spot is the obvious flaw. It sits in a large, smooth sky that has nothing else to look at, so once you see it you cannot stop seeing it. It takes seconds to remove in any editor.
+It is sensor dust, a speck on the glass in front of the sensor, cast as a blurred shadow. Its centre is about 194 on the 0 to 255 scale and the sky around it is about 219, so it is roughly 11 percent darker. That is not much. But it sits in a big empty sky that has nothing else to look at, and once you see it you cannot stop seeing it.
 
-The sky itself is also generous. Nearly half the frame is empty grey, which gives the picture its calm, but a slightly tighter crop from the top, or a lower camera angle, would bring the hills and ship forward. The boats at the left and right edges are cut off in a way that looks accidental rather than chosen. And the floating rubbish in the foreground, a yellow scrap and a green bottle, catches the eye more than it should. A small step to the side might have pushed it out of frame or made it part of a point.
+The fix takes ten seconds with any spot or heal tool. The better fix is before you shoot. Dust shows more as you stop down, so on a clear sky at f/8 or f/11 it is there. Take one test frame of plain sky and zoom in before a day like this. The cut off boats at the edges and a few bits of rubbish in the water cost less. The dust is the one to fix.
 
-None of that breaks the picture, but it keeps it from being as clean as its idea.
+## Try this
+
+This picture is really about layers, and you can practise that in twenty minutes.
+
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/13-layers.webp" width="1300" height="800" alt="Crop from foreground boats to the hills with near, middle and far labelled" loading="lazy" decoding="async" /><figcaption>Three layers, near, middle and far, each one paler than the one before.</figcaption></figure>
+
+On the next hazy or misty day, find a view with something near, something in the middle and something far. Use a normal lens or your phone's 2x lens, set f/8 if you can, and tap the sky to lock exposure so it stays grey and not white. Take one frame, then look for one small thing with colour in the middle layer and take a second frame with it in the centre. At home, compare the darkest part of each layer and see how the air has lifted it, and check your sky for dust while you are there.
 
 ## Why it stays with you
 
-What stays is the mismatch between event and mood. A ship firing a jet of water is a loud thing, an act of force and noise and display. In this frame it barely makes a sound. The haze absorbs it, the centred composition holds it still, the boats in the foreground ignore it. It is a picture about weather turning a spectacle into a whisper, made by someone who stood back and let the air do the work.
+Go back to the red. It measured close to grey and you still saw red, and the whole picture works like that.
+
+<figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/14-quiet.webp" width="920" height="500" alt="Crop of the ship throwing its arc of water above the rock and the moored boats" loading="lazy" decoding="async" /><figcaption>The loud event, a ship throwing water, held quiet by the haze.</figcaption></figure>
+
+A ship throwing a jet of water is a loud thing, force and noise and show. In this frame it barely makes a sound. The haze takes the sound out, the centred frame holds it still, and the boats in front ignore it. What is left is a quiet picture made of small amounts, a little warmth, a thin line of water and a few glints.
+
+Oscar Wilde had a character say that people see fogs "not because there are fogs, but because poets and painters have taught them the mysterious loveliness of such effects." Maybe that is the point here. The haze was there for everyone on that seawall. The photo is what teaches you to see it.

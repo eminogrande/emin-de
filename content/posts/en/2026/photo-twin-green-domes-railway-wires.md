@@ -1,9 +1,9 @@
 ---
 title: "Two green domes behind railway wires: reading a tilted city photo"
 seo_title: "Twin Green Domes Behind Railway Wires | emin.de"
-description: "A critic's reading of a tilted, upward city photo of two green domes behind railway wires: composition, light, lens, exposure and what to try."
+description: "A close reading of a tilted look up past railway wires at two green domes: layers, hard light, a 23 degree roll, the smeared girder, are-bure-boke, one mistake and a drill."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -13,138 +13,149 @@ provenance: ai_generated
 ai_assisted: true
 reviewed_by_human: false
 image: "/photos/twin-domes-20261013.jpg"
-tags: ["photography","street photography","architecture photography","dutch angle","phone photography","exposure"]
+tags: ["photography","street photography","architecture photography","dutch angle","motion blur","phone photography"]
 source_links:
-  - { title: "Alexander Rodchenko (Wikipedia)", url: "https://en.wikipedia.org/wiki/Alexander_Rodchenko", note: "The constructivist who shot buildings from far below to delay recognition." }
-  - { title: "Lee Friedlander (Wikipedia)", url: "https://en.wikipedia.org/wiki/Lee_Friedlander", note: "Layered street frames and the book America by Car, shot through car windows." }
-  - { title: "Dutch angle (Wikipedia)", url: "https://en.wikipedia.org/wiki/Dutch_angle", note: "What a canted frame is and what it does to a viewer." }
-  - { title: "Perspective control (Wikipedia)", url: "https://en.wikipedia.org/wiki/Perspective_control", note: "Why verticals converge when you tilt up, and how shift lenses and software fix it." }
-  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The old daylight exposure rule used for the estimates here." }
-  - { title: "Exposure (photography) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Exposure_(photography)", note: "Shutter, aperture, ISO and the latitude of film and digital." }
+  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
+  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the camera making everyone a tourist." }
+  - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the instantaneous photograph and on the picture's edge." }
+  - { title: "Saul Leiter in Manhattan (The Guardian)", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter on what is hidden, and his pictures through windows and mirrors." }
+  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "Lange on the camera teaching you to see without one." }
+  - { title: "Matsuo Bashō (Wikiquote)", url: "https://en.wikiquote.org/wiki/Matsuo_Bash%C5%8D", note: "Every day is a journey, Sam Hamill's translation of Narrow Road to the Interior, page 3." }
+  - { title: "Provoke (magazine) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Provoke_(magazine)", note: "The are-bure-boke style, rough, blurry, out of focus." }
+  - { title: "Daidō Moriyama (Wikipedia)", url: "https://en.wikipedia.org/wiki/Daid%C5%8D_Moriyama", note: "A Hunter, 1972, shot while driving past, with skewed angles and blur." }
+  - { title: "Alexander Rodchenko (Wikipedia)", url: "https://en.wikipedia.org/wiki/Alexander_Rodchenko", note: "Odd angles to postpone recognition, and his line about the key-hole." }
+  - { title: "Lee Friedlander (Wikipedia)", url: "https://en.wikipedia.org/wiki/Lee_Friedlander", note: "Layered street frames and America by Car." }
+  - { title: "Dutch angle (Wikipedia)", url: "https://en.wikipedia.org/wiki/Dutch_angle", note: "What a rolled frame does to a viewer." }
+  - { title: "Hyperfocal distance (Wikipedia)", url: "https://en.wikipedia.org/wiki/Hyperfocal_distance", note: "Why a tiny lens gets everything past a few metres sharp." }
+  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The daylight exposure rule used for the shutter estimate." }
 tldr:
-  - "A steep, tilted look up past railway wires at two pale green domes, framed by modern towers and a clear blue sky."
-  - "The image reads as a small-sensor digital snapshot in hard midday sun, likely taken through a window, with a fast shutter and deep focus."
-  - "It works as a glance, not a monument, and it teaches how tilt, layers and one colour accent can carry a frame."
+  - "A steep, rolled look up past railway wires at two pale green domes on cream towers, with modern glass behind and a rust orange girder below."
+  - "It reads as a small-sensor digital frame shot through a moving window in high sun, and the smeared girder says the shutter was slower than the sun alone would need."
+  - "The one mistake is the grey curtain in the top right, and a step closer to the glass or a crop from the top and right fixes it."
 basically:
-  what-you-see-first: "Two pale green domes on stepped cream towers rise behind a web of railway wires under a hard blue sky."
-  a-frame-that-leans: "The whole frame tips sideways and points up, so every building leans together toward a point off the page."
-  layers-from-glass-to-sky: "The picture stacks six layers, from a blur near the lens to the wires, the bridge, the domes and the sky."
-  hard-light-high-sun: "A high, hard sun from behind the camera lights the cream fronts and drops crisp shadows under every terrace."
-  cream-mint-and-one-orange-girder: "The palette is cream, mint, teal and blue, and one rust orange girder gives the eye a place to land."
-  a-glance-not-a-pose: "Everything in the frame suggests a passing glance from a moving seat rather than a planned architectural view."
-  what-the-lens-was-probably-doing: "A moderately wide lens, maybe 28mm equivalent, with the strong convergence coming from tilt, not distortion."
-  reading-the-exposure: "Bright sun and deep focus suggest a fast shutter near 1/2000 s, a fixed small aperture and a base ISO."
-  digital-not-film: "Smooth sky noise, deep focus, a 3:4 frame and no grain point to a small-sensor digital camera, likely a phone."
-  where-it-sits-in-the-tradition: "The frame echoes Rodchenko's steep angles, Friedlander's layered car-window views and the Dutch angle in film."
-  what-you-can-try: "Three exercises to train the eye: shoot up on purpose, shoot through things, and hunt for one colour accent."
-  making-this-frame-today: "On a phone, wipe the glass and lock exposure on the domes. On a camera, try 1/1000 s, f/8, ISO 100."
-  what-could-be-better: "The tilt feels unplanned, the corner curtain steals attention, and glare from the glass flattens the bottom."
-  why-it-stays: "It shows how a city really meets us, at an angle and in passing, with wires between us and the view."
+  two-domes-in-a-net-of-wire: "\"Seeing comes before words.\" John Berger. You find the two domes before you can name one wire."
+  a-wedding-cake-in-cream: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Sontag. The domes are visiting too."
+  six-layers-deep: "Count planes, not buildings. Six layers from curtain to sky is why a messy frame still reads."
+  hard-light-high-sun: "Short shadow under every balcony means a high sun. Hard light carves ornament and is cruel to faces."
+  a-grid-knocked-over: "The wires rise 23 degrees. In life they hang level. The frame tipped, not the city."
+  one-orange-girder: "Orange sits opposite blue. One rusty girder holds the whole bottom third against a whole sky."
+  what-the-lens-did: "Sharp from a few metres to the horizon, soft at a few centimetres. That is a tiny sensor talking, not a choice."
+  the-shutter-and-the-smear: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. The red girder proves it."
+  pixels-not-grain: "No grain, soft halos, colour that bleeds at 100%. The file says digital and small, and nothing more."
+  through-the-glass: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here a curtain and a window frame do the hiding."
+  are-bure-boke: "Are, bure, boke. Rough, blurry, out of focus. Japan's 1960s rebels made a style of what a moving window does for free."
+  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Move that edge off the curtain."
+  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. A window seat is a classroom."
+  the-journey-is-home: "\"Every day is a journey, and the journey itself is home.\" Bashō, tr. Sam Hamill. Two domes, seen from a seat that keeps moving."
 ---
 ![Looking up past railway wires at towers and a building with two green domes](/photos/twin-domes-20261013.jpg)
 
-## What you see first
+## Two domes in a net of wire
 
-Two domes. They are pale green, the chalky mint of old copper, and each one sits on top of a stepped cream tower like the last tier of a cake. Your eye finds them before it finds anything else, even though they are not large in the frame and even though dozens of black wires cross the picture beneath them.
+Two domes. They are pale green, the chalky mint that old copper turns, and your eye lands on them before it lands on anything else in the frame. That is strange when you think about it, because they are small. Each one is about a tenth of the picture's width, and between you and them run dozens of black wires, a steel mast, a rust red bridge and a window you are looking through.
 
-Only after the domes do you notice the rest. A small grey stone tower with a steep dark roof stands between them. A modern block of green glass rises right behind, and a taller grey tower with a grid of square windows looms on the right. A rust orange steel bridge runs across the lower third. Above it all is a sky of clean, hard blue with no cloud in it.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/01-domes.webp" width="900" height="1204" alt="Full frame with the two green domes circled" loading="lazy" decoding="async" /><figcaption>The two domes, small in the frame and still the first thing you see.</figcaption></figure>
 
-Then you notice that none of it is standing straight.
+The reason is shape and colour. Everything else in this picture is a rectangle or a line. The domes are the only round things, and their green is the only soft colour that is not sky. The eye is lazy and it goes to the odd one out. So the picture already works before you know what it shows, and only after the domes do you notice that nothing in it stands straight.
 
-## A frame that leans
+## A wedding cake in cream
 
-This picture is tilted in two ways at once. The camera points steeply up, maybe thirty to forty five degrees above the horizon, judging by how much of the terrace undersides we see. That alone makes the verticals converge. The towers taper toward a point somewhere above the frame, the way a street of tall buildings looks when you stand at the bottom of it and crane your neck.
+Look closer at what holds the domes up. Each one sits on an eight-sided drum with an arched window, and the drum sits on a tower that steps back floor by floor, with a white railing on every step. It's a wedding cake in cream paint, the kind of tower you know from European cities around 1900, set down here among glass offices.
 
-The frame is also rolled sideways. The verticals all tip their tops to the left by twenty degrees or more, and the wires and the bridge, which in life must run roughly level, climb from left to right. Filmmakers call this a Dutch angle. It produces unease, a sense that the ground is not where it should be.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/02-detail.webp" width="774" height="587" alt="Crop of the cream towers with the stone turret and the glass link marked" loading="lazy" decoding="async" /><figcaption>Between the two towers sit a rough stone turret and a dark glass link, old and new in one block.</figcaption></figure>
 
-What makes the geometry interesting is that the two tilts agree. The domes form a rising diagonal, the left one lower, the right one higher, and that line runs parallel to the wires. The leaning towers cross the wires at a near right angle. So the frame is built on a grid, just a grid that has been knocked over. The domes land close to the vertical thirds, the left one about a third of the way in, the right one about two thirds. Whether that was planned or lucky, it works.
+Between the two towers there is more. A small round turret of rough grey stone with a pointed slate roof, like a piece of a castle. Above it a dark glass link joins the towers. Behind everything rises a modern block of teal glass with pale stone fins, and on the right a grey tower with a grid of square windows. So in one crop you get three ages of building, castle, belle époque and office glass, and none of them is from the place they stand in, or all of them are. The picture doesn't tell you, and you don't need it to. What you need is the clash, and the detail gives it.
 
-## Layers from glass to sky
+## Six layers deep
 
-Count the planes in this picture and you get six. Closest is a dark band across the top edge and a soft grey shape in the top right corner, folded like fabric. Both are badly out of focus, the kind of blur that only happens when something sits a few centimetres from a small lens. My reading is a window frame and a curtain, which would mean the photographer was inside a bus or a train. A sleeve is possible for the grey shape. The haze over the lower half supports the glass theory.
+Count the planes in this picture, not the buildings. You get six. Nearest is the grey curtain top right and a dark window frame along the top edge, both just centimetres from the lens. Then soft silver pipes bottom left and a white barrier bottom right. Then the wires and the lattice mast. Then the orange bridge. Then the cream towers with the domes. Then the glass towers and the sky.
 
-Next come blurred pipes in the bottom left and a white barrier in the bottom right, smeared in a way that looks more like movement than focus. Then the wires and the grey lattice mast that carries them. Then the orange bridge. Then the cream building with its domes. Then the glass towers behind. Then sky.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/03-layers.webp" width="900" height="1204" alt="Full frame with the curtain, the wires and a dome circled as three depth layers" loading="lazy" decoding="async" /><figcaption>Three of the six layers, from a curtain at centimetres to a dome a long way off.</figcaption></figure>
 
-This is how cities actually present themselves. You rarely get a clean line of sight to anything. You get the thing you wanted to see, and between you and it, the infrastructure that runs the place.
+A frame this busy should be a mess, and it nearly is. What saves it is that every layer has its own look. The near layer is blurred, the wire layer is thin and black, the bridge layer is warm, the dome layer is cream and mint, the back layer is cool glass. When each plane has its own texture and colour, the eye can sort them without trying.
 
 ## Hard light, high sun
 
-The light is direct sun from a cloudless sky, and it reads as late morning to early afternoon. The shadows under each terrace drop almost straight down and are short and crisp, which points to a high sun. The fronts of the towers that face the camera are evenly lit and creamy, while the faces turned away go a touch greyer. That puts the sun broadly behind the photographer, perhaps over the left shoulder.
+The light is plain sun from a sky with no cloud. Look under the balconies on the left tower. Each slab throws a thin, hard shadow straight down onto the wall below it, and the shadows are short. Short and hard means a high sun and no diffusion, so somewhere from late morning to early afternoon.
 
-Hard frontal light is often called unflattering, and for faces it can be. For architecture with ornament it is useful. Every cornice, every rib on the domes and every terrace railing gets its own shadow line. The stepped towers read as stepped because the light carves each tier.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/04-light.webp" width="644" height="553" alt="Crop of the left tower with the short balcony shadows boxed and true up marked" loading="lazy" decoding="async" /><figcaption>Thin hard shadows under each balcony, and the arrow shows where up really is.</figcaption></figure>
 
-There is no flare ghost in the frame. But the lower half carries a milky veil that lowers contrast. That is veiling glare, the kind you get from shooting through glass that catches light at an angle.
+The faces turned toward you are bright and even. Measure both halves of each dome in the file and the left half comes out only a hair brighter than the right, one to two percent. So the sun is behind the camera, maybe a touch to the left, and it hits the domes almost head on. That is why the ribs on the domes look soft. Frontal light kills the shadow side of a curve. If the sun had come from the side, the same ribs would read like the segments of an orange. Hard frontal light is bad news for a face and good news for this kind of building, because every cornice and every railing gets its own black line and the stepped towers look stepped.
 
-## Cream, mint and one orange girder
+## A grid knocked over
 
-The colour here is quiet, and that is its strength. Cream and tan for the main building. Mint for the domes. Teal for the glass tower behind, which echoes the domes and makes a soft green on green rhyme. Neutral greys for the concrete, the mast and the tall right tower. Cerulean for the sky, deepest at the upper left and paler toward the buildings.
+Now the tilt. The camera points steeply up, so the towers lean in toward a point above the frame, the way a street of tall buildings looks when you crane your neck. And it's also rolled sideways. Trace one wire on the left. In life it hangs level, and in the frame it climbs about 23 degrees from left to right. The bridge and the floor lines of the towers climb with it.
 
-Then one exception. The bridge, and in particular the X-braced truss at its right end, is a saturated rust orange. It is the warmest and loudest colour in the picture, and it is the complementary partner of the blue sky. Without it the bottom third would be grey clutter. With it the eye has an anchor down there, and the orange pulls against the domes above, so the picture has two poles.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/05-tilt.webp" width="900" height="1204" alt="Full frame with a thirds grid and one wire traced, rising about twenty three degrees" loading="lazy" decoding="async" /><figcaption>One wire, level in life, climbs about 23 degrees here. The right dome sits close to a thirds crossing.</figcaption></figure>
 
-White balance looks close to neutral, maybe a little warm in the midtones. A faint yellow green cast in the haze could come from tinted glass or from the camera's processing. I can't separate the two from the file alone.
+Film people call this a Dutch angle and use it for unease, a world that is off. But look at what the roll does here. The two domes form a rising line, left one low, right one high, and that line runs almost parallel to the wires. The towers cross the wires at near right angles. So the picture is built on a grid, only the grid has been knocked over. The left dome sits on the left thirds line and the right dome near the top right crossing. Rodchenko shot buildings from far below in the 1920s to make you look twice before you know what you see, and he wrote that you should look at a subject from different points of view, "as if one examined it in the round rather than looked through the same key-hole again and again." This frame is one key-hole, but a crooked one. Straighten it in software and you lose a lot. A 3:4 frame rotated back by 23 degrees keeps only about 48 percent of its pixels.
 
-## A glance, not a pose
+## One orange girder
 
-Nothing here looks set up. There is no tripod precision, no corrected verticals, no wait for a clean background. The foreground blur suggests motion. The curtain intruding at the corner is the sort of thing a photographer with time would move.
+The colours here are quiet. Cream and tan on the towers, mint on the domes, teal on the glass block behind, which rhymes with the domes green on green. Grey for the concrete, the mast and the tall grid tower. And a clean blue sky.
 
-That matters for how we read it. This is not an architectural portrait of a building. It is a record of a glimpse, the moment when something odd comes into view from a moving seat and you lift the camera before it passes. The domes are the surprise, a piece of old world fantasy dropped among office towers and rail gantries. The picture's real subject is that collision, seen for a second.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/06-orange.webp" width="903" height="777" alt="Crop of the lower right with the orange truss circled" loading="lazy" decoding="async" /><figcaption>The X-braced truss, the warmest and loudest thing in the picture.</figcaption></figure>
 
-The place itself is not given. The density of overhead rail wiring, the lattice masts and the mix of towers may read as a Japanese city to some viewers. That is as far as the image allows anyone to go.
+Then one exception. The bridge, and most of all the X-braced truss at its right end, is a deep rust orange. Orange sits opposite blue on the colour wheel, so this one girder pulls against the whole sky. Without it the bottom third would be grey wire and white wall. With it the picture has two poles, mint up top and orange down low, and your eye swings between them across the wires. In a muted street, one strong colour does the work of a spotlight.
 
-## What the lens was probably doing
+## What the lens did
 
-No EXIF data survives beyond the pixel size, so everything here is a reading. The field of view feels moderately wide, something like a 28mm equivalent, the classic phone and compact focal length. It is not an ultra wide. Straight edges at the borders stay mostly straight, with at most a hint of barrel distortion. The dramatic convergence comes from pointing the camera up, not from the lens.
+No camera data survives in the file, so this is a reading. The view feels moderately wide, near a 28mm equivalent, which on a 3:4 frame gives about 50 degrees across the short side. It is not an ultra wide. Straight edges near the borders stay straight, and the strong lean comes from pointing up, not from the lens bending lines.
 
-Depth of field is very deep. The bridge, the domes and the far towers all sit in acceptable focus, while only the objects inches from the lens melt. That pattern fits a small sensor with a short real focal length, where almost everything past a metre or two is sharp. The corners are softer than the centre, which fits both a small lens and the glass in front of it.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/07-focus.webp" width="900" height="1204" alt="Full frame with the sharp buildings boxed in gold and the soft curtain boxed in red" loading="lazy" decoding="async" /><figcaption>Everything far is sharp, the curtain at centimetres is mush. That split is the sensor size talking.</figcaption></figure>
 
-## Reading the exposure
+The focus pattern is the big clue. The bridge, the domes and the far towers are all acceptably sharp, and only the things a hand's width from the lens melt. A phone main camera has a real focal length near 6 mm and an aperture near f/1.8. Its hyperfocal distance comes out around 3 to 5 metres, so focus there and everything from about 2 metres to the horizon is sharp. Now put a full-frame camera with a 26mm lens at the same f/1.8 in the same seat. Its hyperfocal distance is about 12 metres. The domes would still be sharp, but the curtain and the window frame would dissolve into a grey fog, almost gone. Same view, same aperture number, and a very different picture of the near layer.
 
-The old sunny 16 rule says that in full sun you can expose at f/16 with a shutter speed of one over your ISO. At ISO 100 that is f/16 at 1/100 s, or any equivalent, such as f/8 at 1/400 s.
+## The shutter and the smear
 
-If this was a phone, the aperture was fixed and wide, probably somewhere between f/2.2 and f/2.8. At base ISO, likely 50 to 100, holding the same exposure at f/2.8 means a shutter around 1/2000 to 1/4000 s. That fits what we see. The distant buildings show no shake at all, while the nearby pipes still smear, which suggests the vehicle was moving fast enough to blur close objects even at a short shutter speed. Close things cross the frame much faster than far ones.
+Look at the red girder below the truss. Its vertical ribs are smeared along the length of the bridge, and the truss further right is crisper. That is not focus. Focus blur is soft in every direction. This blur has a direction, the direction of travel. Measure the pixel edges on the girder and the ones across that direction come out about half as strong as the ones along it.
 
-The exposure looks well judged for the scene. About one percent of the pixels sit near pure white, mostly in the shiny pipes and the white barrier, and the cream facade keeps its tone. The sky is rich without going dark. A meter that averaged the whole frame would land close to this.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/08-smear.webp" width="600" height="476" alt="Pixel level crop of the red girder with smeared ribs boxed and the sharper truss circled" loading="lazy" decoding="async" /><figcaption>The near girder ribs smear, the further truss holds. Close things cross the frame faster.</figcaption></figure>
 
-## Digital, not film
+The smear is roughly 30 pixels long. On a frame 1290 pixels and about 50 degrees wide, that is around 1.2 degrees of movement. If the window moved at 30 to 60 km/h and the girder was 3 to 10 metres away, it swept across the view fast enough that 1.2 degrees takes between about 1/40 and 1/270 s. A middle guess is near 1/125 s. Here is the fight. Sunny 16 says that in full sun at ISO 50 and f/1.8 a phone would pick something near 1/4000 s, and tinted glass might take one stop of that. So the smear wants a slower shutter than the sun allows. Either the girder was closer and faster than it looks, or the camera kept a slow shutter for its own reasons. The file can't settle it, and it's better to show you the two numbers than to hide one. Side by side, at 1/2000 s the ribs would be crisp and the picture would lose its one sign of speed. At 1/30 s the wires would double and the domes might start to shake.
 
-The clues point to digital, probably a phone. The sky shows fine, even noise rather than the clumped, irregular texture of film grain. The extremely deep focus fits a tiny sensor. The 3:4 aspect ratio is the native shape of most phone sensors, while 35mm film is 3:2. I see no halation glow around the bright edges and no dust or scratches. The image is also mild in its processing. There is no HDR look, no strong sharpening halos, and the shadows look lifted by glare rather than by editing.
+## Pixels, not grain
 
-The file has been resized for the web, so finer compression artifacts are hard to judge. None of this proves a specific camera, and I would not name one.
+Zoom in to 100 percent on the left dome against the glass behind it. The flat glass shows no grain, only soft blotches of slightly different teal. The edge of the dome has a wide, soft light rim. The railing below is mush, the balusters not separated. Colour bleeds past the edges a little.
 
-## Where it sits in the tradition
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/09-pixels.webp" width="258" height="208" alt="Pixel level crop of the left dome against the glass tower" loading="lazy" decoding="async" /><figcaption>At 100 percent, smooth blotches instead of grain, and a soft halo round the dome.</figcaption></figure>
 
-The steep upward angle goes back to Alexander Rodchenko, who in the 1920s photographed buildings from far below or far above to break the habit of seeing things at eye level. He wanted the viewer to look twice before recognising what was in front of them. This frame does a mild version of that.
+All of that points to digital, a small sensor and heavy processing, and the file has been resized and compressed on top. Film grain clumps and changes size with the tones, and you don't see that here. The sky's noise is tiny, about five levels out of 255. The frame is 3:4, the native shape of most phone sensors, while 35mm film is 3:2. Only about 0.6 percent of the pixels sit near pure white and about 1.2 percent near pure black, most of that black in the window frame, so the exposure held both ends. That is as far as the pixels go. They don't name a camera, and neither does this reading.
 
-The layered, cluttered view through a vehicle window belongs to Lee Friedlander, whose book America by Car is built from views through car windows, with mirrors, door frames and dashboards cutting into the scene. Friedlander made the obstruction part of the picture, and so does this one, if less deliberately.
+## Through the glass
 
-Saul Leiter shot New York through steamed glass and past awnings, letting soft shapes fill half the frame while a small sharp detail carried the meaning. The curtain and the window frame here work in that spirit. And the cant itself comes from cinema, where the Dutch angle has long signalled disorientation.
+Along the top edge runs a dark band, the window frame, so close that it is just a soft wedge of navy. In the top right a grey curtain hangs in, folded fabric that you know only by its shape. A small blurred latch hangs under the frame near the middle. Add the catenary wires at seat height and the white barrier, and the most likely reading is a train window.
 
-## What you can try
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/10-window.webp" width="1032" height="863" alt="Crop of the top of the frame with the window frame traced and the curtain labelled" loading="lazy" decoding="async" /><figcaption>The window frame cuts across the top, the curtain hangs in from the right.</figcaption></figure>
 
-Three exercises, each for one walk.
+Saul Leiter made a whole life's work of this. He shot New York through steamed glass, past awnings and in mirrors, letting soft shapes take half the frame while one small sharp thing carried the meaning. Lee Friedlander did it from the driver's seat in America by Car, with door frames and mirrors cutting the scene. Both made the thing in the way part of the picture. This frame does it less on purpose, but it does it. The window tells you where you sat, and that you were passing.
 
-First, shoot up on purpose. Find a building with a strong top and stand close to its base. Make one frame level, one tilted up about thirty degrees, and one tilted up and rolled twenty degrees. Compare them. Notice that a small cant looks like a mistake and a big, committed cant looks like a choice.
+## Are, bure, boke
 
-Second, shoot through something. A train window, a fence, a shop window. Put the lens close enough that the glass edge or a frame softens into a dark shape. Use that shape to block the boring part of the frame.
+In 1968 a small Japanese magazine called Provoke made a style famous with three words, are, bure, boke. Rough, blurry, out of focus. It was a push back against the clean photojournalism and the commercial work of its day. Daidō Moriyama shot for Provoke and kept going. For his 1972 book A Hunter he drove across Japan and shot many scenes as he drove past them, and you can see it in the skewed angles and the blur.
 
-Third, hunt for one accent. Walk a street looking for a single object in a strong colour against a muted scene, like the orange girder here. Build the frame so the accent and your main subject sit on opposite sides.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/11-bure-boke.webp" width="903" height="449" alt="Crop of the bottom of the frame with the motion smear and the defocus blur labelled" loading="lazy" decoding="async" /><figcaption>Bure, the smear from motion, and boke, the soft blur of a pipe too close to focus, in one strip.</figcaption></figure>
 
-## Making this frame today
+This frame has two of the three words. Bure is the girder smear. Boke is the silver pipes bottom left, round and soft, too close for the lens. Are, the rough grain, is missing, because digital processing smoothed it away. Nothing says the person behind this frame meant any of that. The point is that the Provoke photographers made a style out of what a moving window gives you for free. If you read this as a Japanese city, and the wire density and the masts let you, the link sits close. It's a reading, not a fact about the place.
 
-On a phone, press the lens against the window, or close to it, to cut reflections and glare. Wipe the glass first. Tap and hold on the domes to lock focus and exposure, then pull the exposure slider down a little so the cream facade does not clip. Shoot a burst as the view slides past, then pick the frame where the domes clear the wires. Use the main 1x lens, not the ultra wide, which would stretch the corners.
+## The one mistake
 
-On a camera with a 24 to 35mm lens, use shutter priority at 1/1000 s or faster to freeze both the buildings and your own motion, with auto ISO capped at 400. In full sun you will likely land near f/8 at ISO 100. A rubber lens hood pressed to the glass does the same job as pressing the phone.
+The tilt is not the mistake. It's strong enough to feel chosen, and the grid holds. The mistake is the curtain. It fills close to a tenth of the frame in the top right, it is grey on grey against the grid tower, and once you know it is a curtain it tells you nothing more.
 
-If you want the clean architectural version instead, stand still, keep the camera level and use a shift lens or software keystone correction.
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/12-mistake.webp" width="900" height="1204" alt="Full frame with the curtain boxed in red and a tighter crop boxed in gold" loading="lazy" decoding="async" /><figcaption>The red box is dead weight. The gold box keeps both domes, the wires and most of the truss.</figcaption></figure>
 
-## What could be better
+The fix in the seat is simple. Lean in until the lens nearly touches the glass, or push the curtain back with one hand. The fix after the fact is a crop. Cut from the top and the right, keep about the left 87 percent and the bottom three quarters, and you keep both domes, the wires and most of the orange truss while the curtain mostly goes. That is about 65 percent of the pixels, which beats the 48 percent you would keep by straightening. The window frame then stays as a hint, not a weight.
 
-The cant is the frame's best idea and its weakest point. At twenty degrees it is strong enough to notice but not strong enough to look intended. A few degrees more would read as a choice, while a level horizon would read as calm. It sits in between.
+## Try this
 
-The grey curtain in the top right corner takes up a large share of the frame and carries no information once we know it is there. The milky glare across the lower half flattens the bridge and the wires, which are the most graphic elements in the picture. And the wires stop just short of the domes. If one had crossed a dome, the tension between old ornament and modern infrastructure would be sharper. A tighter crop from the top and right would help without losing the story.
+Take a train or tram line that runs past tall buildings and get a window seat on the side facing them. Wipe the glass, press the phone close to it to kill reflections, and use the main lens, not the wide one. Shoot short bursts as anything strange comes into view, and in each burst look for the one frame where nothing crosses your subject and one colour sits opposite it. Do one ride level and one ride rolled about 30 degrees, then compare which roll looks like a choice.
 
-## Why it stays
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/13-crop.webp" width="900" height="1038" alt="The same photo cropped tighter from the top and the right, most of the curtain gone" loading="lazy" decoding="async" /><figcaption>The tighter version. Aim to frame like this in the seat, not later.</figcaption></figure>
 
-Most pictures of ornate buildings show them alone, cleaned up and straightened, as if the city around them did not exist. This one shows the domes the way most people actually meet them. At an angle, from a seat, for a second, through glass, with a tangle of cables in the way.
+## The journey is home
 
-That is a truer account of looking at a city than the postcard. The domes are still the point, and they still win the eye. But the picture admits what it cost to see them, and that admission is why it holds.
+Back to the two domes. At the start they were the odd round thing in a frame of lines. Now you know what it cost to see them. A seat, a window, a curtain, a girder going by too fast for the shutter, and a few seconds.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/14-domes.webp" width="774" height="863" alt="Tight crop of the two domes with wires running below them" loading="lazy" decoding="async" /><figcaption>The wires stop just below both domes. Nothing crosses them.</figcaption></figure>
+
+Near the start of Narrow Road to the Interior, Bashō writes that every day is a journey, and in Sam Hamill's translation the journey itself is home. Read through that, this is not a picture of a building. It's a picture of passing a building, and the passing is the subject. Most photos of domes like these show them alone, cleaned up and straight, as if the city around them did not exist. This one shows them the way people actually meet them, at an angle, through glass, with the wires in the way. The domes still win the eye. The picture just doesn't pretend it was easy.

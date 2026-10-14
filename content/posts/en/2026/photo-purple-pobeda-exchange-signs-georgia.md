@@ -1,9 +1,9 @@
 ---
-title: "A purple Soviet car under the exchange signs, read like a critic"
+title: "A purple Pobeda under three exchange signs, read slowly"
 seo_title: "Purple Pobeda Under Exchange Signs | emin.de"
-description: "A close reading of Emin Mahrt's photo of a purple vintage sedan outside currency exchange shops in Georgia, with light, lens and exposure explained."
+description: "A close reading of Emin Mahrt's photo of a purple Soviet Pobeda under three EXCHANGE signs in Georgia, with light, lens, LED shutter clues and Rustaveli."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -13,144 +13,168 @@ provenance: ai_generated
 ai_assisted: true
 reviewed_by_human: false
 image: "/photos/emino-d6c078b0.jpg"
-tags: ["photography","street photography","color photography","georgia","hard light","exposure"]
+tags: ["photography","street photography","color photography","georgia","hard light","exposure","rolling shutter","rustaveli"]
 source_links:
-  - { title: "GAZ-M20 Pobeda (Wikipedia)", url: "https://en.wikipedia.org/wiki/GAZ-M20_Pobeda", note: "The Soviet fastback the car in the frame appears to be, built 1946 to 1958." }
-  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The old rule of thumb for exposing in bright sun." }
-  - { title: "Exposure (photography) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Exposure_(photography)", note: "Shutter, aperture and sensitivity and how they trade against each other." }
-  - { title: "William Eggleston (Wikipedia)", url: "https://en.wikipedia.org/wiki/William_Eggleston", note: "The photographer who made ordinary colour a serious subject." }
-  - { title: "Stephen Shore (Wikipedia)", url: "https://en.wikipedia.org/wiki/Stephen_Shore", note: "Uncommon Places and the frontal, patient colour street view." }
-  - { title: "Alex Webb (Wikipedia)", url: "https://en.wikipedia.org/wiki/Alex_Webb_(photographer)", note: "Hard sun, saturated colour and layered street frames." }
+  - { title: "GAZ-M20 Pobeda (Wikipedia)", url: "https://en.wikipedia.org/wiki/GAZ-M20_Pobeda", note: "Built 1946 to 1958, first meant to be called Rodina, height 1,590 mm, and the line attributed to Stalin." }
+  - { title: "The Man in the Panther's Skin, Chapter 1, tr. Marjory Wardrop (Wikisource)", url: "https://en.wikisource.org/wiki/The_Man_in_the_Panther%27s_Skin/Chapter_1", note: "Stanzas 49 and 50, the roses and middens line and what thou givest away." }
+  - { title: "Shota Rustaveli (Wikipedia)", url: "https://en.wikipedia.org/wiki/Shota_Rustaveli", note: "Poet of the Georgian Golden Age who served Queen Tamar as a finance minister." }
+  - { title: "The Knight in the Panther's Skin (Wikipedia)", url: "https://en.wikipedia.org/wiki/The_Knight_in_the_Panther%27s_Skin", note: "Over 1600 quatrains, and a copy was part of every bride's dowry until the early 20th century." }
+  - { title: "Rolling shutter (Wikipedia)", url: "https://en.wikipedia.org/wiki/Rolling_shutter", note: "Why a sensor read line by line can catch a flickering light only in parts." }
+  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "f/16 at one over ISO in bright sun, and its equal pairs like f/8 at 1/400 s." }
+  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
+  - { title: "MoMA press release for The Photographer's Eye, 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the picture's edge and on the instantaneous photograph." }
+  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "I arrange myself." }
+  - { title: "Garry Winogrand (Wikiquote)", url: "https://en.wikiquote.org/wiki/Garry_Winogrand", note: "I photograph to see what things look like photographed." }
+  - { title: "William Eggleston (Wikipedia)", url: "https://en.wikipedia.org/wiki/William_Eggleston", note: "William Eggleston's Guide, 1976, and colour as a serious medium." }
+  - { title: "Stephen Shore (Wikipedia)", url: "https://en.wikipedia.org/wiki/Stephen_Shore", note: "Uncommon Places and the move from 35 mm to an 8x10 view camera." }
 tldr:
-  - "A purple vintage fastback, most likely a Soviet GAZ Pobeda, sits under three signs that all say EXCHANGE."
-  - "The light is hard midday sun, the lens reads as a normal focal length, and the shutter was fast enough to break up an LED sign."
-  - "It is a colour joke with weight, close to Eggleston and Shore, and it teaches how to expose for the brightest thing that matters."
+  - "A purple Soviet Pobeda, a car first meant to be called Homeland, sits under three signs that all say EXCHANGE."
+  - "Hard high sun behind the building, exposure set for the paint, and a blue LED sign torn into rows that gives away a very short shutter."
+  - "Read with Eggleston, Shore and Rustaveli, the Georgian poet who kept a queen's treasury, it becomes a quiet picture about what we trade."
 basically:
-  what-you-see-first: "The eye lands on a purple old car, then climbs to a red LED sign that says EXCHANGE right above it."
-  the-car-and-the-word: "The car reads as a GAZ Pobeda, and the signs around it turn an old Soviet shape into a pun on trade."
-  composition-and-geometry: "The car fills the lower middle, a pole closes the left side and three signs stack above like headlines."
-  hard-sun: "Hard sun from high up puts a black pool under the car and bright lines on the bonnet and the roof."
-  colour-red-purple-blue: "Purple sits between a red sign and a blue sign, so the car looks like a mix of the colours around it."
-  the-moment: "Nobody poses, a woman looks at her phone in a doorway, and the car simply waits at the kerb in plain daylight."
-  camera-and-lens-reading: "Flat perspective and straight verticals point to a normal lens around 40 to 50mm equivalent at chest height."
-  exposure-reading: "Sunny 16 logic and a broken LED sign suggest something like 1/500 to 1/1000 s at f/5.6 to f/8 and low ISO."
-  film-or-digital: "Clean shadows with no grain, crushed blacks and a split LED sign make a digital capture the likelier reading."
-  the-tradition: "The frame sits with Eggleston, Shore and Webb, who made everyday colour on the street worth a long look."
-  what-you-can-learn-and-try: "Expose for the brightest subject, let shadows go black and look for a sign that comments on your subject."
-  making-it-today: "On a phone, tap the bonnet and pull exposure down. On a camera, try f/8 and minus two thirds of a stop."
-  what-could-be-better: "The left edge cuts a person in half, the right side is busy, and the antenna crosses the doorway figure."
-  why-it-stays: "It stays because the joke is quiet, the car is loved, and the word above it says what the street is about."
+  three-times-the-same-word: "\"Seeing comes before words.\" John Berger. You see the purple first, and only then you read EXCHANGE three times."
+  a-car-called-victory: "It was almost named Rodina, homeland. \"How much does the homeland cost?\" Stalin asked, the story goes. Now it parks under rates."
+  red-plus-blue: "Red sign on the left, blue sign on the right, purple car in between. Find the colours your subject is made of and frame both."
+  the-sun-shines-alike: "\"the sun shines alike on roses and middens\" Rustaveli, tr. Wardrop. Noon light is honest. You decide which one you expose for."
+  expose-for-the-paint: "The bonnet sits half a stop under the white road and the doorways six stops under. Choose the paint and let the rest go black."
+  the-sign-that-broke: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. A blue LED sign missing its last letters proves it."
+  two-signs-two-clocks: "Same light, two choices. 1/1000 s at f/5.6 tears the LED sign, 1/50 s at f/22 keeps it whole and softens everything else."
+  where-the-camera-stood: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Arbus. Here that means chest high, across the road."
+  film-or-digital: "Black with no grain, an LED torn into rows, a frame almost 4 by 3. It reads digital, maybe a phone. A reading is not a fact."
+  the-plain-front: "\"I photograph to see what things look like photographed.\" Winogrand. A parked car, shot straight on, turns into a sentence."
+  the-poet-who-kept-the-treasury: "\"What thou givest away is thine.\" Rustaveli, tr. Wardrop, a poet said to have kept a queen's treasury. Read it under EXCHANGE."
+  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here the edge cuts a person in half. One step fixes it."
+  try-this: "Find a word on a wall, wait for the thing it talks about, expose for the brightest part you care about. Twenty minutes is enough."
+  exchange: "A car named Victory, in a colour no factory chose, parked under a word that means swap. The street wrote the caption."
 ---
 ![Vintage purple sedan outside currency exchange shops on a sunny street](/photos/emino-d6c078b0.jpg)
 
-## What you see first
+## Three times the same word
 
-A purple car. Not a tasteful plum, not a factory aubergine, but a deep violet that glows lilac where the sun hits the bonnet. It sits at the kerb, nose pointing left, three quarters toward us, chrome bumper and round eyes set into swollen wings. Your eye rests there for a second and then climbs. Directly above the windscreen hangs a black fascia with red LED letters that spell EXCHANGE. To the left a white lightbox says it again with a green dollar and a blue euro. To the right a third sign spells it in blue, over a red board of numbers.
+You see the purple before you read anything. A deep violet car at the kerb, nose to the left, the bonnet so bright in the sun it turns almost lilac. Then your eye climbs, and the street starts to talk. Red LED letters right above the windscreen say EXCHANGE. A white lightbox on the left says it again, with a green dollar and a blue euro. And far right, a blue LED sign says it a third time, over a red board of numbers.
 
-That is the whole photograph in one move. An old car and a word repeated three times.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/01-three-signs.webp" width="1200" height="931" alt="Full frame with three boxes on the three signs that each say EXCHANGE" loading="lazy" decoding="async" /><figcaption>Three signs, one word. The frame is built so you find all three in one sweep.</figcaption></figure>
 
-The picture comes from Emin's old photo site, emino.carrd.co, under the heading taking pictures. The place is Georgia. The date is unknown.
+That order matters. Colour hits you first and the word comes second, and that gap is where the joke lives. An old car and one word, repeated three times like a chorus. Everything else in this essay is about how the photograph gets you to read it in that order, and what it costs to make it work in hard noon light.
 
-## The car and the word
+## A car called Victory
 
-The body is a fastback. The roof rises over the front seats and then falls in one unbroken curve to the tail, with no step for a boot. The headlamps sit high in the front wings, the grille is low and wide with a few horizontal chrome bars, and the bumper carries two tall overriders. That combination reads very strongly as a GAZ-M20 Pobeda, the Soviet sedan built from 1946 to 1958. The Polish FSO Warszawa used the same body under licence, so a careful reading says Pobeda family, most likely a Pobeda itself.
+The body is a fastback. The roof rises over the front seats and falls in one long curve to the tail, with no step for a boot. Round headlamps sit high in the front wings, a low wide grille has a few chrome bars, and the bumper carries two tall overriders. That shape reads very strongly as a GAZ-M20 Pobeda, the Soviet car built from 1946 to 1958. The Polish FSO Warszawa used the same body under licence, so the careful reading is Pobeda family, most likely a Pobeda.
 
-It is not a museum piece either. The wheels are modern multi-spoke alloys on low-profile tyres, and you can read the tyre brand on the front sidewall. The purple is almost certainly not a period colour. This car has been made personal by someone.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/02-car-called-victory.webp" width="1200" height="618" alt="Crop of the purple car with marks on the old grille, the fastback roof and the new alloy wheel" loading="lazy" decoding="async" /><figcaption>A 1946 face and a one-curve roof, on wheels from this century.</figcaption></figure>
 
-Now put it under those signs. A car whose name means victory, from a system with no use for private currency trading, parked under three offers to swap your dollars and euros. The street wrote that caption. The skill was to see it and step back far enough to fit both.
+But look at the wheels. Modern multi-spoke alloys on low tyres, and you can read the tyre brand on the front sidewall. The purple is very likely not a factory colour either. Someone loves this car and made it theirs.
 
-## Composition and geometry
+Pobeda means victory. Wikipedia tells the story that the car was first meant to be called Rodina, homeland, and that Stalin asked "How much does the homeland cost?" Treat it as a story, not a transcript. But put it next to this frame. A car that almost carried the name of a country, parked under three offers to price your dollars and euros. The photographer didn't write that caption. The street did, and the job was to see it.
 
-The frame is close to 4:3, slightly wider than tall, 1782 by 1382 pixels in this version. The car takes up most of the lower middle, from near the left edge to about four fifths of the width. Its front wheel sits near the lower left third, which anchors the weight on that side.
+## Red plus blue
 
-A weathered concrete pole runs top to bottom near the left edge. It works as a door frame and stops the eye from sliding out. It carries scraped poster glue and a BNE WAS HERE sticker, a small joke inside the bigger one.
+Look only at the strongest colours. A red sign above the windscreen. A blue sign on the far right. And between them a purple car. Red and blue mixed give you purple, and whether it was planned or found, the car reads as the mix of the signs around it. That's why a frame this full of stuff still feels held together.
 
-Above the car the signs stack like headlines over a news photo. The red one sits almost exactly over the windscreen. The kerb and the beltline run nearly level, and their slight rise to the right is perspective, not tilt. The verticals of the pole, door frames and street plaque stand straight. That tells you the camera was held level and pointed square at the building, a calm, frontal way of looking.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/03-red-plus-blue.webp" width="1200" height="931" alt="Full frame with the red sign, the blue sign and the purple car marked" loading="lazy" decoding="async" /><figcaption>The two parent colours sit above the car, one on each side.</figcaption></figure>
 
-The road at the bottom is the only real empty space, and even there a round manhole cover and a patch of tree shade keep it busy.
+The rest of the palette stays quiet. Grey render, grey asphalt, dusty white, a little green in the tree at the top right. The white balance reads neutral to slightly cool, and in the file the sunlit bonnet comes out lilac, with more blue in it than red. The paint is the only big area of strong colour, so it wins every time your eye moves. The green dollar and the blue euro on the lightbox are small, but they repeat the cool side of the palette and stop the left edge from going dead.
 
-## Hard sun
+## The sun shines alike
 
-The light is direct sun from high up and a little behind the car. You can tell from three things. The bonnet top, the crowns of the wings and the edge of the roof carry the brightest highlights, while the doors fall into a darker purple. The shadow under the car is short, dense and nearly black, and it spills a little toward the camera. And the edges of that shadow are crisp near the tyres, which only happens with a small, hard light source.
+Find the light by its shadows. The shadow under the car is short, nearly black, and it spills toward you and a little to the left. The bonnet top, the crowns of the wings and the edge of the roof carry the brightest highlights, while the doors fall into dark violet. So the sun is high, behind the building and a little to the right. The shop fronts face away from it and sit in their own shade.
 
-The street around it shows what hard light costs. The sunlit asphalt on the left goes almost white. The doorways, the space under the canopy and the interior of the car go almost black. A tree off frame to the right drops a big leafy shadow across the lower right road. This is a scene with far more range than any single exposure can hold, and the photographer chose which end to keep. They kept the car.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/04-hard-sun.webp" width="1200" height="641" alt="Lower half of the frame with an arrow for the high sun and a box on the black shadow under the car" loading="lazy" decoding="async" /><figcaption>High sun from behind lights the top of the car and throws its shadow toward the lens.</figcaption></figure>
 
-That is the right call. Midday sun is often called bad light, but it is honest light. It makes chrome flash, colour dense and edges hard.
+That one fact explains most of the picture. The car stands out at the kerb, far enough from the wall to be in full sun. The wall behind is in shade, and that's why the LED signs glow in daylight at all. Turn the sun around, put it behind your back, and the signs would wash out and the purple would go flat.
 
-## Colour: red, purple, blue
+Rustaveli, in Marjory Wardrop's translation, has a king tell his daughter "the sun shines alike on roses and middens". That's noon light. It doesn't flatter. It hits the chrome and the cracked render and the worn pole with the same force. Midday is called bad light by people who want it to be kind. It's honest light, and it makes you choose.
 
-Look at the three strongest colours. A red sign above and to the left. A blue sign to the right. And between them, a purple car. Red plus blue makes purple. Whether planned or found, the car reads as the mix of the signs around it, and that is why the frame feels tied together even though it is full of stuff.
+## Expose for the paint
 
-The rest of the palette is quiet. Grey render, grey asphalt, dusty white, a little green at the top right. The white balance reads neutral to slightly cool. The paint is the only big area of strong colour, so it wins.
+The choice here is the bonnet. In this file the sunlit road on the left averages about 232 out of 255, very close to white. The bonnet sits only about half a stop below it. The dark doorway sits around five and a half stops lower, and the lower doors of the car, in their own shade, more than seven stops lower. About one pixel in seven is close to pure black, and under two percent are clipped to white.
 
-The blacks are deep and rich, not lifted into a faded matte look. The contrast is high. The corners at the top are dark, but most of that comes from the pole, the canopy and the tree, not from an obvious added vignette. If there is lens falloff, it is mild.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/05-expose-for-paint.webp" width="1200" height="931" alt="Full frame with boxes on the white road, the dark shaded wall and the purple bonnet" loading="lazy" decoding="async" /><figcaption>The paint holds, the road almost burns out and the shade drops about six stops.</figcaption></figure>
 
-## The moment
+Those numbers come from a finished JPEG with a contrast curve on it, so they are not the stops of the real street. But they show what the photographer kept. The paint keeps its colour and the highlights keep a little shape. The road is allowed to go nearly white, the shade is allowed to go black. A meter set to average the whole scene would have lifted the doorways and burnt the bonnet to grey-white. Here the brightest thing that matters decides, and everything darker just follows.
 
-There is no decisive moment here in the Cartier-Bresson sense, no jump over a puddle. There are three people and none of them cares about the camera. A woman in black stands in a shop doorway behind the bonnet and looks down, most likely at a phone. Another dark head shows just above the car's nose. At the far left edge a person in a navy jacket stands with their back to us at something blue, perhaps a cash machine, cut in half by the frame.
+## The sign that broke
 
-That indifference is the point. The car is not on show. It is just parked, on a normal day. The timing that matters is less the split second than the hour, when the bonnet catches light and the signs still glow.
+Now zoom into the blue sign on the right. E, X, C, H, A read clean. Then N breaks at the bottom, and G and the last E fall apart into loose rows of dots. Nothing else in the frame is torn like that.
 
-## Camera and lens reading
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/06-broken-sign.webp" width="292" height="135" alt="Pixel-level crop of the blue LED sign where the last letters break into dots" loading="lazy" decoding="async" /><figcaption>A pixel-level crop. Whole rows of the last letters are missing.</figcaption></figure>
 
-No EXIF survives, so all of this is a reading.
+LED signs don't shine steadily. They switch their rows on and off very fast, far too fast for the eye. Most digital sensors read the image line by line too, and a mechanical focal plane shutter at high speed is also just a thin slit moving across the frame. If the exposure is shorter than the sign's cycle, each part of the sensor only sees the rows that happened to be lit at that moment. The result is exactly this, a word with holes in it.
 
-The perspective is flat and natural. The car's nose is not stretched toward us, which a wide lens close up would do. The verticals do not lean in. The building behind is not shrunk into the distance either, which a wide lens would also do. All of that points to a normal focal length, something like 40 to 50mm in full-frame terms, or a modest tele from across the street.
+So the broken sign is a clock. It says the exposure was very short, probably 1/500 s or faster. A dying LED module could do it too, so it's a strong hint and not proof. But nobody in the frame shows any blur either, not even a hand, and that fits.
 
-You can see the top of the bonnet but not the top of the roof. That places the camera at roughly chest height, maybe 1.2 to 1.5 metres. The Pobeda stands about 1.59 metres tall, so the lens was a little below its roof line.
+## Two signs, two clocks
 
-The sharpest point sits on the front of the car, around the front wheel, the grille and the headlamp. The wall behind is softer but still readable, the large house number 7 on the street plaque included. That is moderate depth of field, not a blurred background. Highlights glow slightly and the frame is a little soft, which could be an older lens, a filter or just a modest sensor and JPEG. The near 4:3 ratio fits Micro Four Thirds or many phones, but a crop from 3:2 is just as possible.
+The red sign above the car is whole. All eight letters are lit, with only the fine stripes of the LED rows. It was caught in the same instant as the broken blue one. The likely reason is that the two signs run on different drivers with different cycles, and the red one either refreshes faster or sat at a lucky part of its cycle.
 
-## Exposure reading
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/07-red-sign-whole.webp" width="810" height="300" alt="Crop of the red LED sign with all eight letters lit" loading="lazy" decoding="async" /><figcaption>Same moment, other sign. All eight letters made it.</figcaption></figure>
 
-Start with the Sunny 16 rule. In bright sun with hard shadows, a correct exposure is roughly f/16 at a shutter speed of one over your ISO. At ISO 100 that is f/16 at 1/100 s. Open up three stops to f/5.6 and you get about 1/800 s. Open to f/8 and you get about 1/400 s.
+Here is the side by side. The Sunny 16 rule says bright sun at ISO 100 is f/16 at 1/100 s. My best reading of this frame is around 1/1000 s at f/5.6, ISO 100 to 200, which is about the same amount of light. Now swap it for 1/50 s at f/22. The exposure stays the same. The blue sign would almost certainly come out whole, because 1/50 s spans several of its cycles. But f/22 brings diffraction, and the whole frame goes a bit soft, and on a small sensor it gets mushy. A person walking past would smear.
 
-Now check that against the picture. Nobody shows motion blur, not even a hand. The blue EXCHANGE sign on the right is broken up, its last letters fragmented. LED signs flicker faster than the eye can see, and a short exposure can catch only part of the cycle. That points to a fast shutter, probably 1/500 s or quicker. A dying LED module could also do it, so treat this as a hint, not proof.
+And on a phone you don't get that choice. Most phone main cameras have one fixed aperture, often around f/1.5 to f/2, so in full sun they run very short times, often 1/2000 s or shorter. That's why torn LED signs turn up in phone photos all the time.
 
-The depth of field, sharp car and gently soft wall, fits something like f/5.6 to f/8 at a normal focal length from a few metres away. ISO was probably low, 100 to 200, because the shadows that remain show only fine noise.
+## Where the camera stood
 
-My best reading is around 1/500 to 1/1000 s, f/5.6 to f/8, ISO 100 to 200, with the exposure set for the sunlit car and the shadows allowed to fall away. Every number here is an estimate.
+You can see the top of the bonnet, but the roof only as an edge against the wall. So the lens was above the bonnet and below the roof. The Pobeda is 1.59 metres tall, which puts the camera somewhere around 1.2 to 1.5 metres, a normal standing adult holding a camera at the chest or a phone at the face.
+
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/08-where-camera-stood.webp" width="1200" height="600" alt="Crop of the car with the roof seen edge-on and the bonnet seen from above" loading="lazy" decoding="async" /><figcaption>Bonnet seen from above, roof seen edge-on. The lens sat between the two.</figcaption></figure>
+
+The car is about 4.7 metres long and fills roughly three quarters of the width. So the frame is around six metres wide at the car. From across a normal street, six to eight metres away, that gives a horizontal angle of about 40 to 50 degrees, which is roughly a 35 to 50 mm lens in full frame terms. A phone's main camera at around 26 mm would fit too, from closer in or with a crop. The nose isn't stretched toward you and the building isn't shrunk behind, so a wide lens up close is unlikely.
+
+The picture is 1782 by 1382 pixels, about 1.29 to 1. That's a bit squarer than 4 by 3, so it was probably cropped a little.
 
 ## Film or digital
 
-The clues lean digital. There is no grain structure in the flat grey wall, only fine noise in the shadows. The blacks are crushed hard, the way a digital file looks after a strong contrast curve, rather than the long soft toe of colour negative film. The LED breakup fits a digital or focal plane shutter catching a refresh cycle. There is no sign of the halation, the red glow around bright edges, that some cine films show.
+Look at the smooth grey wall high up in the frame. In a flat patch the values barely move, about four levels up and down, with no grain clumps at all. The lower doors drop into black that's almost empty, the way a digital file looks after a strong curve, and not the soft long toe of colour negative.
 
-My confidence in a digital capture is fair, not high. A scanned slide with a firm edit could pass for it.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/09-film-or-digital.webp" width="400" height="300" alt="Pixel-level crop of the purple door falling into flat black shadow" loading="lazy" decoding="async" /><figcaption>A pixel-level crop of the lower doors. The purple drops into flat black with no grain.</figcaption></figure>
 
-## The tradition
+Add the torn LED sign, which fits a sensor read line by line, and the frame that's almost 4 by 3, a common shape for phones and Micro Four Thirds. Add that the wall behind is nearly as readable as the car, which points to a small sensor or a small aperture. Add some JPEG blocks around the chrome edges. It all leans digital, and a phone is quite possible. But there's no EXIF, and a scanned slide with a hard edit could pass for much of this. Call it likely, not known.
 
-Two Americans changed what colour photography of ordinary streets could be. William Eggleston, whose 1976 show at the Museum of Modern Art was attacked for being banal, photographed parked cars, red ceilings and petrol stations as if they were icons. Stephen Shore drove across the United States with a large camera for Uncommon Places and stood square to buildings, signs and parked cars, letting the frame be flat and patient.
+## The plain front
 
-This photograph sits closer to Shore in its frontal calm and closer to Eggleston in its love of one strong colour against a dull wall. The hard sun and the saturated signs also nod to Alex Webb, the Magnum photographer whose street pictures are built from hot light and dense colour, though Webb would have packed more layers into the frame.
+The camera is held level and square to the building. The concrete pole on the left runs straight up, and the kerb rises only a little to the right, which is perspective and not tilt. There is no clever angle. You stand in front of the thing and let it be what it is.
 
-Underneath sits a common genre, the old Soviet car parked among new shops. Most of those pictures are nostalgic. This one is funnier, because the sign does the talking.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/10-two-traditions.webp" width="1200" height="931" alt="Full frame with lines on the straight pole and the near level kerb" loading="lazy" decoding="async" /><figcaption>A true vertical on the pole and a kerb that barely rises. A calm, frontal way of looking.</figcaption></figure>
 
-## What you can learn and try
+That calm has a history. William Eggleston's Guide came out in 1976 with a show at the Museum of Modern Art, and people called his parked cars and red ceilings banal. Stephen Shore drove across America for Uncommon Places, first with a 35 mm camera and then with an 8x10 view camera, and stood square to buildings, signs and parked cars. Both made ordinary colour on the street worth a long look. This frame is close to Shore in its straight-on patience and close to Eggleston in its love of one loud colour against a dull wall.
 
-Expose for the thing you care about. Here it is the car. Set your camera to spot or centre metering, put the spot on the sunlit bonnet and dial in minus two thirds to minus one stop. Let the doorways go black. You will be surprised how good black can look.
+What they share is trust in the plain view. You don't decorate the subject. You stand where the subject says the most, and the photograph does the rest.
 
-Look for a sign that comments on your subject. Walk a street for an hour and only photograph things that sit under, next to or in front of words. Do it at noon on purpose. Use f/8, 1/500 s, ISO 100 as a starting point and adjust from the histogram.
+## The poet who kept the treasury
 
-Shoot square to the wall. Stand across the street, hold the camera level and keep the verticals straight. Then try a low angle with a wide lens and compare. The frontal frame looks calmer.
+The white lightbox on the left carries a line of Georgian script under the dollar and the euro, ending in a word about the rate. It's the only place in the frame where the country speaks in its own letters.
 
-Find a colour bridge. Ask which colours around your subject repeat or mix into it, and move until they line up.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/11-rustaveli.webp" width="285" height="350" alt="Crop of the white exchange lightbox with a dollar, a euro and Georgian script" loading="lazy" decoding="async" /><figcaption>Dollar, euro and one line in Georgian script.</figcaption></figure>
 
-## Making it today
+Georgia's national poem is The Knight in the Panther's Skin, by Shota Rustaveli, more than 1600 quatrains from the Golden Age under Queen Tamar. Until the early 20th century a copy was part of every bride's dowry. Little is known for sure about his life, but the usual account says he served Tamar as a minister of finance. The country's great poet kept its money.
 
-On a phone, use the main 1x camera, not the ultra wide, or the 2x if you have it. That keeps the car from bulging. Tap the bonnet to focus, then drag the exposure slider down until the paint is rich and the highlights hold. Avoid night mode and heavy HDR, which lift black doorways into grey mush.
+In the first chapter a king hands his daughter the throne and tells her how to rule. "What thou givest away is thine," he says, and then "what thou keepest is lost." She opens the treasury that same day and gives without counting.
 
-On a camera, use aperture priority at f/8 with ISO 100 or 200 and let the shutter land somewhere near 1/500 s. A 35mm or 50mm equivalent lens is ideal. Set exposure compensation to about minus two thirds. If the scene has LED signs and you want them clean, try a slower shutter like 1/125 s and stop down to f/11 or f/16 to keep the exposure the same. If you want the broken LED look, go faster.
+Now look back at the frame. Three shops that live on holding and swapping currency, and in front of them a car someone could have sold for parts long ago. They kept it, and painted it a colour nobody needed. Rustaveli's line turns the street around. The thing you keep in a till is just money. The thing you give your care to becomes yours.
 
-## What could be better
+## The one mistake
 
-The person at the far left is cut in half by the frame. A step to the right, or a moment's wait, would have cleaned that edge. The right third is busy: the dark modern car behind, the blue sign, the rate board and the tree shadow all compete for the last bit of attention. A little tighter on that side would make the car and the red sign even stronger.
+At the far left edge a person in a navy jacket stands with their back to you, facing something blue that could be a cash machine. The frame cuts them in half.
 
-The car's long whip antenna crosses the background close to the woman in the doorway, and her dark figure merges with the windscreen pillar. Small things, but this frame lives on clean shapes.
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/12-the-mistake.webp" width="360" height="660" alt="Crop of the left edge where the frame cuts a person in half" loading="lazy" decoding="async" /><figcaption>The left edge cuts a person in half, right next to the pole.</figcaption></figure>
 
-And the road on the left is close to blown. A slightly lower sun might have kept the punch with more texture.
+It's a small thing, but this frame lives on clean shapes, and half a body at the edge pulls the eye out of the picture just when the pole should hold it in. The fix is cheap. One step to the right puts the pole over them, or a few seconds of waiting lets them walk out or step fully in. It costs nothing, and it's worth more than any lens upgrade.
 
-## Why it stays
+The right side is busy too, with the dark modern car, the blue sign and the tree shadow. But that busyness is the street, and the blue sign is the third EXCHANGE. The cut person is the only thing here that's just an accident.
 
-It stays because it does not shout. The car is beautiful in an odd, loved, slightly silly way. The street is worn and busy and real. And the word above it, repeated three times, quietly says what the whole street is about: swapping one thing for another. An old Soviet shape painted a colour no factory would have chosen, on new wheels, under signs that trade dollars and euros. That is a lot of history in one parking space.
+## Try this
 
-It looks without sentiment, notices the joke, and lets you find it yourself.
+Put a thirds grid on this frame and you see how loose it is. The front wheel and a headlamp sit near the lower left crossing, and the red sign starts right on the left line. Nothing is forced, it just lines up.
+
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/13-try-this.webp" width="1200" height="931" alt="Full frame with a rule of thirds grid over it" loading="lazy" decoding="async" /><figcaption>The wheel and headlamp land near the lower left crossing without anything being forced.</figcaption></figure>
+
+Go out at noon and walk one street for twenty minutes. Only photograph things that stand under, next to or in front of a word that comments on them. Stand square to the wall, keep the camera level, and tap the brightest thing you care about, then pull the exposure down until it holds its colour and let the shadows go black. If there's an LED sign, take one frame as it is and one at a slower shutter, and compare which version tells the better story.
+
+## Exchange
+
+Go back to the first look. A purple car, then a word three times. Now you know the word was there before the car arrived and will be there after it leaves. The car is the part that was lucky.
+
+<figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/14-exchange-once-more.webp" width="670" height="790" alt="Crop from the red EXCHANGE sign down to the purple roof" loading="lazy" decoding="async" /><figcaption>The word and the car, stacked on top of each other.</figcaption></figure>
+
+A Soviet shape named for victory, painted a colour no factory chose, on new wheels, under signs that trade dollars and euros. The light was hard, the shutter was so short it tore a sign, and the photographer kept the one thing that mattered. It's a lot of history in one parking space, and the photograph never tells you that. It just lets you swap one way of seeing for another.

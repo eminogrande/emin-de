@@ -1,9 +1,9 @@
 ---
 title: "Harbour at low sun: cranes, a truss bridge and a smeared flare"
 seo_title: "Harbour Sunset, Cranes and Lens Flare | emin.de"
-description: "A close reading of a phone photo of a harbour at low sun: composition, flare, haze, an estimated exposure, and how to make a frame like it."
+description: "A close reading of a harbour photo shot straight into a low sun: the flare, the haze, the two skies, an exposure read from guy wires, Monet, the Bechers, Sandburg's fog and one fix."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -16,129 +16,163 @@ image: "/photos/harbor-sunset-20261013.jpg"
 tags: ["photography","lens flare","golden hour","phone photography","cityscape","harbour"]
 source_links:
   - { title: "Lens flare (Wikipedia)", url: "https://en.wikipedia.org/wiki/Lens_flare", note: "Ghosts, veiling glare and why a bright source in frame lowers contrast." }
-  - { title: "Golden hour (Wikipedia)", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "Why low sun turns warm and soft." }
-  - { title: "Aerial perspective (Wikipedia)", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "How haze pales distant objects and creates depth." }
-  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The baseline behind the exposure estimate in this piece." }
-  - { title: "New Topographics (Wikipedia)", url: "https://en.wikipedia.org/wiki/New_Topographics", note: "The 1975 show that took industrial places seriously as subjects." }
-  - { title: "Impression, Sunrise (Wikipedia)", url: "https://en.wikipedia.org/wiki/Impression,_Sunrise", note: "Monet's hazy harbour with a low sun, the oldest ancestor of this kind of picture." }
+  - { title: "Aerial perspective (Wikipedia)", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why distant things lose contrast and shift toward the colour of the air." }
+  - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The baseline behind the exposure estimate." }
+  - { title: "Impression, Sunrise (Wikipedia)", url: "https://en.wikipedia.org/wiki/Impression,_Sunrise", note: "Monet's hazy port, painted from a hotel room looking down. Source of the 'Put Impression.' line." }
+  - { title: "New Topographics (Wikipedia)", url: "https://en.wikipedia.org/wiki/New_Topographics", note: "The 1975 show that took man-made places seriously." }
+  - { title: "Bernd and Hilla Becher (Wikipedia)", url: "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher", note: "Typologies of industrial structures." }
+  - { title: "Fog (poem) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Fog_(poem)", note: "Full text of Carl Sandburg's Fog, Chicago Poems 1916, and how he wrote it." }
+  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
+  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag, The Heroism of Vision, p. 92." }
+  - { title: "MoMA press release for The Photographer's Eye, 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame." }
+  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "I arrange myself." }
+  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
 tldr:
-  - "A high view across a harbour, with cranes, a truss bridge and a hazy skyline, shot straight into a low sun."
-  - "The flare is a one-sided smeared fan, which reads like a smudged phone lens or glass in front of it, not clean diffraction."
-  - "Nothing about the camera is known. The clues point to an early phone, a short shutter and base ISO, all estimates."
+  - "A high view across a working harbour, shot straight into a sun about five degrees above the horizon. Cranes, a truss bridge and a tower all live in one thin band."
+  - "The flare is a soft one-sided fan with no star spikes, which points to a smudge on the lens or on a window, not to the lens design."
+  - "No camera data exists. The clues read as a phone near 28 mm, about 1/2000 s at base ISO, and one fixable mistake in the top left corner."
 basically:
-  what-you-see-first: "The eye goes to the blown-out sun on the right, then slides left along the bridge to a lattice mast."
-  composition-and-the-long-diagonal: "A mast on the left and the sun on the right pull against each other across a horizon set near the middle."
-  light-against-the-lens: "Low sun behind the scene turns cranes, mast and tower into cut-outs and leaves the foreground in dark shade."
-  the-flare-read-closely: "The flare is a soft coloured fan on one side of the sun, like a dirty lens or window, not diffraction."
-  colour-split-down-the-middle: "The left half stays cool blue and the right half goes warm and washed out, two temperatures in one frame."
-  the-moment-and-its-timing: "The sun sits a few degrees above the horizon, golden hour, and nothing in the frame says morning or evening."
-  reading-the-camera-and-lens: "A near 4:3 frame, deep focus and a modest wide view suggest a phone camera near 28 to 35 mm equivalent."
-  an-exposure-triangle-reading: "A fair guess is base ISO, a fixed f/2.4 to f/2.8 and about 1/1000 to 1/4000 s, all read from the image."
-  digital-clues-not-film: "Smeared shadows, colour blotches and JPEG blocks point to a digital sensor, not film grain."
-  where-this-picture-comes-from: "It sits between Monet's hazy harbour, the plain industry of New Topographics and the high vantage point."
-  exercises-you-can-try-this-week: "Lock exposure on the sky, hide the sun, clean the lens, and shoot one view at three times of day."
-  making-a-frame-like-this-today: "On a phone, lower exposure and keep the sun off the edge. On a camera, try 28 mm, f/8, ISO 100 and a bracket."
-  what-could-be-better: "The dark corner, the sun pressed to the edge and the murky foreground cost more than the flare does."
-  why-it-stays-with-you: "It records a working harbour the way a passing eye sees it, with the light winning and the glass showing."
+  the-sun-gets-you-first: "\"Seeing comes before words.\" John Berger. Here the sun comes before everything, and the eye only gets free by running left."
+  a-port-in-one-thin-band: "Cranes, a truss bridge and a tower share a band about a seventh of the frame high. The whole port lives in that strip."
+  light-coming-the-wrong-way: "Backlight lights edges and hides faces. On one glass roof the ribs turn gold and the wall facing you goes almost black."
+  haze-does-the-depth: "Nobody made the far towers pale. The air did, and the more air between you and a thing, the paler it gets."
+  the-flare-up-close: "\"The painter constructs, the photographer discloses.\" Susan Sontag. This flare discloses the lens itself."
+  two-skies-in-one-frame: "Left sky reads 111, 126, 137. Right sky reads 229, 218, 180. Same sky, same second, two temperatures."
+  a-horizon-in-the-middle: "\"It sits looking / over harbor and city\" Carl Sandburg, on fog. From high above the roofs, so does this camera."
+  what-lens-saw-this: "The real sun is half a degree wide, about 17 pixels here. The white blob is 90. The rest is glare."
+  an-exposure-read-from-the-wires: "Clean guy wires say no shake. The bright sky says about 1/2000 s. One stop slower and a sixth of the sky goes white."
+  phone-not-film: "Film fails in the dark with grain. This file fails with smear. The black roofs tell you which machine made it."
+  monet-the-bechers-and-a-poem-about-fog: "\"Put Impression.\" Monet, naming his hazy harbour for the 1874 show. Some ports read better as light than as maps."
+  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" John Szarkowski. One dark corner crossed it."
+  try-this: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Move until a crane eats the sun."
+  back-to-the-sun: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Now you see the glass too."
 ---
 ![Low sun over a harbour with cranes, a truss bridge and a city skyline](/photos/harbor-sunset-20261013.jpg)
 
-## What you see first
+## The sun gets you first
 
-You see the sun first, because there is no way not to. It sits near the right edge, about two fifths of the way down, a white blot with no clean rim. A yellow halo spreads out from it and bleaches the sky on that side. Only after that does the eye move, and it moves left, along a long steel truss bridge, past red and white harbour cranes, over a hazy row of towers on the horizon, until it stops at a tall lattice mast held up by guy wires near the left edge.
+You can't look anywhere else first. The sun sits near the right edge, about 90 percent across and 40 percent down, a white blob with no clean rim, and it takes your eye before you have decided anything. Only when the eye gives up on it does it start to move, and it moves left. It slides along the horizon, over a long steel truss bridge, past a dark tower and a row of red and white cranes, and stops at a lattice mast near the left edge.
 
-Then you notice where you are standing. The view looks down on roofs. A big barrel-vaulted glass roof sits in the lower middle, its ribs catching a rim of light. Rows of skylights run off toward the sun on the right. A road full of tiny glinting cars runs the same way. In the top left corner a dark diagonal wedge cuts into the sky, almost certainly part of the building the picture was taken from, an eave or a window frame, far out of focus.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/01-sun-first.webp" width="1400" height="1046" alt="Full frame with the clipped sun circled and an arrow running left along the horizon to the lattice mast" loading="lazy" decoding="async" /><figcaption>The sun takes the eye first, then the eye runs left along the horizon to the mast.</figcaption></figure>
 
-The place is not named here, and the photo does not need it. It reads as a working port at the edge of a large city: a channel with cranes, a bridge built for trucks, big halls or a mall, and a skyline pushed back into the haze.
+That path is the picture's reading order, and it is not an accident of taste. Your eye goes to the brightest thing in a frame and then to the strongest edge near it, and here the strongest edge is the long horizontal of bridge and skyline. The mast at the other end works like a full stop. Without it your eye would run out of the frame on the left. With it, the trip ends on something tall and dark that answers the sun across the whole width.
 
-## Composition and the long diagonal
+## A port in one thin band
 
-The horizon sits just below the middle, roughly 53 percent down from the top. Teachers will tell you to put it on a third. Here the near-centred line gives the picture a flat, even calm, the feel of a survey rather than a postcard. Sky and city get almost equal weight.
+Almost everything that makes this a port sits in one strip. From the top of the central tower down to the quay below the cranes, it is about 200 pixels of a 1,530 pixel frame, roughly a seventh of the height. Above it is sky. Below it is roofs. The harbour itself is only a few grey and bright slivers of water.
 
-What gives the frame its tension is a diagonal. The mast stands about 8 percent from the left edge, a dark vertical with a spire. The sun burns about 90 percent across. Between them runs the bridge, a horizontal that ties the two ends together. A thin bright cloud band above it repeats the line. So you get two strong points at the edges and a long beam between them, like a balance scale.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/02-port.webp" width="1400" height="378" alt="Middle band of the harbour with the red and white cranes, the central tower and the truss bridge boxed" loading="lazy" decoding="async" /><figcaption>Cranes, tower and bridge, all inside a strip about a seventh of the frame high.</figcaption></figure>
 
-Below, other lines feed the sun. The road and the skylight rows recede diagonally toward it from the lower right. The flare streaks run diagonally back down from it. The vault adds the only curve, a soft arc in a frame made of straight lines. The guy wires make a small tent shape around the mast. It looks seen fast rather than arranged, and that is part of its character.
+Look along that band and you can count the things a port is made of. On the left, two big gantry cranes with raised booms, their machinery houses painted red and white. In the middle, a boxy high-rise with a stepped crown. To its right, the truss bridge, tallest around its middle, built for traffic, not for postcards. Further right, in the glare, two more small cranes stand almost under the sun. Far behind all of it, a skyline of towers fades into the air. Nothing here was put in the frame to be pretty. It is just what a working harbour looks like from above.
 
-## Light against the lens
+## Light coming the wrong way
 
-This is contre-jour, light coming straight at the camera. Everything that faces the lens is in shadow. The mast, the cranes, the central tower and the bridge truss become silhouettes or near silhouettes. The facades are dark slabs. Only edges get light: the ribs of the vault, the ridges of the skylights, the roofs of cars on the road.
+This is contre-jour, light coming straight at the lens. Everything that faces you is in shadow, and only edges turned toward the sun catch light. The clearest proof is the big barrel-vaulted roof in the lower middle.
 
-Haze does the rest. Far towers fade to pale grey-blue and lose almost all contrast. That is aerial perspective, the old painter's trick of showing distance with paler, bluer tones, done here by real air full of moisture and dust. Near the sun, that same haze scatters light forward, so a wide area around it glows yellow-white. Away from the sun, the upper left sky stays clean blue with puffy clouds.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/03-contre-jour.webp" width="1200" height="927" alt="Right half of the frame with an arrow from the sun down toward the camera and the vault roof boxed, ribs lit and end face dark" loading="lazy" decoding="async" /><figcaption>Light runs from the sun toward the lens, so the vault's ribs glow and its end wall stays dark.</figcaption></figure>
 
-There is no glitter path on water, because the sun is not over open water. There is only a small hard glint under the right end of the bridge and a broken streak of glare along the road.
+Its curved ribs on the sun side light up as thin gold lines, around 200 out of 255 in brightness. The half-round end wall that faces you sits at about 33, 18, 6 in red, green and blue, almost black with a brown cast. Same roof, same second, and a gap of several stops between two surfaces a few metres apart. That is what backlight does. It draws outlines and drops the faces.
 
-## The flare read closely
+The same thing happens everywhere you look. Car roofs on the road at the right glint as tiny points. The water under the bridge throws one hard glint straight below the sun. The mast and the cranes become cut-outs. If the sun were behind the camera, all those faces would show their windows and paint, and the picture would become a survey. With the sun in front, it becomes a drawing in lines.
 
-Flare is the real subject of half this picture, so it pays to look closely. The clipped white core of the sun spans about a tenth of the frame width. The near-white halo around it covers about a fifth. Beyond that, a veil of glare lifts the blacks across the whole right third and washes the roofs in orange and pink.
+## Haze does the depth
 
-The streaks are the interesting part. They are not thin, sharp star points. A star of clean spikes comes from diffraction at the blades of a stopped-down iris, and a small phone lens with a fixed round opening does not make one. What we get instead is a broad, soft, rainbow-fringed fan, spread mostly down and to the left of the sun. A fan on one side like this is the classic mark of grease or a fingerprint on the lens cover, or of dirty glass between lens and sun. A smear scatters light at right angles to the wipe that made it.
+The far towers on the left are pale and soft. The cranes in front of them are darker and sharper. Nobody edited that. The air did it.
 
-The ghosts point the same way. There is a faint large magenta arc near the top right edge and a small pale green-yellow disc below and left of the sun. True internal ghosts usually line up on an axis from the light source through the centre of the frame, and land on the other side. These do not. They sit on the sun's own side, off that axis. So the reading is a smudged lens, a window, or both. I can't prove which.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/04-haze.webp" width="860" height="337" alt="Left skyline in haze with the pale far towers and the darker nearer cranes marked" loading="lazy" decoding="async" /><figcaption>The farther towers sit behind more air, so they come out paler and flatter than the cranes.</figcaption></figure>
 
-## Colour split down the middle
+Painters call it aerial perspective. The more air between you and a thing, the more light the air scatters into your line of sight, so the thing loses contrast and drifts toward the colour of the air itself. Leonardo used it to push mountains back. Here it pushes a skyline back. In the file the far towers average about 90, 84, 70, while the crane structure in front averages about 78, 71, 59. Small numbers, but your eye reads that gap as kilometres.
 
-The frame has two colour temperatures. The left half is cool: blue sky, neutral grey water, dark grey buildings. The right half is warm: cream sky, yellow sun, orange and pink glare over the roofs. Low sun gives that split anyway, because light near the sun has travelled through more air and lost blue. The flare pushes it further.
+Notice that the haze is warm here, not blue. Near the sun, the air is full of light that has already travelled a long way through the atmosphere and lost its blue, so the veil it lays over the far city is cream and olive. Turn your back to the sun on the same evening and the same haze would look blue grey.
 
-Saturation is moderate. The red of the cranes reads as red without shouting. Nothing has the pumped look of current phone processing, where skies go electric and shadows glow.
+## The flare up close
 
-## The moment and its timing
+Now go back to the sun and look properly. The clipped white area is about 160 pixels wide and 120 tall. Around it a yellow halo bleaches the sky, and from it a soft wide fan of glare spreads down and to the left, across the bridge and onto the roofs.
 
-Read against a field of view of roughly 60 degrees across, the sun sits about five to seven degrees above the horizon. That is golden hour. The picture does not say if it is morning or evening, and I won't pretend it does.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/05-flare-fan.webp" width="696" height="856" alt="Close crop of the sun showing a soft fan of glare down and left, no star spikes, and a small faint ghost disc" loading="lazy" decoding="async" /><figcaption>No star spikes, one soft fan to the lower left, and one faint ghost disc on the same side.</figcaption></figure>
 
-What the timing does give is height. A few degrees later the sun would sink into the haze, go orange, lose its glare, and the photo would become a classic sunset. A little earlier it would stand high and out of frame. This is the band where the sun is still white and fierce but low enough to sit inside a horizontal frame. The photographer caught the moment when the light is still a problem, not yet a pretty picture.
+Two things are missing, and they tell you more than what is there. First, there are no star spikes. A sunstar comes from diffraction at the blade edges of a stopped-down iris, so many phone lenses with a fixed round opening never make a clean one. Second, the fan is one-sided. A clean lens throws glare evenly around a bright source. A smear of grease, a fingerprint or dirty glass in front of the lens scatters light across the direction the smear was wiped, and you get a fan on one side.
 
-## Reading the camera and lens
+Then there is the ghost. A small faint warm disc sits below and left of the sun, near the quay at the right. Internal ghosts in a clean lens usually line up on an axis from the light source through the centre of the frame and land on the far side, which here would put them out on the left half of the frame. This one sits on the sun's own side, well off that line. So the honest reading is a smudged lens, a window between lens and sun, or both. The photo can't tell you which.
 
-No EXIF exists, so every line here is a reading. The file is 2048 by 1530 pixels, close to 4:3. That ratio is the native shape of most phone sensors. The pixel count, about 3 megapixels, would fit an early phone, but a file can be resized for the web, so it proves little on its own.
+## Two skies in one frame
 
-The angle of view reads moderately wide, maybe 28 to 35 mm in full-frame terms. The reasons: the big vault in front looks large while the skyline looks tiny, near roofs show clear foreshortening, and the road lines visibly converge. A long lens would stack the bridge and skyline close behind each other and make them loom. That does not happen here.
+The left half of the sky is cool and the right half is warm, and you can measure it. A patch of clear sky above the left middle averages 111, 126, 137 in red, green and blue. A patch left of the sun averages 229, 218, 180.
 
-Depth of field is deep. The vault ribs and the far cranes are both about as sharp as this file allows. That fits a tiny sensor and a short real focal length, where almost everything from a few metres to infinity falls in focus. The horizon looks level within a degree, and verticals barely converge, so the camera was held about level from high up, perhaps 15 to 25 storeys.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/06-two-temps.webp" width="1400" height="1046" alt="Full frame with a sample of cool blue sky on the left and warm cream sky on the right boxed" loading="lazy" decoding="async" /><figcaption>The two boxes are the two samples, cool blue on the left and warm cream beside the sun.</figcaption></figure>
 
-## An exposure triangle reading
+The first has more blue than red. The second has more red than blue, and twice the brightness. That split happens in any low-sun scene, because light near the sun's direction has crossed more air and lost blue on the way, while the sky away from the sun is still lit by scattered blue. The flare pushes it further, washing the right third in orange and pink.
 
-Here is a reasoned guess, not a fact. The bright sky with the sun in it drives the meter. Phone cameras of the early 4:3 era mostly had fixed apertures, often around f/2.4 to f/2.8, so aperture was not a choice. Base ISO would be low, perhaps 50 to 100, since there is no reason to raise it in daylight.
+What the camera did not do matters too. The red of the cranes reads as red and no more. Nothing has the pumped look of modern phone processing, where skies go electric and shadows glow. The colour here is the colour of the air, slightly overcooked by the glass.
 
-Start from the Sunny 16 rule: in full sun, ISO 100, f/16 calls for about 1/100 s. Opening from f/16 to f/2.8 is five stops more light, which would bring that to about 1/3200 s. A meter averaging bright sky with dark roofs might land a bit longer. So somewhere between 1/1000 and 1/4000 s is a fair estimate. Nothing in the frame contradicts it. The guy wires are crisp, there is no handshake blur, and the cars are too small to show motion either way.
+## A horizon in the middle
 
-The crushed foreground tells you the meter favoured the sky. A single exposure cannot hold both the sun and the shadows of the roofs, and there are no HDR halos around the mast or tower, so this looks like one frame, not a merged stack.
+The horizon sits at about 52 percent down from the top, so just under the middle. The mast stands about 8 percent from the left edge. The sun burns about 90 percent across.
 
-## Digital clues not film
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/07-frame.webp" width="1400" height="1046" alt="Full frame with a thirds grid and the horizon line drawn just below the middle" loading="lazy" decoding="async" /><figcaption>The horizon sits close to the centre line, between the two thirds lines, not on either.</figcaption></figure>
 
-Look at the dark lower third. The shadows are not grainy in the film sense, with fine, even, random specks. They are smeared and mottled, with patches of colour blotching and some square blocking from JPEG compression. That is what in-camera noise reduction does to a small sensor's noise. Fine roof texture has been wiped into mush.
+Teachers will tell you to put a horizon on a third, and they have a point. A horizon on a third tells the viewer what matters, sky or ground. A horizon near the middle refuses to choose, and that gives a frame a flat, even calm, more like a survey than a postcard. Here it works because the tension comes from somewhere else, from the two strong points at the far edges, mast and sun, with the bridge between them like the beam of a scale.
 
-Edges show mild sharpening, a faint bright outline where dark lattice meets sky. The whole file adds up to digital, most likely an older phone.
+The height of the camera does the rest. You look down on roofs, a road, skylights, and that turns a messy port into something close to a map. Carl Sandburg wrote a six-line poem about fog that sits looking over a harbour and a city. The camera here sits the same way, quiet and high, and lets the city lie flat under it.
 
-## Where this picture comes from
+## What lens saw this
 
-The oldest ancestor is a painting. Claude Monet's Impression, Sunrise from 1872 shows a harbour, a low sun and cranes and masts melted into haze. Monet was after the same thing this phone recorded by accident: light so strong and air so thick that structure dissolves.
+The file is 2,048 by 1,530 pixels, a ratio of 1.34, which is almost exactly 4:3, the native shape of most phone sensors. It carries no camera data at all. So the lens has to be read from the picture.
 
-The second line is New Topographics, the 1975 exhibition that put Robert Adams, Lewis Baltz, Stephen Shore and Bernd and Hilla Becher in one room. They photographed the man-made world, warehouses, roads, industrial structures, without making it pretty or tragic. Cranes, a truss bridge and a mall roof are exactly that subject matter. This photo is less exact than their work but shares the refusal to pick a beauty spot.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/08-lens.webp" width="1270" height="688" alt="Lower right foreground with the big glass vault and the road lines converging toward the sun" loading="lazy" decoding="async" /><figcaption>A near roof looks huge and a road converges hard, two marks of a moderately wide lens.</figcaption></figure>
 
-The third is plain contre-jour cityscape, the view from a high window. John Szarkowski, in The Photographer's Eye, named vantage point as one of the basic things a photograph is made of. Here the height is the idea. It turns a messy port into a map.
+The near vault looks big and the skyline looks tiny. Near roofs show clear foreshortening. The road on the right converges hard toward the sun. A long lens would squeeze bridge and skyline together and make them loom, and that does not happen. So the angle of view is moderately wide, something like 28 to 35 mm in full-frame terms, which is where most phone main cameras sit.
 
-## Exercises you can try this week
+The sun gives you a ruler. It is about half a degree wide in the sky. At a 28 mm equivalent the frame is about 63 degrees across, so the real disc should be about 17 pixels wide in this file, maybe 21 at 35 mm. The clipped white blob is about 90 pixels across if you take its area as a circle. So most of what you call the sun here is glare. The same ruler gives the sun's height. Its centre sits about 180 pixels above the horizon, which is about five degrees, a little more at 28 mm and a little less at 35 mm. That is golden hour, low enough to sit in a horizontal frame, high enough to still burn white. The picture does not say if it is morning or evening.
 
-First, the locked sky. On a phone, tap and hold on the bright sky to lock focus and exposure, then pull the exposure slider down a stop or two. Shoot the same view with and without the lock and compare what happens to the shadows.
+## An exposure read from the wires
 
-Second, hide the sun. Stand so a mast, a pole or a building edge just covers the sun. Flare drops away, contrast comes back, and you often get a bright rim around the object.
+Without data, the exposure is a reasoned guess. The best clue is a thin one, the guy wires that hold the mast. They run diagonally down from its middle and are about one pixel wide.
 
-Third, clean the glass. Shoot into the sun with a smudged lens, then wipe it with a soft cloth and shoot again. The fan of streaks in this photo will appear and disappear in front of you.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/09-mast-wires.webp" width="307" height="475" alt="Unscaled crop of the lattice mast with its guy wires against the sky" loading="lazy" decoding="async" /><figcaption>Shown at 100 percent, the wires are faint but straight, with no doubling from shake.</figcaption></figure>
 
-Fourth, one view, three times. From a fixed high window, shoot at midday, an hour before sunset and at sunset. Keep the frame the same. You will see haze, colour and silhouette change while the place stays still.
+If the hand had moved during the exposure, those wires would double or smear sideways. They don't, so the shutter was short. Now the arithmetic. Sunny 16 says full sun at ISO 100 and f/16 needs about 1/100 s. Phone lenses of the 4:3 era often had a fixed aperture near f/2.4, which is about five and a half stops more light than f/16. Base ISO on such phones was often 50, one stop less sensitive. Put together you land near 1/2000 s. The meter was looking at a bright sky with the sun in it, so anything from 1/1000 to 1/4000 s is a fair range. All estimates, none of it in the file.
 
-## Making a frame like this today
+Now the side by side. A rough simulation in linear light gives you the trade. At the exposure you see, less than half a percent of the sky above the horizon is pure white. Add one stop and about 16 percent of it clips, a sixth of the sky gone, while the darkest roofs in the lower left only rise from about 3 to about 6 out of 255, still black. Add two stops and more than half the sky is white. So brighter would not have saved the city. It would only have lost the sky. The meter made the right call, and the dynamic range of one small sensor did the rest.
 
-On a phone: use the main lens, not the ultra-wide, which roughly matches the 28 mm reading here. Lock exposure on the sky and lower it slightly. Keep the sun at least a tenth of the frame away from the edge. If you shoot through a window, press the phone against the glass and cup your hand around it to kill reflections. Clean both the lens and the window. Turn on RAW or ProRAW if your phone has it, so the highlights hold more.
+## Phone not film
 
-On a camera: a 28 mm lens, ISO 100, aperture around f/8 to f/11, which also gives a crisp sunstar from the blades. That lands near 1/500 to 1/1000 s in this light. Bracket at minus two, zero and plus two, and blend later if you want shadow detail. Expose to keep the sun's halo from clipping too far, and accept that the core will clip anyway.
+Look at the dark end wall of the vault at 100 percent. There is no grain in the film sense, no fine even random specks. There is smear, soft blotches of brown and olive, a few faint blocks in the flattest parts.
 
-## What could be better
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/10-shadow-detail.webp" width="399" height="260" alt="Unscaled crop of the dark end face of the vault roof, where detail smears into blotches" loading="lazy" decoding="async" /><figcaption>At 100 percent the shadow is smeared and blotchy, the mark of noise reduction, not film grain.</figcaption></figure>
 
-The flare is not the main problem. The dark wedge in the top left is, because it reads as a mistake and drags the eye into a corner with nothing to see. A small step back or a slight turn would remove it. The sun is pressed close to the right edge, which makes the frame feel tipped. Moving it in by a tenth would let the halo breathe.
+That is what in-camera noise reduction does to a small sensor's noise. It wipes fine texture into mush and leaves colour blotches where the chroma noise was. The bottom left of the frame has a median brightness of about 3 out of 255, so there is almost nothing left to wipe. Film fails differently. A colour negative in the dark gets grainier and muddier but keeps some texture, and in the highlights it rolls off softly instead of cutting to flat white the way the sun does here. Everything about this file reads digital, most likely an older phone. It is a reading, not a fact.
 
-The foreground carries a lot of space but little information. The vault is lovely, but the roofs around it are murky mush. Either lift the shadows with a second exposure or crop some of the bottom away and let the bridge sit lower in a wider sky. The centred horizon works for calm, but it leaves the picture undecided between sky and city.
+## Monet, the Bechers and a poem about fog
 
-## Why it stays with you
+The oldest ancestor of this picture is a painting. In 1872 Claude Monet painted the port of Le Havre, part of a series he made partly from a hotel room looking down over the harbour. He called it Impression, Sunrise, because, as he told it, it could not really pass for a view of the town. A low sun, masts and smokestacks melted into haze, light winning over structure.
 
-Most sunset pictures are about the sun. This one is about everything the sun is doing to the world and to the camera at the same time. The cranes go flat, the skyline goes pale, the glass smears, and a working harbour turns into a kind of drawing. It does not hide the lens. That honesty, more than any rule it follows or breaks, is what keeps you looking.
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/11-impression.webp" width="1400" height="443" alt="Wide crop of the hazy cranes, bridge and pale sun, the part that echoes Monet" loading="lazy" decoding="async" /><figcaption>Cut down to the band of cranes, bridge and sun, the photo comes close to Monet's port.</figcaption></figure>
+
+Crop this photo to the band between the cranes and the sun and you get the same idea in a phone file. High window, working port, sun low and strong enough to dissolve the steel. The difference is that Monet chose his blur with a brush, and here the blur came from air and a smudged lens.
+
+The second line is German and industrial. Bernd and Hilla Becher spent decades photographing cooling towers, gas tanks and coal bunkers as plain objects, often in grids, and they were in the 1975 New Topographics show that took man-made places seriously as subjects. Cranes, a truss bridge and a mall roof are that kind of subject. This photo is far less exact than their work, but it shares the refusal to pick a beauty spot.
+
+The third is a poem. Carl Sandburg wrote Fog in Chicago, waiting forty minutes for a judge, after walking through a park and seeing fog over the harbour. He was carrying a book of Japanese haiku and called the result an American haiku. Six lines. The fog comes on little cat feet, sits looking over harbour and city, and moves on. That is the mood of this frame. Not drama, just weather sitting over a port for a moment and then leaving.
+
+## The one mistake
+
+The flare is not the mistake. It is half the subject. The mistake is the dark wedge in the top left corner.
+
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/12-mistake.webp" width="1400" height="1046" alt="Full frame with the dark out of focus wedge in the top left corner boxed in red" loading="lazy" decoding="async" /><figcaption>The dark out of focus wedge in the corner is the one thing that reads as an accident.</figcaption></figure>
+
+It is a soft black triangle, about 360 pixels along the top and 100 down the side, almost certainly part of the building the photo was taken from, an eave or a window frame far out of focus. It pulls your eye into a corner with nothing in it, and it is the only thing in the frame that looks like an accident. The fix costs nothing. Lean forward one hand-width, or tilt the phone a degree down, or crop about 110 pixels off the top afterwards. The crop also pulls the horizon a little closer to the top third. A smaller second note is the sun, pressed close to the right edge. Ten percent more room would let the halo breathe. But the wedge comes first.
+
+## Try this
+
+Find a high window that faces the low sun, about an hour before sunset. Clean the phone lens with a soft cloth and shoot once, then rub a thumb lightly over it and shoot again, so you see the one-sided fan appear. Clean it again and step sideways until a crane, pole or building edge just covers the sun, and watch the glare drop and the contrast come back. Then tap and hold on the bright sky, pull exposure down one stop, and compare the sky and the shadows with your first frame.
+
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/13-try-this.webp" width="614" height="535" alt="Crop around the sun with the small cranes just below it marked as a place to hide the sun" loading="lazy" decoding="async" /><figcaption>A step to one side and these small cranes would have covered the sun.</figcaption></figure>
+
+## Back to the sun
+
+Go back to where you started, the white blob near the right edge. At first it was the subject. Now you know that only a sliver of it is the sun, and the rest is air and glass.
+
+<figure><img src="/photos/notes/photo-harbour-cranes-sunset-lens-flare/14-close.webp" width="369" height="260" alt="Unscaled crop of the glass vault roof, its curved ribs lit by thin lines of low sun" loading="lazy" decoding="async" /><figcaption>The same low sun that blinds the lens draws thin gold lines on the vault ribs.</figcaption></figure>
+
+Most sunset pictures are about the sun. This one is about everything the sun does at once, to the cranes, to the haze, to a glass roof and to the camera. It flattens steel into lines, pales a whole skyline, draws gold along a few ribs and smears itself across a dirty lens. The photo doesn't hide any of that. Once you have seen it here, you will see it in every window you shoot through.

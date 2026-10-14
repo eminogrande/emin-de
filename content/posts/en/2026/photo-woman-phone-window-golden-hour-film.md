@@ -1,9 +1,9 @@
 ---
 title: "A woman, a phone and a green window: reading a golden hour photo"
 seo_title: "Woman Through a Green Window, Read Closely | emin.de"
-description: "A close reading of a warm, film-like portrait shot through an old window: the grid, the low sun, the glass haze, likely settings and how to try it."
+description: "A close reading of a warm, film-like photo shot through an old window. The double grid, the low sun, the ghost bricks, likely lens and settings, Baudelaire's shut window and one fix."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -15,133 +15,169 @@ reviewed_by_human: false
 image: "/photos/window-film-20261013.jpg"
 tags: ["photography","golden hour","film photography","reflections","portrait","composition"]
 source_links:
-  - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "Why late sun is warmer and softer, with colour temperatures." }
+  - { title: "Baudelaire, Windows, tr. Arthur Symons (Project Gutenberg #47032)", url: "https://www.gutenberg.org/cache/epub/47032/pg47032-images.html", note: "Source of the shut window line and \"out of nothing almost\"." }
+  - { title: "John Berger, Ways of Seeing, chapter 1", url: "https://www.ways-of-seeing.com/ch1", note: "Source of \"Soon after we can see\" and \"We only see what we look at\"." }
+  - { title: "MoMA press release, The Photographer's Eye (1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski's line on the picture's edge." }
+  - { title: "Made in Manhattan: how Saul Leiter found beauty in Gotham's glass and grime, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter on what is hidden, and the line on what is held out of reach." }
+  - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the flâneur and Baudelaire." }
+  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera as an instrument that teaches seeing." }
+  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "A photograph as a secret about a secret." }
+  - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "About 3,500 K in golden hour against about 5,500 K at midday." }
   - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The baseline for estimating daylight exposure without a meter." }
-  - { title: "Film grain, Wikipedia", url: "https://en.wikipedia.org/wiki/Film_grain", note: "What grain is and why faster film shows more of it." }
-  - { title: "Anti-halation backing, Wikipedia", url: "https://en.wikipedia.org/wiki/Halation", note: "How the red glow around bright edges forms on film." }
-  - { title: "Saul Leiter, Wikipedia", url: "https://en.wikipedia.org/wiki/Saul_Leiter", note: "The colour photographer of glass, reflections and partial views." }
-  - { title: "Lee Friedlander, Wikipedia", url: "https://en.wikipedia.org/wiki/Lee_Friedlander", note: "Framing through windows, fences and reflections." }
+  - { title: "Anti-halation backing, Wikipedia", url: "https://en.wikipedia.org/wiki/Anti-halation_backing", note: "Why bright edges on film can get a red glow." }
+  - { title: "Film grain, Wikipedia", url: "https://en.wikipedia.org/wiki/Film_grain", note: "What grain is and why it shows most in thin shadows." }
+  - { title: "Le Spleen de Paris, Wikipedia", url: "https://en.wikipedia.org/wiki/Le_Spleen_de_Paris", note: "Published after Baudelaire died, in 1869, and its English translations." }
+  - { title: "Saul Leiter, Wikipedia", url: "https://en.wikipedia.org/wiki/Saul_Leiter", note: "The colour photographer of glass and reflections." }
 tldr:
-  - "A woman inside a room looks back at the camera through an old window, while low sun turns everything amber."
-  - "The window grid splits her into panes, and reflections on the glass lay a second picture over the first."
-  - "Grain, lifted blacks and soft highlights suggest colour negative film, but no settings are known."
+  - "A woman behind a shut window looks up from her phone and straight at the lens, while low sun turns the scene amber."
+  - "Two window grids split her face from her hands, and reflections lay a second street over the room. The bright brick wall is the one flaw."
+  - "No settings are known. The reading is a 35 to 50mm lens at 2 to 2.5 m, about f/5.6 and 1/250 s, probably colour negative film."
 basically:
-  what-you-see-first: "First you see a woman inside a window looking back at the lens, then the grid and the amber light around her."
-  a-body-cut-into-panes: "The mullion and crossbar split her into four cells, keeping her face in one pane and her hands in another."
-  low-sun-through-two-layers-of-glass: "Low sun from the left rakes the brick and warms her face, while glare on the glass lifts every shadow."
-  amber-against-teal: "Amber, cream and peach sit against teal paint, a complementary pair that comes from the place, not a grade."
-  the-look-back: "Her turned head and steady look make the picture, because she has noticed the camera and does not perform."
-  reading-the-camera-and-lens: "The 3:2 frame, natural perspective and level verticals point to a normal lens around 40 to 50mm equivalent."
-  guessing-the-exposure: "A fair guess is ISO 400, around f/5.6 and 1/125 to 1/250 s, read from depth of field and the lack of blur."
-  film-or-digital: "Organic grain in the shadows, creamy highlights and a red edge glow all read as colour negative film."
-  where-this-picture-comes-from: "The picture sits close to Saul Leiter's colour work through glass and Lee Friedlander's framed reflections."
-  exercises-to-try: "Four exercises: shoot through a window, use the grid, meter for the face, and watch where reflections fall."
-  making-a-frame-like-this-today: "On a phone, lock exposure on the face and avoid the wide lens. On a camera, use a normal prime."
-  what-could-be-better: "The haze costs her face some contrast, the crossbar cuts her neck, and the left side pulls the eye away."
-  why-it-stays: "It stays because she looks back through a barrier, which turns watching into being watched."
+  her-eyes-come-first: "\"Soon after we can see, we are aware that we can also be seen.\" John Berger. She knew it first."
+  a-phone-with-its-back-to-us: "\"We only see what we look at. To look is an act of choice.\" John Berger. She chose the lens over the phone."
+  a-grid-laid-over-a-person: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. This window adds four more edges."
+  off-the-thirds-on-purpose: "Her face sits near the centre, not on a thirds point. The window bars do the off-centre work for her."
+  light-from-the-left-softened-twice: "Late sun near 3,500 K, bounced off cream brick and filtered by glass. Hard on the wall, soft on her face, one sun."
+  ghost-bricks-on-the-glass: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here it hides in the reflection."
+  teal-paint-amber-hour: "Orange and teal, the grade the movies fake, comes free here from old paint and a low sun."
+  how-far-away-which-lens: "A face about 1/12 of the frame width puts a 50mm lens about 2.4 m away. Measure the face, find the photographer."
+  aperture-shutter-and-one-other-setting: "About f/5.6 at 1/250 on ISO 400. Open to f/2 and the grid melts. Stop to f/11 and the glass starts to fight her."
+  film-or-digital: "Grain that clumps in the shadows, whites that roll instead of clip. Film is the best bet, never the proof."
+  baudelaires-shut-window: "Baudelaire knew a shut window shows more than an open one. Here the glass adds haze, bars and a second street."
+  the-one-mistake: "The brightest patch takes the eye first. Here it's a brick wall, a stop brighter than her face. Burn it down."
+  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange"
+  the-look-again: "\"A photograph is a secret about a secret. The more it tells you, the less you know.\" Diane Arbus"
 ---
 ![Woman holding a phone, seen through a green window frame in warm sunlight](/photos/window-film-20261013.jpg)
 
-## What you see first
+## Her eyes come first
 
-You see her eyes before anything else. A woman stands behind glass, her body turned toward the left of the frame, her head turned back over her shoulder to look straight at the lens. In her hands, raised to chest height, is a small pale phone. Then the rest of the picture arrives in layers. An old window with cream crossbars and teal edges. Paint chipped along the rail. An open casement on the left with a brick wall behind it, glowing almost white in low sun. A glossy dark bag at the bottom. Dried grass or fronds in the shadows on the right. Over all of it, a thin veil of reflected light.
+You see her eyes before you see the window. That is strange, because the window takes up most of the frame. Cream bars, teal edges, chipped paint, a rail that slopes. And behind all of it a woman with her body turned to the left and her head turned back, looking straight into the lens. Her eyes sit a little right of centre and a little above it, and they hold you there before anything else gets a chance.
 
-The place is unknown, and the picture does not need it. It reads as an older building with painted wooden windows and a brick wall close by, the kind of courtyard or light well where one window looks into another. What matters is the arrangement. Someone outside, someone inside, and a pane of glass that both of them can see through and that also reflects the world back.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/01-eyes.webp" width="1200" height="802" alt="The full photo with a circle around the woman's eyes" loading="lazy" decoding="async" /><figcaption>The eyes are a small part of the frame and still the first stop.</figcaption></figure>
 
-## A body cut into panes
+Your eye goes to a face before almost anything else in a picture, and inside the face it goes to the eyes. Here that habit gets help, because her eyes are the one place where the picture looks back at you. Everything else in this reading is about what keeps you there and what pulls you away.
 
-The frame is horizontal, and the window divides it like a grid drawn over a sketch. A thick vertical mullion runs top to bottom a little left of centre. A horizontal rail crosses about 60 percent of the way down and slopes slightly to the right. A second vertical sits near the right edge before the frame falls into a dark wooden jamb.
+## A phone with its back to us
 
-That grid does real work. Her face sits alone in the upper right pane, close to where the rule of thirds would put it, with the eyes about 40 percent down from the top. The rail crosses her neck and upper chest. The mullion runs through her forearms, so her hands and the phone end up in a different cell from her face. She is fragmented the way a comic strip fragments an action, into separate panels that the eye has to join.
+In her hands, held low on the left, is a small pale phone. You see its back or its closed shell, not a screen. There is no glow on her fingers and none on her face. It is too soft to say what kind of phone it is, and the picture doesn't need that.
 
-This is the old frame within a frame, used against the person rather than around her. Here the bars cut her apart, and the picture is better for it. The cut separates two activities: the hands, busy with a device, and the face, which has stopped being busy and is now looking at us.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/02-phone.webp" width="400" height="342" alt="Crop of her hands holding a pale phone, its back to the camera" loading="lazy" decoding="async" /><figcaption>A pale handset, no light coming off it. Her attention has left it.</figcaption></figure>
 
-The weight is uneven, and on purpose or by luck it balances. The left third is bright, textured and empty of people. The right two thirds are darker and full. The glowing wall acts as negative space that pulls against the figure.
+What matters is the job it does. The phone is where her attention was a second ago. Her hands still hold it ready, the way you hold a phone when you plan to look down again soon. Her head has already left it. So the picture holds two moments at once. The hands are still in the moment before and the face is in the moment now. That split is the story, and it costs nothing, just one turned head.
 
-## Low sun through two layers of glass
+## A grid laid over a person
 
-The light is late and low, coming from the left. You can tell from the way it rakes across the brick, picking out the mortar lines, and from its colour, which is deep amber rather than white. Golden hour light sits around 3,500 kelvin, compared with roughly 5,500 at midday, and this frame looks every bit of that.
+Now look at the bars. A thick cream mullion runs top to bottom at about 42 percent of the width. A second one stands at about 86 percent, and past it the frame falls into dark wood. A wide rail crosses a little below the middle and slopes down to the right by about 3 degrees.
 
-On her face the light is gentler than on the wall. It has passed through glass, bounced off cream paint, and lost its hard edge. The modelling around the cheekbones and nose is soft. There are no razor shadows.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/03-grid.webp" width="1200" height="802" alt="The full photo with the window mullions and the rail traced as lines" loading="lazy" decoding="async" /><figcaption>The near window, traced. One mullion left of her, one right, one sloping rail.</figcaption></figure>
 
-The second light source is the glass itself. Reflections carry brick courses and plant shapes across the right side of the frame, strongest where the room behind is darkest. That is a rule worth remembering: reflections show most over dark backgrounds and vanish over bright ones. Her black T-shirt therefore carries ghost bricks, and her lit face stays fairly clear. The glare also lifts the shadows, so nothing in the picture goes fully black.
+There are really two windows. The near one, the one the camera looks through, is soft because it's close to the lens. The far one stands behind her in the room, with its own thin rail and teal frame. The far rail crosses her neck. The near rail crosses her collarbones. So she is boxed twice, once by her own window and once by ours.
 
-## Amber against teal
+The grid does the editing for you. Her face sits alone in the upper right pane. Her hands and the phone sit in the lower left pane, on the other side of both bars. Two activities in two cells, like two panels of a comic that you have to join yourself.
 
-The palette is two families. Amber, ochre, peach and cream on one side. Teal and muted blue-green in the window paint on the other. These are complementary colours, and digital colour grading has spent fifteen years faking exactly this orange and teal pairing in films. Here it comes from the building and the hour, which is why it feels earned rather than applied.
+The slope is a clue too. The vertical bars stay straight, so the camera wasn't tipped up or down much. A rail that slopes while the verticals stay straight usually means the photographer stood a little to the side of the window and not square to it.
 
-Saturation is moderate. Blacks lift to dark brown and highlights roll off into cream instead of clipping. Some of the shadows lean faintly green, a common trait of colour negative scans. The overall effect is a picture that looks remembered more than recorded.
+## Off the thirds, on purpose
 
-## The look back
+Put a thirds grid over the photo and her face lands in the middle cell, a little right and a little high. Not on a thirds point, and not near the classic placement for a portrait.
 
-A great deal of street and documentary photography depends on the subject not noticing. This picture depends on the opposite. She has noticed. Her body is still turned toward whatever she was doing with the phone, but her head has come round, and her expression is level, closed, slightly guarded. She is not smiling for the camera, and she is not alarmed. She is checking.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/04-thirds.webp" width="1200" height="802" alt="The full photo with a rule-of-thirds grid and her face circled between the lines" loading="lazy" decoding="async" /><figcaption>The face sits inside the centre cell, between all four lines.</figcaption></figure>
 
-That small rotation of the head against the body creates tension. It is the moment between two states, the private task and the public awareness of being seen. A fraction of a second earlier she would have been looking down at the phone, and the picture would be about a woman with a device. A fraction later she might have moved. The photographer pressed the shutter at the point where she returned the gaze, and that choice makes the photograph.
+It still doesn't feel centred, and the reason is the window. The mullion left of her and the bright brick on the far left pull weight to that side. The figure on the right is darker and fuller. So the picture balances like a scale with a small bright weight on one side and a big dark one on the other. The thirds rule is only a shortcut for this kind of balance. When the scene already has strong lines, you can let the lines do the off-centre work and keep the face where it is strongest, near the middle, looking out.
 
-The phone itself is small and pale and looks thick at the edge, more like an older compact or flip handset than a modern slab, though the resolution does not settle that. Its screen does not seem lit. It is a prop of attention that has been set aside.
+## Light from the left, softened twice
 
-## Reading the camera and lens
+The light is late and low and comes from the left. You can read it on her face. The left cheek is bright and warm and the right side falls off into brown. Measured on the file, the shadow side is about a stop and a half darker than the lit side, which is a soft ratio for sun.
 
-The file is 1600 by 1070 pixels, a ratio of almost exactly 3:2. That is the shape of a 35mm film frame and of most interchangeable lens cameras, while most phones default to 4:3. So the aspect ratio points toward a 35mm camera, or a crop to that shape.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/05-light.webp" width="352" height="363" alt="Crop of her face with an arrow showing light arriving from the left" loading="lazy" decoding="async" /><figcaption>Light enters from the left, warms one cheek and leaves the other side in shade.</figcaption></figure>
 
-Perspective looks natural. The window does not stretch at the edges as it would with a wide lens, and the layers are not stacked flat as with a long one. The relationships between near mullion, woman and far wall look like what you would see standing there. That reads as a normal lens, perhaps 40 to 50mm in 35mm terms. The verticals stay close to parallel, so the camera was held about level, roughly at her face height. The slight slope of the rail suggests the photographer stood a little off axis to the window rather than square to it.
+Why so soft if it's the sun? Because it reaches her filtered. Part of it bounces off the cream brick and paint outside, and all of it passes through glass. The brick wall itself is lit hard, you can see the mortar lines and the seams between the blocks. Her face, behind the glass, gets the gentle version of the same sun. One source and two qualities of light.
 
-There is no strong optical vignette. The dark corner on the right comes from the wooden jamb in the scene.
+The colour tells you the hour. Golden hour light sits around 3,500 K, against about 5,500 K at midday. That is why the cream wall turns honey and her skin warms. A digital camera on auto white balance would likely pull half of this warmth out again. Film shot with daylight balance keeps it.
 
-## Guessing the exposure
+## Ghost bricks on the glass
 
-Nothing about the settings is recorded, so these are estimates with reasons.
+In the upper right pane, over the room behind her, there is a second picture. Faint brick courses, evenly spaced, a bright stepped edge at the top like a roof line, and a teal frame that isn't in the room at all. That is the outside, reflected in the glass and lying over the inside.
 
-Start with the sunny 16 rule: in full sun, f/16 at a shutter speed of one over the ISO. Low golden hour sun is several stops weaker than midday. The brick wall in direct late sun might sit two or three stops below the sunny 16 baseline, and the woman behind glass, lit more softly, perhaps another stop below that.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/06-reflections.webp" width="448" height="749" alt="Crop of the right pane where reflected brick courses and a stepped roof edge lie over the room" loading="lazy" decoding="async" /><figcaption>Reflected brick courses and a stepped edge float over the shaded room.</figcaption></figure>
 
-Depth of field gives the next clue. The chipped paint on the near rail and the brick on the far wall both hold detail, so the focus zone is fairly deep. That points away from a wide-open aperture and toward something like f/5.6 or f/8.
+They show on the right and not on the left for one reason. A reflection only shows where the thing behind the glass is darker than the thing being reflected. On the left the view through the glass is the sunlit wall, brighter than any reflection, so that glass looks clear. On the right the room is in shade, so the reflected wall wins. Glass is a mirror wherever the room behind it is dark.
 
-Movement gives the third. There is no visible motion blur in her face, and her hands are only slightly soft, which reads more like focus falloff than shake. A handheld normal lens is comfortable at 1/125 s and safe at 1/250 s.
+That gives you more control than you'd think. Move half a step and the reflections slide across her. Here they stay mostly on the dark pane next to her, with only a thin veil over the shadow side of her face. A polarising filter could cut them, but then you lose the second layer that makes this a picture about glass.
 
-Put together, a plausible reading is ISO 400 film, around f/5.6, at 1/125 to 1/250 s. If the film were ISO 200, the photographer would likely have opened up a stop or slowed down a stop. The logic matters more than the numbers: every setting leaves a trace you can read back.
+## Teal paint, amber hour
+
+Two colour families carry the frame. Teal in the window paint, on the top rail and along the edges of the bars. Amber, cream and peach everywhere the sun falls, on brick and skin and the near wood.
+
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/07-colour.webp" width="720" height="482" alt="Crop of teal window paint beside cream brick turned amber by the sun" loading="lazy" decoding="async" /><figcaption>Old teal paint in shade, cream brick turned gold by the hour.</figcaption></figure>
+
+Teal and orange sit opposite each other on the colour wheel, and film colourists have pushed that pair for years. Here nobody had to push. The paint is old and real, and the hour does the orange. The teal is quiet too, darker and greyer than in a grade, because it sits in shade under the top rail. That restraint is what makes it look found and not made.
+
+Saturation stays moderate. The blacks lift to dark brown, and the darkest corner of the file sits around 20 out of 255 and never at zero. The highlights roll into cream, and fewer than one pixel in two thousand touches full white. This is a picture with room at both ends.
+
+## How far away, which lens
+
+No camera data came with this file, so the lens has to be read from the picture. The file is 1600 by 1070 pixels, almost exactly 3:2, the shape of a 35mm film frame and of most system cameras. Most phones shoot 4:3. That points to a camera, or a crop to that shape.
+
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/08-scale.webp" width="1200" height="802" alt="The full photo with a line measuring the width of her face against the frame" loading="lazy" decoding="async" /><figcaption>Her face spans about a twelfth of the frame. That one number gives you the distance.</figcaption></figure>
+
+Then measure. Her face is about 130 pixels wide, roughly one twelfth of the frame. An adult face is about 14 cm across, so the frame covers about 1.7 m of width where she stands. With a 50mm lens that puts the camera about 2.4 m from her. With a 35mm lens, about 1.7 m. These are estimates, and a few centimetres of face change them a little.
+
+Perspective narrows it down. The bars don't lean outwards or stretch at the edges, which rules out a wide lens. The near window and the far wall don't stack flat either, which rules out a long one. So something between 35 and 50mm, a normal lens, held at about her face height.
+
+## Aperture, shutter and one other setting
+
+Depth of field gives the aperture. Her face is the clearest thing in the frame. The near mullion is soft and so is the brick through the open casement. So the zone of focus is moderate, not deep. At 50mm and 2.4 m, f/5.6 gives a sharp zone from about 2.1 to 2.9 m, which fits.
+
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/09-focus.webp" width="480" height="534" alt="Crop comparing the soft near mullion with her clearer face" loading="lazy" decoding="async" /><figcaption>The near bar is a soft glow. Her face holds the most detail in the frame.</figcaption></figure>
+
+Movement gives the shutter. Her hands are soft but not streaked, and the small bright ring on her finger shows as a round blob and not a line. So nothing moved much during the exposure. A handheld normal lens is safe at 1/125 s and comfortable at 1/250 s.
+
+The sunny 16 rule checks it. In full sun it's f/16 at one over the ISO. Low sun is about three stops weaker, and her spot behind glass maybe another stop. On ISO 400 film that lands near f/5.6 at 1/250 s. Every number here is a guess with a reason, not a fact.
+
+Now swap one setting and keep the light. At f/2 the shutter goes to about 1/2000 s. The bars would turn to cream fog and her face would float in a soft box. Prettier maybe, but the grid that splits her face from her hands would go, and that split is the picture. The other way, f/11 at 1/60 s. The bars and the ghost bricks come sharp and start to fight her face, and at 1/60 s a handheld camera starts to shake.
 
 ## Film or digital
 
-The evidence leans toward colour negative film. Grain is visible, organic and irregular, and it is strongest in the shadows and dark midtones, on the T-shirt and the bag, which is where underexposed negative film shows it. Digital noise tends to look more patterned and to carry more colour speckle. Here the colour mottling is mild.
+Look at the pixels at full size, on her bent arm and dark T-shirt. The grain is clumpy and uneven, with soft colour blotches, teal in the dark parts and magenta in the skin. It isn't the fine even speckle you get from a digital sensor.
 
-The highlights point the same way. The brightest brick nearly blows out but keeps faint mortar lines, a smooth shoulder rather than a hard cut. And along some edges where bright meets dark, there is a reddish glow. That is the signature of halation, when strong light passes through the emulsion, bounces off the film base and exposes the red layer a second time.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/10-grain.webp" width="320" height="257" alt="Pixels at full size from her bent arm and dark T-shirt, showing the grain" loading="lazy" decoding="async" /><figcaption>Full size, no enlargement. Clumps and colour blotches, not a regular pattern.</figcaption></figure>
 
-None of this is proof. A careful digital file with a film emulation can imitate all three traits. But taken together, grain where film puts it, highlights that roll and a red edge glow, the reading is film, probably a consumer or portrait stock around ISO 200 to 400.
+Three traits point the same way. The grain is strongest in the shadows, which is where colour negative film shows it. The highlights roll into cream instead of cutting off. And there is a faint orange fringe along some bright edges, like the line where the sunlit brick meets the casement. That fringe is halation. Strong light passes through the emulsion, bounces off the film base and exposes the red layer a second time. The anti-halation backing is there to stop it, and it never stops all of it.
 
-## Where this picture comes from
+None of this is proof. A careful digital file with a good film preset can fake all three. But the three together, plus the 3:2 shape, make film the better bet, probably a colour negative stock around ISO 400. That is a reading and not a label.
 
-This picture belongs to a long conversation about glass. Saul Leiter, working in colour in New York from the late 1940s, made his name on pictures taken through steamed windows, past shop reflections and around obstructions, where the subject is half hidden and colour does as much as content. This frame shares his patience with partial views and his comfort with letting a pane of glass soften the world.
+## Baudelaire's shut window
 
-Lee Friedlander pushed the other side of it. His work from the 1960s on is full of reflections, fences and window frames that cut through people and streets, and he made the obstruction part of the subject. The way the mullion here slices her forearms and the rail crosses her neck is closer to Friedlander's hard geometry than to Leiter's softness.
+Paris Spleen came out in 1869, after Baudelaire died. One of its prose poems is called Windows, and in Arthur Symons's translation it begins, "He who looks in through an open window never sees so many things as he who looks at a shut window."
 
-The wider genre is the window portrait seen from outside, a form that always carries a little of the voyeur. What saves this one from that is her look back. The watched person answers, and the picture becomes an exchange.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/11-shut-window.webp" width="800" height="609" alt="The woman framed by the closed window, cropped to her pane" loading="lazy" decoding="async" /><figcaption>Her pane alone. The glass adds the haze, the bars and the second street.</figcaption></figure>
 
-## Exercises to try
+That is the odd thing about this photo, and Baudelaire saw it long before cameras could. The glass doesn't get in the way. It adds. The reflection, the haze and the bars give you more to look at than an open window would. Later in the poem he watches a woman across the roofs, and out of her face, her dress and her attitude, "out of nothing almost", he makes up her whole story.
 
-1. Find a window with visible bars and shoot through it at someone inside. Put their face in one pane and their hands in another. Notice how the separation changes what the picture is about.
+This picture won't let you do that. She looks back, and it's hard to invent a life for someone who has just caught you looking. Susan Sontag wrote that photography "first comes into its own as an extension of the eye of the middle-class flâneur, whose sensibility was so accurately charted by Baudelaire." The flâneur watches and isn't watched. Here the watched one answers.
 
-2. Shoot the same scene twice, once with a dark room behind the glass and once with a lit room. Watch the reflections appear and disappear. Dark backgrounds reveal reflections, bright ones erase them.
+The photographer this frame sits closest to is Saul Leiter, who shot New York through steamed glass, shop windows and reflections from the late 1940s on. The Guardian put it in one line. "Often what we most want to see is held tantalisingly out of reach." Leiter's glass usually hides people. This glass hides her too, and she looks through it anyway.
 
-3. Meter for the face, not the wall. On a camera, use spot metering on the skin and accept that the sunlit brick will nearly clip. On film, overexpose the face by a stop and trust the highlight latitude.
+## The one mistake
 
-4. Use a normal lens at f/5.6 or f/8 so the window and the person are both readable. Then try f/2 and see how the grid dissolves and the picture changes meaning.
+The brightest thing in this frame isn't her. It's the sunlit brick pillar through the open casement on the left, close to a stop brighter than her lit cheek. The eye goes to the brightest patch early, so every time you look, the wall pulls you away from her face for a beat.
 
-## Making a frame like this today
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/12-mistake.webp" width="1200" height="802" alt="The full photo with the bright brick pillar boxed in red and her face circled for comparison" loading="lazy" decoding="async" /><figcaption>The red box is the brightest patch. The circle is what should win.</figcaption></figure>
 
-On a phone, use the main lens, not the ultra wide, which would bend the window bars. Step back and use the 2x option if you have one to get closer to a normal perspective. Tap to focus on the face and lock exposure there, then pull exposure down a little so the brick does not burn. Turn off night mode and heavy HDR, which flatten exactly the contrast you want. Shoot in the last hour before sunset. In editing, warm the white balance slightly, lift the blacks a touch and add fine grain at low strength. Do not push the teal.
+The fix is small and doesn't cost the picture anything. In the scan or the edit, burn the left quarter down by about a stop, so the pillar goes from near white to warm cream. Her face then becomes the brightest thing that matters, and the casement and its light still read. It's a two minute change that does more for this frame than any lens upgrade.
 
-On a camera, a 35mm or 50mm prime on full frame, or the equivalent on a smaller sensor, is ideal. Try ISO 400, f/5.6, 1/250 s as a starting point, then adjust to the face. Set white balance to daylight rather than auto so the camera does not neutralise the amber. A circular polarizer can cut the reflections, but think twice before using it here, because the reflections are half the picture. On film, a portrait or consumer colour negative stock at box speed or one stop over will give the soft highlights and warm shadows.
+## Try this
 
-## What could be better
+Find a window with bars and a friend on the other side of it, in the last hour before sunset with the sun coming from the side. Put their face in one pane and their hands in another, and ask them to look at their phone and then up at you when you say so. Lock focus and exposure on the face, not the bright wall, and shoot ten frames while you move half a step left and right so the reflections slide across. Then lay the frames side by side and keep the one where the reflections sit on the dark glass and not on the eyes.
 
-The glare is the picture's mood and also its cost. Her face loses perhaps half its contrast to the haze, and the eyes, which carry everything, are softer than they deserve. A step to the side might have moved the strongest reflection off her face while keeping it on the body.
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/13-try.webp" width="1200" height="802" alt="The full photo with her face and her hands boxed in separate panes" loading="lazy" decoding="async" /><figcaption>The setup to copy. Face in one pane, hands in another, a bar between them.</figcaption></figure>
 
-The horizontal rail crosses her neck. It is a strong cut and it works with the fragmentation idea, but a few centimetres higher or lower would have avoided the line falling exactly where a head joins a body, which can feel like a decapitation at a glance.
+## The look, again
 
-The left side is the brightest part of the frame, and the eye goes to the brightest part first. The glowing brick competes with her face. Cropping a little from the left, or exposing slightly darker, would hand the attention back to her.
+Go back to her face, cropped tight. Now you can see what the glass does to it. The left side is warm and clear. Over the right side lies a thin pale veil, a reflection too weak to show any shapes but strong enough to cool and flatten that half. Her expression is level. It's not a smile and not alarm. She is checking.
 
-## Why it stays
+<figure><img src="/photos/notes/photo-woman-phone-window-golden-hour-film/14-close.webp" width="208" height="311" alt="Tight crop of her face behind the glass" loading="lazy" decoding="async" /><figcaption>One half clear, one half under a faint veil of reflection.</figcaption></figure>
 
-Most photographs through windows are about looking in. This one is about being looked back at. The bars, the glare and the ghost bricks all say distance, and then her eyes cancel it. The warm light makes the scene feel like a memory, while her expression keeps it in the present tense, cool and awake.
-
-It is also a quiet picture about two kinds of attention. The phone in her hands stands for one, inward and private. The camera outside stands for another, directed at her. For one exposure she chooses the second, and the photograph keeps that choice.
+At the start her eyes came first because faces always do. Now they come first for reasons you can name. Two windows, two rails, a reflection, a phone, a wall a stop too bright, and through all of it one person who noticed the camera and looked back. You could make up a story for her the way Baudelaire did. The picture is better if you don't.

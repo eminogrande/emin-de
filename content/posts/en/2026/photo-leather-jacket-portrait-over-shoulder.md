@@ -1,9 +1,9 @@
 ---
-title: "A portrait over the shoulder: leather, soft light and a level gaze"
+title: "A portrait over the shoulder: leather, soft sky and a look that lands"
 seo_title: "Leather Jacket Portrait, Read Closely | emin.de"
-description: "A close reading of an over-the-shoulder portrait in soft daylight. Light, lens, depth of field and exposure, read from the picture, plus exercises to try."
+description: "A close reading of an over-the-shoulder portrait in soft daylight. The turn, the catchlights, lens distance, shutter and aperture trade-offs, and one fix, with annotated crops."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -13,128 +13,164 @@ provenance: ai_generated
 ai_assisted: true
 reviewed_by_human: false
 image: "/photos/portrait-leather-20261013.jpg"
-tags: ["photography","portrait","natural light","depth of field","bokeh","photo critique"]
+tags: ["photography","portrait","natural light","catchlight","depth of field","photo critique"]
 source_links:
-  - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why the background in this portrait melts away." }
-  - { title: "Bokeh, Wikipedia", url: "https://en.wikipedia.org/wiki/Bokeh", note: "The quality of out-of-focus blur and why lenses differ." }
+  - { title: "John Berger, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words, from Ways of Seeing, chapter 1." }
+  - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "The picture's edge as the line of decision." }
+  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Instead of arranging it, I arrange myself." }
+  - { title: "Saul Leiter, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "The real world has more to do with what is hidden." }
+  - { title: "On Looking and Longing, Mama Casset, MoMA Magazine", url: "https://post.moma.org/on-looking-and-longing-seeing-women-in-mama-cassets-modernist-photography", note: "Casset's sitters and their gazes, the Wolof words for looks, and the bell hooks quote from The Oppositional Gaze, Black Looks, p. 116." }
+  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
+  - { title: "Henri Cartier-Bresson, Wikiquote", url: "https://en.wikiquote.org/wiki/Henri_Cartier-Bresson", note: "People who know how to look are as rare as those who know how to listen." }
+  - { title: "Girl with a Pearl Earring, Wikipedia", url: "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring", note: "Vermeer's over-the-shoulder look, the old ancestor of this pose." }
   - { title: "Catchlight, Wikipedia", url: "https://en.wikipedia.org/wiki/Catchlight", note: "How the reflection in an eye reveals the light source." }
-  - { title: "Exposure (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Exposure_(photography)", note: "Shutter, aperture and sensitivity explained." }
-  - { title: "Girl with a Pearl Earring, Wikipedia", url: "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring", note: "Vermeer's over-the-shoulder glance, the old ancestor of this pose." }
-  - { title: "Dawoud Bey, Wikipedia", url: "https://en.wikipedia.org/wiki/Dawoud_Bey", note: "A portraitist known for direct, dignified gazes." }
+  - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why f/2 at portrait distance gives a sharp zone of a few centimetres." }
 tldr:
-  - "A woman in a black leather jacket turns back over her shoulder and meets the lens with a level, unsmiling gaze."
-  - "Soft open-sky light, a short tele look and a very shallow plane of focus do most of the work here."
-  - "No EXIF exists, so every setting in this essay is a reading of the picture, not a fact."
+  - "A woman turns back over her shoulder and her eyes do the last part of the turn, so the look feels given, not asked for."
+  - "A big soft sky, a short tele from about 1.2 m and f/2-ish focus a few centimetres deep do most of the work."
+  - "No EXIF exists, so every setting here is a reading of the picture, and the one fix is the half hand in the corner."
 basically:
-  what-you-see-first: "The first thing you meet is her gaze, steady and unsmiling, before you notice anything else."
-  a-frame-built-on-one-turn: "The whole picture rests on a body turned away and a head turned back, which builds tension."
-  light-from-an-open-sky: "Soft daylight from a broad sky shapes the face gently and leaves no hard shadow anywhere."
-  green-brown-and-black: "Three colour families carry the picture, and a small green earring ties the face to the trees."
-  the-moment-of-the-glance: "The picture catches the instant after a turn, when the look has landed but nothing has moved yet."
-  reading-the-lens: "Natural facial proportions and a melted background point to a short tele lens used close to wide open."
-  guessing-the-exposure: "A reasonable guess is a wide aperture, around 1/250 s and a low ISO, all inferred from the image."
-  film-or-digital: "Fine even texture, clean blacks and a 4:3 frame read as digital, with a lens that adds a soft glow."
-  where-this-picture-comes-from: "The pose is as old as Vermeer, and the direct, dignified gaze recalls portraitists like Dawoud Bey."
-  exercises-to-try: "Four small exercises let you practise the turn, the open shade, the wide aperture and the eye focus."
-  making-it-on-a-phone-or-a-camera: "A phone in portrait mode or a camera with an 85mm-ish lens can both make a frame like this."
-  what-could-be-better: "The tight top crop and the stray fingertips in the corner are the two flaws worth fixing."
-  why-it-stays: "It stays because the subject is looking back at you, and the picture refuses to soften that."
+  the-look-comes-first: "\"Seeing comes before words.\" John Berger. In this portrait she sees you first."
+  one-turn-and-two-directions: "The head says she was looking elsewhere. The eyes say she is looking at you now. The twist between them is the picture."
+  light-from-a-big-soft-sky: "A light much bigger than the head leaves no shadow edge. Outdoors the biggest light is the sky, and it costs nothing."
+  two-slivers-of-sky-in-the-eyes: "Every eye is a curved mirror. A thin band of light at the top of the iris means open sky above, not flash."
+  the-edges-of-the-frame: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here it cuts the hair and keeps the chin."
+  the-moment-after-the-turn: "About 1/500 s keeps every coil of hair. At 1/30 s a head still turning smears across 15 pixels."
+  reading-the-lens: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Distance shapes the face."
+  a-slice-of-focus-a-few-centimetres-deep: "Change f/2 to f/8 and the trees grow leaves, the place gets a name and the look loses the room."
+  film-or-digital: "No grain, no clumps, only smooth tone. Most of what we call the film look is soft contrast, not film."
+  green-against-green: "\"The real world has more to do with what is hidden.\" Saul Leiter. The trees stay hidden and their green sits in her ear."
+  where-this-look-comes-from: "\"Not only will I stare. I want my look to change reality.\" bell hooks, The Oppositional Gaze."
+  the-one-mistake: "Half a hand in the corner costs more than any lens upgrade. Crop it out or bring the whole hand in."
+  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange."
+  why-it-stays: "\"People who know how to look are as rare as those who know how to listen.\" Cartier-Bresson. She knows how."
 ---
 ![Woman with short natural hair in a black leather jacket looking over her shoulder](/photos/portrait-leather-20261013.jpg)
 
-## What you see first
+## The look comes first
 
-You see the eyes before you see anything else. A woman turns back over her shoulder and looks straight into the lens. She does not smile. Her lips are closed, her chin is a little lowered, and that small drop of the head makes the eyes look slightly upward at us. The effect is not hostile, but it is not an invitation either. It is a look that asks what you want.
+She looks at you before you look at her. That is the whole trick of this picture, and everything else in the frame is there to protect it. Her body points away to the left, her head comes back over the near shoulder, her chin drops a little, and her eyes come up from under low straight brows and land on the lens. She doesn't smile. The mouth is closed and calm. It's not a hostile look and it's not an invitation either. It's the look of someone who was busy with something else and now waits for you to say why you are here.
 
-Then the rest arrives. Short, natural, tightly coiled hair forms a dark dome over the forehead. A black leather jacket with a turned-up collar wraps the neck. A small green faceted stud sits in the visible ear. Behind her, everything is green and soft, trees above and grass below, with a few grey upright shapes too blurred to name with certainty.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/01-the-look.webp" width="874" height="552" alt="Close crop of her eyes under low straight brows, turned back toward the lens" loading="lazy" decoding="async" /><figcaption>Low straight brows, dark liner and two dark eyes turned back to meet the lens.</figcaption></figure>
 
-The photograph arrives as a horizontal frame, 2302 by 1726 pixels, which is a 4:3 ratio. It was sent by Emin in chat on 13 October 2026. The capture date is unknown, the place is unknown, and the file carries no camera data. So everything technical below is a reading of the picture itself, the way a critic reads a print on a wall, with the reasons laid out so you can disagree.
+Then the rest comes in, slowly. Short natural hair as a dark round crown. A black leather jacket with the collar turned up. A small green stone in the one ear you can see. Behind her only green, soft and wide, with a few grey upright shapes lower down that are too blurred to name. The file is 2302 by 1726 pixels, a 4:3 frame, and it carries no camera data. So every setting in this essay is a reading of the picture, with the reason right next to it, and you can check each one with your own eyes.
 
-## A frame built on one turn
+## One turn and two directions
 
-The picture rests on a single gesture. Her body points toward the left edge of the frame. Her head comes back toward us. Between those two directions there is a twist, and the twist is where the energy of the portrait lives. A face squared up to the camera can feel like a passport. A face that turned back feels like it chose to look.
+The picture rests on one gesture. The body goes one way and the head comes back the other way, and the energy of the portrait sits in the twist between the two. A face squared up to the camera looks like a passport. A face that turned back looks like it chose to look.
 
-The crop is tight, head and shoulders, with the top of the hair close to the upper edge. The face sits a little right of centre, and the eyes fall just above the horizontal midline. That placement leaves more green space on the side she is turned away from, which gives the turn somewhere to come from.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/02-the-turn.webp" width="1400" height="1050" alt="Full frame with a line on the near shoulder and arrows up the collar fold to the face" loading="lazy" decoding="async" /><figcaption>The near shoulder fills the lower left, and the fold of the collar runs up like a ramp to the face.</figcaption></figure>
 
-Look at the collar. The thick edge of the leather lapel runs as a diagonal from the lower left up toward her neck. It acts like an arrow. Your eye enters at the shoulder, rides the leather up, and lands on the face. A second, quieter line follows the front edge of the jacket down toward the lower right.
+Look at the leather. The rolled edge of the collar runs as a diagonal from the bottom of the frame up toward her neck, and it works like an arrow. Your eye enters at the shoulder, rides the shiny fold up, and arrives at the jaw and the ear. The near shoulder and the collar fill the lower left, so the face sits on a base of black leather and the eye has nowhere else to rest.
 
-## Light from an open sky
+There is also a small detail in the eyes that makes the turn read. The head is not fully back. It still points a little away from you, toward the right of the frame, and the eyes turn further in their sockets to reach the lens. You see white on one side of each iris. That small extra turn of the eyes is what makes the look feel deliberate. The head says she was looking elsewhere. The eyes say she is looking at you now.
 
-The light is soft. You can tell from the shadows, or rather from how little of them there is. Under the nose, under the lower lip and along the jaw, the tone rolls off gradually. There is no crisp shadow edge anywhere on the face. That kind of rendering needs a large light source relative to the subject, and outdoors the largest source there is happens to be the sky.
+## Light from a big soft sky
 
-The catchlights confirm it. In each eye there is a small, soft, irregular reflection in the upper part of the iris. A softbox would leave a clean rectangle, a ring flash a bright circle in the pupil. These look like what an eye reflects when it faces a bright, broad patch of sky with trees around it. So the most likely reading is open shade or an overcast day, with the light coming mostly from the front and a little from above.
+The light is soft, and you can tell from the shadows, or rather from how little of them there is. Under the nose, under the lower lip and along the jaw the tone rolls off slowly. There is no crisp shadow edge anywhere on the face. To get that you need a light source much bigger than the head, and outdoors the biggest source there is happens to be the sky.
 
-Overhead light has a known habit. It catches the forehead, the bridge of the nose, the cheekbones and the chin, and it leaves the eye sockets slightly darker. You can see that here, and the dark liner around her eyes deepens it. The leather shows the same light in another language. Long, soft highlights run along the folds of the collar and reveal the grain of the hide. A snap button throws one small bright point. The green stone in the earring gets its own tiny glint.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/03-light.webp" width="1200" height="1348" alt="Face crop with an arrow for soft light from above and a circle on the soft shadow under the jaw" loading="lazy" decoding="async" /><figcaption>Light comes from a broad patch of sky in front and a little above, and the jaw fades into shade with no hard line.</figcaption></figure>
 
-## Green, brown and black
+The brightest skin is on the forehead, the bridge of the nose, the cheekbones and the chin. These are the surfaces that face up and forward. The eye sockets sit a little darker, and the dark liner around her eyes makes them deeper still. That pattern means the light comes from the front and a bit from above. It also leans a little to the right of the frame, because the far cheek is a touch brighter than the near one. Photographers call that short lighting, and it makes a face look narrower.
 
-This is a colour photograph with a disciplined palette. Three families carry it. Greens fill the background. Warm browns live in the skin. Deep blacks belong to the hair and the jacket. The lips add a muted rose that keeps the face from going monochrome.
+The leather tells the same story in another language. Long soft highlights run along the folds of the collar and the shoulder. If the sun had been out you would see small hard points of light on the leather and a sharp shadow under the chin. Here the shine is wide and gentle. So the most likely reading is an overcast day or open shade, the bright shadow you find at the edge of trees.
 
-The best colour decision in the frame is small. The green earring echoes the green of the trees. It ties the subject to her surroundings, planned or found.
+## Two slivers of sky in the eyes
 
-The white balance reads as neutral to slightly warm on the skin, with a faint green tint in the shadows. That tint is probably spill, light bouncing off foliage before it reaches her. The blacks are rich but not crushed. You can still see texture in the leather and in the hair, which tells you the exposure was set for the face and the shadows were allowed to sit low without falling off a cliff.
+The catchlights settle the light question. Zoom in on each iris and you find a thin curved line of light at the top, tucked just under the upper lid. Each one is about 40 pixels wide and only 6 or 7 tall in this file. They have a slightly cool tone against the warm brown of the eye.
 
-## The moment of the glance
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/04-catchlights.webp" width="529" height="155" alt="Tight crop of both eyes with circles on the thin curved catchlights at the top of each iris" loading="lazy" decoding="async" /><figcaption>The eye is a curved mirror, and here it shows a wide band of sky above her.</figcaption></figure>
 
-There is no motion blur. The lashes are sharp, the iris detail holds, and the edges of the face are clean. So neither camera nor subject moved during the exposure in any way that shows.
+A softbox would leave a small clean rectangle. A ring flash would leave a bright ring around the pupil. The sun would leave one hard white point. A long thin curved band at the top of the iris is what the cornea does with a wide bright strip of sky above the subject, partly cut by the lid and by the trees around. Both catchlights sit a little to the right of the iris centre, which matches the brighter right cheek. Two separate clues, one direction.
 
-What the frame catches is the instant after a turn. The head has arrived, the eyes have found the lens, and nothing has moved since. A second earlier the face was in motion. A second later she might have smiled or looked away. The photographer took the moment of pure attention between those, and that is harder than it looks. People hold a direct look for a very short time before they start to perform.
+## The edges of the frame
+
+The crop is tight, head and shoulders in a horizontal frame. The eyes sit at about 44 percent of the height, clearly below the upper third line, and the top of the hair runs out of the frame between roughly a third and two thirds of the width. The face sits a little right of centre, so there is more green on the right than on the left.
+
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/05-frame.webp" width="1400" height="1050" alt="Full frame with a rule of thirds grid, the eyes sit below the upper line and the hair runs into the top edge" loading="lazy" decoding="async" /><figcaption>The eyes sit well below the upper third line, and the crown of the hair is cut by the top edge.</figcaption></figure>
+
+The textbook rule puts the eyes on the upper third line. If you did that here you would need to show more space above the head, or cut the chin. This frame keeps the chin and the collar and lets the hair go instead. That makes the head feel bigger and closer than it is, almost too close, which suits the look. Cutting into the hair is a decision, not a slip, and it says something. It says the face matters more than the outline of the head.
+
+The open green on the right also does work. The body points left, the eyes look out, and the space on the right side is where the head turned from. Leave that space out and the turn has nowhere to come from.
+
+## The moment after the turn
+
+There is no motion blur anywhere on the face. Zoom in where the hair meets the green and the single coils stay separate, with no streak and no double edge. So during the exposure neither the camera nor the head moved in any way that shows.
+
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/06-moment.webp" width="368" height="379" alt="Pixel-level crop of the hair edge against the green, single coils stay separate with no smear" loading="lazy" decoding="async" /><figcaption>At full size the edge of the hair against the trees stays clean, so nothing moved while the shutter was open.</figcaption></figure>
+
+Open shade or overcast light at f/2 and ISO 100 gives a shutter of about 1/250 to 1/1000 s, so a reading of about 1/500 s fits well. Now put the other setting next to it. This frame shows about half a metre of real width across 2302 pixels, so one pixel is about a fifth of a millimetre. If the head was still moving at even 10 cm per second, 1/30 s would smear it across about 15 pixels, and the coils would melt into a soft grey halo. At 1/500 s the same movement covers about one pixel. That is the difference between a look that has landed and a look still on its way.
+
+The picture catches the instant after a turn. A second earlier the face was moving. A second later she might have smiled or looked away. People hold a direct look into a lens only briefly before they start to perform.
 
 ## Reading the lens
 
-The face looks natural. The nose is not enlarged, the ear is in proportion, and nothing near the frame edges stretches. A wide lens used this close would swell the nose and shrink the ears. A very long lens would flatten the face into a mask. What we see sits in between, which points to what photographers call a short telephoto, something like 75 to 105mm in full-frame terms.
+The face looks true. The nose is not swollen, the ear is in proportion, and nothing at the edges of the frame stretches. That alone tells you a lot about where the camera stood.
 
-The 4:3 ratio adds a clue. It is the native shape of Micro Four Thirds sensors and of most phone sensors. If this came from a Micro Four Thirds camera, that full-frame look would correspond to a real focal length of roughly 40 to 50mm. If it came from a phone, it would be the portrait or tele lens rather than the main wide one. It could also simply be a crop from a 3:2 frame. The picture cannot settle that.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/07-lens.webp" width="1200" height="1209" alt="Face crop with marks on the nose and the ear, both in natural scale" loading="lazy" decoding="async" /><figcaption>Nose and ear keep their real sizes, which means the camera stood well back.</figcaption></figure>
 
-The background tells you about the aperture. Trees and grass smear into soft shapes within a short distance behind her. Some bright spots in the upper right turn into small discs, and a few of those discs have slightly brighter rims and stretch into ovals toward the edge. Rimmed discs and cat-eye shapes near the corners are typical of a fast lens used at or near its widest setting. There is also a faint glow around the brightest parts of the skin, a slight bloom that softens contrast. That looks like a lens with some residual spherical aberration, the kind of character older or deliberately soft designs show wide open. It might also be a diffusion filter or a gentle edit. I lean toward the lens.
+Perspective depends only on distance. The tip of her nose is about 10 cm closer to the camera than her ear. Shoot from 40 cm, the way a phone's main wide lens forces you to, and the nose is at 40 cm while the ear is at 50, so the nose comes out about a quarter bigger than it should. Shoot from 1.2 m and it's 120 against 130, so the nose grows by only about 8 percent and the eye reads that as normal. The frame here covers about half a metre of width, and on a full frame camera an 85mm lens shows that width at about 1.2 m. So the most likely reading is a short tele, something like 75 to 105mm in full frame terms, from about 1.1 to 1.5 m away.
 
-Focus sits on the near eye, the one on the left of the frame. The ear and earring are nearly as sharp, the far eye a touch softer, and the shoulder in the lower left is already out of focus. That is a plane of sharpness only a few centimetres deep.
+The 4:3 shape adds a clue but not an answer. It's the native shape of Micro Four Thirds sensors and of most phone sensors. On Micro Four Thirds the same view would come from a lens of about 40 to 50mm. On a phone it would be the 2x or 3x lens, not the main one. It could also be a crop from a 3:2 frame. The picture cannot settle that, so this essay doesn't either.
 
-## Guessing the exposure
+## A slice of focus a few centimetres deep
 
-With no EXIF, these are estimates, each with the reason behind it.
+Focus sits on the near eye, the one on the left of the frame. The far eye is a touch softer. The ear, only a few centimetres further back, is already soft at the edges, and the shoulder in the lower left is clearly out of focus. The trees behind her have no leaves left, only shapes.
 
-Aperture. The depth of field is very shallow at what looks like 1.2 to 2 metres from the subject. On a full-frame camera that suggests something between f/1.8 and f/2.8. On Micro Four Thirds the real aperture would need to be wider, around f/1.2 to f/1.8, to give a similar look.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/08-depth.webp" width="1400" height="1050" alt="Full frame with the sharp near eye, the soft shoulder and the melted trees marked" loading="lazy" decoding="async" /><figcaption>Sharp at the near eye, already soft at the shoulder, and the trees behind are only colour.</figcaption></figure>
 
-Shutter speed. Open shade with a wide aperture gives plenty of light. A shutter around 1/250 s to 1/500 s fits, fast enough to freeze any small sway of the head and any shake from the hands. There is no sign of a slower speed.
+At 85mm, 1.2 m and f/2 on full frame, the zone of sharpness is about 2 to 3 cm deep. That fits what you see. Now the same scene at f/8. The sharp zone grows to about 10 cm, so the ear, the earring and the collar all come in sharp. The trees start to show branches and leaves, and the grey shapes below would become readable objects. To keep the exposure, the shutter would drop four stops, from about 1/500 s to about 1/30 s, which brings back the motion risk from the last section, or the ISO would climb to about 1600. f/2 is the choice that keeps the place a mystery and the look clean.
 
-ISO. The shadows show fine, even texture without colour blotches. That reads as a low to moderate setting, likely ISO 100 to 400. On a phone the number is less meaningful, because the software merges several frames and cleans them up.
-
-None of these numbers is a fact.
+Some bright patches in the upper right look like crescents more than full discs. That is what fast lenses often do toward the corners when wide open. The blur here is too dense to be sure, so take it as a hint, not a fact. The bigger point is distance. The trees are several metres behind her, and distance behind the subject melts a background as much as the aperture does.
 
 ## Film or digital
 
-The texture in the dark areas is fine and uniform, slightly smoothed, without the irregular clumping you see in film grain. The blacks are clean. The greens shift a little, cooler at the top and more olive at the bottom, but not in the strong way most film emulations push them. The 4:3 shape exists on film too, as 6x4.5 medium format, but it is the everyday shape of phone and Micro Four Thirds files, and the texture points the same way.
+Film grain clumps. It looks like fine sand with uneven heaps, and you see it best in flat dark areas. Here the dark leather and the flat green are smooth, almost waxy, with no clumps and no colour speckle.
 
-So this reads as digital, with a modest grade. What gives it a slightly analogue feeling is not grain but the lens glow and the gentle contrast. Much of what people call the film look comes from older optics, not from film.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/09-texture.webp" width="460" height="310" alt="Pixel-level crop of the leather lapel and its snap button, smooth tone with no film grain clumps" loading="lazy" decoding="async" /><figcaption>At full size the leather is smooth tone and soft highlight, with no film grain in the shadows.</figcaption></figure>
 
-## Where this picture comes from
+That smoothness points to a digital file with noise reduction, or a phone that merged several frames. The size points the same way. About 4 megapixels is small for a modern camera, so this is likely a resized export or a crop. The 4:3 shape exists on film as 6x4.5 medium format, but the texture doesn't match that. So the reading is digital with a gentle grade, and the slightly analogue mood comes from the soft contrast and the muted greens, not from grain. A lot of what people call the film look is just old lenses and lower contrast.
 
-The over-the-shoulder glance with a direct gaze and a single earring has a famous ancestor. Johannes Vermeer painted Girl with a Pearl Earring around 1665, a head turning back out of darkness to meet the viewer. Here the darkness is replaced by blurred green and the pearl by a green stud, but the grammar is the same. The turn implies a moment, and the earring gives the eye a small resting point near the face.
+## Green against green
 
-In photography the direct, unsmiling gaze has its own tradition. Dawoud Bey has spent decades making portraits in which the subject looks back with full presence, and his pictures insist that the person in front of the lens has an inner life the viewer is not entitled to read at once. Rineke Dijkstra's frontal portraits of adolescents work in a related way, with the subject looking straight at us and the photographer refusing to stage a smile. This portrait is less formal than either, but it shares the refusal.
+This is a colour photograph with a small palette. Greens fill the background, warm browns live in the skin, deep blacks belong to the hair and the jacket, and the lips add a muted rose so the face doesn't go flat.
 
-## Exercises to try
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/10-earring.webp" width="345" height="346" alt="Close crop of the ear with a circle on the small green stud" loading="lazy" decoding="async" /><figcaption>One small green stone near the face repeats the green of the trees.</figcaption></figure>
 
-1. The turn. Ask someone to face 90 degrees away from you, then turn only the head back toward the lens. Shoot ten frames as they turn and pick the one where the eyes have just landed. You will find it is rarely the first or the last.
-2. Open shade. Find the edge of a tree's shadow on a sunny day. Place your subject just inside the shade, facing the open sky. Look for catchlights in the eyes before you shoot. If you cannot see them, turn the person toward more sky.
-3. Wide open. Set aperture priority at the widest aperture your lens offers, ISO 100 to 200, and let the camera choose the shutter. Check that it stays at 1/250 s or faster. If not, raise the ISO.
-4. Eye focus. Turn on eye detection or put a single focus point on the near eye. Then focus on the far eye and compare.
+The best colour moment in the frame is tiny. The green stud in her ear repeats the green of the trees. It ties the person to the place without showing the place, planned or found.
 
-## Making it on a phone or a camera
+The white balance reads neutral to slightly warm on the skin, with a faint green cast in the shadows. That cast is probably light bouncing off leaves before it reaches her. The blacks are deep but not crushed. You can still see the folds of the leather and the texture of the hair, which tells you the exposure was set for the face and the shadows were allowed to sit low without falling into pure black.
 
-On a phone, use the 2x or 3x lens rather than the main wide lens, because the wide lens will distort the nose at portrait distance. Portrait mode can fake the background blur. Tap on the near eye to set focus and slide exposure down a little so the skin highlights keep their detail.
+## Where this look comes from
 
-On a camera, use a lens around 85mm full-frame equivalent, f/1.8 or faster, about 1.5 metres from the subject. A Micro Four Thirds body with a 42.5mm or 45mm lens gives the same view. Aperture priority at f/1.8 to f/2, ISO 100 to 400, and a shutter that stays at 1/250 s or above. Put a background of trees at least several metres behind your subject. Distance behind the subject matters as much as the aperture for how soft it gets.
+The head that turns back out of the dark with an earring near the face has an old ancestor. Johannes Vermeer painted Girl with a Pearl Earring around 1665. Here the dark is replaced by blurred green and the pearl by a green stone, but the grammar is the same. The turn implies a moment, and the earring gives the eye a resting point.
 
-## What could be better
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/11-gaze.webp" width="1058" height="863" alt="Tight crop of the face from brow to chin, the head angled away and the eyes turned back to the lens" loading="lazy" decoding="async" /><figcaption>The head still points away, and the eyes do the turning, a look that is given and not asked for.</figcaption></figure>
 
-Two things. The top crop is tight. The hair almost touches the upper edge, and a few more millimetres of air would let the dome of the hair breathe and give the head more presence. Second, fingertips with pale nail tips enter the lower right corner, out of focus. They pull the eye to the edge and raise a question the picture never answers. Either crop them out or bring the hand fully into the frame as part of the gesture.
+In photography the closer relative is Mama Casset, the Senegalese studio photographer who opened African Photo in the Medina of Dakar in 1942. Women were his most frequent sitters and patrons. An essay on MoMA's magazine site describes how he kept his sitters' gazes at the centre, under bright light and against blurred backdrops, with metal earrings and hennaed lips catching the light. The essay also gives Wolof words for kinds of looks. Jàkk is looking straight ahead, xool is eyes open, and xulli is eyes bulging. In those words the look in this portrait would be jàkk with xool and without xulli. Open, straight, not wide. Having words that precise reminds you that a gaze is something people practise and read.
 
-A smaller point is the grey shapes in the background. They are blurred enough to be ambiguous, and they read possibly as headstones, which could make the setting an old cemetery or churchyard, or possibly as plain stones in a park. The ambiguity adds a faint unease. Some will like it, but it is a choice worth making on purpose.
+The same essay opens with bell hooks and her text The Oppositional Gaze, about Black women as film spectators who looked critically at what the screen showed them. Her point is that looking can be an act, not only a way of receiving. That is why the link holds. This portrait doesn't ask you to look at her. It shows her looking at you, and the photographer kept everything else quiet so that the act stays the subject.
+
+## The one mistake
+
+Fingertips with pale nails come in at the lower right corner, out of focus. They pull the eye to the edge and raise a question the picture never answers. Whose hand, and what was it doing?
+
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/12-mistake.webp" width="1400" height="1050" alt="Full frame with a red box on the blurred fingertips in the lower right corner" loading="lazy" decoding="async" /><figcaption>A blurred hand in the corner is the brightest thing at the edge, so the eye goes there.</figcaption></figure>
+
+The fix is cheap. Trim the bottom tenth of the frame and the fingertips go, and the frame becomes close to 3:2. Better still, fix it before you shoot. Half a step to the left or a quick word to drop the hand, and the corner is clean. Or go the other way and bring the whole hand into the frame as part of the gesture, near the collar. Half a hand is the only option that doesn't work.
+
+## Try this
+
+You need one person, one tree and twenty minutes, and the picture is mostly about where you stand and when you press.
+
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/13-try-this.webp" width="1400" height="1050" alt="Full frame with an arrow from the bright sky gap toward the face and a circle on the near eye" loading="lazy" decoding="async" /><figcaption>Turn the face toward the brightest open sky, and put the focus on the eye nearest you.</figcaption></figure>
+
+Put your person just inside the shade of a tree, turn their face toward the open sky, and look for that thin line of light at the top of each iris before you shoot. Ask them to face away, then turn only the head back, and shoot five frames as the turn lands, because the right one is rarely the first or the last. Use the longest lens you have, a 2x or 3x on a phone or about 85mm on a camera, at the widest aperture, from about 1.2 m, with the focus on the near eye. Then check the four corners for hands, bags and bright spots before you call it done.
 
 ## Why it stays
 
-Most portraits we scroll past want something from us. They smile, they sell, they reassure. This one does not. The subject turns, looks and waits, and the photographer keeps everything else quiet so that the waiting becomes the subject.
+Most portraits we scroll past want something from us. They smile, they sell, they reassure. This one doesn't.
 
-Soft light, a short lens, a narrow slice of focus and three colours are modest tools. They exist to get out of the way of a look that holds its ground. The picture leaves you with the feeling that you have been noticed, which is the reverse of what a photograph usually does.
+<figure><img src="/photos/notes/photo-leather-jacket-portrait-over-shoulder/14-close.webp" width="1200" height="1289" alt="Crop of the face and the leather collar without marks" loading="lazy" decoding="async" /><figcaption>The same face again without marks, and now you know where each part of the look comes from.</figcaption></figure>
+
+Soft sky light, a short tele from a respectful distance, a slice of focus a few centimetres deep and three colours are modest tools. Here they all exist to get out of the way of one look. Go back to the first thing you saw. It's the same look, but now you know it's the eyes doing the turning, a band of sky lighting them, and a frame cut close enough that you can't step back. The picture leaves you with the feeling of having been noticed, which is the reverse of what a photograph usually does.

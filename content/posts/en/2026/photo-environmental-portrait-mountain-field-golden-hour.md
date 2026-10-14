@@ -1,9 +1,9 @@
 ---
 title: "A portrait under a mountain: reading a golden hour field photo"
 seo_title: "Portrait Under a Mountain, a Photo Read | emin.de"
-description: "A critic's reading of a centred portrait on a grass field under a big mountain. Light, lens, exposure guesses, film or digital, and exercises to try."
+description: "A centred portrait under a hazy mountain, read closely. Low sun, open shade, aerial perspective, lens and exposure estimates, and a 20 minute exercise."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 lang: en
 translations: {}
 category: culture
@@ -15,137 +15,179 @@ reviewed_by_human: false
 image: "/photos/mountain-field-20261013.jpg"
 tags: ["photography","portrait","environmental portrait","golden hour","composition","aerial perspective"]
 source_links:
+  - { title: "Using African Proverbs, basic talk, African Proverbs, Sayings and Stories", url: "https://afriprov.tangaza.ac.ke/2008/03/10/2002-version-of-the-basic-talk-on-qusing-african-proverbs-sayings-idioms-riddles-stories-fables-plays-and-songs-african-oral-literature-and-cultureq", note: "Milima haikutani lakini binadamu hukutana, Mountains never meet but people do." }
+  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Instead of arranging it, I arrange myself." }
+  - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "The picture's edge as the line of decision, and no such thing as an instantaneous photograph." }
+  - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag, Melancholy Objects, p. 57, the camera makes everyone a tourist." }
+  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
+  - { title: "Zazen on Ching-t'ing Mountain, Li Po, tr. Sam Hamill, Poetry Foundation", url: "https://www.poetryfoundation.org/poems/48711/zazen-on-ching-ting-mountain", note: "From Crossing the Yellow River, BOA Editions, 2000." }
+  - { title: "Li Bai, Wikipedia", url: "https://en.wikipedia.org/wiki/Li_Bai", note: "Tang dynasty poet, c. 701 to 762." }
+  - { title: "Rineke Dijkstra, Wikipedia", url: "https://en.wikipedia.org/wiki/Rineke_Dijkstra", note: "Beach Portraits, 1992 to 1994, sitters standing and facing the camera against a minimal background." }
+  - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why far mountains turn pale, blue and low in contrast, and Leonardo's use of it." }
   - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "Why low sun is warmer and softer than midday light." }
-  - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why far mountains turn pale, blue and low in contrast." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "How aperture, distance and focal length decide what stays sharp." }
-  - { title: "August Sander, Wikipedia", url: "https://en.wikipedia.org/wiki/August_Sander", note: "The frontal, full-length portrait of a person in their setting." }
-  - { title: "Rineke Dijkstra, Wikipedia", url: "https://en.wikipedia.org/wiki/Rineke_Dijkstra", note: "Beach Portraits, centred young sitters against a wide background." }
-  - { title: "Thirty-six Views of Mount Fuji, Wikipedia", url: "https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji", note: "Hokusai's prints, where one mountain organises every picture." }
 tldr:
-  - "A woman stands dead centre on a grass field, and a big mountain peaks exactly above her head like a crown."
-  - "Low warm sun lights the trees behind her while she stands in shade, so the mountain outshines the person."
-  - "The file reads as digital with a soft, faded grade, likely a 4:3 phone or small-sensor camera at a normal lens."
+  - "A woman stands dead centre on a lawn and the summit of a huge hazy mountain sits straight above her head, lined up by the photographer's feet."
+  - "Low sun lights the treetops and a strip of grass while she stands in open shade, 2.3 stops darker than the sky behind her."
+  - "No EXIF exists, so every setting is a reading, about 50mm equivalent from 4.5 m at 1/250 s and f/5.6, and the one fix is the wire at her brow."
 basically:
-  what-you-see-first: "A woman stands square to the camera on a lawn, and a huge pale mountain rises straight above her head."
-  a-summit-used-as-a-crown: "The photographer lined the summit up over her head, so her body and the slopes form one tall triangle."
-  where-the-sun-is: "Low sun from behind the camera warms the treetops, but she stands in shade and reads darker than the sky."
-  teal-sky-olive-grass-a-black-top: "The colours are teal, olive, amber and black, graded soft so nothing in the file reaches pure white."
-  the-moment-and-what-is-not-happening: "Nothing moves in the frame, and the stillness is the point, a posed moment rather than a caught one."
-  reading-the-lens: "No stretched edges and a mountain that stays large suggest a normal lens, roughly 40 to 60mm equivalent."
-  guessing-the-exposure: "A fair guess is about 1/250 s, f/5.6 and ISO 200 on a camera, or ISO 50 to 100 on a phone."
-  digital-file-film-manners: "Even noise, a clean sky gradient and a 4:3 frame point to digital, dressed in a film-like faded grade."
-  where-this-picture-comes-from: "The frame sits between the holiday snapshot, August Sander's frontal portraits and Hokusai's mountain."
-  exercises-you-can-try-this-week: "Try lining a peak up over a head, metering for a face in shade, and finding a sunlit band."
-  making-a-frame-like-this-today: "On a phone use the 2x lens and expose for the face, on a camera use 50mm, f/5.6 and a low position."
-  what-i-would-change: "Move the wire, show the feet or crop higher, and bring a little light back into her face."
-  why-it-stays: "The picture asks how a person holds their ground under something that much bigger, and she holds it."
+  a-mountain-wearing-a-person: "Milima haikutani lakini binadamu hukutana, \"Mountains never meet but people do.\" A portrait is that meeting."
+  one-hand-full-and-one-hand-empty: "One hand holds a bag and one holds nothing. That small difference is what keeps a frontal pose alive."
+  the-summit-sits-on-her-head: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Here the feet found the summit."
+  one-tall-triangle: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here it falls at her shins."
+  where-the-sun-is: "Low sun lights the top of everything first. Treetops 2 stops brighter than their own lower leaves give the hour away."
+  she-stands-in-the-shade: "Open shade costs her about 1.5 stops and gives her skin no hard edges. That is the trade she stands in."
+  air-paints-the-mountain: "Near tree, 130 tone steps. Far mountain, 20. Air is a filter you can never take off the lens."
+  reading-the-lens: "Distance decides how big the mountain looks behind her. The lens only decides how much of it you get."
+  shutter-aperture-and-iso: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one is about 1/250 s of a still evening."
+  digital-file-film-manners: "The brightest pixel is 221 of 255. Nothing here is white, and that is the fingerprint of a grade, not of the sun."
+  where-this-picture-comes-from: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Susan Sontag"
+  the-one-mistake: "A wire at the brow costs more than any lens upgrade. A hand's width higher and it clears her hair."
+  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange"
+  why-it-stays: "\"We sit together, the mountain and me, / until only the mountain remains.\" Li Po, tr. Sam Hamill"
 ---
 ![Woman in a black cardigan on a grass field in front of a big mountain](/photos/mountain-field-20261013.jpg)
 
-## What you see first
+## A mountain wearing a person
 
-You see the mountain first, and then you see that it is wearing a person. A young woman stands on a mown lawn, square to the camera, arms down, a small grey tote hanging from one hand by a brown strap. Behind her, past a line of hedges, low block walls, a tin roof and a mix of trees, a huge pale cone rises into a clear sky. Its summit sits directly above the crown of her head.
+You see the mountain first, and only then you see that it is standing on a person. A young woman stands on a mown lawn, square to the lens, arms down. Straight above her head a huge pale cone climbs into a clear sky, and its summit sits on the same vertical line as her face.
 
-Most portraits hand you the face first. This one makes you climb. Your eye lands on the bright slope, rises to the peak, drops down the centre line and only then reaches her face, which is darker than almost anything around it.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/01-column.webp" width="506" height="1312" alt="A tall strip of the photo from the summit down to her legs, the two stacked in one column" loading="lazy" decoding="async" /><figcaption>Cut a narrow strip down the middle and the picture still works, summit on top and her below it.</figcaption></figure>
 
-The setting reads as a highland garden somewhere warm, with banana leaves, eucalyptus-like trunks, a small brown animal that could be a goat or a sheep, and a power line across the view. The file comes with no place and no date, so that is as far as I can go.
+Most portraits hand you the face first. Here your eye lands on the bright slope, goes up to the peak and slides down the centre line, and only at the end it reaches her face, darker than almost anything around it. The mountain gets the light and she gets the centre.
 
-## A summit used as a crown
+There is an old Swahili saying that fits the mood, Milima haikutani lakini binadamu hukutana. Mountains never meet but people do. A mountain stays where it is, and a portrait is the moment a person walks in front of it and stays for a second. The file gives no place and no date, so everything below stays with what you can see.
 
-The frame is 4:3 and wide, and the woman stands almost exactly on the vertical centre line. The top of her head sits close to the middle of the frame, and the summit sits about a third of the way down from the top edge, straight above her. The mountain spans a little over half the frame width, and its two flanks slope out and down on either side of her shoulders. Her body is the vertical axis and the slopes are the sides, so the whole picture locks into one tall triangle.
+## One hand full and one hand empty
 
-This is a decision. One step left and the peak hangs over her shoulder like a balloon. One step right and a tree eats it. The photographer moved until the two shapes stacked, the leaning-tower tourist trick done quietly and without the joke.
+Look at her before you look at the mountain. A black top with long sleeves, dark straight hair with a heavy fringe, light jeans. Down the front of the top runs a V-shaped panel with a star-like lattice in brown and cream. In her right hand, on your left, a striped tote hangs by brown handles near her knee. Her other hand hangs loose and empty.
 
-The layers are clean. A band of shaded lawn fills the bottom quarter. A band of sunlit grass, hedges and walls makes the middle. Trees bracket the sides like loose curtains, and the sky takes the upper half. The ground line where lawn meets hedge falls at about her hip, which tells you the camera was held low, somewhere between waist and chest height.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/02-hands.webp" width="690" height="777" alt="Crop of the woman's torso and hands, the striped tote in one hand, the other hand empty, the patterned panel boxed" loading="lazy" decoding="async" /><figcaption>The striped tote, the empty hand and the patterned panel are the small things that break her symmetry.</figcaption></figure>
 
-Centred subjects feel like statements. Off-centre subjects feel like events. This is a statement.
+A frontal standing pose is symmetric, and perfect symmetry reads stiff, like a passport photo. Here a few small things break it. The bag pulls weight to one side and the free hand curls a little. The panel draws a V that points from her face down to her waist, the shape of the mountain turned upside down.
+
+None of it is loud, and all of it keeps her from looking like a cut-out pasted on a view. No smile, no wave, no hand pointing at the peak. Her mouth is closed and her eyes go straight into the lens. She is not showing you the mountain. She is standing in front of it, and that is a different picture.
+
+## The summit sits on her head
+
+The highest point of the mountain sits about 31 percent down from the top of the frame and 50.5 percent across. The crown of her head is at about 49 percent across. That is a gap of roughly 35 pixels in a frame 2302 pixels wide.
+
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/03-axis.webp" width="1400" height="1050" alt="Full frame with the summit and the woman's head circled and joined by one almost vertical line" loading="lazy" decoding="async" /><figcaption>The summit and her face, joined by one almost vertical line.</figcaption></figure>
+
+This does not happen by luck. The rule behind it is parallax. The nearer a thing is, the more it slides in the frame when you move. The mountain is far away, so it barely moves when the photographer moves. She is a few metres away, so she moves a lot. Half a metre to the left and the summit hangs over her shoulder like a balloon.
+
+So someone walked until the two shapes stacked. Those 35 pixels are a few centimetres of camera position. It is the old tourist trick, the person holding up a leaning tower, done quietly and without the joke. When you want something far away to sit on something near, your feet do the work, not the zoom ring. Zooming changes how big things are. Only walking changes where they sit against each other.
+
+## One tall triangle
+
+The frame is 4:3, 2302 by 1726 pixels. She stands almost exactly on the vertical centre line. The two flanks of the mountain run down and out from the summit on both sides of her, so her body is the axis and the slopes are the sides of one tall triangle with the peak on top.
+
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/04-triangle.webp" width="1400" height="1050" alt="Full frame with a thirds grid, the centre line and the two mountain slopes drawn as a triangle" loading="lazy" decoding="async" /><figcaption>Thirds grid, centre line and the two slopes. The upper third runs just under the summit and the lower one along the hedge.</figcaption></figure>
+
+Now look at the thirds. The upper line runs just under the summit and the lower line runs along the hedge and her waist. So the picture does not ignore the rule of thirds. It uses the two horizontal lines and refuses the two vertical ones, and that is a good way to break a rule, half of it on purpose.
+
+The weak edge is the bottom one. The frame cuts her at the shins, so her feet are gone. In a full-length portrait a cut that close to the ankles reads like an accident. Show the feet and give the lawn a job, or cut higher at the thigh and give the space to the sky.
 
 ## Where the sun is
 
-The light comes from low and behind the camera, a little off to one side. The evidence sits in the trees. The upper crown of the big tree on the left glows amber and olive while its lower half falls into darker green. The tops of the trees on the right carry the same warm tone. A band of bright grass runs across the middle distance behind her. Low sun lights the tops of things first, and the bottoms of things last.
+The light comes low from behind the camera and a little to one side. The proof is in the trees, not in her face. The top of the big tree on the left glows amber and olive, and its lower half drops into dark green. Measured in the file, the lit crown is almost 2 stops brighter than the leaves under it, so more than three times the light.
 
-The near foreground, where she stands, is in shade. Something behind the photographer, a building or a tree, is blocking the sun from the spot she occupies. So the scene has a strange inversion. The far trees and the mountain are in warm light, and the person, the reason for the picture, stands in the cool part.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/05-sun.webp" width="1381" height="1121" alt="Left part of the photo, the sunlit top of the big tree boxed above its dark lower half" loading="lazy" decoding="async" /><figcaption>The same tree in two lights, warm sun on the crown and shade on the lower leaves.</figcaption></figure>
 
-The file confirms it. Pixel values on her face average about a quarter of those in the sky behind her head. Her face holds a faint warm glow, likely bounce from the sunlit grass, but there is no hard shadow under the nose or brows. That open shade is kind to skin and unkind to drama.
+Low sun lights the top of everything first and the bottom of everything last. When it sits a few degrees over the horizon, hedges, walls and houses throw long shadows over the ground, and only the tall things reach up into the light. That is why the treetops on the right carry the same warm tone, and why the hedge and the lawn under them stay cool.
 
-The mountain shows aerial perspective. Kilometres of air scatter light, so the far slopes go pale, bluish-grey and low in contrast. Haze is doing much of the softening up there, more than focus. A few thin pale streaks near the summit could be snow, frost or bare rock. At this size I would not call it.
+Golden hour is about angle first and colour second, because low light travels through much more air and loses blue on the way. You can't tell from one frame if this is morning or evening, low sun looks the same both ways. What you can tell is that this light moves fast. On a flat lawn the line between sun and shade can travel a metre in a few minutes, so the photographer had a short window and used it.
 
-## Teal sky, olive grass, a black top
+## She stands in the shade
 
-The palette is a split of warm and cool. Teal and pale cyan in the sky. Olive and yellow-green in the grass and leaves. Amber in the lit treetops. Mid-blue denim, and a black top with a patterned panel down the front that reads to me more like a pullover than a cardigan.
+In the middle of the lawn behind her lies a strip of sunlit grass. Where she stands, the grass is in shade and so is she. Something behind the photographer blocks the sun from that spot.
 
-The saturation is held back. The greens are not punchy, the blacks are lifted toward charcoal, and the brightest pixel in the whole file reaches 221 out of 255. Nothing touches pure white, not even the sky near the horizon. That is a grade, not an accident of the sun. Someone, or some camera profile, pulled the highlights down and pushed the shadows up for a matte, faded finish. The shadows carry a slight green-teal tint, visible in the shaded lawn and in the dark fabric.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/06-bands.webp" width="1400" height="315" alt="The lawn with the bright band of grass boxed above the shaded strip where the woman stands" loading="lazy" decoding="async" /><figcaption>A strip of sun on the grass, and the open shade in front of it where she stands.</figcaption></figure>
 
-The effect is gentle, and it costs her face some presence.
+The numbers from the file are simple. The sunlit band is about 1.5 stops brighter than the shaded grass in front of it. The sky behind her head is about 2.3 stops brighter than her face. So the person, the reason for the picture, stands in the darker part of the scene, and the mountain and the treetops get the warm light.
 
-## The moment, and what is not happening
+Open shade is kind light. It comes from the whole sky and not from one point, so there is no hard shadow under her nose or her brows. Her face has a faint warm glow, likely light bouncing back from the bright grass and the lit trees. A few steps back, inside the band, the low sun would hit her face straight on. Warmer, more contrast, and probably squinting eyes. The photographer chose soft over bright. The cost is that she loses the fight for your attention to a mountain, and the picture needs her to win it a little more.
 
-There is no motion anywhere. Her hair hangs straight, the leaves show no streaks, the animal stands still, her hands hold their shapes. This is not a caught moment in the sense Henri Cartier-Bresson made famous. It is a posed one, and it knows it.
+## Air paints the mountain
 
-The pose is plain and frontal. Weight is nearly even, chin slightly raised, mouth closed, gaze straight into the lens. Because the camera is low, she looks a little down at us. That small angle gives her height and some authority. The tote held low by one hand is the only loose element, and it does useful work, breaking the symmetry of the two hanging arms.
+The mountain is the palest and flattest thing in the picture, and that is not a focus problem. It is air.
 
-The timing that matters is the light. A warm band across treetops like this one is often gone ten minutes later.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/07-haze.webp" width="1400" height="719" alt="The hazy mountain boxed next to the near tree, with the tone range of each written below" loading="lazy" decoding="async" /><figcaption>The near tree uses about 130 steps of tone, the far mountain about 20.</figcaption></figure>
+
+You can measure it. Inside the box on the near tree the brightness runs from about 72 to 201, a range of about 130 steps out of 255. Inside the box on the mountain it runs from about 173 to 192, about 20 steps. Many kilometres of air scatter light into the view, lift every dark and pull every colour toward the blue-grey of the sky. Painters call this aerial perspective. Leonardo da Vinci painted it on purpose, centuries before cameras.
+
+This is why the mountain reads as far and huge even though the picture is flat. Your brain reads low contrast as distance. On a clear day after rain it would look closer and smaller. At this size no bright snowcap shows on the summit. The top is no brighter than the sky around it, so the picture gives you a shape, not a name.
 
 ## Reading the lens
 
-The picture shows no wide-angle signs. The walls stand upright, the edges of the frame are not stretched, and her head is not oversized against her legs, which you would expect from a wide lens held close and low. The mountain also stays big. A wide lens tends to shrink a far background, because you have to stand close to fill the frame with your subject, and the distant object then covers a small angle of a wide view.
+The file carries no camera data, only its size and colour space. So the lens is a reading from shapes.
 
-That points to a normal field of view, around 40 to 60mm in full-frame terms. I do not see the strong stacking of a telephoto. With her filling roughly the lower half of the frame, the camera was probably three to five metres away. That is a reading from proportions, held loosely.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/08-lens.webp" width="1400" height="1050" alt="Full frame with a line across the mountain at mid-slope and a box around the woman's head" loading="lazy" decoding="async" /><figcaption>The slopes span about half the frame width, and her head about 8 percent of its height.</figcaption></figure>
 
-The 4:3 shape is a clue too. Most phones shoot 4:3 by default, as do Micro Four Thirds cameras. A 2x or 3x mode on a modern phone lands near this 50mm look. A full-frame or APS-C camera usually shoots 3:2, so this would be a crop on one of those.
+Start with what is missing. The block walls stand upright, the frame edges are not stretched and her head is not big against her legs. Those are the marks of a wide lens held close, and they are not here.
 
-## Guessing the exposure
+Then use her body as a ruler. From crown to shin she covers about 900 pixels of a 1726 pixel tall frame. A grown woman from crown to mid-shin is roughly 1.3 metres, so the frame is about 2.5 metres tall and 3.3 metres wide where she stands. A 50mm-equivalent lens covers that width from about 4.5 metres. A 35mm-equivalent from about 3.2 metres. A phone's main camera, around 26mm, from about 2.4 metres.
 
-None of these numbers are known. They are estimates from what the picture shows.
+Now the background. Perspective comes from distance, not from focal length. From 2.4 metres with a wide lens she would grow and the mountain would shrink to a hill on the horizon. Here the slopes still span about half the frame width at mid-height, which points to a normal lens, about 40 to 60mm equivalent, from 4 to 5 metres. Hold that loosely.
 
-Shutter speed first. No blur in hands, hair or leaves, and a hand-held stance, suggests something like 1/250 s or faster. At a normal focal length that is comfortably safe.
+The 4:3 shape is the default of most phones and Micro Four Thirds cameras, and on a 3:2 camera this would be a crop. Because the verticals stand straight, the camera was held level. If the frame is not cropped, the level centre line marks the camera's height, and here it crosses her at the brow. So the lens was near her eye height, not low.
 
-Aperture next. The trees behind her are soft but legible, and the grass at her feet keeps texture. That is moderate depth of field, not a dreamy wide-open blur. On a full-frame or APS-C camera that reads like f/4 to f/8, call it f/5.6. On a phone the aperture is fixed, often around f/1.8 to f/2.8, and the small sensor gives deep focus anyway, so any extra softness would come from haze, grade or software.
+## Shutter aperture and ISO
 
-ISO last. Midday sun allows very low ISO. Golden hour light is a couple of stops dimmer, and she stands in shade, which costs more. The noise in the file is modest and even. On a camera, ISO 200 to 400 fits. On a phone, ISO 50 to 100 with a fast shutter fits. Taken together, about 1/250 s, f/5.6, ISO 200 is my best single guess for a dedicated camera.
+None of these numbers are known. Each one is a guess with the trade you would make by changing it.
 
-## Digital file, film manners
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/09-focus.webp" width="783" height="587" alt="Crop from her hair to the block wall, the crisp hair edge circled and the soft wall top boxed" loading="lazy" decoding="async" /><figcaption>Her hair edge is crisp and the wall top behind her is soft, but still a wall.</figcaption></figure>
 
-Several things point to digital. The fine grain in the sky and shadows is even, like sensor noise or a grain filter, not the clumpy, uneven texture of film grain. The sky gradient is clean, with no banding. The 4:3 shape matches common digital sensors. There is no film border, no scratches, no dust.
+Shutter first. No blur in her hands, hair or leaves, a standing person and a camera most likely held by hand. About 1/250 s is a fair guess, and at a normal lens it is safe. At 1/30 s she would still hold still, but a breath of wind would smear the leaves on the big tree.
 
-Other things point away from a typical phone look. No heavy HDR, no over-sharpened leaves, no halo around her head, and her face has not been lifted to match the sky, which phone processing usually tries to do. That leans toward a dedicated camera, or a phone with processing turned down.
+Aperture next. The edge of her hair against the sky goes from dark to light in about 3 to 8 pixels. The top of the block wall behind her takes 6 to 12. So the background is soft but readable, not melted. On a full-frame camera at 50mm, focused at 4.5 metres, f/5.6 blurs a far background by about 6 pixels in this file, close to what you see. At f/1.8 that blur grows to about 20 pixels. The wall turns into a beige cloud and the place disappears. At f/11 the wall gets almost sharp, and so does the wire. Call it f/4 to f/5.6. On a phone the small sensor keeps almost everything sharp, so softness would come from haze or software.
 
-My reading is a digital file wearing film manners. Faded blacks, held-down highlights and teal shadows are how many presets imitate colour negative film. The file carries no camera data, so I cannot go further than that.
+ISO last. Low sun and a face in shade make a dim subject. At about 1/250 s and f/5.6, ISO 200 to 400 fits, and that matches the clean file. So the best single guess for a dedicated camera is about 1/250 s, f/5.6, ISO 200 to 400.
+
+## Digital file film manners
+
+The flat sky tells you most. In a patch of clear sky the brightness varies by about 1.5 levels out of 255.
+
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/10-grain.webp" width="507" height="310" alt="Pixel-level crop of the wall, hedge and small animal, smooth and smeared with no visible grain" loading="lazy" decoding="async" /><figcaption>At full size the wall, the hedge and the animal smear into soft patches, with no crisp grain.</figcaption></figure>
+
+Film grain would show up exactly there, as an even, crunchy texture over the smooth blue. There is none. In the dark parts the texture is smeared and a little blotchy, the way noise reduction and JPEG compression leave it. No border, no dust. This reads as a digital file.
+
+The grade borrows from film. The brightest point in the file sits at about 221 of 255, and not even one pixel in a thousand climbs past 215 in any channel. Nothing touches pure white, not even the sky at the horizon. That is a highlight roll-off pulled down on purpose, by a person or by a camera profile. The deepest blacks still reach almost zero, so this is not the lifted, milky black of many film presets.
+
+Phone processing usually lifts a dark face toward a bright sky. Here it stays 2.3 stops under, so either the processing was gentle or a dedicated camera made the file.
 
 ## Where this picture comes from
 
-Three traditions meet here.
+Two lines meet in this frame, one from photography and one from poetry.
 
-The first is the holiday snapshot, the person in front of the famous thing. This frame borrows its structure and drops its grin.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/11-tradition.webp" width="1400" height="1050" alt="Full frame, the standing woman boxed as frontal and centred, the mountain labelled as the big thing behind her" loading="lazy" decoding="async" /><figcaption>A frontal, centred person and a big thing behind her, the grammar of both the portrait and the snapshot.</figcaption></figure>
 
-The second is the frontal, full-length portrait of a person in their setting. August Sander built his People of the 20th Century on that grammar, subjects square to the lens with their surroundings speaking for them. Rineke Dijkstra's Beach Portraits brought it to young sitters standing centred against a wide sea and sky. This picture sits closer to Dijkstra than to Sander, with the same plain stance and a background that dwarfs the person without swallowing her.
+The photographer is Rineke Dijkstra. Her Beach Portraits, made from 1992 to 1994, show young people full length at the water's edge, standing, facing the camera, against a simple sea and sky. Her sitters don't do anything, and the standing becomes the picture. This frame shares that grammar, a frontal person in the centre with a big simple background that dwarfs her without swallowing her. The difference is that Dijkstra keeps the background plain. Here the background is the famous thing, and that pulls in the other root, the holiday snapshot of a person in front of the view. Sontag saw the tourist in every camera. This frame borrows the tourist's structure and drops the tourist's grin.
 
-The third is older than photography. Hokusai's Thirty-six Views of Mount Fuji organise every print around one mountain, often small, often far, while people go about their day in front of it. Here the mountain is not small at all, and it is the person who has been placed in the view.
+The poet is Li Po, also called Li Bai, who lived in Tang China from about 701 to 762. In Zazen on Ching-t'ing Mountain, in Sam Hamill's translation, he sits with a mountain while the birds vanish and the last cloud drains away, until only the mountain is left. The poem and the photo ask the same thing, a person and a mountain in one frame, and who stays. In the poem the person fades into the mountain. In this photo the mountain is huge and still she holds the centre.
 
-## Exercises you can try this week
+## The one mistake
 
-Crown alignment. Find any tall shape, a church spire, a tree, a tower. Put a friend in front of it and move your own feet, not theirs, until the top of the shape sits exactly over their head. Shoot at 50mm equivalent, then at 24mm, and see how the background shrinks on the wide lens.
+The wire. A thin power line crosses the frame from the left edge, sagging a little, and passes behind her head at the brow, between her crown and her eyes.
 
-Meter for the face. Place someone in shade with a bright scene behind them. Take one frame on auto. Then spot-meter or tap on their face and take another. On a camera, add one to two stops of exposure compensation. Compare which picture is about the person.
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/12-wire.webp" width="1012" height="380" alt="Crop around her head with the power line traced in red, crossing behind her brow" loading="lazy" decoding="async" /><figcaption>The power line, traced in red, runs behind her head at the level of her brow.</figcaption></figure>
 
-Find the band. At golden hour, look for a strip of sunlit ground or trees in the middle distance. Put your subject in shade in front of it, then in the band itself. Note how skin changes from soft and cool to warm and contrasty.
+The whole picture builds one vertical line from the summit down to her face, and the wire cuts that line right where it matters most. A sharper lens would not help, it would only draw the wire better.
 
-## Making a frame like this today
+The fix is height, not a step to the side. The wire runs almost level and lies far behind her, so moving left or right only slides it along. Moving the camera up or down shifts her against it. With her about 4.5 metres away and the wire maybe tens of metres, lifting the camera a hand's width, about 15 cm, moves her down in the frame by about 100 pixels and the wire by about 10. That is enough to clear it above her hair. Crouching is the wrong way, because it pulls the wire down across her eyes. Or clone the wire out later. In a sky this smooth that takes a minute.
 
-On a phone, switch to the 2x lens, or 3x if the mountain needs to grow. Stand three to five metres back. Hold the phone at chest height. Tap her face to set focus and exposure, then pull exposure up a little if the sky allows it. Turn on gridlines and put her on the centre line. Shoot in the last hour before sunset or the first after sunrise. Grade with lower contrast and a touch of teal in the shadows for this look.
+## Try this
 
-On a camera, put on a 50mm lens on full frame, or about 35mm on APS-C, or 25mm on Micro Four Thirds. Aperture priority at f/5.6, ISO 200, and check that the shutter stays at 1/250 s or above. Meter for her face, or expose for the sky and bounce light into her with a reflector or a white tote turned the right way. Shoot RAW so you can lift her face without blowing the sky.
+Twenty minutes, one friend, one tall shape.
 
-## What I would change
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/13-meter.webp" width="644" height="707" alt="Crop of her face under the summit, the face circled as the place to set exposure, the sky marked as the wrong place" loading="lazy" decoding="async" /><figcaption>Set exposure on the face in shade, not on the bright sky behind it.</figcaption></figure>
 
-The power line is the biggest problem. It runs across the frame just at or behind the top of her head, so the eye snags on it right where the crown idea lives. A small step, a little lower or higher camera, or a careful clone in the edit would fix it.
-
-The crop cuts her at the shins. In a full-length portrait, cropping at the ankles reads as a mistake. Either show the feet and give the lawn a reason to be there, or crop higher at the thigh and spend the space on the sky.
-
-She is too dark. The shade is gentle on skin, but she loses the contest with the mountain. Half a stop to a stop more light on her face, from a reflector or in the edit, would bring the eye to her sooner.
-
-The centre placement is static, but the crown depends on it. I would keep it and look for tension in the hands or shoulders.
+Stand your friend in front of a spire, a tree or a tower, and move your own feet, not theirs, until the top sits exactly over their head. Check head height for wires, then tap on their face to set exposure, not on the sky, and see how much they come forward. Then take the same frame once with the 1x lens from close and once with 2x from further back, and watch the background grow.
 
 ## Why it stays
 
-The picture holds a simple question. How does a person hold their ground in front of something that much larger? The answer it gives is quiet. She does not climb it, point at it or grin beside it. She stands, square and still, and lets the mountain sit on her like a hat she did not ask for. The photographer gave her the centre of the frame and the top of the triangle, and in return she gives the lens a level look. The mountain will be there tomorrow. The band of light, the pose and that exact alignment will not, and that is what the camera kept.
+The mountain gets the light and she gets the centre, and the picture is the deal between them.
+
+<figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/14-cloud.webp" width="690" height="414" alt="Crop of the summit with the small cloud just above it circled" loading="lazy" decoding="async" /><figcaption>One small cloud sits just over the summit.</figcaption></figure>
+
+She does not climb the mountain, point at it or grin beside it. She stands square and still and lets it sit on her like a hat she did not ask for. The photographer gave her the middle of the frame and the top of the triangle, and she gives the lens a level look in return. Just over the summit floats one small cloud, the kind Li Po watched drain away. The mountain will be there tomorrow. The cloud, the strip of light on the grass and that exact stacking will not, and that is the part the camera kept.
