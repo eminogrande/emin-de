@@ -1,0 +1,9 @@
+export const GET = () => new Response(JSON.stringify({
+	name: 'emin.de', short_name: '🤔.tk', start_url: '/', display: 'browser',
+	background_color: '#fdf6e3', theme_color: '#fdf6e3',
+	icons: [
+		{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+		{ src: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+		{ src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' },
+	],
+}), { headers: { 'content-type': 'application/manifest+json' } });
