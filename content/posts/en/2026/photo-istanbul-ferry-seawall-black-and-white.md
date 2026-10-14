@@ -1,5 +1,5 @@
 ---
-title: "The ferry leaves, the boys stay"
+title: "A thousand friends are few, one enemy is too many"
 seo_title: "Istanbul Ferry and Seawall in Black and White | emin.de"
 description: "A close reading of a black-and-white Istanbul photo. Two head sizes, a ferry's name and its smoke give away distance, aperture and shutter, with Ara Güler and Orhan Veli alongside."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-7c8e65d5.jpg"
 tags: ["photography","istanbul","street photography","black and white","telephoto","ara güler","orhan veli","hüzün"]
 source_links:
+  - { title: "Turkish proverb: A thousand friends are few, one enemy is too many", url: "https://tr.wiktionary.org/wiki/bin_dost_az%2C_bir_d%C3%BC%C5%9Fman_%C3%A7ok", note: "The Turkish proverb in the title, Bin dost az, bir düşman çok." }
   - { title: "Ara Güler obituary (The Guardian)", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Source for Güler's line on colour and black and white, Pamuk's line on Güler's Istanbul, and the smoke of ships in his pictures." }
   - { title: "In Search of Orhan Pamuk's Istanbul (ANAMED, Koç University)", url: "https://anamed.ku.edu.tr/in-search-of-orhan-pamuks-istanbul", note: "Quotes from Pamuk's Istanbul, Memories and the City, translated by Maureen Freely, including the hüzün passage." }
   - { title: "Orhan Veli Kanık, poems in translation", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "I Am Listening to Istanbul, tr. Talat Sait Halman. Fine Days and There Must Be Something, tr. Bernard Lewis." }
@@ -50,6 +51,8 @@ basically:
   why-it-stays: "\"for the world must be loved this much / if you're going to say 'I lived'\" Nazim Hikmet. A city leaves, one face stays."
 ---
 ![Black-and-white photo of young men on a seawall as an Istanbul ferry passes](/photos/emino-7c8e65d5.jpg)
+
+The title is a Turkish proverb, Bin dost az, bir düşman çok.
 
 ## One face turned the other way
 

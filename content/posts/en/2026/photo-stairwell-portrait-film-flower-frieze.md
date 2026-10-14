@@ -1,5 +1,5 @@
 ---
-title: "Every stairwell holds a few others"
+title: "Whoever loves the rose bears its thorns"
 seo_title: "Stairwell Portrait on Film, Read Closely | emin.de"
 description: "A close reading of a film portrait on an old stairwell. The look, the high angle, flash or window, the grain, a guess at the settings and how to try it."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/stairwell-film-20261013.jpg"
 tags: ["photography","film photography","portrait","35mm","flash","composition"]
 source_links:
+  - { title: "Turkish proverb: Whoever loves the rose bears its thorns", url: "https://en.wikiquote.org/wiki/Turkish_proverbs", note: "The Turkish proverb in the title, Gülü seven dikenine katlanır." }
   - { title: "Mother to Son, Langston Hughes, Poetry Foundation", url: "https://www.poetryfoundation.org/poems/47559/mother-to-son", note: "The 1922 poem with the crystal stair, the landings and the corners." }
   - { title: "Mother to Son, Wikipedia", url: "https://en.wikipedia.org/wiki/Mother_to_Son", note: "Date and background of the poem." }
   - { title: "The Sweet Flypaper of Life, Wikipedia", url: "https://en.wikipedia.org/wiki/The_Sweet_Flypaper_of_Life", note: "The 1955 book by Roy DeCarava and Langston Hughes." }
@@ -51,6 +52,8 @@ basically:
   back-to-the-look: "\"A photograph is a secret about a secret. The more it tells you, the less you know.\" Diane Arbus. Here, about her."
 ---
 ![Woman in black on a stairwell with a painted flower border, looking up](/photos/stairwell-film-20261013.jpg)
+
+The title is a Turkish proverb, Gülü seven dikenine katlanır.
 
 ## The look comes first
 

@@ -1,5 +1,5 @@
 ---
-title: "A thousandth of a second against years of rain"
+title: "A white colt glimpsed through a crack in the wall"
 seo_title: "Wood Pigeon in Flight by a Window | emin.de"
 description: "A close reading of a wood pigeon frozen beside a paint-splattered wall: field marks, grey light, distance and lens, shutter estimates, one mistake and a 20-minute drill."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-2ddf1195.jpg"
 tags: ["photography","bird in flight","shutter speed","composition","street photography","photo critique"]
 source_links:
+  - { title: "Chinese proverb: A white colt glimpsed through a crack in the wall", url: "https://en.wiktionary.org/wiki/%E7%99%BD%E9%A7%92%E9%81%8E%E9%9A%99", note: "The Chinese proverb in the title, 白駒過隙 (bái jū guò xì), from the Zhuangzi." }
   - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
   - { title: "John Berger, Understanding a Photograph (PDF)", url: "https://camramirez.com/pdf/P1_Week2_BergerUndPhot.pdf", note: "Photographs bear witness to a human choice." }
   - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the painter and the photographer." }
@@ -49,6 +50,8 @@ basically:
   a-photograph-about-leaving: "\"Oh that I had wings like a dove! for then would I fly away, and be at rest.\" Psalm 55. The wall stays."
 ---
 ![Wood pigeon flying beside a narrow window on a weathered, paint-splattered wall](/photos/emino-2ddf1195.jpg)
+
+The title is a Chinese proverb, 白駒過隙 (bái jū guò xì), from the Zhuangzi.
 
 ## A bird leaves and a wall stays
 

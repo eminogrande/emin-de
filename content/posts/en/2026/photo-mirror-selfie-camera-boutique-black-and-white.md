@@ -1,5 +1,5 @@
 ---
-title: "A self-portrait with a camera for a face"
+title: "The darkest place is under the candlestick"
 seo_title: "Mirror Self-Portrait with a Camera in a Boutique | emin.de"
 description: "A close reading of a black-and-white mirror selfie in a clothing boutique: the hidden face, the seam of the mirror, soft shop light, focus through glass, settings guesses, one mistake and a drill."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-c0c5745f.jpg"
 tags: ["photography","self-portrait","mirror","black and white","street photography","camera settings"]
 source_links:
+  - { title: "Japanese proverb: The darkest place is under the candlestick", url: "https://en.wiktionary.org/wiki/%E7%81%AF%E5%8F%B0%E4%B8%8B%E6%9A%97%E3%81%97", note: "The Japanese proverb in the title, 灯台下暗し (tōdai moto kurashi)." }
   - { title: "Mirror by Sylvia Plath, full text (Poem Analysis)", url: "https://poemanalysis.com/sylvia-plath/mirror/", note: "The poem in the voice of a mirror, opening line quoted." }
   - { title: "Mirror by Sylvia Plath, annotated (Genius)", url: "https://genius.com/Sylvia-plath-mirror-annotated", note: "Second check of the opening line." }
   - { title: "Jorge Luis Borges (Wikiquote)", url: "https://en.wikiquote.org/wiki/Jorge_Luis_Borges", note: "First line of Tlön, Uqbar, Orbis Tertius, translated by James E. Irby (1961)." }
@@ -48,6 +49,8 @@ basically:
   back-to-the-face: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Sontag, in a mirror."
 ---
 ![Black-and-white mirror selfie with a camera in a clothing boutique](/photos/emino-c0c5745f.jpg)
+
+The title is a Japanese proverb, 灯台下暗し (tōdai moto kurashi).
 
 ## A camera where the face should be
 

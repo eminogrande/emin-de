@@ -1,5 +1,5 @@
 ---
-title: "Two domes from a window that will not stop moving"
+title: "Looking at flowers from horseback"
 seo_title: "Twin Green Domes Behind Railway Wires | emin.de"
 description: "A close reading of a tilted look up past railway wires at two green domes: layers, hard light, a 23 degree roll, the smeared girder, are-bure-boke, one mistake and a drill."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/twin-domes-20261013.jpg"
 tags: ["photography","street photography","architecture photography","dutch angle","motion blur","phone photography"]
 source_links:
+  - { title: "Chinese proverb: Looking at flowers from horseback", url: "https://en.wiktionary.org/wiki/%E8%B5%B0%E9%A6%AC%E8%A7%80%E8%8A%B1", note: "The Chinese proverb in the title, 走馬觀花 / 走马观花 (zǒumǎ guānhuā)." }
   - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
   - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the camera making everyone a tourist." }
   - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the instantaneous photograph and on the picture's edge." }
@@ -49,6 +50,8 @@ basically:
   the-journey-is-home: "\"Every day is a journey, and the journey itself is home.\" Bashō, tr. Sam Hamill. Two domes, seen from a seat that keeps moving."
 ---
 ![Looking up past railway wires at towers and a building with two green domes](/photos/twin-domes-20261013.jpg)
+
+The title is a Chinese proverb, 走馬觀花 / 走马观花 (zǒumǎ guānhuā).
 
 ## Two domes in a net of wire
 

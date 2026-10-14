@@ -48,6 +48,8 @@ basically:
 ---
 ![Woman in a black cardigan on a grass field in front of a big mountain](/photos/mountain-field-20261013.jpg)
 
+The title is a Swahili proverb, Milima haikutani lakini binadamu hukutana.
+
 ## A mountain wearing a person
 
 You see the mountain first, and only then you see that it is standing on a person. A young woman stands on a mown lawn, square to the lens, arms down. Straight above her head a huge pale cone climbs into a clear sky, and its summit sits on the same vertical line as her face.

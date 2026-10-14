@@ -1,5 +1,5 @@
 ---
-title: "A car called Victory, parked under the exchange rates"
+title: "What you give away is yours, what you keep is lost"
 seo_title: "Purple Pobeda Under Exchange Signs | emin.de"
 description: "A close reading of Emin Mahrt's photo of a purple Soviet Pobeda under three EXCHANGE signs in Georgia, with light, lens, LED shutter clues and Rustaveli."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-d6c078b0.jpg"
 tags: ["photography","street photography","color photography","georgia","hard light","exposure","rolling shutter","rustaveli"]
 source_links:
+  - { title: "Georgian proverb: What you give away is yours, what you keep is lost", url: "https://en.wiktionary.org/wiki/%E1%83%A0%E1%83%90%E1%83%A1%E1%83%90%E1%83%AA%E1%83%90_%E1%83%92%E1%83%90%E1%83%A1%E1%83%AA%E1%83%94%E1%83%9B_%E1%83%A8%E1%83%94%E1%83%9C%E1%83%98%E1%83%90%2C_%E1%83%A0%E1%83%90%E1%83%A1_%E1%83%90%E1%83%A0%E1%83%90_%E1%83%93%E1%83%90%E1%83%99%E1%83%90%E1%83%A0%E1%83%92%E1%83%A3%E1%83%9A%E1%83%98%E1%83%90", note: "The Georgian proverb in the title, რასაცა გასცემ შენია, რაც არა დაკარგულია." }
   - { title: "GAZ-M20 Pobeda (Wikipedia)", url: "https://en.wikipedia.org/wiki/GAZ-M20_Pobeda", note: "Built 1946 to 1958, first meant to be called Rodina, height 1,590 mm, and the line attributed to Stalin." }
   - { title: "The Man in the Panther's Skin, Chapter 1, tr. Marjory Wardrop (Wikisource)", url: "https://en.wikisource.org/wiki/The_Man_in_the_Panther%27s_Skin/Chapter_1", note: "Stanzas 49 and 50, the roses and middens line and what thou givest away." }
   - { title: "Shota Rustaveli (Wikipedia)", url: "https://en.wikipedia.org/wiki/Shota_Rustaveli", note: "Poet of the Georgian Golden Age who served Queen Tamar as a finance minister." }
@@ -48,6 +49,8 @@ basically:
   exchange: "A car named Victory, in a colour no factory chose, parked under a word that means swap. The street wrote the caption."
 ---
 ![Vintage purple sedan outside currency exchange shops on a sunny street](/photos/emino-d6c078b0.jpg)
+
+The title is a Georgian proverb, რასაცა გასცემ შენია, რაც არა დაკარგულია.
 
 ## Three times the same word
 

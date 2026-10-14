@@ -1,5 +1,5 @@
 ---
-title: "The lookers-on see more"
+title: "The player is lost, the onlooker sees clearly"
 seo_title: "Men Watching a Card Game, Black and White | emin.de"
 description: "A close reading of a black-and-white photo of men crowded round an outdoor card game: the ring of bodies, dappled light, lens, exposure guesses, one mistake and a drill."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-2c21b294.jpg"
 tags: ["photography","street photography","black and white","composition","depth of field","exposure"]
 source_links:
+  - { title: "Chinese proverb: The player is lost, the onlooker sees clearly", url: "https://en.wiktionary.org/wiki/%E7%95%B6%E5%B1%80%E8%80%85%E8%BF%B7%EF%BC%8C%E6%97%81%E8%A7%80%E8%80%85%E6%B8%85", note: "The Chinese proverb in the title, 當局者迷，旁觀者清 / 当局者迷，旁观者清." }
   - { title: "Henri Cartier-Bresson (Wikiquote)", url: "https://en.wikiquote.org/wiki/Henri_Cartier-Bresson", note: "Source of the line about people who know how to look." }
   - { title: "Homo Ludens, English edition 1949 (PDF)", url: "https://merton.bellarmine.edu/files/original/b0899cfad820ab8ad7033952b7a022ba1d7cab9d.pdf", note: "Huizinga on the card-table as a temporary world and on tension as uncertainty, chapter one." }
   - { title: "Homo Ludens (Wikipedia)", url: "https://en.wikipedia.org/wiki/Homo_Ludens", note: "The book and the idea of the magic circle that grew from it." }
@@ -49,6 +50,8 @@ basically:
   try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Start at a table."
 ---
 ![Black-and-white photo of men watching a game at an outdoor table](/photos/emino-2c21b294.jpg)
+
+The title is a Chinese proverb, 當局者迷，旁觀者清 / 当局者迷，旁观者清.
 
 ## Every head points one way
 

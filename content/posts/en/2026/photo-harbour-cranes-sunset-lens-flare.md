@@ -1,5 +1,5 @@
 ---
-title: "The sun was too big for the lens"
+title: "The sun cannot be covered with mud"
 seo_title: "Harbour Sunset, Cranes and Lens Flare | emin.de"
 description: "A close reading of a harbour photo shot straight into a low sun: the flare, the haze, the two skies, an exposure read from guy wires, Monet, the Bechers, Sandburg's fog and one fix."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/harbor-sunset-20261013.jpg"
 tags: ["photography","lens flare","golden hour","phone photography","cityscape","harbour"]
 source_links:
+  - { title: "Turkish proverb: The sun cannot be covered with mud", url: "https://en.wiktionary.org/wiki/g%C3%BCne%C5%9F_bal%C3%A7%C4%B1kla_s%C4%B1vanmaz", note: "The Turkish proverb in the title, Güneş balçıkla sıvanmaz." }
   - { title: "Lens flare (Wikipedia)", url: "https://en.wikipedia.org/wiki/Lens_flare", note: "Ghosts, veiling glare and why a bright source in frame lowers contrast." }
   - { title: "Aerial perspective (Wikipedia)", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why distant things lose contrast and shift toward the colour of the air." }
   - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The baseline behind the exposure estimate." }
@@ -48,6 +49,8 @@ basically:
   back-to-the-sun: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Now you see the glass too."
 ---
 ![Low sun over a harbour with cranes, a truss bridge and a city skyline](/photos/harbor-sunset-20261013.jpg)
+
+The title is a Turkish proverb, Güneş balçıkla sıvanmaz.
 
 ## The sun gets you first
 

@@ -1,5 +1,5 @@
 ---
-title: "The red ship that is not red"
+title: "If you wait, the sea road will have fair weather"
 seo_title: "Red Ship and Water Spray in Haze | emin.de"
 description: "A close reading of a hazy harbour photo with a red ship throwing water. Colour, haze, light, lens, shutter and aperture estimates, one mistake and a 20 minute exercise."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-b11618b3.jpg"
 tags: [photography, "haze", "aerial perspective", "seascape", "colour photography", "exposure"]
 source_links:
+  - { title: "Japanese proverb: If you wait, the sea road will have fair weather", url: "https://en.wiktionary.org/wiki/%E5%BE%85%E3%81%A6%E3%81%B0%E6%B5%B7%E8%B7%AF%E3%81%AE%E6%97%A5%E5%92%8C%E3%81%82%E3%82%8A", note: "The Japanese proverb in the title, 待てば海路の日和あり (mateba kairo no hiyori ari)." }
   - { title: "The Notebooks of Leonardo da Vinci, tr. Jean Paul Richter, Project Gutenberg", url: "https://www.gutenberg.org/cache/epub/5000/pg5000.txt", note: "Source of the five times bluer rule for distant things." }
   - { title: "Saul Leiter, The Guardian, 2016", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Source of the Leiter quote on what is hidden." }
   - { title: "Nothing Twice, Wislawa Szymborska, Poets.org", url: "https://poets.org/poem/nothing-twice", note: "Source of the first line of the poem." }
@@ -49,6 +50,8 @@ basically:
   why-it-stays-with-you: '"Things are because we see them" Oscar Wilde. The haze was there for everyone. The photo makes you see it.'
 ---
 ![Red ship spraying water beyond small moored fishing boats on a hazy sea](/photos/emino-b11618b3.jpg)
+
+The title is a Japanese proverb, 待てば海路の日和あり (mateba kairo no hiyori ari).
 
 ## The red that is almost grey
 

@@ -1,5 +1,5 @@
 ---
-title: "She looked away, then she looked at you"
+title: "The eyes say as much as the mouth"
 seo_title: "Leather Jacket Portrait, Read Closely | emin.de"
 description: "A close reading of an over-the-shoulder portrait in soft daylight. The turn, the catchlights, lens distance, shutter and aperture trade-offs, and one fix, with annotated crops."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/portrait-leather-20261013.jpg"
 tags: ["photography","portrait","natural light","catchlight","depth of field","photo critique"]
 source_links:
+  - { title: "Japanese proverb: The eyes say as much as the mouth", url: "https://ja.wiktionary.org/wiki/%E7%9B%AE%E3%81%AF%E5%8F%A3%E7%A8%8B%E3%81%AB%E7%89%A9%E3%82%92%E8%A8%80%E3%81%86", note: "The Japanese proverb in the title, 目は口程に物を言う (me wa kuchi hodo ni mono o iu)." }
   - { title: "John Berger, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words, from Ways of Seeing, chapter 1." }
   - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "The picture's edge as the line of decision." }
   - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Instead of arranging it, I arrange myself." }
@@ -46,6 +47,8 @@ basically:
   why-it-stays: "\"People who know how to look are as rare as those who know how to listen.\" Cartier-Bresson. She knows how."
 ---
 ![Woman with short natural hair in a black leather jacket looking over her shoulder](/photos/portrait-leather-20261013.jpg)
+
+The title is a Japanese proverb, 目は口程に物を言う (me wa kuchi hodo ni mono o iu).
 
 ## The look comes first
 

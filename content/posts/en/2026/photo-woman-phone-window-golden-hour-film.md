@@ -1,5 +1,5 @@
 ---
-title: "She saw the camera first"
+title: "Walls have ears, paper screens have eyes"
 seo_title: "Woman Through a Green Window, Read Closely | emin.de"
 description: "A close reading of a warm, film-like photo shot through an old window. The double grid, the low sun, the ghost bricks, likely lens and settings, Baudelaire's shut window and one fix."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/window-film-20261013.jpg"
 tags: ["photography","golden hour","film photography","reflections","portrait","composition"]
 source_links:
+  - { title: "Japanese proverb: Walls have ears, paper screens have eyes", url: "https://ja.wiktionary.org/wiki/%E5%A3%81%E3%81%AB%E8%80%B3%E3%81%82%E3%82%8A%E9%9A%9C%E5%AD%90%E3%81%AB%E7%9B%AE%E3%81%82%E3%82%8A", note: "The Japanese proverb in the title, 壁に耳あり障子に目あり (kabe ni mimi ari, shōji ni me ari)." }
   - { title: "Baudelaire, Windows, tr. Arthur Symons (Project Gutenberg #47032)", url: "https://www.gutenberg.org/cache/epub/47032/pg47032-images.html", note: "Source of the shut window line and \"out of nothing almost\"." }
   - { title: "John Berger, Ways of Seeing, chapter 1", url: "https://www.ways-of-seeing.com/ch1", note: "Source of \"Soon after we can see\" and \"We only see what we look at\"." }
   - { title: "MoMA press release, The Photographer's Eye (1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski's line on the picture's edge." }
@@ -49,6 +50,8 @@ basically:
   the-look-again: "\"A photograph is a secret about a secret. The more it tells you, the less you know.\" Diane Arbus"
 ---
 ![Woman holding a phone, seen through a green window frame in warm sunlight](/photos/window-film-20261013.jpg)
+
+The title is a Japanese proverb, 壁に耳あり障子に目あり (kabe ni mimi ari, shōji ni me ari).
 
 ## Her eyes come first
 

@@ -1,5 +1,5 @@
 ---
-title: "A photo has no sound, and you still hear the street"
+title: "Bread is in the lion's mouth"
 seo_title: "Boys at a Simit Cart, a Street Photo Read | emin.de"
 description: "A close reading of Emin Mahrt's black-and-white street photo of boys at a simit cart, with long lens, soft light, three whites, shutter guesses, Güler and Pamuk."
 date: 2026-10-13
@@ -15,6 +15,7 @@ reviewed_by_human: false
 image: "/photos/emino-1d9deaae.jpg"
 tags: ["photography", "street photography", "black and white", "telephoto", "composition", "simit", "Ara Güler", "Orhan Pamuk"]
 source_links:
+  - { title: "Turkish proverb: Bread is in the lion's mouth", url: "https://sozluk.gov.tr/gts?ara=ekmek%20aslan%C4%B1n%20a%C4%9Fz%C4%B1nda", note: "The Turkish proverb in the title, Ekmek aslanın ağzında." }
   - { title: "Simit, Wikipedia", url: "https://en.wikipedia.org/wiki/Simit", note: "The sesame bread ring, sold from trolleys and trays, a symbol of lower and middle class life in Turkey." }
   - { title: "I Am Listening to Istanbul, Orhan Veli, tr. Talat Sait Halman", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "The poem quoted in the section on the listening man." }
   - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame and on time." }
@@ -47,6 +48,8 @@ basically:
   the-woman-who-looks-past-it-all: '"The camera makes everyone a tourist in other people''s reality, and eventually in one''s own." Sontag'
 ---
 ![Black-and-white street scene, boys at a simit cart, a bench and a white van](/photos/emino-1d9deaae.jpg)
+
+The title is a Turkish proverb, Ekmek aslanın ağzında.
 
 ## Four people, four elsewheres
 
