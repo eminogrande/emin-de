@@ -324,6 +324,14 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				return blocks.join('\n\n').trim();
 			};
 			post.heroHtml = null;
+			// House illustrations per section (content/media/<slug>/sections/<id>.png):
+			// added to the HTML view only, never to the Markdown body (free speech, text untouched).
+			const sectionArt = (id) => {
+				for (const ext of ['png', 'webp', 'jpg']) {
+					if (existsSync(path.resolve(root, dir, 'media', slug, 'sections', `${id}.${ext}`))) return `/media/${slug}/sections/${id}.${ext}`;
+				}
+				return null;
+			};
 			post.html = sections.map((s) => {
 				let view = s.body;
 				if (!s.heading) {
@@ -334,6 +342,8 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 					}
 					if (post.tldrFromBody) view = lift(view, post.tldrFromBody);
 				}
+				const art = s.heading && !/!\[[^\]]*\]\(|<img\b/.test(view) ? sectionArt(s.id) : null;
+				if (art) view = `![](${art})\n\n${view}`;
 				return { id: s.id, heading: s.heading, body: s.body, html: view ? renderHtml(view, { sizes, srcsets }) : '' };
 			});
 			if (post.tldrFromBody) post.tldrHtml = renderHtml(post.tldrFromBody).replace(/^<p>|<\/p>\s*$/g, '').trim();

@@ -141,7 +141,7 @@ main { display: block; }
 .story a.title-link::after { content: ''; position: absolute; inset: 0; }
 .story a.title-link:hover { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: var(--accent); }
 .story .eyebrow { position: relative; z-index: 1; margin-bottom: 0.5rem; }
-.cover { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: var(--paper-2); border-radius: 0.5rem; }
+.cover { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: transparent; border-radius: 0.5rem; }
 
 .lead { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 2rem clamp(2rem, 5vw, 4.5rem); align-items: start; }
 .lead h2 { margin-bottom: 1.25rem; }
@@ -167,7 +167,7 @@ main { display: block; }
 .art-hero__eyebrow { margin: 0 0 1.25rem; font-weight: 700; }
 .art-hero__eyebrow a { color: var(--muted); text-decoration: none; }
 .art-hero__title { max-width: 20ch; margin: 0; }
-.art-hero__illustration { width: min(100%, 64rem); margin: clamp(2.5rem, 5vw, 4rem) auto 0; overflow: hidden; border-radius: 0.75rem; background: var(--paper-2); }
+.art-hero__illustration { width: min(100%, 64rem); margin: clamp(2.5rem, 5vw, 4rem) auto 0; overflow: hidden; border-radius: 0.75rem; background: transparent; }
 .art-hero__illustration img { width: 100%; height: auto; margin: 0; }
 .art-hero__tldr { max-width: 42rem; margin: clamp(2rem, 4vw, 3rem) auto 0; color: var(--muted); text-align: left; }
 .art-meta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 0.6rem; margin-top: 1.5rem; color: var(--muted); }
