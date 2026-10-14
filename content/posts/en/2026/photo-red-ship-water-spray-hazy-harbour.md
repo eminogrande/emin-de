@@ -35,17 +35,17 @@ tldr:
 basically:
   the-red-that-is-almost-grey: 'The hull measures close to grey. It reads red only because everything around it is cooler.'
   a-ship-standing-still: 'No bow wave and no wake. The ship stands still, so the only thing moving in the frame is the water it throws.'
-  haze-does-the-depth: '"if one is to be five times as distant, make it five times bluer." Leonardo, tr. Richter. The haze follows the rule.'
-  where-the-sun-hides: "\"tell me in all plainness exactly what you saw.\" Homer, tr. Butler. 61 of 68 glints put the unseen sun to the right."
+  haze-does-the-depth: "Near shadows measure 34, distant ones 193. Haze takes contrast away and gives the picture depth in return."
+  where-the-sun-hides: "The sun is invisible, but 61 of 68 water glints sit on the right. Count the reflections before guessing the light."
   a-frame-built-like-a-target: 'Dead centre should be dull. Two hill slopes falling inward turn it into a bullseye.'
   where-the-camera-stood: 'You see the rim of the dinghy and not its floor. That puts the camera a few metres up, looking down about 10 degrees.'
-  the-moment-the-water-is-up: '"Nothing can ever happen twice." Szymborska. A jet of water never takes the same shape again.'
-  reading-the-shutter-from-the-glints: "\"But don’t hurry the journey at all.\" Cavafy, tr. Keeley and Sherrard. At 1/30 s the glints would become lines."
+  the-moment-the-water-is-up: "The stationary ship needs moving water to become a picture. Wait for the arc, not for the vessel to go anywhere."
+  reading-the-shutter-from-the-glints: "At an estimated 1/250 s the glints stay points. At 1/30 s they become lines, and a quieter sea loses the event."
   aperture-and-what-the-air-does: 'At 85mm and f/8, everything from 15 m to the hills is sharp. The softness up there comes from air, not glass.'
   digital-and-how-you-can-tell: 'A flat patch of this sky varies by about one level out of 255. Scanned film grain is rarely that still.'
-  half-sea-and-half-sky: '"The evening mist clothes the riverside with poetry, as with a veil" Whistler, 1885. Daylight haze does the same.'
+  half-sea-and-half-sky: 'At 53 percent from the top, the waterline nearly halves the frame. Haze removes detail and leaves the hills worth looking at.'
   the-one-mistake: 'A dust spot 30 pixels wide costs this sky more than any lens upgrade would ever give back.'
-  try-this: "\"full of adventure, full of discovery.\" Cavafy, tr. Keeley and Sherrard. Twenty minutes. Three layers and one red."
+  try-this: "Twenty minutes, three distances, one small patch of colour. Let haze separate the layers instead of blurring them yourself."
   why-it-stays-with-you: '"Things are because we see them" Oscar Wilde. The haze was there for everyone. The photo makes you see it.'
 ---
 ![Red ship spraying water beyond small moored fishing boats on a hazy sea](/photos/emino-b11618b3.jpg)

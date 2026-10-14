@@ -7,6 +7,7 @@
 
 import { SITE, SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME, KNOWS_ABOUT, AUTHOR_SAME_AS } from '../lib/site.mjs';
 import { principlesMarkdown } from './principles.mjs';
+import { sayingsMarkdown } from '../lib/sayings.mjs';
 import { DISCLOSURE } from '../lib/magazine.mjs';
 import photoData from '../generated/photos.json' with { type: 'json' };
 
@@ -15,6 +16,7 @@ const analyticsOn = SITE.analytics.posthog.enabled || SITE.analytics.ga4.enabled
 export const pageMarkdown = {
 	'/principles': () => principlesMarkdown('en'),
 	'/de/principles': () => principlesMarkdown('de'),
+	'/sayings': () => sayingsMarkdown(),
 	'/photos': () => `# Photos
 
 > Photographs by ${AUTHOR_NAME}.

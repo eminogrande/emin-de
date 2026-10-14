@@ -274,6 +274,7 @@ ${facets.join('\n')}
 - ${link('About', '/about')}: who writes this.
 - ${link('Principles', '/principles')}: free speech; labels inform, they never hide a post. German: ${link('Grundsätze', '/de/principles')}.
 - ${link('Photos', '/photos')}: photographs by the author.
+- ${link('Sayings', '/sayings')}: every proverb, poem line and quote used on the site, each in exactly one post.
 - ${link('Agent ready', '/agent-ready')}: how the site is built for agents.
 - ${link('Developers', '/developers')}: API, MCP and x402 documentation.
 - ${link('Contact', '/contact')}: how to reach the author.

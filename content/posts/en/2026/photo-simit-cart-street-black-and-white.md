@@ -17,7 +17,7 @@ tags: ["photography", "street photography", "black and white", "telephoto", "com
 source_links:
   - { title: "Turkish proverb: Bread is in the lion's mouth", url: "https://sozluk.gov.tr/gts?ara=ekmek%20aslan%C4%B1n%20a%C4%9Fz%C4%B1nda", note: "The Turkish proverb in the title, Ekmek aslanın ağzında." }
   - { title: "Simit, Wikipedia", url: "https://en.wikipedia.org/wiki/Simit", note: "The sesame bread ring, sold from trolleys and trays, a symbol of lower and middle class life in Turkey." }
-  - { title: "I Am Listening to Istanbul, Orhan Veli, tr. Talat Sait Halman", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "The poem quoted in the section on the listening man." }
+  - { title: "I Am Listening to Istanbul, Orhan Veli, tr. Talat Sait Halman", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "The poem discussed in the section on the listening man, with its city built from sounds." }
   - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on deciding what to include and reject." }
   - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The exposure table used to read the cloud cover from the shadows." }
   - { title: "Ara Güler obituary, The Guardian", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Güler on showing Istanbul as it is." }
@@ -30,19 +30,19 @@ tldr:
   - "No shadow edges, a sharp fist and a 5:4 crop read as cloud, about 1/500 s and a long lens, all estimates since no camera data exists."
   - "One raised fist, one hand at an ear and three whites on a slant carry the frame, and a blown white shirt is its one fixable mistake."
 basically:
-  four-people-four-elsewheres: "\"Out of sight, out of mind.\" Turkish proverb. Four nearby people, four directions of attention."
+  four-people-four-elsewheres: "Bodies overlap while attention stays apart. The crowd is closest where its people seem furthest from one another."
   bread-on-a-pole: "In grey, bread stops being food and turns into pattern. Dark loops, each with a few bright points of sesame."
-  one-fist-at-the-top: "\"Barking dogs seldom bite.\" Turkish proverb. A fist looks loud. The picture never proves it is a threat."
+  one-fist-at-the-top: "A closed fist gives an ordinary bread queue its loudest shape. The gesture is clear and its meaning stays hidden."
   the-man-who-listens: "A photo has no sound. One hand pressed to one ear, and you start hearing the whole street anyway."
   a-frieze-not-a-street: "A street with no depth at all. Seven level bands stacked like a frieze, and people cut off at three edges."
   three-whites-on-a-slant: "Under six percent of the pixels are white, and those few draw the only diagonal in a frame of flat bands."
   light-under-a-lid-of-cloud: "No shadow edges means the bottom of the Sunny 16 table, f/5.6 or wider. Soft light makes nobody the hero."
-  reading-the-lens: "\"Forced beauty won't do.\" Turkish proverb. Stand nine metres back. Let the crowd arrange itself."
-  time-inside-a-fist: "\"You should hammer your iron when it's glowing hot.\" Turkish proverb. About 1/500 s catches the fist at its top."
+  reading-the-lens: "At nine metres, distance leaves the crowd unposed and a long lens brings it back together. Closeness is not always proximity."
+  time-inside-a-fist: "At 1/500 s a moving hand travels about 2 mm. At 1/60 s it travels about 17 mm. Speed keeps the gesture from becoming a smear."
   film-or-digital: "Film rolls off into white. Digital just stops. A bright rim around a white scarf tells you which one you have."
   the-black-mood-shared: "Eight people in four square metres. Black and white gives their separate thoughts one shared weather."
   the-one-mistake: "A blown white shirt costs this frame more than any lens upgrade gives back. Minus two thirds of a stop fixes it."
-  try-this: "\"A tree won't fall with a single blow.\" Turkish proverb. Wait, shoot, compare. One burst is only a beginning."
+  try-this: "A burst catches movement, not judgement. Wait again and compare the frames before deciding what the gesture was."
   the-woman-who-looks-past-it-all: '"The camera makes everyone a tourist in other people''s reality, and eventually in one''s own." Sontag'
 ---
 ![Black-and-white street scene, boys at a simit cart, a bench and a white van](/photos/emino-1d9deaae.jpg)
@@ -81,7 +81,7 @@ The seated man has his hand pressed to the side of his head and his face turned 
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/04-hand-at-ear.webp" width="250" height="200" alt="Crop of the seated man in a knit sweater pressing his hand to his ear" loading="lazy" decoding="async" /><figcaption>The only place in the picture where sound gets in is this one hand.</figcaption></figure>
 
-Orhan Veli wrote a poem that builds a whole city out of sound, the bells of the water carriers, birds, hammers at the docks, the Grand Bazaar, and every stanza starts again with the same line. In Talat Sait Halman's translation it goes "I am listening to Istanbul, intent, my eyes closed". The place here isn't named and nobody should pretend it is his city. But the poem shows you what a photograph can't do. A picture has no sound at all, and this hand is the one point in the frame where you start to hear things anyway. The seller's call, the van engine, the boys talking. You supply all of it, because one man is listening.
+Orhan Veli's poem I Am Listening to Istanbul builds a whole city out of sound, the bells of the water carriers, birds, hammers at the docks and the Grand Bazaar. Its returning refrain keeps bringing the listener back to the city. The place here isn't named and nobody should pretend it is his city. But the poem shows you what a photograph can't do. A picture has no sound at all, and this hand is the one point in the frame where you start to hear things anyway. The seller's call, the van engine, the boys talking. You supply all of it, because one man is listening.
 
 ## A frieze, not a street
 

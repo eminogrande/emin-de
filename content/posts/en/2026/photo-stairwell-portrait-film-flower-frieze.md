@@ -41,7 +41,7 @@ basically:
   why-the-eyes-sit-in-the-middle: "Eyes on a thirds line make a face part of the room. Eyes in the middle make the face a question."
   window-or-flash: "Light that falls off with distance is a flash. Light that falls off with direction is a window. Read the walls."
   black-that-turns-navy: "Her black shirt measures as navy. The darkest pixel in the frame is not black and the brightest is not white."
-  half-a-second-on-the-stairs: "\"Dum loquimur, fugerit invida Aetas\" Horace. While words pass, the step has gone."
+  half-a-second-on-the-stairs: "A flash shorter than 1/1000 s can freeze the face while room light keeps the arm soft. Stillness and movement share one frame."
   how-far-away-the-camera-was: "Her head fills a third of the frame. With a 35mm lens that puts the camera about one metre away, one stair gap."
   film-or-a-filter: "The grain is three times louder in the shadows than on the bright wall. Film does that. So does a good film filter."
   decarava-and-the-dark-hallway: "\"It was all the hallways I grew up in.\" Roy DeCarava, on Hallway, 1953. Every stairwell holds a few others."

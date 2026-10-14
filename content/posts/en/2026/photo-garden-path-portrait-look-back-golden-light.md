@@ -136,7 +136,7 @@ This is digital, not film. There is no grain, only fine noise in the deepest sha
 
 ## A bird that looks back
 
-The title comes from Ghana. Sankofa is an Akan word, and the symbol for it is a bird with its feet pointing forward and its head turned all the way back. The proverb behind it, Se wo were fi na wosankofa a yenkyi, is translated on a Smithsonian object page as "it is not taboo to go back and fetch what you forgot." The bird walks on and still looks behind. That is exactly the shape of this photo.
+The title comes from Ghana. Sankofa is an Akan word, and the symbol for it is a bird with its feet pointing forward and its head turned all the way back. The proverb behind it, Se wo were fi na wosankofa a yenkyi, is translated on a Smithsonian object page with the words of this title. The bird walks on and still looks behind. That is exactly the shape of this photo.
 
 <figure><img src="/photos/notes/photo-garden-path-portrait-look-back-golden-light/10-turn.webp" width="1400" height="1050" alt="Full frame with one arrow for where her body goes and one for where her look comes back" loading="lazy" decoding="async" /><figcaption>The body goes on along the path and the look comes back, like the Sankofa bird.</figcaption></figure>
 

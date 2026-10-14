@@ -298,3 +298,8 @@ tbody tr:last-child > * { border-bottom: 0; }
 	td, tbody th { border: 0; padding: 0.15rem 0; }
 	td[data-label]::before, tbody th[data-label]::before { content: attr(data-label); display: block; color: var(--muted); font-weight: 700; }
 }
+
+.sayings { list-style: none; padding: 0; margin: 2.5rem 0 0; }
+.sayings li { margin: 0 0 1.75rem; }
+.sayings li p { margin: 0; }
+.sayings li p + p { color: var(--muted); }

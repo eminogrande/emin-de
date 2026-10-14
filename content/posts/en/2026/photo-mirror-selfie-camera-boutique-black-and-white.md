@@ -34,18 +34,18 @@ tldr:
 basically:
   a-camera-where-the-face-should-be: "A self-portrait that hides the face. The camera becomes the face, and its lens looks straight back at you."
   two-elbows-and-a-watch: "Elbows out, lens cradled from below, grip hand on top. Wide elbows wobble more but read better."
-  the-seam-at-the-right-edge: "\"I am silver and exact. I have no preconceptions.\" Sylvia Plath, Mirror. Shoes, dress and you, all the same."
-  a-grid-behind-the-sitters-back: "\"I owe the discovery of Uqbar to the conjunction of a mirror and an encyclopedia.\" Borges. Here, a mirror and a shop."
+  the-seam-at-the-right-edge: "Leave the mirror edge in. A sliver of real room makes the reflected room harder to mistake for reality."
+  a-grid-behind-the-sitters-back: "Three shelf heights turn a shop into a catalogue. The mirror files its photographer among the goods."
   light-made-to-sell: "Soft light from above leaves a shadow only a finger wide under each shelf. Shops light to sell, not to shout."
-  an-empty-dress-and-a-full-shirt: "\"All art is at once surface and symbol.\" Oscar Wilde. An empty white dress balances a full black shirt."
+  an-empty-dress-and-a-full-shirt: "The empty garment carries the brightest weight. The person inside the darkest one almost disappears."
   focus-lives-behind-the-glass: "A mirror doubles the distance. Sit 90 cm from the glass and your lens has to focus at about 1.8 m."
-  holding-still-in-a-dim-shop: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. Even a still pose takes about 1/125 s."
+  holding-still-in-a-dim-shop: "At the estimated 1/125 s, stillness has a duration. Stop down to f/8 and either the hands or the clean shadows pay."
   what-the-blacks-hide: "Barely one pixel in 5,000 gets near white. Expose for the dress and let the shirt go black."
   the-camera-in-the-picture: "Gear talk is usually noise. In a mirror the camera is the one prop you can't hide, so it has to look like you."
-  one-eye-and-an-old-leica: "\"I felt the camera grew as an extension of my eyes and moved with me.\" Ilse Bing. Here it covers one eye and frees the other."
-  the-one-mistake: "\"only the things go the other way.\" Lewis Carroll. Sit 10 cm higher and the ledge goes lower."
+  one-eye-and-an-old-leica: "The camera hides an eye to show an act of seeing. The uncovered eye checks what the lens cannot explain."
+  the-one-mistake: "Raise the camera 10 cm and the blurred ledge drops away. In a mirror, moving the maker edits the picture."
   try-this: "One mirror, one shelf, 20 minutes. Focus on yourself, not the glass, and keep the uprights straight."
-  back-to-the-face: "\"It is the spectator, and not life, that art really mirrors.\" Oscar Wilde. The lens returns your look."
+  back-to-the-face: "The face is hidden, but the maker is not. A mirror portrait shows the act that most photographs leave outside."
 ---
 ![Black-and-white mirror selfie with a camera in a clothing boutique](/photos/emino-c0c5745f.jpg)
 

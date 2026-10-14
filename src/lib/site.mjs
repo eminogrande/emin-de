@@ -19,7 +19,7 @@ export function absoluteUrl(path = '/') {
 }
 
 // Non-post HTML pages in the default language that belong in the sitemap.
-export const STATIC_PATHS = ['/', '/posts', '/about', '/principles', '/de/principles', '/photos', '/contact', '/developers', '/agent-ready', '/privacy', '/talks', '/changelog', '/archive'];
+export const STATIC_PATHS = ['/', '/posts', '/about', '/principles', '/de/principles', '/photos', '/sayings', '/contact', '/developers', '/agent-ready', '/privacy', '/talks', '/changelog', '/archive'];
 // Static pages that exist in more than one language (hreflang in the sitemap).
 export const STATIC_ALTERNATES = { '/principles': [{ lang: 'en', path: '/principles' }, { lang: 'de', path: '/de/principles' }], '/de/principles': [{ lang: 'en', path: '/principles' }, { lang: 'de', path: '/de/principles' }] };
 

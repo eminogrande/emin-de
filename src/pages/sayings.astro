@@ -1,0 +1,20 @@
+---
+// Public list of every proverb, poem line and quote on the site (src/lib/sayings.mjs).
+import Base from '../layouts/Base.astro';
+import { sayings } from '../lib/sayings.mjs';
+const rows = sayings();
+const voices = new Set(rows.map((r) => r.by)).size;
+---
+<Base title="Sayings | emin.de" description={`Every proverb, poem line and quote used on emin.de, ${rows.length} lines from ${voices} voices, each in exactly one post.`} path="/sayings" markdownPath="/sayings/index.md">
+	<p class="kicker">emin.de</p>
+	<h1>Sayings</h1>
+	<p class="lede">Every proverb, poem line and quote used on this site, {rows.length} lines from {voices} voices. Each one appears in exactly one post.</p>
+	<ul class="sayings">
+		{rows.map((r) => (
+			<li>
+				<p>“{r.text}” <strong>{r.by}</strong>{r.original && <> ({r.original})</>}</p>
+				<p><a href={r.path}>{r.title}</a></p>
+			</li>
+		))}
+	</ul>
+</Base>

@@ -48,6 +48,29 @@ test('no quoted line in a Basically aside repeats across posts', () => {
 	assert.deepEqual(clashes, []);
 });
 
+test('no quote appears twice on one page or in two posts (AI Desk posts)', () => {
+	// Emin, 2026-10-14: "ich will nix doppelt haben". Body text and Basically asides
+	// render on the same page, so a quote in both is a repeat. Emin's own posts are
+	// his texts and stay untouched (free speech), so only the AI Desk photo essays are checked.
+	const { posts } = loadContent({ dirs: ['content'] });
+	const norm = (s) => s.toLowerCase().replace(/[^a-z]/g, '');
+	const owner = new Map();
+	const problems = [];
+	for (const post of posts.filter((p) => p.author === 'ai-desk' && p.format === 'photo')) {
+		const md = post.markdown.split('\n').filter((l) => !/^- \[.*\]\(https?:/.test(l)).join('\n');
+		const quotes = [...md.matchAll(/["\u201c]([^"\u201d\n]{20,240})["\u201d]/g)].map((m) => norm(m[1])).filter((k) => k.length >= 15 && !k.startsWith('photos'));
+		const count = new Map();
+		for (const k of quotes) count.set(k, (count.get(k) || 0) + 1);
+		for (const [k, n] of count) {
+			if (n > 1) problems.push(`twice on ${post.slug}: ${k.slice(0, 40)}`);
+			const first = owner.get(k);
+			if (first && first !== post.slug) problems.push(`in ${first} and ${post.slug}: ${k.slice(0, 40)}`);
+			else owner.set(k, post.slug);
+		}
+	}
+	assert.deepEqual(problems, []);
+});
+
 test('every post has HTML, Markdown mirror, OG image', () => {
 	for (const post of graph.posts) {
 		assert.ok(existsSync(dist(`${post.path.slice(1)}/index.html`)), post.path);

@@ -31,7 +31,7 @@ tldr:
   - "The file reads as a digital capture turned black and white, likely a normal lens near f/2.8 to f/4 and around 1/500 s, all estimates from what the frame shows."
   - "The one mistake is a tree trunk growing out of a black cap, and half a step to the side would have fixed it."
 basically:
-  every-head-points-one-way: "\"See what a man does.\" Confucius, tr. Legge. Five looks land on one hand."
+  every-head-points-one-way: "Five sightlines converge before a single face explains the game. Follow the looks, not the expressions."
   what-is-on-the-table: "Two bottles, a few coins, a tyre for a table foot. Small stakes, total attention."
   a-ring-of-bodies: "\"temporary worlds within the ordinary world\" Huizinga, on the card-table. Here the men's backs build the wall."
   two-backs-and-a-gap: "Two backs hold the outer thirds. Cut them less and you stand outside. Cut them more and the circle disappears."
@@ -43,8 +43,8 @@ basically:
   shutter-aperture-and-the-soft-arm: "At f/2.8 the hand is sharp and the near arm melts. At f/8 the stripes would shout as loud as the cards."
   film-or-digital: "No clumps in the shadows. The file leans digital, and 1790 pixels can't swear to it."
   the-lookers-on: "\"lookers-on many times see more than gamesters\" Francis Bacon. The camera is one more looker-on."
-  the-one-mistake: "\"When you have faults, do not fear to abandon them.\" Confucius, tr. Legge. Half a step frees the cap."
-  try-this: "\"a natural ease is to be prized\" Youzi, tr. Legge. Ten frames in twenty minutes. Stay inside the circle."
+  the-one-mistake: "A tree cannot move and the game cannot pause. Half a step is the only part of the scene you need to change."
+  try-this: "Ten frames in twenty minutes. Join the second row, keep the brightest cap textured and let the group forget the camera."
 ---
 ![Black-and-white photo of men watching a game at an outdoor table](/photos/emino-2c21b294.jpg)
 
