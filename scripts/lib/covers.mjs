@@ -84,7 +84,8 @@ export async function buildCovers(posts, { dirs, labelFor, outDir = 'public/cove
 						height: Math.round((largest * 2) / 3),
 						generated: false,
 						// The post body shows this same picture already: no second copy on the post page.
-						inBody: post.image ? post.html.some((s) => s.html.includes(post.image)) : true,
+						// Only true when the same file already opens the body (first two sections). Later in the body still gets a hero.
+						inBody: post.html.slice(0, 2).some((s) => s.html.includes(post.image || `/${path.basename(src)}`)),
 					};
 					raster += 1;
 					continue;
