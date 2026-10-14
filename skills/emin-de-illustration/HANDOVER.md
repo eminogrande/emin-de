@@ -13,7 +13,7 @@ Owner: Emin. Prepared by Hermes Agent, 2026-10-14. The bulk job was meant for an
 
 1. `skills/emin-de-illustration/SKILL.md` — the house style spec, prompt skeleton, file locations, build verification steps, pitfalls.
 2. `skills/emin-de-illustration/posts-without-covers.json` — the 23 posts that currently fall back to the typographic SVG cover: slug, lang, year, title, description, file path. This is the worklist.
-3. `content/media/how-to-make-a-decathlon-riverside-500-e-faster/cover.png` — the approved first cover. The post is already live on main without an image; merging this adds its cover.
+3. `content/media/riverside-500e-faster-bike-tuning/cover.png` — the approved first cover. The post is already live on main without an image; merging this adds its cover.
 
 ## How to do the remaining 23
 
