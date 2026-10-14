@@ -5,81 +5,94 @@
       "alt": {
         "en": "Woman in a black cardigan on a grass field in front of a big mountain",
         "de": "Frau in schwarzer Strickjacke auf einer Wiese vor einem großen Berg"
-      }
+      },
+      "article": "/posts/photo-environmental-portrait-mountain-field-golden-hour"
     },
     "window-film-20261013.jpg": {
       "alt": {
         "en": "Woman holding a phone, seen through a green window frame in warm sunlight",
         "de": "Frau mit Handy, durch ein grünes Fensterkreuz im warmen Sonnenlicht gesehen"
-      }
+      },
+      "article": "/posts/photo-woman-phone-window-golden-hour-film"
     },
     "stairwell-film-20261013.jpg": {
       "alt": {
         "en": "Woman in black on a stairwell with a painted flower border, looking up",
         "de": "Frau in Schwarz im Treppenhaus mit gemalter Blumenbordüre, blickt nach oben"
-      }
+      },
+      "article": "/posts/photo-stairwell-portrait-film-flower-frieze"
     },
     "portrait-leather-20261013.jpg": {
       "alt": {
         "en": "Woman with short natural hair in a black leather jacket looking over her shoulder",
         "de": "Frau mit kurzen Naturlocken in schwarzer Lederjacke blickt über die Schulter"
-      }
+      },
+      "article": "/posts/photo-leather-jacket-portrait-over-shoulder"
     },
     "twin-domes-20261013.jpg": {
       "alt": {
         "en": "Looking up past railway wires at towers and a building with two green domes",
         "de": "Blick nach oben über Oberleitungen auf Hochhäuser und ein Gebäude mit zwei grünen Kuppeln"
-      }
+      },
+      "article": "/posts/photo-twin-green-domes-railway-wires"
     },
     "harbor-sunset-20261013.jpg": {
       "alt": {
         "en": "Low sun over a harbour with cranes, a truss bridge and a city skyline",
         "de": "Tiefe Sonne über einem Hafen mit Kränen, einer Fachwerkbrücke und der Skyline einer Stadt"
-      }
+      },
+      "article": "/posts/photo-harbour-cranes-sunset-lens-flare"
     },
     "emino-b11618b3.jpg": {
       "alt": {
         "en": "Red ship spraying water beyond small moored fishing boats on a hazy sea",
         "de": "Rotes Schiff spritzt Wasser hinter kleinen Fischerbooten auf diesigem Meer"
-      }
+      },
+      "article": "/posts/photo-red-ship-water-spray-hazy-harbour"
     },
     "emino-2ddf1195.jpg": {
       "alt": {
         "en": "Wood pigeon flying beside a narrow window on a weathered, paint-splattered wall",
         "de": "Ringeltaube fliegt an einem schmalen Fenster an einer verwitterten, bunt bespritzten Wand"
-      }
+      },
+      "article": "/posts/photo-wood-pigeon-flight-paint-splattered-wall"
     },
     "emino-c0c5745f.jpg": {
       "alt": {
         "en": "Black-and-white mirror selfie with a camera in a clothing boutique",
         "de": "Schwarzweißes Spiegel-Selfie mit Kamera in einer Boutique"
-      }
+      },
+      "article": "/posts/photo-mirror-selfie-camera-boutique-black-and-white"
     },
     "emino-1d9deaae.jpg": {
       "alt": {
         "en": "Black-and-white street scene, boys at a simit cart, a bench and a white van",
         "de": "Schwarzweiße Straßenszene, Jungs an einem Simit-Wagen, eine Bank und ein weißer Van"
-      }
+      },
+      "article": "/posts/photo-simit-cart-street-black-and-white"
     },
     "emino-7c8e65d5.jpg": {
       "alt": {
         "en": "Black-and-white photo of young men on a seawall as an Istanbul ferry passes",
         "de": "Schwarzweißfoto, junge Männer auf einer Kaimauer, eine Istanbuler Fähre fährt vorbei"
       },
-      "place": "Istanbul"
+      "place": "Istanbul",
+      "article": "/posts/photo-istanbul-ferry-seawall-black-and-white"
     },
     "emino-d6c078b0.jpg": {
       "alt": {
         "en": "Vintage purple sedan outside currency exchange shops on a sunny street",
         "de": "Lila Oldtimer vor Wechselstuben auf einer sonnigen Straße"
       },
-      "place": "Georgia"
+      "place": "Georgia",
+      "article": "/posts/photo-purple-pobeda-exchange-signs-georgia"
     },
     "emino-2c21b294.jpg": {
       "alt": {
         "en": "Black-and-white photo of men watching a game at an outdoor table",
         "de": "Schwarzweißfoto, Männer schauen einem Spiel an einem Tisch im Freien zu"
-      }
+      },
+      "article": "/posts/photo-men-watching-card-game-black-and-white"
     }
   }
 }

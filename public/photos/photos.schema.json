@@ -47,6 +47,11 @@
           "hidden": {
             "type": "boolean",
             "description": "Leave the file in the folder but do not show it on /photos."
+          },
+          "article": {
+            "type": "string",
+            "pattern": "^/posts/",
+            "description": "Path of the long-form photo notes for this photo."
           }
         }
       }

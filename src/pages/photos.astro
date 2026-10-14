@@ -9,7 +9,7 @@ const schema = {
 	'@type': 'ImageGallery',
 	name: 'Photos by Emin Mahrt',
 	url: 'https://emin.de/photos',
-	associatedMedia: photos.map((p) => ({ '@type': 'ImageObject', contentUrl: `https://emin.de${p.src}`, caption: p.caption.en || p.alt.en || undefined, width: p.width, height: p.height })),
+	associatedMedia: photos.map((p) => ({ '@type': 'ImageObject', contentUrl: `https://emin.de${p.src}`, url: p.article ? `https://emin.de${p.article}` : undefined, creator: { '@type': 'Person', name: 'Emin Mahrt' }, caption: p.caption.en || p.alt.en || undefined, width: p.width, height: p.height })),
 };
 ---
 <Base title="Photos | emin.de" description="Photographs by Emin Mahrt: places, people and things worth looking at twice." path="/photos" markdownPath="/photos/index.md" structuredData={schema} layout="wide">
@@ -21,8 +21,8 @@ const schema = {
 			{photos.map((p, i) => (
 				<li>
 					<figure>
-						<img src={p.src} srcset={p.srcset} sizes="(max-width: 960px) 100vw, 44rem" width={p.width} height={p.height} alt={p.alt.en || p.caption.en || ''} loading={i < 3 ? 'eager' : 'lazy'} decoding="async" />
-						{(p.caption.en || p.place || p.date) && <figcaption>{p.caption.en}{p.place && <> {p.caption.en ? '·' : ''} {p.place}</>}{p.date && <> · <time datetime={p.date}>{p.date}</time></>}</figcaption>}
+						{p.article ? <a href={p.article}><img src={p.src} srcset={p.srcset} sizes="(max-width: 960px) 100vw, 44rem" width={p.width} height={p.height} alt={p.alt.en || p.caption.en || ''} loading={i < 3 ? 'eager' : 'lazy'} decoding="async" /></a> : <img src={p.src} srcset={p.srcset} sizes="(max-width: 960px) 100vw, 44rem" width={p.width} height={p.height} alt={p.alt.en || p.caption.en || ''} loading={i < 3 ? 'eager' : 'lazy'} decoding="async" />}
+						{(p.caption.en || p.place || p.date || p.article) && <figcaption>{p.caption.en}{p.place && <> {p.caption.en ? '·' : ''} {p.place}</>}{p.date && <> · <time datetime={p.date}>{p.date}</time></>}{p.article && <a href={p.article}>Read the photo notes</a>}</figcaption>}
 					</figure>
 				</li>
 			))}

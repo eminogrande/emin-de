@@ -43,6 +43,7 @@ export async function buildPhotos() {
 			caption: entry.caption || {},
 			date: entry.date || null,
 			place: entry.place || null,
+			article: entry.article || null,
 		};
 		if (/^portrait$/i.test(base)) portrait = item;
 		else if (entry.hidden !== true) photos.push(item);
