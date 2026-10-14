@@ -1,5 +1,47 @@
 # Changelog
 
+## 2026-10-14 — [RELEASE] v0.1.1 — hermes-agent for emino
+
+State of `main` at `f5a19928`. emin.de runs as the Cloudflare Worker `emin-de` and auto-publishes from `main` through `.github/workflows/deploy.yml`. First tagged release. Docs only in this entry, no code changed.
+
+- `f5a19928` Post: How to make a Decathlon Riverside 500 E faster.
+- `687b134f` Favicon: 🤔 on every surface, with `favicon.ico`, `apple-touch-icon.png`, `icon-[size].png` and `site.webmanifest` routes, cache-busted in `Base.astro`.
+- `78dee553` OG: the share title is the post title; image size and alt are set; the HTML `<title>` stays searchable.
+- `6dcd9361` OG: every post share card shows title and URL; photo posts use the photo as background (`src/lib/og.mjs`).
+- `1d687fd0` Posts: proverb titles for the 13 photo notes, with source links.
+- `f76edb2f` Posts: poetic titles for the 13 photo notes (replaced by `1d687fd0`).
+- `c6f4990f` Posts: photo notes v2 with verified-quote Basically lines and 181 annotated crops; adds `plugins/annotate_photo.py`.
+- `ee846d97` Posts: 13 long-form photo notes by the AI Desk, linked from `/photos`.
+- README: added Logs, Status, User flow, Components, API / Endpoints and Run sections (docs PR `docs/repo-hygiene-2026-10-14`).
+
+## 2026-10-13 (CI auto-publish, photos, contact)
+
+- `556063c5` Photos: add mountain field.
+- `a903d675` Photos: add window and stairwell (film).
+- `c6cad0b4` Photos: add portrait.
+- `a93aa95c` Photos: add twin domes.
+- `11bc5931` Photos: add harbour sunset.
+- `dbd3ddf2` CI: deploy with Wrangler 4, which reads `wrangler.jsonc`.
+- `fbe50a8b` CI: install `xmllint` for the feed test.
+- `19e72383` Merge #2: blog engine, design, content and CI auto-publish land on `main`.
+- `c6f94f06` Photos: max 2 per row, bigger on desktop, 1920w variants.
+- `ac946e63` CI: voice gate. Changed native posts must pass `plugins/check_draft.py` before deploy.
+- `0782702d` Post: Can sound do what quantum particles do?
+- `3a17c3d7` Content: privacy and free-speech motto replaces the footer slogan; wordmark dots in the accent colour.
+- `c76ecc3a` Photos: remove 2 photos on request.
+- `8bb88cc1` Content: bio, portrait and 9 photos; contact emin@emin.de, X, LinkedIn, Signal. No address, no phone.
+- `19e09440` Favicon 🤔 (Twemoji CC-BY), wordmark `🤔.tk / emin.de`; hosting moved to Emin's private Cloudflare account (`wrangler.jsonc`).
+
+## 2026-10-06 (long-read layout, article format refresh)
+
+- `3ef92e79` `eac6e953` `0bdf1d75` `0bbcbc8a` `1dcd908f` `85020f48` `e4954c01` `da0a41b7` `389d2d1e` `99c761ca` Content: refresh batches 0 to 9 into article format (H2 sections, TL;DR, Basically lines), body text unchanged.
+- `f23496d1` Style: Basically label uses the same face, size, weight and colour as the section heading.
+- `5d0f4231` Style: article section headings at text size, bold.
+- `2e46af1b` Style: text 19px, headline back to 32-52px.
+- `1a355976` Style: mobile nav row gap, hero top space, line-height 1.6.
+- `2869ba6d` Style: larger body text and headline, still exactly two sizes.
+- `257c8292` Nuri-style long-read layout: centred hero, section bands split on H2, sticky Basically aside; exactly two font sizes site-wide; provenance becomes metadata only; 193 voice-v1 rewrites imported.
+
 ## 2026-10-06 (magazine redesign, emin.de as the original, free speech)
 
 A bright personal magazine instead of a docs page, emin.de as the canonical home of every post, and free speech as the site's core rule.
