@@ -1,5 +1,5 @@
 ---
-title: "Eight men, one table: reading a black-and-white street game photo"
+title: "The lookers-on see more"
 seo_title: "Men Watching a Card Game, Black and White | emin.de"
 description: "A close reading of a black-and-white photo of men crowded round an outdoor card game: the ring of bodies, dappled light, lens, exposure guesses, one mistake and a drill."
 date: 2026-10-13

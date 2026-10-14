@@ -1,5 +1,5 @@
 ---
-title: "A portrait over the shoulder: leather, soft sky and a look that lands"
+title: "She looked away, then she looked at you"
 seo_title: "Leather Jacket Portrait, Read Closely | emin.de"
 description: "A close reading of an over-the-shoulder portrait in soft daylight. The turn, the catchlights, lens distance, shutter and aperture trade-offs, and one fix, with annotated crops."
 date: 2026-10-13

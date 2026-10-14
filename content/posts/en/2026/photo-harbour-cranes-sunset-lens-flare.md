@@ -1,5 +1,5 @@
 ---
-title: "Harbour at low sun: cranes, a truss bridge and a smeared flare"
+title: "The sun was too big for the lens"
 seo_title: "Harbour Sunset, Cranes and Lens Flare | emin.de"
 description: "A close reading of a harbour photo shot straight into a low sun: the flare, the haze, the two skies, an exposure read from guy wires, Monet, the Bechers, Sandburg's fog and one fix."
 date: 2026-10-13

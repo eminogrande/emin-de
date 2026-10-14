@@ -1,5 +1,5 @@
 ---
-title: "A wood pigeon leaves a window: reading one frozen wingbeat"
+title: "A thousandth of a second against years of rain"
 seo_title: "Wood Pigeon in Flight by a Window | emin.de"
 description: "A close reading of a wood pigeon frozen beside a paint-splattered wall: field marks, grey light, distance and lens, shutter estimates, one mistake and a 20-minute drill."
 date: 2026-10-13

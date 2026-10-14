@@ -1,5 +1,5 @@
 ---
-title: "A red ship, a water arc and a harbour lost in haze"
+title: "The red ship that is not red"
 seo_title: "Red Ship and Water Spray in Haze | emin.de"
 description: "A close reading of a hazy harbour photo with a red ship throwing water. Colour, haze, light, lens, shutter and aperture estimates, one mistake and a 20 minute exercise."
 date: 2026-10-13

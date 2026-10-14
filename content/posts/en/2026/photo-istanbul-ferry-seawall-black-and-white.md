@@ -1,5 +1,5 @@
 ---
-title: "An Istanbul ferry leaves and one young man looks back"
+title: "The ferry leaves, the boys stay"
 seo_title: "Istanbul Ferry and Seawall in Black and White | emin.de"
 description: "A close reading of a black-and-white Istanbul photo. Two head sizes, a ferry's name and its smoke give away distance, aperture and shutter, with Ara Güler and Orhan Veli alongside."
 date: 2026-10-13

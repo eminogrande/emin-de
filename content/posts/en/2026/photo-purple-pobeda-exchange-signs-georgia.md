@@ -1,5 +1,5 @@
 ---
-title: "A purple Pobeda under three exchange signs, read slowly"
+title: "A car called Victory, parked under the exchange rates"
 seo_title: "Purple Pobeda Under Exchange Signs | emin.de"
 description: "A close reading of Emin Mahrt's photo of a purple Soviet Pobeda under three EXCHANGE signs in Georgia, with light, lens, LED shutter clues and Rustaveli."
 date: 2026-10-13

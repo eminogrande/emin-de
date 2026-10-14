@@ -1,5 +1,5 @@
 ---
-title: "A camera for a face: reading a mirror self-portrait in a boutique"
+title: "A self-portrait with a camera for a face"
 seo_title: "Mirror Self-Portrait with a Camera in a Boutique | emin.de"
 description: "A close reading of a black-and-white mirror selfie in a clothing boutique: the hidden face, the seam of the mirror, soft shop light, focus through glass, settings guesses, one mistake and a drill."
 date: 2026-10-13

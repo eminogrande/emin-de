@@ -1,5 +1,5 @@
 ---
-title: "Boys at a simit cart: reading a black-and-white street frame"
+title: "A photo has no sound, and you still hear the street"
 seo_title: "Boys at a Simit Cart, a Street Photo Read | emin.de"
 description: "A close reading of Emin Mahrt's black-and-white street photo of boys at a simit cart, with long lens, soft light, three whites, shutter guesses, Güler and Pamuk."
 date: 2026-10-13

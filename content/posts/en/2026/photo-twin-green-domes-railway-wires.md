@@ -1,5 +1,5 @@
 ---
-title: "Two green domes behind railway wires: reading a tilted city photo"
+title: "Two domes from a window that will not stop moving"
 seo_title: "Twin Green Domes Behind Railway Wires | emin.de"
 description: "A close reading of a tilted look up past railway wires at two green domes: layers, hard light, a 23 degree roll, the smeared girder, are-bure-boke, one mistake and a drill."
 date: 2026-10-13

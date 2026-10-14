@@ -1,5 +1,5 @@
 ---
-title: "A stairwell portrait on film, read from the eyes out"
+title: "Every stairwell holds a few others"
 seo_title: "Stairwell Portrait on Film, Read Closely | emin.de"
 description: "A close reading of a film portrait on an old stairwell. The look, the high angle, flash or window, the grain, a guess at the settings and how to try it."
 date: 2026-10-13

@@ -1,5 +1,5 @@
 ---
-title: "A portrait under a mountain: reading a golden hour field photo"
+title: "Mountains never meet, but people do"
 seo_title: "Portrait Under a Mountain, a Photo Read | emin.de"
 description: "A centred portrait under a hazy mountain, read closely. Low sun, open shade, aerial perspective, lens and exposure estimates, and a 20 minute exercise."
 date: 2026-10-13

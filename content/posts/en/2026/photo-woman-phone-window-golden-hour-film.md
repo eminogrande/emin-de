@@ -1,5 +1,5 @@
 ---
-title: "A woman, a phone and a green window: reading a golden hour photo"
+title: "She saw the camera first"
 seo_title: "Woman Through a Green Window, Read Closely | emin.de"
 description: "A close reading of a warm, film-like photo shot through an old window. The double grid, the low sun, the ghost bricks, likely lens and settings, Baudelaire's shut window and one fix."
 date: 2026-10-13
