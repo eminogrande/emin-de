@@ -28,6 +28,26 @@ test('content files all validate', () => {
 	assert.deepEqual(problems, []);
 });
 
+test('no quoted line in a Basically aside repeats across posts', () => {
+	// Emin, 2026-10-14: the same Berger/Lange/Szarkowski line in ten posts is embarrassing.
+	// One famous quote, one post. Translations (en/de) of the same post count as one.
+	const { posts } = loadContent({ dirs: ['content'] });
+	const seen = new Map();
+	const clashes = [];
+	for (const post of posts) {
+		const owner = post.translationKey || post.slug;
+		for (const line of Object.values(post.basically || {})) {
+			for (const [, q] of String(line).matchAll(/["\u201c]([^"\u201d]{12,})["\u201d]/g)) {
+				const key = q.toLowerCase().replace(/[^a-z]/g, '');
+				const first = seen.get(key);
+				if (first && first !== owner) clashes.push(`${q.slice(0, 50)} (${first} + ${owner})`);
+				else seen.set(key, owner);
+			}
+		}
+	}
+	assert.deepEqual(clashes, []);
+});
+
 test('every post has HTML, Markdown mirror, OG image', () => {
 	for (const post of graph.posts) {
 		assert.ok(existsSync(dist(`${post.path.slice(1)}/index.html`)), post.path);

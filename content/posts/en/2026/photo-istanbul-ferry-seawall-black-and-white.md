@@ -21,15 +21,15 @@ source_links:
   - { title: "Orhan Veli Kanık, poems in translation", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "I Am Listening to Istanbul, tr. Talat Sait Halman. Fine Days and There Must Be Something, tr. Bernard Lewis." }
   - { title: "Orhan Veli Kanık (Wikipedia)", url: "https://en.wikipedia.org/wiki/Orhan_Veli_Kan%C4%B1k" }
   - { title: "On Living, Nazim Hikmet (Poets.org)", url: "https://poets.org/poem/living", note: "Translated by Randy Blasing and Mutlu Konuk." }
-  - { title: "The Photographer's Eye, press release (MoMA, 1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame's edge and on time." }
+  - { title: "The Photographer's Eye, press release (MoMA, 1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame's edge." }
   - { title: "Ansel Adams (Wikiquote)", url: "https://en.wikiquote.org/wiki/Ansel_Adams", note: "Two people in every picture, from the 1983 Playboy interview." }
-  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus" }
   - { title: "Turkish classical music pioneer dies at 95 (Hürriyet Daily News)", url: "https://www.hurriyetdailynews.com/turkish-classical-music-pioneer-dies-at-95-170309", note: "Alaeddin Yavaşca, the doctor and composer whose name is on the ferry's stern." }
   - { title: "Ara Güler (Wikipedia)", url: "https://en.wikipedia.org/wiki/Ara_G%C3%BCler" }
   - { title: "Ferries in Istanbul and Şehir Hatları (Wikipedia)", url: "https://en.wikipedia.org/wiki/%C5%9Eehir_Hatlar%C4%B1", note: "The municipal City Lines ferries, the type of boat in this photo." }
   - { title: "Telephoto lens (Wikipedia)", url: "https://en.wikipedia.org/wiki/Telephoto_lens" }
   - { title: "Depth of field (Wikipedia)", url: "https://en.wikipedia.org/wiki/Depth_of_field" }
   - { title: "Exposure (photography) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Exposure_(photography)" }
+  - { title: "Things I Did Not Know I Loved, Nazim Hikmet, Poets.org", url: "https://poets.org/poem/things-i-didnt-know-i-loved", note: "Selected Poetry, translated by Randy Blasing and Mutlu Konuk, Persea Books, 1986." }
 tldr:
   - "Young men on an Istanbul seawall are stacked against a leaving ferry by distance, and only one face turns to the camera."
   - "Every setting is read from the frame. Two head sizes give the distance, the readable stern gives about f/5.6 to f/8, the unsmeared boat gives 1/250 s or faster."
@@ -46,7 +46,7 @@ basically:
   film-or-digital: "Test grain in the mid greys, never in blown white. Here the smoke is smooth as plaster, so think digital."
   ara-güler-and-the-smoke-of-ships: "\"Colour photographs lack the solidity of black and white.\" Ara Güler. Smoke of ships was his subject too."
   orhan-veli-and-the-fine-days: "\"These fine days have been my ruin.\" Orhan Veli. A bright day, a wall, friends, and nowhere to be."
-  the-one-mistake: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Fix white on white with your feet."
+  the-one-mistake: "\"the world flows past on both sides distant and mute\" Hikmet, tr. Blasing and Konuk. Let the ferry clear the white sleeve."
   try-this: "One pier, one timetable, twenty minutes. Lock focus on a face and let the boat walk into your frame."
   why-it-stays: "\"for the world must be loved this much / if you're going to say 'I lived'\" Nazim Hikmet. A city leaves, one face stays."
 ---
@@ -118,7 +118,7 @@ Ferry funnels don't smoke like this all the time. A thick plume usually comes wh
 
 Inside that window the shutter had to be quick enough. Nothing shows a streak in one direction. The flag is soft but not dragged, the phone hand is still and the wave glints are short. Now do the numbers with the distances from above. Say the ferry moves at about 4 metres per second, a slow start. Seen through a 50mm from 47 metres, it crosses about half a pixel of this file in 1/500 s and about one pixel in 1/250 s. At 1/30 s it would cross about 8 pixels, close to the height of its own name, and the stern would smear. So 1/250 s or faster, likely somewhere up to 1/1000.
 
-The light agrees. The sunny 16 rule says full sun at ISO 100 is about f/16 at 1/100 s. Bright haze is roughly one stop less, which gives f/8 at 1/250 s or f/5.6 at 1/500 s, both inside the estimate. Szarkowski wrote "There is in fact no such thing as an instantaneous photograph." True, and here the slice of time is short enough that the glance and the fresh smoke both fit in it.
+The light agrees. The sunny 16 rule says full sun at ISO 100 is about f/16 at 1/100 s. Bright haze is roughly one stop less, which gives f/8 at 1/250 s or f/5.6 at 1/500 s, both inside the estimate. At 1/500 s the ferry travels only half a pixel. The exposure is short enough that the glance and the fresh smoke both fit in it, yet it still records movement rather than abolishing it.
 
 ## Film or digital
 

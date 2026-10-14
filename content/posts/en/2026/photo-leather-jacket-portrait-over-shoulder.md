@@ -16,34 +16,32 @@ image: "/photos/portrait-leather-20261013.jpg"
 tags: ["photography","portrait","natural light","catchlight","depth of field","photo critique"]
 source_links:
   - { title: "Japanese proverb: The eyes say as much as the mouth", url: "https://ja.wiktionary.org/wiki/%E7%9B%AE%E3%81%AF%E5%8F%A3%E7%A8%8B%E3%81%AB%E7%89%A9%E3%82%92%E8%A8%80%E3%81%86", note: "The Japanese proverb in the title, 目は口程に物を言う (me wa kuchi hodo ni mono o iu)." }
-  - { title: "John Berger, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words, from Ways of Seeing, chapter 1." }
-  - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "The picture's edge as the line of decision." }
   - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Instead of arranging it, I arrange myself." }
-  - { title: "Saul Leiter, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "The real world has more to do with what is hidden." }
   - { title: "On Looking and Longing, Mama Casset, MoMA Magazine", url: "https://post.moma.org/on-looking-and-longing-seeing-women-in-mama-cassets-modernist-photography", note: "Casset's sitters and their gazes, the Wolof words for looks, and the bell hooks quote from The Oppositional Gaze, Black Looks, p. 116." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
   - { title: "Henri Cartier-Bresson, Wikiquote", url: "https://en.wikiquote.org/wiki/Henri_Cartier-Bresson", note: "People who know how to look are as rare as those who know how to listen." }
   - { title: "Girl with a Pearl Earring, Wikipedia", url: "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring", note: "Vermeer's over-the-shoulder look, the old ancestor of this pose." }
   - { title: "Catchlight, Wikipedia", url: "https://en.wikipedia.org/wiki/Catchlight", note: "How the reflection in an eye reveals the light source." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why f/2 at portrait distance gives a sharp zone of a few centimetres." }
+  - { title: "Saadi, The Gulistan, Wikiquote", url: "https://en.wikiquote.org/wiki/Saadi", note: "James Ross translation, 1823. Heart and eye line, Chapter 5, story 1, p. 317. Sweet tongue excerpt, Chapter 3, story 27, p. 292." }
+  - { title: "Omar Khayyam, Rubaiyat, Wikiquote", url: "https://en.wikiquote.org/wiki/Omar_Khayy%C3%A1m", note: "Edward FitzGerald version, first edition, 1859. Desert and sown line, quatrain X. Garden by the Water line, quatrain V." }
 tldr:
   - "A woman turns back over her shoulder and her eyes do the last part of the turn, so the look feels given, not asked for."
   - "A big soft sky, a short tele from about 1.2 m and f/2-ish focus a few centimetres deep do most of the work."
   - "No EXIF exists, so every setting here is a reading of the picture, and the one fix is the half hand in the corner."
 basically:
-  the-look-comes-first: "\"Seeing comes before words.\" John Berger. In this portrait she sees you first."
+  the-look-comes-first: "\"Whatever makes an impression on the heart seems lovely in the eye.\" Saadi, tr. James Ross. Her look holds the frame."
   one-turn-and-two-directions: "The head says she was looking elsewhere. The eyes say she is looking at you now. The twist between them is the picture."
   light-from-a-big-soft-sky: "A light much bigger than the head leaves no shadow edge. Outdoors the biggest light is the sky, and it costs nothing."
   two-slivers-of-sky-in-the-eyes: "Every eye is a curved mirror. A thin band of light at the top of the iris means open sky above, not flash."
-  the-edges-of-the-frame: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here it cuts the hair and keeps the chin."
+  the-edges-of-the-frame: "\"That just divides the desert from the sown,\" Khayyam, tr. Edward FitzGerald. The edge keeps her chin, not all her hair."
   the-moment-after-the-turn: "About 1/500 s keeps every coil of hair. At 1/30 s a head still turning smears across 15 pixels."
   reading-the-lens: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Distance shapes the face."
   a-slice-of-focus-a-few-centimetres-deep: "Change f/2 to f/8 and the trees grow leaves, the place gets a name and the look loses the room."
   film-or-digital: "No grain, no clumps, only smooth tone. Most of what we call the film look is soft contrast, not film."
-  green-against-green: "\"The real world has more to do with what is hidden.\" Saul Leiter. The trees stay hidden and their green sits in her ear."
+  green-against-green: "\"And still a Garden by the Water blows.\" Khayyam, tr. Edward FitzGerald. The trees lose shape but keep their green."
   where-this-look-comes-from: "\"Not only will I stare. I want my look to change reality.\" bell hooks, The Oppositional Gaze."
   the-one-mistake: "Half a hand in the corner costs more than any lens upgrade. Crop it out or bring the whole hand in."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange."
+  try-this: "\"Use a sweet tongue, courtesy, and gentleness,\" Saadi, tr. James Ross. Ask for a turn, not a performance."
   why-it-stays: "\"People who know how to look are as rare as those who know how to listen.\" Cartier-Bresson. She knows how."
 ---
 ![Woman with short natural hair in a black leather jacket looking over her shoulder](/photos/portrait-leather-20261013.jpg)

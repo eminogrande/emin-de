@@ -16,11 +16,7 @@ image: "/photos/twin-domes-20261013.jpg"
 tags: ["photography","street photography","architecture photography","dutch angle","motion blur","phone photography"]
 source_links:
   - { title: "Chinese proverb: Looking at flowers from horseback", url: "https://en.wiktionary.org/wiki/%E8%B5%B0%E9%A6%AC%E8%A7%80%E8%8A%B1", note: "The Chinese proverb in the title, 走馬觀花 / 走马观花 (zǒumǎ guānhuā)." }
-  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
-  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the camera making everyone a tourist." }
-  - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the instantaneous photograph and on the picture's edge." }
-  - { title: "Saul Leiter in Manhattan (The Guardian)", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter on what is hidden, and his pictures through windows and mirrors." }
-  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "Lange on the camera teaching you to see without one." }
+  - { title: "Saul Leiter in Manhattan (The Guardian)", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Background on Leiter's pictures through windows and mirrors, not a quotation source." }
   - { title: "Matsuo Bashō (Wikiquote)", url: "https://en.wikiquote.org/wiki/Matsuo_Bash%C5%8D", note: "Every day is a journey, Sam Hamill's translation of Narrow Road to the Interior, page 3." }
   - { title: "Provoke (magazine) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Provoke_(magazine)", note: "The are-bure-boke style, rough, blurry, out of focus." }
   - { title: "Daidō Moriyama (Wikipedia)", url: "https://en.wikipedia.org/wiki/Daid%C5%8D_Moriyama", note: "A Hunter, 1972, shot while driving past, with skewed angles and blur." }
@@ -29,24 +25,26 @@ source_links:
   - { title: "Dutch angle (Wikipedia)", url: "https://en.wikipedia.org/wiki/Dutch_angle", note: "What a rolled frame does to a viewer." }
   - { title: "Hyperfocal distance (Wikipedia)", url: "https://en.wikipedia.org/wiki/Hyperfocal_distance", note: "Why a tiny lens gets everything past a few metres sharp." }
   - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The daylight exposure rule used for the shutter estimate." }
+  - { title: "Tagore, Stray Birds, self-translated, 1916", url: "https://en.wikisource.org/wiki/Stray_Birds", note: "No. 20, The best chooses me, and No. 62, The Perfect decks itself in beauty for the love of the Imperfect. English text translated by Tagore himself." }
+  - { title: "Kabir, Songs of Kabir, tr. Rabindranath Tagore", url: "https://en.wikiquote.org/wiki/Kabir", note: "Song LXXVI, Only he knows it who has reached that region, and It cannot be told by the words of the mouth. Translation by Rabindranath Tagore, 1915." }
 tldr:
   - "A steep, rolled look up past railway wires at two pale green domes on cream towers, with modern glass behind and a rust orange girder below."
   - "It reads as a small-sensor digital frame shot through a moving window in high sun, and the smeared girder says the shutter was slower than the sun alone would need."
   - "The one mistake is the grey curtain in the top right, and a step closer to the glass or a crop from the top and right fixes it."
 basically:
-  two-domes-in-a-net-of-wire: "\"Seeing comes before words.\" John Berger. You find the two domes before you can name one wire."
-  a-wedding-cake-in-cream: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Sontag. The domes are visiting too."
+  two-domes-in-a-net-of-wire: "\"The best chooses me.\" Tagore, self-translated. Two small domes win a frame of wire."
+  a-wedding-cake-in-cream: "\"The Perfect decks itself in beauty for the love of the Imperfect.\" Tagore, self-translated. Three ages share one block."
   six-layers-deep: "Count planes, not buildings. Six layers from curtain to sky is why a messy frame still reads."
   hard-light-high-sun: "Short shadow under every balcony means a high sun. Hard light carves ornament and is cruel to faces."
   a-grid-knocked-over: "The wires rise 23 degrees. In life they hang level. The frame tipped, not the city."
   one-orange-girder: "Orange sits opposite blue. One rusty girder holds the whole bottom third against a whole sky."
   what-the-lens-did: "Sharp from a few metres to the horizon, soft at a few centimetres. That is a tiny sensor talking, not a choice."
-  the-shutter-and-the-smear: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. The red girder proves it."
+  the-shutter-and-the-smear: "A 30-pixel smear asks for a slower shutter than the sun allows. The contradiction is evidence, not a reason to hide a number."
   pixels-not-grain: "No grain, soft halos, colour that bleeds at 100%. The file says digital and small, and nothing more."
-  through-the-glass: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here a curtain and a window frame do the hiding."
+  through-the-glass: "\"Only he knows it who has reached that region\" Kabir, tr. Tagore. The window keeps the seat in the view."
   are-bure-boke: "Are, bure, boke. Rough, blurry, out of focus. Japan's 1960s rebels made a style of what a moving window does for free."
-  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Move that edge off the curtain."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. A window seat is a classroom."
+  the-one-mistake: "Straightening keeps 48 percent of the pixels. Cutting out the curtain keeps 65 percent. Fix the obstruction, not the angle."
+  try-this: "\"It cannot be told by the words of the mouth\" Kabir, tr. Tagore. A window seat teaches what a lecture cannot."
   the-journey-is-home: "\"Every day is a journey, and the journey itself is home.\" Bashō, tr. Sam Hamill. Two domes, seen from a seat that keeps moving."
 ---
 ![Looking up past railway wires at towers and a building with two green domes](/photos/twin-domes-20261013.jpg)

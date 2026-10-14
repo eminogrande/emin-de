@@ -16,38 +16,35 @@ image: "/photos/emino-2c21b294.jpg"
 tags: ["photography","street photography","black and white","composition","depth of field","exposure"]
 source_links:
   - { title: "Chinese proverb: The player is lost, the onlooker sees clearly", url: "https://en.wiktionary.org/wiki/%E7%95%B6%E5%B1%80%E8%80%85%E8%BF%B7%EF%BC%8C%E6%97%81%E8%A7%80%E8%80%85%E6%B8%85", note: "The Chinese proverb in the title, 當局者迷，旁觀者清 / 当局者迷，旁观者清." }
-  - { title: "Henri Cartier-Bresson (Wikiquote)", url: "https://en.wikiquote.org/wiki/Henri_Cartier-Bresson", note: "Source of the line about people who know how to look." }
   - { title: "Homo Ludens, English edition 1949 (PDF)", url: "https://merton.bellarmine.edu/files/original/b0899cfad820ab8ad7033952b7a022ba1d7cab9d.pdf", note: "Huizinga on the card-table as a temporary world and on tension as uncertainty, chapter one." }
   - { title: "Homo Ludens (Wikipedia)", url: "https://en.wikipedia.org/wiki/Homo_Ludens", note: "The book and the idea of the magic circle that grew from it." }
-  - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the picture's edge as the line of decision." }
-  - { title: "Ara Güler obituary (The Guardian)", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Güler on the solidity of black and white." }
   - { title: "Saul Leiter in Manhattan (The Guardian)", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter on what is hidden." }
   - { title: "Of Followers and Friends, Francis Bacon (Wikisource)", url: "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Followers_and_Friends", note: "The essay with the line about lookers-on and gamesters." }
-  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Arbus on arranging herself instead of the scene." }
-  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "Lange on the camera teaching you to see without one." }
   - { title: "The Card Players by Paul Cézanne (Wikipedia)", url: "https://en.wikipedia.org/wiki/The_Card_Players", note: "The painted ancestor of every picture of men bent over a game." }
   - { title: "Repoussoir (Wikipedia)", url: "https://en.wikipedia.org/wiki/Repoussoir", note: "The painter's trick of a near dark figure that pushes the eye inward." }
   - { title: "Depth of field (Wikipedia)", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why the near arm is soft and the dealer's hand is sharp." }
   - { title: "Hyperfocal distance (Wikipedia)", url: "https://en.wikipedia.org/wiki/Hyperfocal_distance", note: "The maths behind the focus zone numbers used here." }
+  - { title: "Confucian Analects I, Wikisource", url: "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I", note: "James Legge translation. Confucius on abandoning faults and Youzi on natural ease." }
+  - { title: "Confucian Analects II, Wikisource", url: "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/II", note: "James Legge translation. See what a man does, II.10." }
 tldr:
   - "Seven or eight men lean over one low table under trees, and every head points at one hand pressing a few cards."
   - "The file reads as a digital capture turned black and white, likely a normal lens near f/2.8 to f/4 and around 1/500 s, all estimates from what the frame shows."
   - "The one mistake is a tree trunk growing out of a black cap, and half a step to the side would have fixed it."
 basically:
-  every-head-points-one-way: "\"People who know how to look are as rare as those who know how to listen.\" Cartier-Bresson. Here they crowd one table."
+  every-head-points-one-way: "\"See what a man does.\" Confucius, tr. Legge. Five looks land on one hand."
   what-is-on-the-table: "Two bottles, a few coins, a tyre for a table foot. Small stakes, total attention."
   a-ring-of-bodies: "\"temporary worlds within the ordinary world\" Huizinga, on the card-table. Here the men's backs build the wall."
-  two-backs-and-a-gap: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here two backs are that line."
+  two-backs-and-a-gap: "Two backs hold the outer thirds. Cut them less and you stand outside. Cut them more and the circle disappears."
   light-through-leaves: "Under leaves, expose for the shade and let the sun spots burn. The faces live in the shade, not the sun."
-  three-greys-that-hold-it: "\"Colour photographs lack the solidity of black and white.\" Ara Güler. Black fleece, white cap, grey shirt."
+  three-greys-that-hold-it: "Three greys beat a hundred colours here. Fleece at 17, shirt at 120, cap at 243. Attention needs fewer choices."
   the-arm-on-the-pole: "The warmest gesture in the frame is a hand nobody is using."
   the-hand-that-waits: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here it is a few cards under one hand."
   reading-the-lens: "A cap 7% of the frame wide puts you about 3 m away with a 35mm. Inside the circle, not outside it."
   shutter-aperture-and-the-soft-arm: "At f/2.8 the hand is sharp and the near arm melts. At f/8 the stripes would shout as loud as the cards."
   film-or-digital: "No clumps in the shadows. The file leans digital, and 1790 pixels can't swear to it."
   the-lookers-on: "\"lookers-on many times see more than gamesters\" Francis Bacon. The camera is one more looker-on."
-  the-one-mistake: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Arbus. Half a step frees the cap."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Start at a table."
+  the-one-mistake: "\"When you have faults, do not fear to abandon them.\" Confucius, tr. Legge. Half a step frees the cap."
+  try-this: "\"a natural ease is to be prized\" Youzi, tr. Legge. Ten frames in twenty minutes. Stay inside the circle."
 ---
 ![Black-and-white photo of men watching a game at an outdoor table](/photos/emino-2c21b294.jpg)
 
@@ -59,7 +56,7 @@ Before you see faces you see a direction. A black cap tips down, a young man's e
 
 <figure><img src="/photos/notes/photo-men-watching-card-game-black-and-white/01-gaze.webp" width="1400" height="1145" alt="Full frame with arrows from five heads down to the dealer's hands" loading="lazy" decoding="async" /><figcaption>Five looks, one target, the hand on the cards.</figcaption></figure>
 
-That is the whole subject of the picture. It's not the game, which you never fully understand, and it's not any one face. It's attention, made into lines you can follow with a finger. Seven or eight men stand here, depending on how you count the ones hidden behind other men, and nobody looks at the camera. The photo comes from Emin's old picture site, filed under "taking pictures". Date and place are not recorded, so this reading stays with what the frame shows and doesn't guess the rest.
+"See what a man does," says Confucius in James Legge's translation. Here five looks make the action legible before any face does. That is the whole subject of the picture. It's not the game, which you never fully understand, and it's not any one face. It's attention, made into lines you can follow with a finger. Seven or eight men stand here, depending on how you count the ones hidden behind other men, and nobody looks at the camera. The photo comes from Emin's old picture site, filed under "taking pictures". Date and place are not recorded, so this reading stays with what the frame shows and doesn't guess the rest.
 
 ## What is on the table
 
@@ -99,7 +96,7 @@ Black and white turns a scene into a map of brightness, and you can read this on
 
 <figure><img src="/photos/notes/photo-men-watching-card-game-black-and-white/06-tones.webp" width="1400" height="1145" alt="Full frame with circles on the black fleece, the blown white bag and the mid grey T-shirt" loading="lazy" decoding="async" /><figcaption>Near black in the fleece, pure white in the bag, middle grey in the T-shirt.</figcaption></figure>
 
-The white cap is the interesting one. A sample of its crown averages about 243 and only around 9 percent of it touches pure white, so the logo, the seams and the shade under the brim survive. Across the whole frame less than 1 percent is pure white. That means whoever exposed it protected the bright cap and gave up only small things, the bag and a few sky holes. Ara Güler, who photographed Istanbul in black and white for decades, felt that colour lacks the weight of grey. You can feel that weight here. Without colour the striped shirt and the leaves can't fight with skin tones, and the picture rests on three firm greys. The corners are darker than the centre, even enough that it looks like a vignette added in editing, not only lens fall-off.
+The white cap is the interesting one. A sample of its crown averages about 243 and only around 9 percent of it touches pure white, so the logo, the seams and the shade under the brim survive. Across the whole frame less than 1 percent is pure white. That means whoever exposed it protected the bright cap and gave up only small things, the bag and a few sky holes. Three tones do the work that a streetful of colours might undo. Fleece at 17, shirt at 120, cap at 243. Fewer choices make the attention harder to escape. Without colour the striped shirt and the leaves can't fight with skin tones, and the picture rests on three firm greys. The corners are darker than the centre, even enough that it looks like a vignette added in editing, not only lens fall-off.
 
 ## The arm on the pole
 
@@ -155,9 +152,11 @@ The best part is the convergence of looks. The one real mistake sits at the top 
 
 <figure><img src="/photos/notes/photo-men-watching-card-game-black-and-white/13-merger.webp" width="537" height="366" alt="Crop of the top left where a dark tree trunk grows straight out of the black cap" loading="lazy" decoding="async" /><figcaption>The trunk and the black cap merge into one dark shape.</figcaption></figure>
 
-In colour the bark and the fabric might have separated. In black and white they can't, and that is the rule to learn. Mergers get worse when you drop colour. The fix is cheap. Half a step to the right, or the camera a hand lower, and the trunk slides off the cap into the leaves. Diane Arbus said she would rather arrange herself than arrange the scene in front of her, and that is the whole fix. You can't move the tree or ask the man to step aside without breaking the moment. You can move yourself. The other things that pull at the eye, the loud stripes and the blown white bag at the left edge, are smaller costs. The merger is the one a viewer feels without knowing why.
+In colour the bark and the fabric might have separated. In black and white they can't, and that is the rule to learn. Mergers get worse when you drop colour. The fix is cheap. Half a step to the right, or the camera a hand lower, and the trunk slides off the cap into the leaves. Confucius, in James Legge's translation of the Analects, says "When you have faults, do not fear to abandon them." Here the fault is a position, and abandoning it costs half a step. You can't move the tree or ask the man to step aside without breaking the moment. You can move yourself. The other things that pull at the eye, the loud stripes and the blown white bag at the left edge, are smaller costs. The merger is the one a viewer feels without knowing why.
 
 ## Try this
+
+In the Analects, Youzi says "a natural ease is to be prized", in James Legge's translation. At a card table, ease is something to join, not to stage.
 
 Find any group round a table, a chess board in a park or a backgammon game outside a café, and stand in the second row. Lock focus and exposure on the hands, then pull the exposure down until the brightest shirt or cap keeps its texture. Before you press, look at the top of every head for a pole or trunk, and take half a step until each one is gone. Make ten frames in twenty minutes and keep the one where every look lands in the same place.
 

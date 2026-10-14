@@ -24,10 +24,9 @@ source_links:
   - { title: "Bernd and Hilla Becher (Wikipedia)", url: "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher", note: "Typologies of industrial structures." }
   - { title: "Fog (poem) (Wikipedia)", url: "https://en.wikipedia.org/wiki/Fog_(poem)", note: "Full text of Carl Sandburg's Fog, Chicago Poems 1916, and how he wrote it." }
   - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
-  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag, The Heroism of Vision, p. 92." }
-  - { title: "MoMA press release for The Photographer's Eye, 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame." }
-  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "I arrange myself." }
-  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
+  - { title: "The Rime of the Ancient Mariner, Wikisource", url: "https://en.wikisource.org/wiki/Sibylline_Leaves_(Coleridge)/The_Rime_of_the_Ancient_Mariner", note: "Samuel Taylor Coleridge, 1817 text. Copper sky in Part II, sun flecked with bars in Part III." }
+  - { title: "Alle beetjes helpen, Wiktionary", url: "https://en.wiktionary.org/wiki/alle_beetjes_helpen", note: "Dutch proverb. Literal English translation all bits help." }
+  - { title: "John Masefield, Sea-Fever, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Masefield", note: "Salt-Water Ballads, 1902. Dawn is a poetic analogy, not evidence of the time in the photograph." }
 tldr:
   - "A high view across a working harbour, shot straight into a sun about five degrees above the horizon. Cranes, a truss bridge and a tower all live in one thin band."
   - "The flare is a soft one-sided fan with no star spikes, which points to a smudge on the lens or on a window, not to the lens design."
@@ -37,16 +36,16 @@ basically:
   a-port-in-one-thin-band: "Cranes, a truss bridge and a tower share a band about a seventh of the frame high. The whole port lives in that strip."
   light-coming-the-wrong-way: "Backlight lights edges and hides faces. On one glass roof the ribs turn gold and the wall facing you goes almost black."
   haze-does-the-depth: "Nobody made the far towers pale. The air did, and the more air between you and a thing, the paler it gets."
-  the-flare-up-close: "\"The painter constructs, the photographer discloses.\" Susan Sontag. This flare discloses the lens itself."
+  the-flare-up-close: "\"All in a hot and copper sky,\" Coleridge. The lens adds its own weather to the harbour."
   two-skies-in-one-frame: "Left sky reads 111, 126, 137. Right sky reads 229, 218, 180. Same sky, same second, two temperatures."
   a-horizon-in-the-middle: "\"It sits looking / over harbor and city\" Carl Sandburg, on fog. From high above the roofs, so does this camera."
   what-lens-saw-this: "The real sun is half a degree wide, about 17 pixels here. The white blob is 90. The rest is glare."
   an-exposure-read-from-the-wires: "Clean guy wires say no shake. The bright sky says about 1/2000 s. One stop slower and a sixth of the sky goes white."
   phone-not-film: "Film fails in the dark with grain. This file fails with smear. The black roofs tell you which machine made it."
   monet-the-bechers-and-a-poem-about-fog: "\"Put Impression.\" Monet, naming his hazy harbour for the 1874 show. Some ports read better as light than as maps."
-  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" John Szarkowski. One dark corner crossed it."
-  try-this: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Move until a crane eats the sun."
-  back-to-the-sun: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Now you see the glass too."
+  the-one-mistake: "\"all bits help\" Dutch proverb. Even a crop of 110 pixels can give the port its corner back."
+  try-this: "\"And straight the Sun was flecked with bars,\" Coleridge. Move until a crane breaks the glare."
+  back-to-the-sun: "\"And a grey mist on the sea's face, and a grey dawn breaking.\" Masefield. Here air and glass share the veil."
 ---
 ![Low sun over a harbour with cranes, a truss bridge and a city skyline](/photos/harbor-sunset-20261013.jpg)
 

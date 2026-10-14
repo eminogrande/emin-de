@@ -18,33 +18,31 @@ source_links:
   - { title: "Turkish proverb: Bread is in the lion's mouth", url: "https://sozluk.gov.tr/gts?ara=ekmek%20aslan%C4%B1n%20a%C4%9Fz%C4%B1nda", note: "The Turkish proverb in the title, Ekmek aslanın ağzında." }
   - { title: "Simit, Wikipedia", url: "https://en.wikipedia.org/wiki/Simit", note: "The sesame bread ring, sold from trolleys and trays, a symbol of lower and middle class life in Turkey." }
   - { title: "I Am Listening to Istanbul, Orhan Veli, tr. Talat Sait Halman", url: "https://windmills-ofyourmind.blogspot.com/2012/08/orhan-veli-kanik.html", note: "The poem quoted in the section on the listening man." }
-  - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the frame and on time." }
+  - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on deciding what to include and reject." }
   - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The exposure table used to read the cloud cover from the shadows." }
-  - { title: "Ara Güler obituary, The Guardian", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Güler on black and white and on showing Istanbul as it is." }
+  - { title: "Ara Güler obituary, The Guardian", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Güler on showing Istanbul as it is." }
   - { title: "In search of Orhan Pamuk's Istanbul, ANAMED", url: "https://anamed.ku.edu.tr/in-search-of-orhan-pamuks-istanbul", note: "Pamuk on hüzün and the black-and-white crowds, tr. Maureen Freely." }
-  - { title: "Henri Cartier-Bresson, Wikiquote", url: "https://en.wikiquote.org/wiki/Henri_Cartier-Bresson", note: "People who know how to look." }
-  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "A secret about a secret, and arranging yourself." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches you to see without a camera." }
   - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the camera and the tourist." }
   - { title: "Telephoto lens, Wikipedia", url: "https://en.wikipedia.org/wiki/Telephoto_lens", note: "Long lenses and why they seem to flatten space." }
+  - { title: "Turkish proverbs, Wikiquote", url: "https://en.wikiquote.org/wiki/Turkish_proverbs", note: "Gözden uzak, Havlayan köpek, Zorla güzellik, Demir tavında and Bir vurmakla. English equivalents and renderings as printed on the page, translator unnamed. Entries cite Arslanoğlu, Manser, Beyaz Üstüne Eflatun, Çobanoğlu and Paczolay." }
 tldr:
   - "A long lens from across the square presses boys, a seated man, a woman in white and a van into one flat frieze around a bread cart."
   - "No shadow edges, a sharp fist and a 5:4 crop read as cloud, about 1/500 s and a long lens, all estimates since no camera data exists."
   - "One raised fist, one hand at an ear and three whites on a slant carry the frame, and a blown white shirt is its one fixable mistake."
 basically:
-  four-people-four-elsewheres: '"People who know how to look are as rare as those who know how to listen." Cartier-Bresson'
+  four-people-four-elsewheres: "\"Out of sight, out of mind.\" Turkish proverb. Four nearby people, four directions of attention."
   bread-on-a-pole: "In grey, bread stops being food and turns into pattern. Dark loops, each with a few bright points of sesame."
-  one-fist-at-the-top: '"A photograph is a secret about a secret. The more it tells you, the less you know." Diane Arbus'
+  one-fist-at-the-top: "\"Barking dogs seldom bite.\" Turkish proverb. A fist looks loud. The picture never proves it is a threat."
   the-man-who-listens: "A photo has no sound. One hand pressed to one ear, and you start hearing the whole street anyway."
   a-frieze-not-a-street: "A street with no depth at all. Seven level bands stacked like a frieze, and people cut off at three edges."
   three-whites-on-a-slant: "Under six percent of the pixels are white, and those few draw the only diagonal in a frame of flat bands."
   light-under-a-lid-of-cloud: "No shadow edges means the bottom of the Sunny 16 table, f/5.6 or wider. Soft light makes nobody the hero."
-  reading-the-lens: '"If I stand in front of something, instead of arranging it, I arrange myself." Diane Arbus'
-  time-inside-a-fist: '"There is in fact no such thing as an instantaneous photograph." Szarkowski. This one is about 1/500 s thick.'
+  reading-the-lens: "\"Forced beauty won't do.\" Turkish proverb. Stand nine metres back. Let the crowd arrange itself."
+  time-inside-a-fist: "\"You should hammer your iron when it's glowing hot.\" Turkish proverb. About 1/500 s catches the fist at its top."
   film-or-digital: "Film rolls off into white. Digital just stops. A bright rim around a white scarf tells you which one you have."
-  the-black-mood-shared: 'Hüzün, "the black mood shared by millions of people together." Orhan Pamuk, tr. Maureen Freely'
+  the-black-mood-shared: "Eight people in four square metres. Black and white gives their separate thoughts one shared weather."
   the-one-mistake: "A blown white shirt costs this frame more than any lens upgrade gives back. Minus two thirds of a stop fixes it."
-  try-this: '"The camera is an instrument that teaches people how to see without a camera." Dorothea Lange'
+  try-this: "\"A tree won't fall with a single blow.\" Turkish proverb. Wait, shoot, compare. One burst is only a beginning."
   the-woman-who-looks-past-it-all: '"The camera makes everyone a tourist in other people''s reality, and eventually in one''s own." Sontag'
 ---
 ![Black-and-white street scene, boys at a simit cart, a bench and a white van](/photos/emino-1d9deaae.jpg)
@@ -56,6 +54,8 @@ The title is a Turkish proverb, Ekmek aslanın ağzında.
 Look at the hands first. One is a fist at the top of a pole of bread. One is pressed flat against an ear. A pair rests clasped at a hip and one holds something small at a chest. No two people do the same thing and nobody looks at anyone else, though everybody in this frame stands close enough to touch.
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/01-four-attentions.webp" width="1140" height="916" alt="Full frame with three circles, a raised fist at the top left, a hand at an ear in the middle, a boy looking down at right" loading="lazy" decoding="async" /><figcaption>Three people, three directions of attention, and none of them points at another person.</figcaption></figure>
+
+"Out of sight, out of mind" is the English equivalent recorded for Gözden uzak olan gönülden de uzak olur. Here the twist is that people can be close in space and still outside one another's attention.
 
 It's a black-and-white street frame from Emin Mahrt's old photo site, and the date and the place are not given. Two boys in hoodies stand at a simit cart. A man in a knit sweater sits behind a slatted bench. A third boy in a white shirt leans back on a big dark rounded form, cast metal or stone, maybe part of a statue, and you can't tell more from the frame. An older woman in a white headscarf stands at the right edge, and a white van with a checkered stripe fills the whole top of the picture. The cart and the stripe read as Turkey, and that is as far as the picture lets you go. There is no camera data either, so every number below is read from the pixels and from what the light and the lines allow.
 
@@ -73,7 +73,7 @@ There is exactly one action in this picture. An arm rises out of the crowd to a 
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/03-fist.webp" width="330" height="300" alt="Crop of a raised fist at the top of the simit stack and the dark sleeve leading down to a boy in a two-tone hoodie" loading="lazy" decoding="async" /><figcaption>The dark sleeve runs from the fist down behind the head of the boy in the two-tone hoodie.</figcaption></figure>
 
-So it's most likely his arm. The other boy has light sleeves at the forearm and his shoulder has no arm rising from it. The joint itself is hidden behind hair, though, so this stays a reading and not a fact. A closed fist is odd for someone who wants a simit, because you take bread with an open hand. Maybe he stretches, maybe he jokes, maybe he knocks on the shelf. The picture doesn't say and it is better for that. Take the arm away and you have a waiting room. Leave it in and you have one small want at the top of a frame full of people who want nothing from this corner.
+So it's most likely his arm. The other boy has light sleeves at the forearm and his shoulder has no arm rising from it. The joint itself is hidden behind hair, though, so this stays a reading and not a fact. "Barking dogs seldom bite" is the English equivalent of the Turkish saying Havlayan köpek ısırmaz. A fist can look louder than the action it belongs to. A closed fist is odd for someone who wants a simit, because you take bread with an open hand. Maybe he stretches, maybe he jokes, maybe he knocks on the shelf. The picture doesn't say and it is better for that. Take the arm away and you have a waiting room. Leave it in and you have one small want at the top of a frame full of people who want nothing from this corner.
 
 ## The man who listens
 
@@ -113,7 +113,7 @@ The strongest clue is how big the woman is. She stands behind the leaning boy an
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/08-compression.webp" width="840" height="450" alt="Crop of the boys heads in front of the van, with the van stripe marked and the sharpest head circled" loading="lazy" decoding="async" /><figcaption>The leaning boy's hair is the sharpest detail, and the van behind him is already soft.</figcaption></figure>
 
-Here is the math. From nine metres, someone two metres further back looks about 18 percent smaller. From two and a half metres with a wide lens, the same two metres make them about half the size. So this was a long lens from across the square, somewhere around 100 to 200mm in full-frame terms, at maybe eight to fifteen metres. The lines agree, the bench and the van stripe run straight with no bowing, and the cart pole stands upright, so the camera was level at standing height. Focus agrees too. The leaning boy's hair is the sharpest detail in the file, and the van and the trees above it are soft. At 135mm and about nine metres, f/5.6 keeps only around 1.7 metres sharp, so a van a few metres back has to blur. One more thing, the file is 1140 by 916 pixels, close to 5:4. From a 3:2 frame that would keep about 83 percent of the width, so the real lens may have been a bit shorter and the crop did the rest. Swap to a 35mm lens from two and a half metres and you get a different picture, the van shrinks to a strip, the boys get big and they'd probably look at you. Nobody here was posed. The only thing the photographer arranged was where to stand.
+Here is the math. From nine metres, someone two metres further back looks about 18 percent smaller. From two and a half metres with a wide lens, the same two metres make them about half the size. So this was a long lens from across the square, somewhere around 100 to 200mm in full-frame terms, at maybe eight to fifteen metres. The lines agree, the bench and the van stripe run straight with no bowing, and the cart pole stands upright, so the camera was level at standing height. Focus agrees too. The leaning boy's hair is the sharpest detail in the file, and the van and the trees above it are soft. At 135mm and about nine metres, f/5.6 keeps only around 1.7 metres sharp, so a van a few metres back has to blur. One more thing, the file is 1140 by 916 pixels, close to 5:4. From a 3:2 frame that would keep about 83 percent of the width, so the real lens may have been a bit shorter and the crop did the rest. Swap to a 35mm lens from two and a half metres and you get a different picture, the van shrinks to a strip, the boys get big and they'd probably look at you. The Turkish proverb Zorla güzellik olmaz says "Forced beauty won't do." Nobody here was posed. The photographer's choice was nine metres of distance, not a direction given to the crowd.
 
 ## Time inside a fist
 
@@ -121,7 +121,7 @@ At full size the fist holds its outline. The knuckles are a bit soft, like every
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/09-fist-100.webp" width="180" height="180" alt="Crop at full resolution of the raised fist against the simit rings" loading="lazy" decoding="async" /><figcaption>At one pixel to one pixel the fist has soft edges but no motion streak.</figcaption></figure>
 
-A hand moving at about a metre per second travels 2 millimetres in 1/500 s, which disappears at this size. At 1/60 s it travels about 17 millimetres, a finger's width, and the fist turns into a smear against the sesame. A long lens held by hand also needs speed for itself, the old rule is at least one over the focal length, so 1/135 s or faster and better 1/250 s. A fair reading is 1/250 to 1/500 s, f/5.6 to f/8 and ISO 200 to 800, and with the cloud reading above, 1/500 s at f/5.6 and ISO 400 fits almost exactly. Every photograph has a thickness in time. This one is about a five hundredth of a second thick, and inside that slice the fist stopped at its highest point. Open the aperture to f/2 instead and you'd get a faster shutter and a creamy van, but the bread would blur too and you'd lose the one texture that tells you where you are.
+A hand moving at about a metre per second travels 2 millimetres in 1/500 s, which disappears at this size. At 1/60 s it travels about 17 millimetres, a finger's width, and the fist turns into a smear against the sesame. A long lens held by hand also needs speed for itself, the old rule is at least one over the focal length, so 1/135 s or faster and better 1/250 s. A fair reading is 1/250 to 1/500 s, f/5.6 to f/8 and ISO 200 to 800, and with the cloud reading above, 1/500 s at f/5.6 and ISO 400 fits almost exactly. The Turkish proverb Demir tavında dövülür is rendered "You should hammer your iron when it's glowing hot." Here the heat is the gesture. At about 1/500 s, the camera catches it before it goes cold. Open the aperture to f/2 instead and you'd get a faster shutter and a creamy van, but the bread would blur too and you'd lose the one texture that tells you where you are.
 
 ## Film or digital
 
@@ -133,7 +133,7 @@ Skin, the van door and the dark form have a smooth, slightly waxy look, the way 
 
 ## The black mood, shared
 
-The obvious name here is Ara Güler, who photographed ordinary people in Istanbul streets and workshops in black and white for decades. He once said "colour photographs lack the solidity of black and white", and he said his aim was "simply to reflect Istanbul as it really is". This frame shares his subject and his plain respect for it. It doesn't have his closeness. Güler often stood among the people he shot, and this photographer stands across the square.
+The obvious name here is Ara Güler, who photographed ordinary people in Istanbul streets and workshops in black and white for decades. He said his aim was "simply to reflect Istanbul as it really is". This frame shares his subject and his plain respect for it. It doesn't have his closeness. Güler often stood among the people he shot, and this photographer stands across the square.
 
 <figure><img src="/photos/notes/photo-simit-cart-street-black-and-white/11-quiet-figures.webp" width="500" height="470" alt="Crop of the leaning boy in a white shirt and the older woman in a white headscarf, both looking down" loading="lazy" decoding="async" /><figcaption>Two people a metre apart, both looking down, both somewhere else.</figcaption></figure>
 
@@ -148,6 +148,8 @@ The leaning boy's shirt is blown. In its brightest area more than half the pixel
 The fix is cheap. Meter on the shirt or set exposure compensation to about minus two thirds of a stop, maybe a full stop, and the faces get a bit darker but stay easy to lift later. A shirt at 255 can't be lifted. If the camera can shoot raw, keep the raw and pull the highlights down in the conversion, then set the curve so the brightest fold sits around 240 instead of 255. The scarf and the van would come back too, and the three whites would read as fabric again.
 
 ## Try this
+
+"A tree won't fall with a single blow" is the recorded English equivalent of Bir vurmakla ağaç devrilmez. A first burst is not a finished eye. Compare it, wait again, and change one thing.
 
 Find a place where people line up side by side, a bus stop, a food cart or a bench, and stand across the street with your longest lens or your phone's tele module.
 

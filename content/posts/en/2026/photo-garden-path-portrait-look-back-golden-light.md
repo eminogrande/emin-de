@@ -21,30 +21,28 @@ source_links:
   - { title: "Olympus OM-D E-M5 Mark II review, Neocamera", url: "https://neocamera.com/camera/olympus/em5markii/review", note: "Low ISO 100 expanded sensitivity, mechanical shutter up to 1/8000 s." }
   - { title: "Hishikawa Moronobu, Wikipedia", url: "https://en.wikipedia.org/wiki/Hishikawa_Moronobu", note: "Beauty looking back, a woman in a kimono turning around, later a postage stamp design." }
   - { title: "James Barnor, Wikipedia", url: "https://en.wikipedia.org/wiki/James_Barnor", note: "Ghanaian photographer, Ever Young Studio, retouching with a pencil, colour processing in Ghana." }
-  - { title: "John Berger, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
-  - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "No such thing as an instantaneous photograph, and the picture's edge as the line of decision." }
-  - { title: "Saul Leiter, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "The real world has more to do with what is hidden." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
-  - { title: "Nothing Twice, Wisława Szymborska, tr. Barańczak and Cavanagh, poets.org", url: "https://poets.org/poem/nothing-twice", note: "Nothing can ever happen twice." }
   - { title: "Bokeh, Wikipedia", url: "https://en.wikipedia.org/wiki/Bokeh", note: "The quality of out-of-focus blur, made with a wide aperture." }
+  - { title: "A Selection of Haiku by Buson, Cerise Press", url: "https://www.cerisepress.com/01/03/a-selection-of-haiku-by-buson/view-all", note: "Translated by Edward McFadden. Bat and neighbour poem, and melon patch poem. Line breaks flattened." }
+  - { title: "Selected Haiku by Issa, Poetry Foundation", url: "https://www.poetryfoundation.org/poems/50983/selected-haiku-by-issa", note: "Versions by Robert Hass, The Essential Haiku, Ecco Press, 1994. Melting snow poem. Line breaks flattened." }
+  - { title: "Seeking Knowledge, Ashesi University", url: "https://ashesi.edu.gh/proverbs/february-2025-seeking-knowledge-through-learning/", note: "Akan proverb Nea Onnim No Sua A, Ohu. English rendering by Professor Kwesi Yankah, February 2025." }
 tldr:
   - "A woman walks on along a shaded garden path and turns her head back to the lens, and the whole picture lives in that turn."
   - "The real EXIF says Olympus E-M5 Mark II, manual exposure, 1/3200 s at ISO 100, and empty lens fields, which points to a manual lens, likely a Voigtländer 25mm f/0.95."
   - "Low warm sun, a frame of leaves and about 40 cm of sharp focus do the work, and the one fix is the bright gap glowing beside her hair."
 basically:
-  the-look-comes-back: "\"Seeing comes before words.\" John Berger. She sees the camera before anyone says a thing."
+  the-look-comes-back: "\"A bat flits by the neighbor’s wife glances over here\" Buson, tr. Edward McFadden. A look interrupts the garden."
   pink-red-and-blue-grey: "Three colours carry the frame. The red on her lips and the red in the bush are one idea told twice."
-  a-frame-inside-the-frame: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here the leaves draw a second edge inside it."
+  a-frame-inside-the-frame: "A 4:3 sensor gives one edge. Leaves draw another, and the second frame matters more than the first."
   low-sun-from-the-left: "Low sun is hard and warm at once. One cheek glows, the other keeps a little shadow, and the face gets its shape."
-  what-the-file-says: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one took 1/3200 of a second."
+  what-the-file-says: "1/3200 s catches a turn that nobody can hold. The shutter stops light faster than it needs to stop her."
   the-lens-with-no-name: "Empty lens fields are evidence too. No contacts, no data, and a blur only a very fast lens makes."
   a-slice-of-focus-forty-centimetres-deep: "At f/0.95 from about 3 m, some 40 cm are sharp. At f/8 it would be metres, and the garden would talk over her."
   why-the-shutter-was-so-fast: "Wide open in sun, the shutter does the braking. f/0.95 at 1/3200 s lets in what f/2.8 at 1/400 s would."
-  letting-the-shadows-go: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here almost half the frame sits near black."
+  letting-the-shadows-go: "\"hidden among the leaves of the melon patch find yourself a pillow\" Buson, tr. Edward McFadden. Leaves shelter the face."
   a-bird-that-looks-back: "Se wo were fi na wosankofa a yenkyi. The Akan bird walks forward with its head turned back, just like her."
   the-one-mistake: "A bright gap beside a face costs more than any lens upgrade. Here the glow is almost twice as bright as her skin."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange."
-  going-back-for-it: "\"Nothing can ever happen twice.\" Szymborska. So a turn of the head is worth going back for."
+  try-this: "\"those who do not know can know from learning.\" Akan proverb, tr. Kwesi Yankah. Call a name and learn from the turn."
+  going-back-for-it: "\"The snow is melting and the village is flooded with children.\" Issa, tr. Robert Hass. Still scenery becomes human."
 ---
 ![Smiling woman in a pink ruffled blouse looking back on a shaded garden path](/photos/garden-path-20250821.jpg)
 

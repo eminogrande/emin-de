@@ -16,11 +16,7 @@ image: "/photos/emino-2ddf1195.jpg"
 tags: ["photography","bird in flight","shutter speed","composition","street photography","photo critique"]
 source_links:
   - { title: "Chinese proverb: A white colt glimpsed through a crack in the wall", url: "https://en.wiktionary.org/wiki/%E7%99%BD%E9%A7%92%E9%81%8E%E9%9A%99", note: "The Chinese proverb in the title, 白駒過隙 (bái jū guò xì), from the Zhuangzi." }
-  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
   - { title: "John Berger, Understanding a Photograph (PDF)", url: "https://camramirez.com/pdf/P1_Week2_BergerUndPhot.pdf", note: "Photographs bear witness to a human choice." }
-  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the painter and the photographer." }
-  - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on why no photograph is instantaneous." }
-  - { title: "Nothing Twice, Wisława Szymborska (Poets.org)", url: "https://poets.org/poem/nothing-twice", note: "Translated by Stanisław Barańczak and Clare Cavanagh." }
   - { title: "Sunday Morning, Wallace Stevens (Poets.org)", url: "https://poets.org/poem/sunday-morning", note: "The pigeons on extended wings, from Harmonium, 1923." }
   - { title: "Hope is the thing with feathers, Emily Dickinson (Poets.org)", url: "https://poets.org/poem/hope-thing-feathers-254", note: "The bird that perches in the soul." }
   - { title: "Psalm 55:6, King James Version (Bible Gateway)", url: "https://www.biblegateway.com/passage/?search=Psalm%2055%3A6&version=KJV", note: "Wings like a dove." }
@@ -30,19 +26,22 @@ source_links:
   - { title: "Harold Edgerton (Wikipedia)", url: "https://en.wikipedia.org/wiki/Harold_Eugene_Edgerton", note: "Strobe pioneer, and his Pigeon Release of 1965." }
   - { title: "Vignetting (Wikipedia)", url: "https://en.wikipedia.org/wiki/Vignetting", note: "Optical falloff versus vignettes added on purpose." }
   - { title: "Depth of field (Wikipedia)", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why bird and wall can share the sharp zone." }
+  - { title: "Hopkins, Pied Beauty", url: "https://poets.org/poem/pied-beauty", note: "Excerpt from All things counter, original, spare, strange. The terminal punctuation is outside the quoted excerpt." }
+  - { title: "Dickinson, A Bird came down the Walk (328)", url: "https://poets.org/poem/bird-came-down-walk-328", note: "And he unrolled his feathers, the bird taking flight in the fourth stanza." }
+  - { title: "Hopkins, The Windhover", url: "https://poets.org/poem/windhover", note: "The phrase the hurl and gliding, from the first stanza of the poem about a falcon." }
 tldr:
   - "A wood pigeon is caught at the top of its wingbeat beside a narrow shuttered window on a stained, paint-splattered wall."
   - "Soft wingtips and a sharp eye point to about 1/1000 s, and the 4:3 frame, deep focus and smoothed noise lean towards a small-sensor digital camera. All of it is estimated, no EXIF exists."
   - "The one mistake is the dark edge. Vines plus a darkened border put about a quarter of the frame below 40 out of 255, and the fix is to lift it or step closer."
 basically:
   a-bird-leaves-and-a-wall-stays: "One part of this frame lasted a thousandth of a second. The rest took years of rain."
-  how-you-know-it-is-a-wood-pigeon: "\"Seeing comes before words.\" John Berger. The white neck patch comes first, the name wood pigeon after."
-  years-of-paint-and-rain: "\"The painter constructs, the photographer discloses.\" Sontag. Someone threw the paint. The camera only found it."
+  how-you-know-it-is-a-wood-pigeon: "A bird 38 to 44 cm long needs only one white neck patch to name it. First the mark, then the name."
+  years-of-paint-and-rain: "\"All things counter, original, spare, strange\" Gerard Manley Hopkins. Thrown paint gives the wall its pattern."
   grey-light-and-no-shadow: "Grey sky is kind to walls and hard on birds. Texture everywhere, shadow nowhere."
   one-window-in-the-middle: "\"Photographs bear witness to a human choice being exercised in a given situation.\" Berger. Here the choice is the window."
   how-far-away-and-which-lens: "A 40 cm bird across 300 pixels means a few metres and a normal lens. You don't need a long tele for this."
-  the-top-of-the-wingbeat: "\"Nothing can ever happen twice.\" Szymborska, tr. Barańczak and Cavanagh. Neither does this wingbeat."
-  shutter-aperture-and-iso-estimated: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. Even 1/1000 s smears a wingtip."
+  the-top-of-the-wingbeat: "\"And he unrolled his feathers\" Emily Dickinson. At the top of the stroke, each feather separates."
+  shutter-aperture-and-iso-estimated: "\"the hurl and gliding\" Gerard Manley Hopkins. Even 1/1000 s lets a wingtip travel."
   film-or-digital: "Soft smudges in a flat wall are not grain. They are a noise filter at work, and they point to digital."
   a-wall-for-siskind-wings-for-stevens: "\"Downward to darkness, on extended wings.\" Wallace Stevens. This pigeon goes the other way, up and into the light."
   the-one-mistake: "A quarter of the frame sits near black. Dead corners cost more than any lens upgrade."

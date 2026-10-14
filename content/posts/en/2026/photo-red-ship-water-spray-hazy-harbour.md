@@ -17,18 +17,17 @@ tags: [photography, "haze", "aerial perspective", "seascape", "colour photograph
 source_links:
   - { title: "Japanese proverb: If you wait, the sea road will have fair weather", url: "https://en.wiktionary.org/wiki/%E5%BE%85%E3%81%A6%E3%81%B0%E6%B5%B7%E8%B7%AF%E3%81%AE%E6%97%A5%E5%92%8C%E3%81%82%E3%82%8A", note: "The Japanese proverb in the title, 待てば海路の日和あり (mateba kairo no hiyori ari)." }
   - { title: "The Notebooks of Leonardo da Vinci, tr. Jean Paul Richter, Project Gutenberg", url: "https://www.gutenberg.org/cache/epub/5000/pg5000.txt", note: "Source of the five times bluer rule for distant things." }
-  - { title: "Saul Leiter, The Guardian, 2016", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Source of the Leiter quote on what is hidden." }
   - { title: "Nothing Twice, Wislawa Szymborska, Poets.org", url: "https://poets.org/poem/nothing-twice", note: "Source of the first line of the poem." }
-  - { title: "MoMA press release for The Photographer's Eye, 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Source of the Szarkowski line on instantaneous photographs." }
   - { title: "James McNeill Whistler, nature and industry, Art UK", url: "https://artuk.org/discover/stories/james-mcneill-whistler-nature-and-industry", note: "Quotes the evening mist passage from the Ten O'Clock lecture, 1885." }
   - { title: "Mr. Whistler's Ten O'Clock, 1888 edition, Internet Archive", url: "https://archive.org/download/mrwhistlersteno00whis/mrwhistlersteno00whis.pdf", note: "Scan of the printed lecture with the same passage." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "Source of the Lange quote on seeing without a camera." }
   - { title: "Intentions, Oscar Wilde, Project Gutenberg", url: "https://www.gutenberg.org/files/887/887-h/887-h.htm", note: "The Decay of Lying, source of the passage on London fogs." }
   - { title: "Hiroshi Sugimoto, Wikipedia", url: "https://en.wikipedia.org/wiki/Hiroshi_Sugimoto", note: "His Seascapes are split exactly in half by the horizon." }
   - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why distant things turn pale and blue." }
   - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The daylight exposure rule used for the estimates." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Hyperfocal distance and how aperture decides what looks sharp." }
   - { title: "Fireboat, Wikipedia", url: "https://en.wikipedia.org/wiki/Fireboat", note: "What the vessel may be, and why such boats throw water." }
+  - { title: "Odyssey, Book III, Wikisource", url: "https://en.wikisource.org/wiki/The_Odyssey_(Butler)/Book_III", note: "Homer, translated by Samuel Butler. Telemachus asks Nestor to report exactly what he saw." }
+  - { title: "Ithaka, Poetry Foundation", url: "https://www.poetryfoundation.org/poems/51296/ithaka-56d22eef917ec", note: "C. P. Cavafy, translated by Edmund Keeley and Philip Sherrard. Discovery and not hurrying the journey." }
 tldr:
   - "A ship with a hull that measures almost grey still reads as red, because the haze has made everything else in the harbour cooler."
   - "Haze grades the frame by distance, from blacks of 34 on the near rock to 193 on the far ridge, and that does all the depth."
@@ -37,16 +36,16 @@ basically:
   the-red-that-is-almost-grey: 'The hull measures close to grey. It reads red only because everything around it is cooler.'
   a-ship-standing-still: 'No bow wave and no wake. The ship stands still, so the only thing moving in the frame is the water it throws.'
   haze-does-the-depth: '"if one is to be five times as distant, make it five times bluer." Leonardo, tr. Richter. The haze follows the rule.'
-  where-the-sun-hides: '"The real world has more to do with what is hidden." Saul Leiter. 61 of 68 glints point to a sun you never see.'
+  where-the-sun-hides: "\"tell me in all plainness exactly what you saw.\" Homer, tr. Butler. 61 of 68 glints put the unseen sun to the right."
   a-frame-built-like-a-target: 'Dead centre should be dull. Two hill slopes falling inward turn it into a bullseye.'
   where-the-camera-stood: 'You see the rim of the dinghy and not its floor. That puts the camera a few metres up, looking down about 10 degrees.'
   the-moment-the-water-is-up: '"Nothing can ever happen twice." Szymborska. A jet of water never takes the same shape again.'
-  reading-the-shutter-from-the-glints: '"There is in fact no such thing as an instantaneous photograph." Szarkowski. These glints say about 1/250 s.'
+  reading-the-shutter-from-the-glints: "\"But don’t hurry the journey at all.\" Cavafy, tr. Keeley and Sherrard. At 1/30 s the glints would become lines."
   aperture-and-what-the-air-does: 'At 85mm and f/8, everything from 15 m to the hills is sharp. The softness up there comes from air, not glass.'
   digital-and-how-you-can-tell: 'A flat patch of this sky varies by about one level out of 255. Scanned film grain is rarely that still.'
   half-sea-and-half-sky: '"The evening mist clothes the riverside with poetry, as with a veil" Whistler, 1885. Daylight haze does the same.'
   the-one-mistake: 'A dust spot 30 pixels wide costs this sky more than any lens upgrade would ever give back.'
-  try-this: '"The camera is an instrument that teaches people how to see without a camera." Dorothea Lange'
+  try-this: "\"full of adventure, full of discovery.\" Cavafy, tr. Keeley and Sherrard. Twenty minutes. Three layers and one red."
   why-it-stays-with-you: '"Things are because we see them" Oscar Wilde. The haze was there for everyone. The photo makes you see it.'
 ---
 ![Red ship spraying water beyond small moored fishing boats on a hazy sea](/photos/emino-b11618b3.jpg)
@@ -91,6 +90,8 @@ There is no sun in the frame and no shadow you could point to. But the water kno
 
 If you count every patch of water brighter than 235, you get 68 of them, and 61 sit in the right half of the frame. The densest band lies just below the horizon on the right. Glints only show where the sun is roughly in front of you, so the sun stood ahead of the camera and off to the right, somewhere behind that pale sky.
 
+In Samuel Butler's translation of the Odyssey, Telemachus asks Nestor to "tell me in all plainness exactly what you saw." It is a useful demand here. Not a visible sun, but 61 bright patches on one side of the water.
+
 The light itself is soft. The haze works like a huge sheet of tracing paper over the bay, so shadows under the gunwales are weak and cool and nothing has a hard shadow line. That light is kind to detail and bad at drama, and this photo does not want drama. The hour is harder. Glints far into the foreground hint at a sun that is not very low, but haze makes that a weak reading.
 
 ## A frame built like a target
@@ -128,6 +129,8 @@ Wislawa Szymborska opens a poem, in the English of Stanisław Barańczak and Cla
 There is no EXIF, so every setting here is a reading, not a fact. The best clue for the shutter is not the jet. It is the glints.
 
 <figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/08-glints.webp" width="394" height="200" alt="Full-size crop of rippled water with tiny bright sun glints" loading="lazy" decoding="async" /><figcaption>A full size crop of the water. Each glint is a point of one to four pixels, not a streak.</figcaption></figure>
+
+"But don’t hurry the journey at all," Cavafy writes in Ithaka, translated by Edmund Keeley and Philip Sherrard. A shutter offers the opposite bargain. Give the water more time and the journey appears inside each bright point.
 
 Each glint is a tiny moving mirror. If the shutter stays open long, the moving water drags it into a short line. Here the biggest glint is 7 by 2 pixels and most are 1 to 3 pixels, round points. That points to about 1/250 s or faster. Now the side by side. At 1/30 s the same glints would turn into small dashes, the ripples would smooth into a soft sheen, and the jet would become a pale veil with no edge. It would be a calmer picture, maybe a prettier one, and the event would almost vanish.
 
@@ -173,7 +176,7 @@ The fix takes ten seconds with any spot or heal tool. The better fix is before y
 
 ## Try this
 
-This picture is really about layers, and you can practise that in twenty minutes.
+Cavafy wishes for a road "full of adventure, full of discovery", in the same translation. Here discovery needs no voyage. This picture is really about layers, and you can practise that in twenty minutes.
 
 <figure><img src="/photos/notes/photo-red-ship-water-spray-hazy-harbour/13-layers.webp" width="1300" height="800" alt="Crop from foreground boats to the hills with near, middle and far labelled" loading="lazy" decoding="async" /><figcaption>Three layers, near, middle and far, each one paler than the one before.</figcaption></figure>
 

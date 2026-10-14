@@ -20,31 +20,30 @@ source_links:
   - { title: "Swahili Proverbs, Experience (University of Illinois)", url: "https://swahiliproverbs.afrst.illinois.edu/experience.html", note: "No. 1841, Bahari shwari haitoi wanamaji stadi." }
   - { title: "Panasonic Lumix DMC-LF1 (DPReview)", url: "https://www.dpreview.com/products/panasonic/compacts/panasonic_dmclf1/", note: "12MP 1/1.7-inch sensor, 28-200mm equivalent F2.0-5.9 lens, electronic viewfinder." }
   - { title: "Hiroshi Sugimoto (Wikipedia)", url: "https://en.wikipedia.org/wiki/Hiroshi_Sugimoto", note: "The Seascapes series, begun in 1980, large format, exposures up to three hours, horizon exactly in half." }
-  - { title: "The Photographer's Eye, press release (MoMA, 1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the picture's edge and on time." }
-  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger" }
-  - { title: "Dorothea Lange (Wikiquote)", url: "https://en.wikiquote.org/wiki/Dorothea_Lange" }
   - { title: "Swahili proverbs (Wikiquote)", url: "https://en.wikiquote.org/wiki/Swahili_proverbs" }
   - { title: "Depth of field (Wikipedia)", url: "https://en.wikipedia.org/wiki/Depth_of_field" }
   - { title: "Crop factor (Wikipedia)", url: "https://en.wikipedia.org/wiki/Crop_factor" }
   - { title: "Exposure value (Wikipedia)", url: "https://en.wikipedia.org/wiki/Exposure_value" }
+  - { title: "Ogbalu, Ilu Igbo, tr. Frances W. Pritchett", url: "https://franpritchett.com/00fwp/igbo/proverbs/031_043.html", note: "Carefulness and Respect, Nos. 8 and 14: One does not use someone else's eyes to see the road, and One hand does not tie a package. Draft translation by Frances W. Pritchett." }
+  - { title: "Ilu Igbo, translation and edition details", url: "https://franpritchett.com/00fwp/igbo/proverbs/index.html", note: "F. C. Ogbalu, The Book of Igbo Proverbs, Varsity Press, Onitsha, 1965. Draft English translation by Frances W. Pritchett." }
 tldr:
   - "A long wooden boat with about a dozen people sits in shallow surf at 05:39 in the morning, two more wade beside it and one man bends over the outboard."
   - "The file has real EXIF. A Lumix LF1 at 157 mm equivalent, 1/100 s, f/5.6, ISO 400, minus 0.66 EV, and each number can be read back out of the picture."
   - "The one mistake is four soft dust spots in an empty grey sky. Swahili proverbs and Hiroshi Sugimoto's halved seas sit alongside."
 basically:
   a-dozen-people-and-one-engine: "Mmoja hashui chombo, \"One man cannot launch a vessel.\" A dozen in the boat, two in the water, one hand on the motor."
-  a-rope-that-leaves-the-frame: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here a rope crosses that line and pulls."
-  dark-shapes-on-pale-water: "\"Seeing comes before words.\" John Berger. No faces here, only caps, poles and posture, and you still read the whole scene."
+  a-rope-that-leaves-the-frame: "\"One hand does not tie a package\" Igbo proverb, tr. F. W. Pritchett. Both hands hold a rope that leaves the frame."
+  dark-shapes-on-pale-water: "Water at 160, hull at 17. A gap of 143 tone levels draws a whole crew without showing a face."
   light-before-six-in-the-morning: "Ngoja kuche si mbali, \"Wait dawn is not far.\" At 05:39 the light has no direction yet, only a top and a bottom."
   a-horizon-just-above-the-middle: "Horizon at 44 percent. Six points above the middle is enough to let the empty sky weigh on a full boat."
   the-long-end-of-a-small-zoom: "32.3 mm on the lens, 157 mm in full-frame terms. The factor of 4.86 lives in the sensor, not in the glass."
-  one-hundredth-of-a-second: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one lasted 1/100 s."
+  one-hundredth-of-a-second: "At 1/100 s a moving hand travels 1 cm. At 1/25 s it travels 4 cm. The rope needs time short enough to stay a rope."
   why-near-and-far-are-both-sharp: "f/5.6 on a sensor this small draws depth like f/27 on full frame. Foam at your feet and trees on the island, all sharp."
   minus-two-thirds-of-a-stop: "The brightest pixel in this file is 225, not 255. Minus 0.66 EV is the room the foam got to stay foam."
   what-iso-400-costs-a-small-sensor: "ISO 400 on a chip this small gathers light like ISO 9,400 on full frame. Flat grey water hides it, deep shadow wouldn't."
   sugimoto-and-the-halved-sea: "Sugimoto halved the sea on purpose and waited hours. This frame misses half by six points and took a hundredth of a second."
   the-one-mistake: "Bahari shwari haitoi wanamaji stadi, \"Smooth seas do not make skillful sailors.\" A smooth sky shows every speck of dust."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange."
+  try-this: "\"One does not use someone else's eyes to see the road.\" Igbo proverb, tr. F. W. Pritchett. Watch for the hand on the rope."
   waiting-for-the-tide: "Subiri, subiri, tajaa bahari, \"Wait, wait, the tide will rise.\" The two people in the water already know it."
 ---
 ![Black-and-white photo of people in a long wooden motorboat in shallow surf, an island on the horizon](/photos/boat-shore-20250810.jpg)

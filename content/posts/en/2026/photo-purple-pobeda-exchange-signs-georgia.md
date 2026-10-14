@@ -22,29 +22,28 @@ source_links:
   - { title: "The Knight in the Panther's Skin (Wikipedia)", url: "https://en.wikipedia.org/wiki/The_Knight_in_the_Panther%27s_Skin", note: "Over 1600 quatrains, and a copy was part of every bride's dowry until the early 20th century." }
   - { title: "Rolling shutter (Wikipedia)", url: "https://en.wikipedia.org/wiki/Rolling_shutter", note: "Why a sensor read line by line can catch a flickering light only in parts." }
   - { title: "Sunny 16 rule (Wikipedia)", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "f/16 at one over ISO in bright sun, and its equal pairs like f/8 at 1/400 s." }
-  - { title: "John Berger (Wikiquote)", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
-  - { title: "MoMA press release for The Photographer's Eye, 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on the picture's edge and on the instantaneous photograph." }
-  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "I arrange myself." }
   - { title: "Garry Winogrand (Wikiquote)", url: "https://en.wikiquote.org/wiki/Garry_Winogrand", note: "I photograph to see what things look like photographed." }
   - { title: "William Eggleston (Wikipedia)", url: "https://en.wikipedia.org/wiki/William_Eggleston", note: "William Eggleston's Guide, 1976, and colour as a serious medium." }
   - { title: "Stephen Shore (Wikipedia)", url: "https://en.wikipedia.org/wiki/Stephen_Shore", note: "Uncommon Places and the move from 35 mm to an 8x10 view camera." }
+  - { title: "Russian proverbs, Wikiquote", url: "https://en.wikiquote.org/wiki/Russian_proverbs", note: "Russian sayings on seeing once and the wolf earning food with its feet. English renderings reproduced from the page, translator unnamed." }
+  - { title: "семь раз отмерь, один отрежь, Wiktionary", url: "https://en.wiktionary.org/wiki/семь_раз_отмерь,_один_отрежь", note: "Literal rendering: measure seven times, cut off once. Translation supplied by Wiktionary contributors." }
 tldr:
   - "A purple Soviet Pobeda, a car first meant to be called Homeland, sits under three signs that all say EXCHANGE."
   - "Hard high sun behind the building, exposure set for the paint, and a blue LED sign torn into rows that gives away a very short shutter."
   - "Read with Eggleston, Shore and Rustaveli, the Georgian poet who kept a queen's treasury, it becomes a quiet picture about what we trade."
 basically:
-  three-times-the-same-word: "\"Seeing comes before words.\" John Berger. You see the purple first, and only then you read EXCHANGE three times."
+  three-times-the-same-word: "\"It's better to see once than hear a hundred times.\" Russian proverb. One purple car outruns three EXCHANGE signs."
   a-car-called-victory: "It was almost named Rodina, homeland. \"How much does the homeland cost?\" Stalin asked, the story goes. Now it parks under rates."
   red-plus-blue: "Red sign on the left, blue sign on the right, purple car in between. Find the colours your subject is made of and frame both."
   the-sun-shines-alike: "\"the sun shines alike on roses and middens\" Rustaveli, tr. Wardrop. Noon light is honest. You decide which one you expose for."
   expose-for-the-paint: "The bonnet sits half a stop under the white road and the doorways six stops under. Choose the paint and let the rest go black."
-  the-sign-that-broke: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. A blue LED sign missing its last letters proves it."
+  the-sign-that-broke: "1/500 s freezes a passer-by and tears a word. A shorter exposure can make a slower thing look broken."
   two-signs-two-clocks: "Same light, two choices. 1/1000 s at f/5.6 tears the LED sign, 1/50 s at f/22 keeps it whole and softens everything else."
-  where-the-camera-stood: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Arbus. Here that means chest high, across the road."
+  where-the-camera-stood: "\"Wolf feeds on his feet.\" Russian proverb. Walk across the road. A chest-high view holds the car and all three signs."
   film-or-digital: "Black with no grain, an LED torn into rows, a frame almost 4 by 3. It reads digital, maybe a phone. A reading is not a fact."
   the-plain-front: "\"I photograph to see what things look like photographed.\" Winogrand. A parked car, shot straight on, turns into a sentence."
   the-poet-who-kept-the-treasury: "\"What thou givest away is thine.\" Rustaveli, tr. Wardrop, a poet said to have kept a queen's treasury. Read it under EXCHANGE."
-  the-one-mistake: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here the edge cuts a person in half. One step fixes it."
+  the-one-mistake: "\"measure seven times, cut off once\" Russian proverb. The left edge cuts a person in half. One step saves them."
   try-this: "Find a word on a wall, wait for the thing it talks about, expose for the brightest part you care about. Twenty minutes is enough."
   exchange: "A car named Victory, in a colour no factory chose, parked under a word that means swap. The street wrote the caption."
 ---
@@ -58,7 +57,7 @@ You see the purple before you read anything. A deep violet car at the kerb, nose
 
 <figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/01-three-signs.webp" width="1200" height="931" alt="Full frame with three boxes on the three signs that each say EXCHANGE" loading="lazy" decoding="async" /><figcaption>Three signs, one word. The frame is built so you find all three in one sweep.</figcaption></figure>
 
-That order matters. Colour hits you first and the word comes second, and that gap is where the joke lives. An old car and one word, repeated three times like a chorus. Everything else in this essay is about how the photograph gets you to read it in that order, and what it costs to make it work in hard noon light.
+"It's better to see once than hear a hundred times," says a Russian proverb. Three signs repeat their pitch, but one purple car wins the first look. That order matters. Colour hits you first and the word comes second, and that gap is where the joke lives. An old car and one word, repeated three times like a chorus. Everything else in this essay is about how the photograph gets you to read it in that order, and what it costs to make it work in hard noon light.
 
 ## A car called Victory
 
@@ -124,6 +123,8 @@ You can see the top of the bonnet, but the roof only as an edge against the wall
 
 The car is about 4.7 metres long and fills roughly three quarters of the width. So the frame is around six metres wide at the car. From across a normal street, six to eight metres away, that gives a horizontal angle of about 40 to 50 degrees, which is roughly a 35 to 50 mm lens in full frame terms. A phone's main camera at around 26 mm would fit too, from closer in or with a crop. The nose isn't stretched toward you and the building isn't shrunk behind, so a wide lens up close is unlikely.
 
+"Wolf feeds on his feet," says a Russian proverb. The camera earns its view the same way. Cross the road before changing the lens.
+
 The picture is 1782 by 1382 pixels, about 1.29 to 1. That's a bit squarer than 4 by 3, so it was probably cropped a little.
 
 ## Film or digital
@@ -162,7 +163,7 @@ At the far left edge a person in a navy jacket stands with their back to you, fa
 
 <figure><img src="/photos/notes/photo-purple-pobeda-exchange-signs-georgia/12-the-mistake.webp" width="360" height="660" alt="Crop of the left edge where the frame cuts a person in half" loading="lazy" decoding="async" /><figcaption>The left edge cuts a person in half, right next to the pole.</figcaption></figure>
 
-It's a small thing, but this frame lives on clean shapes, and half a body at the edge pulls the eye out of the picture just when the pole should hold it in. The fix is cheap. One step to the right puts the pole over them, or a few seconds of waiting lets them walk out or step fully in. It costs nothing, and it's worth more than any lens upgrade.
+The Russian proverb says "measure seven times, cut off once", in the literal translation recorded by Wiktionary. A photograph cuts without scissors. It's a small thing, but this frame lives on clean shapes, and half a body at the edge pulls the eye out of the picture just when the pole should hold it in. The fix is cheap. One step to the right puts the pole over them, or a few seconds of waiting lets them walk out or step fully in. It costs nothing, and it's worth more than any lens upgrade.
 
 The right side is busy too, with the dark modern car, the blue sign and the tree shadow. But that busyness is the street, and the blue sign is the third EXCHANGE. The cut person is the only thing here that's just an accident.
 

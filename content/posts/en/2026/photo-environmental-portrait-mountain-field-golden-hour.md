@@ -16,9 +16,6 @@ image: "/photos/mountain-field-20261013.jpg"
 tags: ["photography","portrait","environmental portrait","golden hour","composition","aerial perspective"]
 source_links:
   - { title: "Using African Proverbs, basic talk, African Proverbs, Sayings and Stories", url: "https://afriprov.tangaza.ac.ke/2008/03/10/2002-version-of-the-basic-talk-on-qusing-african-proverbs-sayings-idioms-riddles-stories-fables-plays-and-songs-african-oral-literature-and-cultureq", note: "Milima haikutani lakini binadamu hukutana, Mountains never meet but people do." }
-  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Instead of arranging it, I arrange myself." }
-  - { title: "John Szarkowski, The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "The picture's edge as the line of decision, and no such thing as an instantaneous photograph." }
-  - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag, Melancholy Objects, p. 57, the camera makes everyone a tourist." }
   - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches people how to see without a camera." }
   - { title: "Zazen on Ching-t'ing Mountain, Li Po, tr. Sam Hamill, Poetry Foundation", url: "https://www.poetryfoundation.org/poems/48711/zazen-on-ching-ting-mountain", note: "From Crossing the Yellow River, BOA Editions, 2000." }
   - { title: "Li Bai, Wikipedia", url: "https://en.wikipedia.org/wiki/Li_Bai", note: "Tang dynasty poet, c. 701 to 762." }
@@ -27,6 +24,8 @@ source_links:
   - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "Why low sun is warmer and softer than midday light." }
   - { title: "Olympus OM-D E-M5 Mark II specifications, Sans Mirror", url: "https://sansmirror.com/cameras/older-mirrorless-camera/olympus-m43-cameras/olympus-om-d-e-m5ii.html", note: "Mechanical shutter to 1/8000 s, ISO 200 base." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "How aperture, distance and focal length decide what stays sharp." }
+  - { title: "Su Shi, poems in translation, Wikiquote", url: "https://en.wikiquote.org/wiki/Su_Shi", note: "Written on the Wall at West Forest Temple, tr. Burton Watson, Selected Poems of Su Tung-po, 1994, p. 108. Spring dream line, tr. Lin Yutang, The Importance of Living, 1937, p. 156." }
+  - { title: "Wang Wei, Departure, Wikiquote", url: "https://en.wikiquote.org/wiki/Wang_Wei", note: "Departure, translated by Robert Payne." }
 tldr:
   - "A woman stands dead centre on a lawn and the summit of a huge hazy mountain sits straight above her head, lined up by the photographer's feet."
   - "Low sun lights the treetops and a strip of grass while she stands in open shade, 2.3 stops darker than the sky behind her."
@@ -34,15 +33,15 @@ tldr:
 basically:
   a-mountain-wearing-a-person: "Milima haikutani lakini binadamu hukutana, \"Mountains never meet but people do.\" A portrait is that meeting."
   one-hand-full-and-one-hand-empty: "One hand holds a bag and one holds nothing. That small difference is what keeps a frontal pose alive."
-  the-summit-sits-on-her-head: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Diane Arbus. Here the feet found the summit."
-  one-tall-triangle: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. Here it falls at her shins."
+  the-summit-sits-on-her-head: "\"far, near, high, low, no two parts alike.\" Su Shi, tr. Burton Watson. The feet find the summit."
+  one-tall-triangle: "A 4:3 frame cuts her at the shins. Keep the whole mountain and lose the rest of the person."
   where-the-sun-is: "Low sun lights the top of everything first. Treetops 2 stops brighter than their own lower leaves give the hour away."
   she-stands-in-the-shade: "Open shade costs her about 1.5 stops and gives her skin no hard edges. That is the trade she stands in."
   air-paints-the-mountain: "Near tree, 130 tone steps. Far mountain, 20. Air is a filter you can never take off the lens."
   reading-the-lens: "Distance decides how big the mountain looks behind her. The lens only decides how much of it you get."
-  shutter-aperture-and-iso: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one is 1/8000 s of an August evening."
+  shutter-aperture-and-iso: "\"Life passes like a spring dream without a trace.\" Su Shi, tr. Lin Yutang. Except for this 1/8000 s."
   digital-file-film-manners: "Nothing here is white, and no edit did that. The camera file is straight out of the body. The exposure kept the highlights down."
-  where-this-picture-comes-from: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Susan Sontag"
+  where-this-picture-comes-from: "\"The grass will be green again in coming spring,\" Wang Wei, tr. Robert Payne. The lawn returns, this meeting does not."
   the-one-mistake: "A wire at the brow costs more than any lens upgrade. A hand's width higher and it clears her hair."
   try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange"
   why-it-stays: "\"We sit together, the mountain and me, / until only the mountain remains.\" Li Po, tr. Sam Hamill"
@@ -165,7 +164,7 @@ Two lines meet in this frame, one from photography and one from poetry.
 
 <figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/11-tradition.webp" width="1400" height="1050" alt="Full frame, the standing woman boxed as frontal and centred, the mountain labelled as the big thing behind her" loading="lazy" decoding="async" /><figcaption>A frontal, centred person and a big thing behind her, the grammar of both the portrait and the snapshot.</figcaption></figure>
 
-The photographer is Rineke Dijkstra. Her Beach Portraits, made from 1992 to 1994, show young people full length at the water's edge, standing, facing the camera, against a simple sea and sky. Her sitters don't do anything, and the standing becomes the picture. This frame shares that grammar, a frontal person in the centre with a big simple background that dwarfs her without swallowing her. The difference is that Dijkstra keeps the background plain. Here the background is the famous thing, and that pulls in the other root, the holiday snapshot of a person in front of the view. Sontag saw the tourist in every camera. This frame borrows the tourist's structure and drops the tourist's grin.
+The photographer is Rineke Dijkstra. Her Beach Portraits, made from 1992 to 1994, show young people full length at the water's edge, standing, facing the camera, against a simple sea and sky. Her sitters don't do anything, and the standing becomes the picture. This frame shares that grammar, a frontal person in the centre with a big simple background that dwarfs her without swallowing her. The difference is that Dijkstra keeps the background plain. Here the background is the famous thing, and that pulls in the other root, the holiday snapshot of a person in front of the view. Wang Wei's Departure, translated by Robert Payne, promises green grass again in spring, then asks whether the wanderer will return. The lawn can repeat itself without the person. This frame borrows the tourist's structure and drops the tourist's grin.
 
 The poet is Li Po, also called Li Bai, who lived in Tang China from about 701 to 762. In Zazen on Ching-t'ing Mountain, in Sam Hamill's translation, he sits with a mountain while the birds vanish and the last cloud drains away, until only the mountain is left. The poem and the photo ask the same thing, a person and a mountain in one frame, and who stays. In the poem the person fades into the mountain. In this photo the mountain is huge and still she holds the centre.
 

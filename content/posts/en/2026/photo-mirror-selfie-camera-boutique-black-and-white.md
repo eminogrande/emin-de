@@ -20,14 +20,13 @@ source_links:
   - { title: "Mirror by Sylvia Plath, annotated (Genius)", url: "https://genius.com/Sylvia-plath-mirror-annotated", note: "Second check of the opening line." }
   - { title: "Jorge Luis Borges (Wikiquote)", url: "https://en.wikiquote.org/wiki/Jorge_Luis_Borges", note: "First line of Tlön, Uqbar, Orbis Tertius, translated by James E. Irby (1961)." }
   - { title: "Ilse Bing, Self-Portrait in Mirrors, Paris (High Museum of Art)", url: "https://high.org/collection/self-portrait-in-mirrors-paris", note: "The 1931 mirror self-portrait with a Leica and Bing's line about the camera as an extension of her eyes." }
-  - { title: "Ara Güler obituary (The Guardian)", url: "https://theguardian.com/artanddesign/2018/oct/30/ara-guler-obituary", note: "Güler on the solidity of black and white." }
   - { title: "The Photographer's Eye, MoMA press release 1966 (PDF)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on why no photograph is instantaneous." }
-  - { title: "Diane Arbus (Wikiquote)", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "Arbus on arranging herself instead of the scene." }
-  - { title: "On Photography (Wikiquote)", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the camera making everyone a tourist." }
   - { title: "Vivian Maier (Wikipedia)", url: "https://en.wikipedia.org/wiki/Vivian_Maier", note: "A street photographer with many self-portraits in reflections." }
   - { title: "Lee Friedlander (Wikipedia)", url: "https://en.wikipedia.org/wiki/Lee_Friedlander", note: "Reflections, frames within frames, and the book Self Portrait." }
   - { title: "Exposure value (Wikipedia)", url: "https://en.wikipedia.org/wiki/Exposure_value", note: "The EV maths behind the shutter and ISO estimates." }
   - { title: "Depth of field (Wikipedia)", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "Why the near ledge is soft and the reflection is sharp." }
+  - { title: "The Picture of Dorian Gray, Preface, Project Gutenberg", url: "https://www.gutenberg.org/files/174/174-h/174-h.htm", note: "Oscar Wilde. Surface and symbol, and the spectator whom art mirrors." }
+  - { title: "Through the Looking-Glass, Chapter I, Wikisource", url: "https://en.wikisource.org/wiki/Through_the_Looking-Glass,_and_What_Alice_Found_There/Chapter_I", note: "Lewis Carroll. The reflected room where the things go the other way." }
 tldr:
   - "A seated figure holds a small silver camera to a shop mirror, so the lens takes the place of the face and looks back at you."
   - "The file reads as a digital capture turned black and white, likely a normal lens around f/2.8 to f/4 and 1/60 to 1/125 s, all estimates from what the frame shows."
@@ -38,15 +37,15 @@ basically:
   the-seam-at-the-right-edge: "\"I am silver and exact. I have no preconceptions.\" Sylvia Plath, Mirror. Shoes, dress and you, all the same."
   a-grid-behind-the-sitters-back: "\"I owe the discovery of Uqbar to the conjunction of a mirror and an encyclopedia.\" Borges. Here, a mirror and a shop."
   light-made-to-sell: "Soft light from above leaves a shadow only a finger wide under each shelf. Shops light to sell, not to shout."
-  an-empty-dress-and-a-full-shirt: "\"Colour photographs lack the solidity of black and white.\" Ara Güler. An empty white dress beside a full black shirt."
+  an-empty-dress-and-a-full-shirt: "\"All art is at once surface and symbol.\" Oscar Wilde. An empty white dress balances a full black shirt."
   focus-lives-behind-the-glass: "A mirror doubles the distance. Sit 90 cm from the glass and your lens has to focus at about 1.8 m."
   holding-still-in-a-dim-shop: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. Even a still pose takes about 1/125 s."
   what-the-blacks-hide: "Barely one pixel in 5,000 gets near white. Expose for the dress and let the shirt go black."
   the-camera-in-the-picture: "Gear talk is usually noise. In a mirror the camera is the one prop you can't hide, so it has to look like you."
   one-eye-and-an-old-leica: "\"I felt the camera grew as an extension of my eyes and moved with me.\" Ilse Bing. Here it covers one eye and frees the other."
-  the-one-mistake: "\"If I stand in front of something, instead of arranging it, I arrange myself.\" Arbus. Here that means sit 10 cm higher."
+  the-one-mistake: "\"only the things go the other way.\" Lewis Carroll. Sit 10 cm higher and the ledge goes lower."
   try-this: "One mirror, one shelf, 20 minutes. Focus on yourself, not the glass, and keep the uprights straight."
-  back-to-the-face: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Sontag, in a mirror."
+  back-to-the-face: "\"It is the spectator, and not life, that art really mirrors.\" Oscar Wilde. The lens returns your look."
 ---
 ![Black-and-white mirror selfie with a camera in a clothing boutique](/photos/emino-c0c5745f.jpg)
 
@@ -106,7 +105,7 @@ In black and white, colour turns into weight. Most of this scene is a soft sprea
 
 That pairing is the best tonal idea in the frame. The brightest mass and the darkest one hang side by side, and they are opposites in more than tone. On the right a light garment with no body inside it, on the left a dark body that holds a machine. One waits to be filled, the other is full and busy.
 
-Ara Güler, who photographed Istanbul for decades, said "Colour photographs lack the solidity of black and white." You can test that on this picture in your head. In colour the dress might be blush and the shirt might be navy, and the eye would go hunting for hues. In grey the two shapes become plain weights on a scale, and the scale tips toward the middle of the picture.
+Oscar Wilde writes in the preface to The Picture of Dorian Gray, "All art is at once surface and symbol." Here the cloth is surface and the absent body makes the symbol. You can test what colour would change in your head. In colour the dress might be blush and the shirt might be navy, and the eye would go hunting for hues. In grey the two shapes become plain weights on a scale, and the scale tips toward the middle of the picture.
 
 ## Focus lives behind the glass
 
@@ -162,7 +161,7 @@ The bottom band is the weak part. A pale strip about 110 pixels tall runs across
 
 <figure><img src="/photos/notes/photo-mirror-selfie-camera-boutique-black-and-white/12-mistake.webp" width="1000" height="676" alt="Full frame with the soft pale band across the bottom boxed in red" loading="lazy" decoding="async" /><figcaption>The pale band at the bottom takes space and gives nothing back.</figcaption></figure>
 
-The fix is cheap. Crop the frame at the top of that band and you get a 1964 by 1215 picture, a little wider than 3:2, with the sitter resting on clean stone. Or fix it at the moment of taking. Sit about 10 cm higher, or move the camera a little closer to the glass so the ledge drops out of the bottom of the frame. Diane Arbus put it plainly, "If I stand in front of something, instead of arranging it, I arrange myself." In a mirror you are both the something and the self, and moving the body is the whole edit.
+The fix is cheap. Crop the frame at the top of that band and you get a 1964 by 1215 picture, a little wider than 3:2, with the sitter resting on clean stone. Or fix it at the moment of taking. Sit about 10 cm higher, or move the camera a little closer to the glass so the ledge drops out of the bottom of the frame. Lewis Carroll describes the reflected room in Through the Looking-Glass as the same room, "only the things go the other way." This is the practical joke of it. Raise the body by 10 cm and the ledge drops away. In a mirror moving the body is the whole edit.
 
 There's a smaller miss too. The one free eye is half hidden by the top of the camera. Ilse Bing's eye is clear above hers. A few millimetres more would give this frame a second centre.
 
@@ -178,4 +177,4 @@ You started with a camera where a face should be. After a while it reads the oth
 
 <figure><img src="/photos/notes/photo-mirror-selfie-camera-boutique-black-and-white/14-sitter.webp" width="580" height="900" alt="Tight crop of the seated figure behind the camera, no marks" loading="lazy" decoding="async" /><figcaption>Crop to the sitter and the camera becomes a face.</figcaption></figure>
 
-Most photos pretend nobody made them. The person who chose the frame stays outside, invisible. A mirror picture breaks that. It puts the maker and the machine in the middle and admits that every picture starts with someone sitting somewhere, holding a small box to one eye. Susan Sontag wrote that "The camera makes everyone a tourist in other people's reality, and eventually in one's own." Here the tourist sits among bags and shoes and a waiting dress, and looks at the one thing in the shop that isn't for sale.
+Most photos pretend nobody made them. The person who chose the frame stays outside, invisible. A mirror picture breaks that. It puts the maker and the machine in the middle and admits that every picture starts with someone sitting somewhere, holding a small box to one eye. "It is the spectator, and not life, that art really mirrors," Wilde writes in the same preface. Here the spectator sits among bags and shoes and a waiting dress. The camera covers the face, but the act of looking is the one thing in the shop that isn't for sale.

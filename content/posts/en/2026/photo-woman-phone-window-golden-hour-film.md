@@ -18,10 +18,8 @@ source_links:
   - { title: "Japanese proverb: Walls have ears, paper screens have eyes", url: "https://ja.wiktionary.org/wiki/%E5%A3%81%E3%81%AB%E8%80%B3%E3%81%82%E3%82%8A%E9%9A%9C%E5%AD%90%E3%81%AB%E7%9B%AE%E3%81%82%E3%82%8A", note: "The Japanese proverb in the title, 壁に耳あり障子に目あり (kabe ni mimi ari, shōji ni me ari)." }
   - { title: "Baudelaire, Windows, tr. Arthur Symons (Project Gutenberg #47032)", url: "https://www.gutenberg.org/cache/epub/47032/pg47032-images.html", note: "Source of the shut window line and \"out of nothing almost\"." }
   - { title: "John Berger, Ways of Seeing, chapter 1", url: "https://www.ways-of-seeing.com/ch1", note: "Source of \"Soon after we can see\" and \"We only see what we look at\"." }
-  - { title: "MoMA press release, The Photographer's Eye (1966)", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski's line on the picture's edge." }
-  - { title: "Made in Manhattan: how Saul Leiter found beauty in Gotham's glass and grime, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter on what is hidden, and the line on what is held out of reach." }
+  - { title: "Made in Manhattan: how Saul Leiter found beauty in Gotham's glass and grime, The Guardian", url: "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", note: "Leiter's window photographs, and the Guardian's line on what is held out of reach." }
   - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag on the flâneur and Baudelaire." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera as an instrument that teaches seeing." }
   - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "A photograph as a secret about a secret." }
   - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "About 3,500 K in golden hour against about 5,500 K at midday." }
   - { title: "Sunny 16 rule, Wikipedia", url: "https://en.wikipedia.org/wiki/Sunny_16_rule", note: "The baseline for estimating daylight exposure without a meter." }
@@ -29,6 +27,9 @@ source_links:
   - { title: "Film grain, Wikipedia", url: "https://en.wikipedia.org/wiki/Film_grain", note: "What grain is and why it shows most in thin shadows." }
   - { title: "Le Spleen de Paris, Wikipedia", url: "https://en.wikipedia.org/wiki/Le_Spleen_de_Paris", note: "Published after Baudelaire died, in 1869, and its English translations." }
   - { title: "Saul Leiter, Wikipedia", url: "https://en.wikipedia.org/wiki/Saul_Leiter", note: "The colour photographer of glass and reflections." }
+  - { title: "Tanizaki, In Praise of Shadows, tr. Harper and Seidensticker", url: "https://en.wikiquote.org/wiki/Jun%27ichir%C5%8D_Tanizaki", note: "Plain wood and plain walls, p. 29, and Were it not for shadows, there would be no beauty, p. 30. Translation by Thomas J. Harper and Edward G. Seidensticker." }
+  - { title: "In Praise of Shadows, National Library of Australia catalogue", url: "https://catalogue.nla.gov.au/catalog/227050", note: "Confirms both translators: Thomas J. Harper and Edward G. Seidensticker." }
+  - { title: "Kenko, Essays in Idleness, tr. G. B. Sansom", url: "https://en.wikiquote.org/wiki/Yoshida_Kenk%C5%8D", note: "Section 92, Why is it so hard to do a thing Now, at the moment when one thinks of it. Translation by G. B. Sansom, 1911." }
 tldr:
   - "A woman behind a shut window looks up from her phone and straight at the lens, while low sun turns the scene amber."
   - "Two window grids split her face from her hands, and reflections lay a second street over the room. The bright brick wall is the one flaw."
@@ -36,17 +37,17 @@ tldr:
 basically:
   her-eyes-come-first: "\"Soon after we can see, we are aware that we can also be seen.\" John Berger. She knew it first."
   a-phone-with-its-back-to-us: "\"We only see what we look at. To look is an act of choice.\" John Berger. She chose the lens over the phone."
-  a-grid-laid-over-a-person: "\"The line of decision between in and out is the picture's edge.\" Szarkowski. This window adds four more edges."
+  a-grid-laid-over-a-person: "\"An empty space is marked off with plain wood and plain walls\" Tanizaki, tr. Harper/Seidensticker. Two panes, two tasks."
   off-the-thirds-on-purpose: "Her face sits near the centre, not on a thirds point. The window bars do the off-centre work for her."
   light-from-the-left-softened-twice: "Late sun near 3,500 K, bounced off cream brick and filtered by glass. Hard on the wall, soft on her face, one sun."
-  ghost-bricks-on-the-glass: "\"The real world has more to do with what is hidden.\" Saul Leiter. Here it hides in the reflection."
+  ghost-bricks-on-the-glass: "\"Were it not for shadows, there would be no beauty.\" Tanizaki, tr. Harper/Seidensticker. The dark room makes a mirror."
   teal-paint-amber-hour: "Orange and teal, the grade the movies fake, comes free here from old paint and a low sun."
   how-far-away-which-lens: "A face about 1/12 of the frame width puts a 50mm lens about 2.4 m away. Measure the face, find the photographer."
   aperture-shutter-and-one-other-setting: "About f/5.6 at 1/250 on ISO 400. Open to f/2 and the grid melts. Stop to f/11 and the glass starts to fight her."
   film-or-digital: "Grain that clumps in the shadows, whites that roll instead of clip. Film is the best bet, never the proof."
   baudelaires-shut-window: "Baudelaire knew a shut window shows more than an open one. Here the glass adds haze, bars and a second street."
   the-one-mistake: "The brightest patch takes the eye first. Here it's a brick wall, a stop brighter than her face. Burn it down."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange"
+  try-this: "\"Why is it so hard to do a thing Now, at the moment when one thinks of it.\" Kenkō, tr. G. B. Sansom. Move half a step."
   the-look-again: "\"A photograph is a secret about a secret. The more it tells you, the less you know.\" Diane Arbus"
 ---
 ![Woman holding a phone, seen through a green window frame in warm sunlight](/photos/window-film-20261013.jpg)

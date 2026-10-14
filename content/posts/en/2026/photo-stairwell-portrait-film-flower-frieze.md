@@ -22,34 +22,33 @@ source_links:
   - { title: "DeCarava Sets the Tone, SFGate", url: "https://www.sfgate.com/entertainment/article/DeCarava-Sets-the-Tone-Experience-is-key-to-his-3015327.php", note: "DeCarava on Hallway, all the hallways he grew up in." }
   - { title: "Hallway, 1953, Museum of Fine Arts Houston", url: "https://emuseum.mfah.org/objects/3633/hallway", note: "Hallway and the Guggenheim Fellowship." }
   - { title: "Roy DeCarava, Selected Works, LensCulture", url: "https://www.lensculture.com/articles/roy-decarava-roy-decarava-selected-works", note: "How DeCarava printed soft and dark." }
-  - { title: "John Berger, Wikiquote", url: "https://en.wikiquote.org/wiki/John_Berger", note: "Seeing comes before words." }
   - { title: "On Photography, Wikiquote", url: "https://en.wikiquote.org/wiki/On_Photography", note: "Sontag, the painter constructs, the photographer discloses." }
-  - { title: "The Photographer's Eye, MoMA press release 1966", url: "https://moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf", note: "Szarkowski on time exposures." }
-  - { title: "Dorothea Lange, Wikiquote", url: "https://en.wikiquote.org/wiki/Dorothea_Lange", note: "The camera teaches you to see without a camera." }
-  - { title: "Diane Arbus, Wikiquote", url: "https://en.wikiquote.org/wiki/Diane_Arbus", note: "A photograph is a secret about a secret." }
   - { title: "Flash (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Flash_(photography)", note: "An electronic flash usually lasts less than 1/1000 of a second." }
   - { title: "Inverse-square law, Wikipedia", url: "https://en.wikipedia.org/wiki/Inverse-square_law", note: "Twice the distance, a quarter of the light." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "How aperture and distance set the sharp zone." }
   - { title: "Film grain, Wikipedia", url: "https://en.wikipedia.org/wiki/Film_grain", note: "Where grain comes from and why it shows in thin shadows." }
+  - { title: "Rilke, Archaic Torso of Apollo, tr. Stephen Mitchell", url: "https://poets.org/poem/archaic-torso-apollo/print", note: "The final stanza turns the gaze back on the viewer. Translation by Stephen Mitchell, Ahead of All Parting, 1995." }
+  - { title: "Horace, Odes I.11 and Epistles I.2", url: "https://en.wikiquote.org/wiki/Horace", note: "Latin originals: Dum loquimur, fugerit invida Aetas, Odes I.11.7-8, and sapere aude, Epistles I.2.40. No English translation quoted." }
+  - { title: "Rilke, In Celebration of Me, tr. Annemarie S. Kidder", url: "https://en.wikiquote.org/wiki/Rainer_Maria_Rilke", note: "Let the things be!, in the poem about the violence of naming. Translation by Annemarie S. Kidder." }
 tldr:
   - "A woman in black looks up the stairs into the lens, and her steady look turns a high camera angle into an even exchange."
   - "The far wall falls off with distance and the chain shows hard glints, so a small flash near the lens is the likelier light, about six in ten."
   - "A fair reading is a 35mm lens at about one metre, f/4 to f/5.6 on ISO 400 film, but no data exists and every number is a guess with a reason."
 basically:
-  the-look-comes-first: "\"Seeing comes before words.\" John Berger. Here her look arrives before you know where you are."
+  the-look-comes-first: "\"here there is no place that does not see you.\" Rilke, tr. Stephen Mitchell. Her look meets yours."
   a-painted-border-read-up-close: "\"The painter constructs, the photographer discloses.\" Sontag. A painter built this wall and a camera found it."
   three-steps-above-her: "The photographer climbed three steps and the portrait changed its meaning. Height is a setting, like aperture."
   why-the-eyes-sit-in-the-middle: "Eyes on a thirds line make a face part of the room. Eyes in the middle make the face a question."
   window-or-flash: "Light that falls off with distance is a flash. Light that falls off with direction is a window. Read the walls."
   black-that-turns-navy: "Her black shirt measures as navy. The darkest pixel in the frame is not black and the brightest is not white."
-  half-a-second-on-the-stairs: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. Even a flash is a slice of a step."
+  half-a-second-on-the-stairs: "\"Dum loquimur, fugerit invida Aetas\" Horace. While words pass, the step has gone."
   how-far-away-the-camera-was: "Her head fills a third of the frame. With a 35mm lens that puts the camera about one metre away, one stair gap."
   film-or-a-filter: "The grain is three times louder in the shadows than on the bright wall. Film does that. So does a good film filter."
   decarava-and-the-dark-hallway: "\"It was all the hallways I grew up in.\" Roy DeCarava, on Hallway, 1953. Every stairwell holds a few others."
   hughes-and-the-crystal-stair: "\"And reachin’ landin’s, / And turnin’ corners\" Langston Hughes, 1922. A stair poem for a frame caught near the turn."
   the-one-mistake: "The brightest thing in a portrait should be the face. Here it is the wall above her head, and half a stop fixes it."
-  try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange. Start on your stairs."
-  back-to-the-look: "\"A photograph is a secret about a secret. The more it tells you, the less you know.\" Diane Arbus. Here, about her."
+  try-this: "\"sapere aude\" Horace. Dare to know. Compare flash and window on the same stairs."
+  back-to-the-look: "\"Let the things be!\" Rilke, tr. Annemarie S. Kidder. Read the light, leave her life alone."
 ---
 ![Woman in black on a stairwell with a painted flower border, looking up](/photos/stairwell-film-20261013.jpg)
 
@@ -127,7 +126,7 @@ Her face is fairly sharp for a file this size. Her arm at the lower left is a li
 
 Side by side, here is what one other setting would change. At 1/15 s with the flash still on, the room light would print a faint second copy of her arm next to the sharp one, a ghost of the step she was taking. With no flash at 1/60 s, her face would stay sharp only if she held still, and the moving arm would stretch into a streak. The frame we have sits between the two, sharp where it counts and a little loose at the edge.
 
-Szarkowski said every photograph is a time exposure. This one is a very short slice of a turn on the stairs, and you can still feel the turn in it.
+Horace wrote "Dum loquimur, fugerit invida Aetas", time fleeing while we speak. Here the shutter takes only a very short slice of a turn on the stairs, and you can still feel the turn in it.
 
 ## How far away the camera was
 
