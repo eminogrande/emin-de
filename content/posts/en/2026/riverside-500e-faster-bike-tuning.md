@@ -1,7 +1,7 @@
 ---
-title: "How to make a Decathlon Riverside 500 E faster"
-seo_title: "Riverside 500 E tuning how-to | emin.de"
-description: "A complete how-to for the Decathlon Riverside 500 E: the free magnet hack, the Badass Box, and a KT controller swap, with drawings, part links and test steps."
+title: "Riverside 500E faster, bike tuning"
+seo_title: "Riverside 500E faster, bike tuning how-to | emin.de"
+description: "A complete how-to for the Riverside 500E: the free magnet hack, the Badass Box, and a KT controller swap, with drawings, part links and test steps."
 date: 2026-10-13
 updated: 2026-10-13
 lang: en
@@ -12,9 +12,9 @@ author: emin
 provenance: written
 ai_assisted: true
 reviewed_by_human: false
-tags: ["ebike","tuning","Decathlon","Riverside 500 E","KT controller","how-to"]
+tags: ["ebike","tuning","Riverside 500E","KT controller","how-to"]
 source_links:
-  - { title: "Decathlon: Riverside 500 E product page", url: "https://decathlon.co.uk/p/electric-hybrid-bike-riverside-500-e/_/R-p-169143", note: "Motor and battery specs." }
+  - { title: "Riverside 500E product page", url: "https://decathlon.co.uk/p/electric-hybrid-bike-riverside-500-e/_/R-p-169143", note: "Motor and battery specs." }
   - { title: "Arthur Brs: Riverside 500E Speed Unlock", url: "https://www.youtube.com/watch?v=Cdm-WZnxCZ4", note: "The video that confirms the service menu does not exist on this model." }
   - { title: "Pedelec-Forum: Riverside 500 e schneller machen", url: "https://www.pedelecforum.de/forum/index.php?threads/riverside-500-e-schneller-machen.102938/", note: "German thread asking the same question." }
   - { title: "K&J Magnetics: Reed switches and Hall effect sensors", url: "https://www.kjmagnetics.com/blog/reed-switches-and-hall-effect-sensors/", note: "Trigger fields, magnet orientation and polarity." }
@@ -36,7 +36,7 @@ basically:
 ---
 ## The bike and why it stops at 25
 
-The Riverside 500 E is Decathlon's hybrid pedelec. The motor is a 250 watt brushless hub in the rear wheel, house brand "Vision", 42 Nm of torque, fed by a 36 V 11.6 Ah battery. Like every pedelec sold in the EU, the assist shuts off at 25 km/h.
+The Riverside 500E is a hybrid pedelec. The motor is a 250 watt brushless hub in the rear wheel, house brand "Vision", 42 Nm of torque, fed by a 36 V 11.6 Ah battery. Like every pedelec sold in the EU, the assist shuts off at 25 km/h.
 
 That matters for tuning because almost everything on the market is made for mid drive motors. SpeedBox, PearTune and the motor-specific Badass Boxes are built for Bosch, Brose, Shimano. None of them physically fit this bike.
 

@@ -39,7 +39,9 @@ export default {
 	// Old emino.app slugs are added automatically from each post's original_url
 	// (see scripts/generate-content.mjs -> src/generated/redirects.json,
 	// public/_redirects and docs/REDIRECTS-emino-app.md).
-	redirects: {},
+	redirects: {
+		'/posts/how-to-make-a-decathlon-riverside-500-e-faster': '/posts/riverside-500e-faster-bike-tuning',
+	},
 
 	// Primary person/publisher. Must match an author id below with type "human".
 	owner: 'emin',
