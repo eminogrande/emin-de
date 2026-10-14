@@ -31,6 +31,9 @@ function sourceFor(post, dirs) {
 			const file = path.join(dir, post.image.replace(/^\/media\//, 'media/'));
 			if (existsSync(file)) return file;
 		}
+		// Photo posts point at the gallery: image: /photos/<file>.jpg lives in public/.
+		const pub = path.join(process.cwd(), 'public', post.image.replace(/^\//, ''));
+		if (post.image.startsWith('/photos/') && existsSync(pub)) return pub;
 	}
 	for (const dir of dirs) {
 		const folder = path.join(dir, 'media', post.slug);
