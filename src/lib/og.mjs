@@ -49,7 +49,7 @@ ${lines.map((l, i) => `<text x="80" y="${215 + i * 80}" font-family="${SERIF}" f
 // Photo card: the image fills the frame, a dark band at the bottom carries
 // the title and the URL, so the share preview reads as the post, not a stray photo.
 function photoOverlaySvg({ title, url }) {
-	const lines = wrap(title, 34, 3);
+	const lines = wrap(title, 28, 3);
 	const lh = 70;
 	const top = 630 - 70 - lines.length * lh;
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
@@ -70,11 +70,13 @@ export function localImage(sitePath) {
 	return existsSync(file) ? file : null;
 }
 
-export async function ogPng({ title, kicker, footer, url = '', image = null }) {
-	const file = localImage(image);
+export async function ogPng({ title, kicker, footer, url = '', image = null, cover = null }) {
+	// Prefer the post's own picture, else its cover (house illustration or photo crop).
+	const file = localImage(image) || localImage(cover);
 	if (file) {
 		try {
-			const base = await sharp(file).rotate().resize(1200, 630, { fit: 'cover', position: 'attention' }).toBuffer();
+			// Transparent illustrations sit on the site paper colour.
+			const base = await sharp(file).rotate().resize(1200, 630, { fit: 'cover', position: 'attention' }).flatten({ background: '#fdf6e3' }).toBuffer();
 			// palette PNG keeps photo cards around 300-500 KB so chat apps show the preview
 			return await sharp(base).composite([{ input: Buffer.from(photoOverlaySvg({ title, url })) }]).png({ compressionLevel: 9, palette: true, quality: 85, dither: 0.6 }).toBuffer();
 		} catch {
