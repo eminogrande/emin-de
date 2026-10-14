@@ -2,6 +2,10 @@
 
 What the owner asked for, in his words, and what was built from it. Newest first. Private details are left out; the repo is public.
 
+## 2026-10-14 — emino
+
+- **Regel:** Jedes Tool hat ein eigenes GitHub-Repo mit aktuellem README, Release Notes und Versionierung. — emino (direkt)
+
 ## 2026-10-06: blog engine, template, import
 
 > "ALLES muss öffentlich auf github sein, als markdown, dort auch gefunden werden, und am liebsten auch direkt gehostet - ausser es wiederspricht gegen 100% ai readyness - ich gehe davon aus dass mehr ai meine beiträge lesen wird als menschen"
