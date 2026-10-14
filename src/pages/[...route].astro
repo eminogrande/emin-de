@@ -31,6 +31,7 @@ const changelogHtml = route.kind === 'changelog' && route.lang === DEFAULT_LANG 
 		lang={post.lang}
 		ogType="article"
 		ogImage={ogImagePath(post)}
+		ogTitle={post.title}
 		structuredData={postSchema(post)}
 		markdownPath={post.markdownPath}
 		articleMeta={{ publishedAt: post.date, modifiedAt: post.updated, authorName: SITE.authors[post.author].name }}
