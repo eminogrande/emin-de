@@ -48,3 +48,5 @@ Rules:
 - Do not touch `content/posts/**` front matter for the folder-fallback path.
 - The cover pipeline crops to 3:2 with attention positioning: keep the subject centered enough to survive a crop.
 - Typographic SVG covers remain the fallback for posts with neither photo nor illustration. The goal is zero of them.
+- Generations love adding a fake artist signature scribble in a corner and tiny logo marks on objects. Both count as text: say "no signature, no logo marks" in every prompt and always check the corners in the vision pass.
+- Editing the file via a local path fails (fal cannot download local files). Edit via the original returned URL, or regenerate.
