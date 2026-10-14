@@ -1,6 +1,14 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "boat-shore-20250810.jpg": {
+      "alt": {
+        "en": "Black-and-white photo of people in a long wooden motorboat in shallow surf, an island on the horizon",
+        "de": "Schwarzweißfoto, Menschen in einem langen Holzboot mit Außenborder in flacher Brandung, Insel am Horizont"
+      },
+      "date": "2025-08-10",
+      "article": "/posts/photo-wooden-boat-shallow-surf-black-and-white"
+    },
     "mountain-field-20261013.jpg": {
       "alt": {
         "en": "Woman in a black cardigan on a grass field in front of a big mountain",
