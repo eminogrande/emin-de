@@ -1,7 +1,7 @@
 ---
 title: "Mountains never meet, but people do"
 seo_title: "Portrait Under a Mountain, a Photo Read | emin.de"
-description: "A centred portrait under a hazy mountain, read closely. Low sun, open shade, aerial perspective, lens and exposure estimates, and a 20 minute exercise."
+description: "A centred portrait under a hazy mountain, read closely. Low sun, open shade, aerial perspective, the real Olympus EXIF at 1/8000 s, and a 20 minute exercise."
 date: 2026-10-13
 updated: 2026-10-14
 lang: en
@@ -25,11 +25,12 @@ source_links:
   - { title: "Rineke Dijkstra, Wikipedia", url: "https://en.wikipedia.org/wiki/Rineke_Dijkstra", note: "Beach Portraits, 1992 to 1994, sitters standing and facing the camera against a minimal background." }
   - { title: "Aerial perspective, Wikipedia", url: "https://en.wikipedia.org/wiki/Aerial_perspective", note: "Why far mountains turn pale, blue and low in contrast, and Leonardo's use of it." }
   - { title: "Golden hour (photography), Wikipedia", url: "https://en.wikipedia.org/wiki/Golden_hour_(photography)", note: "Why low sun is warmer and softer than midday light." }
+  - { title: "Olympus OM-D E-M5 Mark II specifications, Sans Mirror", url: "https://sansmirror.com/cameras/older-mirrorless-camera/olympus-m43-cameras/olympus-om-d-e-m5ii.html", note: "Mechanical shutter to 1/8000 s, ISO 200 base." }
   - { title: "Depth of field, Wikipedia", url: "https://en.wikipedia.org/wiki/Depth_of_field", note: "How aperture, distance and focal length decide what stays sharp." }
 tldr:
   - "A woman stands dead centre on a lawn and the summit of a huge hazy mountain sits straight above her head, lined up by the photographer's feet."
   - "Low sun lights the treetops and a strip of grass while she stands in open shade, 2.3 stops darker than the sky behind her."
-  - "No EXIF exists, so every setting is a reading, about 50mm equivalent from 4.5 m at 1/250 s and f/5.6, and the one fix is the wire at her brow."
+  - "The original file says Olympus OM-D E-M5 Mark II, manual mode, 1/8000 s at ISO 200, 17:56. The lens left no data, and the one fix is the wire at her brow."
 basically:
   a-mountain-wearing-a-person: "Milima haikutani lakini binadamu hukutana, \"Mountains never meet but people do.\" A portrait is that meeting."
   one-hand-full-and-one-hand-empty: "One hand holds a bag and one holds nothing. That small difference is what keeps a frontal pose alive."
@@ -39,8 +40,8 @@ basically:
   she-stands-in-the-shade: "Open shade costs her about 1.5 stops and gives her skin no hard edges. That is the trade she stands in."
   air-paints-the-mountain: "Near tree, 130 tone steps. Far mountain, 20. Air is a filter you can never take off the lens."
   reading-the-lens: "Distance decides how big the mountain looks behind her. The lens only decides how much of it you get."
-  shutter-aperture-and-iso: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one is about 1/250 s of a still evening."
-  digital-file-film-manners: "The brightest pixel is 221 of 255. Nothing here is white, and that is the fingerprint of a grade, not of the sun."
+  shutter-aperture-and-iso: "\"There is in fact no such thing as an instantaneous photograph.\" Szarkowski. This one is 1/8000 s of an August evening."
+  digital-file-film-manners: "Nothing here is white, and no edit did that. The camera file is straight out of the body. The exposure kept the highlights down."
   where-this-picture-comes-from: "\"The camera makes everyone a tourist in other people's reality, and eventually in one's own.\" Susan Sontag"
   the-one-mistake: "A wire at the brow costs more than any lens upgrade. A hand's width higher and it clears her hair."
   try-this: "\"The camera is an instrument that teaches people how to see without a camera.\" Dorothea Lange"
@@ -58,7 +59,7 @@ You see the mountain first, and only then you see that it is standing on a perso
 
 Most portraits hand you the face first. Here your eye lands on the bright slope, goes up to the peak and slides down the centre line, and only at the end it reaches her face, darker than almost anything around it. The mountain gets the light and she gets the centre.
 
-There is an old Swahili saying that fits the mood, Milima haikutani lakini binadamu hukutana. Mountains never meet but people do. A mountain stays where it is, and a portrait is the moment a person walks in front of it and stays for a second. The file gives no place and no date, so everything below stays with what you can see.
+There is an old Swahili saying that fits the mood, Milima haikutani lakini binadamu hukutana. Mountains never meet but people do. A mountain stays where it is, and a portrait is the moment a person walks in front of it and stays for a second. The original file gives a date, 27 August 2025 at 17:56 by the camera clock, and no place, so everything below stays with what you can see and what the camera wrote down.
 
 ## One hand full and one hand empty
 
@@ -82,7 +83,7 @@ So someone walked until the two shapes stacked. Those 35 pixels are a few centim
 
 ## One tall triangle
 
-The frame is 4:3, 2302 by 1726 pixels. She stands almost exactly on the vertical centre line. The two flanks of the mountain run down and out from the summit on both sides of her, so her body is the axis and the slopes are the sides of one tall triangle with the peak on top.
+The frame is 4:3. The camera made it 4608 by 3456 pixels, the published file is half that, 2302 by 1726, and all pixel numbers here are from the published file. She stands almost exactly on the vertical centre line. The two flanks of the mountain run down and out from the summit on both sides of her, so her body is the axis and the slopes are the sides of one tall triangle with the peak on top.
 
 <figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/04-triangle.webp" width="1400" height="1050" alt="Full frame with a thirds grid, the centre line and the two mountain slopes drawn as a triangle" loading="lazy" decoding="async" /><figcaption>Thirds grid, centre line and the two slopes. The upper third runs just under the summit and the lower one along the hedge.</figcaption></figure>
 
@@ -98,7 +99,7 @@ The light comes low from behind the camera and a little to one side. The proof i
 
 Low sun lights the top of everything first and the bottom of everything last. When it sits a few degrees over the horizon, hedges, walls and houses throw long shadows over the ground, and only the tall things reach up into the light. That is why the treetops on the right carry the same warm tone, and why the hedge and the lawn under them stay cool.
 
-Golden hour is about angle first and colour second, because low light travels through much more air and loses blue on the way. You can't tell from one frame if this is morning or evening, low sun looks the same both ways. What you can tell is that this light moves fast. On a flat lawn the line between sun and shade can travel a metre in a few minutes, so the photographer had a short window and used it.
+Golden hour is about angle first and colour second, because low light travels through much more air and loses blue on the way. From one frame you can't tell morning from evening, low sun looks the same both ways. The camera clock settles it, 17:56, so this is evening light. What you can also tell is that this light moves fast. On a flat lawn the line between sun and shade can travel a metre in a few minutes, so the photographer had a short window and used it.
 
 ## She stands in the shade
 
@@ -122,7 +123,7 @@ This is why the mountain reads as far and huge even though the picture is flat. 
 
 ## Reading the lens
 
-The file carries no camera data, only its size and colour space. So the lens is a reading from shapes.
+The original file names the camera, an Olympus OM-D E-M5 Mark II. Its Micro Four Thirds sensor is half the width of full frame, so every focal length works like double. The lens fields are empty, focal length 0 mm, aperture 0. That is what a manual lens without electronic contacts leaves behind, and the file also says manual focus. So the lens is still a reading from shapes.
 
 <figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/08-lens.webp" width="1400" height="1050" alt="Full frame with a line across the mountain at mid-slope and a box around the woman's head" loading="lazy" decoding="async" /><figcaption>The slopes span about half the frame width, and her head about 8 percent of its height.</figcaption></figure>
 
@@ -130,21 +131,21 @@ Start with what is missing. The block walls stand upright, the frame edges are n
 
 Then use her body as a ruler. From crown to shin she covers about 900 pixels of a 1726 pixel tall frame. A grown woman from crown to mid-shin is roughly 1.3 metres, so the frame is about 2.5 metres tall and 3.3 metres wide where she stands. A 50mm-equivalent lens covers that width from about 4.5 metres. A 35mm-equivalent from about 3.2 metres. A phone's main camera, around 26mm, from about 2.4 metres.
 
-Now the background. Perspective comes from distance, not from focal length. From 2.4 metres with a wide lens she would grow and the mountain would shrink to a hill on the horizon. Here the slopes still span about half the frame width at mid-height, which points to a normal lens, about 40 to 60mm equivalent, from 4 to 5 metres. Hold that loosely.
+Now the background. Perspective comes from distance, not from focal length. From 2.4 metres with a wide lens she would grow and the mountain would shrink to a hill on the horizon. Here the slopes still span about half the frame width at mid-height, which points to a normal lens, about 40 to 60mm equivalent, from 4 to 5 metres. On this camera that is a 20 to 30mm lens, and 25mm is the classic manual normal lens for the system. Hold that loosely.
 
-The 4:3 shape is the default of most phones and Micro Four Thirds cameras, and on a 3:2 camera this would be a crop. Because the verticals stand straight, the camera was held level. If the frame is not cropped, the level centre line marks the camera's height, and here it crosses her at the brow. So the lens was near her eye height, not low.
+The 4:3 shape is simply the sensor, 4608 by 3456, so nothing was cropped. Because the verticals stand straight, the camera was held level. If the frame is not cropped, the level centre line marks the camera's height, and here it crosses her at the brow. So the lens was near her eye height, not low.
 
 ## Shutter aperture and ISO
 
-None of these numbers are known. Each one is a guess with the trade you would make by changing it.
+Two of these numbers are known now and one is not. The camera wrote 1/8000 s, ISO 200, manual exposure, mechanical shutter and image stabilisation on. It wrote no aperture.
 
 <figure><img src="/photos/notes/photo-environmental-portrait-mountain-field-golden-hour/09-focus.webp" width="783" height="587" alt="Crop from her hair to the block wall, the crisp hair edge circled and the soft wall top boxed" loading="lazy" decoding="async" /><figcaption>Her hair edge is crisp and the wall top behind her is soft, but still a wall.</figcaption></figure>
 
-Shutter first. No blur in her hands, hair or leaves, a standing person and a camera most likely held by hand. About 1/250 s is a fair guess, and at a normal lens it is safe. At 1/30 s she would still hold still, but a breath of wind would smear the leaves on the big tree.
+Shutter first. 1/8000 s is the fastest the mechanical shutter of this camera can go. Nobody needs 1/8000 s for a person standing still. You end up there when you shoot a fast lens wide open in bright light, and the shutter is the only dial left to stop the light. ISO 200 is the base of this sensor, the cleanest it gets. So the photographer turned everything down and the aperture stayed open.
 
-Aperture next. The edge of her hair against the sky goes from dark to light in about 3 to 8 pixels. The top of the block wall behind her takes 6 to 12. So the background is soft but readable, not melted. On a full-frame camera at 50mm, focused at 4.5 metres, f/5.6 blurs a far background by about 6 pixels in this file, close to what you see. At f/1.8 that blur grows to about 20 pixels. The wall turns into a beige cloud and the place disappears. At f/11 the wall gets almost sharp, and so does the wire. Call it f/4 to f/5.6. On a phone the small sensor keeps almost everything sharp, so softness would come from haze or software.
+Aperture next, and this one is a reading again. The light math helps. In full sun at ISO 200 a normal exposure is about f/16 at 1/200 s. 1/8000 s is about 5.3 stops less light, which lands near f/2.5 for sunlit things. She stands in shade, so the lens was open at least that wide, around f/1.4 to f/2.8. The edge of her hair against the sky goes from dark to light in about 3 to 8 pixels. The top of the block wall behind her takes 6 to 12. So the background is soft but readable, not melted. On a full-frame camera at 50mm, focused at 4.5 metres, f/5.6 blurs a far background by about 6 pixels in this file, close to what you see. At f/1.8 that blur grows to about 20 pixels. The wall turns into a beige cloud and the place disappears. At f/11 the wall gets almost sharp, and so does the wire. Call it f/4 to f/5.6 in full-frame terms. On this 2x sensor that look is about f/2 to f/2.8 on the lens itself, and that fits the 1/8000 s.
 
-ISO last. Low sun and a face in shade make a dim subject. At about 1/250 s and f/5.6, ISO 200 to 400 fits, and that matches the clean file. So the best single guess for a dedicated camera is about 1/250 s, f/5.6, ISO 200 to 400.
+The earlier guess for this post, 1/250 s and f/5.6 with no data, was wrong on the shutter by five stops. The look was right, the route was different. A wide aperture and a very short time give the same exposure as a small aperture and a longer time, but not the same picture. Open wide, the wall behind her goes soft and she separates from it.
 
 ## Digital file film manners
 
@@ -154,9 +155,9 @@ The flat sky tells you most. In a patch of clear sky the brightness varies by ab
 
 Film grain would show up exactly there, as an even, crunchy texture over the smooth blue. There is none. In the dark parts the texture is smeared and a little blotchy, the way noise reduction and JPEG compression leave it. No border, no dust. This reads as a digital file.
 
-The grade borrows from film. The brightest point in the file sits at about 221 of 255, and not even one pixel in a thousand climbs past 215 in any channel. Nothing touches pure white, not even the sky at the horizon. That is a highlight roll-off pulled down on purpose, by a person or by a camera profile. The deepest blacks still reach almost zero, so this is not the lifted, milky black of many film presets.
+The grade borrows from film. The brightest point in the file sits at about 221 of 255, and not even one pixel in a thousand climbs past 215 in any channel. Nothing touches pure white, not even the sky at the horizon. The original JPEG came straight out of the camera, firmware 4.1, picture mode Natural, normal gradation, and its own brightest pixel is 236. So no edit pulled the highlights down. The manual exposure did. The deepest blacks still reach almost zero, so this is not the lifted, milky black of many film presets.
 
-Phone processing usually lifts a dark face toward a bright sky. Here it stays 2.3 stops under, so either the processing was gentle or a dedicated camera made the file.
+Phone processing usually lifts a dark face toward a bright sky. Here it stays 2.3 stops under, because a dedicated camera in manual mode does not lift anything. It writes what you set.
 
 ## Where this picture comes from
 
