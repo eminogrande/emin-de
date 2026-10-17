@@ -18,7 +18,14 @@ export const authorPath = (lang, id) => join(lang, `/author/${id}`);
 export const archivePath = (lang, year) => join(lang, year ? `/archive/${year}` : '/archive');
 export const feedPath = (lang, kind) => join(lang, `/${{ rss: 'rss.xml', atom: 'atom.xml', json: 'feed.json' }[kind]}`);
 export const markdownMirrorPath = (path) => (path === '/' ? '/index.md' : `${path}/index.md`);
-export const ogImagePath = (post) => `/og/${post.lang}/${post.slug}.png`;
+// ?v= changes whenever the card's inputs change (title, picture), so X, WhatsApp and
+// LinkedIn fetch a fresh card instead of a cached one. The file path stays stable.
+const cardVersion = (post) => {
+	let h = 0;
+	for (const ch of `${post.title}|${post.image || ''}|${post.cover?.src || ''}`) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+	return h.toString(36);
+};
+export const ogImagePath = (post) => `/og/${post.lang}/${post.slug}.png?v=${cardVersion(post)}`;
 
 const STRINGS = {
 	en: {

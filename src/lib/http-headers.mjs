@@ -64,6 +64,9 @@ export function contentTypeFor(pathname, filePath) {
 }
 
 export function cacheControlFor(pathname, contentType) {
+	// Share cards keep a stable URL (/og/<lang>/<slug>.png) but get redrawn when a
+	// post changes. "immutable" for a year made X and WhatsApp keep stale cards.
+	if (pathname.startsWith('/og/')) return 'public, max-age=3600, must-revalidate';
 	if (pathname.startsWith('/_astro/') || IMMUTABLE_EXTENSIONS.test(pathname) || /^(image|font|video)\//.test(contentType)) {
 		return 'public, max-age=31536000, immutable';
 	}

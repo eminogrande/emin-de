@@ -72,7 +72,8 @@ export function localImage(sitePath) {
 
 export async function ogPng({ title, kicker, footer, url = '', image = null, cover = null }) {
 	// Prefer the post's own picture, else its cover (house illustration or photo crop).
-	const file = localImage(image) || localImage(cover);
+	// Old emino.app auto-covers are SVG text cards: never use an SVG as the share image.
+	const file = localImage(image && !/\.svg(\?|$)/i.test(image) ? image : null) || localImage(cover);
 	if (file) {
 		try {
 			// Transparent illustrations sit on the site paper colour.
