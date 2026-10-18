@@ -1,0 +1,133 @@
+---
+title: "Regarder les fleurs à cheval"
+description: "Une lecture attentive d'un regard incliné vers le haut, au-delà des fils de chemin de fer, vers deux dômes verts : des couches, une lumière dure, un basculement de 23 degrés, la poutre maculée,…"
+date: "2026-10-13"
+updated: "2026-10-14"
+lang: fr
+translated_from: "en/photo-twin-green-domes-railway-wires"
+source_sections: ["two-domes-in-a-net-of-wire", "a-wedding-cake-in-cream", "six-layers-deep", "hard-light-high-sun", "a-grid-knocked-over", "one-orange-girder", "what-the-lens-did", "the-shutter-and-the-smear", "pixels-not-grain", "through-the-glass", "are-bure-boke", "the-one-mistake", "try-this", "the-journey-is-home"]
+category: culture
+format: photo
+author: ai-desk
+provenance: ai_generated
+ai_assisted: true
+reviewed_by_human: false
+image: "/photos/twin-domes-20261013.jpg"
+tags: ["photography", "street photography", "architecture photography", "dutch angle", "motion blur", "phone photography"]
+source_links: [{"title": "Chinese proverb: Looking at flowers from horseback", "url": "https://en.wiktionary.org/wiki/%E8%B5%B0%E9%A6%AC%E8%A7%80%E8%8A%B1", "note": "The Chinese proverb in the title, 走馬觀花 / 走马观花 (zǒumǎ guānhuā)."}, {"title": "Saul Leiter in Manhattan (The Guardian)", "url": "https://theguardian.com/artanddesign/2016/jan/15/made-in-manhattan-how-saul-leiter-found-beauty-in-gothams-glass-and-grime", "note": "Background on Leiter's pictures through windows and mirrors, not a quotation source."}, {"title": "Matsuo Bashō (Wikiquote)", "url": "https://en.wikiquote.org/wiki/Matsuo_Bash%C5%8D", "note": "Every day is a journey, Sam Hamill's translation of Narrow Road to the Interior, page 3."}, {"title": "Provoke (magazine) (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Provoke_(magazine)", "note": "The are-bure-boke style, rough, blurry, out of focus."}, {"title": "Daidō Moriyama (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Daid%C5%8D_Moriyama", "note": "A Hunter, 1972, shot while driving past, with skewed angles and blur."}, {"title": "Alexander Rodchenko (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Alexander_Rodchenko", "note": "Odd angles to postpone recognition, and his line about the key-hole."}, {"title": "Lee Friedlander (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Lee_Friedlander", "note": "Layered street frames and America by Car."}, {"title": "Dutch angle (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dutch_angle", "note": "What a rolled frame does to a viewer."}, {"title": "Hyperfocal distance (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Hyperfocal_distance", "note": "Why a tiny lens gets everything past a few metres sharp."}, {"title": "Sunny 16 rule (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sunny_16_rule", "note": "The daylight exposure rule used for the shutter estimate."}, {"title": "Tagore, Stray Birds, self-translated, 1916", "url": "https://en.wikisource.org/wiki/Stray_Birds", "note": "No. 20, The best chooses me, and No. 62, The Perfect decks itself in beauty for the love of the Imperfect. English text translated by Tagore himself."}, {"title": "Kabir, Songs of Kabir, tr. Rabindranath Tagore", "url": "https://en.wikiquote.org/wiki/Kabir", "note": "Song LXXVI, Only he knows it who has reached that region, and It cannot be told by the words of the mouth. Translation by Rabindranath Tagore, 1915."}]
+tldr: ["Un regard raide et incliné vers le haut, au-delà des fils de chemin de fer, vers deux dômes vert pâle sur des tours crème, avec du verre moderne derrière et une poutre orange rouille en dessous.", "Cela ressemble à une prise de vue numérique avec un petit capteur à travers une fenêtre en mouvement sous un soleil de plomb, et la poutre maculée indique que l'obturateur était plus lent que ce dont le soleil seul aurait eu besoin.", "La seule erreur est le rideau gris en haut à droite, et un pas de plus vers la vitre ou un recadrage par le haut et la droite règle le problème."]
+sections: [{"basically": "\"Le meilleur me choisit.\" Tagore, auto-traduit. Deux petits dômes gagnent un cadre de fil."}, {"basically": "\"Le Parfait se pare de beauté pour l'amour de l'Imparfait.\" Tagore, auto-traduit. Trois âges partagent un pâté de maisons."}, {"basically": "Comptez les plans, pas les bâtiments. Six couches du rideau au ciel sont la raison pour laquelle un cadre désordonné reste lisible."}, {"basically": "Une ombre courte sous chaque balcon signifie un soleil haut. Une lumière dure sculpte l'ornement et est cruelle pour les visages."}, {"basically": "Les fils s'élèvent à 23 degrés. Dans la vie, ils sont à niveau. Le cadre a basculé, pas la ville."}, {"basically": "L'orange est à l'opposé du bleu. Une poutre rouillée maintient tout le tiers inférieur contre un ciel entier."}, {"basically": "Nette de quelques mètres à l'horizon, floue à quelques centimètres. C'est un minuscule capteur qui parle, pas un choix."}, {"basically": "Une traînée de 30 pixels demande un obturateur plus lent que ce que le soleil permet. La contradiction est une preuve, pas une raison de cacher un chiffre."}, {"basically": "Pas de grain, des halos doux, une couleur qui bave à 100%. Le fichier dit numérique et petit, et rien de plus."}, {"basically": "\"Seul celui qui a atteint cette région le sait\" Kabir, trad. Tagore. La fenêtre garde le siège dans la vue."}, {"basically": "Are, bure, boke. Rude, flou, hors foyer. Les rebelles japonais des années 1960 ont fait un style de ce qu'une fenêtre en mouvement fait gratuitement."}, {"basically": "Le redressement conserve 48 pour cent des pixels. Couper le rideau en conserve 65 pour cent. Corrigez l'obstruction, pas l'angle."}, {"basically": "\"Cela ne peut être dit par les mots de la bouche\" Kabir, trad. Tagore. Un siège près de la fenêtre enseigne ce qu'une conférence ne peut pas faire."}, {"basically": "\"Chaque jour est un voyage, et le voyage lui-même est la maison.\" Bashō, trad. Sam Hamill. Deux dômes, vus depuis un siège qui ne cesse de bouger."}]
+---
+![En regardant les câbles de chemin de fer vers le haut, vers des tours et un bâtiment doté de deux dômes verts](/photos/twin-domes-20261013.jpg)
+
+Le titre est un proverbe chinois, 走馬觀花 / 走马观花 (zǒumǎ guānhuā).
+
+## Deux dômes dans un filet de câbles
+
+Deux dômes. Ils sont vert pâle, ce vert menthe crayeux que prend le vieux cuivre, et votre regard se pose dessus avant de se poser sur quoi que ce soit d'autre dans le cadre. C'est étrange quand on y pense, parce qu'ils sont petits. Chacun représente environ un dixième de la largeur de l'image, et entre vous et eux courent des dizaines de câbles noirs, un mât en acier, un pont rouge rouille et une fenêtre à travers laquelle vous regardez.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/01-domes.webp" width="900" height="1204" alt="Image complète avec les deux dômes verts entourés" loading="lazy" decoding="async" /><figcaption>Les deux dômes, petits dans le cadre et pourtant la première chose que vous voyez.</figcaption></figure>
+
+La raison, c'est la forme et la couleur. Tout le reste dans cette image est un rectangle ou une ligne. Les dômes sont les seuls objets ronds, et leur vert est la seule couleur douce qui ne soit pas celle du ciel. L'œil est paresseux et se dirige vers ce qui détonne. L'image fonctionne donc déjà avant même que vous sachiez ce qu'elle montre, et ce n'est qu'après les dômes que vous remarquez que rien dans cette image ne se tient droit.
+
+## Une pièce montée à la crème
+
+Regardez de plus près ce qui soutient les dômes. Chacun repose sur un tambour à huit faces avec une fenêtre cintrée, et le tambour repose sur une tour qui recule étage par étage, avec une balustrade blanche à chaque niveau. C'est une pièce montée peinte à la crème, le genre de tour que vous connaissez dans les villes européennes autour de 1900, posée ici au milieu de bureaux vitrés.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/02-detail.webp" width="774" height="587" alt="Détail des tours crème avec la tourelle en pierre et la liaison vitrée marquées" loading="lazy" decoding="async" /><figcaption>Entre les deux tours se trouvent une tourelle en pierre brute et une liaison en verre sombre, l'ancien et le moderne en un seul bloc.</figcaption></figure>
+
+Entre les deux tours, il y a autre chose. Une petite tourelle ronde en pierre grise brute avec un toit pointu en ardoise, comme un morceau de château. Au-dessus, une liaison en verre sombre relie les tours. Derrière tout cela s'élève un bloc moderne en verre bleu sarcelle avec des ailerons en pierre pâle, et sur la droite une tour grise avec une grille de fenêtres carrées. Ainsi, dans un seul recadrage, vous obtenez trois époques de construction, le château, la belle époque et le verre de bureau, et aucune d'entre elles ne vient de l'endroit où elles se trouvent, ou alors toutes y sont. L'image ne vous le dit pas, et vous n'en avez pas besoin. Ce dont vous avez besoin, c'est du choc, et le détail le procure.
+
+## Six niveaux de profondeur
+
+Comptez les plans dans cette image, pas les bâtiments. Vous en obtenez six. Le plus proche est le rideau gris en haut à droite et un cadre de fenêtre sombre le long du bord supérieur, tous deux à quelques centimètres de l'objectif. Ensuite, les tuyaux en argent mat en bas à gauche et une barrière blanche en bas à droite. Puis les câbles et le mât en treillis. Puis le pont orange. Puis les tours crème avec les dômes. Puis les tours de verre et le ciel.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/03-layers.webp" width="900" height="1204" alt="Image complète avec le rideau, les câbles et un dôme entourés comme trois plans de profondeur" loading="lazy" decoding="async" /><figcaption>Trois des six plans, d'un rideau à quelques centimètres à un dôme situé très loin.</figcaption></figure>
+
+Un cadre aussi chargé devrait être un désordre, et c'est presque le cas. Ce qui le sauve, c'est que chaque plan a son propre aspect. Le plan proche est flou, le plan des câbles est fin et noir, le plan du pont est chaud, le plan des dômes est crème et menthe, le plan arrière est un verre froid. Lorsque chaque plan a sa propre texture et sa propre couleur, l'œil peut les trier sans effort.
+
+## Lumière dure, soleil haut
+
+La lumière est celle d'un soleil pur provenant d'un ciel sans nuages. Regardez sous les balcons de la tour de gauche. Chaque dalle projette une ombre fine et dure droit vers le bas sur le mur en dessous, et les ombres sont courtes. Court et dur signifie un soleil haut et aucune diffusion, donc quelque part entre la fin de la matinée et le début de l'après-midi.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/04-light.webp" width="644" height="553" alt="Détail de la tour de gauche avec les ombres courtes des balcons encadrées et la direction du haut indiquée" loading="lazy" decoding="async" /><figcaption>Des ombres fines et dures sous chaque balcon, et la flèche montre où se trouve réellement le haut.</figcaption></figure>
+
+Les faces tournées vers vous sont lumineuses et uniformes. Mesurez les deux moitiés de chaque dôme dans le fichier et la moitié gauche ne ressort qu'un tout petit peu plus claire que la droite, un à deux pour cent. Le soleil est donc derrière l'appareil photo, peut-être un peu sur la gauche, et frappe les dômes presque de face. C'est pourquoi les nervures des dômes paraissent douces. Une lumière frontale tue le côté ombré d'une courbe. Si le soleil était venu de côté, les mêmes nervures seraient apparues comme les segments d'une orange. Une lumière frontale dure est une mauvaise nouvelle pour un visage et une bonne nouvelle pour ce genre de bâtiment, car chaque corniche et chaque balustrade reçoit sa propre ligne noire et les tours en gradins semblent réellement étagées.
+
+## Une grille renversée
+
+Maintenant l'inclinaison. L'appareil photo est orienté fortement vers le haut, donc les tours penchent vers un point au-dessus du cadre, comme une rue de grands immeubles lorsque vous levez le cou. Et il est aussi penché sur le côté. Suivez un câble sur la gauche. Dans la réalité, il est à l'horizontale, et dans le cadre, il monte d'environ 23 degrés de gauche à droite. Le pont et les lignes d'étage des tours montent avec lui.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/05-tilt.webp" width="900" height="1204" alt="Image complète avec une grille des tiers et un câble tracé, montant d'environ vingt-trois degrés" loading="lazy" decoding="async" /><figcaption>Un câble, horizontal dans la réalité, monte d'environ 23 degrés ici. Le dôme de droite se situe près d'une intersection des tiers.</figcaption></figure>
+
+Les gens du cinéma appellent cela un plan hollandais et l'utilisent pour traduire un malaise, un monde qui n'est pas à sa place. Mais regardez ce que fait l'inclinaison ici. Les deux dômes forment une ligne montante, celui de gauche bas, celui de droite haut, et cette ligne est presque parallèle aux câbles. Les tours croisent les câbles presque à angle droit. L'image est donc construite sur une grille, sauf que la grille a été renversée. Le dôme gauche se trouve sur la ligne des tiers gauche et le dôme droit près de l'intersection supérieure droite. Rodchenko photographiait les bâtiments d'en bas dans les années 1920 pour vous forcer à regarder deux fois avant de savoir ce que vous voyez, et il écrivait qu'il fallait regarder un sujet sous différents points de vue, "comme si on l'examinait sous toutes ses coutures plutôt que de regarder à travers le même trou de serrure encore et encore". Ce cadre est un trou de serrure, mais un trou tordu. Redressez-le avec un logiciel et vous perdez beaucoup. Un cadre 3:4 pivoté de 23 degrés ne conserve qu'environ 48 pour cent de ses pixels.
+
+## Une poutre orange
+
+Les couleurs ici sont calmes. Crème et beige sur les tours, menthe sur les dômes, sarcelle sur le bloc de verre derrière, qui rime avec le vert sur vert des dômes. Gris pour le béton, le mât et la haute tour en grille. Et un ciel bleu pur.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/06-orange.webp" width="903" height="777" alt="Détail du bas à droite avec la ferme orange entourée" loading="lazy" decoding="async" /><figcaption>La ferme en croix, la chose la plus chaude et la plus forte de l'image.</figcaption></figure>
+
+Puis une exception. Le pont, et surtout la ferme en croix à son extrémité droite, est d'un orange rouille profond. L'orange se situe à l'opposé du bleu sur la roue chromatique, donc cette seule poutre tire contre tout le ciel. Sans elle, le tiers inférieur ne serait que du câble gris et du mur blanc. Avec elle, l'image possède deux pôles, la menthe en haut et l'orange en bas, et votre œil oscille entre les deux à travers les câbles. Dans une rue aux tons sourds, une seule couleur vive fait le travail d'un projecteur.
+
+## Ce que l'objectif a fait
+
+Aucune donnée de prise de vue ne subsiste dans le fichier, il s'agit donc d'une interprétation. La vue semble assez large, proche d'un équivalent 28 mm, ce qui sur un cadre au format 3:4 donne environ 50 degrés sur le côté court. Ce n'est pas un ultra grand-angle. Les lignes droites près des bords restent droites, et la forte inclinaison vient du fait que l'appareil pointe vers le haut, et non de la déformation des lignes par l'objectif.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/07-focus.webp" width="900" height="1204" alt="Plein cadre avec les bâtiments nets encadrés en or et le rideau flou encadré en rouge" loading="lazy" decoding="async" /><figcaption>Tout ce qui est éloigné est net, le rideau à quelques centimètres n'est qu'une bouillie. Cette séparation est caractéristique de la taille du capteur.</figcaption></figure>
+
+Le motif de mise au point est le meilleur indice. Le pont, les dômes et les tours au loin sont tous raisonnablement nets, et seuls les objets situés à une largeur de main de l'objectif se dissolvent. L'appareil photo principal d'un téléphone a une longueur focale réelle proche de 6 mm et une ouverture proche de f/1.8. Sa distance hyperfocale se situe autour de 3 à 5 mètres, donc faites la mise au point là, et tout ce qui se trouve entre environ 2 mètres et l'horizon sera net. Maintenant, placez un appareil photo plein format avec un objectif de 26 mm à la même ouverture f/1.8, à la même place. Sa distance hyperfocale est d'environ 12 mètres. Les dômes seraient toujours nets, mais le rideau et le cadre de la fenêtre se dissoudraient dans un brouillard gris, presque disparus. Même vue, même valeur d'ouverture, et une image très différente du plan rapproché.
+
+## L'obturateur et le flou de bougé
+
+Regardez la poutre rouge sous le treillis. Ses nervures verticales sont étirées le long du pont, et le treillis plus à droite est plus net. Ce n'est pas la mise au point. Le flou de mise au point est doux dans toutes les directions. Ce flou a une direction, celle du déplacement. Mesurez les bords des pixels sur la poutre, et ceux qui sont perpendiculaires à cette direction apparaissent environ deux fois moins marqués que ceux qui sont parallèles.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/08-smear.webp" width="600" height="476" alt="Recadrage au niveau des pixels de la poutre rouge avec les nervures étirées encadrées et le treillis plus net entouré" loading="lazy" decoding="async" /><figcaption>Les nervures de la poutre proche s'étirent, le treillis plus éloigné tient le coup. Les objets proches traversent le cadre plus vite.</figcaption></figure>
+
+Le flou mesure environ 30 pixels de long. Sur une image de 1290 pixels et environ 50 degrés de large, cela représente environ 1,2 degré de mouvement. Si la fenêtre se déplaçait à une vitesse de 30 à 60 km/h et que la poutre était située entre 3 et 10 mètres, elle a balayé le champ assez vite pour que 1,2 degré corresponde à un temps compris entre environ 1/40 et 1/270 de seconde. Une estimation moyenne se situe près de 1/125 s. Voici le dilemme. La règle du f/16 indique qu'en plein soleil à 50 ISO et f/1.8, un téléphone choisirait quelque chose proche de 1/4000 s, et le verre teinté pourrait réduire cela d'un cran. Le flou nécessite donc un obturateur plus lent que ce que le soleil autorise. Soit la poutre était plus proche et allait plus vite qu'il n'y paraît, soit l'appareil a maintenu une vitesse lente pour ses propres raisons. Le fichier ne permet pas de trancher, et il vaut mieux vous montrer les deux chiffres que d'en cacher un. Côté à côté, à 1/2000 s, les nervures seraient nettes et l'image perdrait son seul signe de vitesse. À 1/30 s, les fils seraient dédoublés et les dômes pourraient commencer à trembler.
+
+## Des pixels, pas du grain
+
+Zoomez à 100 pour cent sur le dôme de gauche par rapport à la vitre derrière lui. La vitre plate ne montre aucun grain, seulement des taches douces de bleu sarcelle légèrement différent. Le bord du dôme présente un large halo lumineux et doux. La rambarde en dessous est une bouillie, les balustres ne sont pas distinguables. La couleur déborde un peu sur les bords.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/09-pixels.webp" width="258" height="208" alt="Recadrage au niveau des pixels du dôme de gauche contre la tour vitrée" loading="lazy" decoding="async" /><figcaption>À 100 pour cent, des taches lisses au lieu du grain, et un halo doux autour du dôme.</figcaption></figure>
+
+Tout cela pointe vers le numérique, un petit capteur et un traitement lourd, et le fichier a été redimensionné et compressé par-dessus. Le grain du film s'agglutine et change de taille avec les tons, ce que vous ne voyez pas ici. Le bruit du ciel est minuscule, environ cinq niveaux sur 255. L'image est au format 3:4, la forme native de la plupart des capteurs de téléphone, tandis que le film 35 mm est en 3:2. Seulement environ 0,6 pour cent des pixels se trouvent près du blanc pur et environ 1,2 pour cent près du noir pur, la majeure partie de ce noir se trouvant dans le cadre de la fenêtre, donc l'exposition a bien conservé les deux extrémités. C'est tout ce que les pixels peuvent nous dire. Ils n'identifient pas un appareil, et cette lecture non plus.
+
+## À travers la vitre
+
+Le long du bord supérieur court une bande sombre, le cadre de la fenêtre, si proche qu'elle n'est qu'un coin flou bleu marine. En haut à droite, un rideau gris pend, un tissu plié que l'on ne reconnaît qu'à sa forme. Un petit loquet flou pend sous le cadre vers le milieu. Ajoutez les fils de caténaire à hauteur du siège et la barrière blanche, et l'interprétation la plus probable est celle d'une fenêtre de train.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/10-window.webp" width="1032" height="863" alt="Recadrage du haut de l'image avec le cadre de la fenêtre tracé et le rideau étiqueté" loading="lazy" decoding="async" /><figcaption>Le cadre de la fenêtre traverse le haut, le rideau pend depuis la droite.</figcaption></figure>
+
+Saul Leiter a fait de cela l'œuvre de toute une vie. Il a photographié New York à travers des vitres embuées, derrière des auvents et dans des miroirs, laissant des formes douces occuper la moitié du cadre tandis qu'un petit détail net portait tout le sens. Lee Friedlander a fait de même depuis le siège conducteur dans *America by Car*, avec des cadres de portes et des miroirs découpant la scène. Tous deux ont fait de l'obstacle une partie intégrante de l'image. Ce cadre le fait moins intentionnellement, mais il le fait. La fenêtre vous indique où vous étiez assis et que vous étiez en transit.
+
+## Are, bure, boke
+
+En 1968, un petit magazine japonais appelé *Provoke* a rendu célèbre un style avec trois mots : *are, bure, boke*. Granuleux, flou, hors mise au point. C'était une réaction contre le photojournalisme propre et le travail commercial de l'époque. Daidō Moriyama a photographié pour *Provoke* et a continué dans cette voie. Pour son livre de 1972, *A Hunter*, il a traversé le Japon en voiture et a capturé de nombreuses scènes au passage, ce qui est visible dans les angles inclinés et le flou.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/11-bure-boke.webp" width="903" height="449" alt="Recadrage du bas de l'image avec le flou de mouvement et le flou de mise au point étiquetés" loading="lazy" decoding="async" /><figcaption>*Bure*, le flou dû au mouvement, et *boke*, le flou doux d'un tuyau trop proche pour être net, sur une seule bande.</figcaption></figure>
+
+Ce cadre possède deux des trois mots. *Bure* est le flou de la poutre. *Boke* est le tuyau argenté en bas à gauche, rond et doux, trop près pour l'objectif. *Are*, le grain brut, manque car le traitement numérique l'a lissé. Rien ne dit que la personne derrière ce cadre ait cherché tout cela. Le fait est que les photographes de *Provoke* ont créé un style à partir de ce qu'une fenêtre en mouvement vous offre gratuitement. Si vous lisez ceci comme une ville japonaise, et la densité des fils ainsi que les mâts vous y autorisent, le lien est proche. C'est une interprétation, pas un fait établi sur le lieu.
+
+## La seule erreur
+
+L'inclinaison n'est pas l'erreur. Elle est assez marquée pour sembler volontaire, et la grille tient bien. L'erreur, c'est le rideau. Il occupe près d'un dixième du cadre en haut à droite, il est gris sur gris contre la tour, et une fois que vous savez que c'est un rideau, il ne vous dit rien de plus.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/12-mistake.webp" width="900" height="1204" alt="Plein cadre avec le rideau encadré en rouge et un recadrage plus serré encadré en or" loading="lazy" decoding="async" /><figcaption>L'encadré rouge est un poids mort. L'encadré doré conserve les deux dômes, les fils et la majeure partie du treillis.</figcaption></figure>
+
+La solution à bord était simple. Se pencher jusqu'à ce que l'objectif touche presque la vitre, ou repousser le rideau d'une main. La solution après coup est un recadrage. Coupez par le haut et la droite, gardez environ les 87 pour cent de gauche et les trois quarts du bas, et vous conservez les deux dômes, les fils et la majeure partie du treillis orange tandis que le rideau disparaît presque. Cela représente environ 65 pour cent des pixels, ce qui est mieux que les 48 pour cent que vous auriez gardés en redressant l'image. Le cadre de la fenêtre reste alors comme une suggestion, et non comme un poids.
+
+## Essayez ceci
+
+Prenez un train ou un tram qui passe devant de grands immeubles et choisissez une place côté fenêtre, du côté qui leur fait face. Essuyez la vitre, collez votre téléphone contre elle pour éliminer les reflets, et utilisez l'objectif principal, pas le grand-angle. Prenez de courtes rafales dès que quelque chose d'étrange apparaît, et dans chaque rafale, cherchez l'image où rien ne traverse votre sujet et où une couleur se trouve juste en face. Faites un trajet à l'horizontale et un trajet incliné à environ 30 degrés, puis comparez quelle inclinaison ressemble à un choix.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/13-crop.webp" width="900" height="1038" alt="La même photo recadrée plus serré par le haut et par la droite, le rideau a presque disparu" loading="lazy" decoding="async" /><figcaption>La version plus serrée. Essayez de cadrer comme ceci depuis votre siège, pas plus tard.</figcaption></figure>
+
+## Le voyage est le foyer
+
+Revenons aux deux dômes. Au début, ils n'étaient qu'une drôle de forme ronde dans un cadre de lignes. Maintenant, vous savez ce qu'il a fallu pour les voir. Un siège, une fenêtre, un rideau, une poutre qui défile trop vite pour l'obturateur, et quelques secondes.
+
+<figure><img src="/photos/notes/photo-twin-green-domes-railway-wires/14-domes.webp" width="774" height="863" alt="Recadrage serré des deux dômes avec des fils passant en dessous" loading="lazy" decoding="async" /><figcaption>Les fils s'arrêtent juste sous les deux dômes. Rien ne les traverse.</figcaption></figure>
+
+Vers le début de La Sente étroite du Bout-du-Monde, Bashō écrit que chaque jour est un voyage, et dans la traduction de Sam Hamill, le voyage lui-même est le foyer. Lisez cela, ce n'est pas une photo d'un bâtiment. C'est une photo du passage devant un bâtiment, et le passage est le sujet. La plupart des photos de dômes comme ceux-ci les montrent seuls, nettoyés et bien droits, comme si la ville autour n'existait pas. Celle-ci les montre tels que les gens les rencontrent vraiment, sous un angle, à travers une vitre, avec les fils qui gênent. Les dômes attirent toujours le regard. L'image ne prétend juste pas que c'était facile.
