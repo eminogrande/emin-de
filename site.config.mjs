@@ -79,6 +79,17 @@ export default {
 	locales: [
 		{ code: 'en', hreflang: 'en', label: 'English', dateLocale: 'en-GB' },
 		{ code: 'de', hreflang: 'de', label: 'Deutsch', dateLocale: 'de-DE' },
+		// Top 10 by total speakers (Ethnologue 2026) besides English. Posts in these
+		// languages are machine translations made by plugins/translate.py, labelled as such.
+		{ code: 'zh', hreflang: 'zh-Hans', label: '中文', dateLocale: 'zh-CN' },
+		{ code: 'hi', hreflang: 'hi', label: 'हिन्दी', dateLocale: 'hi-IN' },
+		{ code: 'es', hreflang: 'es', label: 'Español', dateLocale: 'es-ES' },
+		{ code: 'ar', hreflang: 'ar', label: 'العربية', dateLocale: 'ar', dir: 'rtl' },
+		{ code: 'fr', hreflang: 'fr', label: 'Français', dateLocale: 'fr-FR' },
+		{ code: 'bn', hreflang: 'bn', label: 'বাংলা', dateLocale: 'bn-BD' },
+		{ code: 'pt', hreflang: 'pt', label: 'Português', dateLocale: 'pt-BR' },
+		{ code: 'id', hreflang: 'id', label: 'Bahasa Indonesia', dateLocale: 'id-ID' },
+		{ code: 'ur', hreflang: 'ur', label: 'اردو', dateLocale: 'ur-PK', dir: 'rtl' },
 	],
 
 	// Authors. type "human" = a real person. type "ai_editorial" = an openly named

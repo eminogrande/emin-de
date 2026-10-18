@@ -1,6 +1,7 @@
 // URL scheme and UI strings. Pure functions over site.config.mjs, safe to import
 // from Astro, Node scripts and the Cloudflare Worker alike.
 import config from '../../site.config.mjs';
+import UI from '../i18n/ui.json' with { type: 'json' };
 
 export const DEFAULT_LANG = config.locales[0].code;
 export const LANGS = config.locales.map((l) => l.code);
@@ -25,73 +26,38 @@ const cardVersion = (post) => {
 	for (const ch of `${post.title}|${post.image || ''}|${post.cover?.src || ''}`) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
 	return h.toString(36);
 };
-export const ogImagePath = (post) => `/og/${post.lang}/${post.slug}.png?v=${cardVersion(post)}`;
+export const ogImagePath = (post) => (post.translatedFrom && post.ogSource ? `/og/${post.ogSource.lang}/${post.ogSource.slug}.png?v=${post.ogSource.v}` : `/og/${post.lang}/${post.slug}.png?v=${cardVersion(post)}`);
+export const ogVersion = (post) => cardVersion(post);
 
-const STRINGS = {
-	en: {
-		by: 'By',
-		published: 'Published',
-		updated: 'Updated',
-		basically: 'Basically,',
-		sources: 'Sources',
-		tldr: 'TL;DR',
-		posts: 'Posts',
-		allPosts: 'All posts',
-		categories: 'Categories',
-		formats: 'Formats',
-		authors: 'Authors',
-		archive: 'Archive',
-		minRead: 'min read',
-		words: 'words',
-		readMarkdown: 'Read this post as Markdown',
-		alsoIn: 'Also available in',
-		originallyAt: 'First published at',
-		provenance: { transcript: 'From a spoken transcript', written: 'Written by the author', ai_generated: 'AI-generated', human: 'Written by a person', mixed: 'Human and AI mixed', unknown: 'Origin not recorded' },
-		aiAssisted: { true: 'AI-assisted', false: 'No AI assistance', unknown: 'AI assistance not recorded' },
-		reviewed: { true: 'Reviewed by a human', false: 'Not yet reviewed by a human' },
-		watch: 'Watch the video',
-		feeds: 'Feeds',
-		home: 'Home',
-		latest: 'Latest posts',
-		talks: 'Talks and videos',
-		changelog: 'Changelog',
-	},
-	de: {
-		by: 'Von',
-		published: 'Veröffentlicht',
-		updated: 'Aktualisiert',
-		basically: 'Im Kern:',
-		sources: 'Quellen',
-		tldr: 'Kurz gesagt',
-		posts: 'Beiträge',
-		allPosts: 'Alle Beiträge',
-		categories: 'Kategorien',
-		formats: 'Formate',
-		authors: 'Autoren',
-		archive: 'Archiv',
-		minRead: 'Min. Lesezeit',
-		words: 'Wörter',
-		readMarkdown: 'Diesen Beitrag als Markdown lesen',
-		alsoIn: 'Auch verfügbar auf',
-		originallyAt: 'Zuerst erschienen bei',
-		provenance: { transcript: 'Aus einem gesprochenen Transkript', written: 'Vom Autor geschrieben', ai_generated: 'KI-generiert', human: 'Von einem Menschen geschrieben', mixed: 'Mensch und KI gemischt', unknown: 'Herkunft nicht erfasst' },
-		aiAssisted: { true: 'KI-unterstützt', false: 'Ohne KI-Unterstützung', unknown: 'KI-Unterstützung nicht erfasst' },
-		reviewed: { true: 'Von einem Menschen geprüft', false: 'Noch nicht von einem Menschen geprüft' },
-		watch: 'Video ansehen',
-		feeds: 'Feeds',
-		home: 'Start',
-		latest: 'Neueste Beiträge',
-		talks: 'Vorträge und Videos',
-		changelog: 'Changelog',
-	},
-};
+// UI strings for every locale: src/i18n/ui.json, keyed by the English text
+// (plus dotted keys for structured labels). Made with plugins/translate.py from
+// src/i18n/en.json; German is hand-written.
 
-export function t(lang, key) {
-	return (STRINGS[lang] || STRINGS.en)[key] ?? STRINGS.en[key];
+export const localeOf = (lang) => config.locales.find((l) => l.code === lang) || config.locales[0];
+export const langDir = (lang) => localeOf(lang).dir || 'ltr';
+
+// tr(lang, key, vars): the UI string in that language, else English, else the key.
+export function tr(lang, key, vars = {}) {
+	const text = UI[lang]?.[key] ?? UI.en?.[key] ?? key;
+	return String(text).replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 }
 
-export function label(map, lang) {
-	return map?.[lang] || map?.[DEFAULT_LANG] || '';
+const NESTED = ['provenance', 'aiAssisted', 'reviewed'];
+export function t(lang, key) {
+	if (NESTED.includes(key)) {
+		const out = {};
+		for (const k of Object.keys(UI.en).filter((k) => k.startsWith(`${key}.`))) out[k.slice(key.length + 1)] = tr(lang, k);
+		return out;
+	}
+	return tr(lang, key);
+}
+
+// label(map, lang, key): the config label in that language. Falls back to the
+// UI dictionary entry `key` (e.g. "cat.nuri"), then to the default language.
+export function label(map, lang, key) {
+	if (map?.[lang]) return map[lang];
+	if (key && UI[lang]?.[key]) return UI[lang][key];
+	return map?.[DEFAULT_LANG] || '';
 }
 
 export function dateLabel(lang, iso) {

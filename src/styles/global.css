@@ -56,7 +56,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; font-size: 100%; }
+html { -webkit-text-size-adjust: 100%; font-size: 100%; overflow-x: clip; }
 body {
 	margin: 0;
 	background: var(--paper);
@@ -80,8 +80,8 @@ a:hover { color: var(--heading); }
 p { margin: 0 0 1.5rem; }
 strong, b { font-weight: 700; color: var(--heading); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.skip { position: absolute; left: -999px; top: 0; background: var(--paper); padding: 0.6rem 1rem; z-index: 10; }
-.skip:focus { left: 0.5rem; top: 0.5rem; }
+.skip { position: absolute; inset-inline-start: -999px; top: 0; background: var(--paper); padding: 0.6rem 1rem; z-index: 10; }
+.skip:focus { inset-inline-start: 0.5rem; top: 0.5rem; }
 .wrap, .container { width: 100%; max-width: var(--container); margin: 0 auto; padding-inline: var(--gutter); }
 
 /* --- headlines: one size, one face ------------------------------------------- */
@@ -122,6 +122,16 @@ a.eyebrow:hover, a.kicker:hover { color: var(--heading); }
 .masthead nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; row-gap: 0; }
 .masthead nav a { color: var(--ink); text-decoration: none; padding-block: 0.5rem; }
 .masthead nav a:hover, .masthead nav a[aria-current='page'] { color: var(--heading); text-decoration: underline; text-decoration-color: var(--accent); }
+/* Language menu: plain text list that opens under the current language. No box, no badge. */
+.lang-menu { position: relative; }
+.lang-menu summary { list-style: none; cursor: pointer; color: var(--ink); padding-block: 0.5rem; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 0.25em; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary::after { content: ' ▾'; color: var(--accent); }
+.lang-menu ul { position: absolute; inset-inline-end: 0; top: 100%; z-index: 10; margin: 0; padding: 0.5rem 1rem; list-style: none; background: var(--paper); box-shadow: 0 0.5rem 1.5rem rgb(0 43 54 / 0.12); min-width: 12rem; max-width: calc(100vw - 2.5rem); }
+.lang-menu li a { display: block; padding-block: 0.35rem; }
+.lang-menu li a[aria-current='true'] { color: var(--heading); font-weight: 700; }
+.machine-translation { color: var(--muted); }
+[dir='rtl'] .art-story__inner, [dir='rtl'] .prose { text-align: start; }
 main { display: block; }
 
 /* --- bands -------------------------------------------------------------------- */

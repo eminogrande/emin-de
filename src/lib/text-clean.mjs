@@ -47,8 +47,8 @@ export function cleanTitle(raw, { fallback = '', lang = 'en', date = '', formatL
 	let title = decodeEntities(raw).replace(/\s+/g, ' ').trim();
 	if (isUntitled(title)) title = fallback && !isUntitled(fallback) ? fallback : '';
 	if (!title) {
-		const d = date ? new Date(`${date}T00:00:00Z`).toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
-		title = `${formatLabel || (lang === 'de' ? 'Notiz' : 'Note')}${d ? `, ${d}` : ''}`;
+		const d = date ? new Date(`${date}T00:00:00Z`).toLocaleDateString(({ de: 'de-DE', en: 'en-GB' })[lang] || lang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
+		title = `${formatLabel || ({ de: 'Notiz' })[lang] || 'Note'}${d ? `, ${d}` : ''}`;
 		// e.g. "Photo, 6 January 2026"; the label passed in is singular.
 	}
 	// Trailing colon/semicolon/comma/dash or a lone full stop is dangling.

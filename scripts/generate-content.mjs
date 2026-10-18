@@ -74,6 +74,15 @@ const coverStats = await buildCovers(posts, {
 	labelFor: (post) => config.categories[post.category]?.[post.lang] || config.categories[post.category]?.en || post.category,
 });
 console.log(`covers: ${coverStats.raster} photo cover(s), ${coverStats.generated} generated typographic cover(s)`);
+// Machine translations reuse their original's share card (one PNG per work).
+{
+	const byId = new Map(posts.map((p) => [p.id, p]));
+	const { ogVersion } = await import('../src/lib/paths.mjs');
+	for (const post of posts.filter((p) => p.translatedFrom)) {
+		const source = byId.get(post.translatedFrom);
+		if (source) post.ogSource = { lang: source.lang, slug: source.slug, v: ogVersion(source) };
+	}
+}
 const photoStats = await buildPhotos();
 console.log(`photos: ${photoStats.count} gallery photo(s), portrait ${photoStats.portrait ? 'present' : 'not present (fallback monogram)'}`);
 // Self-hosted display serif (Newsreader, OFL), copied from @fontsource: no
@@ -91,7 +100,7 @@ mkdirSync('src/generated', { recursive: true });
 writeFileSync('src/generated/content.json', JSON.stringify({ generatedFrom: process.env.CONTENT_DIRS || 'content', posts, changelog }));
 // Slim graph for the runtime (Worker / Node API, MCP): no rendered HTML, no
 // section copies. Indexable posts only; noindex posts are not served by the API.
-const slim = posts.filter((p) => !p.noindex).map(({ html, sections, ...rest }) => ({ ...rest, sections: sections.map((s) => ({ heading: s.heading, body: '' })) }));
+const slim = posts.filter((p) => !p.noindex && !p.translatedFrom).map(({ html, sections, ...rest }) => ({ ...rest, sections: sections.map((s) => ({ heading: s.heading, body: '' })) }));
 writeFileSync('src/generated/api.json', JSON.stringify({ posts: slim }));
 // Redirects: config.redirects + old emino.app slugs -> emin.de. One JSON for
 // the Worker and the Node origin, a _redirects table, and a doc for emino.app.

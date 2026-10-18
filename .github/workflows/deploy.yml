@@ -36,6 +36,8 @@ jobs:
           fail=0
           for f in $(git diff --name-only --diff-filter=AM "$base" HEAD -- 'content/posts/**/*.md'); do
             grep -q '^original_url:' "$f" && continue
+            # Machine translations (plugins/translate.py) are checked against their source, not the house style.
+            grep -q '^translated_from:' "$f" && continue
             python3 plugins/check_draft.py "$f" || fail=1
           done
           exit $fail

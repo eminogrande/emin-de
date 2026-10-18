@@ -6,7 +6,7 @@
 // (front matter or a "Basically," paragraph); nothing is ever generated.
 // HTML and the Markdown mirror come from the same parsed sections.
 import config from '../../site.config.mjs';
-import { t, label, categoryPath, authorPath } from '../lib/paths.mjs';
+import { t, tr, label, categoryPath, authorPath, localeOf, postPath, join } from '../lib/paths.mjs';
 import { displayAuthor } from '../lib/content-build-shared.mjs';
 import { longDate, readTime, firstPublishedLine } from '../lib/magazine.mjs';
 const { post, alternates = [] } = Astro.props;
@@ -14,17 +14,18 @@ const author = config.authors[post.author];
 const isAi = author.type === 'ai_editorial';
 const supervisor = isAi ? config.authors[author.supervisor] : null;
 const others = alternates.filter((a) => a.lang !== post.lang);
-const de = post.lang === 'de';
 const first = firstPublishedLine(post);
 const showCover = !post.heroHtml && post.cover && !post.cover.generated && !post.cover.inBody;
 const bands = post.html.filter((s) => s.heading || s.html.trim() || post.basically[s.id || '_intro']);
 const asideFor = (s) => post.basically[s.id || '_intro'] || null;
 const hasYoutube = post.html.some((s) => s.html.includes('yt-lite'));
-const ui = de
-	? { inShort: 'Kurz gesagt:', tldr: 'Kurz gesagt:', copy: 'URL kopieren', copied: 'Kopiert', by: 'Von', info: 'Angaben zum Beitrag' }
-	: { inShort: 'In short:', tldr: 'TL;DR:', copy: 'Copy URL', copied: 'Copied', by: 'By', info: 'Article info' };
+const L = post.lang;
+const ui = { inShort: tr(L, 'In short:'), tldr: tr(L, 'TL;DR:'), copy: tr(L, 'Copy URL'), copied: tr(L, 'Copied'), by: tr(L, 'By'), info: tr(L, 'Article info') };
+// Machine translation: say so on the page and link the original.
+const [srcLang, srcSlug] = post.translatedFrom ? post.translatedFrom.split('/') : [];
+const sourceLink = srcLang ? { path: postPath(srcLang, srcSlug), label: localeOf(srcLang).label, lang: srcLang } : null;
 const basicallyLabel = t(post.lang, 'basically');
-const principlesPath = de ? '/de/principles' : '/principles';
+const principlesPath = L === 'de' ? '/de/principles' : '/principles';
 // Closing quote: only the author's own words. The last Basically line of the
 // post, else nothing (the band then carries only the post footer).
 const closing = post.conclusion || [...bands].reverse().map(asideFor).find(Boolean) || null;
@@ -33,7 +34,7 @@ const closing = post.conclusion || [...bands].reverse().map(asideFor).find(Boole
 <article class="art" lang={post.lang}>
 	<header class="art-hero">
 		<div class="container art-hero__inner">
-			<p class="art-hero__eyebrow"><a href={categoryPath(post.lang, post.category)}>{label(config.categories[post.category], post.lang)}</a></p>
+			<p class="art-hero__eyebrow"><a href={categoryPath(post.lang, post.category)}>{label(config.categories[post.category], L, `cat.${post.category}`)}</a></p>
 			<h1 class="display art-hero__title post-title">{post.title}</h1>
 			{post.heroHtml && <figure class="art-hero__illustration" set:html={post.heroHtml} />}
 			{showCover && (
@@ -54,10 +55,13 @@ const closing = post.conclusion || [...bands].reverse().map(asideFor).find(Boole
 				<button class="art-meta__copy" type="button" data-copy-url data-copy-label={ui.copy} data-copied-label={ui.copied} aria-live="polite">{ui.copy}</button>
 			</div>
 			
+			{sourceLink && (
+				<p class="art-languages machine-translation">{tr(L, 'Machine translation from {lang}. The original is the reference:', { lang: sourceLink.label })} <a href={sourceLink.path} hreflang={sourceLink.lang} lang={sourceLink.lang}>{tr(L, 'Read the original')}</a>.</p>
+			)}
 			{others.length > 0 && (
 				<p class="art-languages">
 					{t(post.lang, 'alsoIn')}{' '}
-					{others.map((a, i) => <><a href={a.path} hreflang={a.lang} lang={a.lang}>{a.lang === 'de' ? 'Deutsch' : 'English'}</a>{i < others.length - 1 ? ', ' : ''}</>)}.
+					{others.map((a, i) => <><a href={a.path} hreflang={a.lang} lang={a.lang}>{localeOf(a.lang).label}</a>{i < others.length - 1 ? ', ' : ''}</>)}.
 				</p>
 			)}
 		</div>
@@ -98,8 +102,8 @@ const closing = post.conclusion || [...bands].reverse().map(asideFor).find(Boole
 					</section>
 				)}
 				{first && <p class="first-published">{first.prefix} <a href={post.originalUrl} rel="noopener">{first.site}</a>{first.suffix}</p>}
-				{post.thirdPartySummary && <p>{de ? 'Zusammenfassung fremden Materials; Quelle im Original verlinkt.' : 'Summary of third-party material; see the original for the source.'}</p>}
-				<p><a href={post.markdownPath}>{t(post.lang, 'readMarkdown')}</a> · <a href={`${config.repo}/blob/main/${post.file}`}>GitHub</a> · <a href={principlesPath}>{de ? 'Grundsätze' : 'Principles'}</a></p>
+				{post.thirdPartySummary && <p>{tr(L, 'Summary of third-party material; see the original for the source.')}</p>}
+				<p><a href={post.markdownPath}>{t(post.lang, 'readMarkdown')}</a> · <a href={`${config.repo}/blob/main/${post.file}`}>GitHub</a> · <a href={principlesPath}>{tr(L, 'Principles')}</a></p>
 			</div>
 		</div>
 	</footer>

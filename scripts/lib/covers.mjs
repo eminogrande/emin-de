@@ -64,7 +64,10 @@ export async function buildCovers(posts, { dirs, labelFor, outDir = 'public/cove
 	mkdirSync(outDir, { recursive: true });
 	let raster = 0;
 	let generated = 0;
-	for (const post of posts) {
+	// Machine translations share their original's cover (same picture, no extra files).
+	const byId = new Map(posts.map((p) => [p.id, p]));
+	const originals = posts.filter((p) => !p.translatedFrom);
+	for (const post of originals) {
 		const base = `${post.lang}-${post.slug}`;
 		const src = sourceFor(post, dirs);
 		if (src) {
@@ -98,6 +101,10 @@ export async function buildCovers(posts, { dirs, labelFor, outDir = 'public/cove
 		writeFileSync(file, svgCover(post, labelFor(post)));
 		post.cover = { src: `/covers/${base}.svg`, srcset: null, width: 1200, height: 800, generated: true, inBody: false };
 		generated += 1;
+	}
+	for (const post of posts.filter((p) => p.translatedFrom)) {
+		const source = byId.get(post.translatedFrom);
+		if (source?.cover) post.cover = { ...source.cover, inBody: source.cover.generated ? false : post.html.slice(0, 2).some((s) => s.html.includes(post.image || source.cover.src)) };
 	}
 	return { raster, generated };
 }

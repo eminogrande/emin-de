@@ -7,7 +7,7 @@ import '../styles/global.css';
 import config from '../../site.config.mjs';
 import { SITE_NAME, AUTHOR_NAME, absoluteUrl, DISCOVERY_LINKS, organizationSchema, personSchema, websiteSchema } from '../lib/site.mjs';
 import { hreflangLinks } from '../lib/routes.mjs';
-import { DEFAULT_LANG, t, homePath, postsIndexPath, feedPath, join } from '../lib/paths.mjs';
+import { DEFAULT_LANG, t, tr, homePath, postsIndexPath, feedPath, join, langDir, localeOf } from '../lib/paths.mjs';
 import { activeLangs } from '../lib/corpus.mjs';
 
 const {
@@ -35,23 +35,27 @@ const ph = config.analytics.posthog;
 const ga = config.analytics.ga4;
 const feedLang = activeLangs.includes(lang) ? lang : DEFAULT_LANG;
 const de = lang === 'de';
+const T = (key) => tr(lang, key);
 const verify = config.verification || {};
-const principleLine = config.principles?.footer?.[lang] || config.principles?.footer?.en;
+const principleLine = config.principles?.footer?.[lang] || tr(lang, 'footer');
 const here = Astro.url.pathname.replace(/\/$/, '') || '/';
 const navItems = [
-	{ href: homePath(lang), text: de ? 'Start' : 'Home', cls: 'nav-home' },
+	{ href: homePath(lang), text: T('Home'), cls: 'nav-home' },
 	{ href: postsIndexPath(lang), text: t(lang, 'posts') },
-	{ href: '/photos', text: de ? 'Fotos' : 'Photos' },
-	{ href: '/about', text: de ? 'Über mich' : 'About' },
-	{ href: de ? '/de/principles' : '/principles', text: de ? 'Grundsätze' : 'Principles' },
+	{ href: '/photos', text: T('Photos') },
+	{ href: '/about', text: T('About') },
+	{ href: de ? '/de/principles' : '/principles', text: T('Principles') },
 ];
+// Language menu: this page in every language it exists in, else that language's home.
+const sameDoc = new Map((alternates || []).map((a) => [a.lang, a.path]));
+const languageMenu = activeLangs.map((l) => ({ code: l, label: localeOf(l).label, href: sameDoc.get(l) || homePath(l), current: l === lang }));
 // PostHog snippet below runs cookieless_mode "always": no cookies, no
 // local/session storage, so no consent banner is needed for it. GA4 only
 // loads after an explicit opt-in stored by the /privacy consent switch.
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={langDir(lang)}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -125,13 +129,16 @@ const navItems = [
 		)}
 	</head>
 	<body>
-		<a class="skip" href="#main">{de ? 'Zum Inhalt springen' : 'Skip to content'}</a>
+		<a class="skip" href="#main">{T('Skip to content')}</a>
 		<header class="masthead">
 			<div class="wrap">
 				<a class="wordmark" href={homePath(lang)} aria-label="emin.de, also at 🤔.tk"><span aria-hidden="true">🤔<span class="dot">.</span>tk <span class="wordmark__sep">/</span> emin<span class="dot">.</span>de</span></a>
-				<nav aria-label={de ? 'Hauptmenü' : 'Main'}>
+				<nav aria-label={T('Main')}>
 					{navItems.map((item) => <a class={item.cls} href={item.href} aria-current={here === item.href ? 'page' : undefined}>{item.text}</a>)}
-					{activeLangs.filter((l) => l !== lang).map((l) => <a href={homePath(l)} hreflang={l} lang={l} aria-label={l === 'de' ? 'Deutsch' : 'English'}>{l.toUpperCase()}</a>)}
+					<details class="lang-menu">
+						<summary aria-label={T('Language')}>{localeOf(lang).label}</summary>
+						<ul>{languageMenu.map((item) => <li><a href={item.href} hreflang={item.code} lang={item.code} dir={langDir(item.code)} aria-current={item.current ? 'true' : undefined}>{item.label}</a></li>)}</ul>
+					</details>
 				</nav>
 			</div>
 		</header>
@@ -144,31 +151,31 @@ const navItems = [
 			<div class="wrap">
 				<div>
 					<p class="principle"><a href={de ? '/de/principles' : '/principles'}>{principleLine}</a></p>
-					<p>{de ? 'Geschrieben von' : 'Written by'} {AUTHOR_NAME}, {de ? 'Herausgeber von' : 'publisher of'} <a href={config.publisher.publication.url}>{config.publisher.publication.name}</a>. {de ? 'Jeder Beitrag ist eine Markdown-Datei auf' : 'Every post is a Markdown file on'} <a href={config.repo}>GitHub</a>.</p>
+					<p>{T('Written by')} {AUTHOR_NAME}, {T('publisher of')} <a href={config.publisher.publication.url}>{config.publisher.publication.name}</a>. {T('Every post is a Markdown file on')} <a href={config.repo}>GitHub</a>.</p>
 				</div>
 				<div>
-					<p class="foot-title">{de ? 'Lesen' : 'Read'}</p>
+					<p class="foot-title">{T('Read')}</p>
 					<ul>
 						<li><a href={postsIndexPath(lang)}>{t(lang, 'allPosts')}</a></li>
 						<li><a href={join(lang, '/archive')}>{t(lang, 'archive')}</a></li>
-						<li><a href="/talks">{de ? 'Vorträge' : 'Talks'}</a></li>
-						<li><a href="/photos">{de ? 'Fotos' : 'Photos'}</a></li>
-						<li><a href="/sayings">{de ? 'Sprichwörter' : 'Sayings'}</a></li>
+						<li><a href="/talks">{T('Talks')}</a></li>
+						<li><a href="/photos">{T('Photos')}</a></li>
+						<li><a href="/sayings">{T('Sayings')}</a></li>
 						<li><a href={feedPath(feedLang, 'rss')}>RSS</a>, <a href={feedPath(feedLang, 'atom')}>Atom</a>, <a href={feedPath(feedLang, 'json')}>JSON Feed</a></li>
 					</ul>
 				</div>
 				<div>
-					<p class="foot-title">{de ? 'Seite' : 'Site'}</p>
+					<p class="foot-title">{T('Site')}</p>
 					<ul>
-						<li><a href="/about">{de ? 'Über mich' : 'About'}</a></li>
-						<li><a href={de ? '/de/principles' : '/principles'}>{de ? 'Grundsätze' : 'Principles'}</a></li>
-						<li><a href="/contact">{de ? 'Kontakt' : 'Contact'}</a></li>
-						<li><a href="/privacy">{de ? 'Datenschutz' : 'Privacy'}</a></li>
-						<li><a href="/developers">{de ? 'Für Entwickler und Agenten' : 'For developers and agents'}</a> (<a href="/llms.txt">llms.txt</a>)</li>
+						<li><a href="/about">{T('About')}</a></li>
+						<li><a href={de ? '/de/principles' : '/principles'}>{T('Principles')}</a></li>
+						<li><a href="/contact">{T('Contact')}</a></li>
+						<li><a href="/privacy">{T('Privacy')}</a></li>
+						<li><a href="/developers">{T('For developers and agents')}</a> (<a href="/llms.txt">llms.txt</a>)</li>
 						<li><a href="/changelog">Changelog</a></li>
 					</ul>
 				</div>
-				<p class="copy">{year} {AUTHOR_NAME}. {de ? 'Texte unter' : 'Text licensed'} {config.license.text}, {de ? 'Code unter' : 'code'} {config.license.code}.</p>
+				<p class="copy">{year} {AUTHOR_NAME}. {T('Text licensed')} {config.license.text}, {T('code')} {config.license.code}.</p>
 			</div>
 		</footer>
 	</body>

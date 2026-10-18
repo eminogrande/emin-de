@@ -49,7 +49,7 @@ export function postSchema(post) {
 		dateModified: post.updated,
 		inLanguage: post.lang,
 		wordCount: post.wordCount,
-		articleSection: label(config.categories[post.category], post.lang),
+		articleSection: label(config.categories[post.category], post.lang, `cat.${post.category}`),
 		genre: post.format,
 		keywords: post.tags.join(', ') || undefined,
 		image: [absoluteUrl(ogImagePath(post)), ...(post.image ? [absoluteUrl(post.image)] : [])],
@@ -74,7 +74,12 @@ export function postSchema(post) {
 	blog.speakable = { '@type': 'SpeakableSpecification', cssSelector: post.tldr.length ? ['.post-title', '.tldr'] : ['.post-title', '.post-dek'] };
 	if (post.tldr.length) blog.abstract = post.tldr.join(' ');
 	const translations = Object.entries(post.translations).map(([lang, slug]) => posts.find((p) => p.lang === lang && p.slug === slug)).filter(Boolean);
-	if (translations.length) blog.workTranslation = translations.map((p) => ({ '@id': `${absoluteUrl(p.path)}#article` }));
+	const source = post.translatedFrom ? posts.find((p) => p.id === post.translatedFrom) : null;
+	if (source) {
+		// Machine translation: the original is the work, this page its translation.
+		blog.translationOfWork = { '@id': `${absoluteUrl(source.path)}#article` };
+		blog.translator = { '@type': 'Organization', name: 'Machine translation (plugins/translate.py)' };
+	} else if (translations.length) blog.workTranslation = translations.map((p) => ({ '@id': `${absoluteUrl(p.path)}#article` }));
 	const out = [
 		blog,
 		{
@@ -82,7 +87,7 @@ export function postSchema(post) {
 			'@type': 'BreadcrumbList',
 			itemListElement: [
 				{ '@type': 'ListItem', position: 1, name: t(post.lang, 'home'), item: absoluteUrl(post.lang === DEFAULT_LANG ? '/' : `/${post.lang}`) },
-				{ '@type': 'ListItem', position: 2, name: label(config.categories[post.category], post.lang), item: absoluteUrl(`${post.lang === DEFAULT_LANG ? '' : `/${post.lang}`}/category/${post.category}`) },
+				{ '@type': 'ListItem', position: 2, name: label(config.categories[post.category], post.lang, `cat.${post.category}`), item: absoluteUrl(`${post.lang === DEFAULT_LANG ? '' : `/${post.lang}`}/category/${post.category}`) },
 				{ '@type': 'ListItem', position: 3, name: post.title, item: url },
 			],
 		},
@@ -291,7 +296,7 @@ ${facets.join('\n')}
 }
 
 export function llmsFullTxt() {
-	return [`# ${config.name}, complete text`, '', `> ${SITE_DEFINITION}`, '', `${posts.length} post(s). Generated from the Markdown files in ${config.repo}.`, '', '---', '', ...posts.map((post) => `${post.markdown}\n---\n`)].join('\n');
+	return [`# ${config.name}, complete text`, '', `> ${SITE_DEFINITION}`, '', `${posts.filter((p) => !p.translatedFrom).length} original post(s); machine translations are on their own URLs. Generated from the Markdown files in ${config.repo}.`, '', '---', '', ...posts.filter((p) => !p.translatedFrom).map((post) => `${post.markdown}\n---\n`)].join('\n');
 }
 
 export { markdownMirrorPath, isTalk };

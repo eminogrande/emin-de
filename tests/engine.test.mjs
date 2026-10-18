@@ -34,7 +34,8 @@ test('no quoted line in a Basically aside repeats across posts', () => {
 	const { posts } = loadContent({ dirs: ['content'] });
 	const seen = new Map();
 	const clashes = [];
-	for (const post of posts) {
+	// Originals only: a machine translation repeats its source's quotes by design.
+	for (const post of posts.filter((p) => !p.translatedFrom)) {
 		const owner = post.translationKey || post.slug;
 		for (const line of Object.values(post.basically || {})) {
 			for (const [, q] of String(line).matchAll(/["\u201c]([^"\u201d]{12,})["\u201d]/g)) {
@@ -75,7 +76,7 @@ test('every post has HTML, Markdown mirror, OG image', () => {
 	for (const post of graph.posts) {
 		assert.ok(existsSync(dist(`${post.path.slice(1)}/index.html`)), post.path);
 		assert.ok(existsSync(dist(`${post.path.slice(1)}/index.md`)), `${post.path}/index.md`);
-		assert.ok(existsSync(dist(`og/${post.lang}/${post.slug}.png`)), `og for ${post.slug}`);
+		assert.ok(existsSync(dist(post.translatedFrom ? `og/${post.translatedFrom}.png` : `og/${post.lang}/${post.slug}.png`)), `og for ${post.slug}`);
 		const md = read(`${post.path.slice(1)}/index.md`);
 		assert.match(md, new RegExp(`^# ${post.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
 		assert.match(md, /Provenance: (transcript|written|ai_generated|human|mixed|unknown)\./);
@@ -108,6 +109,21 @@ test('hreflang: reciprocal with x-default, in HTML and sitemap', () => {
 	assert.match(de, /Im Kern:/);
 	const sitemap = read('sitemap.xml');
 	assert.match(sitemap, /<loc>https:\/\/emin\.de\/de\/posts\/synthetischer-uebersetzungstest<\/loc>.*hreflang="en"/);
+});
+
+test('i18n: language menu, rtl, machine translations link their original and share its card', () => {
+	const t = graph.posts.find((p) => p.translatedFrom && p.lang === 'ar');
+	if (!t) return;
+	const html = read(`${t.path.slice(1)}/index.html`);
+	assert.match(html, /<html lang="ar" dir="rtl"/);
+	assert.match(html, /class="lang-menu"/);
+	const [lang, slug] = t.translatedFrom.split('/');
+	const src = lang === 'en' ? `/posts/${slug}` : `/${lang}/posts/${slug}`;
+	assert.ok(html.includes(`class="art-languages machine-translation"`), 'machine translation note');
+	assert.ok(html.includes(`href="${src}"`), 'links the original');
+	assert.match(html, new RegExp(`og:image" content="https://emin\\.de/og/${lang}/${slug}\\.png`));
+	assert.match(html, /hreflang="x-default"/);
+	assert.ok(!existsSync(dist(`og/ar/${slug}.png`)), 'no extra share card per translation');
 });
 
 test('no-fallback rule: posts without a translation emit no hreflang and no foreign route', () => {
@@ -323,7 +339,8 @@ test('llms.txt: H1, product definition first, Markdown links only, every indexab
 	assert.ok(!/^\s*-\s+https?:\/\//m.test(body), 'bare URL entry');
 	for (const post of graph.posts.filter((p) => !p.noindex)) assert.ok(body.includes(`https://emin.de${post.path})`), post.path);
 	const full = read('llms-full.txt');
-	for (const post of graph.posts.filter((p) => !p.noindex)) assert.ok(full.includes(`# ${post.title}`));
+	// llms-full.txt carries the originals; machine translations live on their own URLs.
+	for (const post of graph.posts.filter((p) => !p.noindex && !p.translatedFrom)) assert.ok(full.includes(`# ${post.title}`), post.path);
 });
 
 test('listing routes: category, format, author, archive, talks, changelog each have HTML + Markdown', () => {

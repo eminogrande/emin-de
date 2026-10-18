@@ -1,0 +1,142 @@
+---
+title: "رفع حد سرعة Fazua Ride 50 من جهاز Mac، بدون صندوق"
+description: "كيف رفعت أنا ووكيلي حد السرعة في Fazua Ride 50 Evation من 25 إلى 55 كم/س عبر USB من جهاز MacBook، مع البرنامج الثابت 2.04 وأداة مفتوحة المصدر."
+date: "2026-10-16"
+updated: "2026-10-16"
+lang: ar
+translated_from: "en/fazua-ride-50-speed-unlock-mac"
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back"]
+category: building
+format: guide
+author: emin
+provenance: mixed
+ai_assisted: true
+reviewed_by_human: false
+tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
+source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
+tldr: ["يخزن Fazua Ride 50 حد 25 كم/س كقيمة واحدة في حزمة القيادة. في البرنامج الثابت 2.04 يمكنك تغييره عبر USB.", "فعلتها من MacBook Pro M4. كانت الأداة مفتوحة المصدر لنظام Windows فقط، لذا استبدل وكيلي طبقة USB فيها بـ hidapi.", "كان يجب إعادة البرنامج الثابت 2.50 إلى 2.04 أولاً، عبر FAZUA Toolbox الرسمية. ملف 2.04 هو الأصلي من fazua.com.", "قراءة تحقق بعد الكتابة، 55.01 كم/س. صندوق Badass غير مطلوب لهذا."]
+sections: [{"basically": "دراجة Canyon Roadlite:ON موديل 2020 مع Fazua Ride 50 Evation، وصندوق تعديل ظل يومض بالأصفر."}, {"basically": "الصندوق يكذب على مستشعر السرعة. البرنامج يغير فقط الحد الذي يتحقق منه المحرك."}, {"basically": "دراجتي، وجهاز MacBook، وكابل mini USB، ومفك T10، وFAZUA Toolbox وحوالي 75 سطراً من Python."}, {"basically": "أخرج حزمة القيادة، ركب البطارية، انزع غطاء USB، وأدخل الكابل. يراه الـ Mac كـ evation v2.50."}, {"basically": "أولاً قراءة فقط. أظهر جهازي 24.98 كم/س وعجلة 2121 مم. هذا الملف هو أيضاً النسخة الاحتياطية."}, {"basically": "في FAZUA Toolbox اختر Manual وليس Online، واختر ملف 2.04 ودعه يقوم بالتحميل والمعايرة."}, {"basically": "أمر واحد يكتب الحد الجديد، والدراجة تؤكده، وقراءة ثانية تظهر 55.01 كم/س."}, {"basically": "وميض مصابيح LED البيضاء بالتناوب يعني أن الريموت يحدث نفسه. اتركه وشأنه حتى يظهر الأخضر."}, {"basically": "نقرة خاطئة، ومحاولتا كتابة ملغيتان، وضوء أحمر لم يكن سوى حزمة قيادة غير مركبة جيداً."}, {"basically": "الحد نفسه في كل وضع. المدى ليس كذلك. أمر واحد يعيده إلى 25."}]
+---
+## الدراجة والمشكلة
+
+دراجتي هي Canyon Roadlite:ON AL 7.0 موديل 2020، مقاس M، بلون رمادي pace وبرتقالي. المحرك هو Fazua Evation، الذي تسميه Fazua اليوم Ride 50 Evation. حزمة القيادة، أي المحرك والبطارية في قطعة واحدة طويلة، تجلس في الأنبوب السفلي وتخرج برافعة واحدة. البطارية هي Energy 250، والريموت اللمسي مدمج في الهيكل. لا توجد شاشة على المقود، لذا الدراجة لا تخبرك أبداً كم سرعتك.
+
+قبل هذا كانت حزمة القيادة تعمل بفيرموير 2.50 والبطارية بفيرموير 1.15. أعرف هذا فقط لأنني قرأته باستخدام FAZUA Toolbox، انظر أدناه.
+
+المساعدة تتوقف عند 25 كم/س، مثل كل pedelec في الاتحاد الأوروبي. أردت أن أرى كيف تشعر الدراجة مع المزيد. لذا في 7 أكتوبر اشتريت Badass Box 4 لـ Fazua. كتبت عنها في [Badass Box 4 على Fazua Ride 50، الضوء الأصفر](/posts/badass-box-4-fazua-ride-50-yellow-light). عملت لدقيقة أو دقيقتين، ثم LED العلوي ومض أصفر مرة أخرى. المغناطيس أقرب، شعاع آخر، أدرت 90 درجة، دعم Badass قال إن التركيب يبدو جيداً. لا يزال أصفر بعد بضع دقائق من الركوب.
+
+## الفكرة، تغيير رقم واحد بدلاً من خداع المستشعر
+
+Badass Box تجلس على مستشعر السرعة عند chainstay وتغير النبضات من مغناطيس الشعاع، لذا يعتقد المحرك أنك أبطأ مما أنت عليه. هذه خدعة على الإشارة، وعلى دراجتي لاحظت Fazua ذلك بعد فترة وأشارت إلى خطأ لين.
+
+المحرك نفسه يقارن سرعتك فقط بقيمة مخزنة واحدة. Fazua تسميها bikeMaxSpeed. الوكلاء يمكنهم رؤيتها في Toolbox، لكن للمستخدمين العاديين هي رمادية. إذا غيرت تلك القيمة، لا يوجد شيء لخداعه. المستشعر يبلغ عن السرعة الحقيقية والمحرك ببساطة يساعد لفترة أطول.
+
+وكيلي وجد طريقتين لفعل ذلك. الشركة الإيطالية Eplus تبيع Flash Home مقابل 134 يورو زائد ضريبة القيمة المضافة، Windows فقط. وهناك FazuaUnlocker على GitHub من quezzas، مجاني، ترخيص MIT، أيضاً Windows فقط. كلاهما يقول نفس الشيء. يعمل على فيرموير 2.04. على 2.50 تعود أولاً إلى 2.04.
+
+```
+قبل (box)                           بعد (software)
+
+مغناطيس الشعاع -> [box] -> مستشعر        مغناطيس الشعاع -> مستشعر
+                 |  أبطأ مزيف                         |  سرعة حقيقية
+                 v                                       v
+drivepack: حد 25 كم/س               drivepack: حد 55 كم/س
+           -> أصفر بعد 1-2 دقيقة                -> لا box، لا أصفر
+```
+
+## ما استخدمت
+
+1. الدراجة، البطارية مشحونة بالكامل.
+2. MacBook Pro M4، 16 GB، macOS 15.5. يعمل على Apple Silicon، لا Windows، لا آلة افتراضية.
+3. كابل بيانات mini USB. ليس كابل شحن فقط.
+4. مفك Torx T10 لغطاء USB.
+5. FAZUA Toolbox 2.29 basic لـ macOS على Apple Silicon، من موقع Fazua.
+6. فيرموير 2.04، ملف evation_Software_2.04.bin. رابط fazua.com الأصلي ذهب، لكن Internet Archive احتفظ به من 9 يوليو 2022. SHA-256 8fe885c9dfc7caa9cf8e61b88051bf8d42da53747c4fd86d2b72c3c2ef23d32e. وكيلي قارنه بالنسخة المتداولة على GitHub، وهما متطابقتان إلى البايت.
+7. فرعي من FazuaUnlocker، [github.com/eminogrande/FazuaUnlocker](https://github.com/eminogrande/FazuaUnlocker)، مع Python 3.9 ومكتبة hidapi.
+
+الأداة الأصلية تتحدث مع drivepack عبر وظائف USB في Windows. وكيلي ترك البروتوكول، checksum ومنطق الكتابة كما هي تماماً واستبدل فقط تلك الطبقة الواحدة بـ hidapi، التي تعمل أيضاً على macOS. هذا هو ملف fazua_mac.py، حوالي 75 سطراً. الفيرموير نفسه مشفر، لذا لا أحد هنا يغير الفيرموير. الأداة تغير فقط إعداداً.
+
+## الخطوة 1، وصل drivepack بالـ Mac
+
+1. أخرج drivepack من الدراجة. البطارية تبقى داخل drivepack ويجب أن تكون مشغلة.
+2. افك غطاء USB على drivepack بـ T10. يجلس في الأسفل قرب زعانف التبريد.
+3. وصل كابل mini USB بالـ Mac وضع drivepack مسطحاً على الأرض أو طاولة.
+4. تحقق أن الـ Mac يراه. في الطرفية `system_profiler SPUSBDataType | grep evation` أظهر `evation v2.50` لي. للأداة هو جهاز USB HID بمعرف 10C4:1001.
+
+Fazua تقول في دليلها الخاص أنك تحتاج فقط drivepack لتحديث الفيرموير، ليس الدراجة كاملة. العجلة لا تحتاج للدوران لأي من هذا.
+
+## الخطوة 2، اقرأ قبل أن تكتب
+
+أغلق FAZUA Toolbox أولاً، لأنه يمسك اتصال USB. ثم:
+
+```sh
+git clone https://github.com/eminogrande/FazuaUnlocker.git
+cd FazuaUnlocker
+python3 -m venv .venv && .venv/bin/pip install -r requirements-mac.txt
+.venv/bin/python fazua_mac.py --read-only
+```
+
+أجابت أداتي بعد حوالي 110 مللي ثانية. Max Bike Speed 24.98 كم/س، قيمة خام 694. طول العجلة 2121 ملم. Shaft offset 30533. الأداة تستمد مفتاح كتابة صغيراً من ذلك offset، كان لي ba88. وكيلي حفظ هذه القراءة كملف JSON، لذا يمكنني دائماً العودة إلى هذه القيم بالضبط.
+
+ثم dry run، الذي يبني حزمة الكتابة مع checksum لكن لا يرسل شيئاً:
+
+```sh
+.venv/bin/python fazua_mac.py 55 --dry-run
+```
+
+## الخطوة 3، الرجوع إلى 2.04
+
+هذا الجزء فيه خطر حقيقي. إذا انقطع الفلاش، يمكن أن يموت drivepack. لذا بطارية كاملة، كابل مثبت، drivepack مستلقٍ بلا حراك.
+
+1. افتح FAZUA Toolbox، اذهب إلى FIRMWARE UPDATE، انقر UPDATE NOW.
+2. اختر Manual. ليس Online، لأن Online يثبت أحدث إصدار مرة أخرى.
+3. اختر evation_Software_2.04.bin وتحقق من اسم الملف قبل أن تضغط START.
+4. انتظر. بعد الفلاش المحرك يعاير ويمكن أن يهتز قليلاً. لا تحرك drivepack.
+5. تحقق مرة أخرى بـ system_profiler. الآن قال لي `evation v2.04`.
+
+القراءة مرة أخرى بعد الرجوع لا تزال تظهر 24.98 كم/س. تغيير الفيرموير وحده لا يفتح شيئاً.
+
+## الخطوة 4، اكتب 55 كم/س
+
+```sh
+.venv/bin/python fazua_mac.py 55 --force
+```
+
+الأداة أظهرت التغيير من 24.98 كم/س، خام 694، إلى 55.00 كم/س، خام 1528. ثم "Write cycle acknowledged by bike"، ثم قرأت القيمة مرة أخرى بنفسها. "SUCCESS: bikeMaxSpeed is now 55.01 km/h". قراءة منفصلة بعد بضع ثوانٍ قالت نفس الشيء، طول العجلة لا يزال 2121 ملم.
+
+الأداة تقبل 5 إلى 75 كم/س. اخترت 55 لأنني أريد أن أرى كيف هو. وكيلي اقترح 45، لأن المحرك ليس لديه قوة لا نهائية وفوق سرعة معينة معظمها يأتي من ساقيك على أي حال. مهما ضبطت، المحرك يساعد فقط لفترة أطول، لا يجعل الدراجة أسرع بنفسه.
+
+## الخطوة 5، العودة إلى الدراجة
+
+1. افصل الكابل، اربط غطاء USB باليد، 1 إلى 1.5 نيوتن متر. بدون الغطاء drivepack ليس مقاوماً للماء.
+2. ضع drivepack في الدراجة حتى ينقر في مكانه.
+3. شغل.
+
+على دراجتي الريموت ثم ومض أبيض، LEDان في الأعلى واثنان في الأسفل، بالتناوب. يبدو كخطأ. ليس كذلك. Fazua تكتب في دليل التحديث "Flashing LEDs indicates an update of the remote. Do not touch the remote during the update and do not switch off the e-bike." drivepack يجلب الريموت إلى مستوى فيرمويره الخاص. انطفأ مرة واحدة، عاد، ثم كل شيء كان أخضر.
+
+ثم اختبرته. يبدو أنه يعمل. ليس لدي سرعة قصوى دقيقة بعد، لأن الدراجة لا توجد بها شاشة. في المرة القادمة هاتف مع عداد سرعة GPS يذهب على المقود.
+
+## ما الذي سار على نحو خاطئ في الطريق
+
+نقر وكيلي بنفسه عبر Toolbox على جهاز Mac، وكانت أول نقرة على CALIBRATION بدلاً من FIRMWARE UPDATE. لقد فتح الصفحة فقط، ولم يبدأ شيء. ثم لم تصل النقرة على Manual، لأن النقرات المرسلة في الخلفية لم تصل إلى ذلك الحوار. توقف وكيلي عند هذا الحد، لأن نقرة خاطئة على START كانت ستثبت 2.50 مرة أخرى. نقرت أنا على Manual وعلى الملف بنفسي.
+
+أُجهضت أول محاولتين للكتابة. تطلب الأداة تأكيداً بنعم قبل أن تكتب، والطريقة التي أدخل بها وكيلي الإجابات لم تصل إلى ذلك السؤال. لم يُكتب شيء، وكانت القراءة بعد ذلك لا تزال تظهر 24.98 كم/ساعة. مع --force سارت العملية.
+
+لاحقاً أخرجت حزمة القيادة مرة أخرى، وأغلقت غطاء USB وحركت المغناطيس، وعندها كان مؤشر LED العلوي أحمر. الأحمر ليس المغناطيس. يقول دليل Fazua إن الأحمر في الأعلى يعني خطأ في الاتصال بين حزمة القيادة ومحور العجلة السفلي، الجزء الموجود في الإطار الذي تُوصَل فيه. أخرجتها، وفحصت نقاط التلامس، ودفعتها مرة أخرى حتى سمعت طقطقة، وكانت بخير.
+
+وبعد 15 دقيقة من الوقوف يطفئ النظام نفسه. هذا طبيعي أيضاً، وهو مذكور في الدليل.
+
+## البطارية والأوضاع والعودة
+
+الحد هو قيمة واحدة في حزمة القيادة. الأخضر والأزرق والوردي كلها تستخدم نفس الـ 55 كم/ساعة. تغير الأوضاع فقط مقدار دفع المحرك ومدى سرعة نفاد البطارية. القيادة الأسرع تكلف طاقة أكبر بكثير، لذا فوق 25 ينخفض المدى بسرعة.
+
+على البرنامج الثابت 2.04 تبقى البطارية مستيقظة لفترة أطول بعد الركوب. في 2.50 كانت Fazua قد قلصت وضع الاستعداد إلى ساعة إلى ثلاث ساعات، أما في البرنامج الثابت الأقدم فيصل إلى ثماني ساعات. لذا بعد الركوب أضغط على زر البطارية لمدة ثانيتين حتى تنطفئ مؤشرات LED.
+
+العودة إلى الحالة الأصلية هي أمر واحد مع توصيل الكابل:
+
+```sh
+.venv/bin/python fazua_mac.py 25 --force
+```
+
+تكتب Eplus أنه يمكنك التحديث إلى 2.50 مرة أخرى بعد إلغاء القفل. لم أجرب ذلك، لذا في الوقت الحالي أبقى على 2.04 ولا أضغط على التحديث في Toolbox أو التطبيق.
+
+فوق 25 كم/ساعة لم تعد الدراجة دراجة كهربائية مساعدة. في ألمانيا يُسمح بها فقط على الأراضي الخاصة، وليس على الطرق العامة، ويمكن أن يزول الضمان والتأمين. يمكن أن يؤدي تفليش البرنامج الثابت إلى كسر حزمة القيادة. كل شيء هنا على مسؤوليتك الخاصة.

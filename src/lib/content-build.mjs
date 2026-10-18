@@ -9,7 +9,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import GithubSlugger from 'github-slugger';
 import config from '../../site.config.mjs';
-import { postPath, markdownMirrorPath, t } from './paths.mjs';
+import { postPath, markdownMirrorPath, t, tr } from './paths.mjs';
 
 // transcript/written/ai_generated for new posts; human/mixed/unknown appear on
 // imported posts and are kept as recorded (never silently upgraded).
@@ -133,7 +133,9 @@ function errorList(file, data, sections, rel) {
 	if (data.original_url && !/^https?:\/\//.test(data.original_url)) errors.push('original_url must be an absolute URL');
 	// Editorial contract (TL;DR + one Basically per section) applies to posts
 	// first published here. Imports with an external canonical keep their text as is.
-	if (!data.canonical && !data.original_url && !data.noindex) {
+	// Machine translations (translated_from) inherit the contract from their source.
+	if (data.translated_from && !/^[a-z]{2}\/[a-z0-9-]+$/.test(data.translated_from)) errors.push('translated_from must be <lang>/<slug>');
+	if (!data.canonical && !data.original_url && !data.noindex && !data.translated_from) {
 		if (!Array.isArray(data.tldr) || data.tldr.length < 2 || data.tldr.length > 4) errors.push('tldr needs 2-4 items');
 		for (const section of sections.filter((s) => s.heading)) {
 			const line = data.basically?.[section.id];
@@ -248,7 +250,7 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 			// Display fixes, never touching the body: decode entities once, fall
 			// back to the first H1 for empty/"Untitled" titles, trim dangling
 			// punctuation, and keep URLs out of excerpts.
-			const fmtLabel = ({ photo: { en: 'Photo', de: 'Foto' }, video: { en: 'Video', de: 'Video' }, note: { en: 'Note', de: 'Notiz' } }[data.format] || {})[data.lang] || '';
+			const fmtLabel = ({ photo: 'Photo', video: 'Video', note: 'Note' }[data.format] && tr(data.lang, { photo: 'Photo', video: 'Video', note: 'Note' }[data.format])) || '';
 			const title = cleanTitle(data.title, { fallback: firstHeading(body), lang: data.lang, date: day(data.date), formatLabel: fmtLabel });
 			const description = cleanExcerpt(data.description, { body, title });
 			const displayTitle = data.lang === 'en' ? sentenceCaseTitle(title, body) : title;
@@ -295,6 +297,8 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				video: data.video || null,
 				importNote: data.import_note || null,
 				translations: data.translations || {},
+				// Machine translation of another post (<lang>/<slug>), made by plugins/translate.py.
+				translatedFrom: data.translated_from || null,
 				path: p,
 				markdownPath: markdownMirrorPath(p),
 				file: `${dir}/posts/${rel}`,
@@ -332,7 +336,11 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 				}
 				return null;
 			};
+			// A translation shows the source post's section art: ids come from source_sections, by order.
+			const sourceIds = Array.isArray(data.source_sections) ? data.source_sections : null;
+			let headedIndex = -1;
 			post.html = sections.map((s) => {
+				if (s.heading) headedIndex += 1;
 				let view = s.body;
 				if (!s.heading) {
 					const lead = view.split(/\n{2,}/)[0]?.trim() || '';
@@ -342,7 +350,8 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 					}
 					if (post.tldrFromBody) view = lift(view, post.tldrFromBody);
 				}
-				const art = s.heading && !/!\[[^\]]*\]\(|<img\b/.test(view) ? sectionArt(s.id) : null;
+				const artId = sourceIds ? sourceIds[headedIndex] : s.id;
+				const art = s.heading && artId && !/!\[[^\]]*\]\(|<img\b/.test(view) ? sectionArt(artId) : null;
 				if (art) view = `![](${art})\n\n${view}`;
 				return { id: s.id, heading: s.heading, body: s.body, html: view ? renderHtml(view, { sizes, srcsets }) : '' };
 			});
@@ -361,11 +370,15 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 		}
 	}
 
-	// Global slug uniqueness keeps /api/articles/{slug} unambiguous.
+	// Slug uniqueness among originals keeps /api/articles/{slug} unambiguous;
+	// a translation shares its source's slug under another language prefix.
 	const seen = new Map();
+	const seenPath = new Map();
 	for (const post of posts) {
-		if (seen.has(post.slug)) problems.push(`duplicate slug "${post.slug}" in ${seen.get(post.slug)} and ${post.file}`);
-		seen.set(post.slug, post.file);
+		if (!post.translatedFrom && seen.has(post.slug)) problems.push(`duplicate slug "${post.slug}" in ${seen.get(post.slug)} and ${post.file}`);
+		if (!post.translatedFrom) seen.set(post.slug, post.file);
+		if (seenPath.has(post.path)) problems.push(`duplicate path "${post.path}" in ${seenPath.get(post.path)} and ${post.file}`);
+		seenPath.set(post.path, post.file);
 	}
 	// No-fallback rule: a translation link must point at a real post in that
 	// language, and the link must be reciprocal. Nothing is ever generated for a
@@ -377,6 +390,35 @@ export function loadContent({ dirs = (process.env.CONTENT_DIRS || 'content').spl
 			if (lang === post.lang) problems.push(`${post.file}: translations lists its own language`);
 			else if (!other) problems.push(`${post.file}: translation ${lang}/${slug} does not exist (no fallback pages)`);
 			else if (other.translations[post.lang] !== post.slug) problems.push(`${post.file}: translation ${lang}/${slug} does not link back`);
+		}
+	}
+	// Translation groups: an original, its hand-made translations and its machine
+	// translations. Every member links every other member (hreflang, dropdown).
+	const parent = new Map(posts.map((post) => [post.id, post.id]));
+	const find = (id) => (parent.get(id) === id ? id : find(parent.get(id)));
+	const unite = (a, b) => {
+		if (!parent.has(a) || !parent.has(b)) return;
+		const [ra, rb] = [find(a), find(b)];
+		if (ra !== rb) parent.set(rb, ra);
+	};
+	for (const post of posts) {
+		for (const [lang, slug] of Object.entries(post.translations)) unite(post.id, `${lang}/${slug}`);
+		if (post.translatedFrom) {
+			if (!byId.has(post.translatedFrom)) problems.push(`${post.file}: translated_from ${post.translatedFrom} does not exist`);
+			else unite(post.translatedFrom, post.id);
+		}
+	}
+	const groups = new Map();
+	for (const post of posts) {
+		const key = find(post.id);
+		if (!groups.has(key)) groups.set(key, []);
+		groups.get(key).push(post);
+	}
+	for (const members of groups.values()) {
+		const original = members.find((m) => !m.translatedFrom) || members[0];
+		for (const post of members) {
+			post.translationKey = original.id;
+			post.translations = Object.fromEntries(members.filter((m) => m.lang !== post.lang).map((m) => [m.lang, m.slug]));
 		}
 	}
 	posts.sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));

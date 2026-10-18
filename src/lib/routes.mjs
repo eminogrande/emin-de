@@ -15,10 +15,10 @@ function listRoutes() {
 		if (lang !== DEFAULT_LANG) add('home', null, homePath(lang), `${config.name} (${lang})`, config.tagline, postsIn(lang));
 		add('posts', null, postsIndexPath(lang), t(lang, 'allPosts'), `${t(lang, 'allPosts')}, ${config.name}`, postsIn(lang));
 		for (const { id, posts: list } of categoriesIn(lang)) {
-			add('category', id, categoryPath(lang, id), label(config.categories[id], lang), `${t(lang, 'categories')}: ${label(config.categories[id], lang)}`, list);
+			add('category', id, categoryPath(lang, id), label(config.categories[id], lang, `cat.${id}`), `${t(lang, 'categories')}: ${label(config.categories[id], lang, `cat.${id}`)}`, list);
 		}
 		for (const { id, posts: list } of formatsIn(lang)) {
-			add('format', id, formatPath(lang, id), label(config.formats[id], lang), `${t(lang, 'formats')}: ${label(config.formats[id], lang)}`, list);
+			add('format', id, formatPath(lang, id), label(config.formats[id], lang, `fmt.${id}`), `${t(lang, 'formats')}: ${label(config.formats[id], lang, `fmt.${id}`)}`, list);
 		}
 		// Author pages: every registered author gets a page in the default
 		// language (the registry is the disclosure), other languages only when
@@ -29,7 +29,7 @@ function listRoutes() {
 			if (config.authors[id].type === 'guest') continue; // credited per post, no profile page
 			const list = postsIn(lang).filter((post) => post.author === id);
 			const author = config.authors[id];
-			const desc = author.type === 'ai_editorial' ? label(author.description, lang) : `${t(lang, 'posts')}: ${author.name}`;
+			const desc = author.type === 'ai_editorial' ? label(author.description, lang, `author.${id}.description`) : `${t(lang, 'posts')}: ${author.name}`;
 			add('author', id, authorPath(lang, id), author.name, desc, list);
 		}
 		const years = yearsIn(lang);

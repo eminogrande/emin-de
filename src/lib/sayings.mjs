@@ -9,7 +9,7 @@ const TITLE_SOURCE = /^The title is an? ([^,]+?) proverb, (.+?)\.?$/m;
 
 export function sayings() {
 	const rows = [];
-	for (const post of posts) {
+	for (const post of posts.filter((p) => !p.translatedFrom)) {
 		const at = { title: post.title, path: post.path, lang: post.lang };
 		const src = post.markdown.match(TITLE_SOURCE);
 		if (src) rows.push({ text: post.title, by: `${src[1]} proverb`, original: src[2], kind: 'title', ...at });
