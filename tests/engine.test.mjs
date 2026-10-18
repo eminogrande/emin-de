@@ -126,6 +126,16 @@ test('i18n: language menu, rtl, machine translations link their original and sha
 	assert.ok(!existsSync(dist(`og/ar/${slug}.png`)), 'no extra share card per translation');
 });
 
+test('Basically aside stays sticky: nothing above it clips overflow', () => {
+	// Emin, 2026-10-18: overflow-x on html/body killed the scrolling Basically column.
+	const css = readFileSync('src/styles/global.css', 'utf-8');
+	// body { overflow-x: hidden } is fine (it was there while sticky worked); html must not clip.
+	const html = [...css.matchAll(/(?:^|\n)\s*html\s*\{([^}]*)\}/g)].map((m) => m[1]);
+	assert.ok(html.length > 0);
+	for (const rule of html) assert.ok(!/overflow/.test(rule), `overflow on html breaks the sticky Basically column: ${rule.trim()}`);
+	assert.match(css, /\.art-story__basically \{[^}]*position: sticky/);
+});
+
 test('no-fallback rule: posts without a translation emit no hreflang and no foreign route', () => {
 	const html = read('posts/what-agent-ready-actually-means/index.html');
 	assert.ok(!/<link rel="alternate" hreflang=/.test(html), 'single-language post must not claim alternates');
