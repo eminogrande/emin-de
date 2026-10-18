@@ -309,7 +309,8 @@ def main():
         posts = [p for p in posts if p['slug'] in a.only.split(',')]
     jobs = []
     for p in posts:
-        have = set(p['translations']) | {p['lang']}
+        # A machine translation in the graph only counts while its file still exists (--redo deletes files).
+        have = {p['lang']} | {l for l, sl in p['translations'].items() if (Path('content/posts') / l / p['date'][:4] / f'{sl}.md').exists()}
         for tgt in a.langs.split(','):
             out = Path('content/posts') / tgt / p['date'][:4] / f'{p["slug"]}.md'
             if p['slug'] in a.redo.split(',') and out.exists() and tgt != p['lang']:

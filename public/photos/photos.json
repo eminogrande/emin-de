@@ -1,6 +1,14 @@
 {
   "$schema": "./photos.schema.json",
   "photos": {
+    "shade-portrait-20250612.jpg": {
+      "alt": {
+        "en": "Woman with long dark hair looks back over a bare shoulder in dappled evening shade",
+        "de": "Frau mit langen dunklen Haaren blickt über die nackte Schulter zurück, im fleckigen Abendschatten"
+      },
+      "date": "2025-06-12",
+      "article": "/posts/photo-dappled-shade-portrait-bare-shoulder-evening"
+    },
     "pine-forest-20250612.jpg": {
       "alt": {
         "en": "Woman with long dark hair standing in low evening sun under tall pine trees",

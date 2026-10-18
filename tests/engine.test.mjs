@@ -137,9 +137,13 @@ test('Basically aside stays sticky: nothing above it clips overflow', () => {
 });
 
 test('no-fallback rule: posts without a translation emit no hreflang and no foreign route', () => {
-	const html = read('posts/what-agent-ready-actually-means/index.html');
-	assert.ok(!/<link rel="alternate" hreflang=/.test(html), 'single-language post must not claim alternates');
-	assert.ok(!existsSync(dist('de/posts/what-agent-ready-actually-means')));
+	// Translations arrive over time (plugins/translate.py), so pick any English original that has none yet.
+	const solo = graph.posts.find((p) => p.lang === 'en' && !p.noindex && !p.translatedFrom && Object.keys(p.translations).length === 0);
+	if (solo) {
+		const html = read(`${solo.path.slice(1)}/index.html`);
+		assert.ok(!/<link rel="alternate" hreflang=/.test(html), 'single-language post must not claim alternates');
+		assert.ok(!existsSync(dist(`de/posts/${solo.slug}`)));
+	}
 	// German listing pages exist only for facets that have German posts.
 	const deCats = new Set(graph.posts.filter((p) => p.lang === 'de' && !p.noindex).map((p) => p.category));
 	for (const id of Object.keys(config.categories)) {
