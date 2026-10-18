@@ -1,9 +1,9 @@
 ---
 title: "Fazua Ride 50 speed unlock from a Mac, no box"
 seo_title: "Fazua Ride 50 Evation speed unlock on macOS, no tuning box | emin.de"
-description: "How my agent and I raised the speed limit of a Fazua Ride 50 Evation from 25 to 55 km/h over USB from a MacBook, with firmware 2.04 and an open source tool."
+description: "How my agent and I raised the speed limit of a Fazua Ride 50 Evation from 25 to 55 and then 69.77 km/h over USB from a MacBook, with firmware 2.04 and an open source tool."
 date: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-18
 lang: en
 translations: {}
 category: building
@@ -24,7 +24,7 @@ tldr:
   - "The Fazua Ride 50 stores its 25 km/h limit as one value in the drivepack. On firmware 2.04 you can change it over USB."
   - "I did it from a MacBook Pro M4. The open source tool was Windows only, so my agent swapped its USB layer for hidapi."
   - "Firmware 2.50 had to go back to 2.04 first, through the official FAZUA Toolbox. The 2.04 file is the original from fazua.com."
-  - "Read back after writing, 55.01 km/h. The Badass Box is not needed for this."
+  - "Read back after writing, first 55.01 km/h, two days later raw value 1938, that is 69.77 km/h. If you are in Berlin, I help you unlock yours for free."
 basically:
   the-bike-and-the-problem: "A 2020 Canyon Roadlite:ON with a Fazua Ride 50 Evation, and a tuning box that kept blinking yellow."
   the-idea-change-one-number-instead-of-fooling-the-sensor: "The box lies to the speed sensor. The software just changes the limit the motor checks against."
@@ -36,6 +36,8 @@ basically:
   step-5-back-into-the-bike: "White LEDs flashing in turns is the remote updating itself. Leave it alone until it shows green."
   what-went-wrong-on-the-way: "A wrong click, two aborted writes, and a red light that was only a badly seated drivepack."
   battery-modes-and-going-back: "The limit is the same in every mode. Range is not. One command takes it back to 25."
+  update-raw-value-1938: "Two days later I went to raw value 1938, my father's birth year. That is 69.77 km/h."
+  free-help-in-berlin: "If you are in Berlin and want to unlock your Fazua Ride 50, write me. It is free."
 ---
 ## The bike and the problem
 
@@ -160,3 +162,25 @@ Going back to stock is one command with the cable connected:
 Eplus writes that you can update to 2.50 again after unlocking. I have not tried that, so for now I stay on 2.04 and do not press update in the Toolbox or the app.
 
 Above 25 km/h the bike is no longer a pedelec. In Germany it is then only allowed on private ground, not on public roads, and warranty and insurance can be gone. Flashing firmware can break the drivepack. Everything here is at your own risk.
+
+## Update, raw value 1938
+
+Two days later the battery was on the Mac again and I wanted to go higher. First I asked for 69.69 km/h. That does not exist exactly. The drivepack does not store km/h, it stores one whole number, the raw value, and km/h is raw value times 0.036. So 69.69 became raw 1936, which is 69.70 km/h.
+
+Then I chose raw value 1938, because 1938 is the year my father was born. 1938 times 0.036 is 69.768, the tool shows 69.77 km/h. That is the same kind of number as before. 55.01 was also only rounded, 1528 times 0.036 is 55.008.
+
+The steps were the same as in step 2 and step 4. First read only, it still said 55.01 km/h, raw 1528, wheel 2121 mm. Then a dry run. In the packet only the two speed bytes changed, everything else stayed the same. Then:
+
+```sh
+.venv/bin/python fazua_mac.py 69.768 --force
+```
+
+My agent typed 69.768 with three decimals only so the tool lands exactly on 1938. To the bike it sends the whole number. "Write cycle acknowledged by bike", then "SUCCESS: bikeMaxSpeed is now 69.77 km/h". A separate read afterwards showed raw 1938, wheel length 2121 mm, nothing else changed.
+
+I rode it and it seems to work. I still have no measured top speed. 69.77 km/h is the value up to which the motor helps, not a speed the bike reaches by itself.
+
+Going back to 55 is `.venv/bin/python fazua_mac.py 55.008 --force`, which gives raw 1528 again.
+
+## Free help in Berlin
+
+If you are in Berlin and want to unlock your Fazua Ride 50 the same way, write me at [emin@emin.de](mailto:emin@emin.de). I do it for free. Again, above 25 km/h it is only for private ground, and you do it at your own risk.
