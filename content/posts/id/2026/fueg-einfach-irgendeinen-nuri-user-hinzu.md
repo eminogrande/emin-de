@@ -4,7 +4,7 @@ description: "Referral, Guardian, warisan, Multisig dan menabung bersama akan me
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: id
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["Ide saya untuk Nuri adalah satu fitur tunggal. Kamu menambahkan username seseorang di pengaturan.", "Dari situ mengikuti referral, Guardian, warisan, Multisig dan menabung bersama, tergantung apa yang kamu izinkan.", "Fee ada di frontend kami, terbuka di source code, dan kamu mengaturnya sendiri antara 0 dan 10 persen."]
-sections: [{"basically": "Di Nuri, referral, Guardian, warisan dan Multisig akan menjadi satu fitur. Kamu menambahkan username di pengaturan."}, {"basically": "Siapa pun yang menambahkan teman di Nuri, berbagi fee dengannya. Kalau 10 orang, fee-nya dibagi 10."}, {"basically": "Setiap pembayaran mengirim beberapa satoshi dan notifikasi push ke orang-orangmu. Itu membuat Nuri viral."}, {"basically": "Pada Expanding Multisig, key para Guardian-mu baru aktif ketika kamu kehilangan key milikmu sendiri."}, {"basically": "Seorang Guardian membantumu memulihkan key-mu. Seorang ahli waris baru bisa mengaksesnya kalau kamu tidak melakukan apa-apa selama setahun."}, {"basically": "Nuri tidak mengambil fee dari para provider, melainkan di frontend sendiri, terbuka di source code."}, {"basically": "Di Nuri kamu mengatur fee-mu sendiri, dari 0 sampai 10 persen. Di pesta-pesta saya, donasi menghasilkan lima kali lipat."}, {"basically": "Setiap API call di Nuri akan menjadi pembayaran kecil x402 atau L402. Dengan itu masalah fee terpecahkan."}, {"basically": "Tidak ada yang paham Multisig. Tiga orang dan satu hardware wallet, semua orang paham. Begitu cara kami menjelaskan Nuri."}, {"basically": "Langkah pertama di Nuri hanyalah satu teman di pengaturan, yang ikut mendapat bagian. Semua yang lain dibangun di atasnya."}]
+tldr: ["Ide saya untuk Nuri adalah satu fitur tunggal. Kamu menambahkan username seseorang di pengaturan.", "Dari situ mengikuti referral, Guardian, warisan, Multisig dan menabung bersama, tergantung apa yang kamu izinkan.", "Fee ada di frontend kami, terbuka di source code, dan kamu mengaturnya sendiri antara 0 dan 21 persen."]
+sections: [{"basically": "Di Nuri, referral, Guardian, warisan dan Multisig akan menjadi satu fitur. Kamu menambahkan username di pengaturan."}, {"basically": "Siapa pun yang menambahkan teman di Nuri, berbagi fee dengannya. Kalau 10 orang, fee-nya dibagi 10."}, {"basically": "Setiap pembayaran mengirim beberapa satoshi dan notifikasi push ke orang-orangmu. Itu membuat Nuri viral."}, {"basically": "Pada Expanding Multisig, key para Guardian-mu baru aktif ketika kamu kehilangan key milikmu sendiri."}, {"basically": "Seorang Guardian membantumu memulihkan key-mu. Seorang ahli waris baru bisa mengaksesnya kalau kamu tidak melakukan apa-apa selama setahun."}, {"basically": "Nuri tidak mengambil fee dari para provider, melainkan di frontend sendiri, terbuka di source code."}, {"basically": "Di Nuri kamu mengatur fee-mu sendiri, dari 0 sampai 21 persen. Di pesta-pesta saya, donasi menghasilkan lima kali lipat."}, {"basically": "Setiap API call di Nuri akan menjadi pembayaran kecil x402 atau L402. Dengan itu masalah fee terpecahkan."}, {"basically": "Tidak ada yang paham Multisig. Tiga orang dan satu hardware wallet, semua orang paham. Begitu cara kami menjelaskan Nuri."}, {"basically": "Langkah pertama di Nuri hanyalah satu teman di pengaturan, yang ikut mendapat bagian. Semua yang lain dibangun di atasnya."}]
 ---
 Saya rasa, saya baru saja memecahkan sesuatu yang cukup bagus pagi ini. Ini tentang sebuah fitur untuk Nuri. Ini idenya dulu.
 
@@ -67,11 +67,11 @@ Cerita favorit saya soal ini adalah protes keras di komunitas Aave, ketika di la
 
 ## Tentukan fee-mu sendiri
 
-Kita bahkan membiarkan orang menentukan fee-nya sendiri. Murni demi keadilan. Kalau kamu tidak mau bayar fee, kamu bisa turun ke 0 persen. Tapi kamu juga bisa naik ke 10 persen, kalau kamu mau. Dan kalau ada yang bertanya, kenapa kalian mengambil 2 persen, kita bilang, masuk ke Settings dan ubah itu.
+Kita bahkan membiarkan orang menentukan fee-nya sendiri. Murni demi keadilan. Kalau kamu tidak mau bayar fee, kamu bisa turun ke 0 persen. Tapi kamu juga bisa naik ke 21 persen, kalau kamu mau. Dan kalau ada yang bertanya, kenapa kalian mengambil 2 persen, kita bilang, masuk ke Settings dan ubah itu.
 
 Kenapa saya percaya ini berhasil, berasal dari pesta-pesta saya di Berlin. Berapa pun harga tiket masuk yang saya ambil dan berapa pun harga bir, orang-orang entah bagaimana tidak pernah merasa itu oke. Akhirnya kami bilang, fuck it, donasi untuk bir, donasi untuk tiket masuk. Kami menghasilkan kira-kira lima kali lipat uangnya.
 
-Kalau kamu memberi orang kesempatan untuk menentukannya sendiri, maka ada juga orang yang menetapkannya jauh lebih tinggi. Karena mereka suka gamification-nya atau karena mereka ikut dalam misinya. Ada yang kaya dan yang miskin, yang pelit dan yang lainnya. Saya akan menetapkan fee saya ke 10 persen untuk orang yang saya temui di konferensi dan saya tambahkan ke akun saya. Maka mereka otomatis dapat split saya.
+Kalau kamu memberi orang kesempatan untuk menentukannya sendiri, maka ada juga orang yang menetapkannya jauh lebih tinggi. Karena mereka suka gamification-nya atau karena mereka ikut dalam misinya. Ada yang kaya dan yang miskin, yang pelit dan yang lainnya. Saya akan menetapkan fee saya ke 21 persen untuk orang yang saya temui di konferensi dan saya tambahkan ke akun saya. Maka mereka otomatis dapat split saya.
 
 ## Setiap call adalah pembayaran kecil
 

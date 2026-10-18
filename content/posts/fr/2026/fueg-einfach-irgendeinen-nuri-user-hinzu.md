@@ -4,7 +4,7 @@ description: "Parrainage, Guardian, héritage, Multisig et épargne commune devi
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: fr
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["Mon idée pour Nuri est une seule fonctionnalité. Tu ajoutes dans les paramètres le nom d'utilisateur de quelqu'un.", "De là découlent parrainage, Guardian, héritage, Multisig et épargne commune, selon ce que tu autorises.", "La commission est chez nous dans le frontend, ouverte dans le code source, et tu la fixes toi-même entre 0 et 10 pour cent."]
-sections: [{"basically": "Chez Nuri, parrainage, Guardian, héritage et Multisig deviennent une fonctionnalité. Tu ajoutes un nom d'utilisateur dans les paramètres."}, {"basically": "Qui ajoute un ami chez Nuri partage la commission avec lui. Avec 10 personnes, elle est divisée par 10."}, {"basically": "Chaque paiement envoie quelques satoshis à tes gens et une notification push. Ça rend Nuri viral."}, {"basically": "Avec un Expanding Multisig, les clés de tes Guardians ne s'activent que quand tu as perdu les tiennes."}, {"basically": "Un Guardian t'aide à récupérer ta clé. Un héritier n'y accède que si tu ne fais rien pendant un an."}, {"basically": "Nuri ne prend pas la commission chez les fournisseurs, mais dans son propre frontend, ouvert dans le code source."}, {"basically": "Chez Nuri, tu fixes ta commission toi-même, de 0 à 10 pour cent. À mes soirées, les dons ont rapporté cinq fois plus."}, {"basically": "Chaque appel API chez Nuri sera un petit paiement x402 ou L402. Avec ça, le problème de commission est réglé."}, {"basically": "Personne ne comprend le Multisig. Trois personnes et un hardware wallet, tout le monde comprend. C'est comme ça qu'on explique Nuri."}, {"basically": "La première étape chez Nuri, c'est juste un ami dans les paramètres qui gagne avec toi. Tout le reste se construit là-dessus."}]
+tldr: ["Mon idée pour Nuri est une seule fonctionnalité. Tu ajoutes dans les paramètres le nom d'utilisateur de quelqu'un.", "De là découlent parrainage, Guardian, héritage, Multisig et épargne commune, selon ce que tu autorises.", "La commission est chez nous dans le frontend, ouverte dans le code source, et tu la fixes toi-même entre 0 et 21 pour cent."]
+sections: [{"basically": "Chez Nuri, parrainage, Guardian, héritage et Multisig deviennent une fonctionnalité. Tu ajoutes un nom d'utilisateur dans les paramètres."}, {"basically": "Qui ajoute un ami chez Nuri partage la commission avec lui. Avec 10 personnes, elle est divisée par 10."}, {"basically": "Chaque paiement envoie quelques satoshis à tes gens et une notification push. Ça rend Nuri viral."}, {"basically": "Avec un Expanding Multisig, les clés de tes Guardians ne s'activent que quand tu as perdu les tiennes."}, {"basically": "Un Guardian t'aide à récupérer ta clé. Un héritier n'y accède que si tu ne fais rien pendant un an."}, {"basically": "Nuri ne prend pas la commission chez les fournisseurs, mais dans son propre frontend, ouvert dans le code source."}, {"basically": "Chez Nuri, tu fixes ta commission toi-même, de 0 à 21 pour cent. À mes soirées, les dons ont rapporté cinq fois plus."}, {"basically": "Chaque appel API chez Nuri sera un petit paiement x402 ou L402. Avec ça, le problème de commission est réglé."}, {"basically": "Personne ne comprend le Multisig. Trois personnes et un hardware wallet, tout le monde comprend. C'est comme ça qu'on explique Nuri."}, {"basically": "La première étape chez Nuri, c'est juste un ami dans les paramètres qui gagne avec toi. Tout le reste se construit là-dessus."}]
 ---
 Je crois que j'ai résolu un truc plutôt bon ce matin. Il s'agit d'une fonctionnalité pour Nuri. Voilà l'idée pour commencer.
 
@@ -67,11 +67,11 @@ Mon histoire préférée pour ça, c'est le tollé dans la communauté Aave quan
 
 ## Fixe tes frais toi-même
 
-On laisse même les gens fixer leurs frais eux-mêmes. Simplement par équité. Si tu ne veux pas payer de frais, tu peux aller à 0 pour cent. Mais tu peux aussi aller à 10 pour cent si tu veux. Et si quelqu'un demande pourquoi vous prenez 2 pour cent, alors on dit, va dans les réglages et change ça.
+On laisse même les gens fixer leurs frais eux-mêmes. Simplement par équité. Si tu ne veux pas payer de frais, tu peux aller à 0 pour cent. Mais tu peux aussi aller à 21 pour cent si tu veux. Et si quelqu'un demande pourquoi vous prenez 2 pour cent, alors on dit, va dans les réglages et change ça.
 
 Pourquoi je crois que ça marche, ça vient de mes soirées à Berlin. Peu importe l'entrée que j'ai prise et peu importe le prix de la bière, les gens ne trouvaient jamais ça cool. À un moment, on a dit, fuck it, don pour la bière, don pour l'entrée. On a gagné environ cinq fois plus d'argent.
 
-Quand tu donnes aux gens la possibilité de fixer ça eux-mêmes, alors il y a aussi des gens qui le mettent nettement plus haut. Parce qu'ils trouvent la gamification géniale ou parce qu'ils sont là pour la mission. Il y a les riches et les pauvres, les radins et les autres. Moi, pour les gens que je rencontre à une conférence et que j'ajoute à mon compte, je mettrais mes frais à 10 pour cent. Comme ça, ils reçoivent automatiquement ma part.
+Quand tu donnes aux gens la possibilité de fixer ça eux-mêmes, alors il y a aussi des gens qui le mettent nettement plus haut. Parce qu'ils trouvent la gamification géniale ou parce qu'ils sont là pour la mission. Il y a les riches et les pauvres, les radins et les autres. Moi, pour les gens que je rencontre à une conférence et que j'ajoute à mon compte, je mettrais mes frais à 21 pour cent. Comme ça, ils reçoivent automatiquement ma part.
 
 ## Chaque appel est un petit paiement
 

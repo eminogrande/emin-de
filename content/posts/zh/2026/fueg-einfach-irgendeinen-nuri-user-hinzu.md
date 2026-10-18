@@ -4,7 +4,7 @@ description: "推荐、监护人、遗产、多签和共同储蓄在 Nuri 会变
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: zh
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["我给 Nuri 的想法就是一个功能。你在设置里加上某个人的用户名。", "由此就有了推荐、监护人、遗产、多签和共同储蓄，看你允许什么。", "手续费放在我们自己的前端，源代码公开，你自己在 0 到 10% 之间设。"]
-sections: [{"basically": "在 Nuri，推荐、监护人、遗产和多签会变成一个功能。你在设置里加一个用户名。"}, {"basically": "在 Nuri 加一个朋友，就和他分手续费。加了 10 个人，就除以 10。"}, {"basically": "每笔支付都会给你的人发几个聪和一条推送。这会让 Nuri 病毒式传播。"}, {"basically": "在可扩展多签里，你监护人的密钥只有在你丢了自己的密钥后才激活。"}, {"basically": "监护人帮你恢复密钥。继承人则要等你一年没动静才能拿到。"}, {"basically": "Nuri 不从服务商那里收手续费，而是在自己的前端收，源代码公开。"}, {"basically": "在 Nuri 你自己设手续费，从 0 到 10%。我办派对时，捐款收到了五倍。"}, {"basically": "Nuri 的每个 API 调用都会是一笔小额的 x402 或 L402 支付。这样手续费问题就解决了。"}, {"basically": "多签没人懂。三个人加一个硬件钱包谁都懂。我们就这样解释 Nuri。"}, {"basically": "Nuri 的第一步只是在设置里加一个一起赚钱的朋友。其他一切都建在这上面。"}]
+tldr: ["我给 Nuri 的想法就是一个功能。你在设置里加上某个人的用户名。", "由此就有了推荐、监护人、遗产、多签和共同储蓄，看你允许什么。", "手续费放在我们自己的前端，源代码公开，你自己在 0 到 21% 之间设。"]
+sections: [{"basically": "在 Nuri，推荐、监护人、遗产和多签会变成一个功能。你在设置里加一个用户名。"}, {"basically": "在 Nuri 加一个朋友，就和他分手续费。加了 10 个人，就除以 10。"}, {"basically": "每笔支付都会给你的人发几个聪和一条推送。这会让 Nuri 病毒式传播。"}, {"basically": "在可扩展多签里，你监护人的密钥只有在你丢了自己的密钥后才激活。"}, {"basically": "监护人帮你恢复密钥。继承人则要等你一年没动静才能拿到。"}, {"basically": "Nuri 不从服务商那里收手续费，而是在自己的前端收，源代码公开。"}, {"basically": "在 Nuri 你自己设手续费，从 0 到 21%。我办派对时，捐款收到了五倍。"}, {"basically": "Nuri 的每个 API 调用都会是一笔小额的 x402 或 L402 支付。这样手续费问题就解决了。"}, {"basically": "多签没人懂。三个人加一个硬件钱包谁都懂。我们就这样解释 Nuri。"}, {"basically": "Nuri 的第一步只是在设置里加一个一起赚钱的朋友。其他一切都建在这上面。"}]
 ---
 我觉得我今天早上解决了一个挺不错的问题。是关于 Nuri 的一个功能。先说说这个想法。
 
@@ -67,11 +67,11 @@ Guardian 是一个功能。这个我想照着 Bitkey 一比一地做。他们好
 
 ## 自己设定你的 Fee
 
-我们甚至让用户自己设定 Fee。纯粹出于公平。如果你不想付 Fee，你可以设成 0%。但如果你愿意，你也可以设成 10%。要是有人问，你们为什么收 2%，我们就说，去设置里改掉就行了。
+我们甚至让用户自己设定 Fee。纯粹出于公平。如果你不想付 Fee，你可以设成 0%。但如果你愿意，你也可以设成 21%。要是有人问，你们为什么收 2%，我们就说，去设置里改掉就行了。
 
 我之所以觉得这能行，来自我在柏林办的派对。不管我收多少门票，不管啤酒定价多少，大家好像总是不满意。后来我们说，去他的，啤酒靠捐，门票靠捐。结果我们赚的钱大概是原来的五倍。
 
-如果你给人们自己决定的机会，也会有人把它设得明显更高。因为他们觉得这种游戏化很酷，或者因为他们认同这个使命。有富人和穷人，有抠门鬼和其他人。如果我在会议上遇到一些人，把他们加到我的账户里，我会把我的 Fee 设成 10%。这样他们就自动拿到我的分成。
+如果你给人们自己决定的机会，也会有人把它设得明显更高。因为他们觉得这种游戏化很酷，或者因为他们认同这个使命。有富人和穷人，有抠门鬼和其他人。如果我在会议上遇到一些人，把他们加到我的账户里，我会把我的 Fee 设成 21%。这样他们就自动拿到我的分成。
 
 ## 每次调用都是一笔小额付款
 

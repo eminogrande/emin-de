@@ -4,7 +4,7 @@ description: "Referral, Guardian, herança, Multisig e poupança conjunta vão v
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: pt
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["Minha ideia para a Nuri é um único recurso. Você adiciona nas configurações o username de alguém.", "Daí vêm Referral, Guardian, herança, Multisig e poupança conjunta, dependendo do que você permitir.", "A fee fica no nosso frontend, aberta no código-fonte, e você mesmo define ela entre 0 e 10 por cento."]
-sections: [{"basically": "Na Nuri, Referral, Guardian, herança e Multisig vão virar um recurso. Você adiciona um username nas configurações."}, {"basically": "Quem adiciona um amigo na Nuri divide a fee com ele. Com 10 pessoas, ela é dividida por 10."}, {"basically": "Cada pagamento manda alguns satoshis para o seu pessoal e uma notificação push. Isso torna a Nuri viral."}, {"basically": "Num Expanding Multisig, as chaves dos seus Guardians só ficam ativas quando você perde as suas."}, {"basically": "Um Guardian ajuda você a recuperar sua chave. Um herdeiro só consegue acesso quando você não faz nada por um ano."}, {"basically": "A Nuri não cobra a fee dos provedores, mas no próprio frontend, aberta no código-fonte."}, {"basically": "Na Nuri você define sua própria fee, de 0 a 10 por cento. Nas minhas festas, doações renderam cinco vezes mais."}, {"basically": "Cada chamada de API na Nuri será um pequeno pagamento x402 ou L402. Assim o problema da fee está resolvido."}, {"basically": "Ninguém entende Multisig. Três pessoas e uma hardware wallet, todo mundo entende. É assim que explicamos a Nuri."}, {"basically": "O primeiro passo na Nuri é só um amigo nas configurações que ganha junto. Todo o resto é construído sobre isso."}]
+tldr: ["Minha ideia para a Nuri é um único recurso. Você adiciona nas configurações o username de alguém.", "Daí vêm Referral, Guardian, herança, Multisig e poupança conjunta, dependendo do que você permitir.", "A fee fica no nosso frontend, aberta no código-fonte, e você mesmo define ela entre 0 e 21 por cento."]
+sections: [{"basically": "Na Nuri, Referral, Guardian, herança e Multisig vão virar um recurso. Você adiciona um username nas configurações."}, {"basically": "Quem adiciona um amigo na Nuri divide a fee com ele. Com 10 pessoas, ela é dividida por 10."}, {"basically": "Cada pagamento manda alguns satoshis para o seu pessoal e uma notificação push. Isso torna a Nuri viral."}, {"basically": "Num Expanding Multisig, as chaves dos seus Guardians só ficam ativas quando você perde as suas."}, {"basically": "Um Guardian ajuda você a recuperar sua chave. Um herdeiro só consegue acesso quando você não faz nada por um ano."}, {"basically": "A Nuri não cobra a fee dos provedores, mas no próprio frontend, aberta no código-fonte."}, {"basically": "Na Nuri você define sua própria fee, de 0 a 21 por cento. Nas minhas festas, doações renderam cinco vezes mais."}, {"basically": "Cada chamada de API na Nuri será um pequeno pagamento x402 ou L402. Assim o problema da fee está resolvido."}, {"basically": "Ninguém entende Multisig. Três pessoas e uma hardware wallet, todo mundo entende. É assim que explicamos a Nuri."}, {"basically": "O primeiro passo na Nuri é só um amigo nas configurações que ganha junto. Todo o resto é construído sobre isso."}]
 ---
 Acho que resolvi algo bem legal hoje de manhã. É sobre um recurso para a Nuri. Essa é a ideia, para começar.
 
@@ -67,11 +67,11 @@ Minha história favorita sobre isso é o protesto na comunidade Aave, quando o p
 
 ## Defina sua própria fee
 
-Nós até deixamos as pessoas definirem a fee elas mesmas. Simplesmente por justiça. Se você não quer pagar fees, pode colocar em 0 por cento. Mas também pode colocar em 10 por cento, se quiser. E se alguém perguntar, por que vocês cobram 2 por cento, então dizemos, vá nas configurações e mude isso.
+Nós até deixamos as pessoas definirem a fee elas mesmas. Simplesmente por justiça. Se você não quer pagar fees, pode colocar em 0 por cento. Mas também pode colocar em 21 por cento, se quiser. E se alguém perguntar, por que vocês cobram 2 por cento, então dizemos, vá nas configurações e mude isso.
 
 Por que acho que isso funciona vem das minhas festas em Berlim. Não importa qual entrada eu cobrava e não importa qual preço pela cerveja, as pessoas nunca achavam legal. Em algum momento dissemos, foda-se, doação pela cerveja, doação pela entrada. Ganhamos aproximadamente cinco vezes mais dinheiro.
 
-Quando você dá às pessoas a possibilidade de definir isso elas mesmas, também existem pessoas que colocam bem mais alto. Porque acham a gamificação foda ou porque estão pela missão. Existem os ricos e os pobres, os mão de vaca e os outros. Para pessoas que conheço numa conferência e adiciono à minha conta, eu colocaria minha fee em 10 por cento. Aí elas recebem automaticamente meu split.
+Quando você dá às pessoas a possibilidade de definir isso elas mesmas, também existem pessoas que colocam bem mais alto. Porque acham a gamificação foda ou porque estão pela missão. Existem os ricos e os pobres, os mão de vaca e os outros. Para pessoas que conheço numa conferência e adiciono à minha conta, eu colocaria minha fee em 21 por cento. Aí elas recebem automaticamente meu split.
 
 ## Cada call é um pequeno pagamento
 

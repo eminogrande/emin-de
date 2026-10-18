@@ -41,6 +41,17 @@ export default {
 	// public/_redirects and docs/REDIRECTS-emino-app.md).
 	redirects: {
 		'/posts/how-to-make-a-decathlon-riverside-500-e-faster': '/posts/riverside-500e-faster-bike-tuning',
+		'/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/de/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/de/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/zh/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/zh/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/hi/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/hi/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/es/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/es/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/ar/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/ar/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/fr/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/fr/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/bn/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/bn/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/pt/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/pt/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/id/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/id/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
+		'/ur/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/ur/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
 	},
 
 	// Primary person/publisher. Must match an author id below with type "human".
@@ -79,7 +90,7 @@ export default {
 	locales: [
 		{ code: 'en', hreflang: 'en', label: 'English', dateLocale: 'en-GB' },
 		{ code: 'de', hreflang: 'de', label: 'Deutsch', dateLocale: 'de-DE' },
-		// Top 10 by total speakers (Ethnologue 2026) besides English. Posts in these
+		// Top 21 by total speakers (Ethnologue 2026) besides English. Posts in these
 		// languages are machine translations made by plugins/translate.py, labelled as such.
 		{ code: 'zh', hreflang: 'zh-Hans', label: '中文', dateLocale: 'zh-CN' },
 		{ code: 'hi', hreflang: 'hi', label: 'हिन्दी', dateLocale: 'hi-IN' },
@@ -90,6 +101,17 @@ export default {
 		{ code: 'pt', hreflang: 'pt', label: 'Português', dateLocale: 'pt-BR' },
 		{ code: 'id', hreflang: 'id', label: 'Bahasa Indonesia', dateLocale: 'id-ID' },
 		{ code: 'ur', hreflang: 'ur', label: 'اردو', dateLocale: 'ur-PK', dir: 'rtl' },
+		// Ranks 11-23 (Ethnologue 2026); Nigerian Pidgin and Egyptian Arabic are covered by en and ar.
+		{ code: 'ru', hreflang: 'ru', label: 'Русский', dateLocale: 'ru-RU' },
+		{ code: 'ja', hreflang: 'ja', label: '日本語', dateLocale: 'ja-JP' },
+		{ code: 'mr', hreflang: 'mr', label: 'मराठी', dateLocale: 'mr-IN' },
+		{ code: 'vi', hreflang: 'vi', label: 'Tiếng Việt', dateLocale: 'vi-VN' },
+		{ code: 'te', hreflang: 'te', label: 'తెలుగు', dateLocale: 'te-IN' },
+		{ code: 'sw', hreflang: 'sw', label: 'Kiswahili', dateLocale: 'sw-TZ' },
+		{ code: 'ha', hreflang: 'ha', label: 'Hausa', dateLocale: 'ha-NG' },
+		{ code: 'tr', hreflang: 'tr', label: 'Türkçe', dateLocale: 'tr-TR' },
+		{ code: 'ta', hreflang: 'ta', label: 'தமிழ்', dateLocale: 'ta-IN' },
+		{ code: 'tl', hreflang: 'tl', label: 'Tagalog', dateLocale: 'fil-PH' },
 	],
 
 	// Authors. type "human" = a real person. type "ai_editorial" = an openly named

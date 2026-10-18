@@ -4,7 +4,7 @@ description: "Referral, guardian, inheritance, multisig and shared saving become
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: en
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["My idea for Nuri is a single feature. You add someone's username in the settings.", "From that follow referral, guardian, inheritance, multisig and shared saving, depending on what you allow.", "The fee sits with us in the frontend, open in the source code, and you set it yourself between 0 and 10 percent."]
-sections: [{"basically": "At Nuri, referral, guardian, inheritance and multisig become one feature. You add a username in the settings."}, {"basically": "Anyone who adds a friend on Nuri shares the fee with them. With 10 people it gets divided by 10."}, {"basically": "Every payment sends your people a few satoshis and a push notification. That makes Nuri go viral."}, {"basically": "With an expanding multisig, your guardians' keys only become active once you have lost your own."}, {"basically": "A guardian helps you recover your key. An heir only gets access once you have done nothing for a year."}, {"basically": "Nuri does not take the fee from the providers, but in its own frontend, open in the source code."}, {"basically": "At Nuri you set your fee yourself, from 0 to 10 percent. At my parties, donations brought in five times as much."}, {"basically": "Every API call at Nuri becomes a small x402 or L402 payment. That solves the fee problem."}, {"basically": "Nobody understands multisig. Three people and a hardware wallet, everyone understands. That is how we explain Nuri."}, {"basically": "Step one at Nuri is just a friend in the settings who earns along. Everything else builds on that."}]
+tldr: ["My idea for Nuri is a single feature. You add someone's username in the settings.", "From that follow referral, guardian, inheritance, multisig and shared saving, depending on what you allow.", "The fee sits with us in the frontend, open in the source code, and you set it yourself between 0 and 21 percent."]
+sections: [{"basically": "At Nuri, referral, guardian, inheritance and multisig become one feature. You add a username in the settings."}, {"basically": "Anyone who adds a friend on Nuri shares the fee with them. With 10 people it gets divided by 10."}, {"basically": "Every payment sends your people a few satoshis and a push notification. That makes Nuri go viral."}, {"basically": "With an expanding multisig, your guardians' keys only become active once you have lost your own."}, {"basically": "A guardian helps you recover your key. An heir only gets access once you have done nothing for a year."}, {"basically": "Nuri does not take the fee from the providers, but in its own frontend, open in the source code."}, {"basically": "At Nuri you set your fee yourself, from 0 to 21 percent. At my parties, donations brought in five times as much."}, {"basically": "Every API call at Nuri becomes a small x402 or L402 payment. That solves the fee problem."}, {"basically": "Nobody understands multisig. Three people and a hardware wallet, everyone understands. That is how we explain Nuri."}, {"basically": "Step one at Nuri is just a friend in the settings who earns along. Everything else builds on that."}]
 ---
 I think I solved something pretty good this morning. It's about a feature for Nuri. That's the idea for now.
 
@@ -67,11 +67,11 @@ My favorite story for this is the outcry in the Aave community when the swap pro
 
 ## Set your own fee
 
-We even let people set the fee themselves. Simply out of fairness. If you don't want to pay any fees, you can go to 0 percent. But you can also go to 10 percent if you want. And if someone asks, why are you taking 2 percent, then we say, go into the settings and change it.
+We even let people set the fee themselves. Simply out of fairness. If you don't want to pay any fees, you can go to 0 percent. But you can also go to 21 percent if you want. And if someone asks, why are you taking 2 percent, then we say, go into the settings and change it.
 
 Why I believe this works comes from my parties in Berlin. No matter what entrance fee I charged and no matter what price for beer, people somehow never thought it was cool. At some point we said, fuck it, donation for beer, donation for entrance. We made about five times the money.
 
-When you give people the option to set it themselves, there are also people who set it significantly higher. Because they think the gamification is awesome or because they're in it for the mission. There are the rich and the poor, the penny-pinchers and the others. For people I meet at a conference and add to my account, I would set my fee to 10 percent. Then they automatically get my split.
+When you give people the option to set it themselves, there are also people who set it significantly higher. Because they think the gamification is awesome or because they're in it for the mission. There are the rich and the poor, the penny-pinchers and the others. For people I meet at a conference and add to my account, I would set my fee to 21 percent. Then they automatically get my split.
 
 ## Every call is a small payment
 

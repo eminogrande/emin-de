@@ -1,5 +1,5 @@
 ---
-title: "Füg einfach irgendeinen Nuri-User dazu"
+title: "Füg einfach irgendeinen Nuri-User hinzu"
 description: "Referral, Guardian, Erbe, Multisig und gemeinsames Sparen werden bei Nuri ein Feature. Du fügst in den Settings einen Username hinzu, der Rest folgt daraus."
 date: 2026-10-18
 updated: 2026-10-18
@@ -11,12 +11,12 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: ../../../media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png
+image: ../../../media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
 tldr:
   - "Meine Idee für Nuri ist ein einziges Feature. Du fügst in den Settings den Username von jemandem hinzu."
   - "Daraus folgen Referral, Guardian, Erbe, Multisig und gemeinsames Sparen, je nachdem was du erlaubst."
-  - "Die Fee liegt bei uns im Frontend, offen im Source Code, und du setzt sie selbst zwischen 0 und 10 Prozent."
+  - "Die Fee liegt bei uns im Frontend, offen im Source Code, und du setzt sie selbst zwischen 0 und 21 Prozent."
 basically:
   ein-feature-statt-fünf: "Bei Nuri werden Referral, Guardian, Erbe und Multisig ein Feature. Du fügst in den Settings einen Username hinzu."
   die-fee-wird-geteilt: "Wer bei Nuri einen Freund hinzufügt, teilt die Fee mit ihm. Bei 10 Leuten wird sie durch 10 geteilt."
@@ -24,12 +24,12 @@ basically:
   expanding-statt-decaying-multisig: "Bei einem Expanding Multisig werden die Keys deiner Guardians erst aktiv, wenn du deine eigenen verloren hast."
   guardian-und-erbe: "Ein Guardian hilft dir, deinen Key wiederherzustellen. Ein Erbe kommt erst ran, wenn du ein Jahr lang nichts machst."
   die-fee-liegt-im-frontend: "Nuri nimmt die Fee nicht bei den Providern, sondern im eigenen Frontend, offen im Source Code."
-  setz-deine-fee-selbst: "Bei Nuri setzt du deine Fee selbst, von 0 bis 10 Prozent. Bei meinen Partys brachte Spenden das Fünffache."
+  setz-deine-fee-selbst: "Bei Nuri setzt du deine Fee selbst, von 0 bis 21 Prozent. Bei meinen Partys brachte Spenden das Fünffache."
   jeder-call-ist-eine-kleine-zahlung: "Jeder API-Call bei Nuri wird eine kleine x402- oder L402-Zahlung. Damit ist das Fee-Problem gelöst."
-  familienwallet-und-hardware-wallets: "Multisig versteht keiner. Drei Leute und eine Hardware Wallet versteht jeder. So erklären wir Nuri."
+  familienwallet-und-hardware-wallets: "Multisig versteht keiner. Drei Leute und eine Hardware-Wallet versteht jeder. So erklären wir Nuri."
   der-erste-schritt: "Schritt eins bei Nuri ist nur ein Freund in den Settings, der mitverdient. Alles andere baut darauf auf."
 ---
-Ich glaube, ich habe heute morgen was ziemlich Gutes gelöst. Es geht um ein Feature für Nuri. Das ist erstmal die Idee.
+Ich glaube, ich habe heute Morgen was ziemlich Gutes gelöst. Es geht um ein Feature für Nuri. Das ist erstmal die Idee.
 
 ## Ein Feature statt fünf
 
@@ -49,7 +49,7 @@ Man könnte sich natürlich auch gegenseitig hinzufügen, dann geht es wieder an
 
 ## Meine Mama kriegt 17 Satoshi
 
-Bitcoiner wollen andere Leute dazu bekommen, Bitcoiner zu werden. Jetzt kann ich meine Mama einladen. Und sie kriegt jedes Mal eine Push-Notification, wenn ich eine Zahlung mache. Du hast gerade 20 Satoshi bekommen. Du hast gerade 17 Satoshi bekommen.
+Bitcoiner wollen andere Leute dazu bringen, Bitcoiner zu werden. Jetzt kann ich meine Mama einladen. Und sie kriegt jedes Mal eine Push-Notification, wenn ich eine Zahlung mache. Du hast gerade 20 Satoshi bekommen. Du hast gerade 17 Satoshi bekommen.
 
 Ich kenne das von mir selber. Bei einem anderen Dienst kriege ich jedes Mal eine Telegram-Nachricht, wenn ein Swap stattfindet, und da steht drin, dass ich gerade 10 Satoshi verdient habe. Das ist das Viralste, was ich jemals für mich selber erlebt habe. Es ist witzig, und man gibt sich so gegenseitig ein bisschen Geld.
 
@@ -67,23 +67,23 @@ Und klar, das sind Settings, die man einstellen kann. Niemand soll an dein Geld 
 
 Guardian ist ein Feature. Da würde ich es gerne eins zu eins so machen wie Bitkey. Die haben das irgendwie so gebaut, dass deine Guardians dir helfen können, deinen Key wiederherzustellen, aber keinen Zugriff auf dein Geld haben. Wie genau die das gemacht haben, müssen wir uns noch angucken.
 
-Das andere Feature ist Inheritance, und das ist extrem wichtig. Ich möchte zum Beispiel meine Schwester als Erbin bei mir eingeben. Jedes Mal, wenn ich eine Zahlung mache, wird ein Counter wieder auf Null gesetzt. Und wenn mir was passieren sollte, aus welchem Grund auch immer, ich wache am nächsten Tag nicht auf, dann wird sie nach einem Jahr automatisch aktiviert und hat Zugriff auf meine Funds. Sowas ist übertrieben wichtig und übertrieben cool.
+Das andere Feature ist Inheritance, und das ist extrem wichtig. Ich möchte zum Beispiel meine Schwester als Erbin bei mir eingeben. Jedes Mal, wenn ich eine Zahlung mache, wird ein Counter wieder auf null gesetzt. Und wenn mir was passieren sollte, aus welchem Grund auch immer, ich wache am nächsten Tag nicht auf, dann wird sie nach einem Jahr automatisch aktiviert und hat Zugriff auf meine Funds. Sowas ist übertrieben wichtig und übertrieben cool.
 
 ## Die Fee liegt im Frontend
 
-Noch viel wichtiger ist, wo die Fee liegt. Heute nehmen wir sie bei den Providern, und das ist ein Fehler. Wir sollten die Fee bei den Providern überall auf Null setzen und sie bei uns nehmen, im Frontend oder in unserem Backend. Hinter Nuri können dann zehn Millionen Provider sein, vollkommen egal. Die nehmen ihren Spread und ihre Fee, und wir schlagen bei denen nichts drauf.
+Noch viel wichtiger ist, wo die Fee liegt. Heute nehmen wir sie bei den Providern, und das ist ein Fehler. Wir sollten die Fee bei den Providern überall auf null setzen und sie bei uns nehmen, im Frontend oder in unserem Backend. Hinter Nuri können dann zehn Millionen Provider sein, vollkommen egal. Die nehmen ihren Spread und ihre Fee, und wir schlagen bei denen nichts drauf.
 
-Dadurch können wir unterscheiden zwischen Nuri-Fee und Partner-Fee. Das ist einfach clean. Und ich will den Leuten im Open Source Code zeigen, guck mal, hier ist die Fee, die steht im Source Code. Ich will, dass wir die transparenteste Firma der Welt sind.
+Dadurch können wir unterscheiden zwischen Nuri-Fee und Partner-Fee. Das ist einfach clean. Und ich will den Leuten im Open-Source-Code zeigen, guck mal, hier ist die Fee, die steht im Sourcecode. Ich will, dass wir die transparenteste Firma der Welt sind.
 
 Meine Lieblingsgeschichte dafür ist der Aufschrei in der Aave-Community, als im Hintergrund der Swap-Provider gewechselt wurde. Daran sieht man, dass Backends keine Power mehr haben, sondern Frontends. Wer die Nutzer hat, hat den Moat.
 
 ## Setz deine Fee selbst
 
-Wir lassen die Leute die Fee sogar selbst setzen. Einfach aus Fairness. Wenn du keine Fees zahlen willst, kannst du auf 0 Prozent gehen. Du kannst aber auch auf 10 Prozent gehen, wenn du willst. Und wenn jemand fragt, wieso nehmt ihr 2 Prozent, dann sagen wir, geh in die Settings und stell das um.
+Wir lassen die Leute die Fee sogar selbst setzen. Einfach aus Fairness. Wenn du keine Fees zahlen willst, kannst du auf 0 Prozent gehen. Du kannst aber auch auf 21 Prozent gehen, wenn du willst. Und wenn jemand fragt, wieso nehmt ihr 2 Prozent, dann sagen wir, geh in die Settings und stell das um.
 
-Warum ich glaube, dass das funktioniert, kommt von meinen Partys in Berlin. Egal welchen Eintritt ich genommen habe und egal welchen Preis für Bier, die Leute fanden es irgendwie nie cool. Irgendwann haben wir gesagt, fuck it, Spende für Bier, Spende für Eintritt. Wir haben ungefähr das Fünffache an Geld verdient.
+Warum ich glaube, dass das funktioniert? Wegen meiner Partys in Berlin. Egal welchen Eintritt ich genommen habe und egal welchen Preis für Bier, die Leute fanden es irgendwie nie cool. Irgendwann haben wir gesagt, fuck it, Spende für Bier, Spende für Eintritt. Wir haben ungefähr das Fünffache an Geld verdient.
 
-Wenn du den Leuten die Möglichkeit gibst, das selbst festzulegen, dann gibt es auch Leute, die das deutlich höher setzen. Weil sie die Gamification geil finden oder weil sie für die Mission dabei sind. Es gibt die Reichen und die Armen, die Pfennigfuchser und die anderen. Ich würde für Leute, die ich auf einer Konferenz treffe und zu meinem Account hinzufüge, meine Fee auf 10 Prozent setzen. Dann kriegen die automatisch meinen Split.
+Wenn du den Leuten die Möglichkeit gibst, das selbst festzulegen, dann gibt es auch Leute, die das deutlich höher setzen. Weil sie die Gamification geil finden oder weil sie für die Mission dabei sind. Es gibt die Reichen und die Armen, die Pfennigfuchser und die anderen. Ich würde für Leute, die ich auf einer Konferenz treffe und zu meinem Account hinzufüge, meine Fee auf 21 Prozent setzen. Dann kriegen die automatisch meinen Split.
 
 ## Jeder Call ist eine kleine Zahlung
 
@@ -93,18 +93,18 @@ Ein Beispiel. Ein neues Passwort in deinem Nuri-Passwort-Manager speichern oder 
 
 Dann musst du kein eigenes Fee-System bauen. Jeder kann unsere API einbinden, wo er will, und wir kriegen automatisch die Payments. Anfangen würde ich mit dem Kontaktbuch, 0,1 Cent jedes Mal, wenn man einen Kontakt hinzufügt. Wenn das läuft, weiten wir es auf die ganze App aus. Ein Feature at a time.
 
-## Familienwallet und Hardware Wallets
+## Familienwallet und Hardware-Wallets
 
-Wenn Leute einmal erlebt haben, wie so eine Safe-Wallet funktioniert, die wir als Firma haben, finden die das richtig cool. Ich habe einen Schlüssel, und wir müssen zusammen sein. Das ist eine richtig geile Crypto-Experience.
+Wenn Leute einmal erlebt haben, wie so eine Safe-Wallet funktioniert, die wir als Firma haben, finden die das richtig cool. Ich habe einen Schlüssel, aber zahlen können wir nur zusammen. Das ist eine richtig geile Crypto-Experience.
 
-Oder eine Familienwallet. Meine Mama, meine Schwester und ich. Zwei von uns können zusammen sein. Multisig kann sich keiner darunter vorstellen. Aber zu sagen, wir sind drei Leute und eine Hardware Wallet, oder wir sind fünf Leute und eine AI, das versteht jeder.
+Oder eine Familienwallet. Meine Mama, meine Schwester und ich. Zwei von uns reichen, um zusammen zu zahlen. Multisig kann sich keiner darunter vorstellen. Aber zu sagen, wir sind drei Leute und eine Hardware-Wallet, oder wir sind fünf Leute und eine AI, das versteht jeder.
 
-Und wir bleiben bei dem Prinzip, das sonst keiner hinkriegt. One-Click-Face-ID-Wallet. Seedless, keine Seed Phrase, phishing-resistant, Multisig by default.
+Und wir bleiben bei dem Prinzip, das sonst keiner hinkriegt. One-Click-Face-ID-Wallet. Seedless, keine Seed-Phrase, phishing-resistant, Multisig by default.
 
 ## Der erste Schritt
 
 Wir tasten uns ganz langsam ran. Der erste Schritt ist nur, dass ich in den Settings einen Freund als meinen Padawan hinzufügen kann und der dann automatisch was bekommt. Dann sehen wir in unserer Datenbank, wer wen hinzugefügt hat und welche Swaps passiert sind, und zahlen die Referrals aus.
 
-Und wenn du was sendest, sollten wir eine Autovervollständigung aller Nuri-User haben. Nicht nur deine Kontakte, sondern einfach jeder. Ich tippe L und finde alle Leute mit L, so wie bei PayPal.
+Und wenn du was sendest, sollten wir eine Autovervollständigung aller Nuri-User haben. Nicht nur deine Kontakte, sondern einfach alle. Ich tippe L und finde alle Leute mit L, so wie bei PayPal.
 
-Später kommen Key-Rotation, Keys hinzufügen und rauslöschen und eine Hardware Wallet dazu. Das müssen wir sowieso alles machen. Aber von der Vision her ist das, glaube ich, absolut perfekt. Weil es so ein krass virales Feature ist, dass du bei dem anderen mitverdienen kannst oder sein Co-Signer bist.
+Später kommen Key-Rotation, Keys hinzufügen und rauslöschen und eine Hardware-Wallet dazu. Das müssen wir sowieso alles machen. Aber von der Vision her ist das, glaube ich, absolut perfekt. Weil es so ein krass virales Feature ist, dass du bei dem anderen mitverdienen kannst oder sein Co-Signer bist.

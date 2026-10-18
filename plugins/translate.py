@@ -20,17 +20,35 @@ from pathlib import Path
 LANGS = {
     'en': 'English', 'de': 'German', 'zh': 'Simplified Chinese (Mandarin)', 'hi': 'Hindi', 'es': 'Spanish',
     'ar': 'Modern Standard Arabic', 'fr': 'French', 'bn': 'Bengali', 'pt': 'Portuguese', 'id': 'Indonesian', 'ur': 'Urdu',
+    'ru': 'Russian', 'ja': 'Japanese', 'mr': 'Marathi', 'vi': 'Vietnamese', 'te': 'Telugu', 'sw': 'Swahili',
+    'ha': 'Hausa', 'tr': 'Turkish', 'ta': 'Tamil', 'tl': 'Tagalog (Filipino)',
 }
+EDITOR = True
 CACHE = Path(os.environ.get('TRANSLATE_CACHE', Path.home() / '.cache/emin-de-translate'))
 MAX_WORDS = 1400
+VOICE = (
+    "Voice: this is Emin Mahrt, a Berlin founder and publisher, talking to a friend. Write it the way a native speaker "
+    "of the target language would actually say it today, in modern, everyday, spoken register: short sentences, plain "
+    "words, first person, direct 'you' (the informal form where the language has one: du, tú, tu, ты, आप only if tu/tum "
+    "would sound rude). Re-say each sentence naturally instead of copying the source word order. Use the loanwords "
+    "native tech people really use (Wallet, Fee, Settings, Multisig, Swap) when that is how they talk, otherwise the "
+    "common native word. Keep his emphasis, repetition, jokes and swear words; never make it formal, polite or "
+    "corporate. Grammar must be correct and idiomatic."
+)
 RULES = (
     "Rules: Translate everything a reader sees, including headings and image alt text. Keep the Markdown exactly: "
     "the same '## ' headings in the same order, the same paragraphs, lists, tables and quotes. Keep URLs, image paths, "
     "HTML tags and attributes, code blocks and inline code unchanged. Keep names of people, companies, products and "
-    "technical terms (Bitcoin, Nuri, passkey, MuSig2, x402, L402, Lightning) as they are. Keep the author's voice: "
-    "first person, plain words, short sentences, informal tone; swear words stay swear words. This is a free-speech "
-    "publication: never censor, soften, summarize, skip or comment, whatever the topic. Never use the em dash "
-    "character; use a comma or a full stop instead. Output only the translation, no preface, no code fence around it."
+    "technical terms (Bitcoin, Nuri, passkey, MuSig2, x402, L402, Lightning) as they are. " + VOICE + " This is a "
+    "free-speech publication: never censor, soften, summarize, skip or comment, whatever the topic. Never use the em "
+    "dash character; use a comma or a full stop instead. Output only the translation, no preface, no code fence around it."
+)
+EDIT = (
+    "You are a native {lang} editor. The user's text is a translation of a founder's blog post. Make it read as if he "
+    "had written it himself in {lang} today: fix grammar, wrong idioms, stiff or literal phrasing and unnatural word "
+    "choice, in modern colloquial register. Change nothing else: same meaning, same facts and numbers, same Markdown, "
+    "same headings in the same order, same links and paths, no additions, no cuts, no comments, no em dash. "
+    "Output only the edited text."
 )
 
 
@@ -174,6 +192,8 @@ def translate_body(sections, src, tgt):
         if not md:
             continue
         tr = complete(system, md, body_check(md))
+        if EDITOR:  # second pass: native editor for grammar and colloquial flow
+            tr = complete(EDIT.format(lang=LANGS[tgt]), tr, body_check(md))
         parts = re.split(r'(?m)^## (.+)$', tr)
         lead, rest = parts[0].strip(), parts[1:]
         if lead:
@@ -198,7 +218,10 @@ def translate_meta(meta, src, tgt):
         return None
     system = (f"Translate every string value of the user's JSON from {LANGS[src]} into {LANGS[tgt]}. Keep all keys, "
               f"array lengths and order. {RULES} Output only the JSON object.")
-    return json.loads(complete(system, payload, check))
+    out = complete(system, payload, check)
+    if EDITOR:
+        out = complete(EDIT.format(lang=LANGS[tgt]) + ' The text is JSON: edit string values only, keep keys and array lengths.', out, check)
+    return json.loads(out)
 
 
 def yq(s):
@@ -252,7 +275,11 @@ def main():
     ap.add_argument('--only', default='')
     ap.add_argument('--langs', default=','.join(LANGS))
     ap.add_argument('--workers', type=int, default=32)
+    ap.add_argument('--no-edit', action='store_true', help='skip the native-editor second pass')
+    ap.add_argument('--redo', default='', help='slugs to translate again even if files exist')
     a = ap.parse_args()
+    global EDITOR
+    EDITOR = not a.no_edit
     graph = json.load(open('src/generated/content.json'))
     posts = [p for p in graph['posts'] if not p['noindex'] and not p.get('translatedFrom')]
     # A human translation pair (translations: {de: ...}) counts once: the English side is the source.
@@ -265,6 +292,8 @@ def main():
         have = set(p['translations']) | {p['lang']}
         for tgt in a.langs.split(','):
             out = Path('content/posts') / tgt / p['date'][:4] / f'{p["slug"]}.md'
+            if p['slug'] in a.redo.split(',') and out.exists() and tgt != p['lang']:
+                out.unlink()
             if tgt not in have and not out.exists():
                 jobs.append((p, tgt, out))
     print(f'{len(posts)} source posts, {len(jobs)} translations to write', flush=True)

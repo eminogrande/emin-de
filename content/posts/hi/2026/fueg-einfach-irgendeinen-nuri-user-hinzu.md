@@ -4,7 +4,7 @@ description: "Referral, Guardian, विरासत, Multisig और साथ 
 date: "2026-10-18"
 updated: "2026-10-18"
 lang: hi
-translated_from: "de/fueg-einfach-irgendeinen-nuri-user-dazu"
+translated_from: "de/fueg-einfach-irgendeinen-nuri-user-hinzu"
 source_sections: ["ein-feature-statt-fünf", "die-fee-wird-geteilt", "meine-mama-kriegt-17-satoshi", "expanding-statt-decaying-multisig", "guardian-und-erbe", "die-fee-liegt-im-frontend", "setz-deine-fee-selbst", "jeder-call-ist-eine-kleine-zahlung", "familienwallet-und-hardware-wallets", "der-erste-schritt"]
 category: nuri
 format: essay
@@ -12,10 +12,10 @@ author: emin
 provenance: transcript
 ai_assisted: true
 reviewed_by_human: false
-image: "/media/fueg-einfach-irgendeinen-nuri-user-dazu/cover.png"
+image: "/media/fueg-einfach-irgendeinen-nuri-user-hinzu/cover.png"
 tags: ["Nuri", "Multisig", "Referral", "Inheritance", "x402", "L402"]
-tldr: ["Nuri के लिए मेरा आइडिया सिर्फ एक फीचर है। तुम Settings में किसी का Username जोड़ते हो।", "इसी से Referral, Guardian, विरासत, Multisig और साथ में बचत निकलते हैं, इस पर निर्भर करता है कि तुम क्या allow करते हो।", "Fee हमारे Frontend में रहती है, Source Code में खुली हुई, और तुम इसे खुद 0 से 10 प्रतिशत के बीच सेट करते हो।"]
-sections: [{"basically": "Nuri में Referral, Guardian, विरासत और Multisig एक फीचर बन जाएगा। तुम Settings में एक Username जोड़ते हो।"}, {"basically": "जो Nuri में किसी दोस्त को जोड़ता है, वह उसके साथ Fee बाँटता है। 10 लोगों पर यह 10 से बँट जाती है।"}, {"basically": "हर Payment तुम्हारे लोगों को कुछ Satoshi और एक Push-Message भेजता है। इससे Nuri वायरल होता है।"}, {"basically": "Expanding Multisig में तुम्हारे Guardians की Keys तभी एक्टिव होती हैं, जब तुम अपनी खुद की खो चुके होते हो।"}, {"basically": "एक Guardian तुम्हारी Key वापस पाने में मदद करता है। एक वारिस तभी तक पहुँचता है, जब तुम एक साल तक कुछ नहीं करते।"}, {"basically": "Nuri Fee को Providers के पास नहीं लेता, बल्कि अपने Frontend में लेता है, Source Code में खुला हुआ।"}, {"basically": "Nuri में तुम अपनी Fee खुद सेट करते हो, 0 से 10 प्रतिशत तक। मेरी पार्टियों में दान ने पाँच गुना कमाया।"}, {"basically": "Nuri में हर API-Call एक छोटी x402- या L402-Payment होगी। इससे Fee-Problem सुलझ जाती है।"}, {"basically": "Multisig कोई नहीं समझता। तीन लोग और एक Hardware Wallet सब समझते हैं। हम Nuri को ऐसे ही समझाते हैं।"}, {"basically": "Nuri में पहला कदम बस Settings में एक दोस्त है, जो साथ कमाता है। बाकी सब इसी पर बनता है।"}]
+tldr: ["Nuri के लिए मेरा आइडिया सिर्फ एक फीचर है। तुम Settings में किसी का Username जोड़ते हो।", "इसी से Referral, Guardian, विरासत, Multisig और साथ में बचत निकलते हैं, इस पर निर्भर करता है कि तुम क्या allow करते हो।", "Fee हमारे Frontend में रहती है, Source Code में खुली हुई, और तुम इसे खुद 0 से 21 प्रतिशत के बीच सेट करते हो।"]
+sections: [{"basically": "Nuri में Referral, Guardian, विरासत और Multisig एक फीचर बन जाएगा। तुम Settings में एक Username जोड़ते हो।"}, {"basically": "जो Nuri में किसी दोस्त को जोड़ता है, वह उसके साथ Fee बाँटता है। 10 लोगों पर यह 10 से बँट जाती है।"}, {"basically": "हर Payment तुम्हारे लोगों को कुछ Satoshi और एक Push-Message भेजता है। इससे Nuri वायरल होता है।"}, {"basically": "Expanding Multisig में तुम्हारे Guardians की Keys तभी एक्टिव होती हैं, जब तुम अपनी खुद की खो चुके होते हो।"}, {"basically": "एक Guardian तुम्हारी Key वापस पाने में मदद करता है। एक वारिस तभी तक पहुँचता है, जब तुम एक साल तक कुछ नहीं करते।"}, {"basically": "Nuri Fee को Providers के पास नहीं लेता, बल्कि अपने Frontend में लेता है, Source Code में खुला हुआ।"}, {"basically": "Nuri में तुम अपनी Fee खुद सेट करते हो, 0 से 21 प्रतिशत तक। मेरी पार्टियों में दान ने पाँच गुना कमाया।"}, {"basically": "Nuri में हर API-Call एक छोटी x402- या L402-Payment होगी। इससे Fee-Problem सुलझ जाती है।"}, {"basically": "Multisig कोई नहीं समझता। तीन लोग और एक Hardware Wallet सब समझते हैं। हम Nuri को ऐसे ही समझाते हैं।"}, {"basically": "Nuri में पहला कदम बस Settings में एक दोस्त है, जो साथ कमाता है। बाकी सब इसी पर बनता है।"}]
 ---
 मुझे लगता है कि आज सुबह मैंने कुछ काफी अच्छा सुलझा लिया है। यह Nuri के लिए एक फीचर के बारे में है। यह शुरुआत में सिर्फ एक आइडिया है।
 
@@ -67,11 +67,11 @@ Guardian एक फीचर है। मैं इसे बिल्कुल
 
 ## अपनी Fee खुद सेट करो
 
-हम लोगों को Fee खुद सेट करने भी देते हैं। बस Fairness के लिए। अगर तुम कोई Fees नहीं देना चाहते, तो तुम 0 प्रतिशत पर जा सकते हो। लेकिन तुम 10 प्रतिशत पर भी जा सकते हो, अगर तुम चाहो। और अगर कोई पूछता है कि तुम 2 प्रतिशत क्यों लेते हो, तो हम कहते हैं, Settings में जाओ और इसे बदल दो।
+हम लोगों को Fee खुद सेट करने भी देते हैं। बस Fairness के लिए। अगर तुम कोई Fees नहीं देना चाहते, तो तुम 0 प्रतिशत पर जा सकते हो। लेकिन तुम 21 प्रतिशत पर भी जा सकते हो, अगर तुम चाहो। और अगर कोई पूछता है कि तुम 2 प्रतिशत क्यों लेते हो, तो हम कहते हैं, Settings में जाओ और इसे बदल दो।
 
 मुझे जो लगता है कि यह काम करेगा, वह बर्लिन में मेरी पार्टियों से आता है। चाहे मैंने Entry के लिए कुछ भी लिया हो और चाहे Beer की कीमत कुछ भी रही हो, लोगों को यह किसी तरह कभी अच्छा नहीं लगा। एक दिन हमने कहा, fuck it, Beer के लिए Donation, Entry के लिए Donation। हमने करीब पांच गुना ज्यादा पैसा कमाया।
 
-जब तुम लोगों को यह खुद तय करने का मौका देते हो, तो कुछ लोग इसे काफी ऊंचा भी सेट करते हैं। क्योंकि उन्हें Gamification मस्त लगती है या क्योंकि वे Mission के लिए साथ हैं। अमीर भी होते हैं और गरीब भी, कंजूस भी और बाकी लोग भी। मैं उन लोगों के लिए, जिनसे मैं किसी Conference में मिलता हूं और जिन्हें अपने Account में जोड़ता हूं, अपनी Fee 10 प्रतिशत पर सेट कर दूंगा। फिर उन्हें अपने आप मेरा Split मिल जाता है।
+जब तुम लोगों को यह खुद तय करने का मौका देते हो, तो कुछ लोग इसे काफी ऊंचा भी सेट करते हैं। क्योंकि उन्हें Gamification मस्त लगती है या क्योंकि वे Mission के लिए साथ हैं। अमीर भी होते हैं और गरीब भी, कंजूस भी और बाकी लोग भी। मैं उन लोगों के लिए, जिनसे मैं किसी Conference में मिलता हूं और जिन्हें अपने Account में जोड़ता हूं, अपनी Fee 21 प्रतिशत पर सेट कर दूंगा। फिर उन्हें अपने आप मेरा Split मिल जाता है।
 
 ## हर Call एक छोटा भुगतान है
 
