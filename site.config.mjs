@@ -112,6 +112,10 @@ export default {
 		{ code: 'tr', hreflang: 'tr', label: 'Türkçe', dateLocale: 'tr-TR' },
 		{ code: 'ta', hreflang: 'ta', label: 'தமிழ்', dateLocale: 'ta-IN' },
 		{ code: 'tl', hreflang: 'tl', label: 'Tagalog', dateLocale: 'fil-PH' },
+		// Emin's own languages and friends (always, beyond the top 21): Ukrainian, Slovenian, Albanian.
+		{ code: 'uk', hreflang: 'uk', label: 'Українська', dateLocale: 'uk-UA' },
+		{ code: 'sl', hreflang: 'sl', label: 'Slovenščina', dateLocale: 'sl-SI' },
+		{ code: 'sq', hreflang: 'sq', label: 'Shqip', dateLocale: 'sq-AL' },
 	],
 
 	// Authors. type "human" = a real person. type "ai_editorial" = an openly named

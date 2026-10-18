@@ -32,7 +32,9 @@ flowchart LR
 
 ## Languages
 
-en (root), de, zh, hi, es, ar, fr, bn, pt, id, ur, ru, ja, mr, vi, te, sw, ha, tr, ta, tl. Nigerian Pidgin and Egyptian Arabic (Ethnologue ranks 14, 15) are covered by en and ar. Source of truth: `site.config.mjs` locales and `LANGS` in `plugins/translate.py`; both must list the same codes. ar and ur carry `dir: 'rtl'`.
+en (root), de, zh, hi, es, ar, fr, bn, pt, id, ur, ru, ja, mr, vi, te, sw, ha, tr, ta, tl, plus uk, sl, sq. Nigerian Pidgin and Egyptian Arabic (Ethnologue ranks 14, 15) are covered by en and ar.
+
+ALWAYS, and translated FIRST (`PRIORITY` in the script): de, tr, sw, ru, uk, sl, sq, en. Emin, 2026-10-18: he is German, Turkish, Slovenian and Albanian, his wife speaks Swahili, and he has many Russian and Ukrainian friends. Never drop these, even if the top-21 list changes. Source of truth: `site.config.mjs` locales and `LANGS` in `plugins/translate.py`; both must list the same codes. ar and ur carry `dir: 'rtl'`.
 
 ## Procedure
 

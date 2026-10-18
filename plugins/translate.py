@@ -22,7 +22,10 @@ LANGS = {
     'ar': 'Modern Standard Arabic', 'fr': 'French', 'bn': 'Bengali', 'pt': 'Portuguese', 'id': 'Indonesian', 'ur': 'Urdu',
     'ru': 'Russian', 'ja': 'Japanese', 'mr': 'Marathi', 'vi': 'Vietnamese', 'te': 'Telugu', 'sw': 'Swahili',
     'ha': 'Hausa', 'tr': 'Turkish', 'ta': 'Tamil', 'tl': 'Tagalog (Filipino)',
+    'uk': 'Ukrainian', 'sl': 'Slovenian', 'sq': 'Albanian',
 }
+# Emin's family and friends read these: translate them first, always.
+PRIORITY = ['de', 'tr', 'sw', 'ru', 'uk', 'sl', 'sq', 'en']
 EDITOR = True
 CACHE = Path(os.environ.get('TRANSLATE_CACHE', Path.home() / '.cache/emin-de-translate'))
 MAX_WORDS = 1400
@@ -270,12 +273,29 @@ def build_file(post, tgt):
     return '\n'.join(fm) + '\n' + text.strip() + '\n'
 
 
+def fill_ui():
+    """Translate src/i18n/en.json into every locale missing from src/i18n/ui.json."""
+    ui = json.load(open('src/i18n/ui.json'))
+    en = json.load(open('src/i18n/en.json'))
+    for lang in LANGS:
+        missing = {k: v for k, v in en.items() if k not in ui.get(lang, {})}
+        if lang == 'en' or not missing:
+            continue
+        try:
+            ui.setdefault(lang, {}).update(translate_meta(missing, 'en', lang))
+            json.dump(ui, open('src/i18n/ui.json', 'w'), ensure_ascii=False, indent=1)
+            print(f'ui: {lang} +{len(missing)}', flush=True)
+        except Exception as e:
+            print(f'ui FAIL {lang}: {str(e)[:120]}', flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--only', default='')
     ap.add_argument('--langs', default=','.join(LANGS))
     ap.add_argument('--workers', type=int, default=32)
     ap.add_argument('--no-edit', action='store_true', help='skip the native-editor second pass')
+    ap.add_argument('--ui', action='store_true', help='first fill missing locales in src/i18n/ui.json')
     ap.add_argument('--redo', default='', help='slugs to translate again even if files exist')
     a = ap.parse_args()
     global EDITOR
@@ -296,6 +316,11 @@ def main():
                 out.unlink()
             if tgt not in have and not out.exists():
                 jobs.append((p, tgt, out))
+    # Emin's languages first (PRIORITY order), newest posts first inside each language.
+    jobs.sort(key=lambda j: j[0]['date'], reverse=True)
+    jobs.sort(key=lambda j: PRIORITY.index(j[1]) if j[1] in PRIORITY else len(PRIORITY))
+    if a.ui:
+        fill_ui()
     print(f'{len(posts)} source posts, {len(jobs)} translations to write', flush=True)
     done = failed = 0
     with ThreadPoolExecutor(a.workers) as ex:
