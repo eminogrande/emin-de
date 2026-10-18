@@ -24,7 +24,7 @@ tldr:
   - "The Fazua Ride 50 stores its 25 km/h limit as one value in the drivepack. On firmware 2.04 you can change it over USB."
   - "I did it from a MacBook Pro M4. The open source tool was Windows only, so my agent swapped its USB layer for hidapi."
   - "Firmware 2.50 had to go back to 2.04 first, through the official FAZUA Toolbox. The 2.04 file is the original from fazua.com."
-  - "Read back after writing, first 55.01 km/h, two days later raw value 1938, that is 69.77 km/h. If you are in Berlin, I help you unlock yours for free."
+  - "Read back after writing, first 55.01 km/h, two days later raw value 1938, that is 69.77 km/h. If you are in Berlin and interested in unlocking your Fazua Ride 50, feel free to contact me."
 basically:
   the-bike-and-the-problem: "A 2020 Canyon Roadlite:ON with a Fazua Ride 50 Evation, and a tuning box that kept blinking yellow."
   the-idea-change-one-number-instead-of-fooling-the-sensor: "The box lies to the speed sensor. The software just changes the limit the motor checks against."
@@ -37,7 +37,7 @@ basically:
   what-went-wrong-on-the-way: "A wrong click, two aborted writes, and a red light that was only a badly seated drivepack."
   battery-modes-and-going-back: "The limit is the same in every mode. Range is not. One command takes it back to 25."
   update-raw-value-1938: "Two days later I went to raw value 1938, my father's birth year. That is 69.77 km/h."
-  free-help-in-berlin: "If you are in Berlin and want to unlock your Fazua Ride 50, write me. It is free."
+  berlin: "If you are in Berlin and interested in unlocking your Fazua Ride 50, feel free to contact me."
 ---
 ## The bike and the problem
 
@@ -181,6 +181,6 @@ The setting appears to work. I still have no measured top speed. 69.77 km/h is t
 
 Going back to 55 is `.venv/bin/python fazua_mac.py 55.008 --force`, which gives raw 1528 again.
 
-## Free help in Berlin
+## Berlin
 
-If you are in Berlin and want to unlock your Fazua Ride 50 the same way, write me at [emin@emin.de](mailto:emin@emin.de). I do it for free. Again, above 25 km/h it is only for private ground, and you do it at your own risk.
+If you are in Berlin and interested in unlocking your Fazua Ride 50, feel free to contact me: [emin@emin.de](mailto:emin@emin.de).

@@ -5,7 +5,7 @@ date: "2026-10-16"
 updated: "2026-10-18"
 lang: zh
 translated_from: "en/fazua-ride-50-speed-unlock-mac"
-source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "free-help-in-berlin"]
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "berlin"]
 category: building
 format: guide
 author: emin
@@ -14,8 +14,8 @@ ai_assisted: true
 reviewed_by_human: false
 tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
 source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
-tldr: ["Fazua Ride 50将25公里/小时的限制作为一个值存储在驱动包中。在固件2.04上,你可以通过USB更改它。", "我是从MacBook Pro M4上做的。开源工具只支持Windows,所以我的agent把它的USB层换成了hidapi。", "固件2.50必须先回到2.04,通过官方的FAZUA Toolbox。2.04文件是来自fazua.com的原版。", "写入后读回,先是55.01公里/小时,两天后原始值1938,即69.77公里/小时。如果你在柏林,我可以免费帮你解锁你的车。"]
-sections: [{"basically": "一辆2020年的Canyon Roadlite:ON,配备Fazua Ride 50 Evation,还有一个一直闪黄灯的调校盒。"}, {"basically": "盒子对速度传感器撒谎。软件只是改变电机检查的限制。"}, {"basically": "我的自行车,我的MacBook,一根mini USB线,一把T10螺丝刀,FAZUA Toolbox和大约75行Python代码。"}, {"basically": "驱动包取出,电池打开,USB盖打开,线插入。Mac将其识别为evation v2.50。"}, {"basically": "首先只读取。我的显示24.98公里/小时和2121毫米车轮。该文件也是备份。"}, {"basically": "在FAZUA Toolbox中选择手动,而不是在线,选择2.04文件并让它刷写和校准。"}, {"basically": "一个命令写入新限制,自行车确认它,第二次读取显示55.01公里/小时。"}, {"basically": "白色LED轮流闪烁是遥控器在自我更新。别管它,直到它显示绿色。"}, {"basically": "一次错误的点击,两次中止的写入,以及一个只是驱动包没插好的红灯。"}, {"basically": "每种模式的限制都相同。续航里程不是。一个命令就能回到25。"}, {"basically": "两天后我把原始值改成了1938,我父亲的出生年份。也就是69.77公里/小时。"}, {"basically": "如果你在柏林,想解锁你的Fazua Ride 50,写信给我。是免费的。"}]
+tldr: ["Fazua Ride 50将25公里/小时的限制作为一个值存储在驱动包中。在固件2.04上,你可以通过USB更改它。", "我是从MacBook Pro M4上做的。开源工具只支持Windows,所以我的agent把它的USB层换成了hidapi。", "固件2.50必须先回到2.04,通过官方的FAZUA Toolbox。2.04文件是来自fazua.com的原版。", "写入后读回,先是55.01公里/小时,两天后原始值1938,即69.77公里/小时。 如果你在柏林，对解锁你的 Fazua Ride 50 感兴趣，欢迎联系我。"]
+sections: [{"basically": "一辆2020年的Canyon Roadlite:ON,配备Fazua Ride 50 Evation,还有一个一直闪黄灯的调校盒。"}, {"basically": "盒子对速度传感器撒谎。软件只是改变电机检查的限制。"}, {"basically": "我的自行车,我的MacBook,一根mini USB线,一把T10螺丝刀,FAZUA Toolbox和大约75行Python代码。"}, {"basically": "驱动包取出,电池打开,USB盖打开,线插入。Mac将其识别为evation v2.50。"}, {"basically": "首先只读取。我的显示24.98公里/小时和2121毫米车轮。该文件也是备份。"}, {"basically": "在FAZUA Toolbox中选择手动,而不是在线,选择2.04文件并让它刷写和校准。"}, {"basically": "一个命令写入新限制,自行车确认它,第二次读取显示55.01公里/小时。"}, {"basically": "白色LED轮流闪烁是遥控器在自我更新。别管它,直到它显示绿色。"}, {"basically": "一次错误的点击,两次中止的写入,以及一个只是驱动包没插好的红灯。"}, {"basically": "每种模式的限制都相同。续航里程不是。一个命令就能回到25。"}, {"basically": "两天后我把原始值改成了1938,我父亲的出生年份。也就是69.77公里/小时。"}, {"basically": "如果你在柏林，对解锁你的 Fazua Ride 50 感兴趣，欢迎联系我。"}]
 ---
 ## 自行车与问题
 
@@ -159,6 +159,6 @@ Eplus 写道解锁后可以再更新到 2.50。我没试过，所以现在我留
 
 回到 55 用 `.venv/bin/python fazua_mac.py 55.008 --force`,它会再次得到原始值 1528。
 
-## 柏林的免费帮助
+## 柏林
 
-如果你在柏林,想用同样的方式解锁你的 Fazua Ride 50,写信到 [emin@emin.de](mailto:emin@emin.de)。我免费做。再说一次,超过 25 km/h 只适用于私人场地,风险自担。
+如果你在柏林，对解锁你的 Fazua Ride 50 感兴趣，欢迎联系我: [emin@emin.de](mailto:emin@emin.de)。

@@ -2,14 +2,23 @@
 
 What the owner asked for, in his words, and what was built from it. Newest first. Private details are left out; the repo is public.
 
+## 2026-10-18: contact wording correction
+
+Emin asked to remove the free-help pitch and simply say that interested readers can get in touch. Applied to the article, ten translations and linked README.
+
+```mermaid
+flowchart LR
+    A[Contact wording correction] --> B[No free-help pitch]
+```
+
 ## 2026-10-18: Emin
 
-- Update the Fazua article and documentation for raw 1938; offer free personal help in Berlin. Source: Emin in chat; English update `13977268`. Recorded by Hermes Agent for Emin Mahrt.
+- Update the Fazua article and documentation for raw 1938; invite interested readers in Berlin to get in touch. Source: Emin in chat; English update `13977268`. Recorded by Hermes Agent for Emin Mahrt.
 
 ```mermaid
 flowchart LR
     A[Emin requests update] --> B[Article and documentation]
-    B --> C[Free Berlin contact offer]
+    B --> C[Berlin contact invitation]
 ```
 
 ## 2026-10-06: blog engine, template, import
