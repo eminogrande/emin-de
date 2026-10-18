@@ -177,7 +177,7 @@ The steps were the same as in step 2 and step 4. First read only, it still said 
 
 My agent typed 69.768 with three decimals only so the tool lands exactly on 1938. To the bike it sends the whole number. "Write cycle acknowledged by bike", then "SUCCESS: bikeMaxSpeed is now 69.77 km/h". A separate read afterwards showed raw 1938, wheel length 2121 mm, nothing else changed.
 
-I rode it and it seems to work. I still have no measured top speed. 69.77 km/h is the value up to which the motor helps, not a speed the bike reaches by itself.
+The setting appears to work. I still have no measured top speed. 69.77 km/h is the configured assistance cutoff, not a measured speed or a speed the bike reaches by itself.
 
 Going back to 55 is `.venv/bin/python fazua_mac.py 55.008 --force`, which gives raw 1528 again.
 

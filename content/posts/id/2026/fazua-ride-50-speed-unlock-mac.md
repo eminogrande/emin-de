@@ -1,11 +1,11 @@
 ---
 title: "Membuka batas kecepatan Fazua Ride 50 dari Mac, tanpa box"
-description: "Bagaimana saya dan agen saya menaikkan batas kecepatan Fazua Ride 50 Evation dari 25 ke 55 km/h lewat USB dari MacBook, dengan firmware 2.04 dan alat open source."
+description: "Bagaimana saya dan agen saya menaikkan batas kecepatan Fazua Ride 50 Evation dari 25 ke 55 lalu 69,77 km/h lewat USB dari MacBook, dengan firmware 2.04 dan alat open source."
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-18"
 lang: id
 translated_from: "en/fazua-ride-50-speed-unlock-mac"
-source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back"]
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "free-help-in-berlin"]
 category: building
 format: guide
 author: emin
@@ -14,8 +14,8 @@ ai_assisted: true
 reviewed_by_human: false
 tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
 source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
-tldr: ["Fazua Ride 50 menyimpan batas 25 km/h sebagai satu nilai di drivepack. Di firmware 2.04 Anda bisa mengubahnya lewat USB.", "Saya melakukannya dari MacBook Pro M4. Alat open source-nya hanya untuk Windows, jadi agen saya mengganti lapisan USB-nya dengan hidapi.", "Firmware 2.50 harus dikembalikan dulu ke 2.04, lewat FAZUA Toolbox resmi. File 2.04 adalah file asli dari fazua.com.", "Dibaca ulang setelah ditulis, 55,01 km/h. Badass Box tidak dibutuhkan untuk ini."]
-sections: [{"basically": "Sebuah Canyon Roadlite:ON 2020 dengan Fazua Ride 50 Evation, dan sebuah tuning box yang terus berkedip kuning."}, {"basically": "Box itu membohongi sensor kecepatan. Software-nya hanya mengubah batas yang dicek motor."}, {"basically": "Sepeda saya, MacBook saya, kabel mini USB, obeng T10, FAZUA Toolbox dan sekitar 75 baris Python."}, {"basically": "Drivepack keluar, baterai terpasang, tutup USB dibuka, kabel masuk. Mac melihatnya sebagai evation v2.50."}, {"basically": "Pertama hanya baca. Punya saya menunjukkan 24,98 km/h dan roda 2121 mm. File itu juga cadangannya."}, {"basically": "Di FAZUA Toolbox pilih Manual, bukan Online, pilih file 2.04 dan biarkan mem-flash dan mengkalibrasi."}, {"basically": "Satu perintah menulis batas baru, sepeda mengonfirmasinya, dan pembacaan kedua menunjukkan 55,01 km/h."}, {"basically": "LED putih berkedip bergantian adalah remote yang sedang memperbarui dirinya. Biarkan saja sampai menunjukkan hijau."}, {"basically": "Satu klik yang salah, dua penulisan yang gagal, dan lampu merah yang ternyata hanya drivepack yang kurang pas duduknya."}, {"basically": "Batasnya sama di setiap mode. Jangkauan tidak. Satu perintah mengembalikannya ke 25."}]
+tldr: ["Fazua Ride 50 menyimpan batas 25 km/h sebagai satu nilai di drivepack. Di firmware 2.04 Anda bisa mengubahnya lewat USB.", "Saya melakukannya dari MacBook Pro M4. Alat open source-nya hanya untuk Windows, jadi agen saya mengganti lapisan USB-nya dengan hidapi.", "Firmware 2.50 harus dikembalikan dulu ke 2.04, lewat FAZUA Toolbox resmi. File 2.04 adalah file asli dari fazua.com.", "Dibaca ulang setelah ditulis, pertama 55,01 km/h, dua hari kemudian nilai mentah 1938, itu 69,77 km/h. Kalau kamu di Berlin, saya bantu membuka kunci punyamu gratis."]
+sections: [{"basically": "Sebuah Canyon Roadlite:ON 2020 dengan Fazua Ride 50 Evation, dan sebuah tuning box yang terus berkedip kuning."}, {"basically": "Box itu membohongi sensor kecepatan. Software-nya hanya mengubah batas yang dicek motor."}, {"basically": "Sepeda saya, MacBook saya, kabel mini USB, obeng T10, FAZUA Toolbox dan sekitar 75 baris Python."}, {"basically": "Drivepack keluar, baterai terpasang, tutup USB dibuka, kabel masuk. Mac melihatnya sebagai evation v2.50."}, {"basically": "Pertama hanya baca. Punya saya menunjukkan 24,98 km/h dan roda 2121 mm. File itu juga cadangannya."}, {"basically": "Di FAZUA Toolbox pilih Manual, bukan Online, pilih file 2.04 dan biarkan mem-flash dan mengkalibrasi."}, {"basically": "Satu perintah menulis batas baru, sepeda mengonfirmasinya, dan pembacaan kedua menunjukkan 55,01 km/h."}, {"basically": "LED putih berkedip bergantian adalah remote yang sedang memperbarui dirinya. Biarkan saja sampai menunjukkan hijau."}, {"basically": "Satu klik yang salah, dua penulisan yang gagal, dan lampu merah yang ternyata hanya drivepack yang kurang pas duduknya."}, {"basically": "Batasnya sama di setiap mode. Jangkauan tidak. Satu perintah mengembalikannya ke 25."}, {"basically": "Dua hari kemudian saya pindah ke nilai mentah 1938, tahun kelahiran ayah saya. Itu 69,77 km/h."}, {"basically": "Kalau kamu di Berlin dan ingin membuka kunci Fazua Ride 50-mu, tulis saya. Gratis."}]
 ---
 ## Sepeda dan masalahnya
 
@@ -140,3 +140,25 @@ Kembali ke stok adalah satu perintah dengan kabel terhubung:
 Eplus menulis bahwa Anda bisa memperbarui ke 2.50 lagi setelah membuka kunci. Saya belum mencobanya, jadi untuk sekarang saya tetap di 2.04 dan tidak menekan update di Toolbox atau aplikasi.
 
 Di atas 25 km/jam sepeda bukan lagi pedelec. Di Jerman, sepeda itu hanya boleh digunakan di tanah pribadi, bukan di jalan umum, dan garansi serta asuransi bisa hilang. Flashing firmware bisa merusak drivepack. Semua yang ada di sini adalah risiko Anda sendiri.
+
+## Pembaruan, nilai mentah 1938
+
+Dua hari kemudian baterainya kembali di Mac dan saya ingin lebih tinggi lagi. Pertama saya meminta 69,69 km/jam. Itu tidak ada persisnya. Drivepack tidak menyimpan km/jam, ia menyimpan satu bilangan bulat, nilai mentah, dan km/jam adalah nilai mentah dikali 0,036. Jadi 69,69 menjadi mentah 1936, itu 69,70 km/jam.
+
+Lalu saya memilih nilai mentah 1938, karena 1938 adalah tahun kelahiran ayah saya. 1938 dikali 0,036 adalah 69,768, alat menunjukkan 69,77 km/jam. Itu jenis angka yang sama seperti sebelumnya. 55,01 juga hanya pembulatan, 1528 dikali 0,036 adalah 55,008.
+
+Langkahnya sama seperti di langkah 2 dan langkah 4. Pertama hanya baca, masih menunjukkan 55,01 km/jam, mentah 1528, roda 2121 mm. Lalu dry run. Di paket hanya dua byte kecepatan yang berubah, semua yang lain tetap sama. Lalu:
+
+```sh
+.venv/bin/python fazua_mac.py 69.768 --force
+```
+
+Agen saya mengetik 69,768 dengan tiga desimal hanya supaya alat mendarat persis di 1938. Ke sepeda ia mengirim bilangan bulat. "Write cycle acknowledged by bike", lalu "SUCCESS: bikeMaxSpeed is now 69.77 km/h". Pembacaan terpisah setelahnya menunjukkan mentah 1938, panjang roda 2121 mm, tidak ada yang lain berubah.
+
+Pengaturannya tampaknya berhasil. Saya masih belum punya kecepatan puncak yang terukur. 69,77 km/jam adalah batas bantuan yang dikonfigurasi, bukan kecepatan terukur dan bukan kecepatan yang dicapai sepeda dengan sendirinya.
+
+Kembali ke 55 adalah `.venv/bin/python fazua_mac.py 55.008 --force`, yang memberikan mentah 1528 lagi.
+
+## Bantuan gratis di Berlin
+
+Kalau kamu di Berlin dan ingin membuka kunci Fazua Ride 50-mu dengan cara yang sama, tulis saya di [emin@emin.de](mailto:emin@emin.de). Saya melakukannya gratis. Sekali lagi, di atas 25 km/jam hanya untuk tanah pribadi, dan kamu melakukannya dengan risiko sendiri.

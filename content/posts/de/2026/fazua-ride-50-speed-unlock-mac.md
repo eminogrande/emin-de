@@ -1,11 +1,11 @@
 ---
 title: "Fazua Ride 50 Speed-Unlock vom Mac, ohne Box"
-description: "Wie mein Agent und ich das Tempolimit eines Fazua Ride 50 Evation von 25 auf 55 km/h über USB von einem MacBook aus angehoben haben, mit Firmware 2.04 und einem Open-Source-Tool."
+description: "Wie mein Agent und ich das Tempolimit eines Fazua Ride 50 Evation von 25 auf 55 und dann 69,77 km/h über USB von einem MacBook aus angehoben haben, mit Firmware 2.04 und einem Open-Source-Tool."
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-18"
 lang: de
 translated_from: "en/fazua-ride-50-speed-unlock-mac"
-source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back"]
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "free-help-in-berlin"]
 category: building
 format: guide
 author: emin
@@ -14,8 +14,8 @@ ai_assisted: true
 reviewed_by_human: false
 tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
 source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
-tldr: ["Der Fazua Ride 50 speichert sein 25-km/h-Limit als einen einzigen Wert im Drivepack. Mit Firmware 2.04 kann man ihn über USB ändern.", "Ich habe es von einem MacBook Pro M4 aus gemacht. Das Open-Source-Tool war nur für Windows, also hat mein Agent seine USB-Schicht durch hidapi ersetzt.", "Firmware 2.50 musste erst zurück auf 2.04, über die offizielle FAZUA Toolbox. Die 2.04-Datei ist das Original von fazua.com.", "Nach dem Schreiben zurückgelesen, 55,01 km/h. Die Badass Box wird dafür nicht gebraucht."]
-sections: [{"basically": "Ein Canyon Roadlite:ON von 2020 mit einem Fazua Ride 50 Evation, und eine Tuning-Box, die ständig gelb blinkte."}, {"basically": "Die Box belügt den Geschwindigkeitssensor. Die Software ändert einfach das Limit, gegen das der Motor prüft."}, {"basically": "Mein Rad, mein MacBook, ein Mini-USB-Kabel, ein T10-Schraubendreher, die FAZUA Toolbox und etwa 75 Zeilen Python."}, {"basically": "Drivepack raus, Akku dran, USB-Kappe ab, Kabel rein. Der Mac sieht es als evation v2.50."}, {"basically": "Erst nur lesen. Meins sagte 24,98 km/h und ein 2121-mm-Rad. Diese Datei ist auch das Backup."}, {"basically": "In der FAZUA Toolbox Manual wählen, nicht Online, die 2.04-Datei auswählen und flashen und kalibrieren lassen."}, {"basically": "Ein Befehl schreibt das neue Limit, das Rad bestätigt es, und ein zweites Lesen zeigt 55,01 km/h."}, {"basically": "Weiße LEDs, die abwechselnd blinken, bedeuten, dass die Remote sich selbst aktualisiert. Lass sie in Ruhe, bis sie grün zeigt."}, {"basically": "Ein falscher Klick, zwei abgebrochene Schreibvorgänge und ein rotes Licht, das nur ein schlecht sitzendes Drivepack war."}, {"basically": "Das Limit ist in jedem Modus gleich. Die Reichweite nicht. Ein Befehl bringt es zurück auf 25."}]
+tldr: ["Der Fazua Ride 50 speichert sein 25-km/h-Limit als einen einzigen Wert im Drivepack. Mit Firmware 2.04 kann man ihn über USB ändern.", "Ich habe es von einem MacBook Pro M4 aus gemacht. Das Open-Source-Tool war nur für Windows, also hat mein Agent seine USB-Schicht durch hidapi ersetzt.", "Firmware 2.50 musste erst zurück auf 2.04, über die offizielle FAZUA Toolbox. Die 2.04-Datei ist das Original von fazua.com.", "Nach dem Schreiben zurückgelesen, zuerst 55,01 km/h, zwei Tage später Rohwert 1938, das sind 69,77 km/h. Wenn du in Berlin bist, helfe ich dir kostenlos beim Entsperren."]
+sections: [{"basically": "Ein Canyon Roadlite:ON von 2020 mit einem Fazua Ride 50 Evation, und eine Tuning-Box, die ständig gelb blinkte."}, {"basically": "Die Box belügt den Geschwindigkeitssensor. Die Software ändert einfach das Limit, gegen das der Motor prüft."}, {"basically": "Mein Rad, mein MacBook, ein Mini-USB-Kabel, ein T10-Schraubendreher, die FAZUA Toolbox und etwa 75 Zeilen Python."}, {"basically": "Drivepack raus, Akku dran, USB-Kappe ab, Kabel rein. Der Mac sieht es als evation v2.50."}, {"basically": "Erst nur lesen. Meins sagte 24,98 km/h und ein 2121-mm-Rad. Diese Datei ist auch das Backup."}, {"basically": "In der FAZUA Toolbox Manual wählen, nicht Online, die 2.04-Datei auswählen und flashen und kalibrieren lassen."}, {"basically": "Ein Befehl schreibt das neue Limit, das Rad bestätigt es, und ein zweites Lesen zeigt 55,01 km/h."}, {"basically": "Weiße LEDs, die abwechselnd blinken, bedeuten, dass die Remote sich selbst aktualisiert. Lass sie in Ruhe, bis sie grün zeigt."}, {"basically": "Ein falscher Klick, zwei abgebrochene Schreibvorgänge und ein rotes Licht, das nur ein schlecht sitzendes Drivepack war."}, {"basically": "Das Limit ist in jedem Modus gleich. Die Reichweite nicht. Ein Befehl bringt es zurück auf 25."}, {"basically": "Zwei Tage später bin ich auf Rohwert 1938 gegangen, das Geburtsjahr meines Vaters. Das sind 69,77 km/h."}, {"basically": "Wenn du in Berlin bist und deinen Fazua Ride 50 entsperren willst, schreib mir. Es ist kostenlos."}]
 ---
 ## Das Fahrrad und das Problem
 
@@ -140,3 +140,25 @@ Zurück auf Original ist ein Befehl mit angeschlossenem Kabel:
 Eplus schreibt, dass man nach dem Entsperren wieder auf 2.50 updaten kann. Das habe ich nicht ausprobiert, also bleibe ich vorerst auf 2.04 und drücke nicht auf Update in der Toolbox oder der App.
 
 Über 25 km/h ist das Fahrrad kein Pedelec mehr. In Deutschland ist es dann nur noch auf Privatgelände erlaubt, nicht auf öffentlichen Straßen, und Garantie und Versicherung können weg sein. Firmware flashen kann den Drivepack kaputt machen. Alles hier passiert auf eigene Gefahr.
+
+## Update, Rohwert 1938
+
+Zwei Tage später lag der Akku wieder am Mac und ich wollte höher. Zuerst habe ich 69,69 km/h angefragt. Das gibt es so nicht genau. Das Drivepack speichert keine km/h, es speichert eine ganze Zahl, den Rohwert, und km/h ist Rohwert mal 0,036. Also wurde aus 69,69 Rohwert 1936, das sind 69,70 km/h.
+
+Dann habe ich Rohwert 1938 gewählt, weil 1938 das Jahr ist, in dem mein Vater geboren wurde. 1938 mal 0,036 ist 69,768, das Tool zeigt 69,77 km/h. Das ist dieselbe Art von Zahl wie vorher. 55,01 war auch nur gerundet, 1528 mal 0,036 ist 55,008.
+
+Die Schritte waren dieselben wie in Schritt 2 und Schritt 4. Erst nur lesen, es sagte immer noch 55,01 km/h, Rohwert 1528, Rad 2121 mm. Dann ein Dry-Run. Im Paket haben sich nur die zwei Geschwindigkeitsbytes geändert, alles andere blieb gleich. Dann:
+
+```sh
+.venv/bin/python fazua_mac.py 69.768 --force
+```
+
+Mein Agent hat 69,768 mit drei Nachkommastellen getippt, nur damit das Tool genau auf 1938 landet. Zum Rad hin sendet es die ganze Zahl. „Write cycle acknowledged by bike“, dann „SUCCESS: bikeMaxSpeed is now 69.77 km/h“. Ein separates Auslesen danach zeigte Rohwert 1938, Radumfang 2121 mm, sonst hat sich nichts geändert.
+
+Die Einstellung scheint zu funktionieren. Ich habe noch keine gemessene Höchstgeschwindigkeit. 69,77 km/h ist die eingestellte Obergrenze der Motorunterstützung, keine gemessene Geschwindigkeit und keine Geschwindigkeit, die das Fahrrad von selbst erreicht.
+
+Zurück auf 55 ist `.venv/bin/python fazua_mac.py 55.008 --force`, das ergibt wieder Rohwert 1528.
+
+## Kostenlose Hilfe in Berlin
+
+Wenn du in Berlin bist und deinen Fazua Ride 50 auf dieselbe Weise entsperren willst, schreib mir an [emin@emin.de](mailto:emin@emin.de). Ich mache das kostenlos. Nochmal, über 25 km/h gilt es nur auf Privatgelände, und du machst es auf eigene Gefahr.

@@ -1,11 +1,11 @@
 ---
 title: "Mac سے Fazua Ride 50 کی رفتار ان لاک کرنا، بغیر کسی باکس کے"
-description: "میں نے اور میرے ایجنٹ نے MacBook سے USB کے ذریعے، فرم ویئر 2.04 اور ایک اوپن سورس ٹول کے ساتھ Fazua Ride 50 Evation کی رفتار کی حد 25 سے بڑھا کر 55 کلومیٹر فی گھنٹہ کیسے کی۔"
+description: "میں نے اور میرے ایجنٹ نے MacBook سے USB کے ذریعے، فرم ویئر 2.04 اور ایک اوپن سورس ٹول کے ساتھ Fazua Ride 50 Evation کی رفتار کی حد 25 سے بڑھا کر 55 اور پھر 69.77 کلومیٹر فی گھنٹہ کیسے کی۔"
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-18"
 lang: ur
 translated_from: "en/fazua-ride-50-speed-unlock-mac"
-source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back"]
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "free-help-in-berlin"]
 category: building
 format: guide
 author: emin
@@ -14,8 +14,8 @@ ai_assisted: true
 reviewed_by_human: false
 tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
 source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
-tldr: ["Fazua Ride 50 اپنی 25 کلومیٹر فی گھنٹہ کی حد کو ڈرائیو پیک میں ایک ویلیو کے طور پر محفوظ کرتا ہے۔ فرم ویئر 2.04 پر آپ اسے USB کے ذریعے تبدیل کر سکتے ہیں۔", "میں نے اسے MacBook Pro M4 سے کیا۔ اوپن سورس ٹول صرف Windows کے لیے تھا، اس لیے میرے ایجنٹ نے اس کی USB لیئر کو hidapi سے بدل دیا۔", "فرم ویئر 2.50 کو پہلے واپس 2.04 پر لانا پڑا، جو آفیشل FAZUA Toolbox کے ذریعے ہوا۔ 2.04 فائل fazua.com کی اصل فائل ہے۔", "لکھنے کے بعد دوبارہ پڑھا، 55.01 کلومیٹر فی گھنٹہ۔ اس کے لیے Badass Box کی ضرورت نہیں ہے۔"]
-sections: [{"basically": "ایک 2020 Canyon Roadlite:ON جس میں Fazua Ride 50 Evation ہے، اور ایک ٹیوننگ باکس جو مسلسل پیلی لائٹ جلا رہا تھا۔"}, {"basically": "باکس سپیڈ سینسر سے جھوٹ بولتا ہے۔ سافٹ ویئر صرف اس حد کو بدل دیتا ہے جسے موٹر چیک کرتی ہے۔"}, {"basically": "میری بائیک، میرا MacBook، ایک mini USB کیبل، ایک T10 سکرو ڈرائیور، FAZUA Toolbox اور تقریباً 75 لائنوں کا Python کوڈ۔"}, {"basically": "ڈرائیو پیک باہر نکالیں، بیٹری آن کریں، USB کیپ ہٹائیں، کیبل لگائیں۔ Mac اسے evation v2.50 کے طور پر دیکھتا ہے۔"}, {"basically": "پہلے صرف ریڈ کریں۔ میری بائیک نے 24.98 کلومیٹر فی گھنٹہ اور 2121 ملی میٹر وہیل بتایا۔ وہ فائل بیک اپ بھی ہے۔"}, {"basically": "FAZUA Toolbox میں Online کے بجائے Manual منتخب کریں، 2.04 فائل چنیں اور اسے فلیش اور کیلیبریٹ ہونے دیں۔"}, {"basically": "ایک کمانڈ نئی حد لکھتی ہے، بائیک اسے تسلیم کرتی ہے، اور دوسری بار پڑھنے پر 55.01 کلومیٹر فی گھنٹہ نظر آتا ہے۔"}, {"basically": "باری باری سفید LEDs کا چمکنا ریموٹ کے خود کو اپ ڈیٹ کرنے کی علامت ہے۔ اسے تب تک نہ چھڑیں جب تک کہ یہ سبز نہ ہو جائے۔"}, {"basically": "ایک غلط کلک، دو ادھورے رائٹس، اور ایک سرخ لائٹ جو صرف ڈرائیو پیک کے صحیح طرح نہ لگے ہونے کی وجہ سے تھی۔"}, {"basically": "حد ہر موڈ میں ایک جیسی ہے۔ رینج نہیں ہے۔ ایک کمانڈ اسے واپس 25 پر لے جاتی ہے۔"}]
+tldr: ["Fazua Ride 50 اپنی 25 کلومیٹر فی گھنٹہ کی حد کو ڈرائیو پیک میں ایک ویلیو کے طور پر محفوظ کرتا ہے۔ فرم ویئر 2.04 پر آپ اسے USB کے ذریعے تبدیل کر سکتے ہیں۔", "میں نے اسے MacBook Pro M4 سے کیا۔ اوپن سورس ٹول صرف Windows کے لیے تھا، اس لیے میرے ایجنٹ نے اس کی USB لیئر کو hidapi سے بدل دیا۔", "فرم ویئر 2.50 کو پہلے واپس 2.04 پر لانا پڑا، جو آفیشل FAZUA Toolbox کے ذریعے ہوا۔ 2.04 فائل fazua.com کی اصل فائل ہے۔", "لکھنے کے بعد دوبارہ پڑھا، پہلے 55.01 کلومیٹر فی گھنٹہ، دو دن بعد راو ویلیو 1938، یعنی 69.77 کلومیٹر فی گھنٹہ۔ اگر آپ برلن میں ہیں تو میں آپ کی بائیک مفت میں ان لاک کرنے میں مدد کرتا ہوں۔"]
+sections: [{"basically": "ایک 2020 Canyon Roadlite:ON جس میں Fazua Ride 50 Evation ہے، اور ایک ٹیوننگ باکس جو مسلسل پیلی لائٹ جلا رہا تھا۔"}, {"basically": "باکس سپیڈ سینسر سے جھوٹ بولتا ہے۔ سافٹ ویئر صرف اس حد کو بدل دیتا ہے جسے موٹر چیک کرتی ہے۔"}, {"basically": "میری بائیک، میرا MacBook، ایک mini USB کیبل، ایک T10 سکرو ڈرائیور، FAZUA Toolbox اور تقریباً 75 لائنوں کا Python کوڈ۔"}, {"basically": "ڈرائیو پیک باہر نکالیں، بیٹری آن کریں، USB کیپ ہٹائیں، کیبل لگائیں۔ Mac اسے evation v2.50 کے طور پر دیکھتا ہے۔"}, {"basically": "پہلے صرف ریڈ کریں۔ میری بائیک نے 24.98 کلومیٹر فی گھنٹہ اور 2121 ملی میٹر وہیل بتایا۔ وہ فائل بیک اپ بھی ہے۔"}, {"basically": "FAZUA Toolbox میں Online کے بجائے Manual منتخب کریں، 2.04 فائل چنیں اور اسے فلیش اور کیلیبریٹ ہونے دیں۔"}, {"basically": "ایک کمانڈ نئی حد لکھتی ہے، بائیک اسے تسلیم کرتی ہے، اور دوسری بار پڑھنے پر 55.01 کلومیٹر فی گھنٹہ نظر آتا ہے۔"}, {"basically": "باری باری سفید LEDs کا چمکنا ریموٹ کے خود کو اپ ڈیٹ کرنے کی علامت ہے۔ اسے تب تک نہ چھڑیں جب تک کہ یہ سبز نہ ہو جائے۔"}, {"basically": "ایک غلط کلک، دو ادھورے رائٹس، اور ایک سرخ لائٹ جو صرف ڈرائیو پیک کے صحیح طرح نہ لگے ہونے کی وجہ سے تھی۔"}, {"basically": "حد ہر موڈ میں ایک جیسی ہے۔ رینج نہیں ہے۔ ایک کمانڈ اسے واپس 25 پر لے جاتی ہے۔"}, {"basically": "دو دن بعد میں راو ویلیو 1938 پر گیا، میرے والد کی پیدائش کا سال۔ یعنی 69.77 کلومیٹر فی گھنٹہ۔"}, {"basically": "اگر آپ برلن میں ہیں اور اپنی Fazua Ride 50 ان لاک کروانا چاہتے ہیں تو مجھے لکھیں۔ یہ مفت ہے۔"}]
 ---
 ## بائیک اور مسئلہ
 
@@ -140,3 +140,25 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements-mac.txt
 Eplus لکھتا ہے کہ آپ ان لاک کرنے کے بعد دوبارہ 2.50 پر اپ ڈیٹ کر سکتے ہیں۔ میں نے یہ آزما کر نہیں دیکھا، اس لیے فی الحال میں 2.04 پر ہی رہتا ہوں اور Toolbox یا ایپ میں اپ ڈیٹ نہیں دباتا۔
 
 25 km/h سے اوپر یہ بائیک اب pedelec نہیں رہتی۔ جرمنی میں پھر اس کی اجازت صرف نجی زمین پر ہے، عوامی سڑکوں پر نہیں، اور وارنٹی اور انشورنس ختم ہو سکتی ہے۔ فرم ویئر فلیش کرنے سے drivepack خراب ہو سکتا ہے۔ یہاں سب کچھ آپ کے اپنے رسک پر ہے۔
+
+## اپ ڈیٹ، راو ویلیو 1938
+
+دو دن بعد بیٹری دوبارہ Mac سے جڑی اور میں مزید اوپر جانا چاہتا تھا۔ پہلے میں نے 69.69 کلومیٹر فی گھنٹہ مانگا۔ یہ عین مطابق موجود نہیں۔ ڈرائیو پیک کلومیٹر فی گھنٹہ محفوظ نہیں کرتا، وہ ایک پورا عدد محفوظ کرتا ہے، راو ویلیو، اور کلومیٹر فی گھنٹہ راو ویلیو کو 0.036 سے ضرب دینے پر ملتا ہے۔ اس لیے 69.69 بن گیا راو 1936، جو 69.70 کلومیٹر فی گھنٹہ ہے۔
+
+پھر میں نے راو ویلیو 1938 چنی، کیونکہ 1938 میرے والد کی پیدائش کا سال ہے۔ 1938 کو 0.036 سے ضرب دینے پر 69.768 ملتا ہے، ٹول 69.77 کلومیٹر فی گھنٹہ دکھاتا ہے۔ یہ ویسے ہی نمبر ہے جیسے پہلے۔ 55.01 بھی صرف راؤنڈ کیا ہوا تھا، 1528 کو 0.036 سے ضرب دینے پر 55.008 ملتا ہے۔
+
+قدم وہی تھے جو سٹیپ 2 اور سٹیپ 4 میں تھے۔ پہلے صرف ریڈ، اس نے اب بھی 55.01 کلومیٹر فی گھنٹہ، راو 1528، وہیل 2121 ملی میٹر بتایا۔ پھر ایک ڈرائی رن۔ پیکٹ میں صرف دو سپیڈ بائٹس بدلیں، باقی سب ویسا ہی رہا۔ پھر:
+
+```sh
+.venv/bin/python fazua_mac.py 69.768 --force
+```
+
+میرے ایجنٹ نے 69.768 تین اعشاریوں کے ساتھ ٹائپ کیا، صرف اس لیے کہ ٹول بالکل 1938 پر پہنچے۔ بائیک کو یہ پورا عدد بھیجتا ہے۔ "Write cycle acknowledged by bike"، پھر "SUCCESS: bikeMaxSpeed is now 69.77 km/h"۔ بعد میں ایک الگ ریڈ نے راو 1938، وہیل لمبائی 2121 ملی میٹر دکھایا، کچھ اور نہیں بدلا۔
+
+سیٹنگ کام کرتی دکھائی دیتی ہے۔ میرے پاس اب بھی ناپی ہوئی کوئی ٹاپ سپیڈ نہیں۔ 69.77 کلومیٹر فی گھنٹہ سیٹ کی گئی اسسٹنس کی حد ہے، ناپی ہوئی رفتار نہیں، اور نہ وہ رفتار جس تک بائیک خود پہنچتی ہے۔
+
+واپس 55 پر جانے کے لیے `.venv/bin/python fazua_mac.py 55.008 --force`، جو دوبارہ راو 1528 دیتا ہے۔
+
+## برلن میں مفت مدد
+
+اگر آپ برلن میں ہیں اور اپنی Fazua Ride 50 اسی طریقے سے ان لاک کروانا چاہتے ہیں تو مجھے [emin@emin.de](mailto:emin@emin.de) پر لکھیں۔ میں یہ مفت کرتا ہوں۔ دوبارہ، 25 کلومیٹر فی گھنٹہ سے اوپر یہ صرف نجی زمین کے لیے ہے، اور آپ یہ اپنے رسک پر کرتے ہیں۔

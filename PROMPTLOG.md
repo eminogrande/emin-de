@@ -2,6 +2,16 @@
 
 What the owner asked for, in his words, and what was built from it. Newest first. Private details are left out; the repo is public.
 
+## 2026-10-18: Emin
+
+- Update the Fazua article and documentation for raw 1938; offer free personal help in Berlin. Source: Emin in chat; English update `13977268`. Recorded by Hermes Agent for Emin Mahrt.
+
+```mermaid
+flowchart LR
+    A[Emin requests update] --> B[Article and documentation]
+    B --> C[Free Berlin contact offer]
+```
+
 ## 2026-10-06: blog engine, template, import
 
 > "ALLES muss öffentlich auf github sein, als markdown, dort auch gefunden werden, und am liebsten auch direkt gehostet - ausser es wiederspricht gegen 100% ai readyness - ich gehe davon aus dass mehr ai meine beiträge lesen wird als menschen"

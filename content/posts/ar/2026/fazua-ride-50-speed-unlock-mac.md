@@ -1,11 +1,11 @@
 ---
 title: "رفع حد سرعة Fazua Ride 50 من جهاز Mac، بدون صندوق"
-description: "كيف رفعت أنا ووكيلي حد السرعة في Fazua Ride 50 Evation من 25 إلى 55 كم/س عبر USB من جهاز MacBook، مع البرنامج الثابت 2.04 وأداة مفتوحة المصدر."
+description: "كيف رفعت أنا ووكيلي حد السرعة في Fazua Ride 50 Evation من 25 إلى 55 ثم 69.77 كم/س عبر USB من جهاز MacBook، مع البرنامج الثابت 2.04 وأداة مفتوحة المصدر."
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-18"
 lang: ar
 translated_from: "en/fazua-ride-50-speed-unlock-mac"
-source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back"]
+source_sections: ["the-bike-and-the-problem", "the-idea-change-one-number-instead-of-fooling-the-sensor", "what-i-used", "step-1-connect-the-drivepack-to-the-mac", "step-2-read-before-you-write", "step-3-downgrade-to-204", "step-4-write-55-kmh", "step-5-back-into-the-bike", "what-went-wrong-on-the-way", "battery-modes-and-going-back", "update-raw-value-1938", "free-help-in-berlin"]
 category: building
 format: guide
 author: emin
@@ -14,8 +14,8 @@ ai_assisted: true
 reviewed_by_human: false
 tags: ["ebike", "tuning", "Fazua Ride 50", "Canyon Roadlite:ON", "macOS", "how-to"]
 source_links: [{"title": "FazuaUnlocker, my fork with the Mac port", "url": "https://github.com/eminogrande/FazuaUnlocker", "note": "fazua_mac.py, README-MAC.md and the firmware download script."}, {"title": "FazuaUnlocker by quezzas", "url": "https://github.com/quezzas/FazuaUnlocker", "note": "The original Windows tool, MIT licence."}, {"title": "FAZUA Toolbox Software", "url": "https://fazua.com/en/support/help-center/fazua-toolbox-software/", "note": "The official tool for firmware updates over USB."}, {"title": "FAZUA: How to do a Ride 50 firmware update", "url": "https://fazua.com/en/support/help-center/videos/how-to-fazua-ride-50-firmware-update", "note": "Manual firmware install, and why the remote LEDs flash afterwards."}, {"title": "Eplus Flash Home, Fazua speed unlocker", "url": "https://www.eplus.bike/en/prodotto/fazua-software-home-speed-unlocker/", "note": "The paid Windows version of the same idea, and the 2.50 to 2.04 downgrade note."}, {"title": "Firmware 2.04, archived original from fazua.com", "url": "https://web.archive.org/web/20220709185915/https://fazua.com/documents/826/evation_Software_2.04.bin", "note": "Internet Archive snapshot of 9 July 2022."}]
-tldr: ["يخزن Fazua Ride 50 حد 25 كم/س كقيمة واحدة في حزمة القيادة. في البرنامج الثابت 2.04 يمكنك تغييره عبر USB.", "فعلتها من MacBook Pro M4. كانت الأداة مفتوحة المصدر لنظام Windows فقط، لذا استبدل وكيلي طبقة USB فيها بـ hidapi.", "كان يجب إعادة البرنامج الثابت 2.50 إلى 2.04 أولاً، عبر FAZUA Toolbox الرسمية. ملف 2.04 هو الأصلي من fazua.com.", "قراءة تحقق بعد الكتابة، 55.01 كم/س. صندوق Badass غير مطلوب لهذا."]
-sections: [{"basically": "دراجة Canyon Roadlite:ON موديل 2020 مع Fazua Ride 50 Evation، وصندوق تعديل ظل يومض بالأصفر."}, {"basically": "الصندوق يكذب على مستشعر السرعة. البرنامج يغير فقط الحد الذي يتحقق منه المحرك."}, {"basically": "دراجتي، وجهاز MacBook، وكابل mini USB، ومفك T10، وFAZUA Toolbox وحوالي 75 سطراً من Python."}, {"basically": "أخرج حزمة القيادة، ركب البطارية، انزع غطاء USB، وأدخل الكابل. يراه الـ Mac كـ evation v2.50."}, {"basically": "أولاً قراءة فقط. أظهر جهازي 24.98 كم/س وعجلة 2121 مم. هذا الملف هو أيضاً النسخة الاحتياطية."}, {"basically": "في FAZUA Toolbox اختر Manual وليس Online، واختر ملف 2.04 ودعه يقوم بالتحميل والمعايرة."}, {"basically": "أمر واحد يكتب الحد الجديد، والدراجة تؤكده، وقراءة ثانية تظهر 55.01 كم/س."}, {"basically": "وميض مصابيح LED البيضاء بالتناوب يعني أن الريموت يحدث نفسه. اتركه وشأنه حتى يظهر الأخضر."}, {"basically": "نقرة خاطئة، ومحاولتا كتابة ملغيتان، وضوء أحمر لم يكن سوى حزمة قيادة غير مركبة جيداً."}, {"basically": "الحد نفسه في كل وضع. المدى ليس كذلك. أمر واحد يعيده إلى 25."}]
+tldr: ["يخزن Fazua Ride 50 حد 25 كم/س كقيمة واحدة في حزمة القيادة. في البرنامج الثابت 2.04 يمكنك تغييره عبر USB.", "فعلتها من MacBook Pro M4. كانت الأداة مفتوحة المصدر لنظام Windows فقط، لذا استبدل وكيلي طبقة USB فيها بـ hidapi.", "كان يجب إعادة البرنامج الثابت 2.50 إلى 2.04 أولاً، عبر FAZUA Toolbox الرسمية. ملف 2.04 هو الأصلي من fazua.com.", "قراءة تحقق بعد الكتابة، أولاً 55.01 كم/س، وبعد يومين القيمة الخام 1938، أي 69.77 كم/س. إذا كنت في برلين، أساعدك في فتح قفل دراجتك مجاناً."]
+sections: [{"basically": "دراجة Canyon Roadlite:ON موديل 2020 مع Fazua Ride 50 Evation، وصندوق تعديل ظل يومض بالأصفر."}, {"basically": "الصندوق يكذب على مستشعر السرعة. البرنامج يغير فقط الحد الذي يتحقق منه المحرك."}, {"basically": "دراجتي، وجهاز MacBook، وكابل mini USB، ومفك T10، وFAZUA Toolbox وحوالي 75 سطراً من Python."}, {"basically": "أخرج حزمة القيادة، ركب البطارية، انزع غطاء USB، وأدخل الكابل. يراه الـ Mac كـ evation v2.50."}, {"basically": "أولاً قراءة فقط. أظهر جهازي 24.98 كم/س وعجلة 2121 مم. هذا الملف هو أيضاً النسخة الاحتياطية."}, {"basically": "في FAZUA Toolbox اختر Manual وليس Online، واختر ملف 2.04 ودعه يقوم بالتحميل والمعايرة."}, {"basically": "أمر واحد يكتب الحد الجديد، والدراجة تؤكده، وقراءة ثانية تظهر 55.01 كم/س."}, {"basically": "وميض مصابيح LED البيضاء بالتناوب يعني أن الريموت يحدث نفسه. اتركه وشأنه حتى يظهر الأخضر."}, {"basically": "نقرة خاطئة، ومحاولتا كتابة ملغيتان، وضوء أحمر لم يكن سوى حزمة قيادة غير مركبة جيداً."}, {"basically": "الحد نفسه في كل وضع. المدى ليس كذلك. أمر واحد يعيده إلى 25."}, {"basically": "بعد يومين انتقلت إلى القيمة الخام 1938، سنة ميلاد أبي. هذه هي 69.77 كم/س."}, {"basically": "إذا كنت في برلين وتريد فتح قفل Fazua Ride 50 الخاص بك، راسلني. الأمر مجاني."}]
 ---
 ## الدراجة والمشكلة
 
@@ -140,3 +140,25 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements-mac.txt
 تكتب Eplus أنه يمكنك التحديث إلى 2.50 مرة أخرى بعد إلغاء القفل. لم أجرب ذلك، لذا في الوقت الحالي أبقى على 2.04 ولا أضغط على التحديث في Toolbox أو التطبيق.
 
 فوق 25 كم/ساعة لم تعد الدراجة دراجة كهربائية مساعدة. في ألمانيا يُسمح بها فقط على الأراضي الخاصة، وليس على الطرق العامة، ويمكن أن يزول الضمان والتأمين. يمكن أن يؤدي تفليش البرنامج الثابت إلى كسر حزمة القيادة. كل شيء هنا على مسؤوليتك الخاصة.
+
+## تحديث، القيمة الخام 1938
+
+بعد يومين كانت البطارية على الـ Mac مرة أخرى وأردت الارتفاع أكثر. طلبت أولاً 69.69 كم/س. هذه القيمة غير موجودة بالضبط. حزمة القيادة لا تخزن كم/س، بل تخزن رقماً صحيحاً واحداً، القيمة الخام، والكم/س هو القيمة الخام مضروبة في 0.036. لذا أصبحت 69.69 القيمة الخام 1936، وهي 69.70 كم/س.
+
+ثم اخترت القيمة الخام 1938، لأن 1938 هي السنة التي وُلد فيها أبي. 1938 مضروبة في 0.036 تساوي 69.768، والأداة تعرض 69.77 كم/س. هذا هو نفس نوع الرقم كالسابق. 55.01 كانت أيضاً مجرد تقريب، 1528 مضروبة في 0.036 تساوي 55.008.
+
+كانت الخطوات نفسها كما في الخطوة 2 والخطوة 4. أولاً قراءة فقط، فقالت 55.01 كم/س، خام 1528، عجلة 2121 مم. ثم تشغيل تجريبي. في الحزمة تغير بايتا السرعة فقط، وبقي كل شيء آخر كما هو. ثم:
+
+```sh
+.venv/bin/python fazua_mac.py 69.768 --force
+```
+
+كتب وكيلي 69.768 بثلاث منازل عشرية فقط لتصل الأداة بالضبط إلى 1938. إلى الدراجة يرسل الرقم الصحيح. "Write cycle acknowledged by bike"، ثم "SUCCESS: bikeMaxSpeed is now 69.77 km/h". قراءة منفصلة بعد ذلك أظهرت خام 1938، طول عجلة 2121 مم، ولم يتغير شيء آخر.
+
+يبدو أن الإعداد يعمل. ما زلت لا أملك سرعة قصوى مقيسة. 69.77 كم/س هي حد المساعدة المضبوط، وليست سرعة مقيسة ولا سرعة تصلها الدراجة من تلقاء نفسها.
+
+العودة إلى 55 هي `.venv/bin/python fazua_mac.py 55.008 --force`، والتي تعطي الخام 1528 مرة أخرى.
+
+## مساعدة مجانية في برلين
+
+إذا كنت في برلين وتريد فتح قفل Fazua Ride 50 الخاص بك بنفس الطريقة، راسلني على [emin@emin.de](mailto:emin@emin.de). أفعل ذلك مجاناً. مرة أخرى، فوق 25 كم/س هذا للأراضي الخاصة فقط، وأنت تفعل ذلك على مسؤوليتك الخاصة.

@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-18: Fazua raw value 1938 and free Berlin help
+
+- `13977268`: updated the English Fazua guide with raw 1938 (69.768 km/h, displayed 69.77), unchanged 2121 mm wheel length, and free help in Berlin via the existing public emin@emin.de address. Updated by Hermes Agent for Emin Mahrt.
+
+```mermaid
+flowchart LR
+    A[Original result: raw 1528] --> B[Update: raw 1938]
+    B --> C[Free Berlin help: emin@emin.de]
+```
+
 ## 2026-10-06 (magazine redesign, emin.de as the original, free speech)
 
 A bright personal magazine instead of a docs page, emin.de as the canonical home of every post, and free speech as the site's core rule.
