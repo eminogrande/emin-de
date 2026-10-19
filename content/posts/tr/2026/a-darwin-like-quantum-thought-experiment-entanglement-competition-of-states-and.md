@@ -1,0 +1,85 @@
+---
+title: "Kuantum dünyasında Darwinci bir düşünce deneyi: Dolanıklık, rakip durumlar ve Kuantum Darwinizmi"
+description: "Kuantum fiziği Darwin gibi davranabilir mi diye sordum. Dolanıklık neleri yapabilir, neleri yapamaz? Dekoherans neden doğal seçilime benziyor ve bunu nasıl test ederiz?"
+date: "2026-01-17T10:50:01Z"
+updated: "2026-01-17"
+lang: tr
+translated_from: "en/a-darwin-like-quantum-thought-experiment-entanglement-competition-of-states-and"
+source_sections: ["my-questions-in-order", "entanglement-is-correlation-and-not-a-remote-control", "how-we-prove-entanglement", "why-quantum-computing-feels-darwinian", "a-two-wing-thought-experiment", "what-would-count-as-proof"]
+category: science
+format: essay
+author: ai-desk
+provenance: ai_generated
+ai_assisted: true
+reviewed_by_human: false
+image: "/media/a-darwin-like-quantum-thought-experiment-entanglement-competition-of-states-and/cover.webp"
+tldr: ["Dolanıklık bir korelasyondur, uzaktan kumanda değil. Sinyal iletim yasağı, onu kullanarak B tarafındaki bir durumu değiştirmenizi engeller.", "Kuantum fiziğindeki bu Darwinci sürecin zaten bir adı var: Kuantum Darwinizmi. Çevre, işaretçi durumları seçer ve onları kopyalar.", "Bunun kanıtı fazlalıktır (redundancy); yani çevrenin birçok parçasının aynı bilgiyi taşıması. Zhu ve ekibi 2025'te bunu süper iletken devrelerle gözlemledi.", "D ve T spinlerini hizalamak, ideal koşullar altında füzyon kesitini yaklaşık 1,5 kat artırabiliyor."]
+sections: [{"basically": "Dolanıklıktan füzyondaki spine kadar kuantum fiziğinin Darwin gibi davranıp davranmadığı üzerine dokuz soru."}, {"basically": "Dolanıklık güçlü korelasyonlar sağlar ancak A üzerinde işlem yaparak B'nin algılayabileceği bir sinyal gönderemezsiniz."}, {"basically": "Dolanıklık Bell testleriyle kanıtlandı ve sadece spinle değil, polarizasyon, yol, zaman ve frekansla da çalışıyor."}, {"basically": "Kuantum Darwinizmi: Çevre, kararlı işaretçi durumları seçer ve onları çok sayıda kayda kopyalar."}, {"basically": "Her biri kendi çevresine sahip iki dolanık sistem, herhangi bir uzaktan kumanda olmadan Darwinci bir seçilim sergiler."}, {"basically": "Kuantum Darwinizminin kanıtı fazlalıktır ve 2025 yılında süper iletken devrelerle yapılan bir deney bunu doğruladı."}]
+---
+Kuantum fiziğindeki Darwin benzeri davranışlarla ilgili tüm sorularımı sıraya dizdim. Dolanıklığın (entanglement) gerçekte ne anlama geldiği ve neleri yapamayacağı, ölçüm ve dekoheransın neden seçilim gibi hissettirdiği, hangi serbestlik derecelerinin dolanık hale getirilebileceği, nükleer spinin işin neresinde olduğu ve Darwin benzeri bir mekanizma için en temiz testin ne olduğu. Bu mekanizmanın zaten bir adı var: Quantum Darwinism.
+
+## Sorularım, sırasıyla
+
+Kuantum fiziğine dair Darwin benzeri tek bir tablo oluşturmaya çalışıyordum ve aklımda dokuz soru vardı. İlk üçü doğrudan dolanıklıkla ilgiliydi, dört ve beşinci sorular kanıt ve spin üzerineydi, altıncısı kuantum bilgisayarlar, yedi ve sekizincisi nükleer fizik ve evrenin bütünüyle ilgiliydi, sonuncusu ise işin özüydü.
+
+Her şey şöyle başladı: Dolanıklık, mesafeler arası bir bağlantı gibi duruyor. Eğer A ve B sistemleri dolanıksa, A değiştiğinde B de güncelleniyor, aradaki mesafe çok olsa bile. Ve eğer B güncelleniyorsa, çevresini etkilemesi gerekir çünkü gerçek fizikte spin, polarizasyon, frekans ve enerji gibi şeyler bir nesnenin çevresiyle nasıl etkileşime gireceğini belirler. Ben de şunu sordum: Dolanıklık B’yi güncelliyorsa, B’nin çevresi de tepki vermeli değil mi? Ama herkes dolanıklığın herhangi bir etki veya bilgi gönderemeyeceğini söylüyor. Ben de bu sınırların yanlış olabileceğinden şüpheleniyordum çünkü o güncelleme hissi gerçek gibi geliyor.
+
+Sonra dolanıklığı nasıl kanıtladığımızı merak ettim. İki tarafı aynı anda mı ölçmemiz gerekiyor? Dolanık kalmaları için A ve B’yi birlikte mi değiştirmeliyiz, yoksa tek bir tarafa işlem yapmak yeterli mi? Bir de dolanıklık sadece spin ve 0 ile 1’den mi ibaret, yoksa çevreyi farklı şekillerde etkileyen başka, belki de daha fiziksel dolanık özellikler var mı?
+
+Kuantum bilgisayarlar zordur çünkü bir duruma bakmak onu değiştirir ve hatalar her yerdedir. Sorduğum şuydu: Bu durumlar arasında bir tür rekabet mi var? Yani birçok olasılığın savaşıp birinin hayatta kaldığı, tam Darwin gibi bir şey? Sonra nükleer fizik: Füzyon ve fisyon reaksiyon kanallarında spin önemlidir, peki sürecin ortasında spini değiştirmek farklı reaksiyon yolları açabilir mi ve dolanıklık ile nükleer reaksiyonlar birleşip Darwin benzeri bir seçilim mekanizması yaratabilir mi? Bir de evrenin bütününe, kara deliklere, genişlemeye ve madde oluşumuna bakarsak, derin dolanıklık ağları başka bir yerde kaosu tetikleyip fizikte Darwinci bir etki yaratabilir mi?
+
+İşin özü tek bir soruydu: Kuantum fiziğinin gerçekten Darwin benzeri davrandığı en yakın deney veya en yakın düşünce deneyi nedir ve neyi kanıt sayarız? Bu yazının geri kalanı bunların hepsini cevaplıyor ve Darwin fikrini koruyor ama korelasyon ile sebebi birbirinden ayırıyor.
+
+## Dolanıklık bir korelasyondur, uzaktan kumanda değil
+
+Dolanıklık, A ve B ölçüldüğünde ve sonuçlar daha sonra karşılaştırıldığında çıktılar arasında güçlü korelasyonlar sağlar. Eğer A ve B dolanıksa ve her iki tarafta da aynı tür ölçümü yaparsanız, yukarı-aşağı, yukarı-aşağı veya yukarı-yukarı, aşağı-aşağı gibi çok katı bir desen elde edersiniz. Bu, klasik paylaşılan herhangi bir rastgele tohumun (seed) üretebileceğinden çok daha güçlüdür.
+
+Dolanıklığın sağlamadığı şey ise şudur: A üzerinde bir işlem yapıyorum ve bu, B’de yerel olarak tespit edilebilecek, dolayısıyla B’nin çevresinde de fark edilebilecek bir değişimi, hiçbir normal sinyal olmadan zorunlu kılıyor. Buna sinyal göndermeme (no-signaling) veya haberleşmeme kuralı denir; yani A’daki yerel eylemler, B’ye kontrol edilebilir bilgi göndermek için kullanılamaz. Bunun temiz ifadesi "no-communication theorem"dir, genellikle sinyal göndermeme prensibi olarak sunulur ve [Wikipedia'daki no-communication theorem sayfasında](https://en.wikipedia.org/wiki/No-communication_theorem) bununla ilgili güzel bir özet var.
+
+Yani benim "B çevresini etkilemeli" adımım aslında çalışmıyor. Ben A’nın B’yi güncellediğini, B’nin de bir çevrede olduğunu, dolayısıyla çevrenin farklı tepki vermesi gerektiğini düşünmüştüm. Ama dolanıklıktan gelen güncelleme aslında sadece ilişkinin, yani korelasyonların bir güncellemesidir ve ancak sonuçlar karşılaştırıldığında kullanılabilir hale gelir. B, A’dan ışık hızında klasik bir bilgi gelene kadar istatistiksel olarak aynı görünür. Güncelleme ortak istatistikte gerçektir, ancak B’de hiçbir zaman kontrol edilebilir bir yerel itkiye dönüşmez.
+
+Ayrıca ölçüm yapmadan bile matematiksel olarak ortak durumun değiştiğini, dolayısıyla B’nin değiştiğini söyleyebileceğimizi yazmıştım. Temiz versiyon bu düşünceyi koruyor ama sonucu düzeltiyor. Kuantum teorisi hem küresel A-B durumunu hem de sadece B’nin yerel tanımını tarif etmenize izin verir. A üzerinde işlem yapmak küresel korelasyonları değiştirebilir. Ancak B’nin yerel tanımı, yani B’nin çevresindekilerle nasıl etkileşime gireceğine karar veren o kısım, sadece A’da bir şey yaptınız diye kontrol edilebilir şekilde değişmez. Yani "B değişti" lafı küresel korelasyon yapısı için doğru, ama B’de yerel olarak tespit edebileceğiniz davranışlar için yanlıştır.
+
+Burada bir değişim olduğunda diğer tarafta ne söyleyebileceğimizi değiştiren iki uzak sistem için aradığım teknik terim dolanıklıktır, yani paylaşılmış klasik olmayan korelasyonlar. Bazen sezgilerle örtüşen bir başka terim de kuantum yönlendirmedir (quantum steering). A’da neyi ölçeceğinizi seçerek, B’ye atayacağınız koşullu topluluğu (ensemble) yönlendirebilirsiniz. Ancak B, A’dan klasik bir bilgi gelmeden hangi toplulukta olduğunu anlayamaz, yani uzaktan kumanda diye bir şey yok. Dolanıklık ana terimdir, yönlendirme ise onun bir detaylandırması.
+
+## Dolanıklığı nasıl kanıtlarız
+
+Laboratuvarda altın standart, A ve B’yi birkaç farklı ayarda ölçmek ve korelasyonların bir Bell eşitsizliğini, genellikle CHSH eşitsizliğini bozduğunu göstermektir. İyi bilinen bir "loophole-free" (açıksız) Bell testi örneği [Nature’da yayınlanan Hensen ve diğerlerinin 2015 çalışmasıdır](https://www.nature.com/articles/nature15759).
+
+Gündelik anlamda aynı zamana ihtiyacımız yok. Ancak en temiz Bell testlerinde, ayar seçimleri birbirinden bağımsız ve geç yapılır, ölçüm olayları da uzaysal olarak birbirinden ayrılmış (spacelike separated) şekildedir, yani normal sinyaller sonuçları koordine edemez. Bu da korelasyonların gücünün nedeni olarak klasik koordinasyonu eler.
+
+Dolanıklığı korumak için her iki tarafta da işlem yapmamıza gerek yok. Bir tarafta uniteryalar ve rotasyonlar gibi pek çok işlem yapabilirsiniz, dolanıklık bozulmaz. Bir tarafta ölçüm yapmak genellikle dolanıklığı klasik bir korelasyona dönüştürür, çünkü ölçüm, sonucun kesin bir kaydını oluşturur. Yani bir tarafta işlem yapabilirsiniz, ancak bunu diğer taraftaki birinin tespit edebileceği kontrol edilebilir bir değişimi zorunlu kılmak için kullanamazsınız.
+
+Dolanıklık sadece spin ve 0 ile 1’den de ibaret değildir. Spin, anlatması en kolay hikaye. Foton polarizasyonu, yol (hangi güzergah), zaman aralığı (erken ya da geç), frekans ve enerji, yörüngesel açısal momentum ve titreşimsel veya kolektif modlar gibi pek çok serbestlik derecesini dolanık hale getirebilirsiniz. Sistemlerin iki seviyeli olması da gerekmez. Qubit’ler iki seviyelidir çünkü bu kolaydır, ama d seviyeli qudit’ler ve sürekli değişkenli (continuous-variable) dolanıklık da mevcuttur. Benim argümanım açısından bu, farklı serbestlik derecelerinin çevreyi farklı şekillerde etkileyebileceği, ancak hiçbirinin A’ya uzaktan B’nin yerel istatistiklerini kontrol etme imkanı vermediği anlamına gelir. "No-signaling" kuralı hâlâ geçerli.
+
+## Kuantum bilgisayarları neden Darwinci hissettiriyor
+
+İki gerçeği bir araya getirdim. Kuantum bilgisayarlarında sisteme bakmak onun durumunu değiştiriyor. Bir de decoherence ve gürültü hatalara yol açıyor, bu yüzden süperpozisyonu korumak çok zor. Bu durum bildiğin doğal seçilim gibi görünüyor. Ortada bir sürü kuantum olasılığı var, çevre sürekli bu hassas süperpozisyonları bozmaya çalışıyor ve daha kararlı olan desenler hayatta kalıyor. Ama bu biyolojik Darwinizm değil. İşin içinde ucu açık bir adaptasyon, evrilen bir şablon popülasyonu ya da birikimli bir tasarım yok. Yine de bu sezgi gerçek bir fiziğe işaret ediyor, çünkü çevre sistemi gözlemliyor ve bu da durumları filtreliyor. Bu da bizi kuantum temellerindeki ana Darwinci çerçeveye, yani Kuantum Darwinizmine götürüyor.
+
+Zurek ve ekibinin üzerinde çalıştığı Kuantum Darwinizmi, çevrenin birbirine bağlı iki şey yaptığını söylüyor. Birincisi einselection denilen seçilim süreci. Çevreyle olan etkileşim, kararlı olan ve gözlemlenmeye dayanabilen "pointer" durumlarını öne çıkarıyor. İkincisi ise kopyalama, yani yedekli kayıtlar. Bu pointer durumlarıyla ilgili bilgiler çevrenin birçok bağımsız parçasına kopyalanıyor. Böylece birçok gözlemci farklı parçalara baksa bile aynı klasik gerçek üzerinde anlaşabiliyor. Konunun temel makalesi [Zurek 2009, Quantum Darwinism](https://arxiv.org/abs/0903.5082). Günlük çevremizden bir örnekle, saçılan fotonların nasıl devasa bir yedeklilik yarattığını anlatan sezgisel model ise [Riedel and Zurek 2010 in PRL](https://link.aps.org/doi/10.1103/PhysRevLett.105.020404). Yedekliliğin operasyonel tanımı ve analizi için de [Zwolak and Zurek 2017 in PRA](https://link.aps.org/doi/10.1103/PhysRevA.95.030101) makalesine bakabilirsin.
+
+Bu durum Darwin benzetmesine sadece entanglement'tan çok daha iyi oturuyor. Varyantlar, süperpozisyondaki kuantum alternatifleri. Seçilim baskısı decoherence, yani çevrenin sistemi izlemesi. Hayatta kalanlar ise bu baskı altında kararlı kalan pointer durumları. Kopyalama ise çevrenin birçok parçasının aynı pointer bilgisini kaydetmesi. İşte tam olarak aradığım Darwinci hikaye bu ve bu uzaktan bir etki değil. Bu, yerel bir seçilim ve bilginin çevreye kopyalanması meselesi.
+
+## İki kanatlı bir düşünce deneyi
+
+Aklımda şu vardı: İki uzak sistem, her biri kendi çevresinde ve bu çevreler Darwinci bir şekilde tepki veriyor. Bunu test etmenin net bir yolunu arıyordum. İşte hem "no-signaling" ilkesine saygılı hem de her şeyi kapsayan en temiz versiyon; buna iki kanatlı Kuantum Darwinizmi diyorum.
+
+Önce birbirine bağlı (entangled) A ve B sistemlerini hazırlıyorsun. Sonra her sisteme kendi çevresini veriyorsun. A, birçok parçadan (örneğin ancilla qubit'ler veya foton modları) oluşan bir E_A ortamıyla yerel etkileşime giriyor. B de kendi parçaları olan E_B ortamıyla. Kanatlar arasında hiçbir etkileşim yok, sadece A↔E_A ve B↔E_B var. Sonra çevrenin belli bir özelliği "izlemesine" izin veriyorsun. Etkileşim, her iki tarafta da belirli bir özelliği, yani pointer özelliğini ölçüyor. Bu da kırılgan süperpozisyonları bastırıyor, yani seçilim gerçekleşiyor. Ardından kayıtlar yayılıyor. Pointer sonucu her çevrenin birçok parçasına kopyalanıyor ve bağımsız gözlemciler farklı parçaları örnekleyip aynı sonuca varabiliyor. İşte sana kopyalama ve objektiflik.
+
+Yani benim o bağlantı fikrimdeki entanglement'ı kullandın ama Darwinci kısım yerel olarak gerçekleşti. Çevreler seçti ve çevreler kayıtları kopyaladı. A, B'nin çevresinin farklı tepki vermesini sağlayamıyor, çünkü bu uzaktan kumanda olurdu ve no-signaling'i bozardı. Bunun yerine benim Darwin resmiyle daha tutarlı, daha ince bir şey elde ediyoruz. Kuantum korelasyonları küresel çapta var ama klasik gerçeklik yerel olarak, seçilim ve çevredeki yedekli kopyalar sayesinde ortaya çıkıyor.
+
+## Kanıt olarak ne kabul edilir
+
+Bunun ispatı için bir deney ihtimalini sordum. Kuantum Darwinizmi decoherence'dan fazlası ve gözlemleyebileceğin ana iddia, yedekli kayıtların var olması. Çevrenin birçok farklı parçası, kendi başlarına, sistemin pointer durumu hakkında aşağı yukarı aynı klasik bilgiyi taşıyor.
+
+En basit ispat yöntemi için ağır matematiğe gerek yok. Birçok deneme yapıyorsun; her seferinde sistemi hazırlayıp çevresiyle etkileşime sokuyorsun ve ardından çevrenin sadece küçük bir kısmını ölçüyorsun. Eğer küçük parçalar bile pointer sonucunu güvenilir bir şekilde gösteriyorsa ve bunu birbirinden bağımsız birçok parça yapıyorsa, demek ki çevre birden fazla kopya tutuyor; yani yedeklilik var. Makalelerde bu durum, çevrenin ne kadarını yakaladıkça ne kadar bilgi kazandığını gösteren grafiklerle anlatılıyor; hızlı bir yükseliş ve ardından geniş bir plato, yani yedeklilik platosu. Riedel ve Zurek (2010) ile Zwolak ve Zurek (2017) bu imzadan bahsediyor, [PRL makalesi](https://link.aps.org/doi/10.1103/PhysRevLett.105.020404) ve [PRA makalesi](https://link.aps.org/doi/10.1103/PhysRevA.95.030101) üzerinden inceleyebilirsin.
+
+Bir de seçilim için kontrol testi var. Aynı yedeklilik kontrolünü, ilkiyle uyuşmayan başka bir özellik için tekrarlıyorsun. Tahmin şu: Yedeklilik, pointer bilgisi için güçlü, uyuşmayan gözlemlenebilirler için zayıf çıkmalı. Çünkü çevre, hangi bilginin hayatta kalıp kopyalanacağını seçiyor.
+
+Bunu gerçek bir laboratuvarda da yaptılar. Yakın tarihli bir deney, süperiletken devrelerle Kuantum Darwinizmi imzalarını gözlemlediğini rapor etti: Zhu ve diğerleri 2025, "Observation of quantum Darwinism and the origin of classicality with superconducting circuits", *Science Advances* içinde, [science.org](https://www.science.org/doi/10.1126/sciadv.adx6857) adresinde ve [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12315987/) üzerinde açık erişim olarak mevcut. Benim ispat sorum açısından bu önemli, çünkü yedeklilik ve kayıt yayılımı programının mühendislik ürünü platformlarda çalıştığını gösteriyor. Benim iki kanatlı versiyonum; yani A-B entanglement ile başlayıp her kanadın yerel olarak kayıt yaymasını sağlamak ve korelasyonların nasıl objektif kayıtlara dönüştüğünü takip etmek, kavram olarak basit ama pratikte daha zor; daha çok qubit, daha çok mod, daha çok kalibrasyon ve ölçüm gerekiyor.
+
+Son kısım spin konusu. Spin füzyon ve fisyonda fiziksel olarak gerçekten önemli mi diye sormuştum, bir de entanglement ile spin birleşince reaksiyon yollarını değiştirebilir mi? Spin, nükleer reaksiyon olasılıklarında yerel olarak önemli ve evet, spinleri hizalamak hangi reaksiyon kanallarının tercih edileceğini değiştirebilir. Somut bir örnek, spin-polarize D-T yakıtı. İncelemeler ve hesaplamalar, D ve T spinlerini hizalamanın D-T füzyon kesitini yaklaşık 1,5 kat, yani %50 civarında artırabildiğini söylüyor, tabii ideal polarizasyon varsayımıyla. Kaynak [Heidbrink ve diğerleri 2024, Frontiers in Physics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2024.1355212/full) ve [PDF](https://juser.fz-juelich.de/record/1026967/files/fphy-12-1355212.pdf) bu 1,5 çarpanından bahsediyor.
+
+![IMG_8221](../../../media/a-darwin-like-quantum-thought-experiment-entanglement-competition-of-states-and/IMG_8221.jpeg)
+
+Bu yazının ilk versiyonunda kısımlar 0'dan 11'e kadar numaralandırılmıştı, 10 ve 11 sonda yer alıyordu ve 1.1, 1.2, 1.3, 4.1, 4.2, 4.3, 7.1, 7.2 ve 11.1 alt kısımlarının hepsi aynı sırayla burada duruyor.
