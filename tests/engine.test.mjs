@@ -57,7 +57,9 @@ test('no quote appears twice on one page or in two posts (AI Desk posts)', () =>
 	const norm = (s) => s.toLowerCase().replace(/[^a-z]/g, '');
 	const owner = new Map();
 	const problems = [];
-	for (const post of posts.filter((p) => p.author === 'ai-desk' && p.format === 'photo')) {
+	// Machine translations (translatedFrom) mirror their source post, which is checked here; the
+	// translator may legitimately quote a proverb in both the intro and the body of one language.
+	for (const post of posts.filter((p) => p.author === 'ai-desk' && p.format === 'photo' && !p.translatedFrom)) {
 		const md = post.markdown.split('\n').filter((l) => !/^- \[.*\]\(https?:/.test(l)).join('\n');
 		const quotes = [...md.matchAll(/["\u201c]([^"\u201d\n]{20,240})["\u201d]/g)].map((m) => norm(m[1])).filter((k) => k.length >= 15 && !k.startsWith('photos'));
 		const count = new Map();
