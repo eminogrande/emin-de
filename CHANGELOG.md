@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-28: Agent tools, paid per job
+
+Prepared an English essay adapted from Emin's conversation about agent tools, micropayments and responsibility for Nuri, approved by Emin for publication. Includes a generated cover and twelve section illustrations. Ambiguous personal details and unverified numerical or technical guarantees are omitted. AI assistance remains marked.
+
+```mermaid
+flowchart LR
+    A[Conversation] --> B[English essay approved by Emin]
+    B --> C[Cover and twelve illustrations]
+```
+
 ## 2026-10-18: Fazua contact wording
 
 Replaced the free-help wording with a plain invitation to get in touch, in all eleven editions and the linked Mac README. Technical settings are unchanged.
