@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-28: An agent can pick up the phone
+
+Added an English essay adapted from Emin's conversation about useful agent work, model reliability, paid tool access and public product ideas. Includes a generated cover and twelve section illustrations. Publication approved by Emin. Sensitive operational details, private personal information, internal finances and unverified product claims are omitted. AI assistance remains marked.
+
+```mermaid
+flowchart LR
+    A[Conversation] --> B[English essay approved for publication]
+    B --> C[Cover and twelve illustrations]
+```
+
 ## 2026-10-28: Agent tools, paid per job
 
 Prepared an English essay adapted from Emin's conversation about agent tools, micropayments and responsibility for Nuri, approved by Emin for publication. Includes a generated cover and twelve section illustrations. Ambiguous personal details and unverified numerical or technical guarantees are omitted. AI assistance remains marked.
