@@ -40,6 +40,7 @@ export default {
 	// (see scripts/generate-content.mjs -> src/generated/redirects.json,
 	// public/_redirects and docs/REDIRECTS-emino-app.md).
 	redirects: {
+		'/posts/nuri-card-admin-key-change-diy': '/posts/build-your-own-nuri-card',
 		'/posts/how-to-make-a-decathlon-riverside-500-e-faster': '/posts/riverside-500e-faster-bike-tuning',
 		'/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
 		'/de/posts/fueg-einfach-irgendeinen-nuri-user-dazu': '/de/posts/fueg-einfach-irgendeinen-nuri-user-hinzu',
