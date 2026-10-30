@@ -241,7 +241,11 @@ Add the `.pub` file to `authorized_keys` with your normal access, set `HostName`
 
 The bridge discards the PIN. Do not read "security key" as "PIN protected here". A second card with its own credential file is the backup path, and it has to be authorized separately on every server.
 
-<!-- PARENT-VERIFY:ssh2 -->
+I tested this on 30 October 2026. My first card stayed in one reader and the new one went into the OMNIKEY. I made a new key on the new card with `ssh-keygen -t ecdsa-sk`. Then I logged in with the first card and added the new public key to `/root/.ssh/authorized_keys` on all 8 of my servers. Each server got a backup of the file first, and no other line changed. After that I logged in with only the new card. It worked on all 8.
+
+Two things went wrong on the way. With two cards plugged in, the provider picks the card by its reader number (`FIDO2_PCSC_INDEX`). The OMNIKEY shows up twice, once for the contact slot and once for the antenna. The wrong number gives you `Permission denied (publickey)`. One server also failed once with `signing failed ... invalid format`. An old `ssh-pcsc-sk-helper` process was still holding the reader. `pkill -f ssh-pcsc-sk-helper`, wait a few seconds, try again, and it passed.
+
+Put both key files under each host in `~/.ssh/config`. Then either card logs you in.
 
 ## Step 7: Cosign bitcoin
 
