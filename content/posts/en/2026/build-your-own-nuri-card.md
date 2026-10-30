@@ -29,7 +29,7 @@ tldr:
 basically:
   what-one-card-can-do: "Passkeys with PRF, SSH, a bitcoin cosigner, Ethereum signing, TOTP, a vault and a PKCS#11 HSM."
   what-is-in-the-box: "Nothing. A blank card arrives empty, and you install the software yourself."
-  shopping-list: "One card around 24 euro, one contact reader, a few host packages. Ask the seller for default keys."
+  shopping-list: "One card for 9.99 euro, one contact reader, a few host packages. Ask the seller for default keys."
   what-you-need-besides-the-card: "A PC/SC reader, macOS or Linux, Java, Python and a couple of hours."
   step-1-buy-a-blank-card: "Ask for an unlocked card with GlobalPlatform default keys and a dump of its CPLC serial."
   step-2-check-the-card-before-you-trust-it: "Read the card read-only before you write anything. The serial tells you it is the card you got."
@@ -51,10 +51,10 @@ basically:
   what-happens-when-you-lose-the-card: "Nothing leaves the chip, so nothing gets copied. A lost card is a lost key."
   how-many-tries-each-pin-allows: "Eight, five, five and five. Exhaust them and the applet locks."
   faq: "Windows, other cards, second cards, cost and what the card cannot do."
-  what-is-still-open: "Windows, the hosted vault, sending from Chrome and the Google test are still open."
+  build-one-and-tell-me: "A ten euro card can hold the keys a bank would charge you for. Build one, then tell me what broke."
 ---
 
-A blank smartcard costs about 24 euro. It fits in a wallet and it holds eight jobs at once. Not eight accounts on a server, eight real keys on one chip, each in its own applet, none of them exportable.
+A blank smartcard costs 9.99 euro. It fits in a wallet and it holds eight jobs at once. Not eight accounts on a server, eight real keys on one chip, each in its own applet, none of them exportable.
 
 Here is the whole build. Buying the exact card, checking it, installing all eight applets, making keys, using every one of them, and sealing the card at the end.
 
@@ -450,7 +450,7 @@ It is a cosigner with one half, not a wallet. Coins need the card and the server
 
 What does the whole thing cost?
 
-About 24 euro for a card, 40 to 90 euro for a contact reader, and an afternoon. There is no licence.
+9.99 euro for the card, plus shipping, a contact reader, and an afternoon. There is no licence.
 
 Can I clone it for a backup?
 
@@ -460,8 +460,10 @@ What can the card not do?
 
 No button, no display, no battery. A reader plus a program is the approval step, and the card trusts the program.
 
-## What is still open
+## Build one and tell me
 
-Four things are honestly unfinished. Windows support. The hosted, card-protected vault. Sending from the Chrome panel. And the Google security key test, which runs next. The second card as SSH backup is done: it logs in on all eight of my servers.
+Four things are still open. Windows support. The hosted, card-protected vault. Sending from the Chrome panel. And the Google security key test, which runs next. The second card as SSH backup is done: it logs in on all eight of my servers.
 
-Everything else above ran. If a step of yours ends anywhere but on its stated token, keep every file, post the error line, and do not guess at the cause. [The repo](https://github.com/nuri-com/nuri-passkey-prf-smartcard) has the runbooks, [this whole build as one step by step guide](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-card.md) for people and agents, the applet code and [the admin key how-to](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-key.md). Get in touch if you build one.
+Everything else above ran on a real card. If a step of yours ends anywhere but on its stated token, keep every file, post the error line, and do not guess at the cause.
+
+So here is the ask. Order the card. It is [9.99 euro at xmrstreet.store](https://xmrstreet.store/product/smartcard-j3r180/), full card size. Clone [the repo](https://github.com/nuri-com/nuri-passkey-prf-smartcard) and follow [the step by step guide](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-card.md). It works for people and for agents. Then [open an issue](https://github.com/nuri-com/nuri-passkey-prf-smartcard/issues/new) with your chip, your reader and the last line your terminal printed. Working or broken, I want to see it.
