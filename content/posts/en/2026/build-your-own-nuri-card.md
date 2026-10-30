@@ -16,6 +16,8 @@ tags: ["Nuri card", "Java Card", "FIDO2", "passkey", "MuSig2", "smartcard", "how
 source_links:
   - { title: "nuri-passkey-prf-smartcard", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard", note: "The open source repo, MIT, with every applet, script and proof receipt." }
   - { title: "docs/card-v1-acceptance.md", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/card-v1-acceptance.md", note: "The acceptance runbook for a blank card." }
+  - { title: "docs/diy-card.md", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-card.md", note: "The same build as a step by step runbook for people and LLM agents." }
+  - { title: "docs/chrome-extension.md", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/chrome-extension.md#bitcoin-on-the-real-card-setup-and-proof", note: "Chrome wallet setup and the real-card Bitcoin result." }
   - { title: "docs/diy-key.md", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-key.md", note: "The admin key how-to and its failure table." }
   - { title: "docs/proofs/real-card-57274221-gp-lock.json", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/proofs/real-card-57274221-gp-lock.json", note: "Raw output of the two lock and unlock cycles on the reference card." }
   - { title: "GlobalPlatformPro 24.10.15, GPTool.java line 801", url: "https://github.com/martinpaljak/GlobalPlatformPro/blob/v24.10.15/tool/src/main/java/pro/javacard/gptool/GPTool.java#L801", note: "The eager read behind the lock flag crash." }
@@ -44,11 +46,12 @@ basically:
   how-the-card-protects-a-nostr-vault: "The card's PRF only exists while it is present. Without it the relay copy stays sealed."
   step-12-change-the-admin-key-last: "One wizard, one escrow file, one typed serial. Then nobody but you administers the card."
   how-to-undo-the-key-change: "The undo takes the escrow and the passphrase and puts the public key back."
-  the-two-bugs-the-real-card-found: "A crash in the GP tool and an empty line in our own wizard. Testing found both."
+  the-bugs-the-real-card-found: "A crash in the GP tool, an empty line in our wizard, and a Chrome wallet that showed zero sats."
+  step-7b-see-your-bitcoin-in-chrome: "The extension shows one bitcoin total and three addresses, read straight from the card's wallet."
   what-happens-when-you-lose-the-card: "Nothing leaves the chip, so nothing gets copied. A lost card is a lost key."
   how-many-tries-each-pin-allows: "Eight, five, five and five. Exhaust them and the applet locks."
   faq: "Windows, other cards, second cards, cost and what the card cannot do."
-  what-is-still-open: "The hosted Nostr vault, the SSH backup and the Google test still carry open questions."
+  what-is-still-open: "Windows, the hosted vault, sending from Chrome and the Google test are still open."
 ---
 
 A blank smartcard costs about 24 euro. It fits in a wallet and it holds eight jobs at once. Not eight accounts on a server, eight real keys on one chip, each in its own applet, none of them exportable.
@@ -223,7 +226,7 @@ Register, then authenticate. PRF output has to come back identical every time, t
 
 For Google and other web logins the card goes through the browser. Safari sees it, Chrome on macOS does not.
 
-<!-- PARENT-VERIFY:gmail -->
+Adding the card as a Google security key is the next test. The steps are Google's own: Security, 2-Step Verification, Security keys, add, PIN on the card. I will put the real result here when it ran.
 
 Keep in mind what the card does not have: a button. A card lying in a reader answers any local program without a touch, the applet sets the presence flag from the request. Remove the card when presence has to mean something.
 
@@ -258,6 +261,25 @@ npm run cosign:real-card
 Three cosigns finished on the reference card and all three BIP340 signatures verified. `npm run cosign:web:real-card` serves the same flow as a web page if you want the Arkade client in front of it.
 
 This is a cosigner, not a wallet. Without the server half you can not spend, and without the card the server half alone can not either.
+
+## Step 7b: See your bitcoin in Chrome
+
+The Chrome extension shows the card's Nuri bitcoin account next to Ethereum. One total, then Arkade, boarding and onchain, each with its full address.
+
+```sh
+npm ci
+bash host/install-macos.sh --python /opt/homebrew/bin/python3.13
+cp host/bitcoin.env.example ~/.nuri-card-host/bitcoin.env
+chmod 600 ~/.nuri-card-host/bitcoin.env
+```
+
+Fill in four public values in that file: the Nuri signer URL, the MuSig2 applet, your card's FIDO2 credential id and the exact reader name. No PIN goes in there. Then open `chrome://extensions`, turn on developer mode, load the `extension/` folder and open the side panel.
+
+I ran it on my demo card on 30 October. It showed 10,465 sats. That is 4,458 on Arkade, 0 boarding and 6,007 onchain, the same three addresses the repo's money table lists.
+
+The first run showed 0 sats. The fake tests had all been green. The extension computed the address with the SDK's default contract, and Nuri uses its own recovery contract with three leaves. The fix uses the same derivation the working send tool uses, and a new test pins the real public values so this can not come back. Two more bugs fell out of the same run. The host loaded its own module twice and forgot the card between calls, and Chrome starts it with an empty environment and an old Python. Both are fixed in the installer now.
+
+Sending from the panel is switched off for now. It refuses instead of signing the wrong thing. To send today, use the [send tool](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/scripts/send/README.md) in the repo. The full setup, the read-only check and all three bugs are in [the Chrome guide](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/chrome-extension.md#bitcoin-on-the-real-card-setup-and-proof).
 
 ## Step 8: Sign Ethereum with a PIN
 
@@ -369,11 +391,13 @@ It asks for the escrow and the passphrase, decrypts before the first card call, 
 
 A lost escrow or a lost passphrase means no more applet work on that card. The applets keep running, you just can not install, delete or upgrade anything. Keep both halves.
 
-## The two bugs the real card found
+## The bugs the real card found
 
 The first bug is not ours. GlobalPlatformPro 24.10.15 crashes with a `NullPointerException` when you pass three separate lock keys, because line 801 of GPTool.java reads the absent `--lock` option before the split flags get their turn. Our answer is to rotate with one random key as ENC, MAC and DEK. That is a weaker shape and it is the only one this build can set.
 
 The second bug is ours. The wizard printed `Escrow backup: ` and then nothing, because the engine puts the path on the same line as the serial prompt and an anchored `sed` expected the line to start with the label. Unit tests stayed green, they matched the token and not the line. The first real run caught it, a regression test now checks the exact line.
+
+The third one is in step 7b. Green fake tests, 0 sats on the real card, because the extension used the wrong contract. A test with the real public values now holds it.
 
 That is the lesson for your own build. Trust the token, not the shape of the screen. Tokens are machine checked, screens are read by tired people.
 
@@ -438,6 +462,6 @@ No button, no display, no battery. A reader plus a program is the approval step,
 
 ## What is still open
 
-Three things are honestly unfinished. Windows support. The hosted, card-protected vault. And a second card as a standing SSH backup, which is a procedure and not a feature.
+Four things are honestly unfinished. Windows support. The hosted, card-protected vault. Sending from the Chrome panel. And the Google security key test, which runs next. The second card as SSH backup is done: it logs in on all eight of my servers.
 
-Everything else above ran. If a step of yours ends anywhere but on its stated token, keep every file, post the error line, and do not guess at the cause. [The repo](https://github.com/nuri-com/nuri-passkey-prf-smartcard) has the runbooks, the applet code and [the admin key how-to](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-key.md). Get in touch if you build one.
+Everything else above ran. If a step of yours ends anywhere but on its stated token, keep every file, post the error line, and do not guess at the cause. [The repo](https://github.com/nuri-com/nuri-passkey-prf-smartcard) has the runbooks, [this whole build as one step by step guide](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-card.md) for people and agents, the applet code and [the admin key how-to](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-key.md). Get in touch if you build one.
