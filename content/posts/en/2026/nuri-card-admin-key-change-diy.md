@@ -61,13 +61,19 @@ The script keeps a deny-list at `~/.nuri-card/no-lock-cplc.txt`, a list of seria
 The order is the safety feature. Read it before you type anything.
 
 ```
-  deny-list  ->  exact reader  ->  serial typed back  ->  passphrase
-                                                              |
-                                            escrow written and read back
-                                                              |
-                                                    PUT KEY on the card
-                                                              |
-                                        fresh authenticated listing + CPLC
+deny-list
+  |
+exact reader
+  |
+serial typed back
+  |
+passphrase
+  |
+escrow written and read back
+  |
+PUT KEY on the card
+  |
+fresh listing + CPLC
 ```
 
 Each step stops the run instead of continuing on a guess. A malformed deny-list entry is asked again, up to three times. A reader list always comes with a number to pick, even when there is only one. The card serial is printed in full and you have to type it back, so a wrong card in the reader fails on a human check before any traffic goes out.
