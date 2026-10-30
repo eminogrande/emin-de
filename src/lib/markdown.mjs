@@ -21,7 +21,7 @@ const schema = {
 	attributes: {
 		...defaultSchema.attributes,
 		audio: ['controls', 'preload', 'src'],
-		video: ['controls', 'preload', 'src', 'poster', 'width', 'height'],
+		video: ['controls', 'preload', 'src', 'poster', 'width', 'height', 'playsInline'],
 		source: ['src', 'type', 'srcSet', 'media'],
 		img: [...(defaultSchema.attributes.img || []), 'width', 'height', 'loading', 'decoding', 'fetchPriority', 'srcSet', 'sizes'],
 		'*': [...(defaultSchema.attributes['*'] || []), 'id'],

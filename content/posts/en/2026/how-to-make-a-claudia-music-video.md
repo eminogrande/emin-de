@@ -25,7 +25,7 @@ tldr:
   - "Claudia is an open character. The song comes first, then a timed vocal map, a board that follows the words, 16:9 plates, target-audio motion and a deliberate cut."
   - "The final music video is 9:32, 16:9 and lip-synced. Every singing shot was checked against the real vocal."
   - "The cheap route is H3 Max Turbo with the vocal stem pinned as target audio. Omni 1.1 has stronger motion, but it does not take my song as target audio."
-  - "Every version, including the bad ones, is below. The card explainer is still a draft."
+  - "Every version, including the bad ones, is below. The card explainer is now the room version, not the draft."
 basically:
   what-this-is: "One song, one open character, every version and the exact production route."
   who-claudia-is-and-what-you-may-do: "The fixed design, the canon call and the release rules."
@@ -41,7 +41,7 @@ basically:
   what-failed: "Stills, random cuts, portrait sources and boxed subtitles all made it worse."
   what-it-costs: "Published list prices for the models and where each ran."
   checklist-before-you-publish: "Rights, credit, AI label, audio, sync, aspect ratio and subtitles."
-  what-i-do-next: "The card video gets a chair, a room, a monitor and real lip sync."
+  what-i-do-next: "Next are real hardware shots and a full card setup guide."
 ---
 ## What this is
 
@@ -144,7 +144,7 @@ A moving mouth is not lip sync.
 4. Check the mouth returns to rest in every silence.
 5. Check that the mouth stays visible for the whole line.
 
-The H3 test passed the word check and the mouth rested when my four second vocal ended. The earlier card draft did not pass as a talking demo. It still used still images and a fixed presenter circle. That is why it is labelled a draft.
+The H3 test passed the word check and the mouth rested when my four second vocal ended. The first card draft did not pass as a talking demo because it used still images and a fixed presenter circle. The room version below replaced it. Every talking clip was checked against the actual voiceover.
 
 ## Cut the picture, not the song
 
@@ -162,7 +162,7 @@ Rules:
 
 - bottom safe margin
 - one or two short lines
-- 22 px at 480p, scale with the master
+- 20 px at 480p, scale with the master
 - white fill, black outline
 - no box, no background panel
 - never cover the mouth or the hands doing the action
@@ -170,41 +170,41 @@ Rules:
 
 ## Every version
 
-The final cut. 9:32, 16:9, small box-free subtitles. This is the version to judge.
+The final cut. 9:32, 16:9, small box-free subtitles. Every lyric shot was reviewed. Wide, back-turned and closed-mouth takes were replaced with frontal performance takes. This is the version to judge.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/final-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-final-clean.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/final-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-final-clean.png"></video>
 
 The same final without subtitles.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/final-clean-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-final-clean.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/final-clean-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-final-clean.png"></video>
 
 The 2:33 weekend edit with subtitles. This was the first cut that followed the words instead of a timer.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/weekend-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-weekend-subtitled.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/weekend-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-weekend-subtitled.png"></video>
 
 The same 2:33 edit without subtitles.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/weekend-clean-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-weekend-clean.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/weekend-clean-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-weekend-clean.png"></video>
 
 The fast cut. 53 cuts, more energy, more repetition and a black subtitle box.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/fast-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-fast.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/fast-subtitled-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-fast.png"></video>
 
 The animatic. Stills only, but the timing is exact. Useful as a board test, not as a finished video.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/animatic-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-animatic.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/animatic-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-animatic.png"></video>
 
 The Omni 1.1 Flash test. Best motion of the tests, native voice, no target audio.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/omni-test-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-omni.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/omni-test-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-omni.png"></video>
 
 The H3 Max test. Real vocal pinned as target audio, my music over it.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/h3-test-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-h3.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/h3-test-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-h3.png"></video>
 
-The card explainer draft. The audio and the screen flow are usable. The presenter is still a still image in a fixed circle. The next version puts her on a chair in a room with the screen on a monitor.
+The card explainer. Claudia sits on a chair in a room, talks to camera and shows the screen flow beside her. The voiceover is new, the mouth was checked against that voiceover.
 
-<video controls playsinline preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/card-demo-draft-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-card.png"></video>
+<video controls playsinline="playsinline" preload="metadata" src="../../../media/how-to-make-a-claudia-music-video/card-room-final-720p.mp4" poster="../../../media/how-to-make-a-claudia-music-video/poster-card-room.png"></video>
 
 ## What failed
 
@@ -253,6 +253,6 @@ The final 9:32 can be built for about $10 with H3 Max Turbo target audio and exi
 
 ## What I do next
 
-The card video gets a real room. Claudia sits on a chair, facing the monitor, talking to camera. The screen recording stays the action on the monitor. Then the same lip-sync pass, the same cut discipline and the same box-free subtitles.
+The card video was rebuilt with a room, a chair, a monitor and target-audio lip sync. The next step is real hardware: card, reader, phone tap and the PIN entry on the card itself. Then a full setup guide with the same checks.
 
 Claudia is fun to build with. The model is not the director. The map, the board and the checks are.
