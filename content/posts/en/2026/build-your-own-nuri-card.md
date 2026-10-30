@@ -96,7 +96,7 @@ Four of the five are products with a company behind them and a support line. The
 
 | | Nuri card | Tangem | YubiKey 5 and Bio | Bitkey | YubiHSM 2 |
 |---|---|---|---|---|---|
-| Price | 9.99 euro for the card, plus a contact reader | 54.90 USD for two cards, 69.90 USD for three | 58 USD for a 5 NFC, 98 USD for a C Bio | 250 USD | 650 euro |
+| Price | 9.99 euro for the card, plus a contact reader | 54.90 USD for two cards, 69.90 USD for three | 58 USD for a 5 NFC, 98 USD for a C Bio | 230 euro | 650 euro |
 | Open source | Applets MIT, the old ETH1 applet the one exception | App is open source, firmware audited by Kudelski and Riscure per the vendor | Firmware closed | not checked | Open source SDK |
 | What it does | Passkey with PRF, SSH keys, bitcoin MuSig2 2-of-2 with a Nuri server, Arkade, Ethereum with a PIN, TOTP, a secret vault, PKCS#11 | Cold wallet for tokens on many chains, signed from the phone app | FIDO2, U2F, PIV, OTP and OpenPGP. No bitcoin wallet of its own | Bitcoin only, 2-of-3 multisig, phone app and on-device screen | Keys for servers and CAs, PKCS#11, RSA, ECC, ed25519 |
 | Button and display | None. The reader and a program are the approval step | None on the card, the phone is the screen | Touch button, fingerprint on the Bio | Fingerprint and OLED touchscreen | None, it goes in a server slot |
@@ -485,7 +485,7 @@ For passkeys and SSH, not much. A YubiKey does both and has a touch button. The 
 
 Is it cheaper than a Tangem or a Bitkey?
 
-Yes, by a lot. 9.99 euro for the card, against 54.90 USD for two Tangem cards and 250 USD for a Bitkey. The reader is the second cost and the afternoon is the third. Whether that is cheaper for you depends on what you count.
+Yes, by a lot. 9.99 euro for the card, against 54.90 USD for two Tangem cards and 230 euro for a Bitkey. The reader is the second cost and the afternoon is the third. Whether that is cheaper for you depends on what you count.
 
 Why not just buy a Bitkey?
 
