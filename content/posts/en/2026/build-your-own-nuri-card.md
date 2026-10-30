@@ -1,7 +1,7 @@
 ---
 title: "Build your own Nuri card"
-seo_title: "Build your own Nuri card: buy, flash, use, seal | emin.de"
-description: "One blank smartcard can carry your passkeys, an SSH key, a bitcoin cosigner, an Ethereum key, TOTP codes and a password vault. The full build, with real commands."
+seo_title: "Build your own Nuri card: a 9.99 euro passkey, SSH and bitcoin key | emin.de"
+description: "One blank card carries passkeys, an SSH key, a bitcoin cosigner and a vault. Full build with real commands, plus a Tangem, YubiKey and Bitkey comparison."
 date: 2026-10-30
 updated: 2026-10-30
 lang: en
@@ -12,7 +12,7 @@ author: emin
 provenance: mixed
 ai_assisted: true
 reviewed_by_human: false
-tags: ["Nuri card", "Java Card", "FIDO2", "passkey", "MuSig2", "smartcard", "how-to"]
+tags: ["Nuri card", "Java Card", "FIDO2", "passkey", "MuSig2", "smartcard", "how-to", "Tangem", "YubiKey", "Bitkey", "YubiHSM", "hardware wallet", "comparison"]
 source_links:
   - { title: "nuri-passkey-prf-smartcard", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard", note: "The open source repo, MIT, with every applet, script and proof receipt." }
   - { title: "docs/card-v1-acceptance.md", url: "https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/card-v1-acceptance.md", note: "The acceptance runbook for a blank card." }
@@ -28,6 +28,7 @@ tldr:
   - "Last step matters most: replace the public admin key, then the card is yours alone."
 basically:
   what-one-card-can-do: "Passkeys with PRF, SSH, a bitcoin cosigner, Ethereum signing, TOTP, a vault and a PKCS#11 HSM."
+  nuri-card-vs-tangem-yubikey-bitkey-and-yubihsm: "Five devices on price, source, features, button and custody. Every competitor fact from the vendor page."
   what-is-in-the-box: "Nothing. A blank card arrives empty, and you install the software yourself."
   shopping-list: "One card for 9.99 euro, one contact reader, a few host packages. Ask the seller for default keys."
   what-you-need-besides-the-card: "A PC/SC reader, macOS or Linux, Java, Python and a couple of hours."
@@ -35,9 +36,9 @@ basically:
   step-2-check-the-card-before-you-trust-it: "Read the card read-only before you write anything. The serial tells you it is the card you got."
   step-3-install-the-eight-applets: "One command installs the base four. Four more installs follow, and every step prints the registry."
   step-4-create-the-keys-and-the-pins: "Keys are born on the chip. The card generates them, the host only ever sees public halves."
-  step-5-use-it-as-a-passkey: "The card is a FIDO2 authenticator with a PIN and the PRF extension for key derivation."
+  step-5-use-it-as-a-passkey-a-diy-fido2-security-key: "The card is a FIDO2 authenticator with a PIN and the PRF extension for key derivation."
   step-6-use-it-as-an-ssh-key: "A provider turns OpenSSH into CTAP2 calls. The private key stays on the chip."
-  step-7-cosign-bitcoin: "One of two cosigners, the second one runs on a Nuri server. Both signatures are needed."
+  step-7-cosign-bitcoin-with-a-java-card: "One of two cosigners, the second one runs on a Nuri server. Both signatures are needed."
   step-8-sign-ethereum-with-a-pin: "A PIN gates every signature. The demo key without a PIN is never funded."
   step-9-carry-totp-codes: "The card holds the secret and computes the HMAC. Only the six digits reach the host."
   step-10-store-secrets-in-the-vault: "Sixteen slots behind a PIN. HMAC entries never leave the chip at all."
@@ -86,6 +87,36 @@ The eight applets and what they are for:
 - An admin surface you control once the last step here is done.
 
 The code is open source and MIT: [github.com/nuri-com/nuri-passkey-prf-smartcard](https://github.com/nuri-com/nuri-passkey-prf-smartcard). No account, no cloud, no subscription. Read the applets before you put value behind them, that is the point of publishing them.
+
+## Nuri card vs Tangem, YubiKey, Bitkey and YubiHSM
+
+People ask what the difference is to a card they can simply buy. Fair question, so here it is in one table.
+
+Four of the five are products with a company behind them and a support line. The fifth is a chip and a repo. I own the card, I do not own the other four. Every cell below comes from the vendor's own page, read on 30 October 2026, not from a test in my hand.
+
+| | Nuri card | Tangem | YubiKey 5 and Bio | Bitkey | YubiHSM 2 |
+|---|---|---|---|---|---|
+| Price | 9.99 euro for the card, plus a contact reader | 54.90 USD for two cards, 69.90 USD for three | 58 USD for a 5 NFC, 98 USD for a C Bio | 250 USD | 650 euro |
+| Open source | Applets MIT, the old ETH1 applet the one exception | App is open source, firmware audited by Kudelski and Riscure per the vendor | Firmware closed | not checked | Open source SDK |
+| What it does | Passkey with PRF, SSH keys, bitcoin MuSig2 2-of-2 with a Nuri server, Arkade, Ethereum with a PIN, TOTP, a secret vault, PKCS#11 | Cold wallet for tokens on many chains, signed from the phone app | FIDO2, U2F, PIV, OTP and OpenPGP. No bitcoin wallet of its own | Bitcoin only, 2-of-3 multisig, phone app and on-device screen | Keys for servers and CAs, PKCS#11, RSA, ECC, ed25519 |
+| Button and display | None. The reader and a program are the approval step | None on the card, the phone is the screen | Touch button, fingerprint on the Bio | Fingerprint and OLED touchscreen | None, it goes in a server slot |
+| Who holds the keys | You and the chip. The bitcoin half needs the Nuri server as second signer | You and the chip, plus copies on the other cards of the set | You and the chip | You, the chip and Block's server, two of three to move coins | You and the chip |
+
+Read it as a fit, not a ranking.
+
+- You want a wallet for many tokens on a phone. Take Tangem or Bitkey.
+- You want one bitcoin wallet with a screen and no seed phrase to write down. Bitkey is the one, and it is the most expensive row.
+- You want a login key and nothing else. A YubiKey is the shorter path, and it has the button the card lacks.
+- You want a key in a server, for signing and PKCS#11. YubiHSM 2, at 650 euro.
+- You want one chip for logins, SSH, a bitcoin cosigner and a vault, for ten euro, and you bring an afternoon. That is this build.
+
+What the card gives up against all four: no button, no screen, no support line, no seed phrase to put in a safe.
+
+What no other row gives you: applet source you can read, change and install on any blank card of the same family. That is also the catch, because you do the install.
+
+Bitkey's 2-of-3 is the closest thing to the card's 2-of-2. The difference is who the second signer is. Block runs that server for Bitkey. For the card you can run the guide and see the code, and the signing path is [docs/diy-card.md](https://github.com/nuri-com/nuri-passkey-prf-smartcard/blob/main/docs/diy-card.md).
+
+Sources, all read on 30 October 2026: [tangem.com](https://tangem.com/en/) and [Tangem pricing](https://tangem.com/en/pricing/), [YubiKey 5 NFC](https://www.yubico.com/product/yubikey-5-series/yubikey-5-nfc/), [YubiKey C Bio](https://www.yubico.com/product/yubikey-bio-series/yubikey-c-bio/), [bitkey.world](https://bitkey.world/) and [Bitkey product page](https://bitkey.world/product) and [Bitkey buy page](https://bitkey.world/buy), [YubiHSM 2](https://www.yubico.com/product/yubihsm-2-series/). Prices are list prices in the currency the vendor shows, before VAT and shipping. Where I could not check a vendor page, the cell says not checked.
 
 ## What is in the box
 
@@ -211,7 +242,7 @@ Five commands, five different applets. Each one asks for a PIN and each PIN is s
 
 Do not send a PIN in the same parcel as the card, and do not reuse your phone PIN.
 
-## Step 5: Use it as a passkey
+## Step 5: Use it as a passkey, a DIY FIDO2 security key
 
 The FIDO2 applet is a real authenticator. It has a PIN, it can require user verification, and it exposes the PRF extension that turns a login into a 32 byte secret seed.
 
@@ -250,7 +281,7 @@ Two things went wrong on the way. With two cards plugged in, the provider picks 
 
 Put both key files under each host in `~/.ssh/config`. Then either card logs you in.
 
-## Step 7: Cosign bitcoin
+## Step 7: Cosign bitcoin with a Java Card
 
 The card holds one half of a 2-of-2 MuSig2 key. The other half sits on a Nuri server. A signature needs both, so a card in the wrong hands is not enough.
 
@@ -447,6 +478,18 @@ Sometimes. It needs Java Card 3.0.5, an unfused card with the seller's keys, and
 Is it a hardware wallet?
 
 It is a cosigner with one half, not a wallet. Coins need the card and the server, which is a different threat model from a seed phrase in a drawer.
+
+How is this different from a YubiKey?
+
+For passkeys and SSH, not much. A YubiKey does both and has a touch button. The card adds bitcoin, Ethereum, TOTP and a vault on a chip you bought and sealed yourself, and applets you can read. What it does not have is the button, and a YubiKey has one.
+
+Is it cheaper than a Tangem or a Bitkey?
+
+Yes, by a lot. 9.99 euro for the card, against 54.90 USD for two Tangem cards and 250 USD for a Bitkey. The reader is the second cost and the afternoon is the third. Whether that is cheaper for you depends on what you count.
+
+Why not just buy a Bitkey?
+
+If you only want to hold bitcoin, buy the Bitkey and skip this. It has the screen and the fingerprint the card lacks. Build the card if you want to read and change the code, or if you want one key for logins, SSH and a vault as well.
 
 What does the whole thing cost?
 
