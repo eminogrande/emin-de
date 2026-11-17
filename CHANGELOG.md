@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-17: Sourced About page with talks and videos
+
+Expanded `/about` with a dated public biography of Emin Henri Mahrt, inline sources for proud, Dropspot, Abend, æternity, BSDEX and Nuri, four selected conference recordings, and further event and interview links. Removed unsupported or stale claims including DFJV recognition, "first and only", Mastercard, 100+ countries, a 100-person æternity team and authorship of Liechtenstein's Blockchain Act. HTML and `/about/index.md` now render from `src/content/about.mjs`; the shared YouTube handler loads `youtube-nocookie.com` only after a reader clicks. Research and exclusions: `docs/RESEARCH-emin-mahrt-about-20261117.md`.
+
+```mermaid
+flowchart LR
+    A[Public sources] --> B[One About Markdown source]
+    B --> C[HTML and Markdown mirror]
+    A --> D[Four lazy YouTube embeds]
+```
+
 ## 2026-11-17: Gelddrucken in Neukölln
 
 - `1c3b33eb`: German long-form essay from Emin's 2013 Bitcoin chat, with 23 verbatim speaker-attributed quotes, transparent mining calculations and a sourced Mt. Gox chronology. Publication approved by Emin.

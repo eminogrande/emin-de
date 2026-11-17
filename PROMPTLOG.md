@@ -4,6 +4,16 @@ What the owner asked for, in his words, and what was built from it. Newest first
 
 ## 2026-11-17: Emin
 
+> "i also want you to do some deep research on me Emin Mahrt and Emin Henri Mahrt and all you find about me that is interesting with links and update my section about me on the website and also embed intersting videos and talks and links to conferences where i have been speaker etc."
+
+Built: a sourced, dated About page with selected conference talks, four privacy-friendly video embeds and links to further stages and interviews. Public sources are linked inline; unsupported superlatives and stale claims were removed. HTML and the Markdown mirror share one source.
+
+```mermaid
+flowchart LR
+    A[Emin requests deep public research] --> B[Verified biography and talks]
+    B --> C[Expanded About page]
+```
+
 - Turn the 2013 Bitcoin chat into a data-driven German emin.de essay, add the missing illustrations, then merge and publish it. Article `1c3b33eb`; initial artwork `72f3e3d`. Recorded by Hermes Agent for Emin Mahrt.
 
 ```mermaid
