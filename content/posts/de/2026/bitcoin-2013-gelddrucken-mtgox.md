@@ -25,13 +25,13 @@ source_links:
   - { title: "CNBC: Mt. Gox findet 200.000 BTC", url: "https://cnbc.com/2014/03/20/mtgox-says-it-found-200000-bitcoins-in-forgotten-wallet.html", note: "Wiedergefundene Coins, 20.03.2014." }
 tldr:
   - "2013 ließ ich 1.760 Euro in einem Handelsbot auf Mt. Gox mitlaufen. 6,5 Prozent Zwischenstand, nichts davon realisiert."
-  - "Für 17.500 Euro und 670 GH/s bin ich nach Mannheim gefahren, ohne zu wissen, wie Mining geht."
-  - "Die Amortisation von 63,7 Tagen steht auf vier Schätzungen. Einen Tag nach dem Kauf fiel der rechnerische Ertrag um 22,1 Prozent."
+  - "Für einen Miner mit 670 GH/s bin ich nach Mannheim gefahren. 17.500 Euro ist meine Rechengröße, kein belegter Kaufpreis."
+  - "Die Amortisation von 64,7 Tagen inklusive Strom steht auf vier Schätzungen. Einen Tag nach dem Kauf fiel der rechnerische Ertrag um 22,1 Prozent."
   - "Mt. Gox galt im Chat als zu profitabel zum Schließen. 81 Tage später kam der Insolvenzantrag."
 basically:
   der-bot-läuft-im-handbetrieb: "Der Bot stellt Orders über HTTP, Mt. Gox antwortet mit Fehlern, das System stoppt, ich lese den Kurs bei 690 ab."
   zwei-nicht-miner-kaufen-hardware: "17.500 Euro, 670 GH/s, keine Ahnung von Mining, dafür eine Pool-Empfehlung vom Verkäufer."
-  die-rechnung-steht-auf-vier-annahmen: "41 Stunden, 690 Euro, 600 Watt und ein Strompreisdurchschnitt ergeben 63,7 Tage, die prompt brechen."
+  die-rechnung-steht-auf-vier-annahmen: "41 Stunden, 690 Euro, 600 Watt und ein Strompreisdurchschnitt ergeben 64,7 Tage inklusive Strom, die prompt brechen."
   da-sind-doch-die-coins-drinn: "Die Wallet enthält Schlüssel, keine Coins. Das Guthaben ist die Summe passender UTXOs in einer öffentlichen Kette."
   rebalancing-ist-keine-arbitrage: "Kaufen bei Fall, verkaufen bei Steigung, gehebelt, vier Prozent in vier Tagen laut Julian."
   vertrauen-auf-kredit: "Mt. Gox sei zu profitabel zum Schließen, sagte Julian am 9. Dezember. 81 Tage später kam der Insolvenzantrag."
