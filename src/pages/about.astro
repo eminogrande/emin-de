@@ -1,8 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import Portrait from '../components/Portrait.astro';
-import { AUTHOR_NAME, AUTHOR_SAME_AS, KNOWS_ABOUT, SITE } from '../lib/site.mjs';
+import LiteYouTubeScript from '../components/LiteYouTubeScript.astro';
+import { AUTHOR_NAME, SITE } from '../lib/site.mjs';
+import { renderHtml } from '../lib/markdown.mjs';
+import { aboutMarkdown } from '../content/about.mjs';
 const pub = SITE.publisher;
+// The body is Markdown in src/content/about.mjs, shared with /about/index.md.
+const html = renderHtml(aboutMarkdown());
 ---
 
 <Base
@@ -15,99 +20,13 @@ const pub = SITE.publisher;
 		<div>
 			<p class="kicker">{pub.role.en}</p>
 			<h1>About</h1>
-			<p class="lede">
-				I'm {AUTHOR_NAME}, a product engineer and founder from Berlin, the publisher of {pub.publication.name}, and I'm building
-				nuri.com. This site is where all of it gets written down properly, at a length that fits the subject.
-			</p>
 		</div>
 		<Portrait name={AUTHOR_NAME} eager />
 	</div>
 
-	<h2>Since 1999</h2>
-	<p>
-		German-Turkish IT guy since 1999, Berlin. I'm a product engineer and founder, shipping software since 1999. My work spans
-		consumer apps, ad-tech, blockchain infrastructure and fintech.
-	</p>
-	<p>
-		In Berlin, I founded <a href={pub.publication.url}>{pub.publication.name}</a>, an independent socio-political publication
-		recognized by the <a href="https://www.dfjv.de">DFJV</a> and archived in the
-		<a href="https://d-nb.info/992028108">German National Library</a>. I co-founded <a href="https://abend.net">abend.net</a>,
-		an ML-driven ad optimization platform, and <a href="https://www.youtube.com/watch?v=NwmK8omRuok">abend.com</a>, a Facebook
-		Events discovery app, together serving thousands of paying clients monthly.
-	</p>
-	<p>
-		After passing the technical engineering interview from Facebook I decided to pass on that and became COO and CPO of the
-		newly founded <a href="https://aeternity.com">æternity Blockchain</a> in 2017. I led product and operations, scaled the
-		team to over 100 people, and contributed to Liechtenstein's Blockchain Act. In 2022 I served as Chief Product Officer at
-		<a href="https://www.bsdex.com">Börse Stuttgart Digital Exchange</a>, leading product for one of Europe's first regulated
-		crypto trading platforms.
-	</p>
-	<p>
-		I've been in Bitcoin since 2012: early mining, visiting
-		<a href="https://www.coindesk.com/tech/2020/10/19/closing-time-for-bitcoins-iconic-room-77-and-thats-ok-says-owner">Room 77</a>,
-		and contributing to different open source projects.
-	</p>
-	<p>
-		Now I'm building <a href="https://nuri.com">nuri.com</a>. We acquired the Nuri brand after its insolvency, rebuilt the product
-		from scratch, and launched the first and only passkey-derived and owned self-custodial Bitcoin wallet with non-custodial
-		Visa card and integrated banking, live on iOS and Android across Europe, expanding to 100+ countries with a stablecoin
-		Visa/Mastercard, onchain Euro IBAN and USD ACH account.
-	</p>
+	<div class="prose">
+		<Fragment set:html={html} />
+	</div>
 
-	<h2>Journalist and publisher</h2>
-	<p>
-		The core rule of this site comes from {pub.publication.name}: free speech. Nothing here is censored.</p>
-	<blockquote class="motto"><p>Saying you do not care about privacy because you have &quot;nothing to hide&quot; is like saying you do not care about free speech because you have &quot;nothing to say&quot;.</p></blockquote>
-	<p>The details are on the <a href="/principles">principles page</a>.
-	</p>
-
-	<h2>Contact</h2>
-	<p>
-		<a href="mailto:emin@emin.de">emin@emin.de</a> · <a href="https://x.com/em" rel="me noopener">X</a> ·
-		<a href="https://www.linkedin.com/in/bitcoinlightning/" rel="me noopener">LinkedIn</a> ·
-		<a href="https://signal.me/#eu/_JNAHwkQcIQ4HU8MVuWrO_WTnBcEzq8OND-0DT5VF6Xr_Lq6jmVF4rH0sM4Oq671" rel="noopener">Signal</a>
-	</p>
-
-	<h2>What I work on</h2>
-	<p>
-		Wallets where the company holding the keys is not a dependency: passkeys carrying their own secret through the
-		WebAuthn PRF extension, MuSig2 co-signing that decays to a single key on a Bitcoin timelock, and the recovery
-		tooling that has to work when the provider is gone.
-	</p>
-	<p>
-		Alongside that, the agent side: x402 payments so software can pay for access without a signup flow, MCP servers
-		so a model can call a system instead of scraping it, and the unglamorous work of making a website legible to
-		both a search crawler and an agent.
-	</p>
-
-	<h2>What I write about here</h2>
-	<ul>
-		{KNOWS_ABOUT.map((topic) => <li>{topic}</li>)}
-	</ul>
-
-	<h2>How these articles get written</h2>
-	<p>
-		Long-form, one subject per piece, and only about things I actually built or measured. Every article opens with a
-		TL;DR so you can leave early, carries a standalone takeaway per section, and ends with its real sources. If a
-		number is in here, it came from a run I can point at.
-	</p>
-	<p>
-		Each article is also published as clean Markdown at its own URL, included in a public JSON API, and exposed
-		through an MCP server. That is deliberate: the writing should be as easy for a model to quote correctly as it is
-		for a person to read.
-	</p>
-
-	<h2>Who else writes here</h2>
-	<p>
-		Some short posts may come from the <a href="/author/ai-desk">AI desk</a>: an openly named AI writing desk, not a person.
-		Its posts carry the AI-written badge on the page, in the Markdown mirror and in the structured data.
-		It has no invented biography and no photo.
-	</p>
-
-	<h2>Elsewhere</h2>
-	<ul>
-		{AUTHOR_SAME_AS.map((url) => <li><a href={url} rel="me noopener">{url.replace(/^https?:\/\//, '')}</a></li>)}
-	</ul>
-
-	<p><a href="/contact">Contact</a> if you are working on something adjacent.</p>
+	<LiteYouTubeScript />
 </Base>

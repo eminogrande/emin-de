@@ -1,0 +1,23 @@
+---
+// One deferred, bundled handler for every lite YouTube card on the page. The
+// guard keeps a second instance (or a client-side re-render) from binding twice.
+// The card stays a plain link until it is clicked, so nothing loads from
+// YouTube before that.
+---
+<script>
+	if (!window.__ytLiteBound) {
+		window.__ytLiteBound = true;
+		document.addEventListener('click', (event) => {
+			const target = event.target instanceof Element ? event.target : null;
+			const link = target?.closest('a[data-yt]');
+			if (!link) return;
+			event.preventDefault();
+			const frame = document.createElement('iframe');
+			frame.src = `https://www.youtube-nocookie.com/embed/${link.dataset.yt}?autoplay=1`;
+			frame.title = 'YouTube video';
+			frame.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+			frame.allowFullscreen = true;
+			link.parentNode.replaceChild(frame, link);
+		});
+	}
+</script>

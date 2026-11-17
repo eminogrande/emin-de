@@ -9,6 +9,7 @@ import config from '../../site.config.mjs';
 import { t, tr, label, categoryPath, authorPath, localeOf, postPath, join } from '../lib/paths.mjs';
 import { displayAuthor } from '../lib/content-build-shared.mjs';
 import { longDate, readTime, firstPublishedLine } from '../lib/magazine.mjs';
+import LiteYouTubeScript from './LiteYouTubeScript.astro';
 const { post, alternates = [] } = Astro.props;
 const author = config.authors[post.author];
 const isAi = author.type === 'ai_editorial';
@@ -121,18 +122,4 @@ document.querySelectorAll('[data-copy-url]').forEach(function (node) {
 	});
 });
 </script>
-{hasYoutube && (
-	<script is:inline>
-	document.querySelectorAll('a[data-yt]').forEach(function (a) {
-		a.addEventListener('click', function (e) {
-			e.preventDefault();
-			var f = document.createElement('iframe');
-			f.src = 'https://www.youtube-nocookie.com/embed/' + a.dataset.yt + '?autoplay=1';
-			f.title = 'YouTube video';
-			f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
-			f.allowFullscreen = true;
-			a.parentNode.replaceChild(f, a);
-		});
-	});
-	</script>
-)}
+{hasYoutube && <LiteYouTubeScript />}
