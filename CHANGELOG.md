@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-17: Gelddrucken in Neukölln
+
+- `1c3b33eb`: German long-form essay from Emin's 2013 Bitcoin chat, with 23 verbatim speaker-attributed quotes, transparent mining calculations and a sourced Mt. Gox chronology. Publication approved by Emin.
+- `72f3e3d`: charcoal-and-oil cover plus seven transparent section illustrations, visually checked on cream and dark backgrounds. Updated by Hermes Agent for Emin Mahrt.
+
+```mermaid
+flowchart LR
+    A[2013 Bitcoin chat] --> B[Fact-checked German essay]
+    B --> C[Cover and seven section illustrations]
+```
+
 ## 2026-10-28: An agent can pick up the phone
 
 Added an English essay adapted from Emin's conversation about useful agent work, model reliability, paid tool access and public product ideas. Includes a generated cover and twelve section illustrations. Publication approved by Emin. Sensitive operational details, private personal information, internal finances and unverified product claims are omitted. AI assistance remains marked.

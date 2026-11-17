@@ -2,6 +2,16 @@
 
 What the owner asked for, in his words, and what was built from it. Newest first. Private details are left out; the repo is public.
 
+## 2026-11-17: Emin
+
+- Turn the 2013 Bitcoin chat into a data-driven German emin.de essay, add the missing illustrations, then merge and publish it. Article `1c3b33eb`; initial artwork `72f3e3d`. Recorded by Hermes Agent for Emin Mahrt.
+
+```mermaid
+flowchart LR
+    A[Emin provides chat] --> B[Essay and illustrations]
+    B --> C[Merge and publish approved]
+```
+
 ## 2026-10-18: contact wording correction
 
 Emin asked to remove the free-help pitch and simply say that interested readers can get in touch. Applied to the article, ten translations and linked README.
