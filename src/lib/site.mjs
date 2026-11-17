@@ -13,6 +13,15 @@ export const SITE_DEFINITION = config.definition;
 export const SITE_TAGLINE = config.tagline;
 export const KNOWS_ABOUT = config.knowsAbout;
 
+// Public ways to reach the owner, kept in one place so pages and mirrors agree.
+export const CONTACT = {
+	email: config.email,
+	x: 'https://x.com/em',
+	linkedin: 'https://www.linkedin.com/in/bitcoinlightning/',
+	signal: 'https://signal.me/#eu/_JNAHwkQcIQ4HU8MVuWrO_WTnBcEzq8OND-0DT5VF6Xr_Lq6jmVF4rH0sM4Oq671',
+};
+
+
 export function absoluteUrl(path = '/') {
 	if (/^https?:\/\//.test(path)) return path;
 	return `${SITE_ORIGIN}${path.startsWith('/') ? path : `/${path}`}`;

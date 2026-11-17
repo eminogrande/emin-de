@@ -5,8 +5,9 @@
 // Rule: if you add a page to STATIC_PATHS in src/lib/site.mjs, add its mirror
 // here. scripts/verify-agent-ready.mjs fails the build if one is missing.
 
-import { SITE, SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME, KNOWS_ABOUT, AUTHOR_SAME_AS } from '../lib/site.mjs';
+import { SITE, SITE_DEFINITION, SITE_ORIGIN, AUTHOR_NAME } from '../lib/site.mjs';
 import { principlesMarkdown } from './principles.mjs';
+import { aboutMarkdown } from './about.mjs';
 import { sayingsMarkdown } from '../lib/sayings.mjs';
 import { DISCLOSURE } from '../lib/magazine.mjs';
 import photoData from '../generated/photos.json' with { type: 'json' };
@@ -66,58 +67,7 @@ Full article: [What agent ready actually means](${SITE_ORIGIN}/posts/what-agent-
 Source code: [github.com/eminogrande/emin-de](https://github.com/eminogrande/emin-de).
 `,
 
-	'/about': () => `# About
-
-> ${AUTHOR_NAME} is a journalist and publisher (${SITE.publisher.publication.name}, Berlin) and builds Bitcoin self-custody and agent-payment infrastructure. This site is where it gets written down properly.
-
-## Since 1999
-
-German-Turkish IT guy since 1999, Berlin. I'm a product engineer and founder, shipping software since 1999. My work spans consumer apps, ad-tech, blockchain infrastructure and fintech.
-
-In Berlin, I founded [${SITE.publisher.publication.name}](${SITE.publisher.publication.url}), an independent socio-political publication recognized by the [DFJV](https://www.dfjv.de) and archived in the [German National Library](https://d-nb.info/992028108). I co-founded [abend.net](https://abend.net), an ML-driven ad optimization platform, and [abend.com](https://www.youtube.com/watch?v=NwmK8omRuok), a Facebook Events discovery app, together serving thousands of paying clients monthly.
-
-After passing the technical engineering interview from Facebook I decided to pass on that and became COO and CPO of the newly founded [æternity Blockchain](https://aeternity.com) in 2017. I led product and operations, scaled the team to over 100 people, and contributed to Liechtenstein's Blockchain Act. In 2022 I served as Chief Product Officer at [Börse Stuttgart Digital Exchange](https://www.bsdex.com), leading product for one of Europe's first regulated crypto trading platforms.
-
-I've been in Bitcoin since 2012: early mining, visiting [Room 77](https://www.coindesk.com/tech/2020/10/19/closing-time-for-bitcoins-iconic-room-77-and-thats-ok-says-owner), and contributing to different open source projects.
-
-Now I'm building [nuri.com](https://nuri.com). We acquired the Nuri brand after its insolvency, rebuilt the product from scratch, and launched the first and only passkey-derived and owned self-custodial Bitcoin wallet with non-custodial Visa card and integrated banking, live on iOS and Android across Europe, expanding to 100+ countries with a stablecoin Visa/Mastercard, onchain Euro IBAN and USD ACH account.
-
-## Journalist and publisher
-
-The core rule of this site comes from ${SITE.publisher.publication.name}: free speech. Nothing here is censored.
-
-> Saying you do not care about privacy because you have "nothing to hide" is like saying you do not care about free speech because you have "nothing to say".
-
-Details: [Principles](${SITE_ORIGIN}/principles).
-
-## Contact
-
-emin@emin.de · [X](https://x.com/em) · [LinkedIn](https://www.linkedin.com/in/bitcoinlightning/) · [Signal](https://signal.me/#eu/_JNAHwkQcIQ4HU8MVuWrO_WTnBcEzq8OND-0DT5VF6Xr_Lq6jmVF4rH0sM4Oq671)
-
-## What I work on
-
-Wallets where the company holding the keys is not a dependency: passkeys carrying their own secret through the WebAuthn PRF extension, MuSig2 co-signing that decays to a single key on a Bitcoin timelock, and recovery tooling that works when the provider is gone.
-
-Alongside that: x402 payments so software can pay for access without a signup flow, MCP servers so a model can call a system instead of scraping it, and making a website legible to both a search crawler and an agent.
-
-## Topics
-
-${KNOWS_ABOUT.map((topic) => `- ${topic}`).join('\n')}
-
-## How these articles get written
-
-Long-form, one subject per piece, only about things actually built or measured. Every article opens with a TL;DR, carries a standalone takeaway per section, and ends with real sources. Every article is also published as clean Markdown, in a public JSON API, and through an MCP server.
-
-## Elsewhere
-
-${AUTHOR_SAME_AS.map((url) => `- ${url}`).join('\n')}
-
-## Who else writes here
-
-Some posts may come from the [AI desk](${SITE_ORIGIN}/author/ai-desk): an openly named AI writing desk, not a person, labelled "AI-written, human-supervised" on every post and in the metadata.
-
-Contact: emin@emin.de
-`,
+	'/about': () => `# About\n\n${aboutMarkdown()}`,
 
 	'/contact': () => `# Contact
 
